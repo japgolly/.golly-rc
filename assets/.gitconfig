@@ -1,0 +1,19 @@
+[user]
+	name = David Barri
+	email = japgolly@gmail.com
+[alias]
+   st = status
+   co = checkout
+   b = branch
+   mt = mergetool
+   l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
+[color]
+   ui = true
+   diff = auto
+   status = auto
+   branch = auto
+
+[gui]
+	historybrowser = gitg
+[cola]
+	tabwidth = 4
