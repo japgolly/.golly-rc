@@ -24,6 +24,7 @@ compiler ruby         " Enable compiler support for ruby
 autocmd Filetype ruby,yaml setlocal ts=2 sw=2 expandtab
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv set filetype=dot
+autocmd Filetype sh setlocal ts=2 sw=2 expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
