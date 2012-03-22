@@ -1,0 +1,9 @@
+/etc/fstab
+/etc/inittab
+/etc/inputrc
+/etc/makepkg.conf
+/etc/mkinitcpio.conf
+/etc/rc.conf
+/etc/rc.local
+/etc/resolv.conf
+/etc/X11/xorg.conf.d/10-monitor.conf
