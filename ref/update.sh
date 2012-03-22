@@ -23,6 +23,12 @@ done
 echo "Done."
 echo
 
+# Installed packages
+case "$(uname -a)" in
+  *-ARCH[^A-Za-z]*) pacman -Q > installed_packages ;;
+  # TODO ubuntu
+esac
+
 # Git
 git add -AN -- .
 git st -- .
