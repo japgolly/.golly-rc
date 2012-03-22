@@ -45,6 +45,7 @@ alias s=xdg-open
 alias vimrc='vim ~/.vimrc'
 alias gemdir='pushd "`gem env | fgrep INSTALL | perl -pe "s/^.+?: //"`/gems"'
 alias Vim=vim
+alias view='vim -R'
 
 function show_cp { if [ ! -r "$1" ]; then echo "Can't read: $1"; else unzip -p $1 META-INF/MANIFEST.MF | sed '/^Class-Path:/,$!d' | tr -d '\n\r' | perl -pe 's/^.+?: //; s/ //g; s/(?<=\.jar)/\n/g'; fi; }
 function test_cp { show_cp "$1" | sed "s|^|$(dirname "$1")/|" | xargs -L1 ls -l; }
