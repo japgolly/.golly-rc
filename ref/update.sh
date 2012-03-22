@@ -2,7 +2,8 @@
 
 filelist=../filelist
 
-# Ensure in right directory
+# Init
+[ ! -d "$HOME" ] && echo "ERROR: \$HOME must point to a valid directory." && exit 4
 [ -n "$1" -a -d "$1" ] && cd "$1" && shift
 if [ $# -ne 0 -o -f "$(basename "$filelist")" ]; then
   echo "Usage:"
@@ -19,11 +20,13 @@ errs=0
 exec 0< "$filelist"
 while read f; do
   printf "Copying: $f"
+  f="$(echo "$f" | sed -e "s!^~!$HOME!")"
+  t="$(echo "./$f" | sed -e "s!$HOME!/home!")"
   if [ ! -e "$f" ]; then
     echo " ... not found, skipping"
   else
     echo
-    mkdir -p "./$(dirname "$f")" && cp --dereference --preserve=mode,timestamps "$f" "./$f"
+    mkdir -p "$(dirname "$t")" && cp --dereference --preserve=mode,timestamps "$f" "$t"
   fi || ((errs++))
 done
 [ $errs -gt 0 ] && echo "$errs errors detected. Aborting." && exit 3
