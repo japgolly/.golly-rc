@@ -1,8 +1,15 @@
 #!/bin/bash
 
-# Ensure env
 filelist=../filelist
-[ -f "$(basename "$filelist")" ] && echo "Usage: cd <dir> && ../$(basename $0)" && exit 1
+
+# Ensure in right directory
+[ -n "$1" -a -d "$1" ] && cd "$1" && shift
+if [ $# -ne 0 -o -f "$(basename "$filelist")" ]; then
+  echo "Usage:"
+  echo "  ./$(basename $0) <dir>"
+  echo "  cd <dir> && ../$(basename $0)"
+  exit 1
+fi
 [ ! -f "$filelist" ] && echo "Filelist not found: $filelist" && exit 2
 
 # Copy files
