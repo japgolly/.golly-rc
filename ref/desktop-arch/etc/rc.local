@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+
+
+# DELL thru das keyboard
+#bash -c 'echo 2-6.2.1:1.0 > /sys/bus/usb/drivers/hub/unbind'
+
+# DELL thru PC (bottom left port, motherboard-side=bottom, left=PSU)
+bash -c 'echo 1-5.1:1.0 > /sys/bus/usb/drivers/hub/unbind'
+bash -c 'echo 1-5.1:1.0 > /sys/bus/usb/drivers/hub/bind'
