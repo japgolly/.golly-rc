@@ -3,6 +3,7 @@
 /etc/inputrc
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
+/etc/profile.d/disable_beep.sh
 /etc/rc.conf
 /etc/rc.local
 /etc/resolv.conf
