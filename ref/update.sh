@@ -36,6 +36,9 @@ case "$(uname -a)" in
   # TODO ubuntu
 esac
 
+# User info
+groups > groups
+
 # Git
 git add -AN -- .
 git st -- .
