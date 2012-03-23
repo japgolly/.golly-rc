@@ -79,3 +79,6 @@ map <C-H> :perldo s/
 " CTRL-M, i/I creates a new RSpec test
 map <C-M>I O}<Esc>Oit(""){<Esc>hhi
 map <C-M>i j<C-M>I
+" CTRL-M, c/C creates a new RSpec context
+map <C-M>C :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
+map <C-M>c j<C-M>C
