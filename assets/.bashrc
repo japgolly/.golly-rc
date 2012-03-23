@@ -37,7 +37,7 @@ alias ll='ls -l'
 alias svnstnew='svn st --ignore-externals | fgrep ? | cut -b8-'
 alias svnste='svn st --ignore-externals | grep -v ^X'
 alias svn_add_rm="svnste | sort | fgrep '?' | cut -b3- | xargs --no-run-if-empty echo svn add; echo; svnste | sort | fgrep '!' | cut -b3- | xargs --no-run-if-empty echo svn rm"
-alias bashrc='vim ~/.bashrc && echo Reloading... && . ~/.bashrc'
+alias bashrc='vim ~/.golly-rc/assets/.bashrc && echo Reloading... && . ~/.bashrc'
 alias b=bundle
 alias be='bundle exec'
 alias rak='bundle exec rake'
@@ -50,6 +50,7 @@ alias view='vim -R'
 function show_cp { if [ ! -r "$1" ]; then echo "Can't read: $1"; else unzip -p $1 META-INF/MANIFEST.MF | sed '/^Class-Path:/,$!d' | tr -d '\n\r' | perl -pe 's/^.+?: //; s/ //g; s/(?<=\.jar)/\n/g'; fi; }
 function test_cp { show_cp "$1" | sed "s|^|$(dirname "$1")/|" | xargs -L1 ls -l; }
 function mc { mkdir -p "$1" && cd "$1"; }
+function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | xargs -L1 -I{} bash -c 'echo "{}"; cd "{}/.." && git pull; echo'; }
 
 #export GIT_SSL_NO_VERIFY=true
 unset RUBYOPT
