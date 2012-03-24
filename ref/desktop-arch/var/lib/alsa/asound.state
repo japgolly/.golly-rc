@@ -368,7 +368,7 @@ state.Intel {
 	control.28 {
 		iface MIXER
 		name 'Input Source'
-		value 'Rear Mic'
+		value 'Front Mic'
 		comment {
 			access 'read write'
 			type ENUMERATED
