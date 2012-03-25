@@ -54,8 +54,10 @@ link .gitconfig
 link .irbrc
 link .vimrc
 
+source_script .bashrc .term_colors
 source_script .bashrc
 case "$(uname -a)" in
   *-ARCH[^A-Za-z]*) source_script .bashrc .bashrc-arch ;;
   # TODO ubuntu
 esac
+
