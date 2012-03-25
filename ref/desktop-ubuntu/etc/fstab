@@ -1,0 +1,18 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+proc            /proc           proc    nodev,noexec,nosuid 0       0
+# / was on /dev/sda1 during installation
+UUID=9a6f838a-e247-4598-90eb-3eb1ab0e5d0d /               ext4    errors=remount-ro,user_xattr 0       1
+# swap was on /dev/sda5 during installation
+UUID=6664f1a4-75dd-49e2-8277-7aa4ea2385d1 none            swap    sw              0       0
+
+#nas:/volume1/public /mnt/nas/public nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
+//nas/public /mnt/nas/public cifs user,uid=golly,gid=users,rw,suid,credentials=/etc/cifspwd,iocharset=utf8 0 0
+
+#/dev/sdc1: LABEL="Local (1.5TB)" UUID="86B25A2AB25A1F4D" TYPE="ntfs"
+UUID=86B25A2AB25A1F4D /mnt/d ntfs rw,nosuid,nodev,allow_other,default_permissions,locale=en_US.utf8 0 0
