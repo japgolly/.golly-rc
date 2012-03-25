@@ -1,3 +1,4 @@
+#vim:ft=sh
 if [ "$TERM" = "xterm" ] ; then
     if [ -z "$COLORTERM" ] ; then
         if [ -z "$XTERM_VERSION" ] ; then
@@ -19,7 +20,10 @@ if [ "$TERM" = "xterm" ] ; then
                 # but don't allow you to just *favor* the setting over TERM.
                 # Instead you need to compare it and perform some guesses
                 # based upon the value. This is, perhaps, too simplistic.
-                TERM="gnome-256color"
+                export TERM="gnome-256color"
+                ;;
+            Terminal) # XFCE4
+                export TERM="xterm-256color"
                 ;;
             *)
                 echo "Warning: Unrecognized COLORTERM: $COLORTERM"
