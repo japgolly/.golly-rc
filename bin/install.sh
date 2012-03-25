@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source "$(dirname $0)/../lib/general.sh"
+
 if [ "$1" == "-f" -o "$1" == "--force" ]; then
   force=1
   shift
@@ -56,8 +58,8 @@ link .vimrc
 
 source_script .bashrc .term_colors
 source_script .bashrc
-case "$(uname -a)" in
-  *-ARCH[^A-Za-z]*) source_script .bashrc .bashrc-arch ;;
-  # TODO ubuntu
+case "$(distro)" in
+  ArchLinux) source_script .bashrc .bashrc-arch ;;
+  Ubuntu)    source_script .bashrc .bashrc-ubuntu ;;
 esac
 

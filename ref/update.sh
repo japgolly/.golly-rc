@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source "$(dirname $0)/../lib/general.sh"
 filelist=../filelist
 
 # Init
@@ -34,9 +35,12 @@ echo "Done."
 echo
 
 # Installed packages
-case "$(uname -a)" in
-  *-ARCH[^A-Za-z]*) pacman -Q > installed_packages ;;
-  # TODO ubuntu
+case "$(distro)" in
+  ArchLinux) pacman -Q > installed_packages ;;
+  Ubuntu)
+    dpkg --get-selections | grep '[^a-zA-Z]install' | sed 's/[ \t].*//' | xargs dpkg -s | egrep '^(Package|Version)' | perl -0000 -pe 's/Package: (\S+)\s*[\r\n]+Version: (\S+)/\1 \2 \2/g' | perl -pe 's/ (?:\d+:)?(\S+?)[-+~]\S+$/ \1/; s/ (\S+) (\S+)$/ \2 \1/' | column -t | perl -pe 's/(\S+)(\s+\S+)$/\1    \2/' | sort \
+      > installed_packages
+    ;;
 esac
 
 # User info
