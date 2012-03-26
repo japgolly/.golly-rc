@@ -1,1 +1,1 @@
-alias p=pacman-color
+alias p='sudo pacman -S --needed'

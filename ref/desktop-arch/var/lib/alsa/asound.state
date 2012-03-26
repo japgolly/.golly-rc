@@ -479,7 +479,7 @@ state.Intel {
 	control.38 {
 		iface MIXER
 		name 'Master Playback Volume'
-		value 57
+		value 64
 		comment {
 			access 'read write'
 			type INTEGER
@@ -487,7 +487,7 @@ state.Intel {
 			range '0 - 64'
 			dbmin -6400
 			dbmax 0
-			dbvalue.0 -700
+			dbvalue.0 0
 		}
 	}
 	control.39 {
