@@ -3,6 +3,7 @@
 ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
 ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+/etc/conf.d/lm_sensors
 /etc/fstab
 /etc/inittab
 /etc/inputrc
