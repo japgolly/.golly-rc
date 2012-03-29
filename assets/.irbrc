@@ -10,3 +10,5 @@ if defined?(AwesomePrint)
     end
   end
 end
+
+def m(o) o.methods - Object.methods end

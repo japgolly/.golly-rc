@@ -1,1 +1,3 @@
 alias p='sudo pacman -S --needed'
+alias Syu='sudo pacman -Syu'
+alias syu=Syu
