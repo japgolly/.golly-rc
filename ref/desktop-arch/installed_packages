@@ -502,6 +502,7 @@ openssh 5.9p1-8
 openssl 1.0.1-1
 orbit2 2.14.19-2
 orc 0.4.16-1
+otf-ipafont 003.03-1
 oxygen-icons 4.8.1-1
 p11-kit 0.11-1
 p7zip 9.20.1-6
@@ -640,7 +641,11 @@ thunar 1.2.3-5
 ttf-dejavu 2.33-2
 ttf-freefont 20100919-2
 ttf-inconsolata 20090215-3
+ttf-ipa-mona 1.0.8-1
 ttf-mac-fonts 1-5
+ttf-monapo 20090423-4
+ttf-mplus TESTFLIGHT_047-1
+ttf-vlgothic 20120325-1
 ttf-win7-fonts 7.1-3
 tumbler 0.1.24-1
 tzdata 2012b-1
