@@ -502,6 +502,7 @@ notification-daemon 0.7.4-1
 nspr 4.9-1
 nss 3.13.3-1
 ntfs-3g 2012.1.15-1
+ntp 4.2.6.p5-6
 nvidia 295.33-1
 nvidia-utils 295.33-1
 obex-data-server 0.4.6-2

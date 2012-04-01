@@ -13,6 +13,7 @@
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
 /etc/modprobe.d/nobeep.conf
+/etc/ntp.conf
 /etc/profile.d/disable_beep.sh
 /etc/rc.conf
 /etc/rc.local
