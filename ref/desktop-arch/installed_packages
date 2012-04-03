@@ -61,7 +61,7 @@ compositeproto 0.4.2-2
 confuse 2.7-2
 consolekit 0.4.5-2
 coreutils 8.15-1
-cpufrequtils 008-2
+cpupower 3.3-1
 cracklib 2.8.18-2
 cronie 1.4.8-1
 cryptsetup 1.4.1-1
@@ -159,7 +159,6 @@ glibc 2.15-7
 glibmm 2.30.1-1
 glproto 1.4.15-1
 gmp 5.0.4-1
-gnome-applets 3.2.1-1
 gnome-backgrounds 3.2.0-1
 gnome-bluetooth 3.2.2-1
 gnome-control-center 3.2.2-1

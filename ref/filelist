@@ -5,6 +5,7 @@
 ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 ~/.cups/lpoptions
 /etc/conf.d/cpufreq
+/etc/conf.d/cpupower
 /etc/conf.d/lm_sensors
 /etc/cups/ppd/Canon-MX885.ppd
 /etc/cups/printers.conf
