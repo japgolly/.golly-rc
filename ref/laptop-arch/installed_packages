@@ -33,6 +33,7 @@ compizconfig-python 0.8.4-4
 compositeproto 0.4.2-2
 consolekit 0.4.5-2
 coreutils 8.15-1
+cpufrequtils 008-2
 cracklib 2.8.18-2
 cronie 1.4.8-1
 cryptsetup 1.4.1-1
