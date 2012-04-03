@@ -8,6 +8,7 @@
 /etc/cups/ppd/Canon-MX885.ppd
 /etc/cups/printers.conf
 /etc/fstab
+/etc/i8kutils/i8kmon.conf
 /etc/inittab
 /etc/inputrc
 /etc/makepkg.conf
