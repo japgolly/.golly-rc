@@ -50,8 +50,7 @@ unset RUBYOPT
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-[ -e "$PATH:$HOME/.rvm/bin" ] && export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # RBENV
-#export PATH="$HOME/.rbenv/bin:$PATH"; eval "$(rbenv init -)"
+[ -e "$HOME/.rbenv/bin" ] && export PATH="$HOME/.rbenv/bin:$PATH" && eval "$(rbenv init -)"
 
