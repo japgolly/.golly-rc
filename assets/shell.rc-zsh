@@ -1,0 +1,48 @@
+# vim:ft=sh et sw=2 ts=2:
+
+export SHELL=zsh
+alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
+source "$HOME/.golly-rc/assets/shell.rc-shared"
+
+autoload -U compinit && compinit
+autoload -U colors && colors
+
+function git_count_files_in_section() {
+  index="$1"
+  section_title="$2"
+  echo "$index" | sed '/^#/!d; /^# '"$section_title"'/,$!d; 1,/^#$/d; /^# [^ ]/,$d; /^# *$/d' | wc -l
+}
+
+function git_info() {
+  ref="$(git symbolic-ref HEAD 2>/dev/null)" || return
+  git_status="$(git status 2>/dev/null)"
+  ahead="$(echo $git_status | sed '/ is ahead of .* by /!d; s/^.* by \([0-9]*\) .*/\1/')"
+  untracked="$(git_count_files_in_section "$git_status" 'Untracked files:')"
+  unstaged="$(git_count_files_in_section "$git_status" 'Changes not staged for commit:')"
+  staged="$(git_count_files_in_section "$git_status" 'Changes to be committed:')"
+
+  r="%{$fg[magenta]%}${ref#refs/heads/}"
+  [ -n "$ahead" ]        && r="$r %{$reset_color%}↑$ahead"
+  [ "$staged"    -gt 0 ] && r="$r %{$fg[green]%}●$staged"
+  [ "$unstaged"  -gt 0 ] && r="$r %{$fg[red]%}●$unstaged"
+  [ "$untracked" -gt 0 ] && r="$r %{$fg[red]%}✖ $untracked"
+  #echo "%{$reset_color%}($r%{$reset_color%})"
+  echo "%{$fg[white]%}($r%{$fg[white]%})"
+}
+
+setopt PROMPT_SUBST
+export PROMPT="%{$fg[green]%}%n@%m: %{$fg[yellow]%}%~ \$(git_info)
+%{$reset_color%}➤ "
+#export RPS1="%B%{$fg[cyan]%}%*%b%{$reset_color%}"
+
+bindkey '^A' beginning-of-line
+bindkey '^D' delete-char-or-list
+bindkey '^E' end-of-line
+bindkey '^U' backward-kill-line
+bindkey '^K' kill-line
+bindkey "^[^H" backward-kill-word # alt-backspace
+bindkey "^[^?" backward-kill-word # alt-backspace
+bindkey "^[f" forward-word # alt-F
+bindkey "^[b" backward-word # alt-B
+bindkey "^[[1;5D" backward-word # ctrl-left
+bindkey "^[[1;5C" forward-word # ctrl-right

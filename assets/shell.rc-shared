@@ -1,0 +1,32 @@
+# vim:ft=sh et sw=2 ts=2:
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+export EDITOR=vim
+export PAGER=less
+
+alias la='ls -la'
+alias ll='ls -l'
+alias svnstnew='svn st --ignore-externals | fgrep ? | cut -b8-'
+alias svnste='svn st --ignore-externals | grep -v ^X'
+alias svn_add_rm="svnste | sort | fgrep '?' | cut -b3- | xargs --no-run-if-empty echo svn add; echo; svnste | sort | fgrep '!' | cut -b3- | xargs --no-run-if-empty echo svn rm"
+alias b=bundle
+alias be='bundle exec'
+alias rak='bundle exec rake'
+alias s=xdg-open
+alias vimrc='vim ~/.vimrc'
+alias gemdir='pushd "`gem env | fgrep INSTALL | perl -pe "s/^.+?: //"`/gems"'
+alias Vim=vim
+alias view='vim -R'
+
+#export GIT_SSL_NO_VERIFY=true
+unset RUBYOPT
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# RBENV
+[ -e "$HOME/.rbenv/bin" ] && export PATH="$HOME/.rbenv/bin:$PATH" && eval "$(rbenv init -)"

@@ -57,9 +57,10 @@ link .irbrc
 link .vimrc
 
 source_script .bashrc .term_colors
-source_script .bashrc
+source_script .bashrc shell.rc-bash
 case "$(distro)" in
-  ArchLinux) source_script .bashrc .bashrc-arch ;;
-  Ubuntu)    source_script .bashrc .bashrc-ubuntu ;;
+  ArchLinux) source_script .bashrc shell.rc-bash-arch ;;
+  Ubuntu)    source_script .bashrc shell.rc-bash-ubuntu ;;
 esac
+source_script .zshrc shell.rc-zsh
 
