@@ -18,12 +18,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export SHELL=bash
-export PS1='\n\[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n$ '
 alias bashrc="vim ~/.golly-rc/assets/shell.rc-bash && echo Reloading... && . ~/.bashrc"
 source "$HOME/.golly-rc/assets/shell.rc-shared"
 
-function show_cp { if [ ! -r "$1" ]; then echo "Can't read: $1"; else unzip -p $1 META-INF/MANIFEST.MF | sed '/^Class-Path:/,$!d' | tr -d '\n\r' | perl -pe 's/^.+?: //; s/ //g; s/(?<=\.jar)/\n/g'; fi; }
-function test_cp { show_cp "$1" | sed "s|^|$(dirname "$1")/|" | xargs -L1 ls -l; }
-function mc { mkdir -p "$1" && cd "$1"; }
-function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | xargs -L1 -I{} bash -c 'echo "{}"; cd "{}/.." && git pull; echo'; }
-
+export PS1='\n\[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n$ '
