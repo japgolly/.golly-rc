@@ -49,6 +49,7 @@ bindkey "^[^H" backward-kill-word # alt-backspace
 bindkey "^[^?" backward-kill-word # alt-backspace
 bindkey "^[f" forward-word # alt-F
 bindkey "^[b" backward-word # alt-B
+bindkey "^[d" delete-word # alt-D
 bindkey "^[[1;5D" backward-word # ctrl-left
 bindkey "^[[1;5C" forward-word # ctrl-right
 
