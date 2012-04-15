@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "$(dirname $0)/../lib/general.sh"
+source "$(dirname $0)/../lib/distro.sh"
 filelist=../filelist
 
 # Init
