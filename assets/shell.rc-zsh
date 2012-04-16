@@ -52,5 +52,7 @@ bindkey "^[b" backward-word # alt-B
 bindkey "^[d" delete-word # alt-D
 bindkey "^[[1;5D" backward-word # ctrl-left
 bindkey "^[[1;5C" forward-word # ctrl-right
+bindkey '^ ' list-choices # ctrl-space
+bindkey '^r' history-incremental-search-backward
 
 export WORDCHARS='*?_[]~=/&!#$%^(){}'
