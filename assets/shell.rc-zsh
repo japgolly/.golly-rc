@@ -17,7 +17,7 @@ setopt hist_expire_dups_first
 #setopt hist_ignore_space
 #setopt hist_verifys
 setopt inc_append_history
-setopt share_history # share command history data
+#setopt share_history # share command history data
 
 
 autoload -U compinit && compinit
