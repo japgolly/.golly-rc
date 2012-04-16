@@ -11,6 +11,8 @@
 /etc/cups/ppd/Canon-MX885.ppd
 /etc/cups/printers.conf
 /etc/fstab
+/etc/httpd/conf/httpd.conf
+/etc/httpd/conf/mime.types
 /etc/i8kutils/i8kmon.conf
 /etc/inittab
 /etc/inputrc
@@ -18,6 +20,8 @@
 /etc/mkinitcpio.conf
 /etc/modprobe.d/nobeep.conf
 /etc/ntp.conf
+/etc/php/php.ini
+/etc/postfix/main.cf
 /etc/profile.d/disable_beep.sh
 /etc/rc.conf
 /etc/rc.local
