@@ -55,4 +55,4 @@ bindkey "^[[1;5C" forward-word # ctrl-right
 bindkey '^ ' list-choices # ctrl-space
 bindkey '^r' history-incremental-search-backward
 
-export WORDCHARS='*?_[]~=/&!#$%^(){}'
+export WORDCHARS='*?_[]~=&!#$%^(){}'
