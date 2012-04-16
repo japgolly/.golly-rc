@@ -1,5 +1,7 @@
 # vim:ft=sh et sw=2 ts=2:
 
+
+
 unset PS1
 export SHELL=zsh
 alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
@@ -65,5 +67,20 @@ bindkey "^[[1;5D" backward-word # ctrl-left
 bindkey "^[[1;5C" forward-word # ctrl-right
 bindkey '^ ' list-choices # ctrl-space
 bindkey '^r' history-incremental-search-backward
+bindkey '^[.' insert-last-word # alt-.
+
+# cp /etc/blah<ALT-Q>
+# cp /etc/blah /etc/blah
+zle-copy_last_word_on_current_line(){
+  setopt extendedglob
+  local m=${LBUFFER%% ##} # Remove trailing spaces
+  m=${m##* } # Delete up to last space
+  [ -n "$m" ] || return
+  [[ "$LBUFFER" =~ ' $' ]] || m=" $m"
+  LBUFFER+="$m"
+  #zle redisplay
+}
+zle -N zle-copy_last_word_on_current_line
+bindkey '^[q' zle-copy_last_word_on_current_line
 
 export WORDCHARS='*?_[]~=&!#$%^(){}'
