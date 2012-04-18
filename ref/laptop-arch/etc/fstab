@@ -4,10 +4,10 @@
 # <file system>	<dir>	<type>	<options>	<dump>	<pass>
 tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
 #/dev/sda3 /boot ext2 defaults 0 1
-#/dev/sda4 / ext4 defaults 0 1
+#/dev/sda4 / ext4 defaults,user_xattr 0 1
 #/dev/sda5 swap swap defaults 0 0
 /dev/sda3 /boot ext2 defaults 0 1
-/dev/sda4 / ext4 defaults 0 1
+/dev/sda4 / ext4 defaults,user_xattr 0 1
 /dev/sda5 swap swap defaults 0 0
 
 /dev/sda1 /mnt/ubuntu ext4 defaults 0 0
