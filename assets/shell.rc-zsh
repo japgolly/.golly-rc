@@ -50,7 +50,7 @@ function git_info() {
 
 setopt PROMPT_SUBST
 export PROMPT="%{$fg[green]%}%n@%m: %{$fg[yellow]%}%~ \$(git_info)
-%{$reset_color%}➤ "
+%{$reset_color%}> "
 #export RPS1="%B%{$fg[cyan]%}%*%b%{$reset_color%}"
 
 bindkey '^A' beginning-of-line

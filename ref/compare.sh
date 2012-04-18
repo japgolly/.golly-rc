@@ -24,4 +24,4 @@ sudo=
 
 # Edit!
 echo "Starting vim..."
-$sudo vim -o "$t" "$s"
+$sudo vim -O "$t" "$s"
