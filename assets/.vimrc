@@ -21,11 +21,6 @@ filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 compiler ruby         " Enable compiler support for ruby
 
-autocmd Filetype ruby,yaml setlocal ts=2 sw=2 expandtab
-au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
-au BufNewFile,BufRead *.gv set filetype=dot
-autocmd Filetype sh setlocal ts=2 sw=2 expandtab
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
 "
@@ -35,8 +30,16 @@ let g:solarized_termcolors=256
 "colorscheme solarized
 colorscheme vibrantink
 " set cursorline
-autocmd Filetype yaml colorscheme wuye
-autocmd Filetype yaml :CSApprox
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Filetypes
+"
+au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
+au BufNewFile,BufRead *.gv            set filetype=dot
+autocmd filetype ruby,yaml,sh         setlocal ts=2 sw=2 expandtab
+autocmd filetype yaml                 colorscheme dante
+autocmd filetype markdown             colorscheme desert256
+autocmd filetype yaml,markdown        :CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces
