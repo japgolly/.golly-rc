@@ -36,10 +36,9 @@ colorscheme vibrantink
 "
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
-autocmd filetype ruby,yaml,sh         setlocal ts=2 sw=2 expandtab
-autocmd filetype yaml                 colorscheme dante
-autocmd filetype markdown             colorscheme desert256
-autocmd filetype yaml,markdown        :CSApprox
+au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab
+au filetype yaml                      colorscheme dante | :CSApprox
+au filetype markdown                  colorscheme desert256 | :CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces
