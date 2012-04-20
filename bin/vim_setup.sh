@@ -11,6 +11,7 @@ cd ~/.vim/bundle && [ ! -d vim-rails ] && (git clone git://github.com/tpope/vim-
 cd ~/.vim/bundle && [ ! -d csapprox ] && (git clone git://github.com/godlygeek/csapprox.git; echo)
 cd ~/.vim/bundle && [ ! -d vim-colors-solarized ] && (git clone git://github.com/altercation/vim-colors-solarized.git; echo)
 cd ~/.vim/bundle && [ ! -d textile.vim ] && (git clone git://github.com/timcharper/textile.vim.git; echo)
+cd ~/.vim/bundle && [ ! -d ScrollColors ] && (git clone git://github.com/vim-scripts/ScrollColors.git; echo)
 # mc ~/.vim/bundle/csapprox/ && curl -o tmp http://www.vim.org/scripts/download_script.php?src_id=10336 && unzip tmp && rm tmp; echo
 cd ~/.vim && curl -o tmp http://www.vim.org/scripts/download_script.php?src_id=12179 && unzip tmp && rm tmp; echo
 mc ~/.vim/plugin && curl -oScrollColor.vim http://www.vim.org/scripts/download_script.php?src_id=5387; echo
