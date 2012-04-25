@@ -47,10 +47,14 @@ function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | 
 unset RUBYOPT
 
 # RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
+if [ -s "$HOME/.rvm/scripts/rvm" ]; then
+  source "$HOME/.rvm/scripts/rvm"
+  export PATH="$HOME/.rvm/bin:$PATH"
 # RBENV
-[ -e "$HOME/.rbenv/bin" ] && export PATH="$HOME/.rbenv/bin:$PATH" && eval "$(rbenv init -)"
+elif [ -e "$HOME/.rbenv/bin" ]; then
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
 
 # Load local shared settings
 [ -f "$HOME/.localrc" ] && source "$HOME/.localrc"
