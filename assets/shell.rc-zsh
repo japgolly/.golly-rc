@@ -21,8 +21,6 @@ setopt hist_expire_dups_first
 setopt inc_append_history
 #setopt share_history # share command history data
 
-
-autoload -U compinit && compinit
 autoload -U colors && colors
 
 function git_count_files_in_section() {
@@ -84,3 +82,7 @@ zle -N zle-copy_last_word_on_current_line
 bindkey '^[q' zle-copy_last_word_on_current_line
 
 export WORDCHARS='*?_[]~=&!#$%^(){}'
+
+# Auto-completion
+[ -e "$HOME/.rvm/scripts/zsh/Completion" ] && fpath=($HOME/.rvm/scripts/zsh/Completion $fpath)
+autoload -U compinit && compinit
