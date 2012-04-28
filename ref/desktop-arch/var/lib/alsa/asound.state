@@ -29,8 +29,8 @@ state.Intel {
 	control.3 {
 		iface MIXER
 		name 'Surround Playback Volume'
-		value.0 64
-		value.1 64
+		value.0 0
+		value.1 0
 		comment {
 			access 'read write'
 			type INTEGER
@@ -38,8 +38,8 @@ state.Intel {
 			range '0 - 64'
 			dbmin -6400
 			dbmax 0
-			dbvalue.0 0
-			dbvalue.1 0
+			dbvalue.0 -6400
+			dbvalue.1 -6400
 		}
 	}
 	control.4 {
@@ -56,20 +56,6 @@ state.Intel {
 	control.5 {
 		iface MIXER
 		name 'Center Playback Volume'
-		value 7
-		comment {
-			access 'read write'
-			type INTEGER
-			count 1
-			range '0 - 64'
-			dbmin -6400
-			dbmax 0
-			dbvalue.0 -5700
-		}
-	}
-	control.6 {
-		iface MIXER
-		name 'LFE Playback Volume'
 		value 0
 		comment {
 			access 'read write'
@@ -79,6 +65,20 @@ state.Intel {
 			dbmin -6400
 			dbmax 0
 			dbvalue.0 -6400
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'LFE Playback Volume'
+		value 30
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 64'
+			dbmin -6400
+			dbmax 0
+			dbvalue.0 -3400
 		}
 	}
 	control.7 {
@@ -104,8 +104,8 @@ state.Intel {
 	control.9 {
 		iface MIXER
 		name 'Side Playback Volume'
-		value.0 64
-		value.1 64
+		value.0 0
+		value.1 0
 		comment {
 			access 'read write'
 			type INTEGER
@@ -113,8 +113,8 @@ state.Intel {
 			range '0 - 64'
 			dbmin -6400
 			dbmax 0
-			dbvalue.0 0
-			dbvalue.1 0
+			dbvalue.0 -6400
+			dbvalue.1 -6400
 		}
 	}
 	control.10 {
@@ -239,7 +239,7 @@ state.Intel {
 	control.19 {
 		iface MIXER
 		name 'Auto-Mute Mode'
-		value Enabled
+		value Disabled
 		comment {
 			access 'read write'
 			type ENUMERATED
@@ -439,7 +439,7 @@ state.Intel {
 	control.34 {
 		iface MIXER
 		name 'IEC958 Playback Switch'
-		value true
+		value false
 		comment {
 			access 'read write'
 			type BOOLEAN
@@ -449,7 +449,7 @@ state.Intel {
 	control.35 {
 		iface MIXER
 		name 'IEC958 Default PCM Playback Switch'
-		value true
+		value false
 		comment {
 			access 'read write'
 			type BOOLEAN
@@ -479,7 +479,7 @@ state.Intel {
 	control.38 {
 		iface MIXER
 		name 'Master Playback Volume'
-		value 50
+		value 63
 		comment {
 			access 'read write'
 			type INTEGER
@@ -487,7 +487,7 @@ state.Intel {
 			range '0 - 64'
 			dbmin -6400
 			dbmax 0
-			dbvalue.0 -1400
+			dbvalue.0 -100
 		}
 	}
 	control.39 {
@@ -501,6 +501,86 @@ state.Intel {
 		}
 	}
 	control.40 {
+		iface CARD
+		name 'Line Out Front Jack'
+		value true
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.41 {
+		iface CARD
+		name 'Line Out Surround Jack'
+		value true
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.42 {
+		iface CARD
+		name 'Line Out CLFE Jack'
+		value true
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.43 {
+		iface CARD
+		name 'Line Out Side Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.44 {
+		iface CARD
+		name 'Front Headphone Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.45 {
+		iface CARD
+		name 'Rear Mic Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.46 {
+		iface CARD
+		name 'Front Mic Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.47 {
+		iface CARD
+		name 'Line Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.48 {
 		iface MIXER
 		name 'PCM Playback Volume'
 		value.0 255
@@ -520,6 +600,16 @@ state.Intel {
 }
 state.NVidia {
 	control.1 {
+		iface CARD
+		name 'HDMI/DP,pcm=3 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.2 {
 		iface MIXER
 		name 'IEC958 Playback Con Mask'
 		value '0fff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
@@ -529,7 +619,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.2 {
+	control.3 {
 		iface MIXER
 		name 'IEC958 Playback Pro Mask'
 		value '0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
@@ -539,7 +629,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.3 {
+	control.4 {
 		iface MIXER
 		name 'IEC958 Playback Default'
 		value '0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
@@ -549,17 +639,17 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.4 {
+	control.5 {
 		iface MIXER
 		name 'IEC958 Playback Switch'
-		value true
+		value false
 		comment {
 			access 'read write'
 			type BOOLEAN
 			count 1
 		}
 	}
-	control.5 {
+	control.6 {
 		iface PCM
 		device 3
 		name ELD
@@ -570,7 +660,17 @@ state.NVidia {
 			count 0
 		}
 	}
-	control.6 {
+	control.7 {
+		iface CARD
+		name 'HDMI/DP,pcm=7 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.8 {
 		iface MIXER
 		name 'IEC958 Playback Con Mask'
 		index 1
@@ -581,7 +681,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.7 {
+	control.9 {
 		iface MIXER
 		name 'IEC958 Playback Pro Mask'
 		index 1
@@ -592,7 +692,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.8 {
+	control.10 {
 		iface MIXER
 		name 'IEC958 Playback Default'
 		index 1
@@ -603,7 +703,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.9 {
+	control.11 {
 		iface MIXER
 		name 'IEC958 Playback Switch'
 		index 1
@@ -614,7 +714,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.10 {
+	control.12 {
 		iface PCM
 		device 7
 		name ELD
@@ -625,7 +725,17 @@ state.NVidia {
 			count 0
 		}
 	}
-	control.11 {
+	control.13 {
+		iface CARD
+		name 'HDMI/DP,pcm=8 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.14 {
 		iface MIXER
 		name 'IEC958 Playback Con Mask'
 		index 2
@@ -636,7 +746,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.12 {
+	control.15 {
 		iface MIXER
 		name 'IEC958 Playback Pro Mask'
 		index 2
@@ -647,7 +757,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.13 {
+	control.16 {
 		iface MIXER
 		name 'IEC958 Playback Default'
 		index 2
@@ -658,7 +768,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.14 {
+	control.17 {
 		iface MIXER
 		name 'IEC958 Playback Switch'
 		index 2
@@ -669,7 +779,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.15 {
+	control.18 {
 		iface PCM
 		device 8
 		name ELD
@@ -680,7 +790,17 @@ state.NVidia {
 			count 0
 		}
 	}
-	control.16 {
+	control.19 {
+		iface CARD
+		name 'HDMI/DP,pcm=9 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.20 {
 		iface MIXER
 		name 'IEC958 Playback Con Mask'
 		index 3
@@ -691,7 +811,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.17 {
+	control.21 {
 		iface MIXER
 		name 'IEC958 Playback Pro Mask'
 		index 3
@@ -702,7 +822,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.18 {
+	control.22 {
 		iface MIXER
 		name 'IEC958 Playback Default'
 		index 3
@@ -713,7 +833,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.19 {
+	control.23 {
 		iface MIXER
 		name 'IEC958 Playback Switch'
 		index 3
@@ -724,7 +844,7 @@ state.NVidia {
 			count 1
 		}
 	}
-	control.20 {
+	control.24 {
 		iface PCM
 		device 9
 		name ELD
