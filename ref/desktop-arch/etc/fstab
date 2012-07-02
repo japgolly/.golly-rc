@@ -9,7 +9,7 @@ tmpfs           /tmp         tmpfs   nodev,nosuid  0       0
 /dev/sda1       /mnt/ubuntu  ext4    defaults      0       0
 
 #nas:/volume1/public /mnt/nas/public nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
-//nas/public /mnt/nas/public cifs auto,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
+//nas/public /mnt/nas/public cifs auto,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlm,credentials=/etc/cifspwd,iocharset=utf8 0 0
 
 #/dev/sdc1: LABEL="Local (1.5TB)" UUID="86B25A2AB25A1F4D" TYPE="ntfs"
 UUID=86B25A2AB25A1F4D /mnt/d ntfs rw,nosuid,nodev,allow_other,default_permissions,locale=en_US.utf8 0 0
