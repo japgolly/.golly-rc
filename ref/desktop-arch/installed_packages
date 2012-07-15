@@ -29,9 +29,9 @@ automake 1.12.2-1
 avahi 0.6.31-3
 babl 0.1.10-1
 bash 4.2.036-1
-bash-completion 2.0-1
+bash-completion 2.0-2
 bc 1.06-8
-binutils 2.22-8
+binutils 2.22-9
 bison 2.5.1-1
 bluez 4.101-1
 boost-libs 1.49.0-2
@@ -43,7 +43,7 @@ ca-certificates-java 20120608-1
 cabextract 1.4-2
 cairo 1.12.2-2
 cairomm 1.10.0-2
-calibre 0.8.59-1
+calibre 0.8.60-1
 cantarell-fonts 0.0.8-1
 caribou 0.4.2-1
 ccsm 0.8.4-3
@@ -103,10 +103,10 @@ docbook-xsl 1.77.1-2
 dos2unix 6.0-1
 dosfstools 3.0.12-1
 dri2proto 2.6-1
-dropbox 1.4.9-1
+dropbox 1.4.11-1
 dropbox-daemon 0.8-8
 e2fsprogs 1.42.4-1
-ec2-api-tools 1.5.2.5-1
+ec2-api-tools 1.5.6.0-2
 ed 1.6-1
 eject 2.1.5-7
 emerald 0.8.8-2
@@ -180,7 +180,7 @@ gksu 2.0.2-4
 glew 1.7.0-2
 glib-networking 2.32.3-1
 glib2 2.32.3-1
-glibc 2.16.0-1
+glibc 2.16.0-2
 glibmm 2.32.0-1
 glproto 1.4.15-1
 gmp 5.0.5-1
@@ -214,7 +214,7 @@ gnutls 3.0.21-1
 go 2:1.0.2-2
 gobject-introspection 1.32.1-2
 gpart 0.1h-5
-gparted 0.12.1-1
+gparted 0.13.0-1
 gperf 3.0.4-4
 gpgme 1.3.1-4
 gpm 1.20.6-8
@@ -304,7 +304,7 @@ kdesdk-kcachegrind 4.8.4-1
 keepass 2.19-1
 keyutils 1.5.5-3
 khrplatform-devel 8.0.4-1
-kmod 9-1
+kmod 9-2
 krb5 1.10.2-2
 ladspa 1.13-3
 lame 3.99.5-1
@@ -313,7 +313,7 @@ lcms2 2.3-2
 ldns 1.6.13-1
 leafpad 0.8.18.1-3
 less 444-3
-lib32-glibc 2.16.0-1
+lib32-glibc 2.16.0-2
 lib32-sqlite3 3.7.13-1
 libarchive 3.0.4-1
 libass 0.10.0-3
@@ -440,7 +440,7 @@ libsoup-gnome 2.38.1-1
 libspiro 20071029-2
 libssh 0.5.2-1
 libssh2 1.4.2-1
-libsystemd 185-4
+libsystemd 186-2
 libtasn1 2.13-1
 libthai 0.1.17-1
 libtheora 1.1.1-2
@@ -507,11 +507,11 @@ libxxf86vm 1.1.2-1
 libyaml 0.1.4-2
 licenses 2.9-1
 links 2.7-1
-linux 3.4.4-2
+linux 3.4.4-3
 linux-api-headers 3.4.4-1
 linux-firmware 20120625-1
-linux-headers 3.4.4-2
-lirc-utils 1:0.9.0-18
+linux-headers 3.4.4-3
+lirc-utils 1:0.9.0-20
 live-usb-install 2.3.2-2
 lm_sensors 3.3.2-3
 logrotate 3.8.1-2
@@ -565,7 +565,7 @@ nss 3.13.5-1
 ntfs-3g 2012.1.15-3
 ntfsprogs 2012.1.15-3
 ntp 4.2.6.p5-7
-nvidia 302.17-1
+nvidia 302.17-2
 nvidia-utils 302.17-1
 obex-data-server 0.4.6-2
 obexd-client 0.46-1
@@ -606,7 +606,7 @@ perl-xml-parser 2.41-3
 perl-xml-simple 2.18-4
 perl-yaml-syck 1.20-2
 phonon 1:4.6.0-2
-phonon-gstreamer 4.6.0-1
+phonon-gstreamer 4.6.1-1
 php 5.4.4-1
 php-apache 5.4.4-1
 php-pgsql 5.4.4-1
@@ -617,7 +617,7 @@ pidgin-toobars 1.14-1
 pinentry 0.8.1-4
 pixman 0.26.2-1
 pkg-config 0.27-1
-pkgbrowser 0.10-1
+pkgbrowser 0.10.1-1
 pm-quirks 0.20100619-2
 pm-utils 1.4.1-5
 podofo 0.9.1-3
@@ -739,11 +739,11 @@ sudo 1.8.5.p2-1
 svga-dri 8.0.4-1
 sysfsutils 2.1.0-8
 syslinux 4.05-4
-syslog-ng 3.3.5-1
+syslog-ng 3.3.5-2
 system-config-printer-common 1.3.9-3
 system-config-printer-gnome 1.3.9-3
-systemd 185-4
-systemd-tools 185-4
+systemd 186-2
+systemd-tools 186-2
 sysvinit 2.88-6
 taglib 1.7.2-1
 talloc 2.0.7-1
@@ -788,9 +788,9 @@ vi 1:050325-2
 videoproto 2.3.1-2
 vim 7.3.600-1
 vim-runtime 7.3.600-1
-virtualbox 4.1.18-1
+virtualbox 4.1.18-2
 virtualbox-additions 4.1.18-1
-virtualbox-modules 4.1.18-1
+virtualbox-modules 4.1.18-2
 virtuoso 6.1.5.20120630-1
 vlc 2.0.2-2
 vte 0.28.2-3
