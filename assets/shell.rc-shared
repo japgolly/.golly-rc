@@ -58,6 +58,6 @@ elif [ -e "$HOME/.rbenv/bin" ]; then
 fi
 
 # Load local shared settings
-export LOCALRC='"'"$HOME/.localrc"'"'
-alias localrc="vim $LOCALRC && echo Reloading... && . $LOCALRC"
-[ -f $LOCALRC ] && source $LOCALRC
+export LOCALRC="$HOME/.localrc"
+alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"'
+[ -f "$LOCALRC" ] && source "$LOCALRC"
