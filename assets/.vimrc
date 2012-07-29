@@ -65,22 +65,56 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Hotkeys
 "
+" map  - Normal, visual, select and operator pending
+" map! - Insert and command-line
+" nmap - Normal mode
+" imap - Insert mode
+" vmap - Visual and select mode
+" smap - Select mode
+" xmap - Visual mode
+" cmap - Command-line mode
+" omap - Operator pending mode
+
 " F2 toggles line numbers on the left
-map <silent> <F2> :set nu!<CR>
+nmap <silent> <F2> :set nu!<CR>
+imap <silent> <F2> <C-O><F2>
+
 " F3 toggles paste mode
-map <F3> :set paste!<BAR>:set paste?<CR>
+nmap <F3> :set paste!<BAR>:set paste?<CR>
+imap <F3> <C-O><F3>
+
 " F4 toggles word-wrap
-map <F4> :set wrap!<BAR>:set wrap?<CR>
-" F5 toggles word-wrap
-map <F5> :set hlsearch!<BAR>:set hlsearch?<CR>
+nmap <F4> :set wrap!<BAR>:set wrap?<CR>
+imap <F4> <C-O><F4>
+
+" F5 toggles search highlighting
+nmap <F5> :set hlsearch!<BAR>:set hlsearch?<CR>
+imap <F5> <C-O><F5>
+vmap <F5> :
+
 " F12 removes trailing whitespace
-map <F12> :perldo s/\s+$//
+map  <F12> :perldo s/\s+$//<CR>
+imap <F12> <C-O><F12>
+
 " CTRL-H gets ready for a search & replace with perl regex
 map <C-H> :perldo s/
 
+" CTRL-/ adds comments
+map   :s/^\(\s*.\)/#\1/<CR>
+imap  <Esc>w
+
+" CTRL-\ removes comments
+map   :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>
+imap  <C-O>
+
 " CTRL-M, i/I creates a new RSpec test
-map <C-M>I O}<Esc>Oit(""){<Esc>hhi
-map <C-M>i j<C-M>I
+nmap <C-M>I O}<Esc>Oit(""){<Esc>hhi
+nmap <C-M>i j<C-M>I
+imap <C-M>I <Esc><C-M>I
+imap <C-M>i <Esc><C-M>i
+
 " CTRL-M, c/C creates a new RSpec context
-map <C-M>C :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
-map <C-M>c j<C-M>C
+nmap <C-M>C :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
+nmap <C-M>c j<C-M>C
+imap <C-M>C <Esc><C-M>C
+imap <C-M>c <Esc><C-M>c
