@@ -16,6 +16,7 @@ alias svnste='svn st --ignore-externals | grep -v ^X'
 alias svn_add_rm="svnste | sort | fgrep '?' | cut -b3- | xargs --no-run-if-empty echo svn add; echo; svnste | sort | fgrep '!' | cut -b3- | xargs --no-run-if-empty echo svn rm"
 alias b=bundle
 alias be='bundle exec'
+alias bgc='bundle exec guard -c'
 alias rak='bundle exec rake'
 alias s=xdg-open
 alias vimrc='vim ~/.vimrc'
