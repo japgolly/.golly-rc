@@ -100,12 +100,12 @@ imap <F12> <C-O><F12>
 map <C-H> :perldo s/
 
 " CTRL-/ adds comments
-map   :s/^\(\s*.\)/#\1/<CR>
-imap  <Esc>w
+map  <silent>  :s/^\(\s*.\)/#\1/<CR>
+imap <silent>  <Esc>w
 
 " CTRL-\ removes comments
-map   :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>
-imap  <C-O>
+map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>
+imap <silent>  <C-O>
 
 " CTRL-M, i/I creates a new RSpec test
 nmap <C-M>I O}<Esc>Oit(""){<Esc>hhi
