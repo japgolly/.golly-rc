@@ -118,3 +118,10 @@ nmap <C-M>C :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
 nmap <C-M>c j<C-M>C
 imap <C-M>C <Esc><C-M>C
 imap <C-M>c <Esc><C-M>c
+
+" ,s splits line so that cursor becomes the beginning of the next line (and
+"                        whitespace around cursor is removed)
+nmap <silent> ,s :set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
+" ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
+nmap <silent> ,S ,s$b,skkw
+
