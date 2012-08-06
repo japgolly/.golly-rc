@@ -24,6 +24,7 @@ alias gemdir='pushd "`gem env | fgrep INSTALL | perl -pe "s/^.+?: //"`/gems"'
 alias Vim=vim
 alias view='vim -R'
 alias sharedrc="vim ~/.golly-rc/assets/shell.rc-shared && echo Reloading... && . ~/.${SHELL}rc"
+alias golrc='pushd ~/.golly-rc'
 
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
