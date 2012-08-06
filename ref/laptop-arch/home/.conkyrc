@@ -1,0 +1,417 @@
+# Aligned position on screen, may be top_left, top_right, top_middle, bottom_left, bottom_right,  bottom_mid‐
+# dle,  middle_left,  middle_middle, middle_right, or none (also can be abreviated as tl, tr, tm, bl, br, bm,
+# ml, mm, mr). See also gap_x and gap_y.
+alignment top_right
+
+# Append the file given as argument.
+#append_file
+
+# Boolean value, if true, Conky will be forked to background when started.
+background no
+
+# Inner border margin in pixels (the margin between the border and text).
+border_inner_margin 2
+
+# Outer border margin in pixels (the margin between the border and the edge of the window).
+#border_outer_margin 1
+
+# Border width in pixels.
+border_width 1
+
+# Predefine a color for use inside TEXT segments.  Substitute N by a digit between 0 and 9, inclusively. When
+# specifying the color value in hex, omit the leading hash (#).
+#colorN
+
+# The number of samples to average for CPU monitoring.
+cpu_avg_samples 2
+
+# Specify  a default width and height for bars.  Example: 'default_bar_size 0 6'. This is particularly useful
+# for execbar and execibar as they do not take size arguments.
+default_bar_size 0 4
+
+# Default color and border color
+default_color white
+
+# Specify a default width and height for gauges.  Example: 'default_gauge_size 25 25'. This  is  particularly
+# useful for execgauge and execigauge as they do not take size arguments
+#default_gauge_size
+
+# Specify  a  default  width and height for graphs.  Example: 'default_graph_size 0 25'. This is particularly
+# useful for execgraph and execigraph as they do not take size arguments
+#default_graph_size
+
+# Default outline color
+#default_outline_color
+
+# Default shading color and border's shading color
+#default_shade_color
+
+# Enable to disable the inotify-based auto config reload feature.
+#disable_auto_reload
+
+# The number of samples to average for disk I/O monitoring.
+#diskio_avg_samples
+
+# Specify an X display to connect to.
+#display
+
+# Use the Xdbe extension? (eliminates flicker) It is highly recommended to use own window with  this  one  so
+# double buffer won't be so big.
+double_buffer true
+
+# Draw borders around text?
+draw_borders no
+
+# Draw borders around graphs?
+draw_graph_borders no
+
+# Draw outlines?
+draw_outline no
+
+# Draw shades?
+draw_shades no
+
+# Put an extra newline at the end when writing to stdout, useful for writing to awesome's wiboxes.
+#extra_newline
+
+# Font name in X, xfontsel can be used to get a nice font
+#font
+
+# If  enabled,  values  which are in bytes will be printed in human readable format (i.e., KiB, MiB, etc). If
+# disabled, the number of bytes is printed instead.
+format_human_readable yes
+
+# Gap, in pixels, between right or left border of screen, same as passing -x at command line, e.g. gap_x  10.
+# For other position related stuff, see 'alignment'.
+gap_x 5
+
+# Gap,  in pixels, between top or bottom border of screen, same as passing -y at command line, e.g. gap_y 10.
+# For other position related stuff, see 'alignment'.
+gap_y 25
+
+# Hostname to connect to for hddtemp objects. Defaults to "127.0.0.1".
+#hddtemp_host
+
+# Port to use for hddtemp connections. Defaults to 7634.
+#hddtemp_port
+
+# How strict should if_up be when testing an interface for being up? The value is one of up, link or address,
+# to  check  for  the interface being solely up, being up and having link or being up, having link and an as‐
+# signed IP address.
+#if_up_strictness
+
+# Default global IMAP server. Arguments are: "host user pass [-i interval (in  seconds)]  [-f  'folder']  [-p
+# port]  [-e  'command'] [-r retries]". Default port is 143, default folder is 'INBOX', default interval is 5
+# minutes, and default number of retries before giving up is 5. If the password is supplied as '*', you  will
+# be prompted to enter the password when Conky starts.
+#imap
+
+# Interval (in seconds) to flush Imlib2 cache.
+#imlib_cache_flush_interval
+
+# Imlib2  image  cache size, in bytes. Defaults to 4MiB. Increase this value if you use $image lots. Set to 0
+# to disable the image cache.
+#imlib_cache_size
+
+# function_name [function arguments]
+# This function, if defined, will be called by Conky through each iteration after drawing to the window.  Re‐
+# quires  X  support. Takes any number of optional arguments. Use this hook for drawing things on top of what
+# Conky draws. Conky puts 'conky_' in front of function_name to prevent accidental calls to the  wrong  func‐
+# tion unless you place 'conky_' in front of it yourself.
+#lua_draw_hook_post
+
+# function_name [function arguments]
+# This function, if defined, will be called by Conky through each iteration before drawing to the window. Re‐
+# quires X support. Takes any number of optional arguments. Use this hook for drawing things on top  of  what
+# Conky  draws.  Conky puts 'conky_' in front of function_name to prevent accidental calls to the wrong func‐
+# tion unless you place 'conky_' in front of it yourself.
+#lua_draw_hook_pre
+
+# Loads the Lua scripts separated by spaces.
+#lua_load
+
+# function_name [function arguments]
+# This function, if defined, will be called by Conky at shutdown or when the configuration is  reloaded.  Use
+# this hook to clean up after yourself, such as freeing memory which has been allocated by external libraries
+# via Lua. Conky puts 'conky_' in front of function_name to prevent accidental calls to  the  wrong  function
+# unless you place 'conky_' in front of it yourself.
+#lua_shutdown_hook
+
+# function_name [function arguments]
+# This  function,  if defined, will be called by Conky at startup or when the configuration is reloaded.  Use
+# this hook to initialize values, or for any run-once applications. Conky puts 'conky_'  in  front  of  func‐
+# tion_name  to prevent accidental calls to the wrong function unless you place 'conky_' in front of it your‐
+# self.
+#lua_startup_hook
+
+# Mail spool for mail checking
+#mail_spool
+
+# Allow each port monitor to track at most this many connections (if 0 or not set, default is 256)
+#max_port_monitor_connections
+
+# Maximum number of special things, e.g. fonts, offsets, aligns, etc. (default is 512)
+#max_specials
+
+# width
+# When a line in the output contains 'width' chars and the end isn't reached, the next char will start  on  a
+# new line. If you want to make sure that lines don't get broken, set 'width' to 0
+max_text_width 0
+
+# bytes
+# Maximum size of user text buffer, i.e. layout below TEXT line in config file (default is 16384 bytes)
+#max_user_text
+
+# pixels
+# Maximum width of window
+maximum_width 220
+
+# width (height)
+# Minimum size of window
+minimum_size 220 880
+
+# Host of MPD server
+#mpd_host
+
+# MPD server password
+#mpd_password
+
+# Port of MPD server
+#mpd_port
+
+# Music player thread update interval (defaults to Conky's update interval)
+#music_player_interval
+
+# The number of samples to average for net data
+net_avg_samples 2
+
+# Subtract (file system) buffers from used memory?
+no_buffers yes
+
+# The display that the nvidia variable will use (defaults to the value of the display variable)
+#nvidia_display
+
+# Print text to stdout.
+out_to_console no
+
+# Print  text  in  the console, but use ncurses so that conky can print the text of a new update over the old
+# text. (In the future this will provide more useful things)
+out_to_ncurses no
+
+# Print text to stderr.
+out_to_stderr no
+
+# When set to no, there will be no output in X (useful when you also use things like out_to_console). If  you
+# set  it  to  no, make sure that it's placed before all other X-related setting (take the first line of your
+# configfile to be sure). Default value is yes
+out_to_x yes
+
+# Force UTF8? requires XFT
+#override_utf8_locale
+
+# Overwrite the file given as argument.
+#overwrite_file
+
+# Boolean, create own window to draw?
+own_window yes
+
+# Manually set the WM_CLASS name. Defaults to "Conky".
+#own_window_class
+
+# colour
+# If own_window_transparent no, set a specified background colour (defaults to black).  Takes  either  a  hex
+# value (e.g. ffffff, note the lack of '#') or a valid RGB name (see /usr/lib/X11/rgb.txt)
+#own_window_colour
+
+# undecorated,below,above,sticky,skip_taskbar,skip_pager
+# If  own_window  is yes, you may use these window manager hints to affect the way Conky displays. Notes: Use
+# own_window_type desktop as another way to implement many of these hints implicitly.  If  you  use  own_win‐
+# dow_type override, window manager hints have no meaning and are ignored.
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Manually set the window name. Defaults to "<hostname> - conky".
+own_window_title conky
+
+# Boolean, use ARGB visual? ARGB can be used for real transparency, note that a composite manager is required
+# for real transparency. This option will not work as desired (in most cases) in conjunction  with  'own_win‐
+# dow_type override'.
+#own_window_argb_visual
+
+# When  ARGB visuals are enabled, this use this to modify the alpha value used. Valid range is 0-255, where 0
+# is 0% opacity, and 255 is 100% opacity.
+#own_window_argb_value
+
+# Boolean, set transparency? If ARGB visual is enabled, sets background opacity to 0%.
+own_window_transparent yes
+
+# if own_window is yes, you may specify type normal, desktop, dock,  panel  or  override  (default:  normal).
+# Desktop windows are special windows that have no window decorations; are always visible on your desktop; do
+# not appear in your pager or taskbar; and are sticky across all  workspaces.  Panel  windows  reserve  space
+# along  a  desktop  edge, just like panels and taskbars, preventing maximized windows from overlapping them.
+# The edge is chosen based on the alignment option. Override windows are not under the control of the  window
+# manager. Hints are ignored. This type of window can be useful for certain situations.
+own_window_type override
+
+# Pad percentages to this many decimals (0 = no padding)
+pad_percents 0
+
+# Default  global  POP3 server. Arguments are: "host user pass [-i interval (in seconds)] [-p port] [-e 'com‐
+# mand'] [-r retries]". Default port is 110, default interval is 5 minutes, and default number of retries be‐
+# fore  giving  up  is 5. If the password is supplied as '*', you will be prompted to enter the password when
+# Conky starts.
+#pop3
+
+# Shortens units to a single character (kiB->k, GiB->G, etc.). Default is off.
+short_units yes
+
+# Shows the time range covered by a graph.
+show_graph_range no
+
+# Shows the maximum value in scaled graphs.
+show_graph_scale no
+
+# Border stippling (dashing) in pixels
+#stippled_borders
+
+# Desired output unit of all objects displaying a temperature. Parameters are either  "fahrenheit"  or  "cel‐
+# sius". The default unit is degree Celsius.
+temperature_unit celsius
+
+# Define a template for later use inside TEXT segments. Substitute N by a digit between 0 and 9, inclusively.
+# The value of the variable is being inserted into the stuff below TEXT at the  corresponding  position,  but
+# before some substitutions are applied:
+# -> newline
+# '\\' -> backslash
+# '\ ' -> space
+# '\N' -> template argument N
+# '\n'
+#templateN
+
+# bytes
+# Size of the standard text buffer (default is 256 bytes). This buffer is used for intermediary text, such as
+# individual lines, output from $exec vars, and various other variables. Increasing the size of  this  buffer
+# can  drastically reduce Conky's performance, but will allow for more text display per variable. The size of
+# this buffer cannot be smaller than the default value of 256 bytes.
+#text_buffer_size
+
+# If true, variables that output times output a number that represents seconds. This  doesn't  affect  $time,
+# $tztime and $utime
+#times_in_seconds
+
+# If  true,  cpu in top will show usage of one processor's power. If false, cpu in top will show the usage of
+# all processors' power combined.
+top_cpu_separate false
+
+# Width for $top name value (defaults to 15 characters).
+#top_name_width
+
+# Total number of times for Conky to update before quitting. Zero makes Conky run forever
+total_run_times 0
+
+# seconds
+# Update interval
+update_interval 1
+
+# seconds
+# Update interval when running on batterypower
+update_interval_on_battery 5
+
+# Boolean value, if true, text is rendered in upper case
+uppercase no
+
+# Adds spaces around certain objects to stop them from moving other things around. Arguments are left, right,
+# and  none  (default). The old true/false values are deprecated and default to right/none respectively. Note
+# that this only helps if you are using a mono font, such as Bitstream Vera Sans Mono.
+#use_spacer
+
+# Use Xft (anti-aliased font and stuff)
+use_xft true
+
+# Alpha of Xft font. Must be a value at or between 1 and 0.
+xftalpha 0.9
+
+# Xft font to use.
+#xftfont Bitstream Vera Sans Mono:size=10
+#xftfont Bitstream Vera Sans Mono:size=8
+#xftfont sans-serif:normal:size=8
+xftfont monospace:size=8
+
+color1 d8d800     # Section titles
+color2 6495ed     # Keys
+#color2 5b6dad    # Keys
+color3 f2f2f2     # Values
+color4 808080     # bars
+
+# ======================================================================================================================
+# After this begins text to be formatted on screen.  Backslash (\) escapes newlines in the text section. This
+# can be useful for cleaning up config files where conky is used to pipe input to dzen2.
+TEXT
+#${color1}Calendar ${hr 2}
+#TODO
+#-----------------------------------------------------------------------------------------------------------------------
+${color1}System ${hr 2}
+${color2}Host: $alignr${color3}$nodename
+${color2}Kernel:${alignr}${color3} $kernel
+${color2}Arch:${alignr}${color3} $machine
+${color2}Uptime:${alignr}${color3} $uptime_short
+${color2}Processes:${color3} $processes $alignr${color2}Running:${color3} $running_processes
+${color2}/${color3} $alignr ${fs_used /} / ${fs_size /}    ${fs_used_perc /}%
+${color4}${fs_bar /}
+${color2}NAS${color3} $alignr ${fs_used /mnt/nas/public} / ${fs_size /mnt/nas/public}    ${fs_used_perc /mnt/nas/public}%
+${color4}${fs_bar /mnt/nas/public}
+
+#-----------------------------------------------------------------------------------------------------------------------
+${color1}Battery ${hr 2}
+${color2}AC: $alignr${color3} $acpiacadapter
+${color2}Status: $alignr${color3} $battery
+#${color2}Charge: $alignr${color3} ${battery_percent}%
+${color2}Time Remaining: $alignr${color3} ${battery_time}
+
+#-----------------------------------------------------------------------------------------------------------------------
+${color1}CPU ${hr 2}
+${color2}Load: $alignr${color3}$loadavg
+${color2}CPU0: ${color3}${cpu cpu0}% ${color 800000}${cpubar cpu0 5}
+${color2}CPU1: ${color3}${cpu cpu1}% ${color 800000}${cpubar cpu1 5}
+${color2}Clock Freq: $alignr${color3} ${freq_g} GHz
+${color2}Fan RPMs: $alignr${color3} $i8k_left_fan_rpm ${color 888888}| ${color3}$i8k_right_fan_rpm
+${color2}Temp: $alignr${color3} $i8k_cpu_temp°C
+${color3}${cpugraph 20,0 500000 a08000 s}
+# Top CPU
+${color2}NAME ${goto 140} PID${alignr}CPU%
+${color ddaa00}${top name 1}${goto 140}${top pid 1}$alignr${top cpu 1}
+${color3}${top name 2}${goto 140}${top pid 2}$alignr${top cpu 2}
+${color3}${top name 3}${goto 140}${top pid 3}$alignr${top cpu 3}
+${color3}${top name 4}${goto 140}${top pid 4}$alignr${top cpu 4}
+${color3}${top name 5}${goto 140}${top pid 5}$alignr${top cpu 5}
+
+#-----------------------------------------------------------------------------------------------------------------------
+${color1}Memory ${hr 2}
+${color2}RAM: $alignr${color3} $mem / $memmax ($memperc%)
+  $alignr${color 008000}${membar 5,180}
+${color2}SWAP: $alignr${color3} $swap / $swapmax ($swapperc%)
+  $alignr${color4}${swapbar 5,142}
+${color2}/tmp: ${color3}${fs_used /tmp} (${fs_used_perc /tmp}%) ${color4}${fs_bar /tmp}
+${color2}/dev/shm: ${color3}${fs_used /dev/shm} (${fs_used_perc /dev/shm}%) ${color4}${fs_bar /dev/shm}
+
+# Top mem
+${color2}NAME ${goto 140} PID${alignr}MEM%
+${color ddaa00}${top_mem name 1}${goto 140}${top_mem pid 1}$alignr${top_mem mem 1}
+${color3}${top_mem name 2}${goto 140}${top_mem pid 2}$alignr${top_mem mem 2}
+${color3}${top_mem name 3}${goto 140}${top_mem pid 3}$alignr${top_mem mem 3}
+${color3}${top_mem name 4}${goto 140}${top_mem pid 4}$alignr${top_mem mem 4}
+${color3}${top_mem name 5}${goto 140}${top_mem pid 5}$alignr${top_mem mem 5}
+
+#-----------------------------------------------------------------------------------------------------------------------
+${color1}Network ${hr 2}
+${color2}IP: $alignr${color3} ${addr wlan0}
+${color2}ESSID: $alignr${color3} ${wireless_essid wlan0}
+${color2}Connection Quality:$alignr${color3}${wireless_link_qual_perc wlan0}%
+${color2}Gateway: $alignr${color3} ${gw_ip}
+${color2}Connections: $alignr${color3} ${tcp_portmon 1 32767 count} in, ${tcp_portmon 32768 61000 count} out
+${color2}Bandwidth: $alignr${color3} ${downspeedf wlan0} KiB/s ↓
+  $alignr ${upspeedf wlan0} KiB/s ↑
+#${color2}${font monospace:size=18}↓$font${downspeedgraph wlan0 22,0 000030 0000a0}
+#${font monospace:size=14}↑$font${upspeedgraph   wlan0 16,0 001830 0060a0}
+${downspeedgraph wlan0 22,0 000030 0000a0}
+${upspeedgraph   wlan0 16,0 001830 0060a0}
+${color2}Data: $alignr${color3} ${totaldown wlan0} ${color 888888}| ${color3}${totalup wlan0}
