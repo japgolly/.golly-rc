@@ -107,21 +107,20 @@ imap <silent>  <Esc>w
 map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>
 imap <silent>  <C-O>
 
-" CTRL-M, i/I creates a new RSpec test
-nmap <C-M>I O}<Esc>Oit(""){<Esc>hhi
-nmap <C-M>i j<C-M>I
-imap <C-M>I <Esc><C-M>I
-imap <C-M>i <Esc><C-M>i
+" ,ri/I creates a new RSpec test
+nmap ,rI O}<Esc>Oit(""){<Esc>hhi
+nmap ,ri j,rI
+"imap ,rI <Esc>,rI
+"imap ,ri <Esc>,ri
 
-" CTRL-M, c/C creates a new RSpec context
-nmap <C-M>C :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
-nmap <C-M>c j<C-M>C
-imap <C-M>C <Esc><C-M>C
-imap <C-M>c <Esc><C-M>c
+" ,rc/C creates a new RSpec context
+nmap ,rC :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
+nmap ,rc j,rC
+"imap ,rC <Esc>,rC
+"imap ,rc <Esc>,rc
 
 " ,s splits line so that cursor becomes the beginning of the next line (and
 "                        whitespace around cursor is removed)
 nmap <silent> ,s :set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
 " ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
 nmap <silent> ,S ,s$b,skkw
-
