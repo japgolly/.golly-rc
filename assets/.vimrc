@@ -100,11 +100,11 @@ imap <F12> <C-O><F12>
 map <C-H> :perldo s/
 
 " CTRL-/ adds comments
-map  <silent>  :s/^\(\s*.\)/#\1/<CR>
+map  <silent>  :set nohlsearch<CR>:s/^\(\s*.\)/#\1/<CR>
 imap <silent>  <Esc>w
 
 " CTRL-\ removes comments
-map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>
+map  <silent>  :set nohlsearch<CR>:s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>
 imap <silent>  <C-O>
 
 " ,ri/I creates a new RSpec test
@@ -121,6 +121,7 @@ nmap ,rc j,rC
 
 " ,s splits line so that cursor becomes the beginning of the next line (and
 "                        whitespace around cursor is removed)
-nmap <silent> ,s :set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
+nmap <silent> ,s :set nohlsearch<BAR>:set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
 " ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
 nmap <silent> ,S ,s$b,skkw
+
