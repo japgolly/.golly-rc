@@ -107,17 +107,20 @@ imap <silent>  <Esc>w
 map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>:set nohlsearch<CR>
 imap <silent>  <C-O>
 
-" ,ri/I creates a new RSpec test
-nmap ,rI O}<Esc>Oit(""){<Esc>hhi
-nmap ,ri j,rI
-"imap ,rI <Esc>,rI
-"imap ,ri <Esc>,ri
 
-" ,rc/C creates a new RSpec context
-nmap ,rC :set nopaste<CR>Ocontext '' do<CR>end<Esc>kf'a
+" RSpec macros
+" ,r[cC] - New context
+nmap ,rC :set nopaste<CR>Ocontext "" do<CR>end<Esc>kf"a
 nmap ,rc j,rC
-"imap ,rC <Esc>,rC
-"imap ,rc <Esc>,rc
+" ,r[iI] - New test (with impl)
+nmap <silent> ,rI :set nopaste<CR>O}<Esc>Oit(""){<Esc>hhi
+nmap <silent> ,ri j,rI
+" ,r[pP] - New test (pending)
+nmap <silent> ,rP :set nopaste<CR>Oit("")<Esc>hi
+nmap <silent> ,rp j,rP
+" ,rx - Expand pending test
+nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<Esc>O
+
 
 " ,s splits line so that cursor becomes the beginning of the next line (and
 "                        whitespace around cursor is removed)
