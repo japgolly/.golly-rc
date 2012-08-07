@@ -49,6 +49,9 @@ function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | 
 #export GIT_SSL_NO_VERIFY=true
 unset RUBYOPT
 
+# Terminal colours
+source "$HOME/.golly-rc/assets/.term_colors"
+
 # RVM
 if [ -s "$HOME/.rvm/scripts/rvm" ]; then
   source "$HOME/.rvm/scripts/rvm"

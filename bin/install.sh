@@ -54,7 +54,6 @@ link .gitconfig
 link .irbrc
 link .vimrc
 
-source_script .bashrc .term_colors
 source_script .bashrc shell.rc-bash
 source_script .zshrc shell.rc-zsh
 
