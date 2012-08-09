@@ -22,6 +22,13 @@ filetype plugin on    " Enable filetype-specific plugins
 compiler ruby         " Enable compiler support for ruby
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Filetypes
+"
+au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
+au BufNewFile,BufRead *.gv            set filetype=dot
+au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
 "
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
@@ -31,33 +38,31 @@ let g:solarized_termcolors=256
 colorscheme vibrantink
 " set cursorline
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Filetypes
-"
-au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
-au BufNewFile,BufRead *.gv            set filetype=dot
-au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab
-au filetype yaml                      colorscheme dante | :CSApprox
-au filetype markdown                  colorscheme desert256 | :CSApprox
+"autocmd BufEnter * if match(@%:p,'.*/test/.*')>=0 | colorscheme autumnleaf | end
+"au BufEnter * if match(expand('%:p'),'.*/test/.*')>=0 | colorscheme autumnleaf | CSApprox | end
+au filetype yaml                      colorscheme dante | CSApprox
+au filetype markdown                  colorscheme desert256 | CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces
-highlight ExtraWhitespace ctermbg=red guibg=red
+hi ExtraWhitespace ctermbg=red guibg=red
+au BufEnter * hi ExtraWhitespace ctermbg=red guibg=red
 
 " Show trailing whitespace:
-:match ExtraWhitespace /\s\+$/
+":match ExtraWhitespace /\s\+$/
 ":match ExtraWhitespace /\s\+\%#\@<!$/ "match trailing whitespace, except when typing at the end of a line
 " Show trailing whitespace and spaces before a tab:
-:match ExtraWhitespace /\s\+$\| \+\ze\t/
+":match ExtraWhitespace /\s\+$\| \+\ze\t/
 
-"match ExtraWhitespace /\s\+$/
-"autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-"autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-"autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-"autocmd BufWinLeave * call clearmatches()
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Hotkeys
+" Macros
 "
 " map  - Normal, visual, select and operator pending
 " map! - Insert and command-line
@@ -101,8 +106,18 @@ imap <silent>  <Esc>w
 map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>:set nohlsearch<CR>
 imap <silent>  <C-O>
 
+" ,s splits line so that cursor becomes the beginning of the next line (and
+"                        whitespace around cursor is removed)
+nmap <silent> ,s :set nohlsearch<BAR>:set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
+" ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
+nmap <silent> ,S ,s$b,skkw
 
+"-----------------------------------------------------------------
 " RSpec macros
+"
+" ,r[dD] - New describe
+nmap ,rD :set nopaste<CR>Odescribe " do<CR>end<Esc>kf"s
+nmap ,rd j,rD
 " ,r[cC] - New context
 nmap ,rC :set nopaste<CR>Ocontext "" do<CR>end<Esc>kf"a
 nmap ,rc j,rC
@@ -113,12 +128,29 @@ nmap <silent> ,ri j,rI
 nmap <silent> ,rP :set nopaste<CR>Oit("")<Esc>hi
 nmap <silent> ,rp j,rP
 " ,rx - Expand pending test
-nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<Esc>O
+nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<CR><Esc>kO
 
+"-----------------------------------------------------------------
+" Comment macros
+"
+" code seperation comments
+nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O#----------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
+nmap <silent> ,c- j,C-0kkw
+" method doco
+nmap <silent> ,cD :set nopaste<CR>O#<CR><CR> @param <CR>@return <Esc>kkkA<SPACE>
+nmap <silent> ,Cd ,cD
+nmap <silent> ,cd j,cD
+" @!visibility private declarations
+nmap <silent> ,cVP :set nopaste<CR>O# @!visibility private<Esc>0jw
+nmap <silent> ,Cvp ,cVP
+nmap <silent> ,cVp ,cVP
+nmap <silent> ,cvP ,cVP
+nmap <silent> ,cvp j,cVP
 
-" ,s splits line so that cursor becomes the beginning of the next line (and
-"                        whitespace around cursor is removed)
-nmap <silent> ,s :set nohlsearch<BAR>:set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
-" ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
-nmap <silent> ,S ,s$b,skkw
+"-----------------------------------------------------------------
+" Markdown macros
+nmap ,mdd a ![Done](done.png)<Esc>
+nmap ,mdD $,mdd
+nmap ,mdq a ![?](question.png)<Esc>
+nmap ,mdQ $,mdq
 
