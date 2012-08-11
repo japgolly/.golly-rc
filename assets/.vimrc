@@ -154,3 +154,6 @@ nmap ,mdD $,mdd
 nmap ,mdq a ![?](question.png)<Esc>
 nmap ,mdQ $,mdq
 
+"-----------------------------------------------------------------
+" Ruby macros
+nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
