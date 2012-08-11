@@ -7,6 +7,8 @@
    b = branch
    mt = mergetool
    l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
+   diffs = diff --staged
+   cp = cherry-pick
 [color]
    ui = true
    diff = auto
