@@ -157,3 +157,91 @@ nmap ,mdQ $,mdq
 "-----------------------------------------------------------------
 " Ruby macros
 nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
+
+"-----------------------------------------------------------------
+function! Hehe()
+	let dir = expand('%:p:h')
+	let filename = expand('%:t')
+echo 'dir = '.dir
+echo 'filename = '.filename
+echo '-------------------------------------'
+
+"let dir = '/home/golly/projects/corvid/lib/corvid/generators'
+"let filename = 'base.rb'
+
+"let dir = '/home/golly/projects/corvid/test/spec/generators'
+"let filename = 'base_spec.rb'
+
+	let f = ''
+	"if matchstr(dir, '/lib/')
+	if dir =~ '/lib/'
+		let path = substitute(dir, '^.*/lib/', '', '')
+		let path2 = substitute(path, '^[^/]*\(/\|$\)', '', '') " optional - strips corvid
+		let root = substitute(dir, '/lib/.*$', '', '')
+"echo 'dir = '.dir
+"echo 'root = '.root
+"echo 'path = '.path
+"echo 'path2 = '.path2
+"echo '________'
+
+		if f == '' | let f = Hehe_try1(root, path2, filename) | endif
+		if f == '' | let f = Hehe_try1(root, path, filename) | endif
+
+	elseif dir =~ '/test/spec'
+		let path = substitute(dir, '^.*/test/spec/', '', '')
+		let root = substitute(dir, '/test/spec/.*$', '', '')
+		if f == '' | let f = Hehe_try1_t2l(root, path, filename, '_spec\.rb') | endif
+		" try lib/*/asd.rb
+	endif
+
+	echo 'Final result = '.f
+	if f != ''
+		echo 'Opening...'
+		let f = substitute(f, '///*', '/', '')
+		let f = substitute(f, root.'/', '', '')
+		execute 'sp '.f
+	endif
+endfunction
+
+function! Hehe_try1_t2l(root, path, filename, suf1)
+	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
+	let path = substitute(a:path, '/\?$', '/', '') " make it end in /
+	let f = ''
+	if f == '' | let f = Hehe_try2(root, path, a:filename, a:suf1, 'lib', '.rb') | endif
+	echo 'root - '.root
+	if f == ''
+		for d in split(globpath(root.'lib','*'), '\n')
+			let d = substitute(d, root, '', '')
+			echo '>> '.d
+			if f == '' | let f = Hehe_try2(root, path, a:filename, a:suf1, d, '.rb') | endif
+		endfor
+	endif
+	" glob
+	return f
+endfunction
+
+function! Hehe_try1(root, path, filename)
+	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
+	let path = substitute(a:path, '/\?$', '/', '') " make it end in /
+	let f = ''
+	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'test/unit', '_unit.rb') | endif
+	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'test/spec', '_spec.rb') | endif
+	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'test', '_unit.rb') | endif
+	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'spec', '_spec.rb') | endif
+	return f
+endfunction
+
+function! Hehe_try2(root, path, filename, suf1, dir, suffix)
+	let filename = substitute(a:filename, a:suf1, a:suffix, '')
+	let try = a:root.a:dir.'/'.a:path.filename
+	"echo 'root='.a:root
+	"echo 'path='.a:path
+	"echo 'filename='.a:filename
+	echo 'try='.try
+	"echo '____________________________________________________________'
+	echo filereadable(try)
+
+	return filereadable(try) ? try : ''
+endfunction
+
+nmap  call Hehe()<CR>
