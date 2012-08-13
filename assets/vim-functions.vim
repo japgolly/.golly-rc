@@ -53,14 +53,18 @@ function! JumpImplTest__find_impl(root, path, filename, suffix)
 	if a:filename =~ a:suffix
 		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
 		let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, 'lib', '.rb')
+
+		" Still not found - check if the library name is omitted in test dir structure
+		" eg. lib/ABC/cli/main.rb <--> test/spec/cli/main_spec.rb
 		if f == ''
-			" try getdirs or whatever
 			for d in split(globpath(root.'lib','*'), '\n')
-				let d = substitute(d, root, '', '')
-				"echo '>> '.d
-				if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
+				if isdirectory(d)
+					let d = substitute(d, root, '', '')
+					if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
+				endif
 			endfor
 		endif
+
 	endif
 	return f
 endfunction
