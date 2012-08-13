@@ -158,64 +158,80 @@ nmap ,mdQ $,mdq
 " Ruby macros
 nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
 
-"-----------------------------------------------------------------
-function! Hehe()
-	let dir = expand('%:p:h')
-	let dir = substitute(dir, '/\?$', '/', '') " make it end in /
+"_______________________________________________________________________________________________________________________
+" Jumps from impl -> test, or test -> impl
+function! JumpImplTest()
+	let dir = substitute(expand('%:p:h'), '/\?$', '/', '')
 	let filename = expand('%:t')
-"echo 'dir = '.dir
-"echo 'filename = '.filename
-"echo '-------------------------------------'
-
-"let dir = '/home/golly/projects/corvid/lib/corvid/generators'
-"let filename = 'base.rb'
-
-"let dir = '/home/golly/projects/corvid/test/spec/generators'
-"let filename = 'base_spec.rb'
-
+	let open_window_dir = 'leftabove'
 	let f = ''
-	let open_window_dir = 'rightbelow'
+
+	" Find corresponding impl or test
 	if dir =~ '/lib/'
+		let open_window_dir = 'rightbelow'
 		let root = substitute(dir, '/lib/.*$', '', '')
 		let path = substitute(dir, '^.*/lib/', '', '')
-		let path2 = substitute(path, '^[^/]*\(/\|$\)', '', '') " optional - strips corvid
-"echo 'root = '.root
-"echo 'path = '.path
-"echo 'path2 = '.path2
-"echo '________'
-
-		if f == '' | let f = Hehe_try1(root, path2, filename) | endif
-		if f == '' | let f = Hehe_try1(root, path, filename) | endif
+		let path2 = substitute(path, '^[^/]*\(/\|$\)', '', '') " optional, strips lib name
+		if f == '' | let f = JumpImplTest__find_test(root, path2, filename) | endif
+		if f == '' | let f = JumpImplTest__find_test(root, path, filename) | endif
 
 	elseif dir =~ '/test/spec/'
-		let open_window_dir = 'leftabove'
 		let root = substitute(dir, '/test/spec/.*$', '', '')
 		let path = substitute(dir, '^.*/test/spec/', '', '')
-		if f == '' | let f = Hehe_try1_t2l(root, path, filename, '_spec\.rb') | endif
+		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_spec\.rb') | endif
+
 	endif
 
-	"echo 'Final result = '.f
+	" Open file
 	if f != ''
 		call JumpToOrOpenFile(f, open_window_dir, root)
+	else
+		echo 'Unable to find matching impl/test for '.dir.filename
 	endif
 endfunction
 
-function! JumpToOrOpenFile(filename, open_window_dir, root)
-	"echo 'Opening...'
-	"echo 'a:filename = '.a:filename
-	let f = simplify(fnamemodify(a:filename, ':p'))
-	"echo 'f = '.f
-	"let f = substitute(f, '///*', '/', '')
+" Try to find a corresponding impl
+function! JumpImplTest__find_impl(root, path, filename, suffix)
+	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
+	let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, 'lib', '.rb')
+	if f == ''
+		" try getdirs or whatever
+		for d in split(globpath(root.'lib','*'), '\n')
+			let d = substitute(d, root, '', '')
+			"echo '>> '.d
+			if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
+		endfor
+	endif
+	return f
+endfunction
 
+" Try to find a corresponding test
+function! JumpImplTest__find_test(root, path, filename)
+	let f = ''
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/unit', '_unit.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/spec', '_spec.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test', '_unit.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'spec', '_spec.rb') | endif
+	return f
+endfunction
+
+" Build a new filename and check if it exists
+function! JumpImplTest__try(root, path, filename, suffix, new_dir, new_suffix)
+	let filename = substitute(a:filename, a:suffix, a:new_suffix, '')
+	let try = a:root.'/'.a:new_dir.'/'.a:path.'/'.filename
+	return filereadable(try) ? try : ''
+endfunction
+
+" Opens a new file, unless already open in which case it makes it the current window
+function! JumpToOrOpenFile(filename, open_window_dir, root)
+	let f = simplify(fnamemodify(a:filename, ':p'))
 	let cmd = ''
+
+	" Check if already open
 	let i = bufnr('$')
 	while i > 0
 		if bufloaded(i)
-			"echo i.' - '.bufname(i)
 			let bf = simplify(fnamemodify(bufname(i), ':p'))
-			"echo i.' - '.bf
-			"echo (bf == f)
-			"echo
 			if bf == f
 				let cmd = bufwinnr(i).'wincmd w'
 				break
@@ -224,58 +240,17 @@ function! JumpToOrOpenFile(filename, open_window_dir, root)
 		let i -= 1
 	endwhile
 
+	" If not already open, just open it
 	if cmd == ''
 		let root = simplify(fnamemodify(a:root, ':p'))
 		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
 		let f = substitute(f, root, '', '')
-		"echo 'root = '.root
-		"echo 'file to open = '.f
 		let cmd = a:open_window_dir.' vsp '.f
 	end
 
-	"echo 'cmd = '.cmd | echo ''
+	" Focus or open file
 	execute cmd
 endfunction
 
-function! Hehe_try1_t2l(root, path, filename, suf1)
-	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-	let path = substitute(a:path, '/\?$', '/', '') " make it end in /
-	let f = ''
-	if f == '' | let f = Hehe_try2(root, path, a:filename, a:suf1, 'lib', '.rb') | endif
-	"echo 'root - '.root
-	if f == ''
-		for d in split(globpath(root.'lib','*'), '\n')
-			let d = substitute(d, root, '', '')
-			"echo '>> '.d
-			if f == '' | let f = Hehe_try2(root, path, a:filename, a:suf1, d, '.rb') | endif
-		endfor
-	endif
-	" glob
-	return f
-endfunction
+nmap ,rg :call JumpImplTest()<CR>
 
-function! Hehe_try1(root, path, filename)
-	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-	let path = substitute(a:path, '/\?$', '/', '') " make it end in /
-	let f = ''
-	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'test/unit', '_unit.rb') | endif
-	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'test/spec', '_spec.rb') | endif
-	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'test', '_unit.rb') | endif
-	if f == '' | let f = Hehe_try2(root, path, a:filename, '\.rb$', 'spec', '_spec.rb') | endif
-	return f
-endfunction
-
-function! Hehe_try2(root, path, filename, suf1, dir, suffix)
-	let filename = substitute(a:filename, a:suf1, a:suffix, '')
-	let try = a:root.a:dir.'/'.a:path.filename
-	"echo 'root='.a:root
-	"echo 'path='.a:path
-	"echo 'filename='.a:filename
-	"echo 'try='.try
-	"echo '____________________________________________________________'
-	"echo filereadable(try)
-
-	return filereadable(try) ? try : ''
-endfunction
-
-nmap  call Hehe()<CR>
