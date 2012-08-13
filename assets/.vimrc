@@ -159,5 +159,5 @@ nmap ,mdQ $,mdq
 " Ruby macros
 execute 'source '.g:golly_rc_assets.'vim-functions.vim'
 nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
-nmap ,rg :call JumpImplTest()<CR>
+nmap <silent> ,rg :call JumpImplTest()<CR>
 
