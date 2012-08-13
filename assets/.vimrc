@@ -161,10 +161,11 @@ nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
 "-----------------------------------------------------------------
 function! Hehe()
 	let dir = expand('%:p:h')
+	let dir = substitute(dir, '/\?$', '/', '') " make it end in /
 	let filename = expand('%:t')
-echo 'dir = '.dir
-echo 'filename = '.filename
-echo '-------------------------------------'
+"echo 'dir = '.dir
+"echo 'filename = '.filename
+"echo '-------------------------------------'
 
 "let dir = '/home/golly/projects/corvid/lib/corvid/generators'
 "let filename = 'base.rb'
@@ -173,12 +174,11 @@ echo '-------------------------------------'
 "let filename = 'base_spec.rb'
 
 	let f = ''
-	"if matchstr(dir, '/lib/')
+	let open_window_dir = 'rightbelow'
 	if dir =~ '/lib/'
+		let root = substitute(dir, '/lib/.*$', '', '')
 		let path = substitute(dir, '^.*/lib/', '', '')
 		let path2 = substitute(path, '^[^/]*\(/\|$\)', '', '') " optional - strips corvid
-		let root = substitute(dir, '/lib/.*$', '', '')
-"echo 'dir = '.dir
 "echo 'root = '.root
 "echo 'path = '.path
 "echo 'path2 = '.path2
@@ -187,20 +187,54 @@ echo '-------------------------------------'
 		if f == '' | let f = Hehe_try1(root, path2, filename) | endif
 		if f == '' | let f = Hehe_try1(root, path, filename) | endif
 
-	elseif dir =~ '/test/spec'
-		let path = substitute(dir, '^.*/test/spec/', '', '')
+	elseif dir =~ '/test/spec/'
+		let open_window_dir = 'leftabove'
 		let root = substitute(dir, '/test/spec/.*$', '', '')
+		let path = substitute(dir, '^.*/test/spec/', '', '')
 		if f == '' | let f = Hehe_try1_t2l(root, path, filename, '_spec\.rb') | endif
-		" try lib/*/asd.rb
 	endif
 
-	echo 'Final result = '.f
+	"echo 'Final result = '.f
 	if f != ''
-		echo 'Opening...'
-		let f = substitute(f, '///*', '/', '')
-		let f = substitute(f, root.'/', '', '')
-		execute 'sp '.f
+		call JumpToOrOpenFile(f, open_window_dir, root)
 	endif
+endfunction
+
+function! JumpToOrOpenFile(filename, open_window_dir, root)
+	"echo 'Opening...'
+	"echo 'a:filename = '.a:filename
+	let f = simplify(fnamemodify(a:filename, ':p'))
+	"echo 'f = '.f
+	"let f = substitute(f, '///*', '/', '')
+
+	let cmd = ''
+	let i = bufnr('$')
+	while i > 0
+		if bufloaded(i)
+			"echo i.' - '.bufname(i)
+			let bf = simplify(fnamemodify(bufname(i), ':p'))
+			"echo i.' - '.bf
+			"echo (bf == f)
+			"echo
+			if bf == f
+				let cmd = bufwinnr(i).'wincmd w'
+				break
+			end
+		endif
+		let i -= 1
+	endwhile
+
+	if cmd == ''
+		let root = simplify(fnamemodify(a:root, ':p'))
+		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
+		let f = substitute(f, root, '', '')
+		"echo 'root = '.root
+		"echo 'file to open = '.f
+		let cmd = a:open_window_dir.' vsp '.f
+	end
+
+	"echo 'cmd = '.cmd | echo ''
+	execute cmd
 endfunction
 
 function! Hehe_try1_t2l(root, path, filename, suf1)
@@ -208,11 +242,11 @@ function! Hehe_try1_t2l(root, path, filename, suf1)
 	let path = substitute(a:path, '/\?$', '/', '') " make it end in /
 	let f = ''
 	if f == '' | let f = Hehe_try2(root, path, a:filename, a:suf1, 'lib', '.rb') | endif
-	echo 'root - '.root
+	"echo 'root - '.root
 	if f == ''
 		for d in split(globpath(root.'lib','*'), '\n')
 			let d = substitute(d, root, '', '')
-			echo '>> '.d
+			"echo '>> '.d
 			if f == '' | let f = Hehe_try2(root, path, a:filename, a:suf1, d, '.rb') | endif
 		endfor
 	endif
@@ -237,9 +271,9 @@ function! Hehe_try2(root, path, filename, suf1, dir, suffix)
 	"echo 'root='.a:root
 	"echo 'path='.a:path
 	"echo 'filename='.a:filename
-	echo 'try='.try
+	"echo 'try='.try
 	"echo '____________________________________________________________'
-	echo filereadable(try)
+	"echo filereadable(try)
 
 	return filereadable(try) ? try : ''
 endfunction
