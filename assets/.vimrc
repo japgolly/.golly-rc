@@ -1,3 +1,4 @@
+let g:golly_rc_assets = '~/.golly-rc/assets/'
 call pathogen#infect()
 set nobackup
 set history=200
@@ -156,101 +157,7 @@ nmap ,mdQ $,mdq
 
 "-----------------------------------------------------------------
 " Ruby macros
+execute 'source '.g:golly_rc_assets.'vim-functions.vim'
 nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
-
-"_______________________________________________________________________________________________________________________
-" Jumps from impl -> test, or test -> impl
-function! JumpImplTest()
-	let dir = substitute(expand('%:p:h'), '/\?$', '/', '')
-	let filename = expand('%:t')
-	let open_window_dir = 'leftabove'
-	let f = ''
-
-	" Find corresponding impl or test
-	if dir =~ '/lib/'
-		let open_window_dir = 'rightbelow'
-		let root = substitute(dir, '/lib/.*$', '', '')
-		let path = substitute(dir, '^.*/lib/', '', '')
-		let path2 = substitute(path, '^[^/]*\(/\|$\)', '', '') " optional, strips lib name
-		if f == '' | let f = JumpImplTest__find_test(root, path2, filename) | endif
-		if f == '' | let f = JumpImplTest__find_test(root, path, filename) | endif
-
-	elseif dir =~ '/test/spec/'
-		let root = substitute(dir, '/test/spec/.*$', '', '')
-		let path = substitute(dir, '^.*/test/spec/', '', '')
-		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_spec\.rb') | endif
-
-	endif
-
-	" Open file
-	if f != ''
-		call JumpToOrOpenFile(f, open_window_dir, root)
-	else
-		echo 'Unable to find matching impl/test for '.dir.filename
-	endif
-endfunction
-
-" Try to find a corresponding impl
-function! JumpImplTest__find_impl(root, path, filename, suffix)
-	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-	let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, 'lib', '.rb')
-	if f == ''
-		" try getdirs or whatever
-		for d in split(globpath(root.'lib','*'), '\n')
-			let d = substitute(d, root, '', '')
-			"echo '>> '.d
-			if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
-		endfor
-	endif
-	return f
-endfunction
-
-" Try to find a corresponding test
-function! JumpImplTest__find_test(root, path, filename)
-	let f = ''
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/unit', '_unit.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/spec', '_spec.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test', '_unit.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'spec', '_spec.rb') | endif
-	return f
-endfunction
-
-" Build a new filename and check if it exists
-function! JumpImplTest__try(root, path, filename, suffix, new_dir, new_suffix)
-	let filename = substitute(a:filename, a:suffix, a:new_suffix, '')
-	let try = a:root.'/'.a:new_dir.'/'.a:path.'/'.filename
-	return filereadable(try) ? try : ''
-endfunction
-
-" Opens a new file, unless already open in which case it makes it the current window
-function! JumpToOrOpenFile(filename, open_window_dir, root)
-	let f = simplify(fnamemodify(a:filename, ':p'))
-	let cmd = ''
-
-	" Check if already open
-	let i = bufnr('$')
-	while i > 0
-		if bufloaded(i)
-			let bf = simplify(fnamemodify(bufname(i), ':p'))
-			if bf == f
-				let cmd = bufwinnr(i).'wincmd w'
-				break
-			end
-		endif
-		let i -= 1
-	endwhile
-
-	" If not already open, just open it
-	if cmd == ''
-		let root = simplify(fnamemodify(a:root, ':p'))
-		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-		let f = substitute(f, root, '', '')
-		let cmd = a:open_window_dir.' vsp '.f
-	end
-
-	" Focus or open file
-	execute cmd
-endfunction
-
 nmap ,rg :call JumpImplTest()<CR>
 
