@@ -17,10 +17,25 @@ function! JumpImplTest()
 		if f == '' | let f = JumpImplTest__find_test(root, path2, filename) | endif
 		if f == '' | let f = JumpImplTest__find_test(root, path, filename) | endif
 
+	elseif dir =~ '/test/unit/'
+		let root = substitute(dir, '/test/unit/.*$', '', '')
+		let path = substitute(dir, '^.*/test/unit/', '', '')
+		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_test\.rb') | endif
+
 	elseif dir =~ '/test/spec/'
 		let root = substitute(dir, '/test/spec/.*$', '', '')
 		let path = substitute(dir, '^.*/test/spec/', '', '')
 		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_spec\.rb') | endif
+
+	elseif dir =~ '/spec/'
+		let root = substitute(dir, '/spec/.*$', '', '')
+		let path = substitute(dir, '^.*/spec/', '', '')
+		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_spec\.rb') | endif
+
+	elseif dir =~ '/test/'
+		let root = substitute(dir, '/test/.*$', '', '')
+		let path = substitute(dir, '^.*/test/', '', '')
+		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_test\.rb') | endif
 
 	endif
 
@@ -34,15 +49,18 @@ endfunction
 
 " Try to find a corresponding impl
 function! JumpImplTest__find_impl(root, path, filename, suffix)
-	let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-	let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, 'lib', '.rb')
-	if f == ''
-		" try getdirs or whatever
-		for d in split(globpath(root.'lib','*'), '\n')
-			let d = substitute(d, root, '', '')
-			"echo '>> '.d
-			if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
-		endfor
+	let f = ''
+	if a:filename =~ a:suffix
+		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
+		let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, 'lib', '.rb')
+		if f == ''
+			" try getdirs or whatever
+			for d in split(globpath(root.'lib','*'), '\n')
+				let d = substitute(d, root, '', '')
+				"echo '>> '.d
+				if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
+			endfor
+		endif
 	endif
 	return f
 endfunction
@@ -50,10 +68,10 @@ endfunction
 " Try to find a corresponding test
 function! JumpImplTest__find_test(root, path, filename)
 	let f = ''
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/unit', '_unit.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/unit', '_test.rb') | endif
 	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/spec', '_spec.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test', '_unit.rb') | endif
 	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'spec', '_spec.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test', '_test.rb') | endif
 	return f
 endfunction
 
