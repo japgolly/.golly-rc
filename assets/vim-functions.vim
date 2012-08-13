@@ -111,7 +111,8 @@ function! JumpToOrOpenFile(filename, open_window_dir, root)
 	if cmd == ''
 		let root = simplify(fnamemodify(a:root, ':p'))
 		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-		let f = substitute(f, root, '', '')
+		let f2 = substitute(f, root, '', '')
+		if filereadable(f2) | let f = f2 | endif
 		let cmd = a:open_window_dir.' vsp '.f
 	end
 
