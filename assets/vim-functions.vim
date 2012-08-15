@@ -16,27 +16,11 @@ function! JumpImplTest()
 		let path2 = substitute(path, '^[^/]*\(/\|$\)', '', '') " optional, strips lib name
 		if f == '' | let f = JumpImplTest__find_test(root, path2, filename) | endif
 		if f == '' | let f = JumpImplTest__find_test(root, path, filename) | endif
-
-	elseif dir =~ '/test/unit/'
-		let root = substitute(dir, '/test/unit/.*$', '', '')
-		let path = substitute(dir, '^.*/test/unit/', '', '')
-		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_test\.rb') | endif
-
-	elseif dir =~ '/test/spec/'
-		let root = substitute(dir, '/test/spec/.*$', '', '')
-		let path = substitute(dir, '^.*/test/spec/', '', '')
-		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_spec\.rb') | endif
-
-	elseif dir =~ '/spec/'
-		let root = substitute(dir, '/spec/.*$', '', '')
-		let path = substitute(dir, '^.*/spec/', '', '')
-		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_spec\.rb') | endif
-
-	elseif dir =~ '/test/'
-		let root = substitute(dir, '/test/.*$', '', '')
-		let path = substitute(dir, '^.*/test/', '', '')
-		if f == '' | let f = JumpImplTest__find_impl(root, path, filename, '_test\.rb') | endif
-
+	else
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/unit/', '_test\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/spec/', '_spec\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/spec/',      '_spec\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/',      '_test\.rb') | endif
 	endif
 
 	" Open file
@@ -48,25 +32,27 @@ function! JumpImplTest()
 endfunction
 
 " Try to find a corresponding impl
-function! JumpImplTest__find_impl(root, path, filename, suffix)
+function! JumpImplTest__find_impl(dir, filename, test_dir_frag, suffix)
 	let f = ''
-	if a:filename =~ a:suffix
-		let root = substitute(a:root, '/\?$', '/', '') " make it end in /
-		let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, 'lib', '.rb')
+	if a:dir =~ a:test_dir_frag
+		let root = substitute(a:dir, a:test_dir_frag.'.*$', '', '')
+		let path = substitute(a:dir, '^.*'.a:test_dir_frag, '', '')
+		if a:filename =~ a:suffix
+			let f = JumpImplTest__try(root, path, a:filename, a:suffix, 'lib', '.rb')
 
-		" Still not found - check if the library name is omitted in test dir structure
-		" eg. lib/ABC/cli/main.rb <--> test/spec/cli/main_spec.rb
-		if f == ''
-			for d in split(globpath(root.'lib','*'), '\n')
-				if isdirectory(d)
-					let d = substitute(d, root, '', '')
-					if f == '' | let f = JumpImplTest__try(root, a:path, a:filename, a:suffix, d, '.rb') | endif
-				endif
-			endfor
+			" Still not found - check if the library name is omitted in test dir structure
+			" eg. lib/ABC/cli/main.rb <--> test/spec/cli/main_spec.rb
+			if f == ''
+				for d in split(globpath(root.'/lib','*'), '\n')
+					if isdirectory(d)
+						let d = substitute(d, root.'/*' , '', '')
+						if f == '' | let f = JumpImplTest__try(root, path, a:filename, a:suffix, d, '.rb') | endif
+					endif
+				endfor
+			endif
 		endif
-
 	endif
-	return f
+	return f == '' ? ['',''] : [f,root]
 endfunction
 
 " Try to find a corresponding test
