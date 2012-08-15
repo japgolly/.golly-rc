@@ -21,3 +21,7 @@
 [cola]
 	tabwidth = 2
 	fontdiff = Monospace,10,-1,5,50,0,0,0,0,0
+
+[color "diff"]
+	meta = yellow bold
+
