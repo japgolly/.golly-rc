@@ -117,10 +117,10 @@ nmap <silent> ,S ,s$b,skkw
 " RSpec macros
 "
 " ,r[dD] - New describe
-nmap ,rD :set nopaste<CR>Odescribe " do<CR>end<Esc>kf"s
+nmap ,rD :set nopaste<CR>O<CR>describe " do<CR>end<Esc>kf"s
 nmap ,rd j,rD
 " ,r[cC] - New context
-nmap ,rC :set nopaste<CR>Ocontext "" do<CR>end<Esc>kf"a
+nmap ,rC :set nopaste<CR>O<CR>context "" do<CR>end<Esc>kf"a
 nmap ,rc j,rC
 " ,r[iI] - New test (with impl)
 nmap <silent> ,rI :set nopaste<CR>O}<Esc>Oit(""){<Esc>hhi
