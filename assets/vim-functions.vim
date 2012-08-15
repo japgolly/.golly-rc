@@ -17,10 +17,12 @@ function! JumpImplTest()
 		if f == '' | let f = JumpImplTest__find_test(root, path2, filename) | endif
 		if f == '' | let f = JumpImplTest__find_test(root, path, filename) | endif
 	else
-		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/unit/', '_test\.rb') | endif
-		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/spec/', '_spec\.rb') | endif
-		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/spec/',      '_spec\.rb') | endif
-		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/',      '_test\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/unit/',        '_test\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/spec/',        '_spec\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/spec/',             '_spec\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/',             '_test\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/integration/', '_spec\.rb') | endif
+		if f == '' | let [f,root] = JumpImplTest__find_impl(dir, filename, '/test/integration/', '_test\.rb') | endif
 	endif
 
 	" Open file
@@ -29,6 +31,18 @@ function! JumpImplTest()
 	else
 		echo 'Unable to find matching impl/test for '.dir.filename
 	endif
+endfunction
+
+" Try to find a corresponding test
+function! JumpImplTest__find_test(root, path, filename)
+	let f = ''
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/unit',        '_test.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/spec',        '_spec.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'spec',             '_spec.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test',             '_test.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/integration', '_spec.rb') | endif
+	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/integration', '_test.rb') | endif
+	return f
 endfunction
 
 " Try to find a corresponding impl
@@ -53,16 +67,6 @@ function! JumpImplTest__find_impl(dir, filename, test_dir_frag, suffix)
 		endif
 	endif
 	return f == '' ? ['',''] : [f,root]
-endfunction
-
-" Try to find a corresponding test
-function! JumpImplTest__find_test(root, path, filename)
-	let f = ''
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/unit', '_test.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test/spec', '_spec.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'spec', '_spec.rb') | endif
-	if f == '' | let f = JumpImplTest__try(a:root, a:path, a:filename, '\.rb$', 'test', '_test.rb') | endif
-	return f
 endfunction
 
 " Build a new filename and check if it exists
