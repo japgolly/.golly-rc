@@ -113,6 +113,12 @@ nmap <silent> ,s :set nohlsearch<BAR>:set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR
 " ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
 nmap <silent> ,S ,s$b,skkw
 
+" Ctrl-L[jk] Adds a blank line before/after current line
+nmap <silent> <C-L>k :set paste<CR>O<Esc>:set nopaste<CR>j0w
+imap <silent> <C-L>k <Esc><C-L>kA
+nmap <silent> <C-L>j :set paste<CR>o<Esc>:set nopaste<CR>k0w
+imap <silent> <C-L>j <Esc><C-L>jA
+
 "-----------------------------------------------------------------
 " RSpec macros
 "
