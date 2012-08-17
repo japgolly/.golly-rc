@@ -120,8 +120,10 @@ nmap <silent> <C-L>j :set paste<CR>o<Esc>:set nopaste<CR>k0w
 imap <silent> <C-L>j <Esc><C-L>jA
 
 "-----------------------------------------------------------------
+" Ruby macros
 " RSpec macros
-"
+execute 'source '.g:golly_rc_assets.'vim-functions.vim'
+
 " ,r[dD] - New describe
 nmap ,rD :set nopaste<CR>O<CR>describe " do<CR>end<Esc>kf"s
 nmap ,rd j,rD
@@ -136,6 +138,9 @@ nmap <silent> ,rP :set nopaste<CR>Oit("")<Esc>hi
 nmap <silent> ,rp j,rP
 " ,rx - Expand pending test
 nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<CR><Esc>kO
+" ,rce - Class eval
+nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
+nmap <silent> ,rg :call JumpImplTest()<CR>
 
 "-----------------------------------------------------------------
 " Comment macros
@@ -160,10 +165,3 @@ nmap ,mdd a ![Done](done.png)<Esc>
 nmap ,mdD $,mdd
 nmap ,mdq a ![?](question.png)<Esc>
 nmap ,mdQ $,mdq
-
-"-----------------------------------------------------------------
-" Ruby macros
-execute 'source '.g:golly_rc_assets.'vim-functions.vim'
-nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
-nmap <silent> ,rg :call JumpImplTest()<CR>
-
