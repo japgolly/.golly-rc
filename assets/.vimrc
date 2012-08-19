@@ -138,6 +138,12 @@ nmap <silent> ,rP :set nopaste<CR>Oit("")<Esc>hi
 nmap <silent> ,rp j,rP
 " ,rx - Expand pending test
 nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<CR><Esc>kO
+" ,r[baA][ea] - before/after/around each/all blocks
+nmap <silent> ,rbe :set nopaste<CR>O}<Esc>Obefore(:each){<Esc>o
+nmap <silent> ,rba :set nopaste<CR>O}<Esc>Obefore(:all){<Esc>o
+nmap <silent> ,rae :set nopaste<CR>O}<Esc>Oafter(:each){<Esc>o
+nmap <silent> ,raa :set nopaste<CR>O}<Esc>Oafter(:all){<Esc>o
+nmap <silent> ,rA :set nopaste<CR>O}<Esc>Oaround(:each){\|ex\|<Esc>o
 " ,rce - Class eval
 nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
 nmap <silent> ,rg :call JumpImplTest()<CR>
