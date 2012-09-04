@@ -392,7 +392,7 @@ ${color2}/dev/shm: ${color3}${fs_used /dev/shm} (${fs_used_perc /dev/shm}%) ${co
 
 # Top mem
 ${color2}NAME ${goto 140} PID${alignr}MEM%
-${color ddaa00}${top_mem name 1}${goto 140}${top_mem pid 1}$alignr${top_mem mem 1}
+${color 00c000}${top_mem name 1}${goto 140}${top_mem pid 1}$alignr${top_mem mem 1}
 ${color3}${top_mem name 2}${goto 140}${top_mem pid 2}$alignr${top_mem mem 2}
 ${color3}${top_mem name 3}${goto 140}${top_mem pid 3}$alignr${top_mem mem 3}
 ${color3}${top_mem name 4}${goto 140}${top_mem pid 4}$alignr${top_mem mem 4}
