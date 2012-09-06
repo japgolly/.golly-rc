@@ -227,7 +227,7 @@ own_window yes
 # If  own_window  is yes, you may use these window manager hints to affect the way Conky displays. Notes: Use
 # own_window_type desktop as another way to implement many of these hints implicitly.  If  you  use  own_win‐
 # dow_type override, window manager hints have no meaning and are ignored.
-own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_hints undecorated,above,sticky,skip_taskbar,skip_pager
 
 # Manually set the window name. Defaults to "<hostname> - conky".
 own_window_title conky
@@ -251,6 +251,7 @@ own_window_transparent yes
 # The edge is chosen based on the alignment option. Override windows are not under the control of the  window
 # manager. Hints are ignored. This type of window can be useful for certain situations.
 own_window_type override
+#own_window_type desktop
 
 # Pad percentages to this many decimals (0 = no padding)
 pad_percents 0
@@ -355,10 +356,6 @@ ${color2}Kernel:${alignr}${color3} $kernel
 ${color2}Arch:${alignr}${color3} $machine
 ${color2}Uptime:${alignr}${color3} $uptime_short
 ${color2}Processes:${color3} $processes $alignr${color2}Running:${color3} $running_processes
-${color2}/${color3} $alignr ${fs_used /} / ${fs_size /}    ${fs_used_perc /}%
-${color4}${fs_bar /}
-${color2}NAS${color3} $alignr ${fs_used /mnt/nas/public} / ${fs_size /mnt/nas/public}    ${fs_used_perc /mnt/nas/public}%
-${color4}${fs_bar /mnt/nas/public}
 
 #-----------------------------------------------------------------------------------------------------------------------
 ${color1}Battery ${hr 2}
@@ -375,7 +372,7 @@ ${color2}CPU1: ${color3}${cpu cpu1}% ${color 800000}${cpubar cpu1 5}
 ${color2}Clock Freq: $alignr${color3} ${freq_g} GHz
 ${color2}Fan RPMs: $alignr${color3} $i8k_left_fan_rpm ${color 888888}| ${color3}$i8k_right_fan_rpm
 ${color2}Temp: $alignr${color3} $i8k_cpu_temp°C
-${color3}${cpugraph 20,0 500000 a08000 s}
+${color3}${cpugraph 20,0 280000 a08000 s}
 # Top CPU
 ${color2}NAME ${goto 140} PID${alignr}CPU%
 ${color ddaa00}${top name 1}${goto 140}${top pid 1}$alignr${top cpu 1}
@@ -395,11 +392,20 @@ ${color2}/dev/shm: ${color3}${fs_used /dev/shm} (${fs_used_perc /dev/shm}%) ${co
 
 # Top mem
 ${color2}NAME ${goto 140} PID${alignr}MEM%
-${color ddaa00}${top_mem name 1}${goto 140}${top_mem pid 1}$alignr${top_mem mem 1}
+${color 00c000}${top_mem name 1}${goto 140}${top_mem pid 1}$alignr${top_mem mem 1}
 ${color3}${top_mem name 2}${goto 140}${top_mem pid 2}$alignr${top_mem mem 2}
 ${color3}${top_mem name 3}${goto 140}${top_mem pid 3}$alignr${top_mem mem 3}
 ${color3}${top_mem name 4}${goto 140}${top_mem pid 4}$alignr${top_mem mem 4}
 ${color3}${top_mem name 5}${goto 140}${top_mem pid 5}$alignr${top_mem mem 5}
+
+#-----------------------------------------------------------------------------------------------------------------------
+${color1}Disk ${hr 2}
+${color2}/${color3} $alignr ${fs_used /} / ${fs_size /}    ${fs_used_perc /}%
+${color4}${fs_bar /}
+${color2}NAS${color3} $alignr ${fs_used /mnt/nas/public} / ${fs_size /mnt/nas/public}    ${fs_used_perc /mnt/nas/public}%
+${color4}${fs_bar /mnt/nas/public}
+${color2}IO: $alignr${color3}${diskio_read} read, ${diskio_write} write
+${diskiograph 16,0 111111 aaaaaa}
 
 #-----------------------------------------------------------------------------------------------------------------------
 ${color1}Network ${hr 2}
