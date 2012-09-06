@@ -164,6 +164,9 @@ nmap <silent> ,Cvp ,cVP
 nmap <silent> ,cVp ,cVP
 nmap <silent> ,cvP ,cVP
 nmap <silent> ,cvp j,cVP
+" comment line joining
+nmap <silent> ,cj Jd/#<CR>xd/[^ ]<CR>i <Esc>l
+nmap <silent> ,cJ k,cj
 
 "-----------------------------------------------------------------
 " Markdown macros
