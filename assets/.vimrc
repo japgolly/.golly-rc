@@ -171,3 +171,15 @@ nmap ,mdd a ![Done](done.png)<Esc>
 nmap ,mdD $,mdd
 nmap ,mdq a ![?](question.png)<Esc>
 nmap ,mdQ $,mdq
+
+"-----------------------------------------------------------------
+" Navigation macros
+" alt + up/down/left/right
+nmap [1;3A <C-W>k
+nmap [1;3B <C-W>j
+nmap [1;3C <C-W>l
+nmap [1;3D <C-W>h
+imap [1;3A <Esc>[1;3A
+imap [1;3B <Esc>[1;3B
+imap [1;3C <Esc>[1;3C
+imap [1;3D <Esc>[1;3D
