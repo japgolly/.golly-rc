@@ -4,7 +4,6 @@ set nobackup
 set history=200
 syntax on
 filetype plugin indent on
-set colorcolumn=121 " Margin on the right
 set number " Show line numbers on the left
 set nowrap
 set nohlsearch
@@ -27,7 +26,8 @@ compiler ruby         " Enable compiler support for ruby
 "
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
-au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab
+au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
+au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=80 colorcolumn=81
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
