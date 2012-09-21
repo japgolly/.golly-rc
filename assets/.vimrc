@@ -172,8 +172,8 @@ nmap <silent> ,cJ k,cj
 " Markdown macros
 nmap ,mdd a ![Done](done.png)<Esc>
 nmap ,mdD $,mdd
-nmap ,mdq a ![?](question.png)<Esc>
-nmap ,mdQ $,mdq
+nmap ,md- Yp:s/./-/g<CR>o<Esc>
+nmap ,md= Yp:s/./=/g<CR>o<Esc>
 
 "-----------------------------------------------------------------
 " Navigation macros
