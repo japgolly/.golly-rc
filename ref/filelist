@@ -24,6 +24,7 @@
 /etc/i8kutils/i8kmon.conf
 /etc/inittab
 /etc/inputrc
+/etc/locale.conf
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
 /etc/modprobe.d/nobeep.conf
