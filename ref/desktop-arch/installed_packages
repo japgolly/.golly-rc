@@ -47,7 +47,7 @@ ca-certificates-java 20120608-1
 cabextract 1.4-2
 cairo 1.12.2-2
 cairomm 1.10.0-2
-calibre 0.8.70-1
+calibre 0.9.0-1
 cantarell-fonts 0.0.10-1
 caribou 0.4.4-1
 ccsm 0.8.4-3
@@ -116,10 +116,10 @@ dropbox 1.4.17-1
 dropbox-daemon 0.8-8
 e2fsprogs 1.42.5-1
 ec2-api-tools 1.5.6.0-2
-eclipse 4.2-1
+eclipse 4.2.1-1
 eclipse-android 20.0.3-1
 eclipse-emf 2.8.0-2
-eclipse-gef 3.8.0-2
+eclipse-gef 3.8.1-1
 eclipse-wtp 3.4.0-1
 ed 1.6-1
 elfutils 0.155-1
@@ -143,7 +143,7 @@ faad2 2.7-3
 fakeroot 1.18.4-1
 farstream 0.1.2-1
 fbset 2.1-4
-ffmpeg 1:0.11.1-1
+ffmpeg 1:1.0-1
 fftw 3.3.2-1
 file 5.11-1
 filesystem 2012.8-1
@@ -186,7 +186,7 @@ gettext 0.18.1.1-4
 ghostscript 9.06-1
 giflib 4.1.6-5
 gimp 2.8.2-1
-git 1.7.12.1-1
+git 1.7.12.2-1
 git-cola 1.8.0-1
 gitg 0.2.5-1
 gjs 1.32.0-2
@@ -227,7 +227,7 @@ gnome-vfs 2.24.4-6
 gnome-video-effects 0.4.0-1
 gnupg 2.0.19-2
 gnutls 3.1.2-1
-go 2:1.0.2-2
+go 2:1.0.3-1
 gobject-introspection 1.32.1-2
 gpart 0.1h-5
 gparted 0.13.1-1
@@ -466,7 +466,7 @@ libmpcdec 1.2.6-3
 libmpd 11.8.17-1
 libmpeg2 0.5.1-3
 libmtp 1.1.5-1
-libmysqlclient 5.5.27-4
+libmysqlclient 5.5.28-1
 libmythes 1:1.2.3-1
 libnice 0.1.2-1
 libnl 3.2.11-1
@@ -670,7 +670,7 @@ pango 1.30.1-1
 pangomm 2.28.4-1
 paprefs 0.9.10-2
 parted 3.1-1
-patch 2.6.1-3
+patch 2.7.1-1
 pavucontrol 1.0-1
 pciutils 3.1.10-1
 pcmciautils 018-4
@@ -812,7 +812,7 @@ smplayer 0.8.0-1
 smuxi 0.8.10.1-1
 smuxi-server 0.8.10.1-1
 soprano 2.8.0-2
-sound-theme-freedesktop 0.7-2
+sound-theme-freedesktop 0.8-1
 soundtouch 1.6.0-1
 speex 1.2rc1-2
 sqlite 3.7.14-1
@@ -879,7 +879,7 @@ virtualbox-guest-iso 4.2.0-2
 virtualbox-host-modules 4.2.0-2
 virtuoso 6.1.6-1
 virtuoso-base 6.1.6-1
-vlc 2.0.3-3
+vlc 2.0.3-4
 vte 0.28.2-3
 vte-common 0.32.2-1
 vte3 0.32.2-1
@@ -889,7 +889,7 @@ webrtc-audio-processing 0.1-1
 wget 1.14-1
 which 2.20-5
 wildmidi 0.2.3.5-2
-wine 1.5.13-1
+wine 1.5.14-1
 winetricks 20120912-1
 wireless_tools 29-7
 wpa_supplicant 1.0-1
@@ -992,7 +992,7 @@ xorg-xwininfo 1.1.2-1
 xorg-xwud 1.0.4-1
 xproto 7.0.23-1
 xsensors 0.70-3
-xterm 281-1
+xterm 282-1
 xvidcore 1.3.2-1
 xz 5.0.4-1
 yajl 2.0.4-1
