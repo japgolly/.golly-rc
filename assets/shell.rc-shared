@@ -73,3 +73,12 @@ fi
 export LOCALRC="$HOME/.localrc"
 alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"'
 [ -f "$LOCALRC" ] && source "$LOCALRC"
+
+# Display directory & cmd in terminal title bar
+case "$TERM" in
+  rxvt|*term|gnome*)
+    # %m = machine, %~ = pwd
+    precmd() { print -Pn "\e]0;%~\a" }
+    preexec () { print -Pn "\e]0;$1 [%~]\a" }
+  ;;
+esac
