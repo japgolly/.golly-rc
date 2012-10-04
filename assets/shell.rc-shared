@@ -45,6 +45,7 @@ function show_cp { if [ ! -r "$1" ]; then echo "Can't read: $1"; else unzip -p $
 function test_cp { show_cp "$1" | sed "s|^|$(dirname "$1")/|" | xargs -L1 ls -l; }
 function mc { mkdir -p "$1" && cd "$1"; }
 function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | xargs -L1 -I{} bash -c 'echo "{}"; cd "{}/.." && git pull; echo'; }
+function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot -Tpng -o"$o" "$1" && xdg-open "$o" 2>/dev/null);}
 
 #export GIT_SSL_NO_VERIFY=true
 unset RUBYOPT
