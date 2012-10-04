@@ -28,6 +28,7 @@ au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
 au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
 au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=80 colorcolumn=81
+au filetype dot                       setlocal ts=2 sw=2 expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
@@ -186,3 +187,14 @@ imap [1;3A <Esc>[1;3A
 imap [1;3B <Esc>[1;3B
 imap [1;3C <Esc>[1;3C
 imap [1;3D <Esc>[1;3D
+
+"-----------------------------------------------------------------
+" Graphviz
+au filetype dot nmap ,gd :w<CR>:!dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gn :w<CR>:!neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gf :w<CR>:!fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gs :w<CR>:!sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gt :w<CR>:!twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gc :w<CR>:!circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,al A [label=""]<Esc>hi
+
