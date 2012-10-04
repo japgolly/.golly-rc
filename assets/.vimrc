@@ -1,10 +1,12 @@
 let g:golly_rc_assets = '~/.golly-rc/assets/'
 call pathogen#infect()
-set nobackup
-set history=200
 syntax on
 filetype plugin indent on
+set nobackup
+set history=500
 set number " Show line numbers on the left
+set title           " show title in console title bar
+set ttyfast         " smoother changes
 set nowrap
 set nohlsearch
 set nocompatible
@@ -12,6 +14,7 @@ set encoding=utf8
 set undodir=~/.vim/undo
 set shiftwidth=4
 set tabstop=4
+" set cursorline
 
 " from the vim-ruby doco
 set nocompatible      " We're running Vim, not Vi!
@@ -38,12 +41,12 @@ set background=dark
 let g:solarized_termcolors=256
 "colorscheme solarized
 colorscheme vibrantink
-" set cursorline
 
 "autocmd BufEnter * if match(@%:p,'.*/test/.*')>=0 | colorscheme autumnleaf | end
 "au BufEnter * if match(expand('%:p'),'.*/test/.*')>=0 | colorscheme autumnleaf | CSApprox | end
 au filetype yaml                      colorscheme dante | CSApprox
 au filetype markdown                  colorscheme desert256 | CSApprox
+au filetype dot                       colorscheme pablo | CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces
@@ -61,7 +64,6 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Macros
@@ -100,83 +102,12 @@ imap <F12> <C-O><F12>
 " CTRL-H gets ready for a search & replace with perl regex
 map <C-H> :perldo s/
 
-" CTRL-/ adds comments
-map  <silent>  :s/^\(\s*.\)/#\1/<CR>:set nohlsearch<CR>
-imap <silent>  <Esc>w
-
-" CTRL-\ removes comments
-map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>:set nohlsearch<CR>
-imap <silent>  <C-O>
-
-" ,s splits line so that cursor becomes the beginning of the next line (and
-"                        whitespace around cursor is removed)
-nmap <silent> ,s :set nohlsearch<BAR>:set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
-" ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
-nmap <silent> ,S ,s$b,skkw
-
 " Ctrl-L[jk] Adds a blank line before/after current line
 nmap <silent> <C-L>k :set paste<CR>O<Esc>:set nopaste<CR>j0w
 imap <silent> <C-L>k <Esc><C-L>kA
 nmap <silent> <C-L>j :set paste<CR>o<Esc>:set nopaste<CR>k0w
 imap <silent> <C-L>j <Esc><C-L>jA
 
-"-----------------------------------------------------------------
-" Ruby macros
-" RSpec macros
-execute 'source '.g:golly_rc_assets.'vim-functions.vim'
-
-" ,r[dD] - New describe
-nmap ,rD :set nopaste<CR>O<CR>describe " do<CR>end<Esc>kf"s
-nmap ,rd j,rD
-" ,r[cC] - New context
-nmap ,rC :set nopaste<CR>O<CR>context "" do<CR>end<Esc>kf"a
-nmap ,rc j,rC
-" ,r[iI] - New test (with impl)
-nmap <silent> ,rI :set nopaste<CR>O}<Esc>Oit(""){<Esc>hhi
-nmap <silent> ,ri j,rI
-" ,r[pP] - New test (pending)
-nmap <silent> ,rP :set nopaste<CR>Oit("")<Esc>hi
-nmap <silent> ,rp j,rP
-" ,rx - Expand pending test
-nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<CR><Esc>kO
-" ,r[baA][ea] - before/after/around each/all blocks
-nmap <silent> ,rbe :set nopaste<CR>o}<Esc>Obefore(:each){<Esc>o
-nmap <silent> ,rba :set nopaste<CR>o}<Esc>Obefore(:all){<Esc>o
-nmap <silent> ,rae :set nopaste<CR>o}<Esc>Oafter(:each){<Esc>o
-nmap <silent> ,raa :set nopaste<CR>o}<Esc>Oafter(:all){<Esc>o
-nmap <silent> ,rA :set nopaste<CR>o}<Esc>Oaround(:each){\|ex\|<Esc>o
-" ,rce - Class eval
-nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
-nmap <silent> ,rg :call JumpImplTest()<CR>
-
-"-----------------------------------------------------------------
-" Comment macros
-"
-" code seperation comments
-nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O#----------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
-nmap <silent> ,c- j,C-0kkw
-" method doco
-nmap <silent> ,cD :set nopaste<CR>O#<CR><CR> @param <CR>@return <Esc>kkkA<SPACE>
-nmap <silent> ,Cd ,cD
-nmap <silent> ,cd j,cD
-" @!visibility private declarations
-nmap <silent> ,cVP :set nopaste<CR>O# @!visibility private<Esc>0jw
-nmap <silent> ,Cvp ,cVP
-nmap <silent> ,cVp ,cVP
-nmap <silent> ,cvP ,cVP
-nmap <silent> ,cvp j,cVP
-" comment line joining
-nmap <silent> ,cj Jd/#<CR>xd/[^ ]<CR>i <Esc>l
-nmap <silent> ,cJ k,cj
-
-"-----------------------------------------------------------------
-" Markdown macros
-nmap ,mdd a ![Done](done.png)<Esc>
-nmap ,mdD $,mdd
-nmap ,md- Yp:s/./-/g<CR>o<Esc>
-nmap ,md= Yp:s/./=/g<CR>o<Esc>
-
-"-----------------------------------------------------------------
 " Navigation macros
 " alt + up/down/left/right
 nmap [1;3A <C-W>k
@@ -189,12 +120,94 @@ imap [1;3C <Esc>[1;3C
 imap [1;3D <Esc>[1;3D
 
 "-----------------------------------------------------------------
+" Ruby macros
+" RSpec macros
+execute 'source '.g:golly_rc_assets.'vim-functions.vim'
+
+" ,r[dD] - New describe
+au filetype ruby nmap ,rD :set nopaste<CR>O<CR>describe " do<CR>end<Esc>kf"s
+au filetype ruby nmap ,rd j,rD
+" ,r[cC] - New context
+au filetype ruby nmap ,rC :set nopaste<CR>O<CR>context "" do<CR>end<Esc>kf"a
+au filetype ruby nmap ,rc j,rC
+" ,r[iI] - New test (with impl)
+au filetype ruby nmap <silent> ,rI :set nopaste<CR>O}<Esc>Oit(""){<Esc>hhi
+au filetype ruby nmap <silent> ,ri j,rI
+" ,r[pP] - New test (pending)
+au filetype ruby nmap <silent> ,rP :set nopaste<CR>Oit("")<Esc>hi
+au filetype ruby nmap <silent> ,rp j,rP
+" ,rx - Expand pending test
+au filetype ruby nmap <silent> ,rx :set nopaste<CR>A{<Esc>o}<CR><Esc>kO
+" ,r[baA][ea] - before/after/around each/all blocks
+au filetype ruby nmap <silent> ,rbe :set nopaste<CR>o}<Esc>Obefore(:each){<Esc>o
+au filetype ruby nmap <silent> ,rba :set nopaste<CR>o}<Esc>Obefore(:all){<Esc>o
+au filetype ruby nmap <silent> ,rae :set nopaste<CR>o}<Esc>Oafter(:each){<Esc>o
+au filetype ruby nmap <silent> ,raa :set nopaste<CR>o}<Esc>Oafter(:all){<Esc>o
+au filetype ruby nmap <silent> ,rA :set nopaste<CR>o}<Esc>Oaround(:each){\|ex\|<Esc>o
+" ,rce - Class eval
+au filetype ruby nmap ,rce :set nopaste<CR>oclass_eval <<-EOB<CR>EOB<Esc>O<Space><Space>
+au filetype ruby nmap <silent> ,rg :call JumpImplTest()<CR>
+
+" ,s splits line so that cursor becomes the beginning of the next line (and whitespace around cursor is removed)
+au filetype ruby nmap <silent> ,s :set nohlsearch<BAR>:set nopaste<CR>i<CR><Esc>k:s/[ \t;]*$//<CR>jw
+" ,S expands a line like "def asd; <cursor here> abc(123); end" into 3 lines
+au filetype ruby nmap <silent> ,S ,s$b,skkw
+
+"-----------------------------------------------------------------
+" Comment macros
+"
+" code seperation comments
+au filetype ruby,sh,yaml nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O#----------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
+au filetype dot,c        nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O//---------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
+nmap <silent> ,c- j,C-0kkw
+" method doco
+au filetype ruby nmap <silent> ,cD :set nopaste<CR>O#<CR><CR> @param <CR>@return <Esc>kkkA<SPACE>
+au filetype ruby nmap <silent> ,Cd ,cD
+au filetype ruby nmap <silent> ,cd j,cD
+" @!visibility private declarations
+au filetype ruby nmap <silent> ,cVP :set nopaste<CR>O# @!visibility private<Esc>0jw
+au filetype ruby nmap <silent> ,Cvp ,cVP
+au filetype ruby nmap <silent> ,cVp ,cVP
+au filetype ruby nmap <silent> ,cvP ,cVP
+au filetype ruby nmap <silent> ,cvp j,cVP
+" comment line joining
+au filetype ruby nmap <silent> ,cj Jd/#<CR>xd/[^ ]<CR>i <Esc>l
+au filetype ruby nmap <silent> ,cJ k,cj
+
+" CTRL-/ adds comments
+au filetype ruby,sh,yaml map  <silent>  :s/^\(\s*.\)/#\1/<CR>:set nohlsearch<CR>
+au filetype vim          map  <silent>  :s/^\(\s*\)\("\s*\)\?/\1" /<CR>:set nohlsearch<CR>
+au filetype dot,c        map  <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
+imap <silent>  <Esc>w
+
+" CTRL-\ removes comments
+"au filetype ruby,sh,yaml map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>:set nohlsearch<CR>
+au filetype ruby,sh,yaml map  <silent>  :s/^\(\s*\)#\s*/\1/<CR>:set nohlsearch<CR>
+au filetype vim          map  <silent>  :s/^\(\s*\)"\s*/\1/<CR>:set nohlsearch<CR>
+au filetype dot,c        map  <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
+imap <silent>  <C-O>
+
+"-----------------------------------------------------------------
+" Markdown macros
+au filetype markdown nmap ,mdd a ![Done](done.png)<Esc>
+au filetype markdown nmap ,mdD $,mdd
+au filetype markdown nmap ,md- Yp:s/./-/g<CR>o<Esc>
+au filetype markdown nmap ,md= Yp:s/./=/g<CR>o<Esc>
+
+"-----------------------------------------------------------------
 " Graphviz
-au filetype dot nmap ,gd :w<CR>:!dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gn :w<CR>:!neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gf :w<CR>:!fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gs :w<CR>:!sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gt :w<CR>:!twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gc :w<CR>:!circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gd :w<CR>:silent !dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gd :w<CR>:silent !dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gn :w<CR>:silent !neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gf :w<CR>:silent !fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gs :w<CR>:silent !sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gt :w<CR>:silent !twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gc :w<CR>:silent !circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gD :w<CR>:!dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gN :w<CR>:!neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gF :w<CR>:!fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gS :w<CR>:!sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gT :w<CR>:!twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gC :w<CR>:!circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
 au filetype dot nmap ,al A [label=""]<Esc>hi
 
