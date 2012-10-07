@@ -19,6 +19,7 @@
 /etc/cups/ppd/Canon-MX885.ppd
 /etc/cups/printers.conf
 /etc/fstab
+/etc/hosts
 /etc/httpd/conf/httpd.conf
 /etc/httpd/conf/mime.types
 /etc/i8kutils/i8kmon.conf
@@ -28,6 +29,7 @@
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
 /etc/modprobe.d/nobeep.conf
+/etc/modules-load.d/
 /etc/ntp.conf
 /etc/php/php.ini
 /etc/postfix/main.cf
@@ -35,6 +37,7 @@
 /etc/rc.conf
 /etc/rc.local
 /etc/resolv.conf
+/etc/vconsole.conf
 /etc/X11/xorg.conf
 /etc/X11/xorg.conf.d/10-monitor.conf
 /etc/X11/xorg.conf.d/20-intel.conf

@@ -27,13 +27,18 @@ while read f; do
     echo " ... not found, skipping"
   else
     echo
-    mkdir -p "$(dirname "$t")" \
-      && cp --dereference --preserve=mode,timestamps "$f" "$t" \
-      && (
-        # Remove troublesome and/or sensitive data
-        [[ "$f" =~ smplayer.ini ]] && sed -i '/^item_/d' "$t"
-        true
-      )
+    if [ -d "$f" ]; then
+      mkdir -p "$t" \
+        && cp --dereference --preserve=mode,timestamps -r "$f/." "$t/."
+    else
+      mkdir -p "$(dirname "$t")" \
+        && cp --dereference --preserve=mode,timestamps "$f" "$t" \
+        && (
+          # Remove troublesome and/or sensitive data
+          [[ "$f" =~ smplayer.ini ]] && sed -i '/^item_/d' "$t"
+          true
+        )
+      fi
   fi || ((errs++))
 done
 [ $errs -gt 0 ] && echo "$errs errors detected. Aborting." && exit 3
