@@ -32,6 +32,7 @@ au BufNewFile,BufRead *.gv            set filetype=dot
 au filetype ruby,yaml,sh              setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
 au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=80 colorcolumn=81
 au filetype dot                       setlocal ts=2 sw=2 expandtab
+au filetype css,scss                  setlocal ts=2 sw=2 expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
@@ -157,8 +158,8 @@ au filetype ruby nmap <silent> ,S ,s$b,skkw
 " Comment macros
 "
 " code seperation comments
-au filetype ruby,sh,yaml nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O#----------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
-au filetype dot,c        nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O//---------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
+au filetype ruby,sh,yaml                  nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O#----------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
+au filetype dot,javascript,cpp,c,css,scss nmap <silent> ,C- :set paste<CR>O<Esc>:set nopaste<CR>O//---------------------------------------------------------------------------------------------------------------------------<Esc>0120lD0jjw
 nmap <silent> ,c- j,C-0kkw
 " method doco
 au filetype ruby nmap <silent> ,cD :set nopaste<CR>O#<CR><CR> @param <CR>@return <Esc>kkkA<SPACE>
@@ -175,16 +176,16 @@ au filetype ruby nmap <silent> ,cj Jd/#<CR>xd/[^ ]<CR>i <Esc>l
 au filetype ruby nmap <silent> ,cJ k,cj
 
 " CTRL-/ adds comments
-au filetype ruby,sh,yaml   map <silent>  :s/^\(\s*.\)/#\1/<CR>:set nohlsearch<CR>
-au filetype vim            map <silent>  :s/^\(\s*\)\("\s*\)\?/\1" /<CR>:set nohlsearch<CR>
-au filetype dot,javascript map <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
+au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*.\)/#\1/<CR>:set nohlsearch<CR>
+au filetype vim                           map <silent>  :s/^\(\s*\)\("\s*\)\?/\1" /<CR>:set nohlsearch<CR>
+au filetype dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
 imap <silent>  <Esc>w
 
 " CTRL-\ removes comments
 "au filetype ruby,sh,yaml map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>:set nohlsearch<CR>
-au filetype ruby,sh,yaml   map <silent>  :s/^\(\s*\)#\s*/\1/<CR>:set nohlsearch<CR>
-au filetype vim            map <silent>  :s/^\(\s*\)"\s*/\1/<CR>:set nohlsearch<CR>
-au filetype dot,javascript map <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
+au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*\)#\s*/\1/<CR>:set nohlsearch<CR>
+au filetype vim                           map <silent>  :s/^\(\s*\)"\s*/\1/<CR>:set nohlsearch<CR>
+au filetype dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
 imap <silent>  <C-O>
 
 "-----------------------------------------------------------------
