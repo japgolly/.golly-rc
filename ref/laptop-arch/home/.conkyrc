@@ -337,8 +337,8 @@ xftalpha 0.9
 #xftfont sans-serif:normal:size=8
 xftfont monospace:size=8
 
-color1 d8d800     # Section titles
-color2 6495ed     # Keys
+color1 A347D1     # Section titles
+color2 4d84ea     # Keys
 #color2 5b6dad    # Keys
 color3 f2f2f2     # Values
 color4 808080     # bars
