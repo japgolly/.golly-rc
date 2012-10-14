@@ -9,8 +9,6 @@
 ~/.colordiffrc
 ~/.cups/lpoptions
 ~/.gconf/apps/gnome-terminal/global/%gconf.xml
-~/.gconf/apps/gnome-terminal/profiles/Profile0/%gconf.xml
-~/.gconf/apps/gnome-terminal/profiles/Profile1/%gconf.xml
 /etc/adobe/mms.cfg
 /etc/conf.d/cpufreq
 /etc/conf.d/cpupower
