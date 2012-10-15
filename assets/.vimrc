@@ -46,7 +46,7 @@ colorscheme vibrantink
 "autocmd BufEnter * if match(@%:p,'.*/test/.*')>=0 | colorscheme autumnleaf | end
 "au BufEnter * if match(expand('%:p'),'.*/test/.*')>=0 | colorscheme autumnleaf | CSApprox | end
 au filetype yaml                      colorscheme dante | CSApprox
-au filetype markdown                  colorscheme desert256 | CSApprox
+au filetype markdown                  colorscheme fruity | CSApprox
 au filetype dot                       colorscheme pablo | CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
