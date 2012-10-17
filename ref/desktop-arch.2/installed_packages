@@ -132,11 +132,13 @@ sysvinit-tools 2.88-9
 tar 1.26-2
 texinfo 4.13a-7
 tzdata 2012f-1
+unzip 6.0-6
 usbutils 006-1
 util-linux 2.22.1-1
 vi 1:050325-2
 vim 7.3.661-1
 vim-runtime 7.3.661-1
+wget 1.14-1
 which 2.20-5
 xfsprogs 3.1.8-2
 xz 5.0.4-1

@@ -34,6 +34,8 @@
 /etc/rc.conf
 /etc/rc.local
 /etc/resolv.conf
+/etc/sysctl.conf
+/etc/udev/rules.d/
 /etc/vconsole.conf
 /etc/X11/xorg.conf
 /etc/X11/xorg.conf.d/10-monitor.conf
