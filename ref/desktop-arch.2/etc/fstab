@@ -1,15 +1,13 @@
 # 
 # /etc/fstab: static file system information
 #
-# <file system>	<dir>	<type>	<options>	<dump>	<pass>
-tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
+# <file system>	<dir>	<type>	<options>			<dump>	<pass>
 
-# UUID=03fa6f3a-d754-4308-9855-75273e07b51a
-/dev/sda1           	/         	ext4      	rw,relatime,discard 0 1
+/dev/sda1	/	ext4	rw,relatime,discard 		0 1
+/dev/sda2	/home	ext4	rw,relatime,discard 		0 2
+/dev/sda5	none	swap	defaults,relatime,discard  	0 0
+tmpfs		/tmp	tmpfs	nodev,nosuid			0 0
 
-# UUID=652c254e-609e-45f5-9fde-89ca22893a60
-/dev/sda2           	/home     	ext4      	rw,relatime,discard 0 2
-
-# UUID=019262d0-a87e-4611-8dfc-5f19d25ad37d
-/dev/sda5           	none      	swap      	defaults,relatime,discard  	0 0
-
+# 1 UUID=03fa6f3a-d754-4308-9855-75273e07b51a
+# 2 UUID=652c254e-609e-45f5-9fde-89ca22893a60
+# 5 UUID=019262d0-a87e-4611-8dfc-5f19d25ad37d
