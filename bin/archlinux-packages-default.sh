@@ -33,7 +33,7 @@
   cairo-dock-plug-ins cairo-dock-themes calibre chromium cifs-utils clementine \
   ffmpeg firefox flac flashplugin gimp icedtea-web-java7 imagemagick libdvdread \
   libyaml nautilus-actions nautilus-open-terminal nautilus-sendto sqlite3 \
-  startup-notification taglib \
+  startup-notification taglib xfdesktop \
   abs ccsm fbset kdesdk-kcachegrind mythes-en notify-sharp rlwrap strace unetbootin \
   xorg-xcmsdb xorg-xgamma xorg-xmodmap
 
