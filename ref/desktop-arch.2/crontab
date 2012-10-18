@@ -1,0 +1,13 @@
+# * * * * *      command to be executed
+# - - - - -
+# | | | | |
+# | | | | +----- day of week (0 - 6) (Sunday=0)
+# | | | +------- month (1 - 12)
+# | | +--------- day of month (1 - 31)
+# | +----------- hour (0 - 23)
+# +------------- min (0 - 59)
+
+
+0 10,16,22 * * * cd /home/golly/db_backups && ./backup.sh >cron.out 2>cron.err
+0 12       * * * find /home/golly/Downloads -maxdepth 1 -type f -mtime +7 -name '*.torrent' -exec rm {} +
+

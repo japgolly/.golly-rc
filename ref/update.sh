@@ -57,6 +57,9 @@ esac
 # User info
 groups > groups
 
+# Crontab
+crontab -l > crontab
+
 # Git
 git add -AN -- .
 git st -- .

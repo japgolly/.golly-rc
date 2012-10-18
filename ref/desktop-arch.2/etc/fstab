@@ -2,14 +2,19 @@
 # /etc/fstab: static file system information
 #
 # <file system>	<dir>	<type>	<options>			<dump>	<pass>
+# 1 UUID=03fa6f3a-d754-4308-9855-75273e07b51a
+# 2 UUID=652c254e-609e-45f5-9fde-89ca22893a60
+# 5 UUID=019262d0-a87e-4611-8dfc-5f19d25ad37d
 
 /dev/sda1	/	ext4	rw,relatime,discard 		0 1
 /dev/sda2	/home	ext4	rw,relatime,discard 		0 2
 /dev/sda5	none	swap	defaults,relatime,discard  	0 0
 tmpfs		/tmp	tmpfs	nodev,nosuid			0 0
 
-# 1 UUID=03fa6f3a-d754-4308-9855-75273e07b51a
-# 2 UUID=652c254e-609e-45f5-9fde-89ca22893a60
-# 5 UUID=019262d0-a87e-4611-8dfc-5f19d25ad37d
-
 /dev/sdb4	/mnt/old_arch ext4 defaults 0 2
+
+#/dev/sdc1: LABEL="Local (1.5TB)" UUID="86B25A2AB25A1F4D" TYPE="ntfs"
+UUID=86B25A2AB25A1F4D /mnt/d ntfs rw,nosuid,nodev,allow_other,default_permissions,locale=en_US.utf8 0 0
+
+#nas:/volume1/public /mnt/nas/public nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
+//nas/public /mnt/nas cifs auto,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlm,credentials=/etc/cifspwd,iocharset=utf8 0 0
