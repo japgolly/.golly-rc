@@ -35,6 +35,7 @@
   libyaml nautilus-actions nautilus-open-terminal nautilus-sendto sqlite3 \
   startup-notification taglib xfdesktop \
   abs ccsm fbset kdesdk-kcachegrind mythes-en notify-sharp rlwrap strace unetbootin \
-  xorg-xcmsdb xorg-xgamma xorg-xmodmap
+  xorg-xcmsdb xorg-xgamma xorg-xmodmap \
+  tumbler poppler-glib
 
  sudo usermod -a -G vboxusers golly
