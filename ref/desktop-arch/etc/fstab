@@ -11,10 +11,9 @@
 /dev/sda5	none	swap	defaults,relatime,discard  	0 0
 tmpfs		/tmp	tmpfs	nodev,nosuid			0 0
 
-/dev/sdb4	/mnt/old_arch ext4 defaults 0 2
-
-#/dev/sdc1: LABEL="Local (1.5TB)" UUID="86B25A2AB25A1F4D" TYPE="ntfs"
-UUID=86B25A2AB25A1F4D /mnt/d ntfs rw,nosuid,nodev,allow_other,default_permissions,locale=en_US.utf8 0 0
+UUID=86B25A2AB25A1F4D				/mnt/d		ntfs rw,nosuid,nodev,allow_other,default_permissions,locale=en_US.utf8 0 3
+UUID=2cf7d701-e390-425f-8334-ba10a5ce618f	/mnt/old_arch	ext4 defaults,ro 0 3
 
 #nas:/volume1/public /mnt/nas/public nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
-//nas/public /mnt/nas cifs auto,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlm,credentials=/etc/cifspwd,iocharset=utf8 0 0
+#//nas/public /mnt/nas cifs auto,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlm,credentials=/etc/cifspwd,iocharset=utf8 0 0
+//nas/public /mnt/nas cifs noauto,x-systemd.automount,user,uid=golly,gid=users,rw,suid,sec=ntlm,credentials=/etc/cifspwd,iocharset=utf8 0 3
