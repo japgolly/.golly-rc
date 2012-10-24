@@ -25,3 +25,5 @@
 [color "diff"]
 	meta = yellow bold
 
+[push]
+	default = upstream
