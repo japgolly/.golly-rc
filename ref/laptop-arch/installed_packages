@@ -386,6 +386,7 @@ libreoffice-calc 3.6.2-3
 libreoffice-common 3.6.2-3
 libreoffice-en-GB 3.6.2-1
 libreoffice-writer 3.6.2-3
+librpcsecgss 0.19-7
 librsvg 2.36.3-1
 libsamplerate 0.1.8-1
 libsasl 2.1.23-9
@@ -528,6 +529,8 @@ netcfg 3.0-1
 nettle 2.5-1
 network-manager-applet 0.9.6.2-1
 networkmanager 0.9.6.0-2
+nfs-utils 1.2.6-2
+nfsidmap 0.25-1
 nixnote 1.333-1
 notification-daemon 0.7.6-1
 nspr 4.9.2-1
@@ -652,6 +655,7 @@ reiserfsprogs 3.6.21-4
 renderproto 0.11.1-2
 rest 0.7.12-1
 rlwrap 0.37-2
+rpcbind 0.2.0-9
 rsync 3.0.9-5
 rtkit 0.11-1
 rtmpdump 2.4-1
