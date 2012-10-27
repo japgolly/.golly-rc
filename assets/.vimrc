@@ -48,6 +48,7 @@ colorscheme vibrantink
 au filetype yaml                      colorscheme dante | CSApprox
 au filetype markdown                  colorscheme fruity | CSApprox
 au filetype dot                       colorscheme pablo | CSApprox
+au filetype diff                      colorscheme jellybeans | CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces
