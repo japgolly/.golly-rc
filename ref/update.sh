@@ -35,7 +35,10 @@ while read f; do
         && cp --dereference --preserve=mode,timestamps "$f" "$t" \
         && (
           # Remove troublesome and/or sensitive data
-          [[ "$f" =~ smplayer.ini ]] && sed -i '/^\(item_.*\|volume\|pos\|size\|latest_dir\)=/d' "$t"
+          [[ "$f" =~ smplayer.ini ]] && sed -i '
+            /^\(item_.*\|volume\|pos\|size\|latest_dir\|toolbars_state\)=/d;
+            /^\(mute\|shuffle\|repeat\)=\(true\|false\)/d;
+            ' "$t"
           true
         )
       fi
