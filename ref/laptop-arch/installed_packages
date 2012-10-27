@@ -26,7 +26,7 @@ awoken-icons 2.4-1
 bash 4.2.037-1
 bash-completion 2.0-2
 binutils 2.22-10
-bison 2.6.2-1
+bison 2.6.4-1
 bluez 4.101-1
 boost-libs 1.50.0-2
 bzip2 1.0.6-4
@@ -37,7 +37,7 @@ cairo-dock 3.0.2-0
 cairo-dock-plug-ins 3.0.2-0
 cairo-dock-themes 1.6.3.1-2
 cairomm 1.10.0-2
-calibre 0.9.3-2
+calibre 0.9.4-1
 ccsm 0.8.4-3
 cdparanoia 10.2-4
 cheese 3.4.2-1
@@ -65,11 +65,11 @@ compizconfig-python 0.8.4-4
 compositeproto 0.4.2-2
 conky 1.9.0-1
 consolekit 0.4.6-4
-coreutils 8.19-1
+coreutils 8.20-1
 cpupower 3.6-1
 cracklib 2.8.19-1
 cronie 1.4.8-3
-cryptsetup 1.5.0-2
+cryptsetup 1.5.1-1
 cups-pk-helper 0.2.4-1
 curl 7.28.0-1
 damageproto 1.2.1-2
@@ -79,7 +79,7 @@ dbus-core 1.6.8-1
 dbus-glib 0.100-1
 dconf 0.12.1-2
 desktop-file-utils 0.20-1
-device-mapper 2.02.97-1
+device-mapper 2.02.98-1
 dhcpcd 5.6.2-1
 diffutils 3.2-1
 dirmngr 1.1.0-4
@@ -477,7 +477,7 @@ logrotate 3.8.2-1
 lpsolve 5.5.2.0-2
 lsof 4.86-1
 lua 5.1.5-2
-lvm2 2.02.97-1
+lvm2 2.02.98-1
 lxappearance 0.5.2-1
 lxde-common 0.5.5-2
 lxde-icon-theme 0.5.0-1
@@ -502,7 +502,7 @@ mesa-demos 8.0.1-2
 metacity 2.34.8-1
 mime-types 8-1
 mjpegtools 2.0.0-2
-mkinitcpio 0.10-1
+mkinitcpio 0.11.0-1
 mkinitcpio-busybox 1.20.2-1
 mobile-broadband-provider-info 20120614-1
 mono 2.10.8-2
@@ -692,7 +692,7 @@ swi-prolog 6.2.1-1
 swt 4.2-2
 sysfsutils 2.1.0-8
 syslog-ng 3.3.6-3
-systemd 194-4
+systemd 195-2
 sysvinit 2.88-9
 sysvinit-tools 2.88-9
 t1lib 5.1.2-3
@@ -738,7 +738,7 @@ vte-common 0.32.2-1
 vte3 0.32.2-1
 wavpack 4.60.1-2
 webrtc-audio-processing 0.1-1
-wget 1.14-1
+wget 1.14-2
 which 2.20-5
 wildmidi 0.2.3.5-2
 wireless_tools 29-7
