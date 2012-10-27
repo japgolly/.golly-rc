@@ -548,7 +548,7 @@ metacity 2.34.8-1
 mime-types 8-1
 mirage 0.9.5.2-1
 mjpegtools 2.0.0-2
-mkinitcpio 0.10-1
+mkinitcpio 0.11.0-1
 mkinitcpio-busybox 1.20.2-1
 mobile-broadband-provider-info 20120614-1
 mono 2.10.8-2
@@ -808,7 +808,7 @@ vte-common 0.32.2-1
 vte3 0.32.2-1
 wavpack 4.60.1-2
 webrtc-audio-processing 0.1-1
-wget 1.14-1
+wget 1.14-2
 which 2.20-5
 wildmidi 0.2.3.5-2
 wine 1.5.15-1
