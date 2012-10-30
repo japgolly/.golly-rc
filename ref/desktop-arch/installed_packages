@@ -9,6 +9,7 @@ alsa-oss 1.0.25-1
 alsa-plugins 1.0.26-1
 alsa-tools 1.0.26.1-1
 alsa-utils 1.0.26-1
+amarok 2.6.0-1
 android-sdk r20.0.3-2
 android-sdk-platform-tools r14-1
 android-udev 1.3-5
@@ -29,6 +30,7 @@ automake 1.12.4-1
 avahi 0.6.31-4
 awoken-icons 2.4-1
 babl 0.1.10-1
+baobab 3.4.1-2
 bash 4.2.037-1
 bc 1.06-8
 binutils 2.22-10
@@ -422,6 +424,7 @@ libmpcdec 1.2.6-3
 libmpd 11.8.17-1
 libmpeg2 0.5.1-3
 libmtp 1.1.5-1
+libmysqlclient 5.5.28-1
 libnewt 0.52.12-4
 libnice 0.1.2-1
 libnl 3.2.11-1
@@ -562,6 +565,8 @@ mtdev 1.1.3-1
 mtools 4.0.17-2
 musicbrainz 2.1.5-5
 mutagen 1.20-4
+mysql 5.5.28-1
+mysql-clients 5.5.28-1
 mythes-en 20060306-2
 nano 2.2.6-2
 nautilus 3.4.2-1
@@ -609,7 +614,7 @@ otf-ipafont 003.03-2
 oxygen-icons 4.9.2-1
 p11-kit 0.13-1
 p7zip 9.20.1-6
-package-query 1.1-1
+package-query 1.1-2
 pacman 4.0.3-3
 pacman-mirrorlist 20120908-1
 pam 1.1.6-1
@@ -639,6 +644,7 @@ pinentry 0.8.2-1
 pixman 0.26.2-1
 pkg-config 0.27.1-1
 pkgstats 2.3-2
+plantuml 7933-1
 pm-quirks 0.20100619-2
 pm-utils 1.4.1-5
 podofo 0.9.1-3
@@ -697,6 +703,7 @@ qca 2.0.3-2
 qca-ossl 2.0.0-4
 qjson 0.7.1-2
 qt 4.8.3-4
+qtscriptgenerator 0.2.0-1
 qtwebkit 2.2.2-1
 randrproto 1.4.0-1
 raptor 2.0.8-1
@@ -753,6 +760,7 @@ systemd 195-2
 systemd-sysvcompat 195-2
 sysvinit-tools 2.88-9
 taglib 1.8-1
+taglib-extras 1.0.1-2
 talloc 2.0.7-1
 tar 1.26-2
 tdb 1.2.10-1
@@ -894,7 +902,7 @@ xterm 285-1
 xvidcore 1.3.2-1
 xz 5.0.4-1
 yajl 2.0.4-1
-yaourt 1.1-1
+yaourt 1.2-1
 zenity 3.4.0-1
 zip 3.0-3
 zlib 1.2.7-1
