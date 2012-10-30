@@ -49,6 +49,7 @@ au filetype yaml                      colorscheme dante | CSApprox
 au filetype markdown                  colorscheme fruity | CSApprox
 au filetype dot                       colorscheme pablo | CSApprox
 au filetype diff                      colorscheme jellybeans | CSApprox
+au filetype xml                       colorscheme leo | CSApprox
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces
