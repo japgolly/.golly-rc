@@ -1,4 +1,4 @@
- yaourt -Sy --needed --noconfirm -- \
+yaourt -Sy --needed --noconfirm -- \
   abs \
   acroread \
   alsa-lib \
@@ -6,7 +6,6 @@
   alsa-plugins \
   alsa-tools \
   alsa-utils \
-  apache-ant \
   aspell \
   aspell-en \
   awoken-icons \
@@ -47,8 +46,6 @@
   flashplugin \
   fusion-icon \
   gcalctool \
-  gcc-go \
-  gdb \
   gimp \
   git \
   git-cola \
@@ -56,10 +53,8 @@
   gnome-terminal \
   gnome-themes-extras \
   gnome-themes-standard \
-  go \
   gpart \
   gparted \
-  graphviz \
   gstreamer0.10 \
   gstreamer0.10-bad \
   gstreamer0.10-bad-plugins \
@@ -88,8 +83,8 @@
   hyphen \
   hyphen-en \
   icedtea-web-java7 \
+  iftop \
   imagemagick \
-  jdk7-openjdk \
   jre7-openjdk \
   jre7-openjdk-headless \
   kdesdk-kcachegrind \
@@ -117,7 +112,6 @@
   lm_sensors \
   lsof \
   lua \
-  maven \
   mesa \
   metacity \
   mime-types \
@@ -135,7 +129,6 @@
   notify-sharp \
   ntfs-3g \
   ntfsprogs \
-  openjdk7-src \
   oxygen-icons \
   p7zip \
   partimage \
@@ -150,11 +143,9 @@
   rsync \
   sensors-applet \
   shared-color-profiles \
-  sloccount \
   smpeg \
   smplayer \
   soundtouch \
-  sqlite3 \
   startup-notification \
   strace \
   sudo \
