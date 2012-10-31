@@ -1,0 +1,10 @@
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>		<type>		<options>		<dump>	<pass>
+tmpfs		/tmp		tmpfs		nodev,nosuid		0 0
+/dev/sda1	/boot/efi 	vfat		rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
+/dev/sda2	/         	ext4		defaults,relatime	0 1
+/dev/sda3	/var      	ext4		defaults,relatime	0 2
+/dev/sda4	/home     	ext4		defaults,relatime	0 2
+/dev/sda5	none		swap		defaults		0 0
+
