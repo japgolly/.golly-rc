@@ -199,6 +199,7 @@ ncurses 5.9-3
 neon 0.29.6-4
 netcfg 3.0-1
 nettle 2.5-1
+nexus2 2.2-1
 nspr 4.9.3-1
 nss 3.14-1
 nss-myhostname 0.3-3
@@ -267,6 +268,7 @@ util-linux 2.22.1-2
 vi 1:050325-2
 vim 7.3.712-1
 vim-runtime 7.3.712-1
+vim-systemd 20110915-1
 wget 1.14-2
 which 2.20-5
 xcb-proto 1.8-1
