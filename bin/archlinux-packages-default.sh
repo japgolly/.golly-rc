@@ -74,6 +74,7 @@ yaourt -Sy --needed --noconfirm -- \
   gtkglext \
   gtkspell \
   hddtemp \
+  hdparm \
   hicolor-icon-theme \
   hspell \
   htop \

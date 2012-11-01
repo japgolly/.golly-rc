@@ -12,6 +12,7 @@
   git \
   graphviz \
   hddtemp \
+  hdparm \
   hspell \
   htop \
   hunspell \
