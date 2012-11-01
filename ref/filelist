@@ -8,6 +8,7 @@
 ~/.conkyrc
 ~/.colordiffrc
 ~/.cups/lpoptions
+~/.m2/settings.xml
 /etc/adobe/mms.cfg
 /etc/conf.d/cpufreq
 /etc/conf.d/cpupower
