@@ -729,6 +729,7 @@ recode 3.6-7
 recordproto 1.14.2-1
 redland 1:1.0.15-3
 redland-storage-virtuoso 1:1.0.15-3
+redshift 1.7-4
 reiserfsprogs 3.6.21-4
 renderproto 0.11.1-2
 rest 0.7.90-1

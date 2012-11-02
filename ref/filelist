@@ -9,6 +9,7 @@
 ~/.colordiffrc
 ~/.cups/lpoptions
 ~/.m2/settings.xml
+~/.xinitrc
 /etc/adobe/mms.cfg
 /etc/conf.d/cpufreq
 /etc/conf.d/cpupower
