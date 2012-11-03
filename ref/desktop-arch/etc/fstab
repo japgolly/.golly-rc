@@ -11,7 +11,7 @@
 /dev/sda5	none	swap	defaults,relatime,discard  	0 0
 tmpfs		/tmp	tmpfs	nodev,nosuid			0 0
 
-UUID=2cf7d701-e390-425f-8334-ba10a5ce618f	/mnt/old_arch	ext4 defaults,ro 0 3
+UUID=2cf7d701-e390-425f-8334-ba10a5ce618f	/mnt/old_arch	ext4 defaults,ro,noauto 0 3
 
 nas:/volume1/public		/mnt/nas/public	nfs	noauto,x-systemd.automount,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 3
 nas:/volume1/homes/golly	/mnt/nas/golly	nfs	noauto,x-systemd.automount,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 3
