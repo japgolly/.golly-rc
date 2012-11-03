@@ -37,6 +37,7 @@
 /etc/rc.local
 /etc/resolv.conf
 /etc/sysctl.conf
+/etc/systemd/system/
 /etc/udev/rules.d/
 /etc/vconsole.conf
 /etc/X11/xorg.conf
