@@ -24,6 +24,7 @@ alias Vim=vim
 alias view='vim -R'
 alias sharedrc="vim ~/.golly-rc/assets/shell.rc-shared && echo Reloading... && . ~/.${SHELL}rc"
 alias golrc='pushd ~/.golly-rc'
+alias ssc='sudo systemctl'
 
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
