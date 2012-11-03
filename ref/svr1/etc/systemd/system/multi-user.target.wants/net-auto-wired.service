@@ -1,0 +1,10 @@
+[Unit]
+Description=Provides automatic netcfg wired connection
+
+[Service]
+EnvironmentFile=/etc/conf.d/netcfg
+ExecStart=/usr/bin/ifplugd -i $WIRED_INTERFACE -r /etc/ifplugd/netcfg.action -fIns
+ExecStop=/usr/bin/netcfg iface-down $WIRED_INTERFACE
+
+[Install]
+WantedBy=multi-user.target
