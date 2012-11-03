@@ -733,6 +733,7 @@ redshift 1.7-4
 reiserfsprogs 3.6.21-4
 renderproto 0.11.1-2
 rest 0.7.90-1
+rfkill 0.4-5
 rlwrap 0.37-2
 rpcbind 0.2.0-9
 rsync 3.0.9-5
@@ -754,6 +755,7 @@ shared-mime-info 1.0-1
 sip 4.14-2
 slang 2.2.4-2
 sloccount 2.26-6
+smartmontools 6.0-1
 smbclient 3.6.9-1
 smpeg 0.4.4-7
 smplayer 0.8.1-1
@@ -785,6 +787,7 @@ terminal 0.4.8-2
 terminus-font-ttf 4.38-1
 texinfo 4.13a-7
 thunar 1.4.0-2
+tlp 0.3.7.1-1
 traceroute 2.0.18-1
 ttf-adobe-fonts 10.1.2-1
 ttf-anonymous-pro 1.002-1

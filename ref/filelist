@@ -17,6 +17,7 @@
 /etc/conf.d/netcfg
 /etc/cups/ppd/Canon-MX885.ppd
 /etc/cups/printers.conf
+/etc/default/tlp
 /etc/fstab
 /etc/hosts
 /etc/httpd/conf/httpd.conf
