@@ -1,0 +1,14 @@
+[Unit]
+Description=Nexus OSS Artifact Repository
+
+[Service]
+Type=forking
+EnvironmentFile=-/etc/conf.d/nexus
+ExecStart=/opt/nexus/bin/nexus start
+ExecStop=/opt/nexus/bin/nexus stop
+ExecReload=/opt/nexus/bin/nexus restart
+PIDFile=/opt/nexus/run/nexus.pid
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,13 @@
+[Unit]
+Description=Gitlab Resque Worker
+Requires=redis.service
+After=redis.service
+Wants=postfix.service postgresql.service
+
+[Service]
+Type=forking
+User=gitlab
+WorkingDirectory=/home/gitlab/gitlab
+ExecStart=/bin/bash -c '. ~/.bashrc; . ./resque.sh'
+ExecStopPost=/usr/bin/rm /home/gitlab/gitlab/tmp/pids/resque_worker.pid
+PIDFile=/home/gitlab/gitlab/tmp/pids/resque_worker.pid
