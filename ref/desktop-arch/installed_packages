@@ -673,6 +673,7 @@ popt 1.16-5
 postgresql 9.2.1-2
 postgresql-libs 9.2.1-2
 postgresql-old-upgrade 9.1.6-1
+powertop 2.1.1-1
 ppl 1.0-1
 ppp 2.4.5-5
 procps-ng 3.3.5-1
