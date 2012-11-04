@@ -70,7 +70,7 @@ DISK_SPINDOWN_TIMEOUT_ON_AC="0 180"
  
 # SATA aggressive link power management (ALPM):
 # min_power/medium_power/max_performance
-SATA_LINKPWR_ON_AC=medium_power
+SATA_LINKPWR_ON_AC=max_performance
 #SATA_LINKPWR_ON_BAT=min_power
 
 # PCI Express Active State Power Management (PCIe ASPM):
