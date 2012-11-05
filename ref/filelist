@@ -28,7 +28,7 @@
 /etc/locale.conf
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
-/etc/modprobe.d/nobeep.conf
+/etc/modprobe.d/
 /etc/modules-load.d/
 /etc/ntp.conf
 /etc/php/php.ini
