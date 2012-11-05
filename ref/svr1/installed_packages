@@ -129,6 +129,7 @@ libdatrie 0.2.5-1
 libdrm 2.4.39-1
 libedit 20120601_3.0-1
 libffi 3.0.11-1
+libfontenc 1.1.1-1
 libgcrypt 1.5.0-3
 libgl 9.0-1
 libglapi 9.0-1
@@ -291,6 +292,7 @@ tinycdb 0.78-1
 tk 8.5.12-1
 tlp 0.3.7.1-1
 traceroute 2.0.18-1
+ttf-dejavu 2.33-3
 tzdata 2012h-1
 unace 2.5-7
 unixodbc 2.3.1-1
@@ -313,6 +315,9 @@ xextproto 7.2.1-1
 xf86vidmodeproto 2.3.1-2
 xfsprogs 3.1.8-2
 xineramaproto 1.2.1-2
+xorg-fonts-encodings 1.0.4-3
+xorg-mkfontdir 1.0.7-1
+xorg-mkfontscale 1.1.0-1
 xorg-xset 1.2.2-1
 xproto 7.0.23-1
 xz 5.0.4-1
