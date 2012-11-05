@@ -30,6 +30,7 @@ damageproto 1.2.1-2
 db 5.3.21-1
 dbus 1.6.8-1
 dbus-core 1.6.8-1
+dbus-glib 0.100-1
 device-mapper 2.02.98-1
 dhcpcd 5.6.2-1
 diffutils 3.2-1
@@ -106,6 +107,7 @@ jfsutils 1.1.15-3
 jre6-compat 6u37-b06
 jre7-openjdk 7.u9_2.3.3-1
 jre7-openjdk-headless 7.u9_2.3.3-1
+js 1.8.5-3
 kbd 1.15.3-3
 kbproto 1.0.6-1
 keyutils 1.5.5-3
@@ -118,6 +120,7 @@ less 451-1
 libarchive 3.0.4-2
 libassuan 2.0.3-1
 libcap 2.22-3
+libcap-ng 0.7-1
 libcroco 0.6.8-1
 libcups 1.6.1-6
 libdaemon 0.14-2
@@ -132,6 +135,7 @@ libgpg-error 1.10-2
 libgssglue 0.4-1
 libice 1.0.8-1
 libidn 1.25-1
+libimobiledevice 1.1.4-2
 libjpeg-turbo 1.2.1-1
 libksba 1.2.0-2
 libldap 2.4.33-1
@@ -144,6 +148,7 @@ libnl 3.2.11-1
 libpcap 1.3.0-1
 libpciaccess 0.13.1-1
 libpipeline 1.2.2-1
+libplist 1.8-2
 libpng 1.5.13-1
 libpng12 1.2.50-1
 librsvg 2.36.4-1
@@ -232,11 +237,15 @@ pinentry 0.8.2-1
 pixman 0.26.2-1
 pkg-config 0.27.1-1
 pkgstats 2.3-2
+pm-quirks 0.20100619-2
+pm-utils 1.4.1-5
+polkit 0.107-4
 popt 1.16-5
 postfix 2.9.4-1
 postgresql 9.2.1-2
 postgresql-docs 9.2.1-2
 postgresql-libs 9.2.1-2
+powertop 2.1.1-1
 ppl 1.0-1
 ppp 2.4.5-5
 procps-ng 3.3.3-6
@@ -253,6 +262,7 @@ redis 2.6.2-1
 refind-efi 0.4.6-1
 reiserfsprogs 3.6.21-4
 renderproto 0.11.1-2
+rfkill 0.4-5
 rlwrap 0.37-2
 rsync 3.0.9-5
 ruby 1.9.3_p286-1
@@ -262,6 +272,7 @@ sed 4.2.1-4
 shadow 4.1.5.1-1
 slang 2.2.4-2
 sloccount 2.26-6
+smartmontools 6.0-1
 sqlite 3.7.14.1-1
 strace 4.7-1
 subversion 1.7.7-1
@@ -276,12 +287,15 @@ tcl 8.5.12-1
 texinfo 4.13a-7
 tinycdb 0.78-1
 tk 8.5.12-1
+tlp 0.3.7.1-1
 traceroute 2.0.18-1
 tzdata 2012h-1
 unace 2.5-7
 unixodbc 2.3.1-1
 unrar 4.2.4-1
 unzip 6.0-6
+upower 0.9.18-2
+usbmuxd 1.0.8-1
 usbutils 006-1
 util-linux 2.22.1-2
 vi 1:050325-2
@@ -290,6 +304,7 @@ vim-runtime 7.3.712-1
 vim-systemd 20110915-1
 wget 1.14-2
 which 2.20-5
+wireless_tools 29-7
 xcb-proto 1.8-1
 xdg-utils 1.1.0.git20121008-1
 xextproto 7.2.1-1
