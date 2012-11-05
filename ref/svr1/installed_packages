@@ -103,6 +103,7 @@ isl 0.10-1
 jasper 1.900.1-8
 jdk6-compat 6u37-b06
 jdk7-openjdk 7.u9_2.3.3-1
+jenkins-ci 1.488-1
 jfsutils 1.1.15-3
 jre6-compat 6u37-b06
 jre7-openjdk 7.u9_2.3.3-1
@@ -208,6 +209,7 @@ mythes-en 20060306-2
 nano 2.2.6-2
 ncurses 5.9-3
 neon 0.29.6-4
+net-tools 1.60.20120804git-2
 netcfg 3.0-1
 nettle 2.5-1
 nexus2 2.2-1

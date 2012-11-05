@@ -1,0 +1,24 @@
+[Unit]
+Description=An extendable open source continuous integration server
+After=network.target
+
+[Service]
+User=jenkins
+Type=simple
+EnvironmentFile=/etc/conf.d/jenkins
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=jenkins
+ExecStart=@/usr/bin/java jenkins $JAVA_ARGS -jar $JENKINS_WAR $JENKINS_WEBROOT $JENKINS_PORT $JENKINS_AJPPORT
+#MemoryLimit=768M
+OOMScoreAdjust=-1000
+LimitCPU=infinity
+LimitFSIZE=infinity
+LimitDATA=infinity
+LimitCORE=0
+LimitAS=infinity
+LimitLOCKS=infinity
+
+[Install]
+WantedBy=multi-user.target
+
