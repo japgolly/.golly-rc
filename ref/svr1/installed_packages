@@ -1,11 +1,16 @@
 abs 2.4.4-1
 acl 2.2.51-2
+alsa-lib 1.0.26-1
+android-sdk r20.0.3-2
+android-sdk-platform-tools r14-1
+android-udev 1.3-5
 apache-ant 1.8.4-1
 apr 1.4.6-1
 apr-util 1.4.1-1
 archlinux-keyring 20120915-1
 aspell 0.60.6.1-1
 aspell-en 7.1-2
+atk 2.6.0-1
 attr 2.4.46-2
 autoconf 2.69-1
 automake 1.12.4-1
@@ -20,6 +25,7 @@ cairo 1.12.6-2
 checkinstall 1.6.2-2
 cloog 0.17.0-2
 colordiff 1.0.12-1
+compositeproto 0.4.2-2
 coreutils 8.20-1
 cpupower 3.6-1
 cracklib 2.8.19-1
@@ -74,6 +80,8 @@ gptfdisk 0.8.5-1
 graphviz 2.28.0-10
 grep 2.14-1
 groff 1.21-2
+gtk-update-icon-cache 2.24.13-1
+gtk2 2.24.13-1
 gts 0.7.6-2
 gzip 1.5-1
 harfbuzz 0.9.5-1
@@ -118,6 +126,21 @@ lcms 1.19-2
 lcms2 2.4-1
 ldns 1.6.14-1
 less 451-1
+lib32-alsa-lib 1.0.26-1
+lib32-gcc-libs 4.7.2-2
+lib32-glibc 2.16.0-5
+lib32-libstdc++5 3.3.6-6
+lib32-libx11 1.5.0-1
+lib32-libxau 1.0.7-1
+lib32-libxcb 1.9-1
+lib32-libxdmcp 1.1.1-1
+lib32-libxext 1.3.1-1
+lib32-libxrender 0.9.7-1
+lib32-libxv 1.0.7-1
+lib32-ncurses 5.9-1
+lib32-openal 1.14-1
+lib32-sdl 1.2.15-3
+lib32-zlib 1.2.7-1
 libarchive 3.0.4-2
 libassuan 2.0.3-1
 libcap 2.22-3
@@ -144,6 +167,7 @@ libldap 2.4.33-1
 liblqr 0.4.1-3
 libltdl 2.4.2-7
 libmpc 1.0.1-1
+libmtp 1.1.5-1
 libmysqlclient 5.5.28-1
 libnewt 0.52.12-4
 libnl 3.2.11-1
@@ -168,6 +192,8 @@ libx86emu 1.1-29
 libxau 1.0.7-1
 libxaw 1.0.11-1
 libxcb 1.9-1
+libxcomposite 0.4.3-2
+libxcursor 1.1.13-1
 libxdamage 1.1.3-2
 libxdmcp 1.1.1-1
 libxext 1.3.1-1
@@ -184,6 +210,7 @@ libxslt 1.1.26-3
 libxss 1.2.2-1
 libxt 1.1.3-1
 libxtst 1.2.1-1
+libxv 1.0.7-1
 libxxf86vm 1.1.2-1
 libyaml 0.1.4-2
 licenses 2.9-1
@@ -218,6 +245,7 @@ nspr 4.9.3-1
 nss 3.14-1
 nss-myhostname 0.3-3
 ntp 4.2.6.p5-11
+openal 1.14-1
 openjdk7-src 7.u9_2.3.3-1
 openssh 6.1p1-3
 openssl 1.0.1.c-1
@@ -271,8 +299,10 @@ rsync 3.0.9-5
 ruby 1.9.3_p286-1
 run-parts 4.3.4-1
 scrnsaverproto 1.2.2-1
+sdl 1.2.15-3
 sed 4.2.1-4
 shadow 4.1.5.1-1
+shared-mime-info 1.0-1
 slang 2.2.4-2
 sloccount 2.26-6
 smartmontools 6.0-1
@@ -281,6 +311,7 @@ strace 4.7-1
 subversion 1.7.7-1
 sudo 1.8.6.p3-1
 swi-prolog 6.2.1-1
+swt 4.2-2
 sysfsutils 2.1.0-8
 systemd 195-2
 systemd-sysvcompat 195-2
@@ -303,6 +334,7 @@ usbmuxd 1.0.8-1
 usbutils 006-1
 util-linux 2.22.1-2
 vi 1:050325-2
+videoproto 2.3.1-2
 vim 7.3.712-1
 vim-runtime 7.3.712-1
 vim-systemd 20110915-1
@@ -326,3 +358,4 @@ yaourt 1.2.1-1
 zip 3.0-3
 zlib 1.2.7-1
 zsh 5.0.0-2
+zsh-completions 0.7.0-1
