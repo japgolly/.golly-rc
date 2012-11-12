@@ -1,6 +1,7 @@
 [Unit]
 Description=An extendable open source continuous integration server
 After=network.target
+Wants=postfix.service
 
 [Service]
 User=jenkins
