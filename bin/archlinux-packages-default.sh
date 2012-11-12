@@ -155,6 +155,7 @@ yaourt -Sy --needed --noconfirm -- \
   terminal \
   thunar \
   traceroute \
+  tree \
   ttf-dejavu \
   ttf-freefont \
   ttf-inconsolata \
