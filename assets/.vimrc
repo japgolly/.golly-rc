@@ -214,3 +214,7 @@ au filetype dot nmap ,gT :w<CR>:!twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/
 au filetype dot nmap ,gC :w<CR>:!circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
 au filetype dot nmap ,al A [label=""]<Esc>hi
 
+"-----------------------------------------------------------------
+" Scripts
+au filetype ruby,sh nmap <silent> e :w<CR>:!./%<CR>
+au filetype ruby,sh imap <silent> e <Esc>ea
