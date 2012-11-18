@@ -35,7 +35,7 @@ babl 0.1.10-1
 baobab 3.6.2-1
 bash 4.2.039-1
 bc 1.06-8
-binutils 2.23-1
+binutils 2.23.1-1
 bison 2.6.5-1
 bluez 4.101-1
 boost-libs 1.50.0-2
@@ -60,7 +60,7 @@ cloog 0.17.0-2
 clucene 2.3.3.4-6
 cmake 2.8.10.1-1
 colord 0.1.24-2
-colordiff 1.0.12-1
+colordiff 1.0.13-1
 compiz-bcop 0.8.8-2
 compiz-core 0.8.8-4
 compiz-decorator-gtk 0.8.8-4
@@ -113,6 +113,7 @@ emerald 0.8.8-2
 emerald-themes 0.6.0-4
 enca 1.13-2
 enchant 1.6.0-4
+eog 3.6.2-1
 erlang R15B02-1
 ethtool 1:3.6-1
 eventlog 0.2.12-3
@@ -449,6 +450,7 @@ libofa 0.9.3-4
 libogg 1.3.0-1
 libpcap 1.3.0-1
 libpciaccess 0.13.1-1
+libpeas 1.6.1-1
 libpipeline 1.2.2-1
 libplist 1.8-2
 libpng 1.5.13-1
@@ -611,12 +613,12 @@ nss-myhostname 0.3-3
 ntfs-3g 2012.1.15-3
 ntfsprogs 2012.1.15-3
 ntp 4.2.6.p5-11
-nvidia 304.64-1
-nvidia-utils 304.64-1
+nvidia 310.19-2
+nvidia-utils 310.19-1
 obex-data-server 0.4.6-3
 obexd-client 1:0.46-1
 openal 1.14-1
-opencl-nvidia 304.64-1
+opencl-nvidia 310.19-1
 opencore-amr 0.1.3-1
 openexr 1.7.1-2
 openjdk7-src 7.u9_2.3.3-1
@@ -855,7 +857,7 @@ winetricks 20120912-1
 wireless_tools 29-7
 wpa_supplicant 1.0-2
 wxgtk 2.8.12.1-3
-x264 20120705-1
+x264 20121113-1
 xbitmaps 1.1.1-2
 xcb-proto 1.8-1
 xcb-util 0.3.9-1
