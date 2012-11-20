@@ -48,7 +48,7 @@ cairo-dock 3.1.1-0
 cairo-dock-plug-ins 3.1.1-0
 cairo-dock-themes 1.6.3.1-2
 cairomm 1.10.0-2
-calibre 0.9.6-1
+calibre 0.9.6-2
 cantarell-fonts 0.0.10.1-1
 ccsm 0.8.4-3
 cdparanoia 10.2-4
@@ -72,6 +72,7 @@ compizconfig-python 0.8.4-4
 compositeproto 0.4.2-2
 conky 1.9.0-1
 consolekit 0.4.6-4
+coolreader 3.0.56-1
 coreutils 8.20-1
 cpupower 3.6-1
 cracklib 2.8.19-1
@@ -126,6 +127,7 @@ faac 1.28-4
 faad2 2.7-3
 fakeroot 1.18.4-1
 farstream 0.2.1-1
+fbreader 0.99.2-1
 fbset 2.1-4
 ffmpeg 1:1.0-1
 fftw 3.3.2-1
@@ -221,7 +223,7 @@ gtk-sharp-2 2.12.11-1
 gtk-update-icon-cache 2.24.13-1
 gtk2 2.24.13-1
 gtk2-xfce-engine 3.0.1-1
-gtk3 3.6.1-2
+gtk3 3.6.2-1
 gtk3-xfce-engine 3.0.1-1
 gtkglext 1.2.0-9
 gtkmm 2.24.2-2
@@ -426,6 +428,7 @@ libkate 0.4.1-3
 libksba 1.2.0-2
 liblastfm 0.3.3-3
 libldap 2.4.33-1
+liblinebreak 2.1-1
 liblqr 0.4.1-3
 liblrdf 0.5.0-1
 libltdl 2.4.2-7
@@ -634,7 +637,7 @@ oxygen-icons 4.9.3-1
 p11-kit 0.13-1
 p7zip 9.20.1-6
 package-query 1.1-2
-pacman 4.0.3-3
+pacman 4.0.3-5
 pacman-mirrorlist 20120908-1
 pam 1.1.6-1
 pambase 20120701-1
