@@ -35,14 +35,16 @@ command mvn "$@" \
     s/(?<=\[INFO\] )(?=BUILD SUCCESS)/${GREEN}/;
     s/(?<=\[INFO\] )(?=BUILD FAILURE)/${RED}/;
 
-    s/(?<=^Tests run: )(\d{2,}|[1-9])/${TEST_PASS}\1${RESET}/;
+    s/(?<=Tests run: )(\d{2,}|[1-9])/${TEST_PASS}\1${RESET}/;
 
-    s/(?<=, Failures: )(\d{2,}|[1-9])/${TEST_FAILURE}\1${RESET}/;
+    s/(,\s+?Failures: )(\d{2,}|[1-9])/\1${TEST_FAILURE}\2${RESET}/;
     s/^(?!Tests run: )(.+ <<< FAILURE!)$/${TEST_FAILURE}\1/;
+    s/^(.+?] {5})(?=FAILURE:)/\1${TEST_FAILURE}/;
     s/^(Failed tests:)/${TEST_FAILURE}\1${RESET}/;
 
-    s/(?<=, Errors: )(\d{2,}|[1-9])/${TEST_ERROR}\1${RESET}/;
+    s/(,\s+?Errors: )(\d{2,}|[1-9])/\1${TEST_ERROR}\2${RESET}/;
     s/^(?!Tests run: )(.+ <<< ERROR!)$/${TEST_ERROR}\1/;
+    s/^(.+?] {5})(?=ERROR:)/\1${TEST_ERROR}/;
     s/^(Tests in error:)/${TEST_ERROR}\1${RESET}/;
 
     s/^\[ERROR\]\s*$//;
