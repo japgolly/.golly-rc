@@ -180,6 +180,7 @@ au filetype ruby nmap <silent> ,cJ k,cj
 " CTRL-/ adds comments
 au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*.\)/#\1/<CR>:set nohlsearch<CR>
 au filetype vim                           map <silent>  :s/^\(\s*\)\("\s*\)\?/\1" /<CR>:set nohlsearch<CR>
+au filetype plantuml                      map <silent>  :s/^\(\s*\)\('\s*\)\?/\1' /<CR>:set nohlsearch<CR>
 au filetype dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
 imap <silent>  <Esc>w
 
@@ -187,6 +188,7 @@ imap <silent>  <Esc>w
 "au filetype ruby,sh,yaml map  <silent>  :s/^\(\s\s*#\s*\\|\s*#\s\s*\\|\(\s*\)#\(.*\)\)$/\2\3/<CR>:set nohlsearch<CR>
 au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*\)#\s*/\1/<CR>:set nohlsearch<CR>
 au filetype vim                           map <silent>  :s/^\(\s*\)"\s*/\1/<CR>:set nohlsearch<CR>
+au filetype plantuml                      map <silent>  :s/^\(\s*\)'\s*/\1/<CR>:set nohlsearch<CR>
 au filetype dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
 imap <silent>  <C-O>
 
