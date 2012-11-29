@@ -26,6 +26,7 @@ alias sharedrc="vim ~/.golly-rc/assets/shell.rc-shared && echo Reloading... && .
 alias golrc='pushd ~/.golly-rc'
 alias ssc='sudo systemctl'
 alias mvn="$HOME/.golly-rc/bin/mvnc"
+alias code_gsub="$HOME/.golly-rc/bin/code_gsub"
 
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
