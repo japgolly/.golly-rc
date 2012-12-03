@@ -26,7 +26,7 @@ TEST_FAILURE="\e[43;1;33m"
 #TEST_FAILURE="\e[7;40;1;33m"
 TEST_ERROR="\e[41;1;37m"
 
-tty -s <&1 && clear
+[ -z "$NO_CLEAR" ] && tty -s <&1 && clear
 command mvn "$@" \
   | perl -pe "
     s/(?<=\[INFO\] )(?=Building )/${MAGENTA}/;
@@ -57,3 +57,4 @@ command mvn "$@" \
 
     s/$/${RESET}/;
   "
+exit ${PIPESTATUS[0]}
