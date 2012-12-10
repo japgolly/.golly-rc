@@ -7,7 +7,8 @@
 
 [Unit]
 Description=Getty on %I
-Documentation=man:agetty(8)
+Documentation=man:agetty(8) man:systemd-getty-generator(8)
+Documentation=http://0pointer.de/blog/projects/serial-console.html
 After=systemd-user-sessions.service plymouth-quit-wait.service
 After=rc-local.service
 
@@ -23,9 +24,8 @@ IgnoreOnIsolate=yes
 ConditionPathExists=/dev/tty0
 
 [Service]
-Environment=TERM=linux
 # the VT is cleared by TTYVTDisallocate
-ExecStart=-/sbin/agetty --noclear %I 38400
+ExecStart=-/sbin/agetty --noclear %I 38400 linux
 Type=idle
 Restart=always
 RestartSec=0
