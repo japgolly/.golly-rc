@@ -36,7 +36,7 @@ while read f; do
         && (
           # Remove troublesome and/or sensitive data
           [[ "$f" =~ smplayer.ini ]] && sed -i '
-            /^\(item_.*\|volume\|pos\|size\|latest_dir\|toolbars_state\)=/d;
+            /^\(item_.*\|volume\|pos\|size\|latest_dir\|toolbars_state\|count\|current_item\)=/d;
             /^\(mute\|shuffle\|repeat\)=\(true\|false\)/d;
             ' "$t"
           true

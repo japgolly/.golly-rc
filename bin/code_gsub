@@ -1,0 +1,79 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+
+options = {rename: true}
+opt_parser = OptionParser.new do |opt|
+  this= File.basename($0)
+  opt.banner = "Usage #{this} [OPTIONS] <old> <new> [FILES*]"
+  opt.separator ""
+  opt.separator "Options"
+
+  opt.on("-i","edit files in-place") do
+    options[:inplace] = true
+  end
+
+  opt.on("-F","don't rename files (default is to rename)") do
+    options[:rename] = false
+  end
+
+  opt.on("-@","interpret STDIN as a file list") do
+    options[:xargs] = true
+  end
+
+  opt.separator ""
+  opt.separator "Example:"
+  opt.separator "  #{this} NewEdit Editor"
+  opt.separator "  cat data.txt | #{this} NewEdit Editor"
+  opt.separator "  find * -type f | egrep -v '/(bin|target)/' | code_gsub -@i NewEdit Editor"
+end
+opt_parser.parse!
+
+if ARGV.size < 2
+  puts opt_parser
+  exit 1
+end
+
+require 'active_support/inflector'
+
+R= {}
+def add
+  R[yield ARGV[0]] = yield(ARGV[1])
+end
+def replace(string)
+  R.each {|k,v|
+    string= string.gsub(k,v)
+  }
+  string
+end
+
+add{|t| t.camelize }
+add{|t| t.camelize.sub(/^./, &:downcase) }
+add{|t| t.underscore }
+add{|t| t.underscore.upcase }
+add{|t| t.underscore.upcase.gsub('_','') }
+
+regexs = R.to_a.map{|a,b| "s/#{Regexp.quote a}/#{Regexp.quote b}/g" }.join("; ")
+if STDIN.tty?
+  puts regexs
+else
+  files = ARGV[2..-1]
+  if options[:xargs]
+    files += STDIN.readlines.map(&:chomp)
+  end
+
+  # Rename files before exec
+  if options[:rename]
+    files.map! {|f|
+      f2 = replace(f)
+      unless f == f2
+        `mv -i #{f.inspect} #{f2.inspect}`
+        f2 = f if File.exists?(f)
+      end
+      f2
+    }
+  end
+
+  perl_args = options[:inplace] ? '-pi -e' : '-pe'
+  exec "perl #{perl_args} #{regexs.inspect} #{files.map(&:inspect).join ' '}"
+end
