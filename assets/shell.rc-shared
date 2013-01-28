@@ -50,6 +50,8 @@ function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | 
 function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot -Tpng -o"$o" "$1" && xdg-open "$o" 2>/dev/null);}
 function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *$/d'; done }
 function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done }
+function server_off { [ -e ~/.m2/settings.xml ] && mv ~/.m2/settings.xml{,.off} }
+function server_on { [ ! -e ~/.m2/settings.xml ] && mv ~/.m2/settings.xml{.off,} }
 
 #export GIT_SSL_NO_VERIFY=true
 unset RUBYOPT
