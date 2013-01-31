@@ -2,7 +2,7 @@ a52dec 0.7.4-6
 aalib 1.4rc5-9
 abs 2.4.4-1
 accountsservice 0.6.30-1
-acl 2.2.51-2
+acl 2.2.51-3
 acroread 9.5.3-1
 alsa-lib 1.0.26-1
 alsa-oss 1.0.25-1
@@ -16,7 +16,7 @@ android-udev 1.6-1
 apache-ant 1.8.4-1
 apr 1.4.6-1
 apr-util 1.5.1-1
-archlinux-keyring 20130114-1
+archlinux-keyring 20130127-1
 argyllcms 1.4.0-4
 asciidoc 8.6.8-1
 aspell 0.60.6.1-1
@@ -34,13 +34,13 @@ avahi 0.6.31-5
 awoken-icons 2.4-1
 babl 0.1.10-1
 baobab 3.6.4-1
-bash 4.2.042-2
+bash 4.2.042-3
 bc 1.06-8
 binutils 2.23.1-3
 bison 2.7-1
 bluez 4.101-1
-boost 1.50.0-4
-boost-libs 1.50.0-4
+boost 1.52.0-1
+boost-libs 1.52.0-1
 bzip2 1.0.6-4
 ca-certificates 20130119-1
 ca-certificates-java 20120608-1
@@ -56,7 +56,7 @@ ccsm 0.8.4-3
 cdparanoia 10.2-4
 chmlib 0.40-3
 chromium 24.0.1312.56-1
-cifs-utils 5.8-1
+cifs-utils 5.9-1
 clementine 1.1.1-4
 cloog 0.18.0-1
 clucene 2.3.3.4-6
@@ -77,7 +77,7 @@ consolekit 0.4.6-4
 coolreader 3.0.56-1
 coreutils 8.20-1
 cpupower 3.7-5
-cracklib 2.8.19-1
+cracklib 2.8.22-1
 cronie 1.4.9-2
 cryptsetup 1.5.1-1
 cups-pk-helper 0.2.4-1
@@ -100,10 +100,10 @@ dmxproto 2.3.1-2
 dnssec-anchors 20120422-1
 docbook-xml 4.5-5
 docbook-xsl 1.77.1-2
-dos2unix 6.0.2-1
+dos2unix 6.0.3-1
 dosfstools 3.0.13-2
 doxygen 1.8.3.1-1
-dropbox 1.6.14-1
+dropbox 1.6.16-1
 e2fsprogs 1.42.6-1
 ed 1.7-2
 elfutils 0.155-1
@@ -129,9 +129,9 @@ fbreader 0.99.4-1
 fbset 2.1-4
 ffmpeg 1:1.0.1-1
 fftw 3.3.2-1
-file 5.11-1
-filesystem 2013.01-1
-findutils 4.4.2-4
+file 5.11-2
+filesystem 2013.01-3
+findutils 4.4.2-5
 firefox 18.0.1-1
 fixesproto 5.0-2
 flac 1.2.1-3
@@ -172,7 +172,7 @@ gksu 2.0.2-4
 glew 1.9.0-2
 glib-networking 2.34.2-1
 glib2 2.34.3-1
-glibc 2.17-2
+glibc 2.17-3
 glibmm 2.34.1-1
 glu 9.0.0-1
 gmp 5.1.0-1
@@ -189,7 +189,7 @@ gnome-settings-daemon 3.6.4-1
 gnome-terminal 3.6.0-1
 gnome-themes-extras 2.22.0-3
 gnome-themes-standard 3.6.2-1
-gnupg 2.0.19-4
+gnupg 2.0.19-5
 gnutls 3.1.6-1
 go 2:1.0.3-5
 gobject-introspection 1.34.2-1
@@ -201,7 +201,7 @@ gpm 1.20.7-1
 grantlee 0.3.0-1
 graphite 1:1.2.0-1
 graphviz 2.28.0-12
-grep 2.14-1
+grep 2.14-2
 groff 1.21-2
 gsettings-desktop-schemas 3.6.1-1
 gsfonts 1.0.7pre44-3
@@ -234,7 +234,7 @@ gtkspell 2.0.16-2
 gts 0.7.6-2
 gvfs 1.14.2-3
 gvfs-obexftp 1.14.2-3
-gzip 1.5-1
+gzip 1.5-2
 harfbuzz 0.9.9-3
 hddtemp 0.3.beta15.52-1
 hdf5 1.8.10-1
@@ -257,7 +257,7 @@ icu 50.1.2-1
 ifplugd 0.28-13
 iftop 0.17-10
 ilmbase 1.0.3-1
-imagemagick 6.8.1.9-1
+imagemagick 6.8.2.0-1
 imlib2 1.4.5-2
 inetutils 1.9.1-4
 inkscape 0.48.4-3
@@ -277,7 +277,7 @@ jre6-compat 6u38-b05
 jre7-openjdk 7.u9_2.3.4-1
 jre7-openjdk-headless 7.u9_2.3.4-1
 js 1.8.5-3
-json-c 0.9-1
+json-c 0.10-2
 json-glib 0.15.2-1
 kactivities 4.9.5-1
 kbd 1.15.5-3
@@ -472,11 +472,11 @@ libpurple 2.10.6-4
 libpwquality 1.2.0-1
 libqzeitgeist 0.8.0-2
 libraw1394 2.0.7-2
-libreoffice-calc 3.6.4-5
-libreoffice-common 3.6.4-5
-libreoffice-draw 3.6.4-5
-libreoffice-en-GB 3.6.4-1
-libreoffice-writer 3.6.4-5
+libreoffice-calc 3.6.5-1
+libreoffice-common 3.6.5-1
+libreoffice-draw 3.6.5-1
+libreoffice-en-GB 3.6.5-1
+libreoffice-writer 3.6.5-1
 librpcsecgss 0.19-7
 librsvg 2.36.4-1
 libsamplerate 0.1.8-1
@@ -515,7 +515,7 @@ libvncserver 0.9.9-1
 libvorbis 1.3.3-1
 libvpx 1.1.0-1
 libwacom 0.6-1
-libwbclient 3.6.10-1
+libwbclient 3.6.11-4
 libwmf 0.2.8.4-9
 libwnck 2.30.7-1
 libwnck3 3.4.4-1
@@ -558,10 +558,10 @@ libxxf86dga 1.1.3-1
 libxxf86vm 1.1.2-1
 libyaml 0.1.4-2
 licenses 2.9-1
-linux 3.7.4-1
+linux 3.7.5-1
 linux-api-headers 3.7.4-1
 linux-firmware 20121118-1
-lirc-utils 1:0.9.0-35
+lirc-utils 1:0.9.0-36
 lm_sensors 3.3.3-1
 logrotate 3.8.2-2
 lprof 1.11.4.1-3
@@ -575,7 +575,7 @@ lzo 1.08-7
 m4 1.4.16-2
 make 3.82-5
 man-db 2.6.3-1
-man-pages 3.45-1
+man-pages 3.46-1
 maven 3.0.4-1
 mdadm 3.2.6-1
 media-player-info 17-1
@@ -595,7 +595,7 @@ mpfr 3.1.1.p2-2
 mpg123 1.14.4-1
 mplayer 35421-2
 mtdev 1.1.3-1
-mtools 4.0.17-2
+mtools 4.0.18-1
 musescore 1.2-6
 musicbrainz 2.1.5-5
 mutagen 1.20-4
@@ -628,7 +628,7 @@ nss 3.14.1.1.93-1
 ntfs-3g 2012.1.15-4
 ntfsprogs 2012.1.15-4
 ntp 4.2.6.p5-13
-nvidia 313.18-1
+nvidia 313.18-2
 nvidia-utils 313.18-1
 obex-data-server 0.4.6-4
 obexd-client 1:0.46-1
@@ -650,7 +650,7 @@ p11-kit 0.13-1
 p7zip 9.20.1-6
 package-query 1.1-2
 pacman 4.0.3-5
-pacman-mirrorlist 20121128-1
+pacman-mirrorlist 20130131-1
 pam 1.1.6-1
 pambase 20130113-1
 pango 1.32.5-1
@@ -677,7 +677,7 @@ pidgin-libnotify 0.14-6
 pidgin-toobars 1.14-1
 pinentry 0.8.2-1
 pixman 0.28.2-1
-pkg-config 0.27.1-1
+pkg-config 0.28-1
 pkgstats 2.3-2
 plantuml 7939-1
 pm-quirks 0.20100619-2
@@ -727,7 +727,7 @@ python2-dnspython 1.10.0-1
 python2-docutils 0.10-1
 python2-gobject 3.4.2-1
 python2-gobject2 2.28.6-8
-python2-imaging 1.1.7-7
+python2-imaging 1.1.7-8
 python2-jinja 2.6-3
 python2-lxml 3.0.2-1
 python2-mako 0.7.3-1
@@ -759,7 +759,7 @@ recordproto 1.14.2-1
 redland 1:1.0.16-1
 redland-storage-virtuoso 1:1.0.16-1
 redshift 1.7-5
-reiserfsprogs 3.6.21-4
+reiserfsprogs 3.6.22-1
 renderproto 0.11.1-2
 rest 0.7.90-1
 rfkill 0.4-7
@@ -780,11 +780,11 @@ scons 2.2.0-1
 scrnsaverproto 1.2.2-1
 sdl 1.2.15-3
 sdl_image 1.2.12-2
-sed 4.2.2-1
+sed 4.2.2-2
 sensors-applet 3.0.0-2
 serf 1.1.1-1
 sg3_utils 1.33-1
-shadow 4.1.5.1-3
+shadow 4.1.5.1-4
 shared-color-profiles 0.1.5-1
 shared-desktop-ontologies 0.10.0-1
 shared-mime-info 1.0-1
@@ -792,7 +792,7 @@ sip 4.14.2-1
 slang 2.2.4-2
 sloccount 2.26-6
 smartmontools 6.0-1
-smbclient 3.6.10-1
+smbclient 3.6.11-4
 smpeg 0.4.4-7
 smplayer 0.8.3-1
 soprano 2.8.0-2
@@ -821,7 +821,7 @@ tar 1.26-2
 tdb 1.2.11-1
 telepathy-glib 0.20.1-1
 terminus-font-ttf 4.38-1
-texinfo 4.13a-7
+texinfo 4.13a-8
 thunar 1.6.2-1
 tlp 0.3.7.1-1
 traceroute 2.0.19-1
@@ -867,7 +867,7 @@ vim 7.3.754-1
 vim-runtime 7.3.754-1
 virtualbox 4.2.6-1
 virtualbox-guest-iso 4.2.6-1
-virtualbox-host-modules 4.2.6-4
+virtualbox-host-modules 4.2.6-5
 virtuoso-base 6.1.6-1
 vlc 2.0.5-2
 vte 0.28.2-3
@@ -878,7 +878,7 @@ webkitgtk2 1.10.2-2
 webkitgtk3 1.10.2-2
 webrtc-audio-processing 0.1-1
 wget 1.14-2
-which 2.20-5
+which 2.20-6
 wildmidi 0.2.3.5-2
 wine 1.5.22-1
 winetricks 20120912-1
@@ -923,7 +923,7 @@ xfconf 4.10.0-2
 xfdesktop 4.10.0-5
 xfsprogs 3.1.10-1
 xineramaproto 1.2.1-2
-xkeyboard-config 2.7-1
+xkeyboard-config 2.8-1
 xmlto 0.0.25-2
 xorg-bdftopcf 1.0.4-1
 xorg-font-util 1.3.0-1
@@ -944,7 +944,7 @@ xorg-xbacklight 1.2.0-1
 xorg-xcmsdb 1.0.4-1
 xorg-xdpyinfo 1.3.0-1
 xorg-xdriinfo 1.0.4-3
-xorg-xev 1.2.0-1
+xorg-xev 1.2.1-1
 xorg-xgamma 1.0.5-1
 xorg-xinit 1.3.2-3
 xorg-xkbcomp 1.2.4-1
