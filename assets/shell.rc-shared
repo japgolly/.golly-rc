@@ -93,7 +93,7 @@ alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"
 case "$TERM" in
   rxvt|*term|gnome*)
     # %m = machine, %~ = pwd
-    precmd() { print -Pn "\e]0;%~\a" }
-    preexec () { print -Pn "\e]0;$1 [%~]\a" }
+    precmd() { print -Pn "\e]0;%m:%~\a" }
+    preexec () { print -Pn "\e]0;$1 [%m:%~]\a" }
   ;;
 esac
