@@ -7,6 +7,7 @@ alias egrep='egrep --color=auto'
 
 export EDITOR=vim
 export PAGER=less
+export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
 
 alias la='ls -la'
 alias ll='ls -l'
