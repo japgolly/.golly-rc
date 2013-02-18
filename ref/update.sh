@@ -39,6 +39,7 @@ while read f; do
             /^\(item_.*\|volume\|pos\|size\|latest_dir\|toolbars_state\|count\|current_item\)=/d;
             /^\(mute\|shuffle\|repeat\)=\(true\|false\)/d;
             ' "$t"
+          [[ "$f" =~ settings.xml ]] && perl -pi -e 's/(username|password|sign\.[a-z]+)>.+?</\1>xxxxxxxx</' "$t"
           true
         )
       fi

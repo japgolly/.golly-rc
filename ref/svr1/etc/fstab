@@ -10,4 +10,6 @@ tmpfs		/tmp		tmpfs		nodev,nosuid		0 0
 
 golly-desktop:/home/golly	/home/golly/golly-desktop	nfs4	noauto,x-systemd.automount,nosuid,exec,_netdev,rw,relatime	0 0
 
+#nas:/volume1/public		/mnt/nas/public	nfs	noauto,x-systemd.automount,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 0
+
 # ,rsize=1048576,wsize=1048576

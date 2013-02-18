@@ -15,6 +15,7 @@ cd ~/.vim/bundle && [ ! -d textile.vim ] && (git clone git://github.com/timcharp
 cd ~/.vim/bundle && [ ! -d ScrollColors ] && (git clone git://github.com/vim-scripts/ScrollColors.git; echo)
 cd ~/.vim/bundle && [ ! -d plantuml-syntax ] && (git clone git://github.com/aklt/plantuml-syntax.git; echo)
 cd ~/.vim/bundle && [ ! -d vim-colorschemes ] && (git clone git://github.com/flazz/vim-colorschemes.git; echo)
+cd ~/.vim/bundle && [ ! -d vim-scala ] && (git clone git://github.com/derekwyatt/vim-scala.git; echo)
 # mc ~/.vim/bundle/csapprox/ && curl -o tmp http://www.vim.org/scripts/download_script.php?src_id=10336 && unzip tmp && rm tmp; echo
 mc ~/.vim/plugin && curl -oScrollColor.vim http://www.vim.org/scripts/download_script.php?src_id=5387; echo
 

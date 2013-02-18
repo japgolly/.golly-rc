@@ -1,12 +1,13 @@
 # vim:ft=sh et sw=2 ts=2:
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 export EDITOR=vim
 export PAGER=less
+export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
 
 alias la='ls -la'
 alias ll='ls -l'
@@ -93,7 +94,7 @@ alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"
 case "$TERM" in
   rxvt|*term|gnome*)
     # %m = machine, %~ = pwd
-    precmd() { print -Pn "\e]0;%~\a" }
-    preexec () { print -Pn "\e]0;$1 [%~]\a" }
+    precmd() { print -Pn "\e]0;%m:%~\a" }
+    preexec () { print -Pn "\e]0;$1 [%m:%~]\a" }
   ;;
 esac
