@@ -400,6 +400,7 @@ rpcbind 0.2.0-9
 rsync 3.0.9-5
 ruby 1.9.3_p374-1
 run-parts 4.3.4-1
+sbt 0.12.2-1
 scrnsaverproto 1.2.2-1
 sdl 1.2.15-3
 sed 4.2.2-2
