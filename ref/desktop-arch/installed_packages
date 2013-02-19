@@ -10,7 +10,7 @@ alsa-plugins 1.0.26-1
 alsa-tools 1.0.26.1-1
 alsa-utils 1.0.26-1
 amarok 2.7.0-2
-android-sdk r21.0.1-2
+android-sdk r21.1-1
 android-sdk-platform-tools r16.0.1-2
 android-udev 1.6-1
 apache-ant 1.8.4-1
@@ -305,9 +305,11 @@ lib32-atk 2.6.0-1
 lib32-attr 2.4.46-2
 lib32-bzip2 1.0.6-1
 lib32-cairo 1.12.12-1
+lib32-curl 7.29.0-3
 lib32-dbus-core 1.6.8-1
 lib32-e2fsprogs 1.42.6-1
 lib32-expat 2.1.0-1
+lib32-flashplugin 11.2.202.270-1
 lib32-fontconfig 2.10.2-1
 lib32-freetype2 2.4.11-1
 lib32-gcc-libs 4.7.2-4
@@ -324,7 +326,6 @@ lib32-krb5 1.11-1
 lib32-libcups 1.6.1-1
 lib32-libdrm 2.4.42-1
 lib32-libffi 3.0.11-1
-lib32-libgl 9.0.2-4
 lib32-libglapi 9.0.2-4
 lib32-libice 1.0.8-1
 lib32-libjpeg-turbo 1.2.1-1
@@ -332,6 +333,7 @@ lib32-libldap 2.4.33-1
 lib32-libpciaccess 0.13.1-1
 lib32-libpng 1.5.13-1
 lib32-libsm 1.2.1-1
+lib32-libssh2 1.4.3-1
 lib32-libstdc++5 3.3.6-6
 lib32-libtiff 4.0.3-1
 lib32-libx11 1.5.0-1
@@ -349,10 +351,14 @@ lib32-libxinerama 1.1.2-1
 lib32-libxml2 2.8.0-1
 lib32-libxrandr 1.4.0-1
 lib32-libxrender 0.9.7-1
+lib32-libxt 1.1.3-1
 lib32-libxv 1.0.7-1
 lib32-libxxf86vm 1.1.2-1
 lib32-mesa 9.0.2-4
 lib32-ncurses 5.9-1
+lib32-nspr 4.9.4-1
+lib32-nss 3.14.1.1.93-1
+lib32-nvidia-utils 313.18-1
 lib32-openal 1.15.1-1
 lib32-openssl 1.0.1.c-1
 lib32-pango 1.32.5-1
@@ -360,6 +366,7 @@ lib32-pcre 8.32-1
 lib32-pixman 0.28.2-1
 lib32-readline 6.2.004-1
 lib32-sdl 1.2.15-3
+lib32-sqlite 3.7.15.2-1
 lib32-util-linux 2.22.2-1
 lib32-xcb-util 0.3.9-1
 lib32-zlib 1.2.7-1
@@ -802,6 +809,7 @@ sparsehash 2.0.2-1
 speex 1.2rc1-3
 sqlite 3.7.15.2-1
 startup-notification 0.12-3
+steam 1.0.0.28-2
 strace 4.7-1
 strigi 0.7.8-1
 subversion 1.7.8-1
