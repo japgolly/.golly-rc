@@ -658,3 +658,4 @@ sample_directory = /etc/postfix/sample
 #
 readme_directory = /usr/share/doc/postfix
 inet_protocols = ipv4
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated 	    defer_unauth_destination
