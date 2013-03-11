@@ -115,7 +115,7 @@ emerald-themes 0.6.0-4
 enca 1.14-1
 enchant 1.6.0-4
 eog 3.6.2-1
-erlang R15B03_1-3
+erlang R16B-1
 ethtool 1:3.7-1
 eventlog 0.2.12-3
 evolution-data-server 3.6.3-1
@@ -138,7 +138,7 @@ findutils 4.4.2-5
 firefox 19.0-1
 fixesproto 5.0-2
 flac 1.2.1-3
-flashplugin 11.2.202.270-1
+flashplugin 11.2.202.273-1
 flex 2.5.37-1
 fltk 1.3.2-1
 fontconfig 2.10.2-1
@@ -169,7 +169,7 @@ ghostscript 9.07-1
 giflib 4.1.6-5
 gimp 2.8.4-1
 git 1.8.1.4-1
-git-cola 1.8.1-1
+git-cola 1.8.2-1
 gitg 0.2.5-1
 gksu 2.0.2-4
 glew 1.9.0-2
@@ -193,7 +193,7 @@ gnome-terminal 3.6.0-1
 gnome-themes-extras 2.22.0-3
 gnome-themes-standard 3.6.5-1
 gnupg 2.0.19-6
-gnutls 3.1.8-1
+gnutls 3.1.9-1
 go 2:1.0.3-6
 gobject-introspection 1.34.2-1
 gpart 0.1h-5
@@ -254,7 +254,7 @@ hyphen 2.8.6-1
 hyphen-en 2.8.6-1
 iana-etc 2.30-3
 ibus 1.5.1-1
-icedtea-web-java7 1.3.1-1
+icedtea-web-java7 1.3.1-2
 icon-naming-utils 0.8.90-2
 icu 50.1.2-1
 ifplugd 0.28-13
@@ -274,11 +274,11 @@ iso-codes 3.38-1
 jack 0.121.3-7
 jasper 1.900.1-8
 jdk6-compat 6u38-b05
-jdk7-openjdk 7.u13_2.3.7-1
+jdk7-openjdk 7.u13_2.3.7-2
 jfsutils 1.1.15-3
 jre6-compat 6u38-b05
-jre7-openjdk 7.u13_2.3.7-1
-jre7-openjdk-headless 7.u13_2.3.7-1
+jre7-openjdk 7.u13_2.3.7-2
+jre7-openjdk-headless 7.u13_2.3.7-2
 js 1.8.5-3
 json-c 0.10-2
 json-glib 0.15.2-1
@@ -359,9 +359,9 @@ lib32-libxv 1.0.7-1
 lib32-libxxf86vm 1.1.2-1
 lib32-mesa 9.1-2
 lib32-ncurses 5.9-1
-lib32-nspr 4.9.4-1
-lib32-nss 3.14.1.1.93-1
-lib32-nvidia-utils 313.18-3
+lib32-nspr 4.9.5-1
+lib32-nss 3.14.3-1
+lib32-nvidia-utils 313.18-5
 lib32-openal 1.15.1-1
 lib32-openssl 1.0.1.e-2
 lib32-pango 1.32.5-1
@@ -632,8 +632,8 @@ nixnote 1.5-2
 nmon 14g-3
 notification-daemon 0.7.6-1
 notify-sharp 0.4.0.3032-2
-nspr 4.9.4-1
-nss 3.14.1.1.93-1
+nspr 4.9.5-1
+nss 3.14.3-2
 ntfs-3g 2013.1.13-1
 ntfsprogs 2013.1.13-1
 ntp 4.2.6.p5-13
@@ -645,7 +645,7 @@ openal 1.15.1-1
 opencl-nvidia 313.18-1
 opencore-amr 0.1.3-1
 openexr 1.7.1-2
-openjdk7-src 7.u13_2.3.7-1
+openjdk7-src 7.u13_2.3.7-2
 openjpeg 1.5.0-1
 openobex 1.5-3
 openssh 6.1p1-6
@@ -810,7 +810,7 @@ sparsehash 2.0.2-1
 speex 1.2rc1-3
 sqlite 3.7.15.2-1
 startup-notification 0.12-3
-steam 1.0.0.34-3
+steam 1.0.0.34-5
 strace 4.7-1
 strigi 0.7.8-1
 subversion 1.7.8-1
@@ -970,7 +970,7 @@ xorg-xset 1.2.2-2
 xorg-xvinfo 1.1.2-1
 xorg-xwininfo 1.1.2-1
 xproto 7.0.23-1
-xterm 290-1
+xterm 291-1
 xvidcore 1.3.2-1
 xz 5.0.4-1
 yajl 2.0.4-1
