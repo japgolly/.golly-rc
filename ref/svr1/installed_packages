@@ -144,7 +144,7 @@ lib32-ncurses 5.9-1
 lib32-openal 1.15.1-1
 lib32-sdl 1.2.15-3
 lib32-zlib 1.2.7-1
-libarchive 3.0.4-2
+libarchive 3.1.2-1
 libassuan 2.0.3-1
 libcap 2.22-3
 libcap-ng 0.7.3-1
@@ -231,6 +231,7 @@ lsof 4.86-1
 lvm2 2.02.98-3
 lynx 2.8.7-6
 lzo 1.08-7
+lzo2 2.06-1
 m4 1.4.16-2
 make 3.82-5
 man-db 2.6.3-1
@@ -260,7 +261,7 @@ openssl 1.0.1.e-3
 p11-kit 0.13-1
 p7zip 9.20.1-6
 package-query 1.1-2
-pacman 4.0.3-5
+pacman 4.0.3-7
 pacman-mirrorlist 20130203-1
 pam 1.1.6-1
 pambase 20130113-1

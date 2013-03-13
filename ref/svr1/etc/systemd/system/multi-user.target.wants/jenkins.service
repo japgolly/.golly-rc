@@ -1,7 +1,6 @@
 [Unit]
 Description=An extendable open source continuous integration server
 After=network.target
-Wants=postfix.service
 
 [Service]
 User=jenkins
@@ -10,15 +9,15 @@ EnvironmentFile=/etc/conf.d/jenkins
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=jenkins
-ExecStart=@/usr/bin/java jenkins $JAVA_ARGS $JAVA_OPTS -jar $JENKINS_WAR $JENKINS_WEBROOT $JENKINS_PORT $JENKINS_AJPPORT $JENKINS_OPTS
+ExecStart=/bin/sh -c 'eval $JENKINS_COMMAND_LINE'
 #MemoryLimit=768M
-#OOMScoreAdjust=-1000
-#LimitCPU=infinity
-#LimitFSIZE=infinity
-#LimitDATA=infinity
-#LimitCORE=0
-#LimitAS=infinity
-#LimitLOCKS=infinity
+OOMScoreAdjust=-1000
+LimitCPU=infinity
+LimitFSIZE=infinity
+LimitDATA=infinity
+LimitCORE=0
+LimitAS=infinity
+LimitLOCKS=infinity
 
 [Install]
 WantedBy=multi-user.target
