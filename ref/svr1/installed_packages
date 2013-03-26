@@ -116,7 +116,7 @@ isl 0.11.1-1
 jasper 1.900.1-8
 jdk6-compat 6u38-b05
 jdk7-openjdk 7.u17_2.3.8-1
-jenkins-ci 1.502-1
+jenkins-ci 1.506-1
 jfsutils 1.1.15-3
 jre6-compat 6u38-b05
 jre7-openjdk 7.u17_2.3.8-1
@@ -387,7 +387,7 @@ postfix 2.10.0-3
 postgresql 9.2.3-1
 postgresql-docs 9.2.3-1
 postgresql-libs 9.2.3-1
-powertop 2.2-3
+powertop 2.3-1
 ppl 1.0-1
 ppp 2.4.5-5
 procps-ng 3.3.5-1
@@ -453,8 +453,8 @@ util-linux 2.22.2-2
 vde2 2.3.2-2
 vi 1:050325-3
 videoproto 2.3.1-2
-vim 7.3.798-1
-vim-runtime 7.3.798-1
+vim 7.3.834-1
+vim-runtime 7.3.834-1
 vim-systemd 20130219-1
 wayland 1.0.6-1
 wget 1.14-2
