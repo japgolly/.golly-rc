@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Start multiple emus
+if [ $# -ne 1 ]; then
+  cd /tmp
+  for n in "$@"; do
+#    nohup "$0" "$n" 2>/dev/null >/dev/null &
+    "$0" "$n"
+    sleep 4
+  done
+
+# DPI testing shortcut
+elif [ "$1" == "dpi" ]; then
+  "$0" ldpi mdpi hdpi hdpi360
+  args="-scale 0.75 $args" "$0" xhdpi
+
+# Start single device
+else
+  [ -z "$lang" ] && lang=en
+  avddir=~/.android/avd/"$1".avd
+  [ ! -e "$avddir" ] && echo "AVD dir doesn't exist: $avddir" && exit 1
+  arch="$(fgrep abi.type= "$avddir"/config.ini | sed 's/^.*=//' )"
+  [ "$SS" == "0" ] && args="-no-snapshot-load $args"
+  [ "$arch" == "x86" ] && args="$args -qemu -m 512 -enable-kvm"
+  echo "Starting $1 ($lang)..."
+  nohup emulator -avd "$1" -prop persist.sys.language="$lang" $args 2>/dev/null >/dev/null &
+fi
