@@ -6,13 +6,21 @@ if [ $# -ne 1 ]; then
   for n in "$@"; do
 #    nohup "$0" "$n" 2>/dev/null >/dev/null &
     "$0" "$n"
-    sleep 4
   done
 
 # DPI testing shortcut
 elif [ "$1" == "dpi" ]; then
-  "$0" ldpi mdpi hdpi hdpi360
+  "$0" ldpi mdpi hdpi
+  sleep 30
+  "$0" hdpi360
   args="-scale 0.75 $args" "$0" xhdpi
+
+# DPI testing shortcut (r16)
+elif [ "$1" == "dpi16" ]; then
+  "$0" r16_ldpi r16_mdpi r16_hdpi
+  sleep 30
+  "$0" r16_hdpi360
+  args="-scale 0.75 $args" "$0" r16_xhdpi
 
 # Start single device
 else
