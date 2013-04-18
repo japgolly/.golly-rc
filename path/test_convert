@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  convert
+  exit
+fi
+
+# Get the output filename
+outfile="${@:${#@}}" # Get last arg
+outfile="${outfile#*:}" # Remove PNG32: etc
+
+# If the final arg doesnt have a . (ie isn't a filename) use a temp one
+autofilename=
+if [ "${outfile#*.}" == "$outfile" ]; then
+  outfile=/tmp/as.png
+  autofilename=$outfile
+fi
+
+# Convert
+convert "$@" $autofilename \
+  && identify "$outfile" \
+  && nohup xdg-open "$outfile" &> /dev/null
