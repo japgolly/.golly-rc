@@ -34,7 +34,7 @@
       <property name="&lt;Super&gt;Down" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Down&quot;"/>
       <property name="&lt;Super&gt;Left" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Back by 5 seconds&quot;"/>
       <property name="&lt;Super&gt;Right" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Ahead by 5 seconds&quot;"/>
-      <property name="&lt;Super&gt;m" type="string" value="gcalctool"/>
+      <property name="&lt;Super&gt;m" type="string" value="speedcrunch"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
