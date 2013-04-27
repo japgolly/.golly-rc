@@ -1,5 +1,6 @@
 yaourt -Sy --needed --noconfirm -- \
   abs \
+  ack \
   acroread \
   alsa-lib \
   alsa-oss \
@@ -12,11 +13,10 @@ yaourt -Sy --needed --noconfirm -- \
   bc \
   ca-certificates-java \
   cairo-dock \
-  cairo-dock-plug-ins \
-  cairo-dock-themes \
+  cairo-dock-plugins \
   calibre \
   ccsm \
-  chromium \
+  google-chrome \
   cifs-utils \
   clementine \
   colordiff \
@@ -45,7 +45,6 @@ yaourt -Sy --needed --noconfirm -- \
   flac \
   flashplugin \
   fusion-icon \
-  gcalctool \
   gimp \
   git \
   git-cola \
@@ -147,12 +146,12 @@ yaourt -Sy --needed --noconfirm -- \
   smpeg \
   smplayer \
   soundtouch \
+  speedcrunch \
   startup-notification \
   strace \
   sudo \
   swi-prolog \
   taglib \
-  terminal \
   thunar \
   traceroute \
   tree \
@@ -207,6 +206,8 @@ yaourt -Sy --needed --noconfirm -- \
   xorg-xrandr \
   xterm \
   zip \
+  zsh \
+  zsh-completions \
   ;
 
  sudo usermod -a -G vboxusers golly

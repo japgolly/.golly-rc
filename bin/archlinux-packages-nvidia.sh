@@ -1,1 +1,5 @@
-pacman -Sy --needed -- nvidia nvidia-utils libvdpau libva-vdpau-driver
+sudo pacman -Sy --needed -- \
+  nvidia nvidia-{utils,libgl} \
+  libvdpau libva-vdpau-driver \
+  lib32-nvidia-{utils,libgl} \
+  opencl-nvidia
