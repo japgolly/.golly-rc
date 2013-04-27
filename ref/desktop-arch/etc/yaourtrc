@@ -5,7 +5,7 @@
 #
 
 # General
-#AUTOSAVEBACKUPFILE=0
+AUTOSAVEBACKUPFILE=1
 #DEVELBUILDDIR="/var/abs/local/yaourtbuild"
 #DEVEL=0
 #EDITOR="$EDITOR"

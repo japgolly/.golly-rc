@@ -3,8 +3,7 @@
 #
 
 #<ip-address>	<hostname.domain.org>	<hostname>
-127.0.0.1	localhost.localdomain	localhost golly-desktop
-::1		localhost.localdomain	localhost golly-desktop
+127.0.0.1	localhost.localdomain	localhost
+::1		localhost.localdomain	localhost
 
-192.168.3.41    golly-svr1.fritz.box golly-svr1
 # End of file

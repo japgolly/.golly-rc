@@ -7,11 +7,12 @@
 
 #exec ck-launch-session gnome-session
 
-fusion-icon &
+#fusion-icon &
 
-redshift -l -33.8683:151.2086 &
+#redshift -l -33.8683:151.2086 &
 
-exec ck-launch-session startxfce4
+#exec ck-launch-session startxfce4
+exec startxfce4
 
 #exec i3
 

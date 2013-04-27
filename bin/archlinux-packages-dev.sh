@@ -3,24 +3,22 @@ yaourt -Sy --needed --noconfirm -- \
   android-sdk \
   android-sdk-platform-tools \
   android-udev \
-  eclipse \
-  eclipse-android \
-  eclipse-emf \
-  eclipse-gef \
-  eclipse-wtp \
-  gcc-go \
   gdb \
-  go \
   graphviz \
+  inkscape \
   maven \
+  mercurial \
   jdk6-compat \
   jre6-compat \
   jdk7-openjdk \
   openjdk7-src \
   pgadmin3 \
+  plantuml \
+  pngout \
   postgresql \
   postgresql-libs \
   postgresql-old-upgrade \
+  sbt \
   sloccount \
   sqlite \
   subversion \
