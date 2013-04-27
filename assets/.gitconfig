@@ -1,6 +1,7 @@
 [user]
 	name = David Barri
 	email = japgolly@gmail.com
+
 [alias]
    st = status
    co = checkout
@@ -9,6 +10,9 @@
    l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
    diffs = diff --staged
    cp = cherry-pick
+   lol = log --graph --decorate --pretty=oneline --abbrev-commit
+   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
 [color]
    ui = true
    diff = auto

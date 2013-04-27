@@ -53,6 +53,22 @@ function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *
 function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done }
 function server_off { [ -e ~/.m2/settings.xml ] && mv ~/.m2/settings.xml{,.off} }
 function server_on { [ ! -e ~/.m2/settings.xml ] && mv ~/.m2/settings.xml{.off,} }
+function kvm_on {
+  sudo modprobe -r vboxnetflt
+  sudo modprobe -r vboxdrv
+  sudo modprobe kvm_intel
+  lsmod | egrep 'kvm|vbox'
+}
+function kvm_off {
+  sudo modprobe -r kvm_intel
+  sudo modprobe -r kvm
+  sudo modprobe vboxdrv
+  sudo modprobe vboxnetflt
+  lsmod | egrep 'kvm|vbox'
+}
+
+# Use golly-rc path
+export PATH="$PATH:$HOME/.golly-rc/path"
 
 #export GIT_SSL_NO_VERIFY=true
 unset RUBYOPT
