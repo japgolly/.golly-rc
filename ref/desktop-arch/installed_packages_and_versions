@@ -661,6 +661,7 @@ poppler-glib 0.22.3-2
 poppler-qt 0.22.3-2
 popt 1.16-5
 postgresql 9.2.4-1
+postgresql-docs 9.2.4-1
 postgresql-libs 9.2.4-1
 postgresql-old-upgrade 9.1.9-1
 powertop 2.3-1
@@ -818,6 +819,7 @@ vi 1:050325-3
 videoproto 2.3.1-2
 vim 7.3.875-1
 vim-runtime 7.3.875-1
+vim-systemd 20130410-1
 virtualbox 4.2.12-1
 virtualbox-guest-iso 4.2.12-1
 virtualbox-host-modules 4.2.12-2

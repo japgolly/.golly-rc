@@ -16,6 +16,7 @@ yaourt -Sy --needed --noconfirm -- \
   plantuml \
   pngout \
   postgresql \
+  postgresql-docs \
   postgresql-libs \
   postgresql-old-upgrade \
   sbt \

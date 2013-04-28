@@ -166,6 +166,7 @@ yaourt -Sy --needed --noconfirm -- \
   unzip \
   upower \
   vim \
+  vim-systemd \
   virtualbox \
   virtualbox-guest-iso \
   virtualbox-host-modules \

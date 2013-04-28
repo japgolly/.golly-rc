@@ -661,6 +661,7 @@ poppler-glib
 poppler-qt
 popt
 postgresql
+postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
 powertop
@@ -818,6 +819,7 @@ vi
 videoproto
 vim
 vim-runtime
+vim-systemd
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules
