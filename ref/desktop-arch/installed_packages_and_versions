@@ -36,6 +36,8 @@ bash-completion 2.1-1
 bc 1.06-8
 binutils 2.23.2-2
 bison 2.7.1-1
+bitcoin-daemon 0.8.1-2
+bitcoin-qt 0.8.1-2
 boost-libs 1.53.0-2
 bzip2 1.0.6-4
 ca-certificates 20130119-1
@@ -49,6 +51,7 @@ calibre 0.9.28-1
 cantarell-fonts 0.0.12-1
 ccsm 0.8.4-3
 cdparanoia 10.2-4
+cgminer 3.1.0-1
 chmlib 0.40-3
 cifs-utils 6.0-1
 clementine 1.1.1-7
@@ -562,6 +565,7 @@ mesa 9.1.1-1
 mesa-demos 8.1.0-1
 metacity 2.34.13-5
 mime-types 8-1
+miniupnpc 1.6-2
 mirage 0.9.5.2-1
 mjpegtools 2.0.0-2
 mkinitcpio 0.13.0-1
@@ -711,6 +715,7 @@ python2-xdg 0.25-1
 qca 2.0.3-4
 qca-ossl 2.0.0-6
 qjson 0.8.1-2
+qrencode 3.4.2-1
 qt4 4.8.4-16
 qtwebkit 2.3.1-1
 randrproto 1.4.0-1

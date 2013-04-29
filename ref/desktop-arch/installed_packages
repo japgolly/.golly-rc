@@ -36,6 +36,8 @@ bash-completion
 bc
 binutils
 bison
+bitcoin-daemon
+bitcoin-qt
 boost-libs
 bzip2
 ca-certificates
@@ -49,6 +51,7 @@ calibre
 cantarell-fonts
 ccsm
 cdparanoia
+cgminer
 chmlib
 cifs-utils
 clementine
@@ -562,6 +565,7 @@ mesa
 mesa-demos
 metacity
 mime-types
+miniupnpc
 mirage
 mjpegtools
 mkinitcpio
@@ -711,6 +715,7 @@ python2-xdg
 qca
 qca-ossl
 qjson
+qrencode
 qt4
 qtwebkit
 randrproto
