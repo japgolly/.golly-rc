@@ -51,6 +51,13 @@ export PROMPT="%{$fg[green]%}%n@%m: %{$fg[yellow]%}%~ \$(git_info)
 %{$reset_color%}> "
 #export RPS1="%B%{$fg[cyan]%}%*%b%{$reset_color%}"
 
+# Start new terminal tabs in the working directory
+if [ -e /etc/profile.d/vte.sh ]; then
+  source /etc/profile.d/vte.sh
+  __vte_ps1
+  chpwd() { __vte_ps1 }
+fi
+
 bindkey '^A' beginning-of-line
 bindkey '^D' delete-char-or-list
 bindkey '^E' end-of-line
