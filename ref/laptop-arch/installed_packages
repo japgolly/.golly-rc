@@ -43,6 +43,7 @@ calibre
 ccsm
 cdparanoia
 celt
+cgminer
 cheese
 chmlib
 chromaprint
@@ -94,6 +95,7 @@ docbook-xml
 docbook-xsl
 dos2unix
 dosfstools
+dotconf
 dri2proto
 dropbox
 e2fsprogs
@@ -134,7 +136,6 @@ gamin
 garcon
 gawk
 gc
-gcalctool
 gcc
 gcc-go
 gcc-libs
@@ -277,6 +278,7 @@ ladspa
 lame
 lcms
 lcms2
+ldb
 ldns
 leafpad
 less
@@ -290,6 +292,7 @@ libavc1394
 libbluray
 libbonobo
 libbonoboui
+libbsd
 libcaca
 libcanberra
 libcanberra-pulse
@@ -299,6 +302,7 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
+libcl
 libcompizconfig
 libcroco
 libcups
@@ -408,7 +412,6 @@ libsm
 libsndfile
 libsocialweb
 libsoup
-libsoup-gnome
 libspectre
 libssh2
 libstdc++5
@@ -436,6 +439,7 @@ libvorbis
 libvpx
 libwacom
 libwbclient
+libwebp
 libwmf
 libwnck
 libwnck3
@@ -627,6 +631,7 @@ python
 python-dbus
 python-dbus-common
 python-sip
+python-xdg
 python2
 python2-beaker
 python2-beautifulsoup3
@@ -705,6 +710,8 @@ sound-theme-freedesktop
 soundtouch
 spandsp
 sparsehash
+speech-dispatcher
+speedcrunch
 speex
 sqlite
 startup-notification
@@ -726,6 +733,7 @@ tar
 tcl
 tdb
 telepathy-glib
+tevent
 texinfo
 thunar
 tinycdb
