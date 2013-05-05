@@ -38,6 +38,7 @@ binutils 2.23.2-2
 bison 2.7.1-1
 bitcoin-daemon 0.8.1-2
 bitcoin-qt 0.8.1-2
+blas 3.4.2-1
 boost-libs 1.53.0-2
 bzip2 1.0.6-4
 ca-certificates 20130119-1
@@ -279,6 +280,7 @@ kmod 13-1
 krb5 1.11.2-1
 ladspa 1.13-4
 lame 3.99.5-1
+lapack 3.4.2-1
 lcms 1.19-2
 lcms2 2.4-1
 ldb 1.1.15-1
@@ -422,6 +424,7 @@ liblrdf 0.5.0-1
 libltdl 2.4.2-8
 libmad 0.15.1b-6
 libmatroska 1.4.0-1
+libmikmod 3.2.0-1
 libmms 0.6.2-1
 libmng 1.0.10-4
 libmodplug 0.8.8.4-1
@@ -664,6 +667,7 @@ poppler 0.22.3-2
 poppler-glib 0.22.3-2
 poppler-qt 0.22.3-2
 popt 1.16-5
+portmidi 217-3
 postgresql 9.2.4-1
 postgresql-docs 9.2.4-1
 postgresql-libs 9.2.4-1
@@ -689,6 +693,7 @@ python2-beaker 1.6.4-1
 python2-beautifulsoup3 3.2.1-2
 python2-cairo 1.10.0-1
 python2-cherrypy 3.2.2-2
+python2-crypto 2.6-3
 python2-cssselect 0.7.1-2
 python2-cssutils 0.9.9-3
 python2-dateutil 2.1-6
@@ -705,13 +710,17 @@ python2-mako 0.8.0-1
 python2-markupsafe 0.15-2
 python2-mechanize 0.2.5-3
 python2-netifaces 0.8-2
+python2-numpy 1.7.1-1
 python2-psutil 0.7.0-1
+python2-pygame 1.9.1-7
 python2-pygments 1.6-1
 python2-pyqt 4.10.1-1
+python2-scipy 0.12.0-1
 python2-sip 4.14.6-1
 python2-six 1.3.0-1
 python2-sphinx 1.1.3-3
 python2-xdg 0.25-1
+python2-zope-interface 4.0.3-1
 qca 2.0.3-4
 qca-ossl 2.0.0-6
 qjson 0.8.1-2
@@ -733,6 +742,7 @@ renderproto 0.11.1-2
 rest 0.7.90-2
 rlwrap 0.37-2
 rpcbind 0.2.0-9
+rrdtool 1.4.7-5
 rsync 3.0.9-5
 rtkit 0.11-1
 rtmpdump 20121203-1
@@ -740,9 +750,12 @@ run-parts 4.3.4-1
 sbc 1.0-1
 sbt 1:0.12.3-1
 schroedinger 1.0.11-1
+screen 4.0.3-15
 scrnsaverproto 1.2.2-1
 sdl 1.2.15-3
 sdl_image 1.2.12-2
+sdl_mixer 1.2.12-3
+sdl_ttf 2.0.11-2
 sed 4.2.2-2
 sensors-applet 3.0.0-3
 serf 1.2.0-1
@@ -807,6 +820,7 @@ ttf-mac-fonts 1-6
 ttf-microsoft-consolas 5.32-1
 ttf-mph-2b-damase 001.000.4.dfsg.2-4
 tumbler 0.1.27-2
+twisted 13.0.0-1
 tzdata 2013c-1
 udisks 1.0.4-6
 udisks2 2.1.0-1

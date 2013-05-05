@@ -38,6 +38,7 @@ binutils
 bison
 bitcoin-daemon
 bitcoin-qt
+blas
 boost-libs
 bzip2
 ca-certificates
@@ -279,6 +280,7 @@ kmod
 krb5
 ladspa
 lame
+lapack
 lcms
 lcms2
 ldb
@@ -422,6 +424,7 @@ liblrdf
 libltdl
 libmad
 libmatroska
+libmikmod
 libmms
 libmng
 libmodplug
@@ -664,6 +667,7 @@ poppler
 poppler-glib
 poppler-qt
 popt
+portmidi
 postgresql
 postgresql-docs
 postgresql-libs
@@ -689,6 +693,7 @@ python2-beaker
 python2-beautifulsoup3
 python2-cairo
 python2-cherrypy
+python2-crypto
 python2-cssselect
 python2-cssutils
 python2-dateutil
@@ -705,13 +710,17 @@ python2-mako
 python2-markupsafe
 python2-mechanize
 python2-netifaces
+python2-numpy
 python2-psutil
+python2-pygame
 python2-pygments
 python2-pyqt
+python2-scipy
 python2-sip
 python2-six
 python2-sphinx
 python2-xdg
+python2-zope-interface
 qca
 qca-ossl
 qjson
@@ -733,6 +742,7 @@ renderproto
 rest
 rlwrap
 rpcbind
+rrdtool
 rsync
 rtkit
 rtmpdump
@@ -740,9 +750,12 @@ run-parts
 sbc
 sbt
 schroedinger
+screen
 scrnsaverproto
 sdl
 sdl_image
+sdl_mixer
+sdl_ttf
 sed
 sensors-applet
 serf
@@ -807,6 +820,7 @@ ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
+twisted
 tzdata
 udisks
 udisks2
