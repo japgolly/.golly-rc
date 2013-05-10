@@ -646,6 +646,7 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
+phantomjs-bin
 phonon
 phonon-gstreamer
 pidgin
