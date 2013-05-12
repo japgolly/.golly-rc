@@ -1,6 +1,7 @@
 a52dec
 aalib
 accountsservice
+ack
 acl
 alsa-lib
 alsa-plugins
@@ -59,6 +60,7 @@ clutter-gtk
 cmake
 cogl
 colord
+colord-gtk
 colordiff
 compiz-bcop
 compiz-core
@@ -107,6 +109,7 @@ eventlog
 evince
 evolution-data-server
 exempi
+exiv2
 exo
 expat
 faac
@@ -162,6 +165,7 @@ glu
 gmp
 gnome-backgrounds
 gnome-bluetooth
+gnome-color-manager
 gnome-control-center
 gnome-desktop
 gnome-doc-utils
@@ -266,6 +270,7 @@ jfsutils
 jre7-openjdk
 jre7-openjdk-headless
 js
+js185
 json-c
 json-glib
 kbd
@@ -379,6 +384,7 @@ libmpcdec
 libmpeg2
 libmtp
 libmysqlclient
+libnautilus-extension
 libnice
 libnl
 libnotify
@@ -395,6 +401,7 @@ libproxy
 libpulse
 libpurple
 libpwquality
+libqmi
 libraw1394
 libreoffice-calc
 libreoffice-common
@@ -510,6 +517,7 @@ m4
 make
 man-db
 man-pages
+mash
 maven
 mcpp
 mdadm
@@ -523,6 +531,7 @@ mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
+modemmanager
 mono
 mozilla-common
 mpfr
@@ -587,6 +596,7 @@ pcmciautils
 pcre
 perl
 perl-error
+perl-file-next
 perl-test-pod
 perl-xml-parser
 perl-xml-simple
@@ -700,6 +710,7 @@ serf
 sg3_utils
 shadow
 shared-color-profiles
+shared-color-targets
 shared-mime-info
 sip
 sloccount
