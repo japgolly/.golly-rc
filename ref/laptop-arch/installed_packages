@@ -1,6 +1,7 @@
 a52dec
 aalib
 accountsservice
+ack
 acl
 alsa-lib
 alsa-plugins
@@ -43,6 +44,7 @@ calibre
 ccsm
 cdparanoia
 celt
+cgminer
 cheese
 chmlib
 chromaprint
@@ -58,6 +60,7 @@ clutter-gtk
 cmake
 cogl
 colord
+colord-gtk
 colordiff
 compiz-bcop
 compiz-core
@@ -94,6 +97,7 @@ docbook-xml
 docbook-xsl
 dos2unix
 dosfstools
+dotconf
 dri2proto
 dropbox
 e2fsprogs
@@ -105,6 +109,7 @@ eventlog
 evince
 evolution-data-server
 exempi
+exiv2
 exo
 expat
 faac
@@ -134,9 +139,7 @@ gamin
 garcon
 gawk
 gc
-gcalctool
 gcc
-gcc-go
 gcc-libs
 gcolor2
 gconf
@@ -161,6 +164,7 @@ glu
 gmp
 gnome-backgrounds
 gnome-bluetooth
+gnome-color-manager
 gnome-control-center
 gnome-desktop
 gnome-doc-utils
@@ -176,7 +180,6 @@ gnome-vfs
 gnome-video-effects
 gnupg
 gnutls
-go
 gobject-introspection
 gpart
 gparted
@@ -236,7 +239,6 @@ hwids
 hwinfo
 hyphen
 hyphen-en
-i8kmon
 i8kutils
 iana-etc
 ibus
@@ -265,6 +267,7 @@ jfsutils
 jre7-openjdk
 jre7-openjdk-headless
 js
+js185
 json-c
 json-glib
 kbd
@@ -277,6 +280,7 @@ ladspa
 lame
 lcms
 lcms2
+ldb
 ldns
 leafpad
 less
@@ -290,6 +294,7 @@ libavc1394
 libbluray
 libbonobo
 libbonoboui
+libbsd
 libcaca
 libcanberra
 libcanberra-pulse
@@ -299,6 +304,7 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
+libcl
 libcompizconfig
 libcroco
 libcups
@@ -375,6 +381,7 @@ libmpcdec
 libmpeg2
 libmtp
 libmysqlclient
+libnautilus-extension
 libnice
 libnl
 libnotify
@@ -391,6 +398,7 @@ libproxy
 libpulse
 libpurple
 libpwquality
+libqmi
 libraw1394
 libreoffice-calc
 libreoffice-common
@@ -408,7 +416,6 @@ libsm
 libsndfile
 libsocialweb
 libsoup
-libsoup-gnome
 libspectre
 libssh2
 libstdc++5
@@ -436,6 +443,7 @@ libvorbis
 libvpx
 libwacom
 libwbclient
+libwebp
 libwmf
 libwnck
 libwnck3
@@ -506,6 +514,7 @@ m4
 make
 man-db
 man-pages
+mash
 maven
 mcpp
 mdadm
@@ -519,6 +528,7 @@ mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
+modemmanager
 mono
 mozilla-common
 mpfr
@@ -583,6 +593,7 @@ pcmciautils
 pcre
 perl
 perl-error
+perl-file-next
 perl-test-pod
 perl-xml-parser
 perl-xml-simple
@@ -627,6 +638,7 @@ python
 python-dbus
 python-dbus-common
 python-sip
+python-xdg
 python2
 python2-beaker
 python2-beautifulsoup3
@@ -695,6 +707,7 @@ serf
 sg3_utils
 shadow
 shared-color-profiles
+shared-color-targets
 shared-mime-info
 sip
 sloccount
@@ -705,6 +718,8 @@ sound-theme-freedesktop
 soundtouch
 spandsp
 sparsehash
+speech-dispatcher
+speedcrunch
 speex
 sqlite
 startup-notification
@@ -726,6 +741,7 @@ tar
 tcl
 tdb
 telepathy-glib
+tevent
 texinfo
 thunar
 tinycdb
