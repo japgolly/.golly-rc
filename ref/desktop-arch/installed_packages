@@ -220,6 +220,7 @@ gtkmm
 gtksourceview3
 gtkspell
 gts
+guake
 guisu
 gvfs
 gzip
@@ -457,6 +458,7 @@ libreoffice-calc
 libreoffice-common
 libreoffice-draw
 libreoffice-en-GB
+libreoffice-gnome
 libreoffice-writer
 librpcsecgss
 librsvg
@@ -697,6 +699,7 @@ python2-dbus
 python2-distribute
 python2-dnspython
 python2-docutils
+python2-gconf
 python2-gobject
 python2-gobject2
 python2-imaging
@@ -706,6 +709,7 @@ python2-mako
 python2-markupsafe
 python2-mechanize
 python2-netifaces
+python2-notify
 python2-numpy
 python2-psutil
 python2-pygame
@@ -837,6 +841,7 @@ virtualbox-guest-iso
 virtualbox-host-modules
 virtuoso-base
 vlc
+vte
 vte-common
 vte3
 wavpack
