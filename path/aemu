@@ -17,9 +17,7 @@ elif [ "$1" == "dpi" ]; then
 
 # DPI testing shortcut (r16)
 elif [ "$1" == "dpi16" ]; then
-  "$0" r16_ldpi r16_mdpi r16_hdpi
-  sleep 30
-  "$0" r16_hdpi360
+  "$0" r16_ldpi r16_mdpi r16_hdpi r16_hdpi360
   args="-scale 0.75 $args" "$0" r16_xhdpi
 
 # Start single device

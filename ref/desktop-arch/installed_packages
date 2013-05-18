@@ -38,6 +38,7 @@ binutils
 bison
 bitcoin-daemon
 bitcoin-qt
+blas
 boost-libs
 bzip2
 ca-certificates
@@ -54,7 +55,6 @@ cdparanoia
 cgminer
 chmlib
 cifs-utils
-clementine
 cloog
 clucene
 clutter
@@ -136,7 +136,6 @@ fontsproto
 freeglut
 freetype2
 fribidi
-ftgl
 fuse
 fusion-icon
 garcon
@@ -250,6 +249,8 @@ imlib2
 inetutils
 inkscape
 inputproto
+intellij-idea-community-edition
+intellij-idea-libs
 iproute2
 iptables
 iputils
@@ -279,6 +280,7 @@ kmod
 krb5
 ladspa
 lame
+lapack
 lcms
 lcms2
 ldb
@@ -399,7 +401,6 @@ libglade
 libgme
 libgnome-keyring
 libgpg-error
-libgpod
 libgssglue
 libgtop
 libgusb
@@ -415,13 +416,13 @@ libirman
 libjpeg-turbo
 libkate
 libksba
-liblastfm
 libldap
 liblqr
 liblrdf
 libltdl
 libmad
 libmatroska
+libmikmod
 libmms
 libmng
 libmodplug
@@ -580,7 +581,6 @@ mplayer
 mtdev
 mtools
 musicbrainz
-mutagen
 mythes-en
 nano
 nautilus
@@ -643,6 +643,7 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
+phantomjs-bin
 phonon
 phonon-gstreamer
 pidgin
@@ -664,6 +665,7 @@ poppler
 poppler-glib
 poppler-qt
 popt
+portmidi
 postgresql
 postgresql-docs
 postgresql-libs
@@ -672,8 +674,6 @@ powertop
 ppp
 procps-ng
 profont
-projectm
-protobuf
 psmisc
 pth
 pulseaudio
@@ -689,6 +689,7 @@ python2-beaker
 python2-beautifulsoup3
 python2-cairo
 python2-cherrypy
+python2-crypto
 python2-cssselect
 python2-cssutils
 python2-dateutil
@@ -705,16 +706,18 @@ python2-mako
 python2-markupsafe
 python2-mechanize
 python2-netifaces
+python2-numpy
 python2-psutil
+python2-pygame
 python2-pygments
 python2-pyqt
+python2-scipy
 python2-sip
 python2-six
 python2-sphinx
 python2-xdg
+python2-zope-interface
 qca
-qca-ossl
-qjson
 qrencode
 qt4
 qtwebkit
@@ -733,6 +736,7 @@ renderproto
 rest
 rlwrap
 rpcbind
+rrdtool
 rsync
 rtkit
 rtmpdump
@@ -740,9 +744,12 @@ run-parts
 sbc
 sbt
 schroedinger
+screen
 scrnsaverproto
 sdl
 sdl_image
+sdl_mixer
+sdl_ttf
 sed
 sensors-applet
 serf
@@ -764,7 +771,6 @@ smuxi-server
 soprano
 sound-theme-freedesktop
 soundtouch
-sparsehash
 speedcrunch
 speex
 sqlite
@@ -807,6 +813,7 @@ ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
+twisted
 tzdata
 udisks
 udisks2
