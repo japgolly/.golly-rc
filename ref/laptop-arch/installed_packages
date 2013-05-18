@@ -140,7 +140,6 @@ garcon
 gawk
 gc
 gcc
-gcc-go
 gcc-libs
 gcolor2
 gconf
@@ -181,7 +180,6 @@ gnome-vfs
 gnome-video-effects
 gnupg
 gnutls
-go
 gobject-introspection
 gpart
 gparted
