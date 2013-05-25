@@ -37,8 +37,7 @@ ca-certificates
 ca-certificates-java
 cairo
 cairo-dock
-cairo-dock-plug-ins
-cairo-dock-themes
+cairo-dock-plugins
 cairomm
 calibre
 ccsm
@@ -223,6 +222,7 @@ gtkmm
 gtksourceview3
 gtkspell
 gts
+guake
 guifications
 gvfs
 gvfs-obexftp
@@ -252,6 +252,8 @@ initscripts
 inkscape
 inputproto
 intel-dri
+intellij-idea-community-edition
+intellij-idea-libs
 intltool
 iproute2
 iptables
@@ -262,8 +264,10 @@ iw
 jack
 jasper
 java-rhino
+jdk6-compat
 jdk7-openjdk
 jfsutils
+jre6-compat
 jre7-openjdk
 jre7-openjdk-headless
 js
@@ -310,8 +314,6 @@ libcroco
 libcups
 libdaemon
 libdatrie
-libdbusmenu
-libdbusmenu-gtk3
 libdc1394
 libdca
 libdmx
@@ -403,6 +405,7 @@ libraw1394
 libreoffice-calc
 libreoffice-common
 libreoffice-en-GB
+libreoffice-gnome
 libreoffice-writer
 librpcsecgss
 librsvg
@@ -509,6 +512,7 @@ lxrandr
 lxsession
 lxtask
 lxterminal
+lynx
 lzo2
 m4
 make
@@ -651,6 +655,7 @@ python2-dbus
 python2-distribute
 python2-dnspython
 python2-docutils
+python2-gconf
 python2-gobject
 python2-gobject2
 python2-imaging
