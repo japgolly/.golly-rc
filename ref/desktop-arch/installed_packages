@@ -31,13 +31,12 @@ automake
 avahi
 awoken-icons
 babl
+baobab
 bash
 bash-completion
 bc
 binutils
 bison
-bitcoin-daemon
-bitcoin-qt
 blas
 boost-libs
 bzip2
@@ -181,6 +180,7 @@ gnupg
 gnutls
 gobject-introspection
 google-chrome
+google-musicmanager
 gpart
 gparted
 gpgme
@@ -571,7 +571,6 @@ mesa
 mesa-demos
 metacity
 mime-types
-miniupnpc
 mirage
 mjpegtools
 mkinitcpio
@@ -725,7 +724,6 @@ python2-sphinx
 python2-xdg
 python2-zope-interface
 qca
-qrencode
 qt4
 qtwebkit
 randrproto
@@ -785,6 +783,7 @@ startup-notification
 steam
 strace
 strigi
+sublime-text
 subversion
 sudo
 swi-prolog
