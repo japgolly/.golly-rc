@@ -38,6 +38,7 @@ bc
 binutils
 bison
 blas
+bluez4
 boost-libs
 bzip2
 ca-certificates
@@ -224,6 +225,7 @@ guisu
 gvfs
 gzip
 harfbuzz
+harfbuzz-icu
 hddtemp
 hdparm
 heirloom-mailx
@@ -425,6 +427,7 @@ liblrdf
 libltdl
 libmad
 libmatroska
+libmbim
 libmikmod
 libmms
 libmng
@@ -647,6 +650,7 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
+phantomjs
 phantomjs-bin
 phonon
 phonon-gstreamer
@@ -848,7 +852,7 @@ vte-common
 vte3
 wavpack
 wayland
-webkitgtk3
+webkitgtk
 webrtc-audio-processing
 wget
 which
