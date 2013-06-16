@@ -38,6 +38,7 @@ bc
 binutils
 bison
 blas
+bluez-utils
 bluez4
 boost-libs
 bzip2
@@ -266,6 +267,7 @@ jfsutils
 jre6-compat
 jre7-openjdk
 jre7-openjdk-headless
+js
 js185
 json-c
 json-glib
@@ -295,7 +297,7 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
-lib32-dbus-core
+lib32-dbus
 lib32-e2fsprogs
 lib32-expat
 lib32-fontconfig
