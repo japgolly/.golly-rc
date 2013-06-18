@@ -3,6 +3,7 @@ aalib
 accountsservice
 ack
 acl
+acroread
 alsa-lib
 alsa-plugins
 android-sdk
@@ -30,7 +31,9 @@ bash
 bash-completion
 binutils
 bison
-bluez
+bluez-libs
+bluez-utils
+bluez4
 boost-libs
 bzip2
 ca-certificates
@@ -228,6 +231,7 @@ gvfs
 gvfs-obexftp
 gzip
 harfbuzz
+harfbuzz-icu
 hddtemp
 heirloom-mailx
 hicolor-icon-theme
@@ -372,6 +376,7 @@ liblrdf
 libltdl
 libmad
 libmatroska
+libmbim
 libmikmod
 libmms
 libmng
@@ -494,6 +499,7 @@ linux
 linux-api-headers
 linux-firmware
 lirc-utils
+llvm-amdgpu-lib-snapshot
 lm_sensors
 logrotate
 lpsolve
@@ -729,6 +735,7 @@ speex
 sqlite
 startup-notification
 strace
+sublime-text
 subversion
 sudo
 svga-dri
@@ -784,8 +791,8 @@ vte-common
 vte3
 wavpack
 wayland
+webkitgtk
 webkitgtk2
-webkitgtk3
 webrtc-audio-processing
 wget
 which
