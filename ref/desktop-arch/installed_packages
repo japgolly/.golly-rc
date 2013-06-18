@@ -31,14 +31,15 @@ automake
 avahi
 awoken-icons
 babl
+baobab
 bash
 bash-completion
 bc
 binutils
 bison
-bitcoin-daemon
-bitcoin-qt
 blas
+bluez-utils
+bluez4
 boost-libs
 bzip2
 ca-certificates
@@ -52,7 +53,6 @@ calibre
 cantarell-fonts
 ccsm
 cdparanoia
-cgminer
 chmlib
 cifs-utils
 cloog
@@ -182,6 +182,7 @@ gnupg
 gnutls
 gobject-introspection
 google-chrome
+google-musicmanager
 gpart
 gparted
 gpgme
@@ -225,6 +226,7 @@ guisu
 gvfs
 gzip
 harfbuzz
+harfbuzz-icu
 hddtemp
 hdparm
 heirloom-mailx
@@ -265,6 +267,7 @@ jfsutils
 jre6-compat
 jre7-openjdk
 jre7-openjdk-headless
+js
 js185
 json-c
 json-glib
@@ -294,7 +297,7 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
-lib32-dbus-core
+lib32-dbus
 lib32-e2fsprogs
 lib32-expat
 lib32-fontconfig
@@ -316,6 +319,7 @@ lib32-libffi
 lib32-libgcrypt
 lib32-libgpg-error
 lib32-libice
+lib32-libidn
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libpciaccess
@@ -338,8 +342,10 @@ lib32-libxinerama
 lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
+lib32-libxt
 lib32-libxv
 lib32-libxxf86vm
+lib32-llvm-amdgpu-lib-snapshot
 lib32-mesa
 lib32-ncurses
 lib32-nvidia-libgl
@@ -423,6 +429,7 @@ liblrdf
 libltdl
 libmad
 libmatroska
+libmbim
 libmikmod
 libmms
 libmng
@@ -544,6 +551,7 @@ linux
 linux-api-headers
 linux-firmware
 lirc-utils
+llvm-amdgpu-lib-snapshot
 lm_sensors
 log4net
 logrotate
@@ -568,7 +576,6 @@ mesa
 mesa-demos
 metacity
 mime-types
-miniupnpc
 mirage
 mjpegtools
 mkinitcpio
@@ -645,6 +652,7 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
+phantomjs
 phantomjs-bin
 phonon
 phonon-gstreamer
@@ -722,7 +730,6 @@ python2-sphinx
 python2-xdg
 python2-zope-interface
 qca
-qrencode
 qt4
 qtwebkit
 randrproto
@@ -782,6 +789,7 @@ startup-notification
 steam
 strace
 strigi
+sublime-text
 subversion
 sudo
 swi-prolog
@@ -846,7 +854,7 @@ vte-common
 vte3
 wavpack
 wayland
-webkitgtk3
+webkitgtk
 webrtc-audio-processing
 wget
 which

@@ -10,9 +10,7 @@ if [ $# -ne 1 ]; then
 
 # DPI testing shortcut
 elif [ "$1" == "dpi" ]; then
-  "$0" ldpi mdpi hdpi
-  sleep 30
-  "$0" hdpi360
+  "$0" ldpi mdpi hdpi hdpi360
   args="-scale 0.75 $args" "$0" xhdpi
 
 # DPI testing shortcut (r16)
