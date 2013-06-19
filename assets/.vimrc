@@ -123,6 +123,15 @@ imap [1;3C <Esc>[1;3C
 imap [1;3D <Esc>[1;3D
 
 "-----------------------------------------------------------------
+" Scala macros
+" ,s[dD] - New describe
+au filetype scala nmap ,sD :set nopaste<CR>O<CR>describe " do<CR>end<Esc>kf"s
+au filetype scala nmap ,sd j,sD
+" ,s[iI] - New test (with impl)
+au filetype scala nmap <silent> ,sI :set nopaste<CR>O}<Esc>Oit(""){<Esc>hhi
+au filetype scala nmap <silent> ,si j,sI
+
+"-----------------------------------------------------------------
 " Ruby macros
 " RSpec macros
 execute 'source '.g:golly_rc_assets.'vim-functions.vim'
@@ -181,7 +190,7 @@ au filetype ruby nmap <silent> ,cJ k,cj
 au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*.\)/#\1/<CR>:set nohlsearch<CR>
 au filetype vim                           map <silent>  :s/^\(\s*\)\("\s*\)\?/\1" /<CR>:set nohlsearch<CR>
 au filetype plantuml                      map <silent>  :s/^\(\s*\)\('\s*\)\?/\1' /<CR>:set nohlsearch<CR>
-au filetype dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
+au filetype scala,dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
 au filetype xml                           map <silent>  :s/^\(\s*\)/\1<!--/<CR>:s/$/-->/<CR>:set nohlsearch<CR>
 imap <silent>  <Esc>w
 
@@ -190,7 +199,7 @@ imap <silent>  <Esc>w
 au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*\)#\s*/\1/<CR>:set nohlsearch<CR>
 au filetype vim                           map <silent>  :s/^\(\s*\)"\s*/\1/<CR>:set nohlsearch<CR>
 au filetype plantuml                      map <silent>  :s/^\(\s*\)'\s*/\1/<CR>:set nohlsearch<CR>
-au filetype dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
+au filetype scala,dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
 au filetype xml                           map <silent>  :s/^\(\s*\)<!--\s*/\1/<CR>:s/-->\(\s*\)$/\1/<CR>:set nohlsearch<CR>
 imap <silent>  <C-O>
 
