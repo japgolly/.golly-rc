@@ -691,7 +691,7 @@ pulseaudio-alsa
 pygobject-devel
 pygobject2-devel
 pygtk
-pyqt-common
+pyqt4-common
 python
 python-dbus-common
 python2
@@ -722,7 +722,7 @@ python2-numpy
 python2-psutil
 python2-pygame
 python2-pygments
-python2-pyqt
+python2-pyqt4
 python2-scipy
 python2-sip
 python2-six
