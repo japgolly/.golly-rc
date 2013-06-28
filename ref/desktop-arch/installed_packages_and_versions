@@ -12,7 +12,7 @@ alsa-tools 1.0.27-3
 alsa-utils 1.0.27.1-2
 android-sdk r21.1-1
 android-sdk-platform-tools r16.0.2-1
-android-udev 45.10d7d0f-1
+android-udev 48.756f953-1
 apache-ant 1.9.1-1
 apr 1.4.6-1
 apr-util 1.5.2-1
@@ -27,7 +27,7 @@ atkmm 2.22.7-1
 attica 0.4.2-1
 attr 2.4.47-1
 autoconf 2.69-1
-automake 1.13.4-1
+automake 1.14-1
 avahi 0.6.31-9
 awoken-icons 2.5.1-1
 babl 0.1.10-1
@@ -61,7 +61,7 @@ clutter 1.14.4-2
 clutter-gtk 1.4.4-1
 cmake 2.8.11.1-1
 cogl 1.14.0-3
-colord 1.0.0-1
+colord 1.0.1-1
 colord-gtk 0.1.25-1
 colordiff 1.0.13-1
 compiz-bcop 0.8.8-2
@@ -100,7 +100,7 @@ docbook-xml 4.5-5
 docbook-xsl 1.78.1-1
 dos2unix 6.0.3-1
 dosfstools 3.0.20-1
-dropbox 2.2.3-1
+dropbox 2.2.8-1
 e2fsprogs 1.42.8-1
 ed 1.8-2
 efibootmgr 0.6.0-3
@@ -125,7 +125,7 @@ fftw 3.3.3-1
 file 5.14-1
 filesystem 2013.05-2
 findutils 4.4.2-5
-firefox 21.0-1
+firefox 22.0-1
 fixesproto 5.0-2
 flac 1.3.0-1
 flashplugin 11.2.202.291-1
@@ -181,7 +181,7 @@ gnome-themes-standard 3.8.1-1
 gnupg 2.0.20-2
 gnutls 3.2.1-1
 gobject-introspection 1.36.0-1
-google-chrome 27.0.1453.93-1
+google-chrome 28.0.1500.52-1
 google-musicmanager 1.0.65.1341_r0-1
 gpart 0.1h-5
 gparted 0.16.1-5
@@ -257,14 +257,14 @@ intellij-idea-libs 12.1.4-1
 iproute2 3.9.0-2
 iptables 1.4.19.1-1
 iputils 20121221-2
-isl 0.11.2-1
+isl 0.12-1
 iso-codes 3.43-1
 jack 0.121.3-7
 jasper 1.900.1-8
-jdk6-compat 6u45-06
+jdk6-compat 6u51-09
 jdk7-openjdk 7.u40_2.4.0-1
 jfsutils 1.1.15-4
-jre6-compat 6u45-06
+jre6-compat 6u51-09
 jre7-openjdk 7.u40_2.4.0-1
 jre7-openjdk-headless 7.u40_2.4.0-1
 js 17.0.0-1
@@ -301,7 +301,7 @@ lib32-dbus 1.6.12-1
 lib32-e2fsprogs 1.42.8-1
 lib32-expat 2.1.0-1
 lib32-fontconfig 2.10.93-1
-lib32-freetype2 2.4.12-1
+lib32-freetype2 2.5.0.1-1
 lib32-gcc-libs 4.8.1-1
 lib32-gdk-pixbuf2 2.28.2-1
 lib32-gettext 0.18.2.1-1
@@ -632,7 +632,7 @@ p11-kit 0.18.2-1
 p7zip 9.20.1-7
 package-query 1.2-2
 pacman 4.1.2-1
-pacman-mirrorlist 20130601-1
+pacman-mirrorlist 20130626-1
 pam 1.1.6-4
 pambase 20130113-1
 pango 1.34.1-1
