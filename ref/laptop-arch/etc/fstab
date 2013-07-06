@@ -2,15 +2,13 @@
 # /etc/fstab: static file system information
 #
 # <file system>	<dir>	<type>	<options>	<dump>	<pass>
-tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
-#/dev/sda3 /boot ext2 defaults 0 1
-#/dev/sda4 / ext4 defaults,user_xattr 0 1
-#/dev/sda5 swap swap defaults 0 0
-/dev/sda3 /boot ext2 defaults 0 1
-/dev/sda4 / ext4 defaults,user_xattr 0 1
-/dev/sda5 swap swap defaults 0 0
 
-/dev/sda1 /mnt/ubuntu ext4 defaults 0 2
+# /dev/sda1
+UUID=2c72efd8-37b7-446c-972c-baf3944f1085	/         	btrfs     	rw,relatime,space_cache	0 0
 
-nas:/volume1/public			/mnt/nas/public	nfs	nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
-nas:/volume1/homes/golly	/mnt/nas/golly	nfs	nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
+# /dev/sda2
+UUID=b6ab0379-76dc-46a0-94e4-69bcba0cc4ed	none      	swap      	defaults  	0 0
+
+nas:/volume1/public        /mnt/nas/public nfs     nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
+nas:/volume1/homes/golly   /mnt/nas/golly  nfs     nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
+
