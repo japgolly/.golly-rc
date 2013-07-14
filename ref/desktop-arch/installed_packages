@@ -5,6 +5,7 @@ accountsservice
 ack
 acl
 acroread
+akonadi
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -13,6 +14,7 @@ alsa-utils
 android-sdk
 android-sdk-platform-tools
 android-udev
+apache
 apache-ant
 apr
 apr-util
@@ -55,6 +57,7 @@ ccsm
 cdparanoia
 chmlib
 cifs-utils
+cln
 cloog
 clucene
 clutter
@@ -254,6 +257,7 @@ inkscape
 inputproto
 intellij-idea-community-edition
 intellij-idea-libs
+intltool
 iproute2
 iptables
 iputils
@@ -274,8 +278,12 @@ json-glib
 kactivities
 kbd
 kbproto
+kde-base-artwork
 kdebase-runtime
+kdebase-workspace
 kdelibs
+kdepim-runtime
+kdepimlibs
 kdesdk-kcachegrind
 kdiff3
 keepass
@@ -398,6 +406,7 @@ libdatrie
 libdbusmenu-qt
 libdc1394
 libdca
+libdmtx
 libdmx
 libdrm
 libdv
@@ -432,12 +441,16 @@ libiodbc
 libirman
 libjpeg-turbo
 libkate
+libkgapi
+libkolab
+libkolabxml
 libksba
 libldap
 liblqr
 liblrdf
 libltdl
 libmad
+libmariadbclient
 libmatroska
 libmbim
 libmikmod
@@ -468,6 +481,7 @@ libproxy
 libpulse
 libpurple
 libpwquality
+libqalculate
 libqmi
 libqzeitgeist
 libraw1394
@@ -577,8 +591,11 @@ m4
 make
 man-db
 man-pages
+mariadb
+mariadb-clients
 mash
 maven
+mcpp
 mdadm
 media-player-info
 mercurial
@@ -680,6 +697,7 @@ pm-utils
 pngout
 podofo
 polkit
+polkit-kde
 polkit-qt
 poppler
 poppler-glib
@@ -692,6 +710,7 @@ postgresql-libs
 postgresql-old-upgrade
 powertop
 ppp
+prison
 procps-ng
 profont
 psmisc
@@ -702,6 +721,7 @@ pygobject-devel
 pygobject2-devel
 pygtk
 pyqt4-common
+pyrex
 python
 python-dbus-common
 python2
@@ -740,6 +760,9 @@ python2-sphinx
 python2-xdg
 python2-zope-interface
 qca
+qimageblitz
+qjson
+qrencode
 qt4
 qtwebkit
 randrproto
@@ -774,6 +797,7 @@ sdl_ttf
 sed
 sensors-applet
 serf
+setconf
 sg3_utils
 shadow
 shared-color-profiles
@@ -879,8 +903,11 @@ x264
 xbitmaps
 xcb-proto
 xcb-util
+xcb-util-image
 xcb-util-keysyms
+xcb-util-renderutil
 xdg-utils
+xerces-c
 xextproto
 xf86-input-evdev
 xf86-input-keyboard
@@ -942,7 +969,9 @@ xorg-xmessage
 xorg-xmodmap
 xorg-xprop
 xorg-xrandr
+xorg-xrdb
 xorg-xset
+xorg-xsetroot
 xorg-xvinfo
 xorg-xwininfo
 xproto
