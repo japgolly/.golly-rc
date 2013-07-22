@@ -12,6 +12,8 @@
    cp = cherry-pick
    lol = log --graph --decorate --pretty=oneline --abbrev-commit
    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+   wipe = reset --hard
+   unstage = reset HEAD
 
 [color]
    ui = true
