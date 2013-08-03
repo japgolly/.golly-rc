@@ -127,6 +127,7 @@ fakeroot
 farstream-0.1
 fbset
 ffmpeg
+ffmpeg-compat
 fftw
 file
 filesystem
@@ -137,6 +138,7 @@ flac
 flashplugin
 flex
 fltk
+fluidsynth
 fontconfig
 fontsproto
 freeglut
