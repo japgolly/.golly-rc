@@ -626,7 +626,7 @@ polkit-kde
 polkit-qt
 poppler
 poppler-glib
-poppler-qt
+poppler-qt4
 popt
 postgresql
 postgresql-docs
