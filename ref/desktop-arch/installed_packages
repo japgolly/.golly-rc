@@ -124,6 +124,7 @@ fakeroot
 farstream-0.1
 fbset
 ffmpeg
+ffmpeg-compat
 fftw
 file
 filesystem
@@ -235,6 +236,7 @@ hdparm
 heirloom-mailx
 hicolor-icon-theme
 hspell
+html2text
 htop
 hunspell
 hunspell-en
@@ -701,7 +703,7 @@ polkit-kde
 polkit-qt
 poppler
 poppler-glib
-poppler-qt
+poppler-qt4
 popt
 portmidi
 postgresql
@@ -818,6 +820,7 @@ sound-theme-freedesktop
 soundtouch
 speedcrunch
 speex
+sql-workbench
 sqlite
 startup-notification
 steam
@@ -980,6 +983,7 @@ xvidcore
 xz
 yajl
 yaourt
+yed
 zenity
 zip
 zlib
