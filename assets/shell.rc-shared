@@ -101,6 +101,9 @@ if [ -d /opt/android-sdk ]; then
   export PATH="$PATH:$ANDROID_HOME/tools"
 fi
 
+# Haskell Cabal
+[ -d $HOME/.cabal/bin ] && export PATH="$PATH:$HOME/.cabal/bin"
+
 # Load local shared settings
 export LOCALRC="$HOME/.localrc"
 alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"'
