@@ -46,6 +46,7 @@ boost-libs
 bzip2
 ca-certificates
 ca-certificates-java
+cabal-install
 cabextract
 cairo
 cairo-dock
@@ -57,6 +58,7 @@ ccsm
 cdparanoia
 chmlib
 cifs-utils
+clang
 cln
 cloog
 clucene
@@ -109,6 +111,7 @@ ed
 efibootmgr
 emerald
 emerald-themes
+emscripten-git
 enca
 enchant
 erlang
@@ -156,6 +159,7 @@ gdk-pixbuf2
 gegl
 geoclue
 gettext
+ghc
 ghostscript
 giflib
 gimp
@@ -577,7 +581,9 @@ linux
 linux-api-headers
 linux-firmware
 lirc-utils
+llvm
 llvm-amdgpu-lib-snapshot
+llvm-libs
 lm_sensors
 log4net
 logrotate
@@ -636,6 +642,7 @@ nfs-utils
 nfsidmap
 nini
 nixnote
+nodejs
 notification-daemon
 notify-sharp
 nspr
