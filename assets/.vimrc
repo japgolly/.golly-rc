@@ -216,7 +216,6 @@ au filetype markdown nmap ,md= Yp:s/./=/g<CR>o<Esc>
 "-----------------------------------------------------------------
 " Graphviz
 au filetype dot nmap ,gd :w<CR>:silent !dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gd :w<CR>:silent !dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
 au filetype dot nmap ,gn :w<CR>:silent !neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
 au filetype dot nmap ,gf :w<CR>:silent !fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
 au filetype dot nmap ,gs :w<CR>:silent !sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
@@ -229,6 +228,8 @@ au filetype dot nmap ,gS :w<CR>:!sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/
 au filetype dot nmap ,gT :w<CR>:!twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
 au filetype dot nmap ,gC :w<CR>:!circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
 au filetype dot nmap ,al A [label=""]<Esc>hi
+au filetype plantuml nmap ,gp :w<CR>:silent !cat % \| plantuml -p -nbthread auto > %.png && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype plantuml nmap ,gP :w<CR>:!cat % \| plantuml -p -nbthread auto > %.png && xdg-open %.png 2>/dev/null<CR>
 
 "-----------------------------------------------------------------
 " Scripts
