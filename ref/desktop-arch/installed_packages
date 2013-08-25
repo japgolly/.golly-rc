@@ -79,6 +79,7 @@ compizconfig-backend-gconf
 compizconfig-python
 compositeproto
 conky
+convertlit
 coreutils
 cpupower
 cracklib
@@ -107,6 +108,7 @@ dos2unix
 dosfstools
 dropbox
 e2fsprogs
+ebook-tools
 ed
 efibootmgr
 emerald
@@ -447,6 +449,7 @@ libiodbc
 libirman
 libjpeg-turbo
 libkate
+libkfbapi
 libkgapi
 libkolab
 libkolabxml
@@ -576,6 +579,7 @@ libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
+libzip
 licenses
 linux
 linux-api-headers
@@ -734,6 +738,7 @@ pyrex
 python
 python-dbus-common
 python2
+python2-apsw
 python2-beaker
 python2-beautifulsoup3
 python2-cairo
@@ -743,7 +748,6 @@ python2-cssselect
 python2-cssutils
 python2-dateutil
 python2-dbus
-python2-distribute
 python2-dnspython
 python2-docutils
 python2-gconf
@@ -763,6 +767,7 @@ python2-pygame
 python2-pygments
 python2-pyqt4
 python2-scipy
+python2-setuptools
 python2-sip
 python2-six
 python2-sphinx
@@ -831,6 +836,7 @@ sql-workbench
 sqlite
 startup-notification
 steam
+stfl
 strace
 strigi
 sublime-text
@@ -916,6 +922,7 @@ xcb-util
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
+xcb-util-wm
 xdg-utils
 xerces-c
 xextproto
