@@ -169,6 +169,7 @@ git
 git-cola
 gitg
 glew
+glib
 glib-networking
 glib2
 glibc
@@ -219,6 +220,7 @@ gstreamer0.10-good-plugins
 gstreamer0.10-python
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
+gtk
 gtk-engines
 gtk-sharp-2
 gtk-update-icon-cache
@@ -228,6 +230,7 @@ gtk3
 gtk3-xfce-engine
 gtkglext
 gtkmm
+gtkmm3
 gtksourceview3
 gtkspell
 gts

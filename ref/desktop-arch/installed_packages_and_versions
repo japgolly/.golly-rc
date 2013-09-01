@@ -169,6 +169,7 @@ git 1.8.4-1
 git-cola 1.8.3-1
 gitg 0.2.7-1
 glew 1.10.0-2
+glib 1.2.10-10
 glib-networking 2.36.2-1
 glib2 2.36.4-1
 glibc 2.18-2
@@ -199,7 +200,7 @@ gpgme 1.4.3-1
 gpm 1.20.7-3
 grantlee 0.3.0-2
 graphite 1:1.2.3-1
-graphviz 2.30.1-7
+graphviz 2.32.0-1
 grep 2.14-2
 groff 1.22.2-3
 gsettings-desktop-schemas 3.8.2-1
@@ -219,6 +220,7 @@ gstreamer0.10-good-plugins 0.10.31-3
 gstreamer0.10-python 0.10.22-1
 gstreamer0.10-ugly 0.10.19-6
 gstreamer0.10-ugly-plugins 0.10.19-6
+gtk 1.2.10-12
 gtk-engines 2.21.0-1
 gtk-sharp-2 2.12.11-1
 gtk-update-icon-cache 2.24.20-1
@@ -228,6 +230,7 @@ gtk3 3.8.2-1
 gtk3-xfce-engine 3.0.1-1
 gtkglext 1.2.0-9
 gtkmm 2.24.4-1
+gtkmm3 3.8.1-1
 gtksourceview3 3.8.2-1
 gtkspell 2.0.16-2
 gts 0.7.6-3
@@ -800,7 +803,7 @@ rtkit 0.11-2
 rtmpdump 20121230-2
 run-parts 4.4-1
 sbc 1.1-1
-sbt 1:0.12.4-1
+sbt 1:0.13.0-1
 schroedinger 1.0.11-1
 screen 4.0.3-15
 scrnsaverproto 1.2.2-1
