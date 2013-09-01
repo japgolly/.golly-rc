@@ -111,6 +111,7 @@ e2fsprogs
 ebook-tools
 ed
 efibootmgr
+elfutils
 emerald
 emerald-themes
 emscripten-git
@@ -319,6 +320,7 @@ lib32-bzip2
 lib32-cairo
 lib32-dbus
 lib32-e2fsprogs
+lib32-elfutils
 lib32-expat
 lib32-flac
 lib32-fontconfig
@@ -375,6 +377,7 @@ lib32-libxtst
 lib32-libxv
 lib32-libxxf86vm
 lib32-llvm-amdgpu-lib-snapshot
+lib32-llvm-libs
 lib32-mesa
 lib32-ncurses
 lib32-nvidia-libgl
