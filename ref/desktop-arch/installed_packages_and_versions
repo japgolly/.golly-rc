@@ -146,6 +146,7 @@ fontsproto 2.1.2-1
 freeglut 2.8.1-1
 freetype2 2.5.0.1-1
 fribidi 0.19.5-1
+ftgl 2.1.3rc5-5
 fuse 2.9.3-1
 fusion-icon 1:0.1-4
 garcon 0.2.1-1
@@ -167,7 +168,7 @@ ghostscript 9.09-1
 giflib 5.0.4-2
 gimp 2.8.6-2
 git 1.8.4-1
-git-cola 1.8.3-1
+git-cola 1.8.4-1
 gitg 0.2.7-1
 glew 1.10.0-2
 glib 1.2.10-10
@@ -195,6 +196,7 @@ gnutls 3.2.3-1
 gobject-introspection 1.36.0-1
 google-chrome 29.0.1547.62-1
 google-musicmanager 1.0.71.8015_r0-1
+gource 0.40-3
 gpart 0.1h-5
 gparted 0.16.1-5
 gpgme 1.4.3-1
@@ -291,6 +293,8 @@ kactivities 4.11.0-1
 kbd 2.0.0-1
 kbproto 1.0.6-1
 kde-base-artwork 4.11.0-1
+kdebase-dolphin 4.11.0-1
+kdebase-lib 4.11.0-1
 kdebase-runtime 4.11.0-1
 kdebase-workspace 4.11.0-2
 kdelibs 4.11.0-1
@@ -644,6 +648,7 @@ nautilus-sendto 3.8.0-2
 ncurses 5.9-5
 neon 0.29.6-4
 nepomuk-core 4.11.0-1
+nepomuk-widgets 4.11.0-1
 netcfg 3.2-1
 nettle 2.7.1-1
 network-manager-applet 0.9.8.2-1
@@ -841,7 +846,7 @@ speex 1.2rc1-3
 sql-workbench 114-1
 sqlite 3.8.0.1-1
 startup-notification 0.12-3
-steam 1.0.0.39-2
+steam 1.0.0.40-1
 stfl 0.22-1
 strace 4.8-1
 strigi 0.7.8-4

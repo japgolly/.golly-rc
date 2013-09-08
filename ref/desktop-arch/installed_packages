@@ -146,6 +146,7 @@ fontsproto
 freeglut
 freetype2
 fribidi
+ftgl
 fuse
 fusion-icon
 garcon
@@ -195,6 +196,7 @@ gnutls
 gobject-introspection
 google-chrome
 google-musicmanager
+gource
 gpart
 gparted
 gpgme
@@ -291,6 +293,8 @@ kactivities
 kbd
 kbproto
 kde-base-artwork
+kdebase-dolphin
+kdebase-lib
 kdebase-runtime
 kdebase-workspace
 kdelibs
@@ -644,6 +648,7 @@ nautilus-sendto
 ncurses
 neon
 nepomuk-core
+nepomuk-widgets
 netcfg
 nettle
 network-manager-applet
