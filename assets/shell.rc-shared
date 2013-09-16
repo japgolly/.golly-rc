@@ -66,6 +66,18 @@ function kvm_off {
   sudo modprobe vboxnetflt
   lsmod | egrep 'kvm|vbox'
 }
+function vime {
+  f="$1"
+  if [ -z "$f" ]; then
+    echo "USAGE: vime <filename> [<script args>]"
+  elif [ ! -x "$f" ]; then
+    echo "Not executable: $f"
+  else
+    shift
+    ff="$(dirname "$f")/$(basename "$f")"
+    vim "$f" && clear && echo "> $ff $*" && "$ff" "$@"
+  fi
+}
 
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
