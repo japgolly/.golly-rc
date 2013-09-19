@@ -100,6 +100,7 @@ dhcpcd
 dialog
 diffutils
 dirmngr
+dmenu
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -243,6 +244,18 @@ gvfs
 gzip
 harfbuzz
 harfbuzz-icu
+haskell-data-default
+haskell-data-default-class
+haskell-data-default-instances-base
+haskell-data-default-instances-containers
+haskell-data-default-instances-dlist
+haskell-data-default-instances-old-locale
+haskell-dlist
+haskell-extensible-exceptions
+haskell-mtl
+haskell-transformers
+haskell-utf8-string
+haskell-x11
 hddtemp
 hdparm
 heirloom-mailx
@@ -969,6 +982,7 @@ xfsprogs
 xineramaproto
 xkeyboard-config
 xmlto
+xmonad
 xorg-bdftopcf
 xorg-font-util
 xorg-font-utils
