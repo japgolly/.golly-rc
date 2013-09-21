@@ -30,7 +30,7 @@ compiler ruby         " Enable compiler support for ruby
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
 au filetype ruby,yaml,sh,haskell      setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
-au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=80 colorcolumn=81
+au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
 au filetype dot                       setlocal ts=2 sw=2 expandtab
 au filetype css,scss                  setlocal ts=2 sw=2 expandtab
 
@@ -215,20 +215,21 @@ au filetype markdown nmap ,md= Yp:s/./=/g<CR>o<Esc>
 
 "-----------------------------------------------------------------
 " Graphviz
-au filetype dot nmap ,gd :w<CR>:silent !dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gd :w<CR>:silent !dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gn :w<CR>:silent !neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gf :w<CR>:silent !fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gs :w<CR>:silent !sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gt :w<CR>:silent !twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gc :w<CR>:silent !circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gD :w<CR>:!dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gN :w<CR>:!neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gF :w<CR>:!fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gS :w<CR>:!sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gT :w<CR>:!twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gC :w<CR>:!circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gd :w<CR>:silent !rm -f %.png && dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gn :w<CR>:silent !rm -f %.png && neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gf :w<CR>:silent !rm -f %.png && fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gs :w<CR>:silent !rm -f %.png && sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gt :w<CR>:silent !rm -f %.png && twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gc :w<CR>:silent !rm -f %.png && circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gD :w<CR>:!rm -f %.png && dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gN :w<CR>:!rm -f %.png && neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gF :w<CR>:!rm -f %.png && fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gS :w<CR>:!rm -f %.png && sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gT :w<CR>:!rm -f %.png && twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gC :w<CR>:!rm -f %.png && circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
 au filetype dot nmap ,al A [label=""]<Esc>hi
+au filetype plantuml nmap ,gp :w<CR>:silent !rm -f %.png && cat % \| plantuml -p -nbthread auto > %.png && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype plantuml nmap ,gP :w<CR>:!rm -f %.png && cat % \| plantuml -p -nbthread auto > %.png && xdg-open %.png 2>/dev/null<CR>
 
 "-----------------------------------------------------------------
 " Scripts

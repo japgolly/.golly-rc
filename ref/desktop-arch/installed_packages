@@ -46,6 +46,7 @@ boost-libs
 bzip2
 ca-certificates
 ca-certificates-java
+cabal-install
 cabextract
 cairo
 cairo-dock
@@ -57,6 +58,7 @@ ccsm
 cdparanoia
 chmlib
 cifs-utils
+clang
 cln
 cloog
 clucene
@@ -77,6 +79,7 @@ compizconfig-backend-gconf
 compizconfig-python
 compositeproto
 conky
+convertlit
 coreutils
 cpupower
 cracklib
@@ -97,6 +100,7 @@ dhcpcd
 dialog
 diffutils
 dirmngr
+dmenu
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -105,10 +109,13 @@ dos2unix
 dosfstools
 dropbox
 e2fsprogs
+ebook-tools
 ed
 efibootmgr
+elfutils
 emerald
 emerald-themes
+emscripten-git
 enca
 enchant
 erlang
@@ -124,6 +131,7 @@ fakeroot
 farstream-0.1
 fbset
 ffmpeg
+ffmpeg-compat
 fftw
 file
 filesystem
@@ -139,6 +147,7 @@ fontsproto
 freeglut
 freetype2
 fribidi
+ftgl
 fuse
 fusion-icon
 garcon
@@ -155,6 +164,7 @@ gdk-pixbuf2
 gegl
 geoclue
 gettext
+ghc
 ghostscript
 giflib
 gimp
@@ -162,6 +172,7 @@ git
 git-cola
 gitg
 glew
+glib
 glib-networking
 glib2
 glibc
@@ -186,6 +197,7 @@ gnutls
 gobject-introspection
 google-chrome
 google-musicmanager
+gource
 gpart
 gparted
 gpgme
@@ -212,6 +224,7 @@ gstreamer0.10-good-plugins
 gstreamer0.10-python
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
+gtk
 gtk-engines
 gtk-sharp-2
 gtk-update-icon-cache
@@ -221,6 +234,7 @@ gtk3
 gtk3-xfce-engine
 gtkglext
 gtkmm
+gtkmm3
 gtksourceview3
 gtkspell
 gts
@@ -230,11 +244,24 @@ gvfs
 gzip
 harfbuzz
 harfbuzz-icu
+haskell-data-default
+haskell-data-default-class
+haskell-data-default-instances-base
+haskell-data-default-instances-containers
+haskell-data-default-instances-dlist
+haskell-data-default-instances-old-locale
+haskell-dlist
+haskell-extensible-exceptions
+haskell-mtl
+haskell-transformers
+haskell-utf8-string
+haskell-x11
 hddtemp
 hdparm
 heirloom-mailx
 hicolor-icon-theme
 hspell
+html2text
 htop
 hunspell
 hunspell-en
@@ -279,6 +306,8 @@ kactivities
 kbd
 kbproto
 kde-base-artwork
+kdebase-dolphin
+kdebase-lib
 kdebase-runtime
 kdebase-workspace
 kdelibs
@@ -308,6 +337,7 @@ lib32-bzip2
 lib32-cairo
 lib32-dbus
 lib32-e2fsprogs
+lib32-elfutils
 lib32-expat
 lib32-flac
 lib32-fontconfig
@@ -364,6 +394,7 @@ lib32-libxtst
 lib32-libxv
 lib32-libxxf86vm
 lib32-llvm-amdgpu-lib-snapshot
+lib32-llvm-libs
 lib32-mesa
 lib32-ncurses
 lib32-nvidia-libgl
@@ -441,6 +472,7 @@ libiodbc
 libirman
 libjpeg-turbo
 libkate
+libkfbapi
 libkgapi
 libkolab
 libkolabxml
@@ -570,12 +602,15 @@ libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
+libzip
 licenses
 linux
 linux-api-headers
 linux-firmware
 lirc-utils
+llvm
 llvm-amdgpu-lib-snapshot
+llvm-libs
 lm_sensors
 log4net
 logrotate
@@ -626,6 +661,7 @@ nautilus-sendto
 ncurses
 neon
 nepomuk-core
+nepomuk-widgets
 netcfg
 nettle
 network-manager-applet
@@ -634,6 +670,7 @@ nfs-utils
 nfsidmap
 nini
 nixnote
+nodejs
 notification-daemon
 notify-sharp
 nspr
@@ -701,7 +738,7 @@ polkit-kde
 polkit-qt
 poppler
 poppler-glib
-poppler-qt
+poppler-qt4
 popt
 portmidi
 postgresql
@@ -725,6 +762,7 @@ pyrex
 python
 python-dbus-common
 python2
+python2-apsw
 python2-beaker
 python2-beautifulsoup3
 python2-cairo
@@ -734,7 +772,6 @@ python2-cssselect
 python2-cssutils
 python2-dateutil
 python2-dbus
-python2-distribute
 python2-dnspython
 python2-docutils
 python2-gconf
@@ -754,6 +791,7 @@ python2-pygame
 python2-pygments
 python2-pyqt4
 python2-scipy
+python2-setuptools
 python2-sip
 python2-six
 python2-sphinx
@@ -818,9 +856,11 @@ sound-theme-freedesktop
 soundtouch
 speedcrunch
 speex
+sql-workbench
 sqlite
 startup-notification
 steam
+stfl
 strace
 strigi
 sublime-text
@@ -906,6 +946,7 @@ xcb-util
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
+xcb-util-wm
 xdg-utils
 xerces-c
 xextproto
@@ -941,6 +982,7 @@ xfsprogs
 xineramaproto
 xkeyboard-config
 xmlto
+xmonad
 xorg-bdftopcf
 xorg-font-util
 xorg-font-utils
@@ -980,6 +1022,7 @@ xvidcore
 xz
 yajl
 yaourt
+yed
 zenity
 zip
 zlib
