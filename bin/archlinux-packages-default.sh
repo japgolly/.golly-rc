@@ -1,6 +1,5 @@
 yaourt -Sy --needed --noconfirm -- \
   abs \
-  ack \
   acroread \
   alsa-lib \
   alsa-oss \

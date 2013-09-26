@@ -193,6 +193,7 @@ gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 gnupg
+gnuplot
 gnutls
 gobject-introspection
 google-chrome
@@ -271,7 +272,6 @@ hyphen
 hyphen-en
 iana-etc
 ibus
-icedtea-web-java7
 icon-naming-utils
 icu
 ifplugd
@@ -292,12 +292,10 @@ isl
 iso-codes
 jack
 jasper
+jdk
 jdk6-compat
-jdk7-openjdk
 jfsutils
 jre6-compat
-jre7-openjdk
-jre7-openjdk-headless
 js
 js185
 json-c
@@ -684,7 +682,6 @@ openal
 opencl-nvidia
 opencore-amr
 openexr
-openjdk7-src
 openjpeg
 openssh
 openssl

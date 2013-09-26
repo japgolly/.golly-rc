@@ -1,17 +1,17 @@
 yaourt -Sy --needed --noconfirm -- \
+  ack \
   apache-ant \
   android-sdk \
   android-sdk-platform-tools \
   android-udev \
   gdb \
+  ghc cabal-install \
   graphviz \
   inkscape \
   maven \
   mercurial \
-  jdk6-compat \
-  jre6-compat \
-  jdk7-openjdk \
-  openjdk7-src \
+  jdk6-compat jre6-compat \
+  jdk \
   pgadmin3 \
   plantuml \
   pngout \
