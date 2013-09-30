@@ -259,7 +259,6 @@ hyphen-en
 i8kutils
 iana-etc
 ibus
-icedtea-web-java7
 icon-naming-utils
 icu
 iftop
@@ -281,12 +280,10 @@ iso-codes
 iw
 jack
 jasper
+jdk
 jdk6-compat
-jdk7-openjdk
 jfsutils
 jre6-compat
-jre7-openjdk
-jre7-openjdk-headless
 js
 json-c
 json-glib
@@ -580,7 +577,6 @@ ntp
 openal
 opencore-amr
 openexr
-openjdk7-src
 openjpeg
 openresolv
 openssh
