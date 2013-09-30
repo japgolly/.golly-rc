@@ -46,6 +46,7 @@ bzip2
 bzr
 ca-certificates
 ca-certificates-java
+cabal-install
 cabextract
 cairo
 cairo-dock
@@ -80,6 +81,7 @@ compiz-manager
 compizconfig-python
 compositeproto
 conky
+convertlit
 coreutils
 cpupower
 cracklib
@@ -109,7 +111,9 @@ dosfstools
 dotconf
 dropbox
 e2fsprogs
+ebook-tools
 ed
+elfutils
 emerald
 emerald-themes
 enca
@@ -161,6 +165,7 @@ gdk-pixbuf2
 gegl
 geoclue
 gettext
+ghc
 ghostscript
 giflib
 gimp
@@ -370,6 +375,7 @@ libiodbc
 libirman
 libjpeg-turbo
 libkate
+libkfbapi
 libkgapi
 libkolab
 libkolabxml
@@ -499,12 +505,14 @@ libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
+libzip
 licenses
 linux
 linux-api-headers
 linux-firmware
 lirc-utils
 llvm-amdgpu-lib-snapshot
+llvm-libs
 lm_sensors
 logrotate
 lpsolve
@@ -651,6 +659,7 @@ python
 python-dbus-common
 python-xdg
 python2
+python2-apsw
 python2-beaker
 python2-beautifulsoup3
 python2-cairo
@@ -659,7 +668,6 @@ python2-cssselect
 python2-cssutils
 python2-dateutil
 python2-dbus
-python2-distribute
 python2-dnspython
 python2-docutils
 python2-gconf
@@ -676,6 +684,7 @@ python2-notify
 python2-psutil
 python2-pygments
 python2-pyqt4
+python2-setuptools
 python2-sip
 python2-six
 python2-sphinx
@@ -738,6 +747,7 @@ sqlite
 startup-notification
 strace
 strigi
+sublime-text
 subversion
 sudo
 svga-dri
@@ -827,6 +837,7 @@ xcb-util
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
+xcb-util-wm
 xdg-utils
 xerces-c
 xextproto
