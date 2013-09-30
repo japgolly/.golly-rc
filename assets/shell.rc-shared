@@ -123,10 +123,17 @@ alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"
 [ -f "$LOCALRC" ] && source "$LOCALRC"
 
 # Display directory & cmd in terminal title bar
-case "$TERM" in
-  rxvt|*term|gnome*)
-    # %m = machine, %~ = pwd
-    precmd() { print -Pn "\e]0;%m:%~\a" }
-    preexec () { print -Pn "\e]0;$1 [%m:%~]\a" }
-  ;;
-esac
+if [ -n "$GUAKE" ]; then
+  precmd() { print -Pn "\e]0;%3~\a" }
+  preexec () { print -Pn "\e]0;$1 [%3~]\a" }
+  preexec () { print -Pn "\e]0;[%3~] $1\a" }
+  export TERM=gnome-256color
+else
+  case "$TERM" in
+    rxvt|*term|gnome*)
+      # %m = machine, %~ = pwd
+      precmd() { print -Pn "\e]0;%m:%~\a" }
+      preexec () { print -Pn "\e]0;$1 [%m:%~]\a" }
+    ;;
+  esac
+fi
