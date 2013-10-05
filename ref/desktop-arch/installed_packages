@@ -775,7 +775,6 @@ python2-docutils
 python2-gconf
 python2-gobject
 python2-gobject2
-python2-imaging
 python2-jinja
 python2-lxml
 python2-mako
@@ -784,6 +783,7 @@ python2-mechanize
 python2-netifaces
 python2-notify
 python2-numpy
+python2-pillow
 python2-psutil
 python2-pygame
 python2-pygments
