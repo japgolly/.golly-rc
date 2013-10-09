@@ -40,8 +40,8 @@ bc
 binutils
 bison
 blas
+bluez
 bluez-utils
-bluez4
 boost-libs
 bzip2
 ca-certificates
@@ -164,6 +164,8 @@ gdbm
 gdk-pixbuf2
 gegl
 geoclue
+geoclue2
+geocode-glib
 gettext
 ghc
 ghostscript
@@ -260,7 +262,6 @@ haskell-utf8-string
 haskell-x11
 hddtemp
 hdparm
-heirloom-mailx
 hicolor-icon-theme
 hspell
 html2text
@@ -347,6 +348,8 @@ lib32-gettext
 lib32-glib2
 lib32-glibc
 lib32-glu
+lib32-gmp
+lib32-gnutls
 lib32-gtk2
 lib32-harfbuzz
 lib32-icu
@@ -367,10 +370,12 @@ lib32-libldap
 lib32-libogg
 lib32-libpciaccess
 lib32-libpng
+lib32-libpng12
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
 lib32-libstdc++5
+lib32-libtasn1
 lib32-libtiff
 lib32-libvorbis
 lib32-libx11
@@ -396,10 +401,12 @@ lib32-llvm-amdgpu-lib-snapshot
 lib32-llvm-libs
 lib32-mesa
 lib32-ncurses
+lib32-nettle
 lib32-nvidia-libgl
 lib32-nvidia-utils
 lib32-openal
 lib32-openssl
+lib32-p11-kit
 lib32-pango
 lib32-pcre
 lib32-pixman
@@ -445,6 +452,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libevdev
 libevent
 libexif
 libffi
@@ -821,6 +829,7 @@ rsync
 rtkit
 rtmpdump
 run-parts
+s-nail
 sbc
 sbt
 schroedinger
