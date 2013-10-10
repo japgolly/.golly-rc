@@ -29,6 +29,7 @@ alias ssc='sudo systemctl'
 alias mvn="$HOME/.golly-rc/bin/mvnc"
 alias code_gsub="$HOME/.golly-rc/bin/code_gsub"
 alias killsbt="jps | grep sbt | awk '{print $1}' | xargs --no-run-if-empty kill -9"
+alias scr='clear && scala -language:_'
 
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
