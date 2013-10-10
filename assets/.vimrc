@@ -1,4 +1,9 @@
 let g:golly_rc_assets = '~/.golly-rc/assets/'
+if &term=~'linux'
+  set t_Co=8
+  let g:CSApprox_loaded=1
+endif
+
 call pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -37,20 +42,26 @@ au filetype css,scss                  setlocal ts=2 sw=2 expandtab
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
 "
-let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 set background=dark
-let g:solarized_termcolors=256
-"colorscheme solarized
-colorscheme vibrantink
+if &t_Co < 88
+	colorscheme delek
+	au filetype sh colorscheme slate
+	au filetype markdown colorscheme darkblue
+else
+	let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+	let g:solarized_termcolors=256
+	"colorscheme solarized
+	colorscheme vibrantink
 
-"autocmd BufEnter * if match(@%:p,'.*/test/.*')>=0 | colorscheme autumnleaf | end
-"au BufEnter * if match(expand('%:p'),'.*/test/.*')>=0 | colorscheme autumnleaf | CSApprox | end
-au filetype yaml                      colorscheme dante | CSApprox
-au filetype markdown                  colorscheme fruity | CSApprox
-au filetype dot                       colorscheme pablo | CSApprox
-au filetype diff                      colorscheme jellybeans | CSApprox
-au filetype xml                       colorscheme leo | CSApprox
-au filetype haskell                   colorscheme mrkn256 | CSApprox
+	"autocmd BufEnter * if match(@%:p,'.*/test/.*')>=0 | colorscheme autumnleaf | end
+	"au BufEnter * if match(expand('%:p'),'.*/test/.*')>=0 | colorscheme autumnleaf | CSApprox | end
+	au filetype yaml                      colorscheme dante | CSApprox
+	au filetype markdown                  colorscheme fruity | CSApprox
+	au filetype dot                       colorscheme pablo | CSApprox
+	au filetype diff                      colorscheme jellybeans | CSApprox
+	au filetype xml                       colorscheme leo | CSApprox
+	au filetype haskell                   colorscheme mrkn256 | CSApprox
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Highlight trailing spaces

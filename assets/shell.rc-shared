@@ -80,6 +80,10 @@ function vime {
     vim "$f" && clear && echo "> $ff $*" && "$ff" "$@"
   fi
 }
+function sync-desktop {
+  rsync -rulptzh --stats --exclude-from=/home/golly/.golly-rc/gitignore \
+    --rsh=ssh golly-desktop:`pwd`/. .
+}
 
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
