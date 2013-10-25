@@ -293,6 +293,7 @@ iptables
 iputils
 isl
 iso-codes
+itstool
 jack
 jasper
 jdk
@@ -1030,7 +1031,6 @@ xvidcore
 xz
 yajl
 yaourt
-yed
 zenity
 zip
 zlib
