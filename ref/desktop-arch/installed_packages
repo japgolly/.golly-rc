@@ -244,6 +244,7 @@ gtksourceview3
 gtkspell
 gts
 guake
+guile
 guisu
 gvfs
 gzip
@@ -466,6 +467,7 @@ libgdiplus
 libglade
 libgme
 libgnome-keyring
+libgnomekbd
 libgpg-error
 libgssglue
 libgtop
@@ -543,6 +545,7 @@ libsigc++
 libsm
 libsndfile
 libsoup
+libspiro
 libssh
 libssh2
 libtasn1
@@ -555,6 +558,7 @@ libtool
 libtracker-sparql
 libunique
 libunique3
+libunistring
 libunrar
 libupnp
 libusb-compat
