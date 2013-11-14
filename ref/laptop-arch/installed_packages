@@ -37,8 +37,8 @@ bash-completion
 bc
 binutils
 bison
+bluez
 bluez-utils
-bluez4
 boost
 boost-libs
 btrfs-progs
@@ -164,6 +164,8 @@ gdbm
 gdk-pixbuf2
 gegl
 geoclue
+geoclue2
+geocode-glib
 gettext
 ghc
 ghostscript
@@ -239,6 +241,7 @@ gtksourceview3
 gtkspell
 gts
 guake
+guile
 guisu
 gvfs
 gzip
@@ -246,7 +249,6 @@ harfbuzz
 harfbuzz-icu
 hddtemp
 hdparm
-heirloom-mailx
 hicolor-icon-theme
 hspell
 htop
@@ -277,6 +279,7 @@ iptables
 iputils
 isl
 iso-codes
+itstool
 iw
 jack
 jasper
@@ -345,6 +348,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libevdev
 libevent
 libexif
 libffi
@@ -356,6 +360,7 @@ libgdiplus
 libglade
 libgme
 libgnome-keyring
+libgnomekbd
 libgpg-error
 libgpod
 libgssglue
@@ -395,6 +400,7 @@ libmpcdec
 libmpd
 libmpeg2
 libmtp
+libmygpo-qt
 libnautilus-extension
 libnewt
 libnice
@@ -434,6 +440,8 @@ libsigc++
 libsm
 libsndfile
 libsoup
+libspiro
+libsrtp
 libssh
 libssh2
 libstdc++5
@@ -447,6 +455,7 @@ libtool
 libtracker-sparql
 libunique
 libunique3
+libunistring
 libunrar
 libupnp
 libusb-compat
@@ -669,7 +678,6 @@ python2-docutils
 python2-gconf
 python2-gobject
 python2-gobject2
-python2-imaging
 python2-jinja
 python2-lxml
 python2-mako
@@ -677,6 +685,7 @@ python2-markupsafe
 python2-mechanize
 python2-netifaces
 python2-notify
+python2-pillow
 python2-psutil
 python2-pygments
 python2-pyqt4
@@ -708,6 +717,7 @@ rsync
 rtkit
 rtmpdump
 run-parts
+s-nail
 sbc
 sbt
 schroedinger
