@@ -63,6 +63,7 @@ chromium
 cifs-utils
 clementine
 cln
+cloc
 cloog
 clucene
 clutter
@@ -131,7 +132,6 @@ fakeroot
 farstream-0.1
 fbset
 ffmpeg
-ffmpeg-compat
 fftw
 file
 filesystem
@@ -619,8 +619,8 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
-phonon
 phonon-gstreamer
+phonon-qt4
 pidgin
 pidgin-encryption
 pidgin-libnotify
