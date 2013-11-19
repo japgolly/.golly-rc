@@ -120,7 +120,7 @@ if [ -d /opt/android-sdk ]; then
 fi
 
 # Haskell Cabal
-[ -d $HOME/.cabal/bin ] && export PATH="$PATH:$HOME/.cabal/bin"
+[ -d $HOME/.cabal/bin ] && export PATH="$HOME/.cabal/bin:$PATH"
 
 # Load local shared settings
 export LOCALRC="$HOME/.localrc"
