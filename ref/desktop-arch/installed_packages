@@ -366,6 +366,7 @@ lib32-keyutils
 lib32-krb5
 lib32-libaio
 lib32-libasyncns
+lib32-libcanberra
 lib32-libcap
 lib32-libcups
 lib32-libdrm
@@ -376,6 +377,7 @@ lib32-libice
 lib32-libidn
 lib32-libjpeg-turbo
 lib32-libldap
+lib32-libltdl
 lib32-libogg
 lib32-libpciaccess
 lib32-libpng
@@ -425,8 +427,10 @@ lib32-pixman
 lib32-portaudio
 lib32-readline
 lib32-sdl
+lib32-sdl2
 lib32-soundtouch
 lib32-systemd
+lib32-tdb
 lib32-util-linux
 lib32-wxgtk
 lib32-xcb-util
@@ -562,6 +566,7 @@ libsoup
 libspiro
 libssh
 libssh2
+libtar
 libtasn1
 libthai
 libtheora
