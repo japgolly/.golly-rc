@@ -111,6 +111,7 @@ dosfstools 3.0.23-1
 dropbox 2.4.6-1
 e2fsprogs 1.42.8-2
 ebook-tools 0.2.2-1
+ec2-api-tools 1.6.11.0-2
 ed 1.9-1
 efibootmgr 0.6.0.138.1132342-1
 efivar 0.6-1
@@ -215,8 +216,8 @@ gsettings-desktop-schemas 3.10.1-1
 gsfonts 1.0.7pre44-3
 gsl 1.15-3
 gsm 1.0.13-7
-gst-plugins-base-libs 1.2.0-1
-gstreamer 1.2.0-1
+gst-plugins-base-libs 1.2.1-1
+gstreamer 1.2.1-1
 gstreamer0.10 0.10.36-2
 gstreamer0.10-bad 0.10.23-5
 gstreamer0.10-bad-plugins 0.10.23-5
@@ -299,6 +300,7 @@ jasper 1.900.1-9
 jdk 7.45-1
 jdk6-compat 1:6u45-06
 jfsutils 1.1.15-4
+jmeter 2.10-1
 jre6-compat 1:6u45-06
 js 17.0.0-1
 js185 1.0.0-2
@@ -553,6 +555,7 @@ libsecret 0.16-1
 libshout 1:2.3.1-2
 libsidplay 1.36.59-5
 libsigc++ 2.3.1-1
+libsigsegv 2.10-1
 libsm 1.2.2-2
 libsndfile 1.0.25-3
 libsoup 2.44.1-1
@@ -673,9 +676,10 @@ mono 3.2.3-1
 mozilla-common 1.4-3
 mpfr 3.1.2.p3-2
 mpg123 1.16.0-1
-mplayer 36498-2
+mplayer 36498-3
 mtdev 1.1.4-1
 mtools 4.0.18-1
+mtr 0.85-1
 mupen64plus 2.0-1
 musicbrainz 2.1.5-6
 mythes-en 20060306-2
@@ -904,6 +908,7 @@ syslinux 6.02-4
 systemd 208-2
 systemd-sysvcompat 208-2
 sysvinit-tools 2.88-12
+t1lib 5.1.2-4
 taglib 1.9.1-1
 talloc 2.0.8-2
 tar 1.26-4
@@ -912,6 +917,8 @@ telepathy-glib 0.22.0-1
 terminus-font-ttf 4.38-1
 tevent 0.9.18-1
 texinfo 5.2-1
+texlive-bin 2013.30973-6
+texlive-core 2013.31589-1
 thunar 1.6.3-1
 traceroute 2.0.19-2
 tree 1.6.0-2
@@ -970,7 +977,7 @@ wireless_tools 29-8
 wpa_supplicant 2.0-4
 wxgtk 2.8.12.1-5
 wxgtk2.9 2.9.5-1
-x264 20130702-2
+x264 20131030-1
 xbitmaps 1.1.1-2
 xcb-proto 1.8-2
 xcb-util 0.3.9-1
@@ -1059,3 +1066,4 @@ zlib 1.2.8-3
 zsh 5.0.2-4
 zsh-completions 0.10.0-1
 zvbi 0.2.33-6
+zziplib 0.13.62-2

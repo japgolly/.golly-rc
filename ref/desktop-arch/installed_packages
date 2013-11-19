@@ -111,6 +111,7 @@ dosfstools
 dropbox
 e2fsprogs
 ebook-tools
+ec2-api-tools
 ed
 efibootmgr
 efivar
@@ -299,6 +300,7 @@ jasper
 jdk
 jdk6-compat
 jfsutils
+jmeter
 jre6-compat
 js
 js185
@@ -553,6 +555,7 @@ libsecret
 libshout
 libsidplay
 libsigc++
+libsigsegv
 libsm
 libsndfile
 libsoup
@@ -676,6 +679,7 @@ mpg123
 mplayer
 mtdev
 mtools
+mtr
 mupen64plus
 musicbrainz
 mythes-en
@@ -904,6 +908,7 @@ syslinux
 systemd
 systemd-sysvcompat
 sysvinit-tools
+t1lib
 taglib
 talloc
 tar
@@ -912,6 +917,8 @@ telepathy-glib
 terminus-font-ttf
 tevent
 texinfo
+texlive-bin
+texlive-core
 thunar
 traceroute
 tree
@@ -1059,3 +1066,4 @@ zlib
 zsh
 zsh-completions
 zvbi
+zziplib
