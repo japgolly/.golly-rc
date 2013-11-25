@@ -619,6 +619,7 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
+phantomjs
 phonon-gstreamer
 phonon-qt4
 pidgin
