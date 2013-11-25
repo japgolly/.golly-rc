@@ -104,6 +104,7 @@ dirmngr
 dmenu
 dmxproto
 dnssec-anchors
+dnsutils
 docbook-xml
 docbook-xsl
 dos2unix
@@ -278,6 +279,7 @@ iana-etc
 ibus
 icon-naming-utils
 icu
+idnkit
 ifplugd
 iftop
 ilmbase
