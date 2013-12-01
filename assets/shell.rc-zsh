@@ -7,8 +7,8 @@ export SHELL=zsh
 alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
 source "$HOME/.golly-rc/assets/shell.rc-shared"
 
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=20000
+SAVEHIST=20000
 HISTFILE=~/.zsh_history
 
 # Options described here: http://linux.die.net/man/1/zshoptions
