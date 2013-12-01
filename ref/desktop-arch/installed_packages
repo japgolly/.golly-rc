@@ -28,6 +28,7 @@ atk
 atkmm
 attica
 attr
+authbind
 autoconf
 automake
 avahi
@@ -919,6 +920,7 @@ t1lib
 taglib
 talloc
 tar
+tcpdump
 tdb
 telepathy-glib
 terminus-font-ttf
