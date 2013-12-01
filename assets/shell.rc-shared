@@ -82,17 +82,38 @@ function vime {
   fi
 }
 function mc {
-  [ -z "$1" ] && echo "Directory name required." && exit 1
-  if [ -e "$1" ]; then
+  if [ -z "$1" ]; then
+    echo "Directory name required."
+  elif [ -e "$1" ]; then
     echo "Dir exists, skipping creation."
+    cd "$1"
   else
     mkdir -p "$1" && echo "Dir created."
+    cd "$1"
   fi
-  cd "$1"
 }
 function sync-desktop {
   rsync -rulptzh --stats --exclude-from=/home/golly/.golly-rc/gitignore \
     --rsh=ssh golly-desktop:`pwd`/. .
+}
+function newscript {
+  if [ $# -eq 0 ]; then
+    echo "Nothing to do."
+  else
+    for f in "$@"; do
+      if [ -e "$f" ]; then
+        echo "Already exists: $f"
+      else
+        echo "Creating: $f"
+        echo '#!/bin/bash
+cd "$(dirname "$0")"
+[ -z "$1" ] && echo "Usage: $0 <xxx>" && exit 1
+tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
+xxx="$(cd "$(dirname "$0")/xxx" && pwd)"
+' > "$f" && chmod 755 "$f"
+      fi
+    done
+  fi
 }
 
 # Use golly-rc path
