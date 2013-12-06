@@ -165,6 +165,7 @@ gd
 gdb
 gdbm
 gdk-pixbuf2
+gedit
 gegl
 geoclue
 geoclue2
@@ -289,8 +290,6 @@ imlib2
 inetutils
 inkscape
 inputproto
-intellij-idea-community-edition
-intellij-idea-libs
 intltool
 iproute2
 iptables
@@ -536,6 +535,7 @@ libofa
 libogg
 libpcap
 libpciaccess
+libpeas
 libpipeline
 libplist
 libpng
@@ -800,7 +800,9 @@ pygtk
 pyqt4-common
 pyrex
 python
+python-cairo
 python-dbus-common
+python-gobject
 python2
 python2-apsw
 python2-beaker

@@ -34,12 +34,12 @@
       <property name="&lt;Super&gt;Left" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Back by 5 seconds&quot;"/>
       <property name="&lt;Super&gt;Right" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Ahead by 5 seconds&quot;"/>
       <property name="&lt;Super&gt;t" type="string" value="/usr/bin/gnome-terminal"/>
-      <property name="&lt;Super&gt;k" type="string" value="/usr/bin/keepass"/>
       <property name="&lt;Super&gt;m" type="string" value="/usr/bin/speedcrunch"/>
       <property name="&lt;Super&gt;l" type="string" value="leafpad"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito localhost:8080/x"/>
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
+      <property name="&lt;Super&gt;k" type="string" value="/usr/bin/keepass"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
