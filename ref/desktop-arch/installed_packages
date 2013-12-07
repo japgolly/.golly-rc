@@ -480,6 +480,7 @@ libexif
 libffi
 libfontenc
 libftdi
+libftdi-compat
 libgcrypt
 libgdata
 libgdiplus
