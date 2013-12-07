@@ -24,18 +24,16 @@ setopt inc_append_history
 autoload -U colors && colors
 
 function git_count_files_in_section() {
-  index="$1"
-  section_title="$2"
-  echo "$index" | sed '/^#/!d; /^# '"$section_title"'/,$!d; 1,/^#$/d; /^# [^ ]/,$d; /^# *$/d' | wc -l
+  grep "^$2 [^ ]" <<<"$1" | wc -l
 }
 
 function git_info() {
   ref="$(git symbolic-ref HEAD 2>/dev/null)" || return
-  git_status="$(git status 2>/dev/null)"
-  ahead="$(echo $git_status | sed '/ is ahead of .* by /!d; s/^.* by \([0-9]*\) .*/\1/')"
-  untracked="$(git_count_files_in_section "$git_status" 'Untracked files:')"
-  unstaged="$(git_count_files_in_section "$git_status" 'Changes not staged for commit:')"
-  staged="$(git_count_files_in_section "$git_status" 'Changes to be committed:')"
+  git_status="$(git status --porcelain 2>/dev/null)"
+  ahead="$(git status | sed '/ is ahead of .* by /!d; s/^.* by \([0-9]*\) .*/\1/')"
+  untracked="$(git_count_files_in_section "$git_status" '??')"
+  unstaged="$(git_count_files_in_section "$git_status" ' M')"
+  staged="$(git_count_files_in_section "$git_status" 'M ')"
 
   r="%{$fg[magenta]%}${ref#refs/heads/}"
   [ -n "$ahead" ]        && r="$r %{$reset_color%}↑$ahead"
