@@ -445,6 +445,7 @@ libsrtp
 libssh
 libssh2
 libstdc++5
+libtar
 libtasn1
 libthai
 libtheora
@@ -619,6 +620,7 @@ perl-xml-parser
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
+phantomjs
 phonon-gstreamer
 phonon-qt4
 pidgin
