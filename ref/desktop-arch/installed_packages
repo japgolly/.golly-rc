@@ -918,7 +918,6 @@ sysfsutils
 syslinux
 systemd
 systemd-sysvcompat
-sysvinit-tools
 t1lib
 taglib
 talloc
