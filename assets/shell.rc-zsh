@@ -32,8 +32,8 @@ function git_info() {
   git_status="$(git status --porcelain 2>/dev/null)"
   ahead="$(git status | sed '/ is ahead of .* by /!d; s/^.* by \([0-9]*\) .*/\1/')"
   untracked="$(git_count_files_in_section "$git_status" '??')"
-  unstaged="$(git_count_files_in_section "$git_status" ' M')"
-  staged="$(git_count_files_in_section "$git_status" 'M ')"
+  unstaged="$(git_count_files_in_section "$git_status" '.M')"
+  staged="$(git_count_files_in_section "$git_status" '[AM].')"
 
   r="%{$fg[magenta]%}${ref#refs/heads/}"
   [ -n "$ahead" ]        && r="$r %{$reset_color%}↑$ahead"
