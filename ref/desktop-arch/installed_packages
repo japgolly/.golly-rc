@@ -57,6 +57,7 @@ calibre
 cantarell-fonts
 ccsm
 cdparanoia
+celt
 chmlib
 cifs-utils
 clang
@@ -110,6 +111,7 @@ docbook-xml
 docbook-xsl
 dos2unix
 dosfstools
+downgrade
 dropbox
 e2fsprogs
 ebook-tools
@@ -899,6 +901,7 @@ smuxi-server
 soprano
 sound-theme-freedesktop
 soundtouch
+spandsp
 sparsehash
 speedcrunch
 speex
