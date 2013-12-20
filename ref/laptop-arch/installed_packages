@@ -313,6 +313,7 @@ ldb
 ldns
 leafpad
 less
+libaio
 libarchive
 libass
 libassuan
@@ -354,6 +355,7 @@ libexif
 libffi
 libfontenc
 libftdi
+libftdi-compat
 libgcrypt
 libgdata
 libgdiplus
@@ -765,7 +767,6 @@ sysfsutils
 syslinux
 systemd
 systemd-sysvcompat
-sysvinit-tools
 taglib
 talloc
 tar
