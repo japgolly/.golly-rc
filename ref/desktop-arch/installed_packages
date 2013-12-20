@@ -84,6 +84,7 @@ compositeproto
 conky
 convertlit
 coreutils
+cpulimit
 cpupower
 cracklib
 cronie
@@ -549,6 +550,8 @@ libpurple
 libpwquality
 libqalculate
 libqmi
+libquvi
+libquvi-scripts
 libqzeitgeist
 libraw1394
 libreoffice-calc
@@ -655,6 +658,9 @@ logrotate
 lpsolve
 lsof
 lua
+lua-bitop
+lua-expat
+lua-socket
 lua51
 lvm2
 lynx
@@ -688,6 +694,7 @@ mozilla-common
 mpfr
 mpg123
 mplayer
+mpv
 mtdev
 mtools
 mtr
