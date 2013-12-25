@@ -16,5 +16,7 @@ cd ~/.vim/bundle && [ ! -d ScrollColors ] && (git clone git://github.com/vim-scr
 cd ~/.vim/bundle && [ ! -d plantuml-syntax ] && (git clone git://github.com/aklt/plantuml-syntax.git; echo)
 cd ~/.vim/bundle && [ ! -d vim-colorschemes ] && (git clone git://github.com/flazz/vim-colorschemes.git; echo)
 cd ~/.vim/bundle && [ ! -d vim-scala ] && (git clone git://github.com/derekwyatt/vim-scala.git; echo)
+cd ~/.vim/bundle && [ ! -d vim-javascript ] && (git clone https://github.com/pangloss/vim-javascript.git; echo)
+cd ~/.vim/bundle && [ ! -d vim-json ] && (git clone https://github.com/elzr/vim-json.git; echo)
 # mc ~/.vim/bundle/csapprox/ && curl -o tmp http://www.vim.org/scripts/download_script.php?src_id=10336 && unzip tmp && rm tmp; echo
 
