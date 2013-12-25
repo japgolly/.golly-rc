@@ -27,7 +27,6 @@ yaourt -Sy --needed --noconfirm -- \
   compiz-manager \
   compizconfig-backend-gconf \
   compizconfig-python \
-  conky \
   cpupower \
   dos2unix \
   dosfstools \
@@ -118,6 +117,7 @@ yaourt -Sy --needed --noconfirm -- \
   mono \
   mpg123 \
   mplayer \
+  mpv \
   mythes-en \
   nautilus \
   nautilus-actions \
@@ -144,6 +144,7 @@ yaourt -Sy --needed --noconfirm -- \
   shared-color-profiles \
   smpeg \
   smplayer \
+  sublime-text \
   soundtouch \
   speedcrunch \
   startup-notification \

@@ -30,6 +30,11 @@ alias code_gsub="$HOME/.golly-rc/bin/code_gsub"
 alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
 alias scr='clear && scala -language:_'
 
+# MPV
+mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
+alias mpv-del-size="${mpv_del_xargs} du -shc"
+alias mpv-del-rm="${mpv_del_xargs} rm"
+
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
 case "$(distro)" in
