@@ -43,6 +43,7 @@ bison
 blas
 bluez
 bluez-utils
+boost
 boost-libs
 bzip2
 ca-certificates
@@ -58,6 +59,7 @@ cantarell-fonts
 ccsm
 cdparanoia
 celt
+cgminer
 chmlib
 cifs-utils
 clang
@@ -89,6 +91,7 @@ cpupower
 cracklib
 cronie
 cryptsetup
+cuda
 cups-pk-helper
 curl
 damageproto
@@ -110,6 +113,7 @@ dnssec-anchors
 dnsutils
 docbook-xml
 docbook-xsl
+dogecoin-qt-git
 dos2unix
 dosfstools
 downgrade
@@ -301,6 +305,7 @@ isl
 iso-codes
 itstool
 jack
+jansson
 jasper
 jdk
 jdk6-compat
@@ -683,6 +688,7 @@ mesa
 mesa-demos
 metacity
 mime-types
+miniupnpc
 mirage
 mjpegtools
 mkinitcpio
@@ -719,6 +725,8 @@ nfsidmap
 nini
 nixnote
 nodejs
+nodejs-bower
+nodejs-grunt
 notification-daemon
 notify-sharp
 nspr
