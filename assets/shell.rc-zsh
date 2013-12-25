@@ -1,7 +1,5 @@
 # vim:ft=sh et sw=2 ts=2:
 
-
-
 unset PS1
 export SHELL=zsh
 alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
@@ -91,3 +89,4 @@ export WORDCHARS='*?_[]~=&!#$%^(){}'
 # Auto-completion
 [ -e "$HOME/.rvm/scripts/zsh/Completion" ] && fpath=($HOME/.rvm/scripts/zsh/Completion $fpath)
 autoload -U compinit && compinit
+
