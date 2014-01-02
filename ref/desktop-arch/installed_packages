@@ -324,6 +324,7 @@ kdebase-dolphin
 kdebase-lib
 kdebase-runtime
 kdebase-workspace
+kdegraphics-mobipocket
 kdelibs
 kdepim-runtime
 kdepimlibs
@@ -726,7 +727,7 @@ nini
 nixnote
 nodejs
 nodejs-bower
-nodejs-grunt
+nodejs-grunt-cli
 notification-daemon
 notify-sharp
 nspr
