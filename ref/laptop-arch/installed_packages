@@ -299,6 +299,7 @@ kbproto
 kde-base-artwork
 kdebase-runtime
 kdebase-workspace
+kdegraphics-mobipocket
 kdelibs
 kdepim-runtime
 kdepimlibs
@@ -590,6 +591,9 @@ networkmanager
 nfs-utils
 nfsidmap
 nixnote
+nodejs
+nodejs-bower
+nodejs-grunt-cli
 notification-daemon
 notify-sharp
 nspr
