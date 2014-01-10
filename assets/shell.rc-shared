@@ -27,6 +27,7 @@ alias mvn="$HOME/.golly-rc/bin/mvnc"
 alias code_gsub="$HOME/.golly-rc/bin/code_gsub"
 alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
 alias scr='clear && scala -language:_'
+alias diffu='colordiff -u'
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
