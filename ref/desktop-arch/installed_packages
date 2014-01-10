@@ -166,6 +166,7 @@ gawk
 gc
 gcc-libs-multilib
 gcc-multilib
+gcc-objc
 gconf
 gcr
 gd
@@ -208,6 +209,8 @@ gnome-themes-extras
 gnome-themes-standard
 gnupg
 gnuplot
+gnustep-base
+gnustep-make
 gnutls
 gobject-introspection
 google-chrome
@@ -296,6 +299,7 @@ imagemagick
 imlib2
 inetutils
 inkscape
+inotify-tools
 inputproto
 intltool
 iproute2
@@ -471,6 +475,7 @@ libcroco
 libcups
 libdaemon
 libdatrie
+libdbus
 libdbusmenu-qt
 libdc1394
 libdca
@@ -725,6 +730,7 @@ nfs-utils
 nfsidmap
 nini
 nixnote
+nmap
 nodejs
 nodejs-bower
 nodejs-grunt-cli
@@ -972,6 +978,7 @@ tzdata
 udisks
 udisks2
 unace
+unarchiver
 unetbootin
 unixodbc
 unrar

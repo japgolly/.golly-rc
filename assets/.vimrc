@@ -31,6 +31,23 @@ compiler ruby         " Enable compiler support for ruby
 
 let g:vim_json_syntax_conceal = 0
 
+" Tell vim to remember certain things when we exit
+"  "       Maximum number of lines saved for each register
+"  %       When included, save and restore the buffer lis
+"  '       Maximum number of previously edited files for which the marks are remembered
+"  /       Maximum number of items in the search pattern history to be saved
+"  :       Maximum number of items in the command-line history
+"  <       Maximum number of lines saved for each register.
+"  @       Maximum number of items in the input-line history
+"  h       Disable the effect of 'hlsearch' when loading the viminfo
+"  n       Name of the viminfo file.  The name must immediately follow the 'n'.
+"  r       Removable media.  The argument is a string
+"  s       Maximum size of an item in Kbyte
+let &viminfo="%,'10,:20,/10,n~/.viminfo"
+
+" Make Vim restore cursor position in files
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Filetypes
 "
