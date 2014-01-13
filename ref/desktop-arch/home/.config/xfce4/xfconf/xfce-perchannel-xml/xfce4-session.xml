@@ -4,18 +4,17 @@
   <property name="general" type="empty">
     <property name="FailsafeSessionName" type="empty"/>
     <property name="SessionName" type="string" value="Default"/>
-    <property name="SaveOnExit" type="bool" value="false"/>
+    <property name="SaveOnExit" type="bool" value="true"/>
   </property>
   <property name="sessions" type="empty">
     <property name="Failsafe" type="empty">
       <property name="IsFailsafe" type="empty"/>
       <property name="Count" type="empty"/>
       <property name="Client0_Command" type="array">
-		  <!--value type="string" value="xfwm4"/-->
-		  <value type="string" value="compiz"/>
-		  <value type="string" value="ccp"/>
-		  <value type="string" value="fusion-icon"/>
-	  </property>
+        <value type="string" value="compiz"/>
+        <value type="string" value="ccp"/>
+        <value type="string" value="fusion-icon"/>
+      </property>
       <property name="Client0_PerScreen" type="empty"/>
       <property name="Client1_Command" type="empty"/>
       <property name="Client1_PerScreen" type="empty"/>
