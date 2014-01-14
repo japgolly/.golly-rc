@@ -20,6 +20,8 @@
    diff = auto
    status = auto
    branch = auto
+[color "diff"]
+	meta = yellow bold
 
 [gui]
 	historybrowser = gitg
@@ -28,8 +30,8 @@
 	tabwidth = 2
 	fontdiff = Monospace,10,-1,5,50,0,0,0,0,0
 
-[color "diff"]
-	meta = yellow bold
-
 [push]
 	default = upstream
+
+[diff "odf"]
+	textconv = odt2txt

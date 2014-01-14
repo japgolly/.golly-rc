@@ -23,4 +23,5 @@ yaourt -Sy --needed --noconfirm -- \
   sloccount \
   sqlite \
   subversion \
+  unoconv odt2txt \
 
