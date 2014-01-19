@@ -116,6 +116,7 @@ docbook-xsl
 dogecoin-qt-git
 dos2unix
 dosfstools
+dotconf
 downgrade
 dropbox
 e2fsprogs
@@ -479,6 +480,7 @@ libfontenc
 libftdi
 libftdi-compat
 libgcrypt
+libgcrypt15
 libgdata
 libgdiplus
 libglade
@@ -629,6 +631,7 @@ libxpm
 libxrandr
 libxrender
 libxres
+libxshmfence
 libxslt
 libxss
 libxt
@@ -727,6 +730,7 @@ ntp
 nvidia
 nvidia-libgl
 nvidia-utils
+odt2txt
 openal
 opencl-nvidia
 opencore-amr
@@ -810,6 +814,7 @@ python
 python-cairo
 python-dbus-common
 python-gobject
+python-xdg
 python2
 python2-apsw
 python2-beaker
@@ -886,6 +891,7 @@ sed
 sensors-applet
 serf
 setconf
+sfnt2woff
 sg3_utils
 shadow
 shared-color-profiles
@@ -901,11 +907,13 @@ smpeg
 smplayer
 smuxi
 smuxi-server
+snappy
 soprano
 sound-theme-freedesktop
 soundtouch
 spandsp
 sparsehash
+speech-dispatcher
 speedcrunch
 speex
 sql-workbench
@@ -962,6 +970,7 @@ unace
 unarchiver
 unetbootin
 unixodbc
+unoconv
 unrar
 unzip
 upower
@@ -994,6 +1003,7 @@ winetricks
 wireless_tools
 wpa_supplicant
 wxgtk
+wxgtk2.8
 x264
 xbitmaps
 xcb-proto
