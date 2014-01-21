@@ -110,6 +110,7 @@ docbook-xsl
 dos2unix
 dosfstools
 dotconf
+downgrade
 dropbox
 e2fsprogs
 ebook-tools
@@ -162,6 +163,7 @@ gd
 gdb
 gdbm
 gdk-pixbuf2
+gedit
 gegl
 geoclue
 geoclue2
@@ -244,6 +246,7 @@ guake
 guile
 guisu
 gvfs
+gvim
 gzip
 harfbuzz
 harfbuzz-icu
@@ -296,6 +299,7 @@ kbproto
 kde-base-artwork
 kdebase-runtime
 kdebase-workspace
+kdegraphics-mobipocket
 kdelibs
 kdepim-runtime
 kdepimlibs
@@ -413,6 +417,7 @@ libofa
 libogg
 libpcap
 libpciaccess
+libpeas
 libpipeline
 libplist
 libpng
@@ -423,6 +428,8 @@ libpurple
 libpwquality
 libqalculate
 libqmi
+libquvi
+libquvi-scripts
 libqzeitgeist
 libraw1394
 libreoffice-calc
@@ -527,6 +534,9 @@ logrotate
 lpsolve
 lsof
 lua
+lua-bitop
+lua-expat
+lua-socket
 lua51
 lvm2
 lynx
@@ -560,6 +570,7 @@ mozilla-common
 mpfr
 mpg123
 mplayer
+mpv
 mtdev
 mtools
 musicbrainz
@@ -580,6 +591,9 @@ networkmanager
 nfs-utils
 nfsidmap
 nixnote
+nodejs
+nodejs-bower
+nodejs-grunt-cli
 notification-daemon
 notify-sharp
 nspr
@@ -645,6 +659,7 @@ poppler
 poppler-glib
 poppler-qt4
 popt
+portaudio
 postgresql
 postgresql-docs
 postgresql-libs
@@ -665,7 +680,9 @@ pygtk
 pyqt4-common
 pyrex
 python
+python-cairo
 python-dbus-common
+python-gobject
 python-xdg
 python2
 python2-apsw
@@ -720,6 +737,7 @@ rpcbind
 rsync
 rtkit
 rtmpdump
+ruby
 run-parts
 s-nail
 sbc
@@ -777,6 +795,8 @@ tevent
 texinfo
 thunar
 traceroute
+transmission-cli
+transmission-gtk
 tree
 ttf-adobe-fonts
 ttf-anonymous-pro
@@ -813,7 +833,6 @@ util-linux
 v4l-utils
 vi
 videoproto
-vim
 vim-runtime
 vim-systemd
 virtualbox
