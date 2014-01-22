@@ -176,6 +176,7 @@ gimp
 git
 git-cola
 gitg
+glamor-egl
 glew
 glib-networking
 glib2
@@ -263,7 +264,6 @@ hyphen
 hyphen-en
 i8kutils
 iana-etc
-ibus
 icon-naming-utils
 icu
 iftop
@@ -341,6 +341,7 @@ libcroco
 libcups
 libdaemon
 libdatrie
+libdbus
 libdbusmenu-qt
 libdc1394
 libdca
@@ -361,6 +362,7 @@ libfontenc
 libftdi
 libftdi-compat
 libgcrypt
+libgcrypt15
 libgdata
 libgdiplus
 libglade
@@ -373,6 +375,7 @@ libgssglue
 libgtop
 libgusb
 libgweather
+libibus
 libical
 libice
 libid3tag
@@ -512,6 +515,7 @@ libxpm
 libxrandr
 libxrender
 libxres
+libxshmfence
 libxslt
 libxss
 libxt
@@ -697,7 +701,6 @@ python2-dbus
 python2-dnspython
 python2-docutils
 python2-gconf
-python2-gobject
 python2-gobject2
 python2-jinja
 python2-lxml
@@ -857,7 +860,7 @@ wireless_tools
 wpa_actiond
 wpa_supplicant
 wxgtk
-wxgtk2.9
+wxgtk2.8
 x264
 xbitmaps
 xcb-proto
