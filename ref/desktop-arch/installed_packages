@@ -534,6 +534,7 @@ libnotify
 liboauth
 libofa
 libogg
+libpaper
 libpcap
 libpciaccess
 libpeas

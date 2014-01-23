@@ -1,6 +1,5 @@
 [Unit]
 Description=Initialize hardware monitoring sensors
-After=syslog.target
 
 [Service]
 EnvironmentFile=-/etc/conf.d/lm_sensors
