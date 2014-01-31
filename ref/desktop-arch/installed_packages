@@ -353,7 +353,6 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
-lib32-dbus
 lib32-e2fsprogs
 lib32-elfutils
 lib32-expat
@@ -377,6 +376,7 @@ lib32-krb5
 lib32-libasyncns
 lib32-libcap
 lib32-libcups
+lib32-libdbus
 lib32-libdrm
 lib32-libffi
 lib32-libgcrypt
@@ -753,6 +753,7 @@ pambase
 pango
 pangomm
 pangox-compat
+parallel
 parted
 partimage
 patch
@@ -775,6 +776,7 @@ pidgin
 pidgin-encryption
 pidgin-libnotify
 pidgin-toobars
+pigz
 pinentry
 pixman
 pkg-config
@@ -1091,6 +1093,7 @@ yaourt
 zenity
 zip
 zlib
+zopfli-git
 zsh
 zsh-completions
 zvbi
