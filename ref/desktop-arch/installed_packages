@@ -441,6 +441,7 @@ libass
 libassuan
 libasyncns
 libatasmart
+libatomic_ops
 libavc1394
 libbluray
 libbsd
