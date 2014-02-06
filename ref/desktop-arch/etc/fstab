@@ -13,6 +13,7 @@ tmpfs				/tmp		tmpfs	nodev,nosuid			0 0
 #nas:/volume1/homes/golly	/mnt/nas/golly	nfs	noauto,x-systemd.automount,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
 #nas:/volume1/public		/mnt/nas/public	nfs	noauto,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536,timeo=10 0 2
 nas:/volume1/public        /mnt/nas/public nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
+nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
 
 #/dev/sda1: UUID="52FD-4575" TYPE="vfat" PARTLABEL="EFIBOOT" PARTUUID="e497411f-3fd3-4b7f-998a-37989472033a" 
 #/dev/sda2: UUID="0ae1bdc0-097a-4a9a-8521-acef729f3672" TYPE="ext4" PARTLABEL="SYSTEM" PARTUUID="ff1e1d62-bacc-4685-a97f-3f358833247a" 

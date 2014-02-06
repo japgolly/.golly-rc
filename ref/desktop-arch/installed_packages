@@ -59,7 +59,6 @@ cantarell-fonts
 ccsm
 cdparanoia
 celt
-cgminer
 chmlib
 cifs-utils
 clang
@@ -308,7 +307,6 @@ isl
 iso-codes
 itstool
 jack
-jansson
 jasper
 jdk
 jdk6-compat
@@ -847,6 +845,7 @@ python2-psutil
 python2-pygame
 python2-pygments
 python2-pyqt4
+python2-reportlab
 python2-scipy
 python2-setuptools
 python2-sip
@@ -903,6 +902,7 @@ shared-color-targets
 shared-desktop-ontologies
 shared-mime-info
 sip
+sk1libs
 slang
 sloccount
 smartmontools
@@ -973,6 +973,7 @@ udisks2
 unace
 unarchiver
 unetbootin
+uniconvertor
 unixodbc
 unoconv
 unrar
