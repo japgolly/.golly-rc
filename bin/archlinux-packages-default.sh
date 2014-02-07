@@ -1,4 +1,4 @@
-yaourt -Sy --needed --noconfirm -- \
+yaourt -S --needed --noconfirm -- \
   abs \
   acroread \
   alsa-lib \
@@ -9,6 +9,7 @@ yaourt -Sy --needed --noconfirm -- \
   aspell \
   aspell-en \
   awoken-icons \
+  bash-completion \
   bc \
   ca-certificates-java \
   cairo-dock \
@@ -21,15 +22,14 @@ yaourt -Sy --needed --noconfirm -- \
   colordiff \
   compiz-bcop \
   compiz-core \
-  compiz-decorator-gtk \
   compiz-fusion-plugins-extra \
   compiz-fusion-plugins-main \
   compiz-manager \
-  compizconfig-backend-gconf \
   compizconfig-python \
   cpupower \
   dos2unix \
   dosfstools \
+  downgrade \
   dropbox \
   ed \
   emerald \
@@ -63,6 +63,9 @@ yaourt -Sy --needed --noconfirm -- \
   gstreamer0.10-python \
   gstreamer0.10-ugly \
   gstreamer0.10-ugly-plugins \
+  gst-plugins-base \
+  gst-plugins-good \
+  gst-plugins-bad \
   gtk-engines \
   gtk2 \
   gtk2-xfce-engine \
@@ -70,6 +73,7 @@ yaourt -Sy --needed --noconfirm -- \
   gtk3-xfce-engine \
   gtkglext \
   gtkspell \
+  guake \
   hddtemp \
   hdparm \
   hicolor-icon-theme \
@@ -80,11 +84,8 @@ yaourt -Sy --needed --noconfirm -- \
   hwinfo \
   hyphen \
   hyphen-en \
-  icedtea-web-java7 \
   iftop \
   imagemagick \
-  jre7-openjdk \
-  jre7-openjdk-headless \
   kdesdk-kcachegrind \
   kdiff3 \
   keepass \
@@ -106,6 +107,7 @@ yaourt -Sy --needed --noconfirm -- \
   libreoffice-draw \
   libreoffice-en-GB \
   libreoffice-writer \
+  libreoffice-gnome \
   libyaml \
   lm_sensors \
   lsof \
@@ -200,6 +202,7 @@ yaourt -Sy --needed --noconfirm -- \
   xfce4-settings \
   xfce4-systemload-plugin \
   xfdesktop \
+  xorg-server \
   xorg-utils \
   xorg-xcmsdb \
   xorg-xgamma \
@@ -211,4 +214,6 @@ yaourt -Sy --needed --noconfirm -- \
   zsh-completions \
   ;
 
+  #compiz-decorator-gtk \
+  #compizconfig-backend-gconf \
  sudo usermod -a -G vboxusers golly
