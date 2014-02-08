@@ -121,6 +121,7 @@ function convss {
     out=$(echo ${@:${#@}} | sed 's/^.*://')
     convert "$@" && \
       if [ -e "$out" ]; then
+        identify "$out"
         xdg-open "$out"
       else
         echo "File not found: $out" >&2
