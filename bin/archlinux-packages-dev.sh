@@ -1,3 +1,4 @@
+(java -version >/dev/null 2>/dev/null || yaourt -Sy --needed --noconfirm -- jdk) && \
 yaourt -Sy --needed --noconfirm -- \
   ack \
   apache-ant \
@@ -10,9 +11,11 @@ yaourt -Sy --needed --noconfirm -- \
   inkscape \
   maven \
   mercurial \
-  jdk6-compat jre6-compat \
-  jdk \
+  nodejs \
+  nodejs-bower \
+  nodejs-grunt-cli \
   pgadmin3 \
+  phantomjs \
   plantuml \
   pngout \
   postgresql \
