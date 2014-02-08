@@ -3,12 +3,10 @@
 #
 # <file system>	<dir>	<type>	<options>	<dump>	<pass>
 
-# /dev/sda1
-UUID=2c72efd8-37b7-446c-972c-baf3944f1085	/         	btrfs     	rw,relatime,space_cache	0 0
+/dev/sda1           	/         	ext4      	rw,relatime,data=ordered	0 1
+/dev/sda2           	/home     	ext4      	rw,relatime,data=ordered	0 2
+/dev/sda3           	none      	swap      	defaults  	0 0
 
-# /dev/sda2
-UUID=b6ab0379-76dc-46a0-94e4-69bcba0cc4ed	none      	swap      	defaults  	0 0
-
-nas:/volume1/public        /mnt/nas/public nfs     noauto,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
-nas:/volume1/homes/golly   /mnt/nas/golly  nfs     noauto,nosuid,exec,async,relatime,intr,_netdev,rsize=65536,wsize=65536 0 2
+nas:/volume1/public        /mnt/nas/public nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
+nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
 

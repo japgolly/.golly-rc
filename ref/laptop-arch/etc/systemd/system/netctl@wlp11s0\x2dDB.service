@@ -1,6 +1,0 @@
-.include /usr/lib/systemd/system/netctl@.service
-
-[Unit]
-Description=Automatically generated profile by wifi-menu
-BindsTo=sys-subsystem-net-devices-wlp11s0.device
-After=sys-subsystem-net-devices-wlp11s0.device
