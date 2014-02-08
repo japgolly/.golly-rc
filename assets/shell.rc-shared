@@ -114,6 +114,19 @@ xxx="$(cd "$(dirname "$0")/xxx" && pwd)"
     done
   fi
 }
+function convss {
+  if [ $# -eq 0 ]; then
+    echo "No arguments provided." >&2
+  else
+    out=$(echo ${@:${#@}} | sed 's/^.*://')
+    convert "$@" && \
+      if [ -e "$out" ]; then
+        xdg-open "$out"
+      else
+        echo "File not found: $out" >&2
+      fi
+  fi
+}
 
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
