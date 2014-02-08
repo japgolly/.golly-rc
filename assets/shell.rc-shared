@@ -33,7 +33,7 @@ alias gca='git commit --amend'
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
 alias mpv-del-size="${mpv_del_xargs} du -shc"
-alias mpv-del-rm="${mpv_del_xargs} rm && rm -i /tmp/mpv-deletion"
+alias mpv-del-rm="${mpv_del_xargs} rm -v && rm -i /tmp/mpv-deletion"
 
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
