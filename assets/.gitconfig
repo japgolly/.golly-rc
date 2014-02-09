@@ -9,6 +9,7 @@
    mt = mergetool
    l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
    diffs = diff --staged
+   diffw = diff --color-words
    cp = cherry-pick
    lol = log --graph --decorate --pretty=oneline --abbrev-commit
    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
@@ -35,3 +36,7 @@
 
 [diff "odf"]
 	textconv = odt2txt
+
+[diff "cssmin"]
+    wordRegex = "[^{};]+"
+
