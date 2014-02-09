@@ -129,7 +129,6 @@ emerald
 emerald-themes
 enca
 enchant
-erlang
 ethtool
 evolution-data-server
 exempi
@@ -257,7 +256,6 @@ gtkspell
 gts
 guake
 guile
-guisu
 gvfs
 gzip
 harfbuzz
@@ -1008,7 +1006,6 @@ wine
 winetricks
 wireless_tools
 wpa_supplicant
-wxgtk
 wxgtk2.8
 x264
 xbitmaps
