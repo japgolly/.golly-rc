@@ -38,7 +38,7 @@ baobab
 bash
 bash-completion
 bc
-binutils-multilib
+binutils
 bison
 blas
 bluez
