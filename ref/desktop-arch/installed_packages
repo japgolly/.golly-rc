@@ -585,8 +585,8 @@ libunique3
 libunistring
 libunrar
 libupnp
+libusb
 libusb-compat
-libusbx
 libutempter
 libva
 libva-vdpau-driver
@@ -806,6 +806,7 @@ psmisc
 pth
 pulseaudio
 pulseaudio-alsa
+pv
 pygobject-devel
 pygobject2-devel
 pygtk
