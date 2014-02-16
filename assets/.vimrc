@@ -245,19 +245,34 @@ au filetype markdown nmap ,md= Yp:s/./=/g<CR>o<Esc>
 
 "-----------------------------------------------------------------
 " Graphviz
-au filetype dot nmap ,gd :w<CR>:silent !rm -f %.png && dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gn :w<CR>:silent !rm -f %.png && neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gf :w<CR>:silent !rm -f %.png && fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gs :w<CR>:silent !rm -f %.png && sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gt :w<CR>:silent !rm -f %.png && twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gc :w<CR>:silent !rm -f %.png && circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
-au filetype dot nmap ,gD :w<CR>:!rm -f %.png && dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gN :w<CR>:!rm -f %.png && neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gF :w<CR>:!rm -f %.png && fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gS :w<CR>:!rm -f %.png && sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gT :w<CR>:!rm -f %.png && twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,gC :w<CR>:!rm -f %.png && circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
-au filetype dot nmap ,al A [label=""]<Esc>hi
+au filetype dot nmap ,gd :w<CR>:silent !rm -f %.svg && dot   -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gn :w<CR>:silent !rm -f %.svg && neato -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gf :w<CR>:silent !rm -f %.svg && fdp   -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gs :w<CR>:silent !rm -f %.svg && sfdp  -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gt :w<CR>:silent !rm -f %.svg && twopi -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gc :w<CR>:silent !rm -f %.svg && circo -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gD :w<CR>:!rm -f %.svg && dot   -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>
+au filetype dot nmap ,gN :w<CR>:!rm -f %.svg && neato -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>
+au filetype dot nmap ,gF :w<CR>:!rm -f %.svg && fdp   -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>
+au filetype dot nmap ,gS :w<CR>:!rm -f %.svg && sfdp  -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>
+au filetype dot nmap ,gT :w<CR>:!rm -f %.svg && twopi -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>
+au filetype dot nmap ,gC :w<CR>:!rm -f %.svg && circo -Tsvg -o%.svg % && xdg-open %.svg 2>/dev/null<CR>
+
+au filetype dot nmap ,gpd :w<CR>:silent !rm -f %.png && dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gpn :w<CR>:silent !rm -f %.png && neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gpf :w<CR>:silent !rm -f %.png && fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gps :w<CR>:silent !rm -f %.png && sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gpt :w<CR>:silent !rm -f %.png && twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gpc :w<CR>:silent !rm -f %.png && circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
+au filetype dot nmap ,gpD :w<CR>:!rm -f %.png && dot   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gpN :w<CR>:!rm -f %.png && neato -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gpF :w<CR>:!rm -f %.png && fdp   -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gpS :w<CR>:!rm -f %.png && sfdp  -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gpT :w<CR>:!rm -f %.png && twopi -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+au filetype dot nmap ,gpC :w<CR>:!rm -f %.png && circo -Tpng -o%.png % && xdg-open %.png 2>/dev/null<CR>
+
+au filetype dot nmap ,gl A [label=""]<Esc>hi
+
 au filetype plantuml nmap ,gp :w<CR>:silent !rm -f %.png && cat % \| plantuml -p -nbthread auto > %.png && xdg-open %.png 2>/dev/null<CR>:redraw!<CR>
 au filetype plantuml nmap ,gP :w<CR>:!rm -f %.png && cat % \| plantuml -p -nbthread auto > %.png && xdg-open %.png 2>/dev/null<CR>
 
