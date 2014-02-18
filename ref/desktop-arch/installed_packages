@@ -1,3 +1,4 @@
+a2ps
 a52dec
 aalib
 abs
@@ -45,6 +46,7 @@ bluez
 bluez-utils
 boost
 boost-libs
+brother-mfc-j4510dw
 bzip2
 ca-certificates
 ca-certificates-java
@@ -91,6 +93,8 @@ cracklib
 cronie
 cryptsetup
 cuda
+cups
+cups-filters
 cups-pk-helper
 curl
 damageproto
@@ -100,6 +104,7 @@ dbus-glib
 dbus-sharp
 dbus-sharp-glib
 dconf
+deb2targz
 desktop-file-utils
 device-mapper
 dhcpcd
@@ -256,6 +261,7 @@ gtkspell
 gts
 guake
 guile
+gutenprint
 gvfs
 gzip
 harfbuzz
@@ -803,6 +809,7 @@ prison
 procps-ng
 profont
 psmisc
+psutils
 pth
 pulseaudio
 pulseaudio-alsa
@@ -856,6 +863,7 @@ python2-zope-interface
 qca
 qimageblitz
 qjson
+qpdf
 qrencode
 qt4
 qtwebkit
@@ -941,6 +949,7 @@ taglib
 talloc
 tar
 tcpdump
+tcsh
 tdb
 telepathy-glib
 terminus-font-ttf
