@@ -27,6 +27,7 @@ atk
 atkmm
 attica
 attr
+audit
 autoconf
 automake
 avahi
@@ -37,6 +38,7 @@ bash-completion
 bc
 binutils
 bison
+boost
 boost-libs
 brother-mfc-j4510dw
 bsdiff
@@ -433,8 +435,8 @@ libunique3
 libunistring
 libunrar
 libupnp
+libusb
 libusb-compat
-libusbx
 libutempter
 libva
 libvdpau
@@ -580,6 +582,7 @@ pambase
 pango
 pangomm
 pangox-compat
+parallel
 parted
 partimage
 patch
@@ -599,6 +602,7 @@ pidgin
 pidgin-encryption
 pidgin-libnotify
 pidgin-toobars
+pigz
 pinentry
 pixman
 pkg-config
