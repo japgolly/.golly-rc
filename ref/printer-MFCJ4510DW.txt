@@ -1,0 +1,11 @@
+p cups gutenprint
+ssc start cupsd
+yy brother-mfc-j4510dw
+cups-genppdupdate
+ssc restart cupsd
+sudo gpasswd -a $(whoami) sys
+
+http://localhost:631/
+	-> Printers -> MFCJ4510DW -> Admin|Modify -> Discovered Network Printers
+	-> Printers -> MFCJ4510DW -> Admin|Defaults -> A4, greyscale, etc.
+

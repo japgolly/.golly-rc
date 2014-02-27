@@ -13,8 +13,6 @@
 ~/.xinitrc
 /etc/adobe/mms.cfg
 /etc/conf.d/
-/etc/cups/ppd/Canon-MX885.ppd
-/etc/cups/printers.conf
 /etc/default/tlp
 /etc/fstab
 /etc/hosts

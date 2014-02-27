@@ -1,3 +1,4 @@
+a2ps
 a52dec
 aalib
 abs
@@ -45,6 +46,7 @@ bluez
 bluez-utils
 boost
 boost-libs
+brother-mfc-j4510dw
 bzip2
 ca-certificates
 ca-certificates-java
@@ -91,6 +93,8 @@ cracklib
 cronie
 cryptsetup
 cuda
+cups
+cups-filters
 cups-pk-helper
 curl
 damageproto
@@ -100,6 +104,7 @@ dbus-glib
 dbus-sharp
 dbus-sharp-glib
 dconf
+deb2targz
 desktop-file-utils
 device-mapper
 dhcpcd
@@ -256,6 +261,7 @@ gtkspell
 gts
 guake
 guile
+gutenprint
 gvfs
 gzip
 harfbuzz
@@ -585,8 +591,8 @@ libunique3
 libunistring
 libunrar
 libupnp
+libusb
 libusb-compat
-libusbx
 libutempter
 libva
 libva-vdpau-driver
@@ -696,6 +702,7 @@ mpv
 mtdev
 mtools
 mtr
+multitail
 mupen64plus
 musicbrainz
 mythes-en
@@ -803,9 +810,11 @@ prison
 procps-ng
 profont
 psmisc
+psutils
 pth
 pulseaudio
 pulseaudio-alsa
+pv
 pygobject-devel
 pygobject2-devel
 pygtk
@@ -813,8 +822,17 @@ pyqt4-common
 pyrex
 python
 python-cairo
+python-dbus
 python-dbus-common
+python-docutils
 python-gobject
+python-jinja
+python-markupsafe
+python-pygments
+python-pyqt4
+python-setuptools
+python-sip
+python-sphinx
 python-xdg
 python2
 python2-apsw
@@ -855,6 +873,7 @@ python2-zope-interface
 qca
 qimageblitz
 qjson
+qpdf
 qrencode
 qt4
 qtwebkit
@@ -940,6 +959,7 @@ taglib
 talloc
 tar
 tcpdump
+tcsh
 tdb
 telepathy-glib
 terminus-font-ttf

@@ -40,6 +40,8 @@
       <property name="&lt;Primary&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito localhost:8080/x"/>
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
       <property name="&lt;Super&gt;k" type="string" value="/usr/bin/keepass"/>
+      <property name="&lt;Super&gt;o" type="string" value="/usr/bin/libreoffice"/>
+      <property name="&lt;Super&gt;b" type="string" value="subl"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
