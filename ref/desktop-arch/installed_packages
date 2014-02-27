@@ -702,6 +702,7 @@ mpv
 mtdev
 mtools
 mtr
+multitail
 mupen64plus
 musicbrainz
 mythes-en
@@ -821,8 +822,17 @@ pyqt4-common
 pyrex
 python
 python-cairo
+python-dbus
 python-dbus-common
+python-docutils
 python-gobject
+python-jinja
+python-markupsafe
+python-pygments
+python-pyqt4
+python-setuptools
+python-sip
+python-sphinx
 python-xdg
 python2
 python2-apsw
