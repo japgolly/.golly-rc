@@ -27,6 +27,10 @@
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito"/>
       <property name="&lt;Super&gt;m" type="string" value="/usr/bin/speedcrunch"/>
+      <property name="&lt;Super&gt;o" type="string" value="libreoffice"/>
+      <property name="&lt;Super&gt;b" type="string" value="subl"/>
+      <property name="&lt;Super&gt;l" type="string" value="leafpad"/>
+      <property name="&lt;Super&gt;k" type="string" value="keepass"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

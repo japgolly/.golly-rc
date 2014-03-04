@@ -188,6 +188,7 @@ gobject-introspection
 google-chrome
 gpart
 gparted
+gperf
 gpgme
 gpm
 gptfdisk
@@ -380,6 +381,7 @@ libnice
 libnl
 libnotify
 liboauth
+libodfgen
 libofa
 libogg
 libpaper
@@ -440,6 +442,7 @@ libusb-compat
 libutempter
 libva
 libvdpau
+libvisio
 libvisual
 libvorbis
 libvpx
@@ -449,6 +452,7 @@ libwmf
 libwnck
 libwnck3
 libwpd
+libwpg
 libwps
 libx11
 libx86emu
@@ -534,6 +538,7 @@ mplayer
 mpv
 mtdev
 mtools
+mtr
 musicbrainz
 mutagen
 mythes-en
@@ -636,8 +641,17 @@ pyqt4-common
 pyrex
 python
 python-cairo
+python-dbus
 python-dbus-common
+python-docutils
 python-gobject
+python-jinja
+python-markupsafe
+python-pygments
+python-pyqt4
+python-setuptools
+python-sip
+python-sphinx
 python-xdg
 python2
 python2-apsw
@@ -743,6 +757,7 @@ terminus-font-ttf
 tevent
 texinfo
 thunar
+thunderbird
 traceroute
 tree
 ttf-adobe-fonts
