@@ -216,7 +216,7 @@ gnustep-base 1.24.5-5
 gnustep-make 2.6.5-2
 gnutls 3.2.11-1
 gobject-introspection 1.38.0-1
-google-chrome 33.0.1750.117-1
+google-chrome 33.0.1750.146-1
 google-musicmanager 1.0.91.1050_r0-1
 gource 0.40-4
 gpart 0.2.1-1
@@ -888,6 +888,7 @@ redland-storage-virtuoso 1:1.0.17-2
 redshift 1.8-1
 refind-efi 0.7.7-1
 reiserfsprogs 3.6.24-1
+renameutils 0.12.0-2
 renderproto 0.11.1-2
 rest 0.7.90-2
 rlwrap 0.37-2
