@@ -258,6 +258,7 @@ gtkmm
 gtkmm3
 gtksourceview3
 gtkspell
+gtkspell3
 gts
 guake
 guile
@@ -486,6 +487,9 @@ libgcrypt
 libgcrypt15
 libgdata
 libgdiplus
+libgee
+libgit2
+libgit2-glib
 libglade
 libgme
 libgnome-keyring
@@ -566,6 +570,7 @@ librpcsecgss
 librsvg
 libsamplerate
 libsasl
+libseccomp
 libsecret
 libshout
 libsidplay
