@@ -54,6 +54,7 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
 au filetype ruby,yaml,sh,haskell      setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
+au filetype scala                     setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
 au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
 au filetype dot                       setlocal ts=2 sw=2 expandtab
 au filetype css,scss                  setlocal ts=2 sw=2 expandtab
