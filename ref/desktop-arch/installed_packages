@@ -326,8 +326,19 @@ kactivities
 kbd
 kbproto
 kde-base-artwork
+kde-wallpapers
 kdebase-dolphin
+kdebase-katepart
+kdebase-kdepasswd
+kdebase-kdialog
+kdebase-keditbookmarks
+kdebase-kfind
+kdebase-konq-plugins
+kdebase-konqueror
+kdebase-konsole
+kdebase-kwrite
 kdebase-lib
+kdebase-plasma
 kdebase-runtime
 kdebase-workspace
 kdegraphics-mobipocket
@@ -974,6 +985,7 @@ texinfo
 texlive-bin
 texlive-core
 thunar
+tidyhtml
 traceroute
 tree
 ttf-adobe-fonts

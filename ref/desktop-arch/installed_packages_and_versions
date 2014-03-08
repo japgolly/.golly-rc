@@ -326,8 +326,19 @@ kactivities 4.12.2-1
 kbd 2.0.1-1
 kbproto 1.0.6-1
 kde-base-artwork 4.12.2-1
+kde-wallpapers 4.12.2-1
 kdebase-dolphin 4.12.2-1
+kdebase-katepart 4.12.2-1
+kdebase-kdepasswd 4.12.2-1
+kdebase-kdialog 4.12.2-1
+kdebase-keditbookmarks 4.12.2-1
+kdebase-kfind 4.12.2-1
+kdebase-konq-plugins 4.12.2-1
+kdebase-konqueror 4.12.2-1
+kdebase-konsole 4.12.2-1
+kdebase-kwrite 4.12.2-1
 kdebase-lib 4.12.2-1
+kdebase-plasma 4.12.2-1
 kdebase-runtime 4.12.2-1
 kdebase-workspace 4.11.6-3
 kdegraphics-mobipocket 4.12.2-1
@@ -974,6 +985,7 @@ texinfo 5.2-2
 texlive-bin 2013.30973-7
 texlive-core 2013.31589-1
 thunar 1.6.3-1
+tidyhtml 1.46-3
 traceroute 2.0.19-2
 tree 1.6.0-2
 ttf-adobe-fonts 11.0.03-1
