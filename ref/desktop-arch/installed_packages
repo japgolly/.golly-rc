@@ -221,6 +221,7 @@ google-musicmanager
 gource
 gpart
 gparted
+gperf
 gpgme
 gpm
 grantlee
@@ -409,6 +410,7 @@ lib32-libsndfile
 lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
+lib32-libvdpau
 lib32-libvorbis
 lib32-libx11
 lib32-libxau
@@ -447,6 +449,7 @@ lib32-readline
 lib32-sdl
 lib32-systemd
 lib32-util-linux
+lib32-wayland
 lib32-xcb-util
 lib32-xz
 lib32-zlib
@@ -552,6 +555,7 @@ libnice
 libnl
 libnotify
 liboauth
+libodfgen
 libofa
 libogg
 libpaper
@@ -614,6 +618,7 @@ libutempter
 libva
 libva-vdpau-driver
 libvdpau
+libvisio
 libvisual
 libvorbis
 libvpx
@@ -624,6 +629,7 @@ libwmf
 libwnck
 libwnck3
 libwpd
+libwpg
 libwps
 libx11
 libx86emu
