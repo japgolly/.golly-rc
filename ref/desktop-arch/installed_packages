@@ -92,7 +92,6 @@ cpupower
 cracklib
 cronie
 cryptsetup
-cuda
 cups
 cups-filters
 cups-pk-helper
@@ -117,7 +116,6 @@ dnssec-anchors
 dnsutils
 docbook-xml
 docbook-xsl
-dogecoin-qt-git
 dos2unix
 dosfstools
 dotconf
@@ -709,7 +707,6 @@ mesa
 mesa-demos
 metacity
 mime-types
-miniupnpc
 mirage
 mjpegtools
 mkinitcpio
