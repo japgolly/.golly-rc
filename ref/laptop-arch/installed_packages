@@ -427,6 +427,7 @@ libsrtp
 libssh
 libssh2
 libstdc++5
+libsystemd
 libtar
 libtasn1
 libthai
@@ -445,6 +446,7 @@ libupnp
 libusb
 libusb-compat
 libutempter
+libutil-linux
 libva
 libvdpau
 libvisio
