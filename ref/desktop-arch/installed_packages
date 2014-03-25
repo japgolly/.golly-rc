@@ -596,6 +596,7 @@ libsoup
 libspiro
 libssh
 libssh2
+libsystemd
 libtar
 libtasn1
 libthai
@@ -613,6 +614,7 @@ libupnp
 libusb
 libusb-compat
 libutempter
+libutil-linux
 libva
 libva-vdpau-driver
 libvdpau
