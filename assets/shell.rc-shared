@@ -130,6 +130,15 @@ function convss {
   fi
 }
 
+[ -e /opt/java ] && function j_ {
+  export JAVA_HOME=/opt/java
+  export PATH="$JAVA_HOME/bin:$PATH"
+}
+[ -e /opt/java7 ] && function j7 {
+  export JAVA_HOME=/opt/java7
+  export PATH="$JAVA_HOME/bin:$PATH"
+}
+
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
 
