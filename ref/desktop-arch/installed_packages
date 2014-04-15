@@ -68,10 +68,7 @@ cln
 cloc
 cloog
 clucene
-clutter
-clutter-gtk
 cmake
-cogl
 colord
 colord-gtk
 colordiff
@@ -194,6 +191,7 @@ glib2
 glibc
 glibmm
 glu
+gmime
 gmp
 gnome-bluetooth
 gnome-color-manager
@@ -226,6 +224,7 @@ grantlee
 graphite
 graphviz
 grep
+grilo
 groff
 gsettings-desktop-schemas
 gsfonts
@@ -318,7 +317,7 @@ jdk7-compat
 jfsutils
 jmeter
 jre6-compat
-js
+js17
 js185
 json-c
 json-glib
@@ -490,7 +489,6 @@ libdvdnav
 libdvdread
 libebml
 libedit
-libevdev
 libevent
 libexif
 libffi
@@ -536,7 +534,6 @@ libltdl
 libmad
 libmariadbclient
 libmatroska
-libmbim
 libmikmod
 libmm-glib
 libmms
@@ -570,7 +567,6 @@ libpulse
 libpurple
 libpwquality
 libqalculate
-libqmi
 libquvi
 libquvi-scripts
 libqzeitgeist
@@ -614,6 +610,7 @@ libunrar
 libupnp
 libusb
 libusb-compat
+libusbmuxd
 libutempter
 libutil-linux
 libva
@@ -700,7 +697,6 @@ man-db
 man-pages
 mariadb
 mariadb-clients
-mash
 maven
 mcpp
 mdadm
@@ -715,7 +711,6 @@ mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
-modemmanager
 mono
 mozilla-common
 mpfr
@@ -962,7 +957,6 @@ sparsehash
 speech-dispatcher
 speedcrunch
 speex
-sql-workbench
 sqlite
 startup-notification
 steam
@@ -993,6 +987,8 @@ texlive-bin
 texlive-core
 thunar
 tidyhtml
+tmux
+totem-plparser
 traceroute
 tree
 ttf-adobe-fonts
@@ -1023,7 +1019,6 @@ unoconv
 unrar
 unzip
 upower
-usbmuxd
 usbutils
 util-linux
 v4l-utils
