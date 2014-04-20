@@ -35,6 +35,8 @@ automake
 avahi
 awoken-icons
 babl
+baloo
+baloo-widgets
 baobab
 bash
 bash-completion
@@ -68,7 +70,10 @@ cln
 cloc
 cloog
 clucene
+clutter
+clutter-gtk
 cmake
+cogl
 colord
 colord-gtk
 colordiff
@@ -348,6 +353,7 @@ kdesdk-kcachegrind
 kdiff3
 keepass
 keyutils
+kfilemetadata
 kmod
 krb5
 ladspa
@@ -489,6 +495,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libevdev
 libevent
 libexif
 libffi
@@ -518,6 +525,7 @@ libid3tag
 libidn
 libiec61883
 libimobiledevice
+libinput
 libiodbc
 libirman
 libjpeg-turbo
@@ -894,6 +902,9 @@ qjson
 qpdf
 qrencode
 qt4
+qt5-base
+qt5-script
+qtchooser
 qtwebkit
 randrproto
 raptor
@@ -924,6 +935,7 @@ screen
 scrnsaverproto
 sdl
 sdl2
+sdl2_image
 sdl_image
 sdl_mixer
 sdl_ttf
@@ -1050,6 +1062,7 @@ wpa_supplicant
 wxgtk2.8
 x264
 x265
+xapian-core
 xbitmaps
 xcb-proto
 xcb-util
