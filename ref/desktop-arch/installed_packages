@@ -270,18 +270,6 @@ gvfs
 gzip
 harfbuzz
 harfbuzz-icu
-haskell-data-default
-haskell-data-default-class
-haskell-data-default-instances-base
-haskell-data-default-instances-containers
-haskell-data-default-instances-dlist
-haskell-data-default-instances-old-locale
-haskell-dlist
-haskell-extensible-exceptions
-haskell-mtl
-haskell-transformers
-haskell-utf8-string
-haskell-x11
 hddtemp
 hdparm
 hicolor-icon-theme
@@ -801,8 +789,9 @@ perl-yaml-syck
 pgadmin3
 phantomjs
 phantomjs-bin
-phonon-gstreamer
 phonon-qt4
+phonon-qt4-gstreamer
+phonon-qt5-gstreamer
 pidgin
 pidgin-encryption
 pidgin-libnotify
@@ -946,7 +935,6 @@ setconf
 sfnt2woff
 sg3_utils
 shadow
-shared-color-profiles
 shared-color-targets
 shared-desktop-ontologies
 shared-mime-info
@@ -1105,7 +1093,6 @@ xfsprogs
 xineramaproto
 xkeyboard-config
 xmlto
-xmonad
 xorg-bdftopcf
 xorg-font-util
 xorg-font-utils
