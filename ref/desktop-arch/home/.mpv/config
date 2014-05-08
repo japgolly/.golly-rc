@@ -3,9 +3,10 @@
 # use X11 for video output, use a wayland and framebuffer as fallbacks
 #vo=xv,wayland,directfb
 
+#vo=opengl
 #vo=vdpau
 #vc=ffh264vdpau,ffmpeg12vdpau,ffodivxvdpau,ffwmv3vdpau,ffvc1vdpau,
 
 # multithreaded decoding of H264/MPEG-1/2 (valid: 0-16)
-vd-lavc-threads=4
+vd-lavc-threads=6
 

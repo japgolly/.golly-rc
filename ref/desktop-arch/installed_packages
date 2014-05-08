@@ -35,6 +35,8 @@ automake
 avahi
 awoken-icons
 babl
+baloo
+baloo-widgets
 baobab
 bash
 bash-completion
@@ -92,7 +94,6 @@ cpupower
 cracklib
 cronie
 cryptsetup
-cuda
 cups
 cups-filters
 cups-pk-helper
@@ -117,7 +118,6 @@ dnssec-anchors
 dnsutils
 docbook-xml
 docbook-xsl
-dogecoin-qt-git
 dos2unix
 dosfstools
 dotconf
@@ -196,6 +196,7 @@ glib2
 glibc
 glibmm
 glu
+gmime
 gmp
 gnome-bluetooth
 gnome-color-manager
@@ -221,12 +222,14 @@ google-musicmanager
 gource
 gpart
 gparted
+gperf
 gpgme
 gpm
 grantlee
 graphite
 graphviz
 grep
+grilo
 groff
 gsettings-desktop-schemas
 gsfonts
@@ -258,6 +261,7 @@ gtkmm
 gtkmm3
 gtksourceview3
 gtkspell
+gtkspell3
 gts
 guake
 guile
@@ -314,10 +318,11 @@ jack
 jasper
 jdk
 jdk6-compat
+jdk7-compat
 jfsutils
 jmeter
 jre6-compat
-js
+js17
 js185
 json-c
 json-glib
@@ -325,8 +330,19 @@ kactivities
 kbd
 kbproto
 kde-base-artwork
+kde-wallpapers
 kdebase-dolphin
+kdebase-katepart
+kdebase-kdepasswd
+kdebase-kdialog
+kdebase-keditbookmarks
+kdebase-kfind
+kdebase-konq-plugins
+kdebase-konqueror
+kdebase-konsole
+kdebase-kwrite
 kdebase-lib
+kdebase-plasma
 kdebase-runtime
 kdebase-workspace
 kdegraphics-mobipocket
@@ -337,6 +353,7 @@ kdesdk-kcachegrind
 kdiff3
 keepass
 keyutils
+kfilemetadata
 kmod
 krb5
 ladspa
@@ -397,6 +414,7 @@ lib32-libsndfile
 lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
+lib32-libvdpau
 lib32-libvorbis
 lib32-libx11
 lib32-libxau
@@ -413,6 +431,7 @@ lib32-libxinerama
 lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
+lib32-libxshmfence
 lib32-libxt
 lib32-libxtst
 lib32-libxv
@@ -434,6 +453,7 @@ lib32-readline
 lib32-sdl
 lib32-systemd
 lib32-util-linux
+lib32-wayland
 lib32-xcb-util
 lib32-xz
 lib32-zlib
@@ -486,6 +506,9 @@ libgcrypt
 libgcrypt15
 libgdata
 libgdiplus
+libgee
+libgit2
+libgit2-glib
 libglade
 libgme
 libgnome-keyring
@@ -502,6 +525,7 @@ libid3tag
 libidn
 libiec61883
 libimobiledevice
+libinput
 libiodbc
 libirman
 libjpeg-turbo
@@ -518,7 +542,6 @@ libltdl
 libmad
 libmariadbclient
 libmatroska
-libmbim
 libmikmod
 libmm-glib
 libmms
@@ -536,6 +559,7 @@ libnice
 libnl
 libnotify
 liboauth
+libodfgen
 libofa
 libogg
 libpaper
@@ -551,7 +575,6 @@ libpulse
 libpurple
 libpwquality
 libqalculate
-libqmi
 libquvi
 libquvi-scripts
 libqzeitgeist
@@ -566,6 +589,7 @@ librpcsecgss
 librsvg
 libsamplerate
 libsasl
+libseccomp
 libsecret
 libshout
 libsidplay
@@ -577,6 +601,7 @@ libsoup
 libspiro
 libssh
 libssh2
+libsystemd
 libtar
 libtasn1
 libthai
@@ -593,10 +618,13 @@ libunrar
 libupnp
 libusb
 libusb-compat
+libusbmuxd
 libutempter
+libutil-linux
 libva
 libva-vdpau-driver
 libvdpau
+libvisio
 libvisual
 libvorbis
 libvpx
@@ -607,6 +635,7 @@ libwmf
 libwnck
 libwnck3
 libwpd
+libwpg
 libwps
 libx11
 libx86emu
@@ -676,7 +705,6 @@ man-db
 man-pages
 mariadb
 mariadb-clients
-mash
 maven
 mcpp
 mdadm
@@ -686,13 +714,11 @@ mesa
 mesa-demos
 metacity
 mime-types
-miniupnpc
 mirage
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
-modemmanager
 mono
 mozilla-common
 mpfr
@@ -876,6 +902,9 @@ qjson
 qpdf
 qrencode
 qt4
+qt5-base
+qt5-script
+qtchooser
 qtwebkit
 randrproto
 raptor
@@ -888,6 +917,7 @@ redland-storage-virtuoso
 redshift
 refind-efi
 reiserfsprogs
+renameutils
 renderproto
 rest
 rlwrap
@@ -905,6 +935,7 @@ screen
 scrnsaverproto
 sdl
 sdl2
+sdl2_image
 sdl_image
 sdl_mixer
 sdl_ttf
@@ -938,7 +969,6 @@ sparsehash
 speech-dispatcher
 speedcrunch
 speex
-sql-workbench
 sqlite
 startup-notification
 steam
@@ -968,6 +998,9 @@ texinfo
 texlive-bin
 texlive-core
 thunar
+tidyhtml
+tmux
+totem-plparser
 traceroute
 tree
 ttf-adobe-fonts
@@ -998,7 +1031,6 @@ unoconv
 unrar
 unzip
 upower
-usbmuxd
 usbutils
 util-linux
 v4l-utils
@@ -1011,6 +1043,7 @@ virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules
 virtuoso-base
+visualvm
 vlc
 vte
 vte-common
@@ -1028,6 +1061,8 @@ wireless_tools
 wpa_supplicant
 wxgtk2.8
 x264
+x265
+xapian-core
 xbitmaps
 xcb-proto
 xcb-util

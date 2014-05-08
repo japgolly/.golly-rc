@@ -1,15 +1,17 @@
 # vim:ft=sh et sw=2 ts=2:
 
-alias ls='ls --color=auto --group-directories-first'
-export GREP_OPTIONS='--color=auto'
-
 export EDITOR=vim
 export PAGER=less
+export GREP_OPTIONS='--color=auto'
 export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
 
+alias rm='rm -i' # like a child :(
+alias ls='ls --color=auto'
 alias la='ls -la'
 alias ll='ls -l'
 alias lsa='ls -a'
+alias lld='ll --group-directories-first'
+
 #alias svnstnew='svn st --ignore-externals | fgrep ? | cut -b8-'
 #alias svnste='svn st --ignore-externals | grep -v ^X'
 #alias svn_add_rm="svnste | sort | fgrep '?' | cut -b3- | xargs --no-run-if-empty echo svn add; echo; svnste | sort | fgrep '!' | cut -b3- | xargs --no-run-if-empty echo svn rm"
@@ -44,6 +46,7 @@ case "$(distro)" in
     alias yy='yaourt -S --needed --noconfirm'
     alias syu='sudo pacman -Syu'
     alias syua='yaourt -Syua'
+    alias sua='yaourt -Sua'
     alias ql='pacman -Ql'
     ;;
   Ubuntu)
@@ -105,10 +108,9 @@ function newscript {
       else
         echo "Creating: $f"
         echo '#!/bin/bash
-cd "$(dirname "$0")"
-[ -z "$1" ] && echo "Usage: $0 <xxx>" && exit 1
+cd $(dirname $(readlink -e "$0")) || exit 1
+[ $# -ne 1 ] && echo "Usage: $0 <xxx>" && exit 1
 tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
-xxx="$(cd "$(dirname "$0")/xxx" && pwd)"
 ' > "$f" && chmod 755 "$f"
       fi
     done
@@ -128,6 +130,20 @@ function convss {
       fi
   fi
 }
+
+[ -e /opt/java ] && function j_ {
+  export JAVA_HOME=/opt/java
+  export PATH="$JAVA_HOME/bin:$PATH"
+}
+[ -e /opt/java7 ] && function j7 {
+  export JAVA_HOME=/opt/java7
+  export PATH="$JAVA_HOME/bin:$PATH"
+}
+
+if [ -e /usr/bin/vendor_perl/ack ]; then
+  alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules}"
+  alias acks='ack --scala'
+fi
 
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
