@@ -1,22 +1,46 @@
 #!/bin/bash
-function mc { mkdir -p "$1" && cd "$1"; }
+
+function install {
+  url="$1"
+  shift
+  dir=$(echo "$url" | perl -pe 's!^.+/(.+?)(\.git)?$!\1!')
+  run=
+  cd ~/.vim/bundle && \
+    if [ -d "$dir" ]; then
+      echo "$dir: exists"
+    else
+      echo "$dir: installing..."
+      echo
+      $run git clone "$url"
+      [ -n "$1" ] && cd "$dir" && $run "$@"
+      echo
+    fi
+}
 
 #echo ' *customization: -color
 #XTerm*termName:  xterm-256color ' > ~/.Xdefaults
 
 #curl -O http://scie.nti.st/dist/256colors2.pl && chmod 777 256colors2.pl && ./256colors2.pl; tput colors
 
-mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -so ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim; echo
-cd ~/.vim/bundle && [ ! -d vim-rails ] && (git clone git://github.com/tpope/vim-rails.git; echo)
-cd ~/.vim/bundle && [ ! -d csapprox ] && (git clone git://github.com/godlygeek/csapprox.git; echo)
-cd ~/.vim/bundle && [ ! -d vim-colors-solarized ] && (git clone git://github.com/altercation/vim-colors-solarized.git; echo)
-cd ~/.vim/bundle && [ ! -d vim-markdown ] && (git clone git://github.com/tpope/vim-markdown.git; echo)
-cd ~/.vim/bundle && [ ! -d textile.vim ] && (git clone git://github.com/timcharper/textile.vim.git; echo)
-cd ~/.vim/bundle && [ ! -d ScrollColors ] && (git clone git://github.com/vim-scripts/ScrollColors.git; echo)
-cd ~/.vim/bundle && [ ! -d plantuml-syntax ] && (git clone git://github.com/aklt/plantuml-syntax.git; echo)
-cd ~/.vim/bundle && [ ! -d vim-colorschemes ] && (git clone git://github.com/flazz/vim-colorschemes.git; echo)
-cd ~/.vim/bundle && [ ! -d vim-scala ] && (git clone git://github.com/derekwyatt/vim-scala.git; echo)
-cd ~/.vim/bundle && [ ! -d vim-javascript ] && (git clone https://github.com/pangloss/vim-javascript.git; echo)
-cd ~/.vim/bundle && [ ! -d vim-json ] && (git clone https://github.com/elzr/vim-json.git; echo)
-# mc ~/.vim/bundle/csapprox/ && curl -o tmp http://www.vim.org/scripts/download_script.php?src_id=10336 && unzip tmp && rm tmp; echo
+mkdir -p ~/.vim/autoload ~/.vim/bundle \
+  && curl -so ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
+echo
+
+install https://github.com/tpope/vim-rails.git
+install https://github.com/godlygeek/csapprox.git
+install https://github.com/altercation/vim-colors-solarized.git
+install https://github.com/tpope/vim-markdown.git
+install https://github.com/timcharper/textile.vim.git
+install https://github.com/vim-scripts/ScrollColors.git
+install https://github.com/aklt/plantuml-syntax.git
+install https://github.com/flazz/vim-colorschemes.git
+install https://github.com/derekwyatt/vim-scala.git
+install https://github.com/pangloss/vim-javascript.git
+install https://github.com/elzr/vim-json.git
+
+# Haskell
+install https://github.com/scrooloose/syntastic.git
+install https://github.com/Shougo/vimproc.vim.git   make
+install https://github.com/eagletmt/ghcmod-vim
+install https://github.com/bitc/vim-hdevtools.git
 
