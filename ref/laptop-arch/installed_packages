@@ -6,6 +6,7 @@ ack
 acl
 acpi
 acroread
+akonadi
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -33,6 +34,7 @@ automake
 avahi
 awoken-icons
 babl
+baloo
 bash
 bash-completion
 bc
@@ -272,6 +274,7 @@ jasper
 jdk
 jfsutils
 js
+js17
 json-c
 json-glib
 kactivities
@@ -280,10 +283,12 @@ kbproto
 kdebase-runtime
 kdegraphics-mobipocket
 kdelibs
+kdepimlibs
 kdesdk-kcachegrind
 kdiff3
 keepass
 keyutils
+kfilemetadata
 kmod
 krb5
 ladspa
@@ -294,6 +299,7 @@ ldb
 ldns
 leafpad
 less
+libaio
 libarchive
 libass
 libassuan
@@ -321,6 +327,7 @@ libdbus
 libdbusmenu-qt
 libdc1394
 libdca
+libdmtx
 libdmx
 libdrm
 libdv
@@ -366,6 +373,7 @@ liblqr
 liblrdf
 libltdl
 libmad
+libmariadbclient
 libmatroska
 libmbim
 libmm-glib
@@ -427,6 +435,7 @@ libsrtp
 libssh
 libssh2
 libstdc++5
+libsystemd
 libtar
 libtasn1
 libthai
@@ -444,7 +453,9 @@ libunrar
 libupnp
 libusb
 libusb-compat
+libusbmuxd
 libutempter
+libutil-linux
 libva
 libvdpau
 libvisio
@@ -501,6 +512,7 @@ licenses
 linux
 linux-api-headers
 linux-firmware
+linux-headers
 lirc-utils
 llvm-libs
 lm_sensors
@@ -520,6 +532,8 @@ m4
 make
 man-db
 man-pages
+mariadb
+mariadb-clients
 maven
 mcpp
 mdadm
@@ -606,8 +620,9 @@ perl-xml-parser
 perl-xml-simple
 pgadmin3
 phantomjs
-phonon-gstreamer
 phonon-qt4
+phonon-qt4-gstreamer
+phonon-qt5-gstreamer
 pidgin
 pidgin-encryption
 pidgin-libnotify
@@ -632,6 +647,7 @@ postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
 ppp
+prison
 procps-ng
 profont
 protobuf
@@ -692,7 +708,11 @@ qca
 qca-ossl
 qjson
 qpdf
+qrencode
 qt4
+qt5-base
+qt5-script
+qtchooser
 qtwebkit
 randrproto
 raptor
@@ -722,7 +742,6 @@ serf
 setconf
 sg3_utils
 shadow
-shared-color-profiles
 shared-desktop-ontologies
 shared-mime-info
 sip
@@ -747,6 +766,7 @@ sublime-text
 subversion
 sudo
 swi-prolog
+swig
 swt
 sysfsutils
 syslinux
@@ -824,10 +844,14 @@ wireless_tools
 wpa_supplicant
 wxgtk2.8
 x264
+x265
+xapian-core
 xbitmaps
 xcb-proto
 xcb-util
+xcb-util-image
 xcb-util-keysyms
+xcb-util-wm
 xdg-utils
 xextproto
 xf86-input-evdev
