@@ -464,6 +464,7 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
+libcdr
 libcl
 libcompizconfig
 libcroco
@@ -540,6 +541,7 @@ libmpc
 libmpcdec
 libmpd
 libmpeg2
+libmspub
 libmtp
 libnautilus-extension
 libnewt
