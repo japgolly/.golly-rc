@@ -31,6 +31,7 @@ attr
 audit
 autoconf
 automake
+automoc4
 avahi
 awoken-icons
 babl
@@ -62,6 +63,7 @@ chmlib
 chromaprint
 cifs-utils
 clementine
+cloc
 cloog
 clucene
 cmake
@@ -105,6 +107,7 @@ dos2unix
 dosfstools
 dotconf
 downgrade
+doxygen
 dropbox
 e2fsprogs
 ebook-tools
@@ -317,6 +320,7 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
+libcdr
 libcl
 libcompizconfig
 libcroco
@@ -385,6 +389,7 @@ libmpc
 libmpcdec
 libmpd
 libmpeg2
+libmspub
 libmtp
 libmygpo-qt
 libnautilus-extension
@@ -765,7 +770,6 @@ strigi
 sublime-text
 subversion
 sudo
-swi-prolog
 swig
 swt
 sysfsutils
@@ -783,6 +787,7 @@ tevent
 texinfo
 thunar
 thunderbird
+tmux
 traceroute
 tree
 ttf-adobe-fonts
