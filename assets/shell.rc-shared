@@ -5,6 +5,11 @@ export PAGER=less
 export GREP_OPTIONS='--color=auto'
 export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
 
+# Unicodeness. Get an .XCompose & add to .xinitrc: setxkbmap -option "compose:caps"
+export XKBOPTIONS="compose:caps"
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
+
 alias rm='rm -i' # like a child :(
 alias ls='ls --color=auto'
 alias la='ls -la'
@@ -31,6 +36,7 @@ alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --ve
 alias scr='clear && scala -language:_'
 alias diffu='colordiff -u'
 alias gca='git commit --amend'
+alias ww='google-chrome-stable --incognito'
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"

@@ -80,7 +80,7 @@ else
 	au filetype dot                       colorscheme pablo | CSApprox
 	au filetype diff                      colorscheme jellybeans | CSApprox
 	au filetype xml                       colorscheme leo | CSApprox
-	au filetype haskell                   colorscheme mrkn256 | CSApprox
+	au filetype haskell                   colorscheme ingretu | CSApprox
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -128,7 +128,11 @@ imap <F4> <C-O><F4>
 " F5 toggles search highlighting
 nmap <F5> :set hlsearch!<BAR>:set hlsearch?<CR>
 imap <F5> <C-O><F5>
-vmap <F5> :
+
+" F8 toggles Syntastic's warning & error checking
+" let g:syntastic_auto_loc_list=1
+nmap <F8> :SyntasticToggleMode<CR>
+imap <F8> <C-O><F8>
 
 " F12 removes trailing whitespace
 map  <F12> :perldo s/\s+$//<CR>
@@ -281,3 +285,10 @@ au filetype plantuml nmap ,gP :w<CR>:!rm -f %.png && cat % \| plantuml -p -nbthr
 " Scripts
 au filetype ruby,sh nmap <silent> e :w<CR>:!./%<CR>
 au filetype ruby,sh imap <silent> e <Esc>ea
+
+"-----------------------------------------------------------------
+" Haskell
+let g:syntastic_haskell_ghc_mod_args = '-g -fno-warn-missing-signatures'
+au FileType haskell nnoremap <buffer> ,ht :HdevtoolsType<CR>
+au FileType haskell nnoremap <buffer> <silent> ,hc :HdevtoolsClear<CR>
+au FileType haskell nnoremap <buffer> <silent> ,hi :HdevtoolsInfo<CR>
