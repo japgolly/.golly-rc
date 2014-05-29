@@ -146,6 +146,8 @@ function convss {
   export PATH="$JAVA_HOME/bin:$PATH"
 }
 
+[ -e ~/.XCompose ] && function fkey { fgrep "$@" ~/.XCompose }
+
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules}"
   alias acks='ack --scala'
