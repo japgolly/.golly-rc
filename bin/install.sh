@@ -8,13 +8,14 @@ fi
 # ----------------------------------------------------------------------------------------------------------------------
 
 old_dir="$(pwd)"
-cd "$(dirname $0)/../assets/" && ASSETS="$(pwd)" && cd "$old_dir"
+cd "$(dirname "$0")/../assets/." && ASSETS="$(pwd)" && cd "$old_dir"
 [ ! -e "$ASSETS" ] && echo "Failed to determine asset directory." && exit 2
 
 function link {
-  printf "Symlink: %s ... " "$1"
+  t="$2"; [ -z "$t" ] && t="$1"
+  printf "Symlink: %s <- %s ... " "$1" "$t"
   s="$HOME/$1"
-  t="$ASSETS/$1"
+  t="$ASSETS/$t"
   [ ! -e "$t" ] && echo -e "aborting\nAsset not found: $t" && exit 3
 
   if [ ! -e "$s" ]; then
@@ -57,3 +58,5 @@ link .vimrc
 source_script .bashrc shell.rc-bash
 source_script .zshrc shell.rc-zsh
 
+link .XCompose XCompose
+link .Xcompose XCompose
