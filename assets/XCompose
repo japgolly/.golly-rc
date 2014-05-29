@@ -98,6 +98,10 @@ include "%L"
 <Multi_key> <Up> <minus>                                         : "⇡" U21E1 # UPWARDS DASHED ARROW
 <Multi_key> <Right> <minus>                                      : "⇢" U21E2 # RIGHTWARDS DASHED ARROW
 <Multi_key> <Down> <minus>                                       : "⇣" U21E3 # DOWNWARDS DASHED ARROW
+<Multi_key> <bar> <left>                                         : "↤" U21A4 # LEFTWARDS ARROW FROM BAR
+<Multi_key> <bar> <right>                                        : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
+<Multi_key> <minus> <up>                                         : "↥" U21A5 # UPWARDS ARROW FROM BAR
+<Multi_key> <minus> <down>                                       : "↧" U21A7 # DOWNWARDS ARROW FROM BAR
 
 # Arrow keys don't always work: some apps trap them for cursor control and
 # other boring things.  The arrow symbols have alternate keystrokes.  Do
