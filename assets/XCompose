@@ -1,6 +1,7 @@
 # for Emacs: -*- coding: utf-8 -*-
 include "%L"
 
+# Arrows
 <Multi_key> <minus> <less>                                       : "←" leftarrow # LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>                                : "↑" uparrow # UPWARDS ARROW
 <Multi_key> <minus> <greater>                                    : "→" rightarrow # RIGHTWARDS ARROW
@@ -29,8 +30,8 @@ include "%L"
 <Multi_key> <Down> <minus>                                       : "⇣" U21E3 # DOWNWARDS DASHED ARROW
 <Multi_key> <bar> <left>                                         : "↤" U21A4 # LEFTWARDS ARROW FROM BAR
 <Multi_key> <bar> <right>                                        : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
-<Multi_key> <minus> <up>                                         : "↥" U21A5 # UPWARDS ARROW FROM BAR
-<Multi_key> <minus> <down>                                       : "↧" U21A7 # DOWNWARDS ARROW FROM BAR
+<Multi_key> <bar> <up>                                           : "↥" U21A5 # UPWARDS ARROW FROM BAR
+<Multi_key> <bar> <down>                                         : "↧" U21A7 # DOWNWARDS ARROW FROM BAR
 <Multi_key> <equal> <greater>                                    : "⇒" U21D2 # RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <less>                                       : "⇐" U21D0 # LEFTWARDS DOUBLE ARROW
 <Multi_key> <less> <minus> <equal> <greater>                     : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW
@@ -42,6 +43,48 @@ include "%L"
 <Multi_key> <equal> <Down> <Down>                                : "⇓" U21D3 # DOWNWARDS DOUBLE ARROW
 <Multi_key> <equal> <Up> <Down>                                  : "⇕" U21D5 # UP DOWN DOUBLE ARROW
 <Multi_key> <equal> <Down> <Left>                                : "⏎" U23CE # RETURN SYMBOL
+
+# Subscript
+<Multi_key> <0> <down>                                           : "₀" U2080 # SUBSCRIPT ZERO
+<Multi_key> <1> <down>                                           : "₁" U2081 # SUBSCRIPT ONE
+<Multi_key> <2> <down>                                           : "₂" U2082 # SUBSCRIPT TWO
+<Multi_key> <3> <down>                                           : "₃" U2083 # SUBSCRIPT THREE
+<Multi_key> <4> <down>                                           : "₄" U2084 # SUBSCRIPT FOUR
+<Multi_key> <5> <down>                                           : "₅" U2085 # SUBSCRIPT FIVE
+<Multi_key> <6> <down>                                           : "₆" U2086 # SUBSCRIPT SIX
+<Multi_key> <7> <down>                                           : "₇" U2087 # SUBSCRIPT SEVEN
+<Multi_key> <8> <down>                                           : "₈" U2088 # SUBSCRIPT EIGHT
+<Multi_key> <9> <down>                                           : "₉" U2089 # SUBSCRIPT NINE
+<Multi_key> <i> <down>                                           : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
+<Multi_key> <j> <down>                                           : "ⱼ" U2C7C # LATIN SUBSCRIPT SMALL LETTER J
+<Multi_key> <k> <down>                                           : "ₖ" U2096 # LATIN SUBSCRIPT SMALL LETTER K
+<Multi_key> <m> <down>                                           : "ₘ" U2098 # LATIN SUBSCRIPT SMALL LETTER M
+<Multi_key> <n> <down>                                           : "ₙ" U2099 # SUBSCRIPT LATIN SMALL LETTER N
+<Multi_key> <o> <down>                                           : "ₒ" U2092 # LATIN SUBSCRIPT SMALL LETTER O
+<Multi_key> <x> <down>                                           : "ₓ" U2093 # LATIN SUBSCRIPT SMALL LETTER X
+<Multi_key> <plus> <down>                                        : "₊" U208A # SUBSCRIPT PLUS
+<Multi_key> <minus> <down>                                       : "₋" U208B # SUBSCRIPT MINUS
+
+# Superscript
+<Multi_key> <0> <up>                                             : "⁰" U2070 # SUPERSCRIPT ZERO
+<Multi_key> <1> <up>                                             : "¹" U00B9 # SUPERSCRIPT ONE
+<Multi_key> <2> <up>                                             : "²" U00B2 # SUPERSCRIPT TWO
+<Multi_key> <3> <up>                                             : "³" U00B3 # SUPERSCRIPT THREE
+<Multi_key> <4> <up>                                             : "⁴" U2074 # SUPERSCRIPT FOUR
+<Multi_key> <5> <up>                                             : "⁵" U2075 # SUPERSCRIPT FIVE
+<Multi_key> <6> <up>                                             : "⁶" U2076 # SUPERSCRIPT SIX
+<Multi_key> <7> <up>                                             : "⁷" U2077 # SUPERSCRIPT SEVEN
+<Multi_key> <8> <up>                                             : "⁸" U2078 # SUPERSCRIPT EIGHT
+<Multi_key> <9> <up>                                             : "⁹" U2079 # SUPERSCRIPT NINE
+<Multi_key> <h> <up>                                             : "ʰ" U02B0 # SUPERSCRIPT H
+<Multi_key> <i> <up>                                             : "ⁱ" U2071 # SUPERSCRIPT I
+<Multi_key> <j> <up>                                             : "ʲ" U02B2 # SUPERSCRIPT J
+<Multi_key> <n> <up>                                             : "ⁿ" U207F # SUPERSCRIPT LATIN SMALL LETTER N
+<Multi_key> <r> <up>                                             : "ʳ" U02B3 # SUPERSCRIPT R
+<Multi_key> <w> <up>                                             : "ʷ" U02B7 # SUPERSCRIPT W
+<Multi_key> <y> <up>                                             : "ʸ" U02B8 # SUPERSCRIPT Y
+<Multi_key> <plus> <up>                                          : "⁺" U207A # SUPERSCRIPT PLUS
+<Multi_key> <minus> <up>                                         : "⁻" U207B # SUPERSCRIPT MINUS
 
 # Set theory
 <Multi_key> <braceleft> <U>                                      : "∪" U222A # UNION
@@ -185,20 +228,6 @@ include "%L"
 <Multi_key> <underscore> <bar> <underscore>                      : "⊥" U22A5 # UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>                                      : "⁄" U2044 # FRACTION SLASH
-
-# The system file gives us subscript numbers, plus/minus, and parens.  But
-# there are letters missing.  It would be nice to have at least a few of them.
-<Multi_key> <underscore> <i>                                     : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
-<Multi_key> <underscore> <o>                                     : "ₒ" U2092 # LATIN SUBSCRIPT SMALL LETTER O
-<Multi_key> <underscore> <x>                                     : "ₓ" U2093 # LATIN SUBSCRIPT SMALL LETTER X
-<Multi_key> <underscore> <j>                                     : "ⱼ" U2C7C # LATIN SUBSCRIPT SMALL LETTER J
-# Awaiting common font support for these...
-<Multi_key> <underscore> <k>                                     : "ₖ" U2096 # LATIN SUBSCRIPT SMALL LETTER K
-<Multi_key> <underscore> <m>                                     : "ₘ" U2098 # LATIN SUBSCRIPT SMALL LETTER M
-<Multi_key> <underscore> <n>                                     : "ₙ" U2099 # LATIN SUBSCRIPT SMALL LETTER N
-<Multi_key> <underscore> <minus>                                 : "₋" U208B # SUBSCRIPT MINUS
-<Multi_key> <underscore> <plus>                                  : "₊" U208A # SUBSCRIPT PLUS
-
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
 # input method.  Aristotle Pagaltzis informs me that this is the
@@ -536,20 +565,6 @@ include "%L"
 <Multi_key> <asterisk> <parenright>                              : "﴿" UFD3F # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                                              : "ʘ" U0298 # LATIN LETTER BILABIAL CLICK (kiss sound)
 <Multi_key> <bar> <greater>                                      : "‣" U2023 # TRIANGULAR BULLET
-#SUPERSCRIPTS:
-#To avoid namespace clashes, <asciicircum> is doubled (will I regret that?)
-<Multi_key> <asciicircum> <asciicircum> <h>                      : "ʰ" U02B0 # SUPERSCRIPT H
-<Multi_key> <asciicircum> <asciicircum> <i>                      : "ⁱ" U2071 # SUPERSCRIPT I
-<Multi_key> <asciicircum> <asciicircum> <j>                      : "ʲ" U02B2 # SUPERSCRIPT J
-<Multi_key> <asciicircum> <asciicircum> <n>                      : "ⁿ" U207F # SUPERSCRIPT N
-<Multi_key> <asciicircum> <asciicircum> <r>                      : "ʳ" U02B3 # SUPERSCRIPT R
-<Multi_key> <asciicircum> <asciicircum> <w>                      : "ʷ" U02B7 # SUPERSCRIPT W
-<Multi_key> <asciicircum> <asciicircum> <y>                      : "ʸ" U02B8 # SUPERSCRIPT Y
-#Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
-<Multi_key> <asciicircum> <question> <period>                    : "ˀ" U02C0 # MODIFIER LETTER GLOTTAL STOP
-<Multi_key> <asciicircum> <question> <parenleft>                 : "ˁ" U02C1 # MODIFIER LETTER REVERSED GLOTTAL STOP
-<Multi_key> <asciicircum> <minus>                                : "⁻" U207B # SUPERSCRIPT MINUS
-<Multi_key> <asciicircum> <plus>                                 : "⁺" U207A # SUPERSCRIPT PLUS
 
 <Multi_key> <asciitilde> <asciitilde>                            : "≈" U2248 # ALMOST EQUAL TO
 <Multi_key> <s> <h>                                              : "ʃ" U0283 # LATIN SMALL LETTER ESH
