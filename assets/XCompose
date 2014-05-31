@@ -1,6 +1,3 @@
-# for Emacs: -*- coding: utf-8 -*-
-include "%L"
-
 # Arrows
 <Multi_key> <minus> <less>                                       : "←" leftarrow # LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>                                : "↑" uparrow # UPWARDS ARROW
@@ -28,10 +25,10 @@ include "%L"
 <Multi_key> <Up> <minus>                                         : "⇡" U21E1 # UPWARDS DASHED ARROW
 <Multi_key> <Right> <minus>                                      : "⇢" U21E2 # RIGHTWARDS DASHED ARROW
 <Multi_key> <Down> <minus>                                       : "⇣" U21E3 # DOWNWARDS DASHED ARROW
-<Multi_key> <bar> <left>                                         : "↤" U21A4 # LEFTWARDS ARROW FROM BAR
-<Multi_key> <bar> <right>                                        : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
-<Multi_key> <bar> <up>                                           : "↥" U21A5 # UPWARDS ARROW FROM BAR
-<Multi_key> <bar> <down>                                         : "↧" U21A7 # DOWNWARDS ARROW FROM BAR
+<Multi_key> <bar> <Left>                                         : "↤" U21A4 # LEFTWARDS ARROW FROM BAR
+<Multi_key> <bar> <Right>                                        : "↦" U21A6 # RIGHTWARDS ARROW FROM BAR
+<Multi_key> <bar> <Up>                                           : "↥" U21A5 # UPWARDS ARROW FROM BAR
+<Multi_key> <bar> <Down>                                         : "↧" U21A7 # DOWNWARDS ARROW FROM BAR
 <Multi_key> <equal> <greater>                                    : "⇒" U21D2 # RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <less>                                       : "⇐" U21D0 # LEFTWARDS DOUBLE ARROW
 <Multi_key> <less> <minus> <equal> <greater>                     : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW
@@ -45,46 +42,46 @@ include "%L"
 <Multi_key> <equal> <Down> <Left>                                : "⏎" U23CE # RETURN SYMBOL
 
 # Subscript
-<Multi_key> <0> <down>                                           : "₀" U2080 # SUBSCRIPT ZERO
-<Multi_key> <1> <down>                                           : "₁" U2081 # SUBSCRIPT ONE
-<Multi_key> <2> <down>                                           : "₂" U2082 # SUBSCRIPT TWO
-<Multi_key> <3> <down>                                           : "₃" U2083 # SUBSCRIPT THREE
-<Multi_key> <4> <down>                                           : "₄" U2084 # SUBSCRIPT FOUR
-<Multi_key> <5> <down>                                           : "₅" U2085 # SUBSCRIPT FIVE
-<Multi_key> <6> <down>                                           : "₆" U2086 # SUBSCRIPT SIX
-<Multi_key> <7> <down>                                           : "₇" U2087 # SUBSCRIPT SEVEN
-<Multi_key> <8> <down>                                           : "₈" U2088 # SUBSCRIPT EIGHT
-<Multi_key> <9> <down>                                           : "₉" U2089 # SUBSCRIPT NINE
-<Multi_key> <i> <down>                                           : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
-<Multi_key> <j> <down>                                           : "ⱼ" U2C7C # LATIN SUBSCRIPT SMALL LETTER J
-<Multi_key> <k> <down>                                           : "ₖ" U2096 # LATIN SUBSCRIPT SMALL LETTER K
-<Multi_key> <m> <down>                                           : "ₘ" U2098 # LATIN SUBSCRIPT SMALL LETTER M
-<Multi_key> <n> <down>                                           : "ₙ" U2099 # SUBSCRIPT LATIN SMALL LETTER N
-<Multi_key> <o> <down>                                           : "ₒ" U2092 # LATIN SUBSCRIPT SMALL LETTER O
-<Multi_key> <x> <down>                                           : "ₓ" U2093 # LATIN SUBSCRIPT SMALL LETTER X
-<Multi_key> <plus> <down>                                        : "₊" U208A # SUBSCRIPT PLUS
-<Multi_key> <minus> <down>                                       : "₋" U208B # SUBSCRIPT MINUS
+<Multi_key> <0> <Down>                                           : "₀" U2080 # SUBSCRIPT ZERO
+<Multi_key> <1> <Down>                                           : "₁" U2081 # SUBSCRIPT ONE
+<Multi_key> <2> <Down>                                           : "₂" U2082 # SUBSCRIPT TWO
+<Multi_key> <3> <Down>                                           : "₃" U2083 # SUBSCRIPT THREE
+<Multi_key> <4> <Down>                                           : "₄" U2084 # SUBSCRIPT FOUR
+<Multi_key> <5> <Down>                                           : "₅" U2085 # SUBSCRIPT FIVE
+<Multi_key> <6> <Down>                                           : "₆" U2086 # SUBSCRIPT SIX
+<Multi_key> <7> <Down>                                           : "₇" U2087 # SUBSCRIPT SEVEN
+<Multi_key> <8> <Down>                                           : "₈" U2088 # SUBSCRIPT EIGHT
+<Multi_key> <9> <Down>                                           : "₉" U2089 # SUBSCRIPT NINE
+<Multi_key> <i> <Down>                                           : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
+<Multi_key> <j> <Down>                                           : "ⱼ" U2C7C # LATIN SUBSCRIPT SMALL LETTER J
+<Multi_key> <k> <Down>                                           : "ₖ" U2096 # LATIN SUBSCRIPT SMALL LETTER K
+<Multi_key> <m> <Down>                                           : "ₘ" U2098 # LATIN SUBSCRIPT SMALL LETTER M
+<Multi_key> <n> <Down>                                           : "ₙ" U2099 # SUBSCRIPT LATIN SMALL LETTER N
+<Multi_key> <o> <Down>                                           : "ₒ" U2092 # LATIN SUBSCRIPT SMALL LETTER O
+<Multi_key> <x> <Down>                                           : "ₓ" U2093 # LATIN SUBSCRIPT SMALL LETTER X
+<Multi_key> <plus> <Down>                                        : "₊" U208A # SUBSCRIPT PLUS
+<Multi_key> <minus> <Down>                                       : "₋" U208B # SUBSCRIPT MINUS
 
 # Superscript
-<Multi_key> <0> <up>                                             : "⁰" U2070 # SUPERSCRIPT ZERO
-<Multi_key> <1> <up>                                             : "¹" U00B9 # SUPERSCRIPT ONE
-<Multi_key> <2> <up>                                             : "²" U00B2 # SUPERSCRIPT TWO
-<Multi_key> <3> <up>                                             : "³" U00B3 # SUPERSCRIPT THREE
-<Multi_key> <4> <up>                                             : "⁴" U2074 # SUPERSCRIPT FOUR
-<Multi_key> <5> <up>                                             : "⁵" U2075 # SUPERSCRIPT FIVE
-<Multi_key> <6> <up>                                             : "⁶" U2076 # SUPERSCRIPT SIX
-<Multi_key> <7> <up>                                             : "⁷" U2077 # SUPERSCRIPT SEVEN
-<Multi_key> <8> <up>                                             : "⁸" U2078 # SUPERSCRIPT EIGHT
-<Multi_key> <9> <up>                                             : "⁹" U2079 # SUPERSCRIPT NINE
-<Multi_key> <h> <up>                                             : "ʰ" U02B0 # SUPERSCRIPT H
-<Multi_key> <i> <up>                                             : "ⁱ" U2071 # SUPERSCRIPT I
-<Multi_key> <j> <up>                                             : "ʲ" U02B2 # SUPERSCRIPT J
-<Multi_key> <n> <up>                                             : "ⁿ" U207F # SUPERSCRIPT LATIN SMALL LETTER N
-<Multi_key> <r> <up>                                             : "ʳ" U02B3 # SUPERSCRIPT R
-<Multi_key> <w> <up>                                             : "ʷ" U02B7 # SUPERSCRIPT W
-<Multi_key> <y> <up>                                             : "ʸ" U02B8 # SUPERSCRIPT Y
-<Multi_key> <plus> <up>                                          : "⁺" U207A # SUPERSCRIPT PLUS
-<Multi_key> <minus> <up>                                         : "⁻" U207B # SUPERSCRIPT MINUS
+<Multi_key> <0> <Up>                                             : "⁰" U2070 # SUPERSCRIPT ZERO
+<Multi_key> <1> <Up>                                             : "¹" U00B9 # SUPERSCRIPT ONE
+<Multi_key> <2> <Up>                                             : "²" U00B2 # SUPERSCRIPT TWO
+<Multi_key> <3> <Up>                                             : "³" U00B3 # SUPERSCRIPT THREE
+<Multi_key> <4> <Up>                                             : "⁴" U2074 # SUPERSCRIPT FOUR
+<Multi_key> <5> <Up>                                             : "⁵" U2075 # SUPERSCRIPT FIVE
+<Multi_key> <6> <Up>                                             : "⁶" U2076 # SUPERSCRIPT SIX
+<Multi_key> <7> <Up>                                             : "⁷" U2077 # SUPERSCRIPT SEVEN
+<Multi_key> <8> <Up>                                             : "⁸" U2078 # SUPERSCRIPT EIGHT
+<Multi_key> <9> <Up>                                             : "⁹" U2079 # SUPERSCRIPT NINE
+<Multi_key> <h> <Up>                                             : "ʰ" U02B0 # SUPERSCRIPT H
+<Multi_key> <i> <Up>                                             : "ⁱ" U2071 # SUPERSCRIPT I
+<Multi_key> <j> <Up>                                             : "ʲ" U02B2 # SUPERSCRIPT J
+<Multi_key> <n> <Up>                                             : "ⁿ" U207F # SUPERSCRIPT LATIN SMALL LETTER N
+<Multi_key> <r> <Up>                                             : "ʳ" U02B3 # SUPERSCRIPT R
+<Multi_key> <w> <Up>                                             : "ʷ" U02B7 # SUPERSCRIPT W
+<Multi_key> <y> <Up>                                             : "ʸ" U02B8 # SUPERSCRIPT Y
+<Multi_key> <plus> <Up>                                          : "⁺" U207A # SUPERSCRIPT PLUS
+<Multi_key> <minus> <Up>                                         : "⁻" U207B # SUPERSCRIPT MINUS
 
 # Set theory
 <Multi_key> <braceleft> <U>                                      : "∪" U222A # UNION
