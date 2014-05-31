@@ -40,6 +40,12 @@
 <Multi_key> <equal> <Down> <Down>                                : "⇓" U21D3 # DOWNWARDS DOUBLE ARROW
 <Multi_key> <equal> <Up> <Down>                                  : "⇕" U21D5 # UP DOWN DOUBLE ARROW
 <Multi_key> <equal> <Down> <Left>                                : "⏎" U23CE # RETURN SYMBOL
+<Multi_key> <slash> <Left>                                       : "↚" U219A # LEFTWARDS ARROW WITH STROKE
+<Multi_key> <slash> <minus> <Left>                               : "↚" U219A # LEFTWARDS ARROW WITH STROKE
+<Multi_key> <slash> <Right>                                      : "↛" U219B # RIGHTWARDS ARROW WITH STROKE
+<Multi_key> <slash> <minus> <Right>                              : "↛" U219B # RIGHTWARDS ARROW WITH STROKE
+<Multi_key> <equal> <slash> <Left>                               : "⇍" U21CD # LEFTWARDS DOUBLE ARROW WITH STROKE
+<Multi_key> <equal> <slash> <Right>                              : "⇏" U21CF # RIGHTWARDS DOUBLE ARROW WITH STROKE
 
 # Subscript
 <Multi_key> <0> <Down>                                           : "₀" U2080 # SUBSCRIPT ZERO
@@ -221,10 +227,10 @@
 <Multi_key> <bracketright> <bracketright>                        : "⊐" U2290 # SQUARE ORIGINAL OF
 <Multi_key> <bracketright> <equal>                               : "⊒" U2292 # SQUARE ORIGINAL OF OR EQUAL TO
 <Multi_key> <bracketright> <underscore>                          : "⊒" U2292 # SQUARE ORIGINAL OF OR EQUAL TO
-# If I did more Haskell, I'd want this more:
-<Multi_key> <underscore> <bar> <underscore>                      : "⊥" U22A5 # UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
-# Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>                                      : "⁄" U2044 # FRACTION SLASH
+<Multi_key> <asciicircum> <bar> <asciicircum>                    : "⊤" U22A4 # DOWN TACK (TOP)
+<Multi_key> <underscore> <bar> <underscore>                      : "⊥" U22A5 # UP TACK (BOTTOM)
+<Multi_key> <bar> <minus>                                        : "⊢" U22A2 # RIGHT TACK (PROVES)
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
 # input method.  Aristotle Pagaltzis informs me that this is the
