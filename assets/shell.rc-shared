@@ -137,6 +137,13 @@ function convss {
   fi
 }
 
+alias vimkeys='vim ~/.XCompose && fkeyd'
+function fkey { egrep "$@" ~/.XCompose }
+function fkeyd {
+  grep -v '^ *#' ~/.XCompose | fgrep '<Multi_key>' | sed 's/ *:.*//; s/  */ /; s/^ //' | sort | uniq -d | uniq \
+  | sed 's/  */***/g; s/\*\*\*/  */g; s/$/ *:/' | xargs -I{} grep -n {} ~/.XCompose
+}
+
 [ -e /opt/java ] && function j_ {
   export JAVA_HOME=/opt/java
   export PATH="$JAVA_HOME/bin:$PATH"
@@ -145,8 +152,6 @@ function convss {
   export JAVA_HOME=/opt/java7
   export PATH="$JAVA_HOME/bin:$PATH"
 }
-
-[ -e ~/.XCompose ] && function fkey { fgrep "$@" ~/.XCompose }
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules}"
