@@ -11,8 +11,17 @@
 <Multi_key> <Left> <Right>                                       : "↔" U2194 # LEFT RIGHT ARROW (kragen's)
 <Multi_key> <Right> <Left>                                       : "↔" U2194 # LEFT RIGHT ARROW (kragen's)
 <Multi_key> <Up> <Down>                                          : "↕" U2195 # UP DOWN ARROW (kragen's)
+<Multi_key> <less> <backslash>                                   : "↖" U2196 # NORTH WEST ARROW
+<Multi_key> <slash> <greater>                                    : "↗" U2197 # NORTH EAST ARROW
+<Multi_key> <backslash> <greater>                                : "↘" U2198 # SOUTH EAST ARROW
+<Multi_key> <less> <slash>                                       : "↙" U2199 # SOUTH WEST ARROW
+<Multi_key> <Up> <Left>                                          : "↰" U21B0 # UPWARDS ARROW WITH TIP LEFTWARDS
+<Multi_key> <Up> <Right>                                         : "↱" U21B1 # UPWARDS ARROW WITH TIP RIGHTWARDS
+<Multi_key> <Down> <Left>                                        : "↲" U21B2 # DOWNWARDS ARROW WITH TIP LEFTWARDS
+<Multi_key> <Down> <Right>                                       : "↳" U21B3 # DOWNWARDS ARROW WITH TIP RIGHTWARDS
+<Multi_key> <Right> <Down>                                       : "↴" U21B4 # RIGHTWARDS ARROW WITH CORNER DOWNWARDS
+<Multi_key> <minus> <Down> <Left>                                : "↵" U21B5 # DOWNWARDS ARROW WITH CORNER LEFTWARDS
 <Multi_key> <Up> <ampersand> <Down>                              : "⇵" U21F5 # DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW
-<Multi_key> <Down> <Left>                                        : "↵" U21B5 # DOWNWARDS ARROW WITH CORNER LEFTWARDS
 <Multi_key> <Left> <o>                                           : "⟲" U27F2 # ANTICLOCKWISE GAPPED CIRCLE ARROW
 <Multi_key> <Right> <o>                                          : "⟳" U27F3 # CLOCKWISE GAPPED CIRCLE ARROW
 <Multi_key> <Left> <c>                                           : "↺" U21BA # ANTICLOCKWISE OPEN CIRCLE ARROW
