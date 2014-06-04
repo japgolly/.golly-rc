@@ -54,9 +54,10 @@ link .aprc
 link .gitconfig
 link .irbrc
 link .vimrc
+link .tmux.conf
+link .XCompose XCompose
+link .Xcompose XCompose
 
 source_script .bashrc shell.rc-bash
 source_script .zshrc shell.rc-zsh
 
-link .XCompose XCompose
-link .Xcompose XCompose
