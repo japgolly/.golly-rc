@@ -17,8 +17,9 @@ set nohlsearch
 set nocompatible
 set encoding=utf8
 set undodir=~/.vim/undo
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
+set expandtab
 " set cursorline
 
 " from the vim-ruby doco
@@ -53,11 +54,8 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 "
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
-au filetype ruby,yaml,sh,haskell      setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
-au filetype scala                     setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
-au filetype markdown                  setlocal ts=2 sw=2 expandtab textwidth=120 colorcolumn=121
-au filetype dot                       setlocal ts=2 sw=2 expandtab
-au filetype css,scss                  setlocal ts=2 sw=2 expandtab
+au filetype ruby,yaml,sh,haskell,scala setlocal textwidth=120 colorcolumn=121
+au filetype markdown setlocal colorcolumn=81,101,121
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors
