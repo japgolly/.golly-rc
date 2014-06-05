@@ -781,6 +781,7 @@ patch
 pciutils
 pcmciautils
 pcre
+pencil
 perl
 perl-error
 perl-file-next
@@ -917,6 +918,7 @@ rrdtool
 rsync
 rtkit
 rtmpdump
+ruby
 run-parts
 s-nail
 sbc
@@ -987,6 +989,7 @@ tevent
 texinfo
 texlive-bin
 texlive-core
+texworks
 thunar
 tidyhtml
 tmux

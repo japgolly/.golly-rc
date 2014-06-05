@@ -11,6 +11,8 @@
 
 #redshift -l -33.8683:151.2086 &
 
+setxkbmap -option "compose:prsc"
+
 #exec ck-launch-session startxfce4
 exec startxfce4
 
