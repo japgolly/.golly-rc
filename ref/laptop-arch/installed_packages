@@ -61,6 +61,7 @@ cdparanoia
 celt
 chmlib
 chromaprint
+chrpath
 cifs-utils
 clementine
 cloc
@@ -280,7 +281,7 @@ js
 js17
 json-c
 json-glib
-kactivities
+kactivities4
 kbd
 kbproto
 kdebase-runtime
@@ -340,6 +341,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libevdev
 libevent
 libexif
 libffi
@@ -369,6 +371,7 @@ libimobiledevice
 libiodbc
 libirman
 libjpeg-turbo
+libkactivities4
 libkate
 libksba
 liblastfm
@@ -494,6 +497,7 @@ libxft
 libxi
 libxinerama
 libxkbcommon
+libxkbcommon-x11
 libxkbfile
 libxklavier
 libxml2
