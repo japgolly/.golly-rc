@@ -32,6 +32,7 @@ attr
 authbind
 autoconf
 automake
+automoc4
 avahi
 awoken-icons
 babl
@@ -64,6 +65,7 @@ ccsm
 cdparanoia
 celt
 chmlib
+chrpath
 cifs-utils
 clang
 cln
@@ -122,6 +124,7 @@ dos2unix
 dosfstools
 dotconf
 downgrade
+doxygen
 dropbox
 e2fsprogs
 ebook-tools
@@ -314,7 +317,7 @@ js17
 js185
 json-c
 json-glib
-kactivities
+kactivities4
 kbd
 kbproto
 kde-base-artwork
@@ -518,6 +521,7 @@ libinput
 libiodbc
 libirman
 libjpeg-turbo
+libkactivities4
 libkate
 libkfbapi
 libkgapi
@@ -646,6 +650,7 @@ libxft
 libxi
 libxinerama
 libxkbcommon
+libxkbcommon-x11
 libxkbfile
 libxklavier
 libxml++
@@ -858,7 +863,6 @@ python2-beaker
 python2-beautifulsoup3
 python2-cairo
 python2-cherrypy
-python2-crypto
 python2-cssselect
 python2-cssutils
 python2-dateutil
@@ -887,7 +891,6 @@ python2-sip
 python2-six
 python2-sphinx
 python2-xdg
-python2-zope-interface
 qca
 qimageblitz
 qjson
@@ -1011,7 +1014,6 @@ ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
-twisted
 tzdata
 udisks
 udisks2
