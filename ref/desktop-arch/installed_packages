@@ -59,6 +59,7 @@ cairo
 cairo-dock
 cairo-dock-plugins
 cairomm
+caja
 calibre
 cantarell-fonts
 ccsm
@@ -534,6 +535,7 @@ liblrdf
 libltdl
 libmad
 libmariadbclient
+libmatekbd
 libmatroska
 libmikmod
 libmm-glib
@@ -551,6 +553,7 @@ libnautilus-extension
 libnewt
 libnice
 libnl
+libnm-glib
 libnotify
 liboauth
 libodfgen
@@ -632,6 +635,7 @@ libwpd
 libwpg
 libwps
 libx11
+libx264
 libx86emu
 libxau
 libxaw
@@ -698,8 +702,15 @@ m64py
 make
 man-db
 man-pages
+marco
 mariadb
 mariadb-clients
+mate-control-center
+mate-desktop
+mate-dialogs
+mate-icon-theme
+mate-menus
+mate-settings-daemon-gstreamer
 maven
 mcpp
 mdadm
