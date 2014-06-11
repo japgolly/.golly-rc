@@ -625,6 +625,7 @@ patch
 pciutils
 pcmciautils
 pcre
+pencil
 perl
 perl-error
 perl-file-next
