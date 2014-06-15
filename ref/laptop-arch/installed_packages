@@ -195,7 +195,6 @@ gobject-introspection
 google-chrome
 gpart
 gparted
-gperf
 gpgme
 gpm
 gptfdisk
@@ -322,7 +321,6 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
-libcdr
 libcl
 libcompizconfig
 libcroco
@@ -393,7 +391,6 @@ libmpc
 libmpcdec
 libmpd
 libmpeg2
-libmspub
 libmtp
 libmygpo-qt
 libnautilus-extension
@@ -403,7 +400,6 @@ libnl
 libnm-glib
 libnotify
 liboauth
-libodfgen
 libofa
 libogg
 libpaper
@@ -468,7 +464,6 @@ libutempter
 libutil-linux
 libva
 libvdpau
-libvisio
 libvisual
 libvorbis
 libvpx
@@ -477,9 +472,6 @@ libwebp
 libwmf
 libwnck
 libwnck3
-libwpd
-libwpg
-libwps
 libx11
 libx264
 libx86emu
