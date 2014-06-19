@@ -50,6 +50,7 @@ bluez-utils
 boost
 boost-libs
 brother-mfc-j4510dw
+bsdiff
 bzip2
 ca-certificates
 ca-certificates-java
@@ -439,6 +440,7 @@ lib32-openal
 lib32-openssl
 lib32-p11-kit
 lib32-pango
+lib32-pangox-compat
 lib32-pcre
 lib32-pixman
 lib32-readline
@@ -582,6 +584,7 @@ libreoffice-draw
 libreoffice-en-GB
 libreoffice-gnome
 libreoffice-writer
+librevenge
 librpcsecgss
 librsvg
 libsamplerate
