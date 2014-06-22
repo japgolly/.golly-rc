@@ -420,19 +420,14 @@
 <Multi_key> <o> <plus>                                           : "ꙮ" UA66E # CYRILLIC LETTER MULTIOCULAR O * used in the epithet 'many-eyed'
 # While we're doing stacks of circles with dots.
 <Multi_key> <o> <3>                                              : "߷" U07F7 # NKO SYMBOL GBAKURUNEN
-<Multi_key> <exclam> <question>                                  : "‽" U203D # INTERROBANG
-<Multi_key> <question> <exclam>                                  : "‽" U203D # INTERROBANG (in case you can’t remember the order)
-<Multi_key> <questiondown> <exclamdown>                          : "⸘" U2E18 # INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
-<Multi_key> <exclamdown> <questiondown>                          : "⸘" U2E18 # INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
-<Multi_key> <question> <less>                                    : "⸮" U2E2E # REVERSED QUESTION MARK
-<Multi_key> <question> <BackSpace>                               : "⸮" U2E2E # REVERSED QUESTION MARK
-<Multi_key> <question> <ampersand> <question>                    : "⁇" U2047 # DOUBLE QUESTION MARK
-<Multi_key> <2> <question>                                       : "⁇" U2047 # DOUBLE QUESTION MARK
-<Multi_key> <question> <ampersand> <exclam>                      : "⁈" U2048 # QUESTION EXCLAMATION MARK
-<Multi_key> <exclam> <ampersand> <question>                      : "⁉" U2049 # EXCLAMATION QUESTION MARK
-<Multi_key> <exclam> <ampersand> <exclam>                        : "‼" U203C # DOUBLE EXCLAMATION MARK
-<Multi_key> <2> <exclam>                                         : "‼" U203C # DOUBLE EXCLAMATION MARK
-<Multi_key> <2> <colon>                                          : "∷" U2237 # PROPORTION -- not strictly 2 times COLON
+<Multi_key> <question> <Left>                                    : "⸮" U2E2E # REVERSED QUESTION MARK
+<Multi_key> <question> <Down>                                    : "¿" U00BF # INVERTED QUESTION MARK
+<Multi_key> <question> <question>                                : "⁇" U2047 # DOUBLE QUESTION MARK
+<Multi_key> <question> <exclam>                                  : "⁈" U2048 # QUESTION EXCLAMATION MARK
+<Multi_key> <exclam> <question>                                  : "⁉" U2049 # EXCLAMATION QUESTION MARK
+<Multi_key> <exclam> <exclam>                                    : "‼" U203C # DOUBLE EXCLAMATION MARK
+<Multi_key> <exclam> <Down>                                      : "¡" U00A1 # INVERTED EXCLAMATION MARK
+<Multi_key> <colon> <colon>                                      : "∷" U2237 # PROPORTION -- not strictly 2 times COLON
 <Multi_key> <semicolon> <less>                                   : "⁏" U204F # REVERSED SEMICOLON
 <Multi_key> <semicolon> <BackSpace>                              : "⁏" U204F # REVERSED SEMICOLON
 # Keep looking into big hunks of Latin Extended-D, A720- et seq.
