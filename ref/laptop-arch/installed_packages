@@ -161,6 +161,7 @@ gdk-pixbuf2
 gedit
 gegl
 geoclue
+geoclue2
 gettext
 ghc
 ghostscript
@@ -399,6 +400,7 @@ libnautilus-extension
 libnewt
 libnice
 libnl
+libnm-glib
 libnotify
 liboauth
 libodfgen
@@ -479,6 +481,7 @@ libwpd
 libwpg
 libwps
 libx11
+libx264
 libx86emu
 libxau
 libxaw
