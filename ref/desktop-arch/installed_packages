@@ -50,6 +50,7 @@ bluez-utils
 boost
 boost-libs
 brother-mfc-j4510dw
+bsdiff
 bzip2
 ca-certificates
 ca-certificates-java
@@ -59,6 +60,7 @@ cairo
 cairo-dock
 cairo-dock-plugins
 cairomm
+caja
 calibre
 cantarell-fonts
 ccsm
@@ -438,6 +440,7 @@ lib32-openal
 lib32-openssl
 lib32-p11-kit
 lib32-pango
+lib32-pangox-compat
 lib32-pcre
 lib32-pixman
 lib32-readline
@@ -534,6 +537,7 @@ liblrdf
 libltdl
 libmad
 libmariadbclient
+libmatekbd
 libmatroska
 libmikmod
 libmm-glib
@@ -551,6 +555,7 @@ libnautilus-extension
 libnewt
 libnice
 libnl
+libnm-glib
 libnotify
 liboauth
 libodfgen
@@ -579,6 +584,7 @@ libreoffice-draw
 libreoffice-en-GB
 libreoffice-gnome
 libreoffice-writer
+librevenge
 librpcsecgss
 librsvg
 libsamplerate
@@ -632,6 +638,7 @@ libwpd
 libwpg
 libwps
 libx11
+libx264
 libx86emu
 libxau
 libxaw
@@ -698,8 +705,15 @@ m64py
 make
 man-db
 man-pages
+marco
 mariadb
 mariadb-clients
+mate-control-center
+mate-desktop
+mate-dialogs
+mate-icon-theme
+mate-menus
+mate-settings-daemon-gstreamer
 maven
 mcpp
 mdadm
