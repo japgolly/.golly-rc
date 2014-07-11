@@ -143,6 +143,7 @@ flex
 fluidsynth
 fontconfig
 fontsproto
+freeglut
 freetype2
 fribidi
 fuse
@@ -359,6 +360,7 @@ libgpg-error
 libgpod
 libgssglue
 libgtop
+libguess
 libgusb
 libgweather
 libical
@@ -386,6 +388,7 @@ libmm-glib
 libmms
 libmng
 libmodplug
+libmowgli
 libmp4v2
 libmpc
 libmpcdec

@@ -6,4 +6,6 @@
 127.0.0.1	localhost.localdomain	localhost
 ::1		localhost.localdomain	localhost
 
+127.0.0.1	ppsr.gov.au transact-disc.ppsr.gov.au b2g-disc.ppsr.gov.au
+
 # End of file
