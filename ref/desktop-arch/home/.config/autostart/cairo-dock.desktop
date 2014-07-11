@@ -1,11 +1,9 @@
-
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
 Exec=cairo-dock
 Icon=cairo-dock
 Terminal=false
-
 Comment=Cairo-Dock with OpenGL (hardware acceleration)
 Comment[be]=Cairo-Dock з OpenGL (апаратнае паскарэньне)
 Comment[ca]=Cairo-Dock amb OpenGL (acceleració per maquinari)
@@ -29,7 +27,6 @@ Comment[tr]=OpenGL etkin Cairo-Dock (donanım hızlandırması)
 Comment[uk]=Cairo-Dock з OpenGL (hardware acceleration)
 Comment[zh_CN]=使用了 OpenGL(硬件加速) 的 Cario-Dock
 Comment[zh_TW]=使用 OpenGL (硬體加速) 之 Cairo-Dock
-
 Name=GLX-Dock (Cairo-Dock with OpenGL)
 Name[be]=GLX-Dock (панэль Cairo з OpenGL)
 Name[ca]=GLX-Dock (Cairo-Dock amb OpenGL)
@@ -54,8 +51,8 @@ Name[uk]=GLX-Dock (Cairo-Dock з OpenGL)
 Name[vi]=GLX-Dock (Thanh neo Cairo với OpenGL)
 Name[zh_CN]=GLX-Dock (使用 OpenGL 的 Cairo-Dock)
 Name[zh_TW]=GLX-Dock (使用 OpenGL 的 Cairo-Dock)
-
 GenericName=Multi-purpose Dock and Desklets
 GenericName[fr]=Dock et Desklets multi-usage
-
 Categories=System;
+Hidden=true
+
