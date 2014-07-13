@@ -30,6 +30,8 @@
 <Multi_key> <Right> <asciitilde>                                 : "⇝" U21DD # RIGHTWARDS SQUIGGLE ARROW
 <Multi_key> <Left> <bar>                                         : "⇤" U21E4 # LEFTWARDS ARROW TO BAR
 <Multi_key> <Right> <bar>                                        : "⇥" U21E5 # RIGHTWARDS ARROW TO BAR
+<Multi_key> <Up> <bar>                                           : "⤒" U2912 # UPWARDS ARROW TO BAR
+<Multi_key> <Down> <bar>                                         : "⤓" U2913 # DOWNWARDS ARROW TO BAR
 <Multi_key> <Left> <minus>                                       : "⇠" U21E0 # LEFTWARDS DASHED ARROW
 <Multi_key> <Up> <minus>                                         : "⇡" U21E1 # UPWARDS DASHED ARROW
 <Multi_key> <Right> <minus>                                      : "⇢" U21E2 # RIGHTWARDS DASHED ARROW
