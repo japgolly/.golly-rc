@@ -1,15 +1,19 @@
 [Unit]
-Description=RPC GSS-API Client Daemon
-Documentation=man:rpc.gssd(8)
-After=rpcbind.service var-lib-nfs-rpc_pipefs.mount
-Requires=rpcbind.service var-lib-nfs-rpc_pipefs.mount
-Before=nfs-client.target remote-fs-pre.target
-PartOf=nfs-client.target
+Description=RPC security service for NFS client and server
+DefaultDependencies=no
+Conflicts=umount.target
+Requires=var-lib-nfs-rpc_pipefs.mount
+After=var-lib-nfs-rpc_pipefs.mount
+
+ConditionPathExists=/etc/krb5.keytab
+
+PartOf=nfs-utils.service
+
+Wants=nfs-config.service
+After=nfs-config.service
 
 [Service]
-Type=forking
-EnvironmentFile=/etc/conf.d/nfs-common.conf
-ExecStart=/usr/bin/rpc.gssd $GSSD_OPTS
+EnvironmentFile=-/run/sysconfig/nfs-utils
 
-[Install]
-WantedBy=multi-user.target
+Type=forking
+ExecStart=/usr/sbin/rpc.gssd $GSSDARGS
