@@ -838,7 +838,7 @@ pngout
 podofo
 polkit
 polkit-kde
-polkit-qt
+polkit-qt4
 poppler
 poppler-glib
 poppler-qt4
