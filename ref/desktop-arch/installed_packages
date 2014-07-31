@@ -308,6 +308,7 @@ isl
 iso-codes
 itstool
 jack
+jansson
 jasper
 jdk
 jdk6-compat
@@ -496,6 +497,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libepoxy
 libevdev
 libevent
 libexif
@@ -560,10 +562,12 @@ libmpeg2
 libmspub
 libmtp
 libnautilus-extension
+libndp
 libnewt
 libnice
 libnl
 libnm-glib
+libnm-gtk
 libnotify
 liboauth
 libodfgen
@@ -612,6 +616,7 @@ libssh2
 libsystemd
 libtar
 libtasn1
+libteam
 libthai
 libtheora
 libtiff
