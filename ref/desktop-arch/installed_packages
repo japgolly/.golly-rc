@@ -367,6 +367,7 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
+lib32-curl
 lib32-e2fsprogs
 lib32-elfutils
 lib32-expat
@@ -408,6 +409,7 @@ lib32-libpng12
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
+lib32-libssh2
 lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
@@ -458,6 +460,8 @@ lib32-wayland
 lib32-xcb-util
 lib32-xz
 lib32-zlib
+libaccounts-glib
+libaccounts-qt
 libaio
 libarchive
 libass
@@ -984,6 +988,7 @@ shadow
 shared-color-targets
 shared-desktop-ontologies
 shared-mime-info
+signon
 sip
 sk1libs
 skype
@@ -1033,6 +1038,7 @@ texinfo
 texlive-bin
 texlive-core
 texworks
+thin-provisioning-tools
 thunar
 tidyhtml
 tmux
@@ -1181,6 +1187,8 @@ yajl
 yaourt
 zenity
 zip
+zita-alsa-pcmi
+zita-resampler
 zlib
 zopfli-git
 zsh
