@@ -172,7 +172,6 @@ gimp
 git
 git-cola
 gitg
-glamor-egl
 glew
 glib-networking
 glib2
@@ -275,6 +274,7 @@ isl
 iso-codes
 itstool
 jack
+jansson
 jasper
 jdk
 jfsutils
@@ -341,6 +341,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libepoxy
 libevdev
 libevent
 libexif
@@ -397,6 +398,7 @@ libmpeg2
 libmtp
 libmygpo-qt
 libnautilus-extension
+libndp
 libnewt
 libnice
 libnl
@@ -447,6 +449,7 @@ libstdc++5
 libsystemd
 libtar
 libtasn1
+libteam
 libthai
 libtheora
 libtiff
@@ -534,7 +537,6 @@ lua51
 lvm2
 lynx
 lzo
-lzo2
 m4
 make
 man-db
@@ -644,7 +646,7 @@ plantuml
 pngout
 podofo
 polkit
-polkit-qt
+polkit-qt4
 poppler
 poppler-glib
 poppler-qt4
@@ -739,6 +741,7 @@ rsync
 rtmpdump
 run-parts
 s-nail
+sbc
 sbt
 schroedinger
 scrnsaverproto
