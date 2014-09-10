@@ -276,6 +276,7 @@ itstool
 jack
 jansson
 jasper
+java-common
 jdk
 jfsutils
 js
@@ -375,6 +376,7 @@ libirman
 libjpeg-turbo
 libkactivities4
 libkate
+libkeybinder2
 libksba
 liblastfm
 libldap
@@ -423,12 +425,12 @@ libquvi
 libquvi-scripts
 libqzeitgeist
 libraw1394
-libreoffice-calc
-libreoffice-common
-libreoffice-draw
-libreoffice-en-GB
-libreoffice-gnome
-libreoffice-writer
+libreoffice-still-calc
+libreoffice-still-common
+libreoffice-still-draw
+libreoffice-still-en-GB
+libreoffice-still-gnome
+libreoffice-still-writer
 librpcsecgss
 librsvg
 libsamplerate
@@ -626,7 +628,11 @@ pencil
 perl
 perl-error
 perl-file-next
+perl-xml-namespacesupport
 perl-xml-parser
+perl-xml-sax
+perl-xml-sax-base
+perl-xml-sax-expat
 perl-xml-simple
 pgadmin3
 phantomjs
@@ -669,6 +675,7 @@ pygobject-devel
 pygobject2-devel
 pygtk
 pyqt4-common
+pyqt5-common
 pyrex
 python
 python-cairo
@@ -689,6 +696,7 @@ python2-apsw
 python2-beaker
 python2-beautifulsoup3
 python2-cairo
+python2-chardet
 python2-cherrypy
 python2-cssselect
 python2-cssutils
@@ -698,6 +706,7 @@ python2-dnspython
 python2-docutils
 python2-gconf
 python2-gobject2
+python2-html5lib
 python2-jinja
 python2-lxml
 python2-mako
@@ -709,6 +718,7 @@ python2-pillow
 python2-psutil
 python2-pygments
 python2-pyqt4
+python2-pyqt5
 python2-setuptools
 python2-sip
 python2-six
@@ -721,7 +731,13 @@ qpdf
 qrencode
 qt4
 qt5-base
+qt5-declarative
+qt5-location
 qt5-script
+qt5-sensors
+qt5-svg
+qt5-webkit
+qt5-xmlpatterns
 qtchooser
 qtwebkit
 randrproto
@@ -739,6 +755,7 @@ rlwrap
 rpcbind
 rsync
 rtmpdump
+ruby
 run-parts
 s-nail
 sbc
@@ -791,6 +808,7 @@ telepathy-glib
 terminus-font-ttf
 tevent
 texinfo
+thin-provisioning-tools
 thunar
 thunderbird
 tmux
@@ -939,6 +957,8 @@ yajl
 yaourt
 zenity
 zip
+zita-alsa-pcmi
+zita-resampler
 zlib
 zsh
 zsh-completions
