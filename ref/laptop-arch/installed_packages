@@ -35,7 +35,8 @@ automoc4
 avahi
 awoken-icons
 babl
-baloo
+baloo4
+baloo4-akonadi
 bash
 bash-completion
 bc
@@ -313,6 +314,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libbaloo4
 libbluray
 libbsd
 libcaca
