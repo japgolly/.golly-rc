@@ -36,8 +36,9 @@ automoc4
 avahi
 awoken-icons
 babl
-baloo
-baloo-widgets
+baloo4
+baloo4-akonadi
+baloo4-widgets
 baobab
 bash
 bash-completion
@@ -230,7 +231,7 @@ gparted
 gperf
 gpgme
 gpm
-grantlee
+grantlee-qt4
 graphite
 graphviz
 grep
@@ -471,6 +472,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libbaloo4
 libbluray
 libbsd
 libcaca
