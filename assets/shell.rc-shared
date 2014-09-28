@@ -37,6 +37,7 @@ alias scr='clear && scala -language:_'
 alias diffu='colordiff -u'
 alias gca='git commit --amend'
 alias ww='google-chrome-stable --incognito'
+alias WIPE='git wipe; git clean -df'
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
@@ -68,6 +69,7 @@ function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | 
 function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot -Tpng -o"$o" "$1" && xdg-open "$o" 2>/dev/null);}
 function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *$/d'; done }
 function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done }
+function finds { find "$@" -name "*.scala" | sort }
 function kvm_on {
   sudo modprobe -r vboxnetflt
   sudo modprobe -r vboxdrv
