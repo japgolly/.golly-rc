@@ -144,6 +144,24 @@
 <Multi_key> <braceleft> <slash> <braceleft>                      : "∉" U2209 # NOT AN ELEMENT OF
 <Multi_key> <braceleft> <slash> <braceright>                     : "∌" U220C # DOES NOT CONTAIN AS MEMBER
 
+# Fractions
+<Multi_key> <1> <2>                                              : "½" U00BD # VULGAR FRACTION ONE HALF
+<Multi_key> <1> <3>                                              : "⅓" U2153 # VULGAR FRACTION ONE THIRD
+<Multi_key> <2> <3>                                              : "⅔" U2154 # VULGAR FRACTION TWO THIRDS
+<Multi_key> <1> <4>                                              : "¼" U00BC # VULGAR FRACTION ONE QUARTER
+<Multi_key> <3> <4>                                              : "¾" U00BE # VULGAR FRACTION THREE QUARTERS
+<Multi_key> <1> <5>                                              : "⅕" U2155 # VULGAR FRACTION ONE FIFTH
+<Multi_key> <2> <5>                                              : "⅖" U2156 # VULGAR FRACTION TWO FIFTHS
+<Multi_key> <3> <5>                                              : "⅗" U2157 # VULGAR FRACTION THREE FIFTHS
+<Multi_key> <4> <5>                                              : "⅘" U2158 # VULGAR FRACTION FOUR FIFTHS
+<Multi_key> <1> <6>                                              : "⅙" U2159 # VULGAR FRACTION ONE SIXTH
+<Multi_key> <5> <6>                                              : "⅚" U215A # VULGAR FRACTION FIVE SIXTHS
+<Multi_key> <1> <8>                                              : "⅛" U215B # VULGAR FRACTION ONE EIGHTH
+<Multi_key> <3> <8>                                              : "⅜" U215C # VULGAR FRACTION THREE EIGHTHS
+<Multi_key> <5> <8>                                              : "⅝" U215D # VULGAR FRACTION FIVE EIGHTHS
+<Multi_key> <7> <8>                                              : "⅞" U215E # VULGAR FRACTION SEVEN EIGHTHS
+<Multi_key> <1> <slash>                                          : "⅟" U215F # FRACTION NUMERATOR ONE
+
 # Mathematical symbols
 <Multi_key> <exclam> <equal>                                     : "≠" U2260 # NOT EQUAL TO
 <Multi_key> <slash> <equal>                                      : "≠" U2260 # NOT EQUAL TO
@@ -370,21 +388,6 @@
 
 # If you wanted to actually type in Greek, you would also need άίέ
 # etc.  But you would probably just switch to a Greek keyboard layout.
-
-# Custom additions: fractions
-<Multi_key> <1> <3>                                              : "⅓" U2153 # VULGAR FRACTION ONE THIRD
-<Multi_key> <2> <3>                                              : "⅔" U2154 # VULGAR FRACTION TWO THIRDS
-# more extensive fractions from jsled
-<Multi_key> <1> <5>                                              : "⅕" U2155 # VULGAR FRACTION ONE FIFTH
-<Multi_key> <2> <5>                                              : "⅖" U2156 # VULGAR FRACTION TWO FIFTHS
-<Multi_key> <3> <5>                                              : "⅗" U2157 # VULGAR FRACTION THREE FIFTHS
-<Multi_key> <4> <5>                                              : "⅘" U2158 # VULGAR FRACTION FOUR FIFTHS
-<Multi_key> <1> <6>                                              : "⅙" U2159 # VULGAR FRACTION ONE SIXTH
-<Multi_key> <5> <6>                                              : "⅚" U215A # VULGAR FRACTION FIVE SIXTHS
-<Multi_key> <1> <8>                                              : "⅛" U215B # VULGAR FRACTION ONE EIGHTH
-<Multi_key> <3> <8>                                              : "⅜" U215C # VULGAR FRACTION THREE EIGHTHS
-<Multi_key> <5> <8>                                              : "⅝" U215D # VULGAR FRACTION FIVE EIGHTHS
-<Multi_key> <7> <8>                                              : "⅞" U215E # VULGAR FRACTION SEVEN EIGHTHS
 
 # How about roman numerals?  Percent for numerical mnemonic?
 # Does this go against the spirit of this file?  These symbols are accessible
