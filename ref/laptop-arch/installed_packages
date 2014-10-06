@@ -14,7 +14,6 @@ alsa-tools
 alsa-utils
 android-sdk
 android-sdk-platform-tools
-android-udev
 apache-ant
 apr
 apr-util
@@ -269,7 +268,6 @@ imlib2
 inetutils
 inkscape
 inputproto
-intel-dri
 intltool
 iproute2
 iptables
@@ -414,6 +412,7 @@ libnotify
 liboauth
 libofa
 libogg
+libomxil-bellagio
 libpaper
 libpcap
 libpciaccess
@@ -557,6 +556,7 @@ media-player-info
 mercurial
 mesa
 mesa-demos
+mesa-dri
 mesa-libgl
 metacity
 mime-types
