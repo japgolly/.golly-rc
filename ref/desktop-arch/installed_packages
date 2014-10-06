@@ -36,8 +36,9 @@ automoc4
 avahi
 awoken-icons
 babl
-baloo
-baloo-widgets
+baloo4
+baloo4-akonadi
+baloo4-widgets
 baobab
 bash
 bash-completion
@@ -53,7 +54,10 @@ brother-mfc-j4510dw
 bsdiff
 bzip2
 ca-certificates
+ca-certificates-cacert
 ca-certificates-java
+ca-certificates-mozilla
+ca-certificates-utils
 cabal-install
 cabextract
 cairo
@@ -230,7 +234,7 @@ gparted
 gperf
 gpgme
 gpm
-grantlee
+grantlee-qt4
 graphite
 graphviz
 grep
@@ -240,6 +244,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gst-plugins-base
 gst-plugins-base-libs
 gstreamer
 gstreamer0.10
@@ -308,7 +313,9 @@ isl
 iso-codes
 itstool
 jack
+jansson
 jasper
+java-common
 jdk
 jdk6-compat
 jdk7-compat
@@ -365,6 +372,7 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
+lib32-curl
 lib32-e2fsprogs
 lib32-elfutils
 lib32-expat
@@ -385,6 +393,7 @@ lib32-icu
 lib32-json-c
 lib32-keyutils
 lib32-krb5
+lib32-lcms2
 lib32-libasyncns
 lib32-libcap
 lib32-libcups
@@ -397,6 +406,7 @@ lib32-libice
 lib32-libidn
 lib32-libjpeg-turbo
 lib32-libldap
+lib32-libmng
 lib32-libogg
 lib32-libpciaccess
 lib32-libpng
@@ -404,10 +414,10 @@ lib32-libpng12
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
+lib32-libssh2
 lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
-lib32-libvdpau
 lib32-libvorbis
 lib32-libx11
 lib32-libxau
@@ -425,6 +435,7 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
 lib32-libxshmfence
+lib32-libxss
 lib32-libxt
 lib32-libxtst
 lib32-libxv
@@ -443,14 +454,19 @@ lib32-pango
 lib32-pangox-compat
 lib32-pcre
 lib32-pixman
+lib32-qt4
 lib32-readline
 lib32-sdl
+lib32-sqlite
 lib32-systemd
 lib32-util-linux
+lib32-v4l-utils
 lib32-wayland
 lib32-xcb-util
 lib32-xz
 lib32-zlib
+libaccounts-glib
+libaccounts-qt
 libaio
 libarchive
 libass
@@ -459,6 +475,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libbaloo4
 libbluray
 libbsd
 libcaca
@@ -490,6 +507,7 @@ libdvdnav
 libdvdread
 libebml
 libedit
+libepoxy
 libevdev
 libevent
 libexif
@@ -511,6 +529,7 @@ libgnomekbd
 libgpg-error
 libgssglue
 libgtop
+libguess
 libgusb
 libgweather
 libibus
@@ -526,6 +545,7 @@ libirman
 libjpeg-turbo
 libkactivities4
 libkate
+libkeybinder2
 libkfbapi
 libkgapi
 libkolab
@@ -544,6 +564,7 @@ libmm-glib
 libmms
 libmng
 libmodplug
+libmowgli
 libmp4v2
 libmpc
 libmpcdec
@@ -552,10 +573,12 @@ libmpeg2
 libmspub
 libmtp
 libnautilus-extension
+libndp
 libnewt
 libnice
 libnl
 libnm-glib
+libnm-gtk
 libnotify
 liboauth
 libodfgen
@@ -578,12 +601,12 @@ libquvi
 libquvi-scripts
 libqzeitgeist
 libraw1394
-libreoffice-calc
-libreoffice-common
-libreoffice-draw
-libreoffice-en-GB
-libreoffice-gnome
-libreoffice-writer
+libreoffice-still-calc
+libreoffice-still-common
+libreoffice-still-draw
+libreoffice-still-en-GB
+libreoffice-still-gnome
+libreoffice-still-writer
 librevenge
 librpcsecgss
 librsvg
@@ -604,6 +627,7 @@ libssh2
 libsystemd
 libtar
 libtasn1
+libteam
 libthai
 libtheora
 libtiff
@@ -614,7 +638,6 @@ libtracker-sparql
 libunique
 libunique3
 libunistring
-libunrar
 libupnp
 libusb
 libusb-compat
@@ -699,7 +722,6 @@ lua51
 lvm2
 lynx
 lzo
-lzo2
 m4
 m64py
 make
@@ -805,7 +827,11 @@ perl
 perl-error
 perl-file-next
 perl-test-pod
+perl-xml-namespacesupport
 perl-xml-parser
+perl-xml-sax
+perl-xml-sax-base
+perl-xml-sax-expat
 perl-xml-simple
 perl-yaml-syck
 pgadmin3
@@ -830,7 +856,7 @@ pngout
 podofo
 polkit
 polkit-kde
-polkit-qt
+polkit-qt4
 poppler
 poppler-glib
 poppler-qt4
@@ -856,6 +882,7 @@ pygobject-devel
 pygobject2-devel
 pygtk
 pyqt4-common
+pyqt5-common
 pyrex
 python
 python-cairo
@@ -874,8 +901,8 @@ python-xdg
 python2
 python2-apsw
 python2-beaker
-python2-beautifulsoup3
 python2-cairo
+python2-chardet
 python2-cherrypy
 python2-cssselect
 python2-cssutils
@@ -885,6 +912,7 @@ python2-dnspython
 python2-docutils
 python2-gconf
 python2-gobject2
+python2-html5lib
 python2-jinja
 python2-lxml
 python2-mako
@@ -898,6 +926,7 @@ python2-psutil
 python2-pygame
 python2-pygments
 python2-pyqt4
+python2-pyqt5
 python2-reportlab
 python2-scipy
 python2-setuptools
@@ -912,7 +941,13 @@ qpdf
 qrencode
 qt4
 qt5-base
+qt5-declarative
+qt5-location
 qt5-script
+qt5-sensors
+qt5-svg
+qt5-webkit
+qt5-xmlpatterns
 qtchooser
 qtwebkit
 randrproto
@@ -959,8 +994,10 @@ shadow
 shared-color-targets
 shared-desktop-ontologies
 shared-mime-info
+signon
 sip
 sk1libs
+skype
 slang
 sloccount
 smartmontools
@@ -1007,6 +1044,7 @@ texinfo
 texlive-bin
 texlive-core
 texworks
+thin-provisioning-tools
 thunar
 tidyhtml
 tmux
@@ -1155,6 +1193,8 @@ yajl
 yaourt
 zenity
 zip
+zita-alsa-pcmi
+zita-resampler
 zlib
 zopfli-git
 zsh

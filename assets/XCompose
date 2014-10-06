@@ -30,6 +30,8 @@
 <Multi_key> <Right> <asciitilde>                                 : "⇝" U21DD # RIGHTWARDS SQUIGGLE ARROW
 <Multi_key> <Left> <bar>                                         : "⇤" U21E4 # LEFTWARDS ARROW TO BAR
 <Multi_key> <Right> <bar>                                        : "⇥" U21E5 # RIGHTWARDS ARROW TO BAR
+<Multi_key> <Up> <bar>                                           : "⤒" U2912 # UPWARDS ARROW TO BAR
+<Multi_key> <Down> <bar>                                         : "⤓" U2913 # DOWNWARDS ARROW TO BAR
 <Multi_key> <Left> <minus>                                       : "⇠" U21E0 # LEFTWARDS DASHED ARROW
 <Multi_key> <Up> <minus>                                         : "⇡" U21E1 # UPWARDS DASHED ARROW
 <Multi_key> <Right> <minus>                                      : "⇢" U21E2 # RIGHTWARDS DASHED ARROW
@@ -67,12 +69,22 @@
 <Multi_key> <7> <Down>                                           : "₇" U2087 # SUBSCRIPT SEVEN
 <Multi_key> <8> <Down>                                           : "₈" U2088 # SUBSCRIPT EIGHT
 <Multi_key> <9> <Down>                                           : "₉" U2089 # SUBSCRIPT NINE
+<Multi_key> <a> <Down>                                           : "ₐ" U2090 # LATIN SUBSCRIPT SMALL LETTER A
+<Multi_key> <e> <Down>                                           : "ₑ" U2091 # LATIN SUBSCRIPT SMALL LETTER E
+<Multi_key> <h> <Down>                                           : "ₕ" U2095 # LATIN SUBSCRIPT SMALL LETTER H
 <Multi_key> <i> <Down>                                           : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
 <Multi_key> <j> <Down>                                           : "ⱼ" U2C7C # LATIN SUBSCRIPT SMALL LETTER J
 <Multi_key> <k> <Down>                                           : "ₖ" U2096 # LATIN SUBSCRIPT SMALL LETTER K
+<Multi_key> <l> <Down>                                           : "ₗ" U2097 # LATIN SUBSCRIPT SMALL LETTER L
 <Multi_key> <m> <Down>                                           : "ₘ" U2098 # LATIN SUBSCRIPT SMALL LETTER M
 <Multi_key> <n> <Down>                                           : "ₙ" U2099 # SUBSCRIPT LATIN SMALL LETTER N
 <Multi_key> <o> <Down>                                           : "ₒ" U2092 # LATIN SUBSCRIPT SMALL LETTER O
+<Multi_key> <p> <Down>                                           : "ₚ" U209A # LATIN SUBSCRIPT SMALL LETTER P
+<Multi_key> <r> <Down>                                           : "ᵣ" U1D63 # LATIN SUBSCRIPT SMALL LETTER R
+<Multi_key> <s> <Down>                                           : "ₛ" U209B # LATIN SUBSCRIPT SMALL LETTER S
+<Multi_key> <t> <Down>                                           : "ₜ" U209C # LATIN SUBSCRIPT SMALL LETTER T
+<Multi_key> <u> <Down>                                           : "ᵤ" U1D64 # LATIN SUBSCRIPT SMALL LETTER U
+<Multi_key> <v> <Down>                                           : "ᵥ" U1D65 # LATIN SUBSCRIPT SMALL LETTER V
 <Multi_key> <x> <Down>                                           : "ₓ" U2093 # LATIN SUBSCRIPT SMALL LETTER X
 <Multi_key> <plus> <Down>                                        : "₊" U208A # SUBSCRIPT PLUS
 <Multi_key> <minus> <Down>                                       : "₋" U208B # SUBSCRIPT MINUS
@@ -88,13 +100,31 @@
 <Multi_key> <7> <Up>                                             : "⁷" U2077 # SUPERSCRIPT SEVEN
 <Multi_key> <8> <Up>                                             : "⁸" U2078 # SUPERSCRIPT EIGHT
 <Multi_key> <9> <Up>                                             : "⁹" U2079 # SUPERSCRIPT NINE
+<Multi_key> <a> <Up>                                             : "ᵃ" U1D43 # SUPERSCRIPT MODIFIER LETTER SMALL A
+<Multi_key> <b> <Up>                                             : "ᵇ" U1D47 # SUPERSCRIPT MODIFIER LETTER SMALL B
+<Multi_key> <c> <Up>                                             : "ᶜ" U1D9C # SUPERSCRIPT MODIFIER LETTER SMALL C
+<Multi_key> <d> <Up>                                             : "ᵈ" U1D48 # SUPERSCRIPT MODIFIER LETTER SMALL D
+<Multi_key> <e> <Up>                                             : "ᵉ" U1D49 # SUPERSCRIPT MODIFIER LETTER SMALL E
+<Multi_key> <f> <Up>                                             : "ᶠ" U1DA0 # SUPERSCRIPT MODIFIER LETTER SMALL F
+<Multi_key> <g> <Up>                                             : "ᵍ" U1D4D # SUPERSCRIPT MODIFIER LETTER SMALL G
 <Multi_key> <h> <Up>                                             : "ʰ" U02B0 # SUPERSCRIPT H
 <Multi_key> <i> <Up>                                             : "ⁱ" U2071 # SUPERSCRIPT I
 <Multi_key> <j> <Up>                                             : "ʲ" U02B2 # SUPERSCRIPT J
+<Multi_key> <k> <Up>                                             : "ᵏ" U1D4F # SUPERSCRIPT MODIFIER LETTER SMALL K
+<Multi_key> <l> <Up>                                             : "ˡ" U02E1 # SUPERSCRIPT MODIFIER LETTER SMALL L
+<Multi_key> <m> <Up>                                             : "ᵐ" U1D50 # SUPERSCRIPT MODIFIER LETTER SMALL M
 <Multi_key> <n> <Up>                                             : "ⁿ" U207F # SUPERSCRIPT LATIN SMALL LETTER N
+<Multi_key> <o> <Up>                                             : "ᵒ" U1D52 # SUPERSCRIPT MODIFIER LETTER SMALL O
+<Multi_key> <p> <Up>                                             : "ᵖ" U1D56 # SUPERSCRIPT MODIFIER LETTER SMALL P
 <Multi_key> <r> <Up>                                             : "ʳ" U02B3 # SUPERSCRIPT R
+<Multi_key> <s> <Up>                                             : "ˢ" U02E2 # SUPERSCRIPT MODIFIER LETTER SMALL S
+<Multi_key> <t> <Up>                                             : "ᵗ" U1D57 # SUPERSCRIPT MODIFIER LETTER SMALL T
+<Multi_key> <u> <Up>                                             : "ᵘ" U1D58 # SUPERSCRIPT MODIFIER LETTER SMALL U
+<Multi_key> <v> <Up>                                             : "ᵛ" U1D5B # SUPERSCRIPT MODIFIER LETTER SMALL V
 <Multi_key> <w> <Up>                                             : "ʷ" U02B7 # SUPERSCRIPT W
+<Multi_key> <x> <Up>                                             : "ˣ" U02E3 # SUPERSCRIPT MODIFIER LETTER SMALL X
 <Multi_key> <y> <Up>                                             : "ʸ" U02B8 # SUPERSCRIPT Y
+<Multi_key> <z> <Up>                                             : "ᶻ" U1DBB # SUPERSCRIPT MODIFIER LETTER SMALL Z
 <Multi_key> <plus> <Up>                                          : "⁺" U207A # SUPERSCRIPT PLUS
 <Multi_key> <minus> <Up>                                         : "⁻" U207B # SUPERSCRIPT MINUS
 
@@ -113,6 +143,24 @@
 <Multi_key> <braceleft> <braceright>                             : "∋" U220B # CONTAINS AS MEMBER  (I hope this doesn't conflict)
 <Multi_key> <braceleft> <slash> <braceleft>                      : "∉" U2209 # NOT AN ELEMENT OF
 <Multi_key> <braceleft> <slash> <braceright>                     : "∌" U220C # DOES NOT CONTAIN AS MEMBER
+
+# Fractions
+<Multi_key> <1> <2>                                              : "½" U00BD # VULGAR FRACTION ONE HALF
+<Multi_key> <1> <3>                                              : "⅓" U2153 # VULGAR FRACTION ONE THIRD
+<Multi_key> <2> <3>                                              : "⅔" U2154 # VULGAR FRACTION TWO THIRDS
+<Multi_key> <1> <4>                                              : "¼" U00BC # VULGAR FRACTION ONE QUARTER
+<Multi_key> <3> <4>                                              : "¾" U00BE # VULGAR FRACTION THREE QUARTERS
+<Multi_key> <1> <5>                                              : "⅕" U2155 # VULGAR FRACTION ONE FIFTH
+<Multi_key> <2> <5>                                              : "⅖" U2156 # VULGAR FRACTION TWO FIFTHS
+<Multi_key> <3> <5>                                              : "⅗" U2157 # VULGAR FRACTION THREE FIFTHS
+<Multi_key> <4> <5>                                              : "⅘" U2158 # VULGAR FRACTION FOUR FIFTHS
+<Multi_key> <1> <6>                                              : "⅙" U2159 # VULGAR FRACTION ONE SIXTH
+<Multi_key> <5> <6>                                              : "⅚" U215A # VULGAR FRACTION FIVE SIXTHS
+<Multi_key> <1> <8>                                              : "⅛" U215B # VULGAR FRACTION ONE EIGHTH
+<Multi_key> <3> <8>                                              : "⅜" U215C # VULGAR FRACTION THREE EIGHTHS
+<Multi_key> <5> <8>                                              : "⅝" U215D # VULGAR FRACTION FIVE EIGHTHS
+<Multi_key> <7> <8>                                              : "⅞" U215E # VULGAR FRACTION SEVEN EIGHTHS
+<Multi_key> <1> <slash>                                          : "⅟" U215F # FRACTION NUMERATOR ONE
 
 # Mathematical symbols
 <Multi_key> <exclam> <equal>                                     : "≠" U2260 # NOT EQUAL TO
@@ -340,21 +388,6 @@
 
 # If you wanted to actually type in Greek, you would also need άίέ
 # etc.  But you would probably just switch to a Greek keyboard layout.
-
-# Custom additions: fractions
-<Multi_key> <1> <3>                                              : "⅓" U2153 # VULGAR FRACTION ONE THIRD
-<Multi_key> <2> <3>                                              : "⅔" U2154 # VULGAR FRACTION TWO THIRDS
-# more extensive fractions from jsled
-<Multi_key> <1> <5>                                              : "⅕" U2155 # VULGAR FRACTION ONE FIFTH
-<Multi_key> <2> <5>                                              : "⅖" U2156 # VULGAR FRACTION TWO FIFTHS
-<Multi_key> <3> <5>                                              : "⅗" U2157 # VULGAR FRACTION THREE FIFTHS
-<Multi_key> <4> <5>                                              : "⅘" U2158 # VULGAR FRACTION FOUR FIFTHS
-<Multi_key> <1> <6>                                              : "⅙" U2159 # VULGAR FRACTION ONE SIXTH
-<Multi_key> <5> <6>                                              : "⅚" U215A # VULGAR FRACTION FIVE SIXTHS
-<Multi_key> <1> <8>                                              : "⅛" U215B # VULGAR FRACTION ONE EIGHTH
-<Multi_key> <3> <8>                                              : "⅜" U215C # VULGAR FRACTION THREE EIGHTHS
-<Multi_key> <5> <8>                                              : "⅝" U215D # VULGAR FRACTION FIVE EIGHTHS
-<Multi_key> <7> <8>                                              : "⅞" U215E # VULGAR FRACTION SEVEN EIGHTHS
 
 # How about roman numerals?  Percent for numerical mnemonic?
 # Does this go against the spirit of this file?  These symbols are accessible

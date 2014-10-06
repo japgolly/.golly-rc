@@ -21,7 +21,7 @@ export SHELL=bash
 alias bashrc="vim ~/.golly-rc/assets/shell.rc-bash && echo Reloading... && . ~/.bashrc"
 source "$HOME/.golly-rc/assets/shell.rc-shared"
 
-export PS1='\n\[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n$ '
+export PS1='\n\e[37m[BASH] \[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n$ '
 
 # Start new terminal tabs in the working directory
 [ -e /etc/profile.d/vte.sh ] \

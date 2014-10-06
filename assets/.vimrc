@@ -226,6 +226,7 @@ au filetype vim                           map <silent>  :s/^\(\s*\)\("\s*\)\?/\
 au filetype plantuml                      map <silent>  :s/^\(\s*\)\('\s*\)\?/\1' /<CR>:set nohlsearch<CR>
 au filetype scala,dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\(\/\/\s*\)\?/\1\/\/ /<CR>:set nohlsearch<CR>
 au filetype haskell,sql                   map <silent>  :s/^\(\s*\)\(--\s*\)\?/\1-- /<CR>:set nohlsearch<CR>
+au filetype haml                          map <silent>  :s/^\(\s*\)\(-#\s*\)\?/\1-# /<CR>:set nohlsearch<CR>
 au filetype xml                           map <silent>  :s/^\(\s*\)/\1<!--/<CR>:s/$/-->/<CR>:set nohlsearch<CR>
 imap <silent>  <Esc>w
 
@@ -235,8 +236,9 @@ au filetype ruby,sh,yaml                  map <silent>  :s/^\(\s*\)#\s*/\1/<CR>
 au filetype vim                           map <silent>  :s/^\(\s*\)"\s*/\1/<CR>:set nohlsearch<CR>
 au filetype plantuml                      map <silent>  :s/^\(\s*\)'\s*/\1/<CR>:set nohlsearch<CR>
 au filetype scala,dot,javascript,cpp,c,css,scss map <silent>  :s/^\(\s*\)\/\/\s*/\1/<CR>:set nohlsearch<CR>
-au filetype xml                           map <silent>  :s/^\(\s*\)<!--\s*/\1/<CR>:s/-->\(\s*\)$/\1/<CR>:set nohlsearch<CR>
 au filetype haskell,sql                   map <silent>  :s/^\(\s*\)--\s*/\1/<CR>:set nohlsearch<CR>
+au filetype haml                          map <silent>  :s/^\(\s*\)-#\s*/\1/<CR>:set nohlsearch<CR>
+au filetype xml                           map <silent>  :s/^\(\s*\)<!--\s*/\1/<CR>:s/-->\(\s*\)$/\1/<CR>:set nohlsearch<CR>
 imap <silent>  <C-O>
 
 "-----------------------------------------------------------------
