@@ -48,7 +48,10 @@ brother-mfc-j4510dw
 bsdiff
 bzip2
 ca-certificates
+ca-certificates-cacert
 ca-certificates-java
+ca-certificates-mozilla
+ca-certificates-utils
 cabal-install
 cabextract
 cairo
@@ -199,7 +202,7 @@ gparted
 gpgme
 gpm
 gptfdisk
-grantlee
+grantlee-qt4
 graphite
 graphviz
 grep
