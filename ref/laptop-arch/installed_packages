@@ -6,13 +6,13 @@ ack
 acl
 acpi
 acroread
+adwaita-icon-theme
 akonadi
 alsa-lib
 alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
-android-sdk
 android-sdk-platform-tools
 apache-ant
 apr
@@ -25,7 +25,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-attica
+attica-qt4
 attr
 audit
 autoconf
@@ -166,6 +166,7 @@ gedit
 gegl
 geoclue
 geoclue2
+geocode-glib
 gettext
 ghc
 ghostscript
@@ -268,6 +269,7 @@ imlib2
 inetutils
 inkscape
 inputproto
+intel-ucode
 intltool
 iproute2
 iptables
@@ -278,8 +280,10 @@ itstool
 jack
 jansson
 jasper
-java-common
+java-environment-common
+java-runtime-common
 jdk
+jemalloc
 jfsutils
 js
 js17
@@ -352,6 +356,7 @@ libexif
 libffi
 libfontenc
 libftdi-compat
+libgadu
 libgcrypt
 libgcrypt15
 libgdata
@@ -672,6 +677,7 @@ prison
 procps-ng
 profont
 protobuf
+protobuf-c
 psmisc
 psutils
 pth
@@ -869,6 +875,7 @@ vte-common
 vte3
 wavpack
 wayland
+webkit2gtk
 webkitgtk
 wget
 which
