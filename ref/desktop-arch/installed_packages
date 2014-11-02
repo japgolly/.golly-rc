@@ -411,7 +411,9 @@ lib32-libidn
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libmng
+lib32-libnl
 lib32-libogg
+lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpng12
@@ -423,6 +425,7 @@ lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
 lib32-libtxc_dxtn
+lib32-libusb
 lib32-libvorbis
 lib32-libx11
 lib32-libxau
