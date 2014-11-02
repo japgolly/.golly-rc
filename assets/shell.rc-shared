@@ -156,7 +156,7 @@ function fkeyd {
 }
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
-  alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules}"
+  alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules} --nogroup --color"
   alias acks='ack --scala'
 fi
 
