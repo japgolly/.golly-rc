@@ -6,6 +6,7 @@ accountsservice
 ack
 acl
 acroread
+adwaita-icon-theme
 akonadi
 alsa-lib
 alsa-oss
@@ -27,7 +28,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-attica
+attica-qt4
 attr
 authbind
 autoconf
@@ -305,6 +306,7 @@ inetutils
 inkscape
 inotify-tools
 inputproto
+intel-ucode
 intltool
 iproute2
 iptables
@@ -315,7 +317,8 @@ itstool
 jack
 jansson
 jasper
-java-common
+java-environment-common
+java-runtime-common
 jdk
 jdk6-compat
 jdk7-compat
@@ -408,7 +411,9 @@ lib32-libidn
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libmng
+lib32-libnl
 lib32-libogg
+lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpng12
@@ -420,6 +425,7 @@ lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
 lib32-libtxc_dxtn
+lib32-libusb
 lib32-libvorbis
 lib32-libx11
 lib32-libxau
@@ -469,7 +475,7 @@ lib32-xcb-util
 lib32-xz
 lib32-zlib
 libaccounts-glib
-libaccounts-qt
+libaccounts-qt4
 libaio
 libarchive
 libass
@@ -518,6 +524,7 @@ libffi
 libfontenc
 libftdi
 libftdi-compat
+libgadu
 libgcrypt
 libgcrypt15
 libgdata
@@ -878,6 +885,8 @@ ppp
 prison
 procps-ng
 profont
+protobuf
+protobuf-c
 psmisc
 psutils
 pth
@@ -1000,7 +1009,7 @@ shadow
 shared-color-targets
 shared-desktop-ontologies
 shared-mime-info
-signon
+signon-qt4
 sip
 sk1libs
 skype
@@ -1103,6 +1112,7 @@ vte-common
 vte3
 wavpack
 wayland
+webkit2gtk
 webkitgtk
 webrtc-audio-processing
 wget
