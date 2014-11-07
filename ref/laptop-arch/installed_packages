@@ -13,7 +13,6 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
-android-sdk-platform-tools
 apache-ant
 apr
 apr-util
