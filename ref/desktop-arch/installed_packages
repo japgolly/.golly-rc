@@ -733,6 +733,7 @@ lua-socket
 lua51
 lvm2
 lynx
+lz4
 lzo
 m4
 m64py
