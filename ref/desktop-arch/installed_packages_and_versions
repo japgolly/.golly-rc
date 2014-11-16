@@ -320,8 +320,7 @@ jasper 1.900.1-10
 java-environment-common 2-2
 java-runtime-common 2-2
 jdk 8u25-1
-jdk6-compat 1:6u45-06.1
-jdk7-compat 7.67-1
+jdk7-compat 7.55-1
 jemalloc 3.6.0-1
 jfsutils 1.1.15-4
 jmeter 2.11-1

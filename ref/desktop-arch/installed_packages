@@ -320,7 +320,6 @@ jasper
 java-environment-common
 java-runtime-common
 jdk
-jdk6-compat
 jdk7-compat
 jemalloc
 jfsutils
