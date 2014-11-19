@@ -21,6 +21,7 @@ apache-ant
 apr
 apr-util
 archlinux-keyring
+ardour
 asciidoc
 aspell
 aspell-en
@@ -30,6 +31,7 @@ atk
 atkmm
 attica-qt4
 attr
+aubio
 authbind
 autoconf
 automake
@@ -48,6 +50,7 @@ binutils
 bison
 blas
 bluez
+bluez-libs
 bluez-utils
 boost
 boost-libs
@@ -66,6 +69,7 @@ cairo-dock
 cairo-dock-plugins
 cairomm
 caja
+calf
 calibre
 cantarell-fonts
 ccsm
@@ -110,6 +114,7 @@ curl
 damageproto
 db
 dbus
+dbus-c++
 dbus-glib
 dbus-sharp
 dbus-sharp-glib
@@ -133,6 +138,7 @@ dotconf
 downgrade
 doxygen
 dropbox
+dssi
 e2fsprogs
 ebook-tools
 ec2-api-tools
@@ -166,6 +172,7 @@ flac
 flashplugin
 flex
 fltk
+fluidsynth
 fontconfig
 fontsproto
 freeglut
@@ -276,6 +283,7 @@ gtkspell3
 gts
 guake
 guile
+guitarix2
 gutenprint
 gvfs
 gzip
@@ -314,7 +322,7 @@ iputils
 isl
 iso-codes
 itstool
-jack
+jack2-dbus
 jansson
 jasper
 java-environment-common
@@ -362,6 +370,7 @@ krb5
 ladspa
 lame
 lapack
+lash
 lcms
 lcms2
 ldb
@@ -477,6 +486,7 @@ libaccounts-glib
 libaccounts-qt4
 libaio
 libarchive
+libart-lgpl
 libass
 libassuan
 libasyncns
@@ -498,6 +508,7 @@ libcdio-paranoia
 libcdr
 libcl
 libcompizconfig
+libconfig
 libcroco
 libcups
 libdaemon
@@ -519,6 +530,7 @@ libepoxy
 libevdev
 libevent
 libexif
+libffado
 libffi
 libfontenc
 libftdi
@@ -534,6 +546,8 @@ libgit2-glib
 libglade
 libgme
 libgnome-keyring
+libgnomecanvas
+libgnomecanvasmm
 libgnomekbd
 libgpg-error
 libgssglue
@@ -561,6 +575,7 @@ libkolab
 libkolabxml
 libksba
 libldap
+liblo
 liblqr
 liblrdf
 libltdl
@@ -629,6 +644,7 @@ libsidplay
 libsigc++
 libsigsegv
 libsm
+libsmf
 libsndfile
 libsoup
 libspiro
@@ -713,6 +729,7 @@ libxxf86vm
 libyaml
 libzip
 licenses
+lilv
 linux
 linux-api-headers
 linux-firmware
@@ -730,6 +747,7 @@ lua-bitop
 lua-expat
 lua-socket
 lua51
+lv2
 lvm2
 lynx
 lz4
@@ -757,6 +775,7 @@ mesa
 mesa-demos
 mesa-dri
 metacity
+meterbridge
 mime-types
 mirage
 mjpegtools
@@ -951,6 +970,7 @@ python2-sphinx
 python2-xdg
 qca
 qimageblitz
+qjackctl
 qjson
 qpdf
 qrencode
@@ -1001,6 +1021,7 @@ sdl_mixer
 sdl_ttf
 sed
 sensors-applet
+serd
 serf
 setconf
 sfnt2woff
@@ -1023,6 +1044,7 @@ smuxi
 smuxi-server
 snappy
 soprano
+sord
 sound-theme-freedesktop
 soundtouch
 spandsp
@@ -1031,6 +1053,7 @@ speech-dispatcher
 speedcrunch
 speex
 sqlite
+sratom
 startup-notification
 steam
 stfl
@@ -1039,6 +1062,7 @@ strigi
 sublime-text
 subversion
 sudo
+suil
 swi-prolog
 swt
 sysfsutils
@@ -1210,6 +1234,7 @@ yaourt
 zenity
 zip
 zita-alsa-pcmi
+zita-convolver
 zita-resampler
 zlib
 zopfli-git
