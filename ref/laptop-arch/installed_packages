@@ -101,7 +101,6 @@ device-mapper
 dhcpcd
 dialog
 diffutils
-dirmngr
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -546,6 +545,7 @@ lua-socket
 lua51
 lvm2
 lynx
+lz4
 lzo
 m4
 make
@@ -600,6 +600,7 @@ nodejs-bower
 nodejs-grunt-cli
 notification-daemon
 notify-sharp
+npth
 nspr
 nss
 ntfs-3g
