@@ -2,7 +2,6 @@
 
 export EDITOR=vim
 export PAGER=less
-export GREP_OPTIONS='--color=auto'
 export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
 
 # Unicodeness. Get an .XCompose & add to .xinitrc: setxkbmap -option "compose:caps"
@@ -38,6 +37,9 @@ alias diffu='colordiff -u'
 alias gca='git commit --amend'
 alias ww='google-chrome-stable --incognito'
 alias WIPE='git wipe; git clean -df'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
