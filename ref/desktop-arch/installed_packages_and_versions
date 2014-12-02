@@ -234,7 +234,7 @@ gnustep-base 1.24.6-2
 gnustep-make 2.6.6-1
 gnutls 3.3.10-1
 gobject-introspection 1.42.0-1
-google-chrome 39.0.2171.65-1
+google-chrome 38.0.2125.122-2
 google-musicmanager 1.0.129.6633_r0-1
 gource 0.43-2
 gpart 0.2.1-1
@@ -286,6 +286,7 @@ guile 2.0.11-2
 guitarix2 0.31.0-2
 gutenprint 5.2.10-1
 gvfs 1.22.2-2
+gvim 7.4.473-1
 gzip 1.6-1
 harfbuzz 0.9.35-2
 harfbuzz-icu 0.9.35-2
@@ -787,7 +788,7 @@ mozilla-common 1.4-4
 mpfr 3.1.2.p10-1
 mpg123 1.21.0-1
 mplayer 37224-3
-mpv 0.6.2-2
+mpv 0.7.0-1
 mtdev 1.1.5-1
 mtools 4.0.18-2
 mtr 0.85-2
@@ -1089,6 +1090,7 @@ tidyhtml 1.46-3
 tmux 1.9_a-1
 totem-plparser 3.10.3-1
 traceroute 2.0.20-1
+transmission-cli 2.84-1
 tree 1.7.0-1
 ttf-adobe-fonts 11.0.03-1
 ttf-anonymous-pro 1.003-1
@@ -1122,7 +1124,6 @@ util-linux 2.25.2-1
 v4l-utils 1.6.0-1
 vi 1:050325-4
 videoproto 2.3.2-1
-vim 7.4.473-1
 vim-runtime 7.4.473-1
 vim-systemd 20140209-1
 virtualbox 4.3.18-1
@@ -1142,7 +1143,7 @@ webrtc-audio-processing 0.1-2
 wget 1.16-2
 which 2.20-7
 wildmidi 0.3.7-1
-wine 1.7.30-1
+wine 1.7.31-1
 winetricks 20140302-1
 wireless_tools 30.pre9-1
 wpa_supplicant 2.3-1

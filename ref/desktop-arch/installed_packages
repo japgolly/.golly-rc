@@ -286,6 +286,7 @@ guile
 guitarix2
 gutenprint
 gvfs
+gvim
 gzip
 harfbuzz
 harfbuzz-icu
@@ -1089,6 +1090,7 @@ tidyhtml
 tmux
 totem-plparser
 traceroute
+transmission-cli
 tree
 ttf-adobe-fonts
 ttf-anonymous-pro
@@ -1122,7 +1124,6 @@ util-linux
 v4l-utils
 vi
 videoproto
-vim
 vim-runtime
 vim-systemd
 virtualbox
