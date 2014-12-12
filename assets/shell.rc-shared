@@ -1,5 +1,7 @@
 # vim:ft=sh et sw=2 ts=2:
 
+stty icrnl
+
 export EDITOR=vim
 export PAGER=less
 export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
