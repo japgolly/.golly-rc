@@ -8,6 +8,7 @@
    b = branch
    mt = mergetool
    l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
+   sl = stash list --format='%C(yellow)%h%Creset %ai | %s'
    diffs = diff --staged
    diffw = diff --color-words
    cp = cherry-pick
