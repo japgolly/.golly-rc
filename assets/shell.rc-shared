@@ -42,6 +42,7 @@ alias WIPE='git wipe; git clean -df'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+alias pie='perl -pi -e'
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
