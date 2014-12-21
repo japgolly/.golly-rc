@@ -13,7 +13,6 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
-android-sdk
 android-sdk-platform-tools
 android-udev
 apache
@@ -428,7 +427,6 @@ lib32-libpulse
 lib32-libsm
 lib32-libsndfile
 lib32-libssh2
-lib32-libstdc++5
 lib32-libtasn1
 lib32-libtiff
 lib32-libtxc_dxtn
@@ -463,7 +461,6 @@ lib32-ncurses
 lib32-nettle
 lib32-nvidia-libgl
 lib32-nvidia-utils
-lib32-openal
 lib32-openssl
 lib32-p11-kit
 lib32-pango
@@ -472,7 +469,6 @@ lib32-pcre
 lib32-pixman
 lib32-qt4
 lib32-readline
-lib32-sdl
 lib32-sqlite
 lib32-systemd
 lib32-util-linux
@@ -828,7 +824,6 @@ nvidia
 nvidia-libgl
 nvidia-utils
 odt2txt
-openal
 opencl-nvidia
 opencore-amr
 openexr
@@ -1068,7 +1063,6 @@ subversion
 sudo
 suil
 swi-prolog
-swt
 sysfsutils
 syslinux
 systemd
