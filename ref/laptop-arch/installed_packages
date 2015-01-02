@@ -47,7 +47,6 @@ bsdiff
 bzip2
 ca-certificates
 ca-certificates-cacert
-ca-certificates-java
 ca-certificates-mozilla
 ca-certificates-utils
 cabal-install
@@ -388,7 +387,6 @@ liblastfm
 libldap
 liblqr
 liblrdf
-libltdl
 libmad
 libmariadbclient
 libmatroska
@@ -747,6 +745,7 @@ qt5-location
 qt5-script
 qt5-sensors
 qt5-svg
+qt5-webchannel
 qt5-webkit
 qt5-xmlpatterns
 qtchooser
@@ -799,6 +798,7 @@ speedcrunch
 speex
 sqlite
 startup-notification
+steam
 strace
 strigi
 sublime-text
