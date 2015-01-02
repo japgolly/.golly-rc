@@ -59,7 +59,6 @@ bsdiff
 bzip2
 ca-certificates
 ca-certificates-cacert
-ca-certificates-java
 ca-certificates-mozilla
 ca-certificates-utils
 cabal-install
@@ -145,6 +144,7 @@ ed
 efibootmgr
 efivar
 elfutils
+emacs
 emerald
 emerald-themes
 enca
@@ -577,7 +577,6 @@ libldap
 liblo
 liblqr
 liblrdf
-libltdl
 libmad
 libmariadbclient
 libmatekbd
@@ -608,6 +607,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libotf
 libpaper
 libpcap
 libpciaccess
@@ -751,6 +751,8 @@ lvm2
 lynx
 lz4
 lzo
+m17n-db
+m17n-lib
 m4
 m64py
 make
@@ -982,6 +984,7 @@ qt5-location
 qt5-script
 qt5-sensors
 qt5-svg
+qt5-webchannel
 qt5-webkit
 qt5-xmlpatterns
 qtchooser
@@ -1126,6 +1129,7 @@ vi
 videoproto
 vim-runtime
 vim-systemd
+vimpager
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules
