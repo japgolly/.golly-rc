@@ -558,7 +558,6 @@ media-player-info
 mercurial
 mesa
 mesa-demos
-mesa-dri
 mesa-libgl
 metacity
 mime-types
