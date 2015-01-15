@@ -457,7 +457,6 @@ lib32-libxxf86vm
 lib32-llvm-amdgpu-lib-snapshot
 lib32-llvm-libs
 lib32-mesa
-lib32-mesa-dri
 lib32-ncurses
 lib32-nettle
 lib32-nvidia-libgl
@@ -771,7 +770,6 @@ media-player-info
 mercurial
 mesa
 mesa-demos
-mesa-dri
 metacity
 meterbridge
 mime-types
