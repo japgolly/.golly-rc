@@ -365,6 +365,7 @@ keyutils
 kfilemetadata
 kmod
 krb5
+krename
 ladspa
 lame
 lapack
@@ -848,6 +849,7 @@ parallel
 parted
 partimage
 patch
+pavucontrol
 pciutils
 pcmciautils
 pcre
