@@ -47,7 +47,6 @@ bsdiff
 bzip2
 ca-certificates
 ca-certificates-cacert
-ca-certificates-java
 ca-certificates-mozilla
 ca-certificates-utils
 cabal-install
@@ -101,7 +100,6 @@ device-mapper
 dhcpcd
 dialog
 diffutils
-dirmngr
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -389,7 +387,6 @@ liblastfm
 libldap
 liblqr
 liblrdf
-libltdl
 libmad
 libmariadbclient
 libmatroska
@@ -546,6 +543,7 @@ lua-socket
 lua51
 lvm2
 lynx
+lz4
 lzo
 m4
 make
@@ -560,7 +558,6 @@ media-player-info
 mercurial
 mesa
 mesa-demos
-mesa-dri
 mesa-libgl
 metacity
 mime-types
@@ -600,6 +597,7 @@ nodejs-bower
 nodejs-grunt-cli
 notification-daemon
 notify-sharp
+npth
 nspr
 nss
 ntfs-3g
@@ -746,6 +744,7 @@ qt5-location
 qt5-script
 qt5-sensors
 qt5-svg
+qt5-webchannel
 qt5-webkit
 qt5-xmlpatterns
 qtchooser
@@ -798,6 +797,7 @@ speedcrunch
 speex
 sqlite
 startup-notification
+steam
 strace
 strigi
 sublime-text
@@ -823,6 +823,7 @@ thunar
 thunderbird
 tmux
 traceroute
+transmission-cli
 tree
 ttf-adobe-fonts
 ttf-anonymous-pro
