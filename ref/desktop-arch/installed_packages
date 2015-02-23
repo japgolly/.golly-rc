@@ -71,7 +71,6 @@ caja
 calf
 calibre
 cantarell-fonts
-ccsm
 cdparanoia
 celt
 chmlib
@@ -89,14 +88,7 @@ cogl
 colord
 colord-gtk
 colordiff
-compiz-bcop
-compiz-core
-compiz-decorator-gtk
-compiz-fusion-plugins-extra
-compiz-fusion-plugins-main
-compiz-manager
-compizconfig-backend-gconf
-compizconfig-python
+compiz
 compositeproto
 conky
 convertlit
@@ -147,8 +139,7 @@ efibootmgr
 efivar
 elfutils
 emacs
-emerald
-emerald-themes
+emerald0.9
 enca
 enchant
 ethtool
@@ -181,7 +172,7 @@ freetype2
 fribidi
 ftgl
 fuse
-fusion-icon
+fusion-icon0.9
 gamin
 garcon
 gawk
@@ -544,7 +535,6 @@ libcdio
 libcdio-paranoia
 libcdr
 libcl
-libcompizconfig
 libconfig
 libcroco
 libcups
@@ -988,6 +978,7 @@ python2-dbus
 python2-dnspython
 python2-docutils
 python2-gconf
+python2-gobject
 python2-gobject2
 python2-html5lib
 python2-jinja

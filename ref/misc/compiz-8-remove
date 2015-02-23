@@ -1,0 +1,1 @@
+sudo pacman -R compiz-{manager,bcop,core,decorator-gtk,fusion-plugins-extra,fusion-plugins-main} compizconfig-{backend-gconf,python} libcompizconfig fusion-icon emerald{,-themes} ccsm
