@@ -54,7 +54,7 @@ bluez-libs
 bluez-utils
 boost
 boost-libs
-brother-mfc-j4510dw
+brother-mfc-j5320dw
 bsdiff
 bzip2
 ca-certificates
@@ -121,6 +121,7 @@ dconf
 deb2targz
 desktop-file-utils
 device-mapper
+dhclient
 dhcpcd
 dialog
 diffutils
@@ -137,6 +138,7 @@ downgrade
 doxygen
 dropbox
 dssi
+dwdiff
 e2fsprogs
 ebook-tools
 ec2-api-tools
@@ -699,12 +701,14 @@ libtxc_dxtn
 libunique
 libunique3
 libunistring
+libunwind
 libupnp
 libusb
 libusb-compat
 libusbmuxd
 libutempter
 libutil-linux
+libuv
 libva
 libva-vdpau-driver
 libvdpau
@@ -1095,6 +1099,7 @@ sparsehash
 speech-dispatcher
 speedcrunch
 speex
+speexdsp
 sqlite
 sratom
 startup-notification
