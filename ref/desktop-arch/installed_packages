@@ -32,6 +32,7 @@ attica-qt4
 attica-qt5
 attr
 aubio
+audio-convert
 authbind
 autoconf
 automake
@@ -297,6 +298,7 @@ hyphen-en
 iana-etc
 icon-naming-utils
 icu
+id3lib
 idnkit
 ifplugd
 iftop
