@@ -64,7 +64,6 @@ chmlib
 chromaprint
 chrpath
 cifs-utils
-clementine
 cloc
 cloog
 clucene
@@ -327,6 +326,7 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
+libcdr
 libcl
 libcompizconfig
 libcroco
@@ -347,6 +347,7 @@ libdvdread
 libebml
 libedit
 libepoxy
+libetonyek
 libevdev
 libevent
 libexif
@@ -364,7 +365,6 @@ libgit2-glib
 libglade
 libgme
 libgpg-error
-libgpod
 libgssglue
 libgtop
 libguess
@@ -383,7 +383,6 @@ libkactivities4
 libkate
 libkeybinder2
 libksba
-liblastfm
 libldap
 liblqr
 liblrdf
@@ -401,8 +400,8 @@ libmpc
 libmpcdec
 libmpd
 libmpeg2
+libmspub
 libmtp
-libmygpo-qt
 libnautilus-extension
 libndp
 libnewt
@@ -411,6 +410,7 @@ libnl
 libnm-glib
 libnotify
 liboauth
+libodfgen
 libofa
 libogg
 libomxil-bellagio
@@ -430,12 +430,9 @@ libquvi
 libquvi-scripts
 libqzeitgeist
 libraw1394
-libreoffice-still-calc
-libreoffice-still-common
-libreoffice-still-draw
+libreoffice-still
 libreoffice-still-en-GB
-libreoffice-still-gnome
-libreoffice-still-writer
+librevenge
 librpcsecgss
 librsvg
 libsamplerate
@@ -477,6 +474,7 @@ libutempter
 libutil-linux
 libva
 libvdpau
+libvisio
 libvisual
 libvorbis
 libvpx
@@ -485,6 +483,9 @@ libwebp
 libwmf
 libwnck
 libwnck3
+libwpd
+libwpg
+libwps
 libx11
 libx264
 libx86emu
@@ -530,7 +531,7 @@ linux
 linux-api-headers
 linux-firmware
 linux-headers
-lirc-utils
+lirc
 llvm-libs
 lm_sensors
 logrotate
@@ -576,7 +577,6 @@ mtdev
 mtools
 mtr
 musicbrainz
-mutagen
 mythes-en
 nano
 nautilus
@@ -733,7 +733,6 @@ python2-six
 python2-sphinx
 python2-xdg
 qca
-qca-ossl
 qjson
 qpdf
 qrencode
