@@ -33,6 +33,7 @@ attica-qt5
 attr
 aubio
 audio-convert
+aura-bin
 authbind
 autoconf
 automake
