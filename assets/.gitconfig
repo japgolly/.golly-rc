@@ -35,6 +35,9 @@
 [push]
 	default = upstream
 
+[merge]
+  tool = kdiff3
+
 [diff "odf"]
 	textconv = odt2txt
 

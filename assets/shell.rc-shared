@@ -159,6 +159,10 @@ function fkeyd {
   export JAVA_HOME=/opt/java7
   export PATH="$JAVA_HOME/bin:$PATH"
 }
+[ -e /opt/java6 ] && function j6 {
+  export JAVA_HOME=/opt/java6
+  export PATH="$JAVA_HOME/bin:$PATH"
+}
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules} --nogroup --color"
