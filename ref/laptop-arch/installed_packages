@@ -96,9 +96,11 @@ dconf
 deb2targz
 desktop-file-utils
 device-mapper
+dhclient
 dhcpcd
 dialog
 diffutils
+ding-libs
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -195,6 +197,7 @@ gobject-introspection
 google-chrome
 gpart
 gparted
+gperf
 gpgme
 gpm
 gptfdisk
@@ -207,6 +210,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gssproxy
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-base-libs
@@ -466,6 +470,7 @@ libunique
 libunique3
 libunistring
 libunrar
+libunwind
 libupnp
 libusb
 libusb-compat
@@ -794,6 +799,7 @@ spandsp
 speech-dispatcher
 speedcrunch
 speex
+speexdsp
 sqlite
 startup-notification
 steam
