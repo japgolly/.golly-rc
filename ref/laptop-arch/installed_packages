@@ -64,7 +64,6 @@ chmlib
 chromaprint
 chrpath
 cifs-utils
-clementine
 cloc
 cloog
 clucene
@@ -97,9 +96,11 @@ dconf
 deb2targz
 desktop-file-utils
 device-mapper
+dhclient
 dhcpcd
 dialog
 diffutils
+ding-libs
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -196,6 +197,7 @@ gobject-introspection
 google-chrome
 gpart
 gparted
+gperf
 gpgme
 gpm
 gptfdisk
@@ -208,6 +210,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gssproxy
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-base-libs
@@ -327,6 +330,7 @@ libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
+libcdr
 libcl
 libcompizconfig
 libcroco
@@ -347,6 +351,7 @@ libdvdread
 libebml
 libedit
 libepoxy
+libetonyek
 libevdev
 libevent
 libexif
@@ -364,7 +369,6 @@ libgit2-glib
 libglade
 libgme
 libgpg-error
-libgpod
 libgssglue
 libgtop
 libguess
@@ -383,7 +387,6 @@ libkactivities4
 libkate
 libkeybinder2
 libksba
-liblastfm
 libldap
 liblqr
 liblrdf
@@ -401,8 +404,8 @@ libmpc
 libmpcdec
 libmpd
 libmpeg2
+libmspub
 libmtp
-libmygpo-qt
 libnautilus-extension
 libndp
 libnewt
@@ -411,6 +414,7 @@ libnl
 libnm-glib
 libnotify
 liboauth
+libodfgen
 libofa
 libogg
 libomxil-bellagio
@@ -430,12 +434,9 @@ libquvi
 libquvi-scripts
 libqzeitgeist
 libraw1394
-libreoffice-still-calc
-libreoffice-still-common
-libreoffice-still-draw
+libreoffice-still
 libreoffice-still-en-GB
-libreoffice-still-gnome
-libreoffice-still-writer
+librevenge
 librpcsecgss
 librsvg
 libsamplerate
@@ -469,6 +470,7 @@ libunique
 libunique3
 libunistring
 libunrar
+libunwind
 libupnp
 libusb
 libusb-compat
@@ -477,6 +479,7 @@ libutempter
 libutil-linux
 libva
 libvdpau
+libvisio
 libvisual
 libvorbis
 libvpx
@@ -485,6 +488,9 @@ libwebp
 libwmf
 libwnck
 libwnck3
+libwpd
+libwpg
+libwps
 libx11
 libx264
 libx86emu
@@ -530,7 +536,7 @@ linux
 linux-api-headers
 linux-firmware
 linux-headers
-lirc-utils
+lirc
 llvm-libs
 lm_sensors
 logrotate
@@ -576,7 +582,6 @@ mtdev
 mtools
 mtr
 musicbrainz
-mutagen
 mythes-en
 nano
 nautilus
@@ -733,7 +738,6 @@ python2-six
 python2-sphinx
 python2-xdg
 qca
-qca-ossl
 qjson
 qpdf
 qrencode
@@ -795,6 +799,7 @@ spandsp
 speech-dispatcher
 speedcrunch
 speex
+speexdsp
 sqlite
 startup-notification
 steam
