@@ -1,4 +1,3 @@
-a2ps
 a52dec
 aalib
 abs
@@ -42,7 +41,6 @@ binutils
 bison
 boost
 boost-libs
-brother-mfc-j4510dw
 bsdiff
 bzip2
 ca-certificates
@@ -681,7 +679,6 @@ profont
 protobuf
 protobuf-c
 psmisc
-psutils
 pth
 pv
 pygobject-devel
@@ -817,7 +814,6 @@ systemd-sysvcompat
 taglib
 talloc
 tar
-tcsh
 tdb
 telepathy-glib
 terminus-font-ttf
