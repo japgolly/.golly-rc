@@ -119,6 +119,7 @@ dhclient
 dhcpcd
 dialog
 diffutils
+ding-libs
 dmenu
 dmxproto
 dnssec-anchors
@@ -247,6 +248,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gssproxy
 gst-plugins-base
 gst-plugins-base-libs
 gstreamer
@@ -265,10 +267,9 @@ gtk
 gtk-engines
 gtk-sharp-2
 gtk-update-icon-cache
+gtk-xfce-engine
 gtk2
-gtk2-xfce-engine
 gtk3
-gtk3-xfce-engine
 gtkglext
 gtkmm
 gtkmm3
@@ -922,6 +923,7 @@ pm-utils
 pngout
 podofo
 polkit
+polkit-gnome
 polkit-kde
 polkit-qt4
 polkit-qt5
