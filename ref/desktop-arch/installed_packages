@@ -32,6 +32,8 @@ attica-qt4
 attica-qt5
 attr
 aubio
+audio-convert
+aura-bin
 authbind
 autoconf
 automake
@@ -297,6 +299,7 @@ hyphen-en
 iana-etc
 icon-naming-utils
 icu
+id3lib
 idnkit
 ifplugd
 iftop
@@ -668,6 +671,7 @@ libsecret
 libshout
 libsidplay
 libsigc++
+libsignon-qt4
 libsigsegv
 libsm
 libsmf
@@ -1066,7 +1070,7 @@ shadow
 shared-color-targets
 shared-desktop-ontologies
 shared-mime-info
-signon-qt4
+signon
 sip
 sk1libs
 skype
