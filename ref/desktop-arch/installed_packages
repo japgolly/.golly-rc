@@ -80,7 +80,6 @@ cifs-utils
 clang
 cln
 cloc
-cloog
 clucene
 clutter
 clutter-gtk
@@ -315,7 +314,6 @@ intltool
 iproute2
 iptables
 iputils
-isl
 iso-codes
 itstool
 jack2-dbus
@@ -460,7 +458,6 @@ lib32-libogg
 lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
-lib32-libpng12
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
@@ -650,7 +647,6 @@ libpeas
 libpipeline
 libplist
 libpng
-libpng12
 libproxy
 libpulse
 libpurple
@@ -845,7 +841,6 @@ networkmanager
 nfs-utils
 nfsidmap
 nini
-nixnote
 nmap
 nodejs
 nodejs-bower
