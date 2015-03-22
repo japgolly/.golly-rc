@@ -13,7 +13,6 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
-android-sdk-platform-tools
 android-udev
 apache
 apache-ant
@@ -67,7 +66,7 @@ cabal-install
 cabextract
 cairo
 cairo-dock
-cairo-dock-plugins
+cairo-dock-plug-ins
 cairomm
 caja
 calf
@@ -334,6 +333,7 @@ js17
 js185
 json-c
 json-glib
+jsoncpp
 kactivities4
 karchive
 katepart4
