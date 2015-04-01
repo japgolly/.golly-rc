@@ -889,6 +889,7 @@ perl
 perl-error
 perl-file-next
 perl-test-pod
+perl-uri
 perl-xml-namespacesupport
 perl-xml-parser
 perl-xml-sax
