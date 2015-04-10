@@ -40,7 +40,7 @@ automoc4
 avahi
 awoken-icons
 babl
-baloo4
+baloo-frameworks
 baloo4-akonadi
 baloo4-widgets
 baobab
@@ -228,6 +228,7 @@ gnustep-base
 gnustep-make
 gnutls
 gobject-introspection
+gobject-introspection-runtime
 google-chrome
 google-musicmanager
 gource
@@ -339,6 +340,7 @@ kauth
 kbd
 kbookmarks
 kbproto
+kcmutils
 kcodecs
 kcompletion
 kconfig
@@ -372,11 +374,13 @@ kdiff3
 keepass
 kemoticons
 keyutils
-kfilemetadata
+kfilemetadata4
+kfilemetadata5
 kglobalaccel
 kguiaddons
 ki18n
 kiconthemes
+kidletime
 kinit
 kio
 kitemmodels
@@ -926,6 +930,7 @@ polkit-qt5
 poppler
 poppler-glib
 poppler-qt4
+poppler-qt5
 popt
 portaudio
 portmidi
@@ -1268,6 +1273,7 @@ xorg-xvinfo
 xorg-xwininfo
 xproto
 xterm
+xulrunner
 xvidcore
 xz
 yajl
