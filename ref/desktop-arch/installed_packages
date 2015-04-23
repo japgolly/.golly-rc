@@ -13,6 +13,7 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
+android-tools
 android-udev
 apache
 apache-ant
