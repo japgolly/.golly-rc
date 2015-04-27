@@ -1060,6 +1060,7 @@ rrdtool
 rsync
 rtkit
 rtmpdump
+rubberband
 ruby
 run-parts
 s-nail
@@ -1179,6 +1180,7 @@ upower
 usbutils
 util-linux
 v4l-utils
+vamp-plugin-sdk
 vi
 videoproto
 vim-runtime
