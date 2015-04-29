@@ -398,6 +398,7 @@ kmod
 knewstuff
 knotifications
 knotifyconfig
+kodi
 konsole
 kpackage
 kparts
@@ -625,6 +626,7 @@ libmad
 libmariadbclient
 libmatekbd
 libmatroska
+libmicrohttpd
 libmikmod
 libmm-glib
 libmms
@@ -1008,6 +1010,7 @@ python2-notify
 python2-numpy
 python2-pillow
 python2-psutil
+python2-pybluez
 python2-pygame
 python2-pygments
 python2-pyqt4
@@ -1015,6 +1018,7 @@ python2-pyqt5
 python2-reportlab
 python2-scipy
 python2-setuptools
+python2-simplejson
 python2-sip
 python2-six
 python2-sphinx
@@ -1145,6 +1149,7 @@ thin-provisioning-tools
 threadweaver
 thunar
 tidyhtml
+tinyxml
 tmux
 totem-plparser
 traceroute
