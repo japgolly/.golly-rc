@@ -13,7 +13,7 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
-android-sdk-platform-tools
+android-tools
 android-udev
 apache
 apache-ant
@@ -41,7 +41,7 @@ automoc4
 avahi
 awoken-icons
 babl
-baloo4
+baloo-frameworks
 baloo4-akonadi
 baloo4-widgets
 baobab
@@ -67,7 +67,7 @@ cabal-install
 cabextract
 cairo
 cairo-dock
-cairo-dock-plugins
+cairo-dock-plug-ins
 cairomm
 caja
 calf
@@ -75,15 +75,17 @@ calibre
 cantarell-fonts
 cdparanoia
 celt
+cheese
 chmlib
+chromaprint
 chrpath
 cifs-utils
 clang
 cln
 cloc
-cloog
 clucene
 clutter
+clutter-gst2
 clutter-gtk
 cmake
 cogl
@@ -119,6 +121,7 @@ dhclient
 dhcpcd
 dialog
 diffutils
+ding-libs
 dmenu
 dmxproto
 dnssec-anchors
@@ -223,12 +226,14 @@ gnome-settings-daemon
 gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
+gnome-video-effects
 gnupg
 gnuplot
 gnustep-base
 gnustep-make
 gnutls
 gobject-introspection
+gobject-introspection-runtime
 google-chrome
 google-musicmanager
 gource
@@ -247,8 +252,11 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gssproxy
+gst-plugins-bad
 gst-plugins-base
 gst-plugins-base-libs
+gst-plugins-good
 gstreamer
 gstreamer0.10
 gstreamer0.10-bad
@@ -265,10 +273,9 @@ gtk
 gtk-engines
 gtk-sharp-2
 gtk-update-icon-cache
+gtk-xfce-engine
 gtk2
-gtk2-xfce-engine
 gtk3
-gtk3-xfce-engine
 gtkglext
 gtkmm
 gtkmm3
@@ -315,7 +322,6 @@ intltool
 iproute2
 iptables
 iputils
-isl
 iso-codes
 itstool
 jack2-dbus
@@ -333,6 +339,7 @@ js17
 js185
 json-c
 json-glib
+jsoncpp
 kactivities4
 karchive
 katepart4
@@ -340,6 +347,7 @@ kauth
 kbd
 kbookmarks
 kbproto
+kcmutils
 kcodecs
 kcompletion
 kconfig
@@ -360,6 +368,7 @@ kdebase-lib
 kdebase-plasma
 kdebase-runtime
 kdebase-workspace
+kdeclarative
 kded
 kdegraphics-mobipocket
 kdelibs
@@ -373,11 +382,13 @@ kdiff3
 keepass
 kemoticons
 keyutils
-kfilemetadata
+kfilemetadata4
+kfilemetadata5
 kglobalaccel
 kguiaddons
 ki18n
 kiconthemes
+kidletime
 kinit
 kio
 kitemmodels
@@ -388,6 +399,7 @@ knewstuff
 knotifications
 knotifyconfig
 konsole
+kpackage
 kparts
 kplotting
 kpty
@@ -459,7 +471,6 @@ lib32-libogg
 lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
-lib32-libpng12
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
@@ -634,7 +645,6 @@ libnewt
 libnice
 libnl
 libnm-glib
-libnm-gtk
 libnotify
 liboauth
 libodfgen
@@ -649,7 +659,6 @@ libpeas
 libpipeline
 libplist
 libpng
-libpng12
 libproxy
 libpulse
 libpurple
@@ -678,6 +687,7 @@ libsmf
 libsndfile
 libsoup
 libspiro
+libsrtp
 libssh
 libssh2
 libsystemd
@@ -844,7 +854,7 @@ networkmanager
 nfs-utils
 nfsidmap
 nini
-nixnote
+nm-connection-editor
 nmap
 nodejs
 nodejs-bower
@@ -893,6 +903,7 @@ perl
 perl-error
 perl-file-next
 perl-test-pod
+perl-uri
 perl-xml-namespacesupport
 perl-xml-parser
 perl-xml-sax
@@ -922,12 +933,14 @@ pm-utils
 pngout
 podofo
 polkit
+polkit-gnome
 polkit-kde
 polkit-qt4
 polkit-qt5
 poppler
 poppler-glib
 poppler-qt4
+poppler-qt5
 popt
 portaudio
 portmidi
@@ -1019,6 +1032,8 @@ qt5-location
 qt5-script
 qt5-sensors
 qt5-svg
+qt5-tools
+qt5-translations
 qt5-webchannel
 qt5-webkit
 qt5-x11extras
@@ -1190,6 +1205,7 @@ wine
 winetricks
 wireless_tools
 wpa_supplicant
+wxgtk
 wxgtk2.8
 x264
 x265
@@ -1270,6 +1286,7 @@ xorg-xvinfo
 xorg-xwininfo
 xproto
 xterm
+xulrunner
 xvidcore
 xz
 yajl
