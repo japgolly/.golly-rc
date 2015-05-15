@@ -41,7 +41,7 @@ automoc4
 avahi
 awoken-icons
 babl
-baloo-frameworks
+baloo
 baloo4-akonadi
 baloo4-widgets
 baobab
@@ -382,8 +382,8 @@ kdiff3
 keepass
 kemoticons
 keyutils
+kfilemetadata
 kfilemetadata4
-kfilemetadata5
 kglobalaccel
 kguiaddons
 ki18n
@@ -398,7 +398,6 @@ kmod
 knewstuff
 knotifications
 knotifyconfig
-kodi
 konsole
 kpackage
 kparts
@@ -626,8 +625,6 @@ libmad
 libmariadbclient
 libmatekbd
 libmatroska
-libmicrohttpd
-libmikmod
 libmm-glib
 libmms
 libmng
@@ -799,7 +796,6 @@ lzo
 m17n-db
 m17n-lib
 m4
-m64py
 make
 man-db
 man-pages
@@ -816,6 +812,7 @@ maven
 mcpp
 mdadm
 media-player-info
+meld
 mercurial
 mesa
 mesa-demos
@@ -945,7 +942,6 @@ poppler-qt4
 poppler-qt5
 popt
 portaudio
-portmidi
 postgresql
 postgresql-docs
 postgresql-libs
@@ -973,16 +969,11 @@ python
 python-cairo
 python-dbus
 python-dbus-common
-python-docutils
 python-gobject
 python-html2text
-python-jinja
-python-markupsafe
-python-pygments
 python-pyqt4
 python-setuptools
 python-sip
-python-sphinx
 python-xdg
 python2
 python2-apsw
@@ -995,12 +986,10 @@ python2-cssutils
 python2-dateutil
 python2-dbus
 python2-dnspython
-python2-docutils
 python2-gconf
 python2-gobject
 python2-gobject2
 python2-html5lib
-python2-jinja
 python2-lxml
 python2-mako
 python2-markupsafe
@@ -1010,18 +999,12 @@ python2-notify
 python2-numpy
 python2-pillow
 python2-psutil
-python2-pybluez
-python2-pygame
 python2-pygments
-python2-pyqt4
 python2-pyqt5
 python2-reportlab
-python2-scipy
 python2-setuptools
-python2-simplejson
 python2-sip
 python2-six
-python2-sphinx
 python2-xdg
 qca
 qimageblitz
@@ -1077,8 +1060,6 @@ sdl
 sdl2
 sdl2_image
 sdl_image
-sdl_mixer
-sdl_ttf
 sed
 sensors-applet
 serd
@@ -1149,7 +1130,6 @@ thin-provisioning-tools
 threadweaver
 thunar
 tidyhtml
-tinyxml
 tmux
 totem-plparser
 traceroute
