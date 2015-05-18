@@ -529,10 +529,15 @@ logrotate
 lpsolve
 lsof
 lua
-lua-bitop
 lua-expat
 lua-socket
 lua51
+lua52
+lua52-bitop
+lua52-expat
+lua52-lpeg
+lua52-luajson
+lua52-socket
 lvm2
 lynx
 lz4
