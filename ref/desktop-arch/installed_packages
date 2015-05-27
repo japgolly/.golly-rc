@@ -768,6 +768,7 @@ lzo
 m17n-db
 m17n-lib
 m4
+m64py
 make
 man-db
 man-pages
@@ -971,6 +972,7 @@ python2-numpy
 python2-pillow
 python2-psutil
 python2-pygments
+python2-pyqt4
 python2-pyqt5
 python2-reportlab
 python2-setuptools
