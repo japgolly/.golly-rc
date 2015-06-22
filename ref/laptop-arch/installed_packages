@@ -320,14 +320,13 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
-libcl
 libcompizconfig
 libcroco
 libcups
 libdaemon
 libdatrie
 libdbus
-libdbusmenu-qt
+libdbusmenu-qt4
 libdc1394
 libdca
 libdmx
@@ -595,6 +594,7 @@ nspr
 nss
 ntfs-3g
 ntp
+ocl-icd
 odt2txt
 openal
 opencore-amr
@@ -666,6 +666,7 @@ postgresql-old-upgrade
 ppp
 procps-ng
 profont
+progsreiserfs
 protobuf
 protobuf-c
 psmisc
@@ -790,6 +791,7 @@ tar
 tdb
 telepathy-glib
 terminus-font-ttf
+testdisk
 tevent
 texinfo
 thin-provisioning-tools
