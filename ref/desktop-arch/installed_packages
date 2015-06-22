@@ -820,7 +820,7 @@ ncurses
 neon
 nepomuk-core
 nepomuk-widgets
-netcfg
+netctl
 nettle
 network-manager-applet
 networkmanager
@@ -849,6 +849,7 @@ opencl-nvidia
 opencore-amr
 openexr
 openjpeg
+openresolv
 openssh
 openssl
 opus
