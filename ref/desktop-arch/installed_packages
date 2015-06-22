@@ -85,6 +85,7 @@ colord
 colordiff
 compiz
 compositeproto
+confuse
 conky
 convertlit
 coreutils
@@ -530,14 +531,13 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
-libcl
 libconfig
 libcroco
 libcups
 libdaemon
 libdatrie
 libdbus
-libdbusmenu-qt
+libdbusmenu-qt4
 libdbusmenu-qt5
 libdc1394
 libdca
@@ -603,6 +603,7 @@ liblrdf
 libmad
 libmariadbclient
 libmatekbd
+libmatemixer
 libmatroska
 libmm-glib
 libmms
@@ -780,7 +781,7 @@ mate-desktop
 mate-dialogs
 mate-icon-theme
 mate-menus
-mate-settings-daemon-gstreamer
+mate-settings-daemon
 maven
 mcpp
 mdadm
@@ -842,6 +843,7 @@ ntp
 nvidia
 nvidia-libgl
 nvidia-utils
+ocl-icd
 odt2txt
 opencl-nvidia
 opencore-amr
@@ -1100,6 +1102,7 @@ thin-provisioning-tools
 threadweaver
 thunar
 tidyhtml
+tig
 tmux
 traceroute
 transmission-cli
