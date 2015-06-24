@@ -23,10 +23,10 @@ function install {
 #curl -O http://scie.nti.st/dist/256colors2.pl && chmod 777 256colors2.pl && ./256colors2.pl; tput colors
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle \
-  && curl -so ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
+  && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 echo
 
-install https://github.com/tpope/vim-rails.git
+#install https://github.com/tpope/vim-rails.git
 install https://github.com/godlygeek/csapprox.git
 install https://github.com/altercation/vim-colors-solarized.git
 install https://github.com/tpope/vim-markdown.git
@@ -37,10 +37,11 @@ install https://github.com/flazz/vim-colorschemes.git
 install https://github.com/derekwyatt/vim-scala.git
 install https://github.com/pangloss/vim-javascript.git
 install https://github.com/elzr/vim-json.git
+#install https://github.com/terryma/vim-multiple-cursors.git
 
 # Haskell
-install https://github.com/scrooloose/syntastic.git
-install https://github.com/Shougo/vimproc.vim.git   make
-install https://github.com/eagletmt/ghcmod-vim
-install https://github.com/bitc/vim-hdevtools.git
+#install https://github.com/scrooloose/syntastic.git
+#install https://github.com/Shougo/vimproc.vim.git   make
+#install https://github.com/eagletmt/ghcmod-vim
+#install https://github.com/bitc/vim-hdevtools.git
 
