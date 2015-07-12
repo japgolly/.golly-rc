@@ -87,6 +87,9 @@ function finds {
   fi
   find "$dir" "$@" -name "$name" | sort
 }
+function fixspace {
+  find "$@" -type f -name '*.scala' -exec perl -pi -e 's/[ \t]+$//' {} +
+}
 function kvm_on {
   sudo modprobe -r vboxnetflt
   sudo modprobe -r vboxdrv
