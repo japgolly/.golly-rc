@@ -98,6 +98,7 @@ cryptsetup
 cups
 cups-filters
 curl
+cwdiff
 damageproto
 db
 dbus
@@ -164,6 +165,7 @@ fluidsynth
 fontconfig
 fontsproto
 freeglut
+freerdp
 freetype2
 fribidi
 ftgl
@@ -696,6 +698,7 @@ libva-vdpau-driver
 libvdpau
 libvisio
 libvisual
+libvncserver
 libvorbis
 libvpx
 libwbclient
@@ -968,6 +971,7 @@ python2-gconf
 python2-gobject
 python2-gobject2
 python2-html5lib
+python2-keybinder2
 python2-lxml
 python2-mako
 python2-markupsafe
@@ -1017,6 +1021,7 @@ redland-storage-virtuoso
 redshift
 refind-efi
 reiserfsprogs
+remmina
 renameutils
 renderproto
 rest
@@ -1158,6 +1163,7 @@ vte-common
 vte3
 wavpack
 wayland
+wdiff
 webkit2gtk
 webkitgtk
 wget
