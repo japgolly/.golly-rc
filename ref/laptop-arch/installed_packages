@@ -138,6 +138,7 @@ fluidsynth
 fontconfig
 fontsproto
 freeglut
+freerdp
 freetype2
 fribidi
 fuse
@@ -861,6 +862,7 @@ winetricks
 wireless_tools
 wpa_supplicant
 wxgtk2.8
+x11vnc
 x264
 x265
 xbitmaps
