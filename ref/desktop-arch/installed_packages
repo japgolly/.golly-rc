@@ -402,6 +402,7 @@ kwidgetsaddons
 kwindowsystem
 kwrite
 kxmlgui
+l-smash
 ladspa
 lame
 lapack
@@ -591,6 +592,7 @@ libid3tag
 libidn
 libiec61883
 libimobiledevice
+libinput
 libiodbc
 libirman
 libjpeg-turbo
