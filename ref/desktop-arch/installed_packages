@@ -306,6 +306,7 @@ inotify-tools
 inputproto
 intel-ucode
 intltool
+iotop
 iproute2
 iptables
 iputils
@@ -1021,7 +1022,6 @@ redland-storage-virtuoso
 redshift
 refind-efi
 reiserfsprogs
-remmina
 renameutils
 renderproto
 rest
@@ -1091,6 +1091,7 @@ suil
 swi-prolog
 sysfsutils
 syslinux
+sysstat
 systemd
 systemd-sysvcompat
 t1lib
