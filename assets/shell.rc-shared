@@ -85,7 +85,7 @@ function finds {
     name="*$1$name"
     shift
   fi
-  find "$dir" "$@" -name "$name" | sort
+  find "$dir" "$@" -type f -name "$name" | sort
 }
 function fixspace {
   find "$@" -type f -name '*.scala' -exec perl -pi -e 's/[ \t]+$//' {} +
