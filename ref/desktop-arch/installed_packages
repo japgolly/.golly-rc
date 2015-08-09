@@ -643,6 +643,7 @@ libpaper
 libpcap
 libpciaccess
 libpeas
+libpgm
 libpipeline
 libplist
 libpng
@@ -669,7 +670,9 @@ libsigsegv
 libsm
 libsmf
 libsndfile
+libsodium
 libsoup
+libsoxr
 libspiro
 libssh
 libssh2
@@ -1263,6 +1266,7 @@ xz
 yajl
 yaourt
 zenity
+zeromq
 zip
 zita-alsa-pcmi
 zita-convolver
