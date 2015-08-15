@@ -303,6 +303,7 @@ ldb
 ldns
 leafpad
 less
+libabw
 libaio
 libarchive
 libass
@@ -337,6 +338,7 @@ libdv
 libdvbpsi
 libdvdnav
 libdvdread
+libe-book
 libebml
 libedit
 libepoxy
@@ -396,6 +398,7 @@ libmpd
 libmpeg2
 libmspub
 libmtp
+libmwaw
 libnautilus-extension
 libndp
 libnewt
@@ -408,10 +411,12 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libpagemaker
 libpaper
 libpcap
 libpciaccess
 libpeas
+libpgm
 libpipeline
 libplist
 libpng
@@ -438,6 +443,7 @@ libsidplay
 libsigc++
 libsm
 libsndfile
+libsodium
 libsoup
 libsoxr
 libspiro
@@ -685,11 +691,23 @@ pyqt4-common
 pyqt5-common
 pyrex
 python
+python-babel
 python-dbus
 python-dbus-common
+python-docutils
 python-gobject
+python-jinja
+python-markupsafe
+python-pygments
 python-pyqt4
+python-pytz
+python-setuptools
 python-sip
+python-six
+python-snowballstemmer
+python-sphinx
+python-sphinx-alabaster-theme
+python-sphinx_rtd_theme
 python-xdg
 python2
 python2-apsw
@@ -950,6 +968,7 @@ xz
 yajl
 yaourt
 zenity
+zeromq
 zip
 zita-alsa-pcmi
 zita-resampler
