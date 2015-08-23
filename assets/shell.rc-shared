@@ -37,6 +37,7 @@ alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --ve
 alias scr='clear && scala -language:_'
 alias diffu='colordiff -u'
 alias gca='git commit --amend'
+alias gcan='git commit --amend --date=now'
 alias ww='google-chrome-stable --incognito'
 alias WIPE='git wipe; git clean -df'
 alias grep='grep --color=auto'
