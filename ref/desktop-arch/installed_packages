@@ -41,8 +41,8 @@ avahi
 awoken-icons
 babl
 baloo
+baloo-widgets
 baloo4-akonadi
-baloo4-widgets
 baobab
 bash
 bash-completion
@@ -120,6 +120,8 @@ dmxproto
 dnssec-anchors
 docbook-xml
 docbook-xsl
+dolphin
+dolphinpart4
 dos2unix
 dosfstools
 dotconf
@@ -230,6 +232,7 @@ gpart
 gparted
 gperf
 gpgme
+gpgmepp
 gpm
 grantlee-qt4
 graphite
@@ -321,14 +324,13 @@ jdk
 jdk7-compat
 jemalloc
 jfsutils
-jmeter
 jre6-compat
 js17
 js185
 json-c
 json-glib
 jsoncpp
-kactivities4
+kactivities-frameworks
 karchive
 katepart4
 kauth
@@ -344,8 +346,8 @@ kcoreaddons
 kcrash
 kdbusaddons
 kde-base-artwork
+kde-templates
 kde-wallpapers
-kdebase-dolphin
 kdebase-kdepasswd
 kdebase-kdialog
 kdebase-keditbookmarks
@@ -367,6 +369,7 @@ kdesdk-kcachegrind
 kdesignerplugin
 kdewebkit
 kdiff3
+kdnssd
 keepass
 kemoticons
 keyutils
@@ -374,14 +377,17 @@ kfilemetadata
 kfilemetadata4
 kglobalaccel
 kguiaddons
+khtml
 ki18n
 kiconthemes
 kidletime
 kinit
 kio
+kio-extras
 kitemmodels
 kitemviews
 kjobwidgets
+kjs
 kmod
 knewstuff
 knotifications
@@ -848,8 +854,6 @@ nini
 nm-connection-editor
 nmap
 nodejs
-nodejs-bower
-nodejs-grunt-cli
 notification-daemon
 notify-sharp
 npm
@@ -868,6 +872,7 @@ opencore-amr
 openexr
 openjpeg
 openresolv
+openslp
 openssh
 openssl
 opus
@@ -1256,6 +1261,7 @@ xorg-mkfontdir
 xorg-mkfontscale
 xorg-server
 xorg-server-common
+xorg-server-xvfb
 xorg-setxkbmap
 xorg-utils
 xorg-xauth
