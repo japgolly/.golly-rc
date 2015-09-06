@@ -44,6 +44,7 @@
       <property name="&lt;Super&gt;b" type="string" value="subl"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito --enable-precise-memory-info"/>
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
+      <property name="&lt;Super&gt;f" type="string" value="firefox"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
