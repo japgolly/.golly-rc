@@ -854,6 +854,8 @@ nini
 nm-connection-editor
 nmap
 nodejs
+nodejs-bower
+nodejs-grunt-cli
 notification-daemon
 notify-sharp
 npm
