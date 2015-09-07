@@ -19,7 +19,6 @@
 /etc/conf.d/
 /etc/default/tlp
 /etc/fstab
-/etc/hosts
 /etc/httpd/conf/httpd.conf
 /etc/httpd/conf/mime.types
 /etc/i8kutils/i8kmon.conf

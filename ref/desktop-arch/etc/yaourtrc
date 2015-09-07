@@ -1,13 +1,14 @@
 #    yaourtrc  - Configuration for yaourt
-# 
+#
 #   See yaourtrc(5) for more information
-#   
+#
 #
 
 # General
 #AUTOSAVEBACKUPFILE=0
 #DEVELSRCDIR=""
 #DEVEL=0
+#VISUAL="$VISUAL"
 #EDITOR="$EDITOR"
 #FORCEENGLISH=0
 #FORCE=0
@@ -55,6 +56,7 @@ EXPORT=2           # Export to 1: EXPORTDIR or PKGDEST
 
 # Command
 #PACMAN="pacman"
+#MAKEPKG="makepkg"
 #DIFFEDITCMD="vimdiff"
 
 # pacdiffviewer

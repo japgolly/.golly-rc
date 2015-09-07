@@ -3,19 +3,20 @@
 	email = japgolly@gmail.com
 
 [alias]
-   st = status
-   co = checkout
-   b = branch
-   mt = mergetool
-   l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
-   sl = stash list --format='%C(yellow)%h%Creset %ai | %s'
-   diffs = diff --staged
-   diffw = diff --color-words
-   cp = cherry-pick
-   lol = log --graph --decorate --pretty=oneline --abbrev-commit
-   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-   wipe = reset --hard
+   st      = status
+   co      = checkout
+   b       = branch
+   mt      = mergetool
+   l       = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
+   lol     = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d%Creset %s'
+   lola    = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d%Creset %s' --all
+   sl      = stash list --format='%C(yellow)%h%Creset %ai | %s'
+   diffs   = diff --staged
+   diffw   = diff --color-words
+   cp      = cherry-pick
+   wipe    = reset --hard
    unstage = reset HEAD
+   ms      = merge --squash --no-commit
 
 [color]
    ui = true
