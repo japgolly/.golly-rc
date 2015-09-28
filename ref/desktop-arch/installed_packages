@@ -188,6 +188,7 @@ gdbm
 gdk-pixbuf2
 gedit
 gegl
+gegl02
 geoclue
 geoclue2
 geocode-glib
@@ -948,6 +949,7 @@ postgresql
 postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
+potrace
 powertop
 ppp
 prison
