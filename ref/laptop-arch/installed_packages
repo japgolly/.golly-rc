@@ -698,6 +698,7 @@ python-docutils
 python-gobject
 python-jinja
 python-markupsafe
+python-packaging
 python-pygments
 python-pyqt4
 python-pytz
@@ -727,6 +728,7 @@ python2-mako
 python2-markupsafe
 python2-mechanize
 python2-netifaces
+python2-packaging
 python2-pillow
 python2-psutil
 python2-pygments
