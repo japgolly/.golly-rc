@@ -150,6 +150,7 @@ expat
 faac
 faad2
 fakeroot
+farstream
 farstream-0.1
 fbset
 ffmpeg
@@ -201,6 +202,7 @@ giflib
 gimp
 git
 git-cola
+git-extras
 gitg
 glew
 glib
@@ -288,6 +290,7 @@ hdparm
 hicolor-icon-theme
 hspell
 htop
+http-parser
 hunspell
 hunspell-en
 hwids
@@ -566,6 +569,7 @@ libdvdread
 libe-book
 libebml
 libedit
+libelf
 libepoxy
 libetonyek
 libevdev
@@ -1235,6 +1239,7 @@ xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
 xfce4-diskperf-plugin
+xfce4-fsguard-plugin
 xfce4-mixer
 xfce4-mount-plugin
 xfce4-mpc-plugin
@@ -1247,6 +1252,7 @@ xfce4-sensors-plugin
 xfce4-session
 xfce4-settings
 xfce4-systemload-plugin
+xfce4-taskmanager
 xfconf
 xfdesktop
 xfsprogs
