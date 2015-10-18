@@ -54,7 +54,7 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 "
 au BufNewFile,BufRead *.gec,Guardfile set filetype=ruby
 au BufNewFile,BufRead *.gv            set filetype=dot
-au filetype ruby,yaml,sh,haskell,scala setlocal colorcolumn=121
+au filetype ruby,yaml,sh,haskell,scala setlocal colorcolumn=81,121
 au filetype markdown setlocal colorcolumn=81,101,121
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
