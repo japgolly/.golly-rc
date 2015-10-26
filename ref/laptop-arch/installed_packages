@@ -121,6 +121,7 @@ expat
 faac
 faad2
 fakeroot
+farstream
 farstream-0.1
 fbset
 feh
@@ -156,6 +157,7 @@ gdbm
 gdk-pixbuf2
 gedit
 gegl
+gegl02
 geoclue
 geoclue2
 geocode-glib
@@ -182,7 +184,6 @@ gnome-icon-theme-symbolic
 gnome-menus
 gnome-online-accounts
 gnome-panel
-gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 gnupg
@@ -246,6 +247,7 @@ hdparm
 hicolor-icon-theme
 hspell
 htop
+http-parser
 hunspell
 hunspell-en
 hwids
@@ -341,6 +343,7 @@ libdvdread
 libe-book
 libebml
 libedit
+libelf
 libepoxy
 libetonyek
 libevdev
@@ -474,6 +477,7 @@ libusb-compat
 libusbmuxd
 libutempter
 libutil-linux
+libuv
 libva
 libvdpau
 libvisio
@@ -636,7 +640,6 @@ patch
 pciutils
 pcmciautils
 pcre
-pencil
 perl
 perl-error
 perl-file-next
@@ -736,7 +739,7 @@ python2-pyqt5
 python2-setuptools
 python2-sip
 python2-six
-qca
+qca-qt4
 qpdf
 qt4
 qt5-base
@@ -873,8 +876,8 @@ virtualbox-guest-iso
 virtualbox-host-modules
 virtuoso-base
 vlc
+vte
 vte-common
-vte3
 wavpack
 wayland
 webkit2gtk
@@ -913,6 +916,7 @@ xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
 xfce4-diskperf-plugin
+xfce4-fsguard-plugin
 xfce4-mixer
 xfce4-mount-plugin
 xfce4-mpc-plugin
@@ -925,6 +929,8 @@ xfce4-sensors-plugin
 xfce4-session
 xfce4-settings
 xfce4-systemload-plugin
+xfce4-taskmanager
+xfce4-terminal
 xfconf
 xfdesktop
 xfsprogs
