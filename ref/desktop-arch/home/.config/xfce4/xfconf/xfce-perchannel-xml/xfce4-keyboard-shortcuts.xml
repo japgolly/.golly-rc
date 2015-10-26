@@ -36,7 +36,6 @@
       <property name="&lt;Super&gt;Down" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Down&quot;"/>
       <property name="&lt;Super&gt;Left" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Back by 5 seconds&quot;"/>
       <property name="&lt;Super&gt;Right" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Ahead by 5 seconds&quot;"/>
-      <property name="&lt;Super&gt;t" type="string" value="/usr/bin/gnome-terminal"/>
       <property name="&lt;Super&gt;m" type="string" value="/usr/bin/speedcrunch"/>
       <property name="&lt;Super&gt;l" type="string" value="leafpad"/>
       <property name="&lt;Super&gt;k" type="string" value="/usr/bin/keepass"/>
@@ -45,6 +44,7 @@
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito --enable-precise-memory-info"/>
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
       <property name="&lt;Super&gt;f" type="string" value="firefox"/>
+      <property name="&lt;Super&gt;t" type="string" value="/usr/bin/dbus-launch gnome-terminal"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -45,6 +45,8 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias pie='perl -pi -e'
 
+alias odx='od -Ax -tx1z'
+
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
 alias mpv-del-size="${mpv_del_xargs} du -shc"
