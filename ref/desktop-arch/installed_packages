@@ -20,6 +20,7 @@ apr
 apr-util
 archlinux-keyring
 ardour
+arm
 asciidoc
 aspell
 aspell-en
@@ -27,6 +28,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
+atom-editor-bin
 attica-qt4
 attica-qt5
 attr
@@ -117,6 +119,7 @@ dialog
 diffutils
 ding-libs
 dmenu
+dmidecode
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -219,7 +222,6 @@ gnome-icon-theme-symbolic
 gnome-menus
 gnome-online-accounts
 gnome-panel
-gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 gnupg
@@ -456,6 +458,7 @@ lib32-krb5
 lib32-lcms2
 lib32-libasyncns
 lib32-libcap
+lib32-libcroco
 lib32-libcups
 lib32-libdatrie
 lib32-libdbus
@@ -474,6 +477,7 @@ lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpulse
+lib32-librsvg
 lib32-libsm
 lib32-libsndfile
 lib32-libssh2
@@ -704,6 +708,7 @@ libthai
 libtheora
 libtiff
 libtiger
+libtinfo
 libtirpc
 libtool
 libtracker-sparql
@@ -908,7 +913,6 @@ pavucontrol
 pciutils
 pcmciautils
 pcre
-pencil
 perl
 perl-error
 perl-file-next
@@ -1067,6 +1071,7 @@ renameutils
 renderproto
 rest
 rlwrap
+rot13
 rpcbind
 rrdtool
 rsync
@@ -1093,6 +1098,7 @@ sg3_utils
 shadow
 shared-desktop-ontologies
 shared-mime-info
+sharutils
 signon
 sip
 sk1libs
@@ -1156,9 +1162,12 @@ thunar
 tidyhtml
 tig
 tmux
+tor
+tor-browser-en
 traceroute
 transmission-cli
 tree
+trid
 ttf-adobe-fonts
 ttf-anonymous-pro
 ttf-arphic-uming
@@ -1191,6 +1200,7 @@ util-linux
 v4l-utils
 vamp-plugin-sdk
 vi
+vid.stab
 videoproto
 vim-runtime
 vim-systemd
@@ -1203,7 +1213,6 @@ visualvm
 vlc
 vte
 vte-common
-vte3
 wavpack
 wayland
 wdiff
@@ -1258,6 +1267,7 @@ xfce4-session
 xfce4-settings
 xfce4-systemload-plugin
 xfce4-taskmanager
+xfce4-terminal
 xfconf
 xfdesktop
 xfsprogs
@@ -1300,7 +1310,6 @@ xorg-xvinfo
 xorg-xwininfo
 xproto
 xterm
-xulrunner
 xvidcore
 xz
 yajl
