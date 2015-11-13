@@ -34,7 +34,7 @@
       <property name="&lt;Super&gt;b" type="string" value="subl"/>
       <property name="&lt;Super&gt;l" type="string" value="leafpad"/>
       <property name="&lt;Super&gt;k" type="string" value="keepass"/>
-      <property name="&lt;Super&gt;t" type="string" value="dbus-launch gnome-terminal"/>
+      <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
