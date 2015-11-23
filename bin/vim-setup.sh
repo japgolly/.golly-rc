@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p ~/.vim/backups
+
 function install {
   url="$1"
   shift

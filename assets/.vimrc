@@ -30,6 +30,9 @@ filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 compiler ruby         " Enable compiler support for ruby
 
+set backupdir=~/.vim/backups,.
+set directory=~/.vim/backups,.
+
 let g:vim_json_syntax_conceal = 0
 
 " Tell vim to remember certain things when we exit
