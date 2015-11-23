@@ -28,7 +28,7 @@ at-spi2-atk 2.18.1-1
 at-spi2-core 2.18.2-1
 atk 2.18.0-1
 atkmm 2.24.1-1
-atom-editor-bin 1.1.0-1
+atom-editor-bin 1.2.0-1
 attica-qt4 0.4.2-1
 attica-qt5 5.15.0-1
 attr 2.4.47-1
@@ -841,7 +841,7 @@ mozilla-common 1.4-4
 mpfr 3.1.3.p4-1
 mpg123 1.22.4-1
 mplayer 37379-5
-mpv 1:0.12.0-1
+mpv 1:0.13.0-1
 mtdev 1.1.5-1
 mtools 4.0.18-2
 mtr 0.86-2
@@ -867,12 +867,12 @@ nfsidmap 0.26-1
 nini 1.1.0-5
 nm-connection-editor 1.0.6-1
 nmap 6.47-3
-nodejs 5.0.0-2
+nodejs 5.1.0-1
 nodejs-bower 1.5.3-1
 nodejs-grunt-cli 0.1.13-8
 notification-daemon 3.18.1-1
 notify-sharp 0.4.1-2
-npm 3.3.12-1
+npm 3.4.1-1
 npth 1.2-1
 nspr 4.10.10-1
 nss 3.20.1-1
@@ -962,7 +962,7 @@ postgresql-docs 9.4.5-1
 postgresql-libs 9.4.5-1
 postgresql-old-upgrade 9.3.10-1
 potrace 1.12-1
-powertop 2.7-3
+powertop 2.8-1
 ppp 2.4.7-2
 prison 1.1.1-1
 procps-ng 3.3.11-2
@@ -1221,7 +1221,7 @@ webkitgtk 2.4.9-2
 wget 1.16.3-1
 which 2.21-1
 wildmidi 0.3.8-1
-wine 1.7.54-1
+wine 1.7.55-2
 winetricks 20150826-1
 wireless_tools 30.pre9-1
 wpa_supplicant 1:2.3-1
