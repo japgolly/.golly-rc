@@ -28,9 +28,9 @@ echo
 
 #install https://github.com/tpope/vim-rails.git
 install https://github.com/godlygeek/csapprox.git
-install https://github.com/altercation/vim-colors-solarized.git
+#install https://github.com/altercation/vim-colors-solarized.git
 install https://github.com/tpope/vim-markdown.git
-install https://github.com/timcharper/textile.vim.git
+#install https://github.com/timcharper/textile.vim.git
 install https://github.com/vim-scripts/ScrollColors.git
 install https://github.com/aklt/plantuml-syntax.git
 install https://github.com/flazz/vim-colorschemes.git
@@ -38,6 +38,7 @@ install https://github.com/derekwyatt/vim-scala.git
 install https://github.com/pangloss/vim-javascript.git
 install https://github.com/elzr/vim-json.git
 #install https://github.com/terryma/vim-multiple-cursors.git
+install https://github.com/kchmck/vim-coffee-script.git
 
 # Haskell
 #install https://github.com/scrooloose/syntastic.git
