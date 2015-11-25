@@ -38,6 +38,7 @@
 
 [merge]
   tool = kdiff3
+  renamelimit = 999999
 
 [diff "odf"]
 	textconv = odt2txt
