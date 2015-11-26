@@ -20,7 +20,6 @@ apr-util
 archlinux-keyring
 ardour
 arm
-asciidoc
 aspell
 aspell-en
 at-spi2-atk
@@ -36,7 +35,6 @@ audio-convert
 authbind
 autoconf
 automake
-automoc4
 avahi
 awoken-icons
 babl
@@ -50,11 +48,9 @@ binutils
 bison
 blas
 bluez-libs
-bluez-utils
 boost
 boost-libs
 brother-mfc-j5320dw
-bsdiff
 bzip2
 ca-certificates
 ca-certificates-cacert
@@ -66,7 +62,6 @@ cairo
 cairo-dock
 cairo-dock-plug-ins
 cairomm
-caja
 calf
 calibre
 cantarell-fonts
@@ -74,9 +69,7 @@ cblas
 cdparanoia
 celt
 chmlib
-chrpath
 cifs-utils
-clang
 cloc
 clucene
 cmake
@@ -84,7 +77,6 @@ colord
 colordiff
 compiz
 compositeproto
-confuse
 conky
 convertlit
 coreutils
@@ -123,7 +115,6 @@ dos2unix
 dosfstools
 dotconf
 downgrade
-doxygen
 dropbox
 dssi
 dwdiff
@@ -148,7 +139,6 @@ faac
 faad2
 fakeroot
 farstream
-farstream-0.1
 fbset
 ffmpeg
 fftw
@@ -177,7 +167,6 @@ gawk
 gc
 gcc-libs-multilib
 gcc-multilib
-gcc-objc
 gconf
 gcr
 gd
@@ -185,7 +174,6 @@ gdb
 gdbm
 gdk-pixbuf2
 gedit
-gegl
 gegl02
 geoclue
 geoclue2
@@ -222,7 +210,6 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
-gobject-introspection
 gobject-introspection-runtime
 google-chrome
 google-musicmanager
@@ -233,7 +220,6 @@ gperf
 gpgme
 gpgmepp
 gpm
-grantlee-qt4
 graphite
 graphviz
 grep
@@ -259,7 +245,6 @@ gstreamer0.10-python
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
 gtk
-gtk-doc
 gtk-engines
 gtk-sharp-2
 gtk-update-icon-cache
@@ -296,7 +281,6 @@ hwinfo
 hyphen
 hyphen-en
 iana-etc
-icon-naming-utils
 icu
 id3lib
 idnkit
@@ -310,13 +294,11 @@ inkscape
 inotify-tools
 inputproto
 intel-ucode
-intltool
 iotop
 iproute2
 iptables
 iputils
 iso-codes
-itstool
 jack2-dbus
 jansson
 jasper
@@ -327,7 +309,6 @@ jdk7-compat
 jfsutils
 jre6-compat
 js17
-js185
 json-c
 json-glib
 jsoncpp
@@ -385,7 +366,6 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
-lib32-curl
 lib32-e2fsprogs
 lib32-elfutils
 lib32-expat
@@ -431,7 +411,6 @@ lib32-libpulse
 lib32-librsvg
 lib32-libsm
 lib32-libsndfile
-lib32-libssh2
 lib32-libtasn1
 lib32-libthai
 lib32-libtiff
@@ -459,7 +438,6 @@ lib32-libxt
 lib32-libxtst
 lib32-libxv
 lib32-libxxf86vm
-lib32-llvm-amdgpu-lib-snapshot
 lib32-llvm-libs
 lib32-mesa
 lib32-ncurses
@@ -479,13 +457,11 @@ lib32-systemd
 lib32-util-linux
 lib32-v4l-utils
 lib32-wayland
-lib32-xcb-util
 lib32-xz
 lib32-zlib
 libabw
 libaio
 libarchive
-libart-lgpl
 libass
 libassuan
 libasyncns
@@ -532,11 +508,9 @@ libexif
 libffado
 libffi
 libfontenc
-libftdi
 libftdi-compat
 libgadu
 libgcrypt
-libgcrypt15
 libgdata
 libgdiplus
 libgee
@@ -545,8 +519,6 @@ libgit2-glib
 libglade
 libgme
 libgnome-keyring
-libgnomecanvas
-libgnomecanvasmm
 libgpg-error
 libgssglue
 libgtop
@@ -561,7 +533,6 @@ libidn
 libiec61883
 libimobiledevice
 libinput
-libiodbc
 libirman
 libjpeg-turbo
 libkactivities4
@@ -573,14 +544,11 @@ liblo
 liblqr
 liblrdf
 libmad
-libmatekbd
-libmatemixer
 libmatroska
 libmm-glib
 libmms
 libmng
 libmodplug
-libmowgli
 libmp4v2
 libmpc
 libmpcdec
@@ -631,7 +599,6 @@ libsidplay
 libsigc++
 libsigsegv
 libsm
-libsmf
 libsndfile
 libsodium
 libsoup
@@ -678,7 +645,6 @@ libwnck
 libwnck3
 libwpd
 libwpg
-libwps
 libx11
 libx264
 libx86emu
@@ -726,8 +692,6 @@ linux
 linux-api-headers
 linux-firmware
 lirc
-llvm
-llvm-amdgpu-lib-snapshot
 llvm-libs
 lm_sensors
 lmdb
@@ -750,13 +714,6 @@ m64py
 make
 man-db
 man-pages
-marco
-mate-control-center
-mate-desktop
-mate-dialogs
-mate-icon-theme
-mate-menus
-mate-settings-daemon
 maven
 mcpp
 mdadm
@@ -772,7 +729,6 @@ mirage
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
-mobile-broadband-provider-info
 mono
 mozilla-common
 mpfr
@@ -795,12 +751,10 @@ ncurses
 neon
 netctl
 nettle
-network-manager-applet
 networkmanager
 nfs-utils
 nfsidmap
 nini
-nm-connection-editor
 nmap
 nodejs
 nodejs-bower
@@ -850,15 +804,7 @@ pcre
 perl
 perl-error
 perl-file-next
-perl-test-pod
 perl-uri
-perl-xml-namespacesupport
-perl-xml-parser
-perl-xml-sax
-perl-xml-sax-base
-perl-xml-sax-expat
-perl-xml-simple
-perl-yaml-syck
 pgadmin3
 phantomjs
 phantomjs-bin
@@ -903,7 +849,6 @@ protobuf
 protobuf-c
 psmisc
 psutils
-pth
 pv
 pygobject-devel
 pygobject2-devel
@@ -912,30 +857,14 @@ pyqt4-common
 pyqt5-common
 pyrex
 python
-python-babel
-python-cairo
 python-dbus
 python-dbus-common
-python-docutils
 python-gobject
-python-html2text
-python-jinja
-python-markupsafe
-python-packaging
-python-pygments
 python-pyqt4
-python-pytz
-python-setuptools
 python-sip
-python-six
-python-snowballstemmer
-python-sphinx
-python-sphinx-alabaster-theme
-python-sphinx_rtd_theme
 python-xdg
 python2
 python2-apsw
-python2-beaker
 python2-cairo
 python2-chardet
 python2-cherrypy
@@ -948,10 +877,7 @@ python2-gconf
 python2-gobject
 python2-gobject2
 python2-html5lib
-python2-keybinder2
 python2-lxml
-python2-mako
-python2-markupsafe
 python2-mechanize
 python2-netifaces
 python2-notify
@@ -992,7 +918,6 @@ readline
 recode
 recordproto
 redland
-redland-storage-virtuoso
 redshift
 refind-efi
 reiserfsprogs
@@ -1021,7 +946,6 @@ sed
 sensors-applet
 serd
 serf
-setconf
 sfnt2woff
 sg3_utils
 shadow
@@ -1041,13 +965,10 @@ smuxi-server
 snappy
 solid
 sonnet
-soprano
 sord
 sound-theme-freedesktop
 soundtouch
-source-highlight
 spandsp
-sparsehash
 speech-dispatcher
 speedcrunch
 speex
@@ -1115,7 +1036,6 @@ unace
 unarchiver
 unetbootin
 uniconvertor
-unixodbc
 unoconv
 unrar
 unzip
@@ -1133,7 +1053,6 @@ vimpager
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules
-virtuoso-base
 visualvm
 vlc
 vte
@@ -1195,7 +1114,6 @@ xfdesktop
 xfsprogs
 xineramaproto
 xkeyboard-config
-xmlto
 xorg-bdftopcf
 xorg-font-util
 xorg-font-utils
@@ -1235,12 +1153,9 @@ xvidcore
 xz
 yajl
 yaourt
-yelp-tools
-yelp-xsl
 zenity
 zeromq
 zip
-zita-alsa-pcmi
 zita-convolver
 zita-resampler
 zlib

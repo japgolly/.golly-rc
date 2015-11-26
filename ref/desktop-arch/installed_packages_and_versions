@@ -20,7 +20,6 @@ apr-util 1.5.4-1
 archlinux-keyring 20150605-1
 ardour 4.2-1
 arm 1.4.5.0-2
-asciidoc 8.6.9-2
 aspell 0.60.6.1-3
 aspell-en 2015.04.24-1
 at-spi2-atk 2.18.1-1
@@ -36,7 +35,6 @@ audio-convert 0.3.1.1-7
 authbind 2.1.1-1
 autoconf 2.69-2
 automake 1.15-1
-automoc4 0.9.88-6
 avahi 0.6.32rc-1
 awoken-icons 2.5.2-1
 babl 0.1.12-1
@@ -50,11 +48,9 @@ binutils 2.25.1-3
 bison 3.0.4-1
 blas 3.6.0-2
 bluez-libs 5.36-1
-bluez-utils 5.36-1
 boost 1.59.0-3
 boost-libs 1.59.0-3
 brother-mfc-j5320dw 3.0.1-3
-bsdiff 4.3-8
 bzip2 1.0.6-5
 ca-certificates 20150402-1
 ca-certificates-cacert 20140824-2
@@ -66,7 +62,6 @@ cairo 1.14.4-1
 cairo-dock 3.4.1-2
 cairo-dock-plug-ins 3.4.1-3
 cairomm 1.12.0-1
-caja 1.12.0-1
 calf 0.0.60-1
 calibre 2.44.1-1
 cantarell-fonts 0.0.18.1-1
@@ -74,9 +69,7 @@ cblas 3.6.0-2
 cdparanoia 10.2-5
 celt 0.11.3-2
 chmlib 0.40-4
-chrpath 0.16-1
 cifs-utils 6.4-1
-clang 3.7.0-5
 cloc 1.64-1
 clucene 2.3.3.4-8
 cmake 3.4.0-2
@@ -84,7 +77,6 @@ colord 1.2.12-1
 colordiff 1.0.15-1
 compiz 0.9.12.2-10
 compositeproto 0.4.2-3
-confuse 2.7-3
 conky 1.10.1-1
 convertlit 1.8-7
 coreutils 8.24-1
@@ -123,7 +115,6 @@ dos2unix 7.3.2-1
 dosfstools 3.0.28-1
 dotconf 1.3-4
 downgrade 5.1.4-1
-doxygen 1.8.10-1
 dropbox 3.10.11-1
 dssi 1.1.1-7
 dwdiff 2.0.9-5
@@ -148,7 +139,6 @@ faac 1.28-5
 faad2 2.7-4
 fakeroot 1.20.2-1
 farstream 0.2.7-1
-farstream-0.1 0.1.2-5
 fbset 2.1-5
 ffmpeg 1:2.8.2-1
 fftw 3.3.4-1
@@ -177,7 +167,6 @@ gawk 4.1.3-1
 gc 7.4.2-3
 gcc-libs-multilib 5.2.0-2
 gcc-multilib 5.2.0-2
-gcc-objc 5.2.0-2
 gconf 3.2.6-3
 gcr 3.18.0-1
 gd 2.1.1-3
@@ -185,7 +174,6 @@ gdb 7.10-4
 gdbm 1.11-1
 gdk-pixbuf2 2.32.2-1
 gedit 3.18.2-1
-gegl 0.3.0-2
 gegl02 0.2.0-1
 geoclue 0.12.99-2
 geoclue2 2.4.0-1
@@ -222,7 +210,6 @@ gnuplot 5.0.1-1
 gnustep-base 1.24.8-2
 gnustep-make 2.6.7-1
 gnutls 3.4.6-1
-gobject-introspection 1.46.0-1
 gobject-introspection-runtime 1.46.0-1
 google-chrome 46.0.2490.86-1
 google-musicmanager 1.0.221.5230_r0-1
@@ -233,7 +220,6 @@ gperf 3.0.4-5
 gpgme 1.6.0-2
 gpgmepp 15.08.3-1
 gpm 1.20.7-6
-grantlee-qt4 0.5.1-2
 graphite 1:1.3.3-1
 graphviz 2.38.0-7
 grep 2.22-1
@@ -259,7 +245,6 @@ gstreamer0.10-python 0.10.22-2
 gstreamer0.10-ugly 0.10.19-15
 gstreamer0.10-ugly-plugins 0.10.19-15
 gtk 1.2.10-15
-gtk-doc 1.24-1
 gtk-engines 2.21.0-2
 gtk-sharp-2 2.12.22-1
 gtk-update-icon-cache 3.18.5-1
@@ -296,7 +281,6 @@ hwinfo 21.12_1-1
 hyphen 2.8.8-1
 hyphen-en 2.8.8-1
 iana-etc 20151016-1
-icon-naming-utils 0.8.90-3
 icu 56.1-1
 id3lib 3.8.3-15
 idnkit 1.0-3
@@ -310,13 +294,11 @@ inkscape 0.91-13
 inotify-tools 3.14-4
 inputproto 2.3.1-1
 intel-ucode 20150121-1
-intltool 0.51.0-1
 iotop 0.6-4
 iproute2 4.1.1-1
 iptables 1.4.21-3
 iputils 20140519.fad11dc-1
 iso-codes 3.63-1
-itstool 2.0.2-1
 jack2-dbus 1.9.10-1
 jansson 2.7-1
 jasper 1.900.1-14
@@ -327,7 +309,6 @@ jdk7-compat 7.55-1
 jfsutils 1.1.15-4
 jre6-compat 1:6u45-06.1
 js17 17.0.0-1
-js185 1.0.0-2
 json-c 0.12-2
 json-glib 1.0.4-1
 jsoncpp 1.6.5-1
@@ -385,7 +366,6 @@ lib32-atk 2.18.0-1
 lib32-attr 2.4.47-1
 lib32-bzip2 1.0.6-2
 lib32-cairo 1.14.4-1
-lib32-curl 7.45.0-1
 lib32-e2fsprogs 1.42.13-1
 lib32-elfutils 0.164-1
 lib32-expat 2.1.0-2
@@ -431,7 +411,6 @@ lib32-libpulse 7.1-1
 lib32-librsvg 2.40.11-1
 lib32-libsm 1.2.2-1
 lib32-libsndfile 1.0.25-3
-lib32-libssh2 1.6.0-1
 lib32-libtasn1 4.7-1
 lib32-libthai 0.1.22-1
 lib32-libtiff 4.0.6-1
@@ -459,7 +438,6 @@ lib32-libxt 1.1.5-1
 lib32-libxtst 1.2.2-1
 lib32-libxv 1.0.10-1
 lib32-libxxf86vm 1.1.4-1
-lib32-llvm-amdgpu-lib-snapshot 20130403-2
 lib32-llvm-libs 3.7.0-2
 lib32-mesa 11.0.6-1
 lib32-ncurses 6.0-2
@@ -479,13 +457,11 @@ lib32-systemd 227-1
 lib32-util-linux 2.27-1
 lib32-v4l-utils 1.6.3-1
 lib32-wayland 1.9.0-1
-lib32-xcb-util 0.4.0-1
 lib32-xz 5.2.2-1
 lib32-zlib 1.2.8-1
 libabw 0.1.1-1
 libaio 0.3.110-1
 libarchive 3.1.2-8
-libart-lgpl 2.3.21-3
 libass 0.13.0-1
 libassuan 2.3.0-1
 libasyncns 0.8-5
@@ -532,11 +508,9 @@ libexif 0.6.21-2
 libffado 2.2.1-2
 libffi 3.2.1-1
 libfontenc 1.1.3-1
-libftdi 1.2-6
 libftdi-compat 0.20-1
 libgadu 1.12.1-2
 libgcrypt 1.6.4-1
-libgcrypt15 1.5.4-4
 libgdata 0.17.3-1
 libgdiplus 3.12-1
 libgee 0.18.0-1
@@ -545,8 +519,6 @@ libgit2-glib 0.23.6-1
 libglade 2.6.4-5
 libgme 0.6.0-3
 libgnome-keyring 3.12.0-2
-libgnomecanvas 2.30.3-3
-libgnomecanvasmm 2.26.0-3
 libgpg-error 1.20-1
 libgssglue 0.4-2
 libgtop 2.32.0-1
@@ -561,7 +533,6 @@ libidn 1.32-1
 libiec61883 1.2.0-4
 libimobiledevice 1.2.0-1
 libinput 1.1.1-1
-libiodbc 3.52.9-2
 libirman 0.4.6-1
 libjpeg-turbo 1.4.2-1
 libkactivities4 4.13.3-1
@@ -573,14 +544,11 @@ liblo 1:0.28-1
 liblqr 0.4.2-1
 liblrdf 0.5.0-2
 libmad 0.15.1b-7
-libmatekbd 1.12.0-1
-libmatemixer 1.12.0-1
 libmatroska 1.4.2-1
 libmm-glib 1.4.12-1
 libmms 0.6.4-1
 libmng 2.0.3-1
 libmodplug 0.8.8.5-1
-libmowgli 2.0.0-2
 libmp4v2 2.0.0-3
 libmpc 1.0.3-1
 libmpcdec 1.2.6-4
@@ -631,7 +599,6 @@ libsidplay 1.36.59-6
 libsigc++ 2.6.1-1
 libsigsegv 2.10-2
 libsm 1.2.2-2
-libsmf 1.3-4
 libsndfile 1.0.25-3
 libsodium 1.0.6-1
 libsoup 2.52.2-1
@@ -678,7 +645,6 @@ libwnck 2.31.0-1
 libwnck3 3.14.0-1
 libwpd 0.10.0-1
 libwpg 0.3.0-1
-libwps 0.4.2-1
 libx11 1.6.3-1
 libx264 2:148.20150725-1
 libx86emu 1.1.23.1-1
@@ -726,8 +692,6 @@ linux 4.2.5-1
 linux-api-headers 4.1.4-1
 linux-firmware 20150904.6ebf5d5-1
 lirc 1:0.9.3.a-1
-llvm 3.7.0-5
-llvm-amdgpu-lib-snapshot 20130403-3
 llvm-libs 3.7.0-5
 lm_sensors 3.4.0-1
 lmdb 0.9.16-1
@@ -750,13 +714,6 @@ m64py 0.2.3-2
 make 4.1-1
 man-db 2.7.5-1
 man-pages 4.02-1
-marco 1.12.0-1
-mate-control-center 1.12.0-1
-mate-desktop 1.12.0-1
-mate-dialogs 1.8.0-2
-mate-icon-theme 1.12.0-1
-mate-menus 1.12.0-1
-mate-settings-daemon 1.12.0-1
 maven 3.3.9-1
 mcpp 2.7.2-5
 mdadm 3.3.4-1
@@ -772,7 +729,6 @@ mirage 0.9.5.2-3
 mjpegtools 2.1.0-1
 mkinitcpio 18-2
 mkinitcpio-busybox 1.21.1-2
-mobile-broadband-provider-info 20120614-2
 mono 4.0.4.1-1
 mozilla-common 1.4-4
 mpfr 3.1.3.p4-1
@@ -795,12 +751,10 @@ ncurses 6.0-3
 neon 0.30.1-1
 netctl 1.11-1
 nettle 3.1.1-1
-network-manager-applet 1.0.8-1
 networkmanager 1.0.8-1
 nfs-utils 1.3.3-3
 nfsidmap 0.26-1
 nini 1.1.0-5
-nm-connection-editor 1.0.8-1
 nmap 7.00-1
 nodejs 5.1.0-1
 nodejs-bower 1.5.3-1
@@ -850,15 +804,7 @@ pcre 8.37-4
 perl 5.22.0-1
 perl-error 0.17024-1
 perl-file-next 1.12-1
-perl-test-pod 1.51-1
 perl-uri 1.69-1
-perl-xml-namespacesupport 1.11-3
-perl-xml-parser 2.44-2
-perl-xml-sax 0.99-4
-perl-xml-sax-base 1.08-3
-perl-xml-sax-expat 0.51-3
-perl-xml-simple 2.20-3
-perl-yaml-syck 1.29-2
 pgadmin3 1.20.0-5
 phantomjs 2.0.0-5
 phantomjs-bin 1.9.1-2
@@ -903,7 +849,6 @@ protobuf 2.6.1-1
 protobuf-c 1.1.1-1
 psmisc 22.21-3
 psutils 1.17-5
-pth 2.0.7-5
 pv 1.6.0-1
 pygobject-devel 3.18.2-1
 pygobject2-devel 2.28.6-12
@@ -912,30 +857,14 @@ pyqt4-common 4.11.4-2
 pyqt5-common 5.5.1-1
 pyrex 0.9.9-4
 python 3.5.0-2
-python-babel 2.1.1-2
-python-cairo 1.10.0-6
 python-dbus 1.2.0-5
 python-dbus-common 1.2.0-5
-python-docutils 0.12-3
 python-gobject 3.18.2-1
-python-html2text 2015.11.4-1
-python-jinja 2.8-2
-python-markupsafe 0.23-3
-python-packaging 15.3-2
-python-pygments 2.0.2-3
 python-pyqt4 4.11.4-2
-python-pytz 2015.7-1
-python-setuptools 1:18.5-1
 python-sip 4.16.9-2
-python-six 1.10.0-1
-python-snowballstemmer 1.2.0-2
-python-sphinx 1.3.1-10
-python-sphinx-alabaster-theme 0.7.6-2
-python-sphinx_rtd_theme 0.1.9-1
 python-xdg 0.25-3
 python2 2.7.9-1
 python2-apsw 3.8.11.1-2
-python2-beaker 1.7.0-3
 python2-cairo 1.10.0-2
 python2-chardet 2.3.0-2
 python2-cherrypy 3.8.0-1
@@ -948,10 +877,7 @@ python2-gconf 2.28.1-9
 python2-gobject 3.18.2-1
 python2-gobject2 2.28.6-12
 python2-html5lib 0.9999999-2
-python2-keybinder2 0.3.0-2
 python2-lxml 3.5.0-1
-python2-mako 1.0.3-1
-python2-markupsafe 0.23-3
 python2-mechanize 0.2.5-4
 python2-netifaces 0.10.4-1
 python2-notify 0.1.1-13
@@ -992,7 +918,6 @@ readline 6.3.008-3
 recode 3.6-8
 recordproto 1.14.2-2
 redland 1:1.0.17-2
-redland-storage-virtuoso 1:1.0.17-2
 redshift 1.10-2
 refind-efi 0.9.2-1
 reiserfsprogs 3.6.24-1
@@ -1021,7 +946,6 @@ sed 4.2.2-3
 sensors-applet 3.0.0-5
 serd 0.22.0-1
 serf 1.3.8-1
-setconf 0.6.7-1
 sfnt2woff latest-1
 sg3_utils 1.41-1
 shadow 4.2.1-3
@@ -1041,13 +965,10 @@ smuxi-server 1.0-3
 snappy 1.1.3-1
 solid 5.16.0-1
 sonnet 5.16.0-1
-soprano 2.9.4-1
 sord 0.14.0-1
 sound-theme-freedesktop 0.8-2
 soundtouch 1.9.0-1
-source-highlight 3.1.8-3
 spandsp 0.0.6-1
-sparsehash 2.0.2-2
 speech-dispatcher 0.8.3-6
 speedcrunch 0.11-2
 speex 1.2rc2-1
@@ -1115,7 +1036,6 @@ unace 2.5-9
 unarchiver 1:1.9.1-1
 unetbootin 613-1
 uniconvertor 1.1.5-8
-unixodbc 2.3.4-1
 unoconv 0.6-5
 unrar 1:5.3.4-1
 unzip 6.0-11
@@ -1133,7 +1053,6 @@ vimpager 2.06-1
 virtualbox 5.0.10-1
 virtualbox-guest-iso 5.0.10-1
 virtualbox-host-modules 5.0.10-2.1
-virtuoso-base 1:6.1.8-1
 visualvm 1.3.8-1
 vlc 2.2.1-9
 vte 0.28.2-7
@@ -1195,7 +1114,6 @@ xfdesktop 4.12.3-1
 xfsprogs 4.2.0-1
 xineramaproto 1.2.1-3
 xkeyboard-config 2.16-1
-xmlto 0.0.26-1
 xorg-bdftopcf 1.0.5-1
 xorg-font-util 1.3.1-1
 xorg-font-utils 7.6-4
@@ -1235,12 +1153,9 @@ xvidcore 1.3.4-1
 xz 5.2.2-1
 yajl 2.1.0-1
 yaourt 1.7-1
-yelp-tools 3.18.0-1
-yelp-xsl 3.18.1-1
 zenity 3.18.1.1-1
 zeromq 4.1.3-2
 zip 3.0-6
-zita-alsa-pcmi 0.2.0-2
 zita-convolver 3.1.0-2
 zita-resampler 1.3.0-3
 zlib 1.2.8-4
