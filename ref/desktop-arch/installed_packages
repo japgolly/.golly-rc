@@ -96,6 +96,7 @@ dbus-c++
 dbus-glib
 dbus-sharp
 dbus-sharp-glib
+dcadec
 dconf
 deb2targz
 desktop-file-utils
@@ -807,7 +808,6 @@ perl-file-next
 perl-uri
 pgadmin3
 phantomjs
-phantomjs-bin
 phonon-qt4
 phonon-qt4-gstreamer
 phonon-qt5
