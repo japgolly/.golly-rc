@@ -295,6 +295,7 @@ inkscape
 inotify-tools
 inputproto
 intel-ucode
+intltool
 iotop
 iproute2
 iptables
@@ -542,6 +543,7 @@ libkeybinder2
 libksba
 libldap
 liblo
+liblouis
 liblqr
 liblrdf
 libmad
@@ -780,6 +782,7 @@ openjpeg
 openresolv
 openssh
 openssl
+optipng
 opus
 orc
 otf-ipafont
@@ -806,6 +809,7 @@ perl
 perl-error
 perl-file-next
 perl-uri
+perl-xml-parser
 pgadmin3
 phantomjs
 phonon-qt4
@@ -1062,6 +1066,7 @@ wayland
 wdiff
 webkit2gtk
 webkitgtk
+webkitgtk2
 wget
 which
 wildmidi
