@@ -22,6 +22,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
+atom-editor
 attica-qt4
 attr
 audit
@@ -362,6 +363,7 @@ libgit2
 libgit2-glib
 libglade
 libgme
+libgnome-keyring
 libgpg-error
 libgssglue
 libgtop
