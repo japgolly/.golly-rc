@@ -19,6 +19,7 @@ apr
 apr-util
 archlinux-keyring
 ardour
+aria2
 arm
 aspell
 aspell-en
@@ -52,6 +53,7 @@ boost
 boost-libs
 brother-mfc-j5320dw
 bzip2
+c-ares
 ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
