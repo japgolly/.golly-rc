@@ -62,7 +62,7 @@ cabal-install 1.22.6.0-2
 cabextract 1.6-1
 cairo 1.14.6-1
 cairo-dock 3.4.1-2
-cairo-dock-plug-ins 3.4.1-3
+cairo-dock-plug-ins 3.4.1-4
 cairomm 1.12.0-2
 calf 0.0.60-2
 calibre 2.47.0-1
@@ -266,7 +266,7 @@ guile 2.0.11-3
 guitarix2 0.34.0-3
 gutenprint 5.2.10-1
 gvfs 1.26.2-1
-gvim 7.4.944-1
+gvim 7.4.944-2
 gzip 1.6-1
 harfbuzz 1.1.2-3
 harfbuzz-icu 1.1.2-3
@@ -495,7 +495,7 @@ libdbusmenu-qt5 0.9.3+15.10.20150604-3
 libdc1394 2.2.3-1
 libdca 0.0.5-4
 libdmx 1.1.3-1
-libdrm 2.4.65-1
+libdrm 2.4.66-1
 libdv 1.0.0-6
 libdvbpsi 1:1.3.0-1
 libdvdnav 5.0.3-1
@@ -571,7 +571,7 @@ libnl 3.2.26-1
 libnm-glib 1.0.10-1
 libnotify 0.7.6-1
 liboauth 1.0.3-1
-libodfgen 0.1.4-2
+libodfgen 0.1.6-1
 libofa 0.9.3-6
 libogg 1.3.2-1
 libomxil-bellagio 0.9.3-1
@@ -638,7 +638,7 @@ libuv 1.8.0-1
 libva 1.6.2-1
 libva-vdpau-driver 0.7.4-2
 libvdpau 1.1.1-2
-libvisio 0.1.4-1
+libvisio 0.1.5-1
 libvisual 0.4.0-6
 libvncserver 0.9.10-3
 libvorbis 1.3.5-1
@@ -648,7 +648,7 @@ libwebp 0.5.0-1
 libwmf 0.2.8.4-12
 libwnck 2.31.0-1
 libwnck3 3.14.0-1
-libwpd 0.10.0-2
+libwpd 0.10.1-1
 libwpg 0.3.1-1
 libx11 1.6.3-1
 libx264 2:148.20150725-1
@@ -693,7 +693,7 @@ libyaml 0.1.6-1
 libzip 1.0.1-1
 licenses 20140629-1
 lilv 0.22.0-1
-linux 4.2.5-1
+linux 4.3.3-2
 linux-api-headers 4.1.4-1
 linux-firmware 20150904.6ebf5d5-1
 lirc 1:0.9.3.a-1
@@ -772,7 +772,7 @@ nspr 4.11-1
 nss 3.21-1
 ntfs-3g 2015.3.14-1
 ntp 4.2.8.p4-1
-nvidia 358.16-2.1
+nvidia 358.16-3
 nvidia-libgl 358.16-1
 nvidia-utils 358.16-1
 ocl-icd 2.2.8-1
@@ -804,7 +804,7 @@ parted 3.2-3
 partimage 0.6.9-8
 patch 2.7.5-1
 pavucontrol 3.0-3
-pciutils 3.3.1-1
+pciutils 3.4.0-1
 pcmciautils 018-7
 pcre 8.38-2
 perl 5.22.1-1
@@ -902,7 +902,7 @@ python2-xdg 0.25-3
 qca-qt4 2.1.1-3
 qjackctl 0.4.1-2
 qpdf 6.0.0-2
-qt4 4.8.7-5
+qt4 4.8.7-6
 qt5-base 5.5.1-7
 qt5-declarative 5.5.1-7
 qt5-location 5.5.1-7
@@ -933,11 +933,11 @@ rest 0.7.93-1
 rlwrap 0.42-2
 rot13 1-3
 rpcbind 0.2.3-3
-rrdtool 1.5.4-1
+rrdtool 1.5.4-2
 rsync 3.1.2-1
-rtmpdump 20140918-2
+rtmpdump 1:2.4.r96.fa8646d-1
 rubberband 1.8.1-3
-ruby 2.2.4-1
+ruby 2.3.0-1
 run-parts 4.5.1-1
 s-nail 14.8.5-1
 sbt 1:0.13.9-1
@@ -987,7 +987,7 @@ stfl 0.24-2
 strace 4.10-2
 strigi 0.7.8-9
 sublime-text 2.0.2-4
-subversion 1.9.3-1
+subversion 1.9.3-2
 sudo 1.8.15-1
 suil 0.8.2-2
 swi-prolog 7.2.3-2
@@ -1053,12 +1053,12 @@ vamp-plugin-sdk 2.5-3
 vi 1:070224-2
 vid.stab 1.1-1
 videoproto 2.3.2-1
-vim-runtime 7.4.944-1
+vim-runtime 7.4.944-2
 vim-systemd 20140209-1
 vimpager 2.06-1
 virtualbox 5.0.12-1
 virtualbox-guest-iso 5.0.12-1
-virtualbox-host-modules 5.0.12-1
+virtualbox-host-modules 5.0.12-2
 visualvm 1.3.8-1
 vlc 2.2.1-11
 vte 0.28.2-7
@@ -1118,7 +1118,7 @@ xfce4-taskmanager 1.1.0-1
 xfce4-terminal 0.6.3-2
 xfconf 4.12.0-2
 xfdesktop 4.12.3-1
-xfsprogs 4.2.0-1
+xfsprogs 4.3.0-1
 xineramaproto 1.2.1-3
 xkeyboard-config 2.16-1
 xorg-bdftopcf 1.0.5-1
