@@ -1,0 +1,28 @@
+#!/bin/bash
+# cd "$(dirname "$(readlink -e "$0")")" || exit 1
+# [ $# -ne 1 ] && echo "Usage: $0 <xxx>" && exit 1
+# tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
+
+for file in $(
+  find . -type f -name '*.scala' | perl -pe 's!^\./!!' | sort
+); do
+
+  echo "======================================== $file"
+  pkg=$(dirname "$file" | perl -pe 's!/!.!g')
+
+  if [[ "$file" =~ .*/package.scala$ ]]; then
+
+    h=${pkg%.*}
+    t=${pkg##*.}
+    sed -i '0,/^[ \t]*package /cpackage '$h "$file"
+    sed -i '/^[ \t]*package  *object/cpackage object '"$t {" "$file"
+
+  else
+
+    sed -i '0,/^[ \t]*package /cpackage '$pkg "$file"
+
+  fi
+
+  grep '^[ \t]*package' "$file"
+
+done
