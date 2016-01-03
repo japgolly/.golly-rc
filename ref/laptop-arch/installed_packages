@@ -53,7 +53,6 @@ cairo-dock-plug-ins
 cairomm
 calibre
 cantarell-fonts
-ccsm
 cdparanoia
 celt
 chmlib
@@ -66,12 +65,7 @@ clucene
 cmake
 colord
 colordiff
-compiz-bcop
-compiz-core
-compiz-fusion-plugins-extra
-compiz-fusion-plugins-main
-compiz-manager
-compizconfig-python
+compiz
 compositeproto
 coreutils
 cpupower
@@ -87,6 +81,7 @@ dbus
 dbus-glib
 dbus-sharp
 dbus-sharp-glib
+dcadec
 dconf
 deb2targz
 desktop-file-utils
@@ -109,8 +104,7 @@ dropbox
 e2fsprogs
 ed
 elfutils
-emerald
-emerald-themes
+emerald0.9
 enca
 enchant
 ethtool
@@ -144,7 +138,7 @@ freerdp
 freetype2
 fribidi
 fuse
-fusion-icon
+fusion-icon0.9
 garcon
 gawk
 gc
@@ -199,6 +193,7 @@ gpgme
 gpm
 gptfdisk
 grantlee-qt4
+graphene
 graphite
 graphviz
 grep
@@ -326,7 +321,6 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
-libcompizconfig
 libcroco
 libcups
 libdaemon
@@ -386,6 +380,7 @@ libkate
 libkeybinder2
 libksba
 libldap
+liblouis
 liblqr
 liblrdf
 libmad
@@ -621,6 +616,7 @@ openjpeg
 openresolv
 openssh
 openssl
+optipng
 opus
 orc
 otf-ipafont
@@ -726,6 +722,7 @@ python2-cssutils
 python2-dateutil
 python2-dbus
 python2-dnspython
+python2-gobject
 python2-gobject2
 python2-html5lib
 python2-lxml
