@@ -67,6 +67,7 @@ cairomm
 calf
 calibre
 cantarell-fonts
+cargo
 cblas
 cdparanoia
 celt
@@ -890,6 +891,7 @@ python2-notify
 python2-numpy
 python2-packaging
 python2-pillow
+python2-pip
 python2-psutil
 python2-pygments
 python2-pyqt4
@@ -939,6 +941,7 @@ rtmpdump
 rubberband
 ruby
 run-parts
+rust
 s-nail
 sbt
 schroedinger
@@ -1137,6 +1140,7 @@ xorg-server-xvfb
 xorg-setxkbmap
 xorg-utils
 xorg-xauth
+xorg-xbacklight
 xorg-xcmsdb
 xorg-xdpyinfo
 xorg-xdriinfo
