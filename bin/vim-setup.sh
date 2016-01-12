@@ -42,6 +42,10 @@ install https://github.com/elzr/vim-json.git
 #install https://github.com/terryma/vim-multiple-cursors.git
 install https://github.com/kchmck/vim-coffee-script.git
 
+# Rust
+install https://github.com/rust-lang/rust.vim.git
+install https://github.com/cespare/vim-toml.git
+
 # Haskell
 #install https://github.com/scrooloose/syntastic.git
 #install https://github.com/Shougo/vimproc.vim.git   make
