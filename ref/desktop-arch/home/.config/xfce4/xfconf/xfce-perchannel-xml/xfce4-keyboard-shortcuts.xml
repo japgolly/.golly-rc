@@ -36,7 +36,6 @@
       <property name="&lt;Super&gt;Down" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Down&quot;"/>
       <property name="&lt;Super&gt;Left" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Back by 5 seconds&quot;"/>
       <property name="&lt;Super&gt;Right" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Ahead by 5 seconds&quot;"/>
-      <property name="&lt;Super&gt;m" type="string" value="/usr/bin/speedcrunch"/>
       <property name="&lt;Super&gt;l" type="string" value="leafpad"/>
       <property name="&lt;Super&gt;k" type="string" value="/usr/bin/keepass"/>
       <property name="&lt;Super&gt;o" type="string" value="/usr/bin/libreoffice"/>
@@ -45,6 +44,8 @@
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
       <property name="&lt;Super&gt;f" type="string" value="firefox"/>
       <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal"/>
+      <property name="&lt;Super&gt;n" type="string" value="/usr/bin/speedcrunch"/>
+      <property name="&lt;Super&gt;m" type="string" value="xfce4-mixer"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
