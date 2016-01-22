@@ -271,7 +271,6 @@ gvim
 gzip
 harfbuzz
 harfbuzz-icu
-haskell-stack
 hddtemp
 hdparm
 hicolor-icon-theme
@@ -544,6 +543,7 @@ libkactivities4
 libkate
 libkeybinder2
 libksba
+liblangtag
 libldap
 liblo
 liblouis
@@ -867,8 +867,12 @@ python
 python-dbus
 python-dbus-common
 python-gobject
+python-packaging
 python-pyqt4
+python-pyqt5
+python-setuptools
 python-sip
+python-six
 python-xdg
 python2
 python2-apsw
