@@ -7,6 +7,9 @@
 /dev/sda2           	/home     	ext4      	rw,relatime,data=ordered	0 2
 /dev/sda3           	none      	swap      	defaults  	0 0
 
-nas:/volume1/public        /mnt/nas/public nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
-nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
+nas:/volume1/public        /mnt/nas/public nfs4 noauto,x-systemd.automount,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
+nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,x-systemd.automount,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
+
+#nas:/volume1/public        /mnt/nas/public nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
+#nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,exec,relatime,rsize=65536,wsize=65536,timeo=10,intr,_netdev	0 2
 
