@@ -1,6 +1,6 @@
 [user]
-	name = David Barri
-	email = japgolly@gmail.com
+  name = David Barri
+  email = japgolly@gmail.com
 
 [alias]
    st      = status
@@ -24,25 +24,28 @@
    status = auto
    branch = auto
 [color "diff"]
-	meta = yellow bold
+  meta = yellow bold
 
 [gui]
-	historybrowser = gitg
-	editor = leafpad
+  historybrowser = gitg
+  editor = leafpad
 [cola]
-	tabwidth = 2
-	fontdiff = Monospace,10,-1,5,50,0,0,0,0,0
+  tabwidth = 2
+  fontdiff = Monospace,10,-1,5,50,0,0,0,0,0
+  textwidth = 120
 
 [push]
-	default = upstream
+  default = upstream
+
+[stash]
+  showPatch = true
 
 [merge]
   tool = kdiff3
   renamelimit = 999999
 
 [diff "odf"]
-	textconv = odt2txt
+  textconv = odt2txt
 
 [diff "cssmin"]
-    wordRegex = "[^{};]+"
-
+  wordRegex = "[^{};]+"
