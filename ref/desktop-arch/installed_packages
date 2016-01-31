@@ -393,7 +393,6 @@ lib32-krb5
 lib32-lcms2
 lib32-libasyncns
 lib32-libcap
-lib32-libcroco
 lib32-libcups
 lib32-libdatrie
 lib32-libdbus
@@ -412,7 +411,6 @@ lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpulse
-lib32-librsvg
 lib32-libsm
 lib32-libsndfile
 lib32-libtasn1
@@ -809,8 +807,10 @@ pciutils
 pcmciautils
 pcre
 perl
+perl-algorithm-diff
 perl-error
 perl-file-next
+perl-regexp-common
 perl-uri
 perl-xml-parser
 pgadmin3
@@ -868,6 +868,7 @@ python-dbus
 python-dbus-common
 python-gobject
 python-packaging
+python-pyparsing
 python-pyqt4
 python-pyqt5
 python-setuptools
@@ -898,6 +899,7 @@ python2-pillow
 python2-pip
 python2-psutil
 python2-pygments
+python2-pyparsing
 python2-pyqt4
 python2-pyqt5
 python2-reportlab
@@ -1019,6 +1021,7 @@ texlive-core
 texworks
 thin-provisioning-tools
 thunar
+tidy
 tig
 tmux
 tor
