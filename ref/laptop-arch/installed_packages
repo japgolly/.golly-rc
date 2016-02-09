@@ -104,6 +104,7 @@ dropbox
 e2fsprogs
 ed
 elfutils
+emacs
 emerald0.9
 enca
 enchant
@@ -379,6 +380,7 @@ libkactivities4
 libkate
 libkeybinder2
 libksba
+liblangtag
 libldap
 liblouis
 liblqr
@@ -411,6 +413,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libotf
 libpagemaker
 libpaper
 libpcap
@@ -553,6 +556,8 @@ lvm2
 lynx
 lz4
 lzo
+m17n-db
+m17n-lib
 m4
 make
 man-db
@@ -639,8 +644,10 @@ pciutils
 pcmciautils
 pcre
 perl
+perl-algorithm-diff
 perl-error
 perl-file-next
+perl-regexp-common
 perl-uri
 perl-xml-namespacesupport
 perl-xml-parser
@@ -701,6 +708,7 @@ python-jinja
 python-markupsafe
 python-packaging
 python-pygments
+python-pyparsing
 python-pyqt4
 python-pytz
 python-setuptools
@@ -734,6 +742,7 @@ python2-packaging
 python2-pillow
 python2-psutil
 python2-pygments
+python2-pyparsing
 python2-pyqt5
 python2-setuptools
 python2-sip
