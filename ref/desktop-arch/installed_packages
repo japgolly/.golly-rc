@@ -399,6 +399,7 @@ lib32-libdbus
 lib32-libdrm
 lib32-libffi
 lib32-libgcrypt
+lib32-libglvnd
 lib32-libgpg-error
 lib32-libice
 lib32-libidn
@@ -519,6 +520,7 @@ libgee
 libgit2
 libgit2-glib
 libglade
+libglvnd
 libgme
 libgnome-keyring
 libgpg-error
