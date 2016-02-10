@@ -591,8 +591,8 @@ libpulse 8.0-1
 libpurple 2.10.12-1
 libqzeitgeist 0.8.0-6
 libraw1394 2.1.1-1
-libreoffice-still 4.4.7-4
-libreoffice-still-en-GB 4.4.7-1
+libreoffice-fresh 5.0.4-4
+libreoffice-fresh-en-GB 5.0.4-1
 librevenge 0.0.4-1
 librpcsecgss 0.19-8
 librsvg 2:2.40.13-1
@@ -652,6 +652,7 @@ libwnck 2.31.0-1
 libwnck3 3.14.1-1
 libwpd 0.10.1-1
 libwpg 0.3.1-1
+libwps 0.4.2-2
 libx11 1.6.3-1
 libx264 2:148.20150725-1
 libx86emu 1.1.23.1-1
@@ -1055,7 +1056,6 @@ unace 2.5-9
 unarchiver 1:1.9.1-1
 unetbootin 613-2
 uniconvertor 1.1.5-8
-unoconv 0.7-1
 unrar 1:5.3.4-2
 unzip 6.0-11
 upower 0.99.3-1

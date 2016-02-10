@@ -591,8 +591,8 @@ libpulse
 libpurple
 libqzeitgeist
 libraw1394
-libreoffice-still
-libreoffice-still-en-GB
+libreoffice-fresh
+libreoffice-fresh-en-GB
 librevenge
 librpcsecgss
 librsvg
@@ -652,6 +652,7 @@ libwnck
 libwnck3
 libwpd
 libwpg
+libwps
 libx11
 libx264
 libx86emu
@@ -1055,7 +1056,6 @@ unace
 unarchiver
 unetbootin
 uniconvertor
-unoconv
 unrar
 unzip
 upower
