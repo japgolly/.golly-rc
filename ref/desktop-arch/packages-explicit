@@ -1,4 +1,3 @@
-a2ps
 abs
 ack
 acroread
@@ -22,7 +21,6 @@ authbind
 autoconf
 automake
 awoken-icons
-baloo
 baobab
 bash
 bash-completion
@@ -32,8 +30,6 @@ bison
 brother-mfc-j5320dw
 bzip2
 cabal-install
-cairo-dock
-cairo-dock-plug-ins
 calf
 calibre
 cargo
@@ -42,7 +38,6 @@ cloc
 cmake
 colordiff
 compiz
-conky
 coreutils
 cpulimit
 cpupower
