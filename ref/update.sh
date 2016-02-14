@@ -17,16 +17,16 @@ fi
 # Installed packages
 case "$(distro)" in
   ArchLinux)
-    pacman -Q > packages_and_versions-all
-    pacman -Qe > packages_and_versions-explicit
+    pacman -Q > installed_packages_and_versions
+    pacman -Qe > explicit_packages_and_versions
     ;;
   Ubuntu)
     dpkg --get-selections | grep '[^a-zA-Z]install' | sed 's/[ \t].*//' | xargs dpkg -s | egrep '^(Package|Version)' | perl -0000 -pe 's/Package: (\S+)\s*[\r\n]+Version: (\S+)/\1 \2 \2/g' | perl -pe 's/ (?:\d+:)?(\S+?)[-+~]\S+$/ \1/; s/ (\S+) (\S+)$/ \2 \1/' | column -t | perl -pe 's/(\S+)(\s+\S+)$/\1    \2/' | sort \
-      > packages_and_versions-all
+      > installed_packages_and_versions
     ;;
 esac
-cat packages_and_versions-all | awk '{print $1}' > packages-all
-cat packages_and_versions-explicit | awk '{print $1}' > packages-explicit
+cat installed_packages_and_versions | awk '{print $1}' > installed_packages
+cat explicit_packages_and_versions | awk '{print $1}' > explicit_packages
 
 # User info
 groups > groups
