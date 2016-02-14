@@ -297,7 +297,6 @@ inkscape
 inotify-tools
 inputproto
 intel-ucode
-intltool
 iotop
 iproute2
 iptables
@@ -508,8 +507,12 @@ libetonyek
 libevdev
 libevent
 libexif
+libexttextcat
+libfbclient
 libffado
 libffi
+libfm
+libfm-extra
 libfontenc
 libftdi-compat
 libgadu
@@ -538,6 +541,7 @@ libiec61883
 libimobiledevice
 libinput
 libirman
+libixion
 libjpeg-turbo
 libkactivities4
 libkate
@@ -576,6 +580,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+liborcus
 libotf
 libpagemaker
 libpaper
@@ -712,6 +717,7 @@ lua51
 lua52
 lv2
 lvm2
+lxmenu-data
 lynx
 lz4
 lzo
@@ -727,6 +733,7 @@ mcpp
 mdadm
 media-player-info
 meld
+menu-cache
 mercurial
 mesa
 mesa-demos
@@ -764,6 +771,7 @@ nfs-utils
 nfsidmap
 nini
 nmap
+nmon
 nodejs
 nodejs-bower
 nodejs-grunt-cli
@@ -808,6 +816,7 @@ partimage
 patch
 pavucontrol
 pciutils
+pcmanfm
 pcmciautils
 pcre
 perl
@@ -816,7 +825,6 @@ perl-error
 perl-file-next
 perl-regexp-common
 perl-uri
-perl-xml-parser
 pgadmin3
 phantomjs
 phonon-qt4
@@ -871,13 +879,9 @@ python
 python-dbus
 python-dbus-common
 python-gobject
-python-packaging
-python-pyparsing
 python-pyqt4
 python-pyqt5
-python-setuptools
 python-sip
-python-six
 python-xdg
 python2
 python2-apsw
