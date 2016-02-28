@@ -124,6 +124,7 @@ efivar
 elfutils
 emacs
 emerald0.9
+emscripten
 enca
 enchant
 ethtool
@@ -138,6 +139,7 @@ fakeroot
 farstream
 fbset
 ffmpeg
+ffmpeg2.8
 fftw
 file
 filesystem
@@ -477,6 +479,7 @@ libffado
 libffi
 libfm
 libfm-extra
+libfm-gtk2
 libfontenc
 libftdi-compat
 libgadu
@@ -552,6 +555,7 @@ libpcap
 libpciaccess
 libpeas
 libpgm
+libphonenumber
 libpipeline
 libplist
 libpng
@@ -612,6 +616,7 @@ libvdpau
 libvisio
 libvisual
 libvncserver
+libvoikko
 libvorbis
 libvpx
 libwbclient
@@ -668,6 +673,7 @@ linux
 linux-api-headers
 linux-firmware
 lirc
+llvm
 llvm-libs
 lm_sensors
 log4net

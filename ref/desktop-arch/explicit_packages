@@ -60,6 +60,7 @@ ec2-api-tools
 ed
 emacs
 emerald0.9
+emscripten
 ethtool
 exo
 fakeroot
@@ -175,6 +176,7 @@ libvncserver
 libyaml
 licenses
 linux
+llvm
 lm_sensors
 logrotate
 lsof
