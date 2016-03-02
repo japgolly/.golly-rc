@@ -122,6 +122,7 @@ farstream-0.1
 fbset
 feh
 ffmpeg
+ffmpeg2.8
 fftw
 file
 filesystem
@@ -348,6 +349,7 @@ libexif
 libffi
 libfm
 libfm-extra
+libfm-gtk2
 libfontenc
 libftdi-compat
 libgadu
@@ -422,6 +424,7 @@ libpcap
 libpciaccess
 libpeas
 libpgm
+libphonenumber
 libpipeline
 libplist
 libpng
@@ -484,8 +487,10 @@ libva
 libvdpau
 libvisio
 libvisual
+libvoikko
 libvorbis
 libvpx
+libwacom
 libwbclient
 libwebp
 libwmf
@@ -793,6 +798,7 @@ scrnsaverproto
 sdl
 sdl_image
 sed
+semver
 sensors-applet
 serf
 setconf
