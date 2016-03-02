@@ -346,6 +346,8 @@ libevdev
 libevent
 libexif
 libffi
+libfm
+libfm-extra
 libfontenc
 libftdi-compat
 libgadu
@@ -553,6 +555,7 @@ lua52-lpeg
 lua52-luajson
 lua52-socket
 lvm2
+lxmenu-data
 lynx
 lz4
 lzo
@@ -566,6 +569,7 @@ maven
 mcpp
 mdadm
 media-player-info
+menu-cache
 mercurial
 mesa
 mesa-demos
@@ -601,6 +605,7 @@ networkmanager
 nfs-utils
 nfsidmap
 nixnote
+nmon
 nodejs
 nodejs-bower
 nodejs-grunt-cli
@@ -641,6 +646,7 @@ parted
 partimage
 patch
 pciutils
+pcmanfm
 pcmciautils
 pcre
 perl
