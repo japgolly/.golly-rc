@@ -33,6 +33,7 @@ cabal-install
 calf
 calibre
 cargo
+chromedriver
 cifs-utils
 cloc
 cmake
@@ -176,6 +177,7 @@ libvncserver
 libyaml
 licenses
 linux
+linux-headers
 llvm
 lm_sensors
 logrotate
@@ -288,6 +290,7 @@ smplayer
 smuxi
 soundtouch
 speedcrunch
+stack
 startup-notification
 steam
 strace
@@ -344,7 +347,7 @@ vim-systemd
 vimpager
 virtualbox
 virtualbox-guest-iso
-virtualbox-host-modules
+virtualbox-host-dkms
 visualvm
 vlc
 wget
