@@ -1009,9 +1009,8 @@
 <Multi_key> <period> <slash> <period>                            : "⁒" U2052 # COMMERCIAL MINUS SIGN
 # Printable sign for space.  But is \<space> too useful a key combo to use for this?
 <Multi_key> <backslash> <space>                                  : "␣" U2423 # OPEN BOX
-# These two are already present for me:
-# <Multi_key> <minus> <minus> <minus> : "—" U2014 # EM DASH
-# <Multi_key> <minus> <minus> <period> : "–" U2013 # EN DASH
+<Multi_key> <minus> <minus> <minus>                              : "—" U2014 # EM DASH
+<Multi_key> <minus> <minus> <period>                             : "–" U2013 # EN DASH
 <Multi_key> <minus> <minus> <space>                              : "– " # EN DASH (followed by space)
 <Multi_key> <minus> <asciitilde> <minus>                         : "―" U2015 # HORIZONTAL BAR
 <Multi_key> <backslash> <minus>                                  : "­" U00AD # SOFT HYPHEN
