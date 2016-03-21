@@ -314,6 +314,7 @@ tig
 tmux
 tor
 tor-browser-en
+torsocks
 traceroute
 transmission-cli
 tree
