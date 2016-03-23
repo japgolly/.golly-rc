@@ -234,6 +234,7 @@ smpeg
 smplayer
 soundtouch
 speedcrunch
+stack
 startup-notification
 steam
 strace
@@ -287,7 +288,7 @@ vim-systemd
 vimpager
 virtualbox
 virtualbox-guest-iso
-virtualbox-host-modules
+virtualbox-host-dkms
 vlc
 wget
 which
@@ -335,6 +336,7 @@ xorg-xmodmap
 xorg-xrandr
 xterm
 yaourt
+zeal
 zip
 zsh
 zsh-completions

@@ -91,6 +91,7 @@ dhcpcd
 dialog
 diffutils
 ding-libs
+dkms
 dmxproto
 dnssec-anchors
 docbook-xml
@@ -288,6 +289,7 @@ kbd
 kbproto
 kdebase-runtime
 kdelibs
+kdepimlibs4
 kdesdk-kcachegrind
 kdiff3
 keepass
@@ -305,6 +307,7 @@ leafpad
 less
 libabw
 libaio
+libakonadi-qt4
 libarchive
 libass
 libassuan
@@ -331,6 +334,7 @@ libdbus
 libdbusmenu-qt4
 libdc1394
 libdca
+libdmtx
 libdmx
 libdrm
 libdv
@@ -538,6 +542,7 @@ libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
+libzip
 licenses
 linux
 linux-api-headers
@@ -695,6 +700,7 @@ postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
 ppp
+prison
 procps-ng
 profont
 progsreiserfs
@@ -759,7 +765,9 @@ python2-setuptools
 python2-sip
 python2-six
 qca-qt4
+qjson
 qpdf
+qrencode
 qt4
 qt5-base
 qt5-declarative
@@ -769,6 +777,7 @@ qt5-sensors
 qt5-svg
 qt5-webchannel
 qt5-webkit
+qt5-x11extras
 qt5-xmlpatterns
 qtchooser
 qtwebkit
@@ -821,6 +830,7 @@ speedcrunch
 speex
 speexdsp
 sqlite
+stack
 startup-notification
 steam
 strace
@@ -894,7 +904,7 @@ vim-systemd
 vimpager
 virtualbox
 virtualbox-guest-iso
-virtualbox-host-modules
+virtualbox-host-dkms
 virtuoso-base
 vlc
 vte
@@ -996,6 +1006,7 @@ xvidcore
 xz
 yajl
 yaourt
+zeal
 zenity
 zeromq
 zip
