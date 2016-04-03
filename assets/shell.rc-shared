@@ -224,6 +224,9 @@ fi
 # Haskell Cabal
 [ -d $HOME/.cabal/bin ] && export PATH="$HOME/.cabal/bin:$PATH"
 
+# Haskell Stack
+type stack >/dev/null 2>&1 && eval "$(stack --bash-completion-script "$(which stack)")"
+
 # Load local shared settings
 export LOCALRC="$HOME/.localrc"
 alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"'

@@ -3,6 +3,9 @@
 unset PS1
 export SHELL=zsh
 alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
+
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
 source "$HOME/.golly-rc/assets/shell.rc-shared"
 
 HISTSIZE=20000
@@ -88,5 +91,4 @@ export WORDCHARS='*?_[]~=&!#$%^(){}'
 
 # Auto-completion
 [ -e "$HOME/.rvm/scripts/zsh/Completion" ] && fpath=($HOME/.rvm/scripts/zsh/Completion $fpath)
-autoload -U compinit && compinit
 
