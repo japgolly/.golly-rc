@@ -21,6 +21,7 @@ archlinux-keyring
 ardour
 aria2
 arm
+arpack
 aspell
 aspell-en
 at-spi2-atk
@@ -191,12 +192,14 @@ git
 git-cola
 git-extras
 gitg
+gl2ps
 glew
 glib
 glib-networking
 glib2
 glibc
 glibmm
+glpk
 glu
 gmp
 gnome-desktop
@@ -222,6 +225,7 @@ gperf
 gpgme
 gpm
 graphene
+graphicsmagick
 graphite
 graphviz
 grep
@@ -276,6 +280,7 @@ haskell-old-time
 haskell-polyparse
 haskell-text
 hddtemp
+hdf5
 hdparm
 hicolor-icon-theme
 hspell
@@ -285,6 +290,7 @@ hunspell
 hunspell-en
 hwids
 hwinfo
+hwloc
 hyphen
 hyphen-en
 iana-etc
@@ -300,6 +306,7 @@ inetutils
 inkscape
 inotify-tools
 inputproto
+intel-tbb
 intel-ucode
 iotop
 iproute2
@@ -774,11 +781,13 @@ nvidia
 nvidia-libgl
 nvidia-utils
 ocl-icd
+octave
 odt2txt
 opencl-nvidia
 opencore-amr
 openexr
 openjpeg
+openmpi
 openresolv
 openssh
 openssl
@@ -900,10 +909,12 @@ python2-sip
 python2-six
 python2-xdg
 qca-qt4
+qhull
 qjackctl
 qjson
 qpdf
 qrencode
+qscintilla-qt4
 qt4
 qt5-base
 qt5-declarative
@@ -994,6 +1005,7 @@ sublime-text
 subversion
 sudo
 suil
+suitesparse
 swi-prolog
 sysfsutils
 syslinux

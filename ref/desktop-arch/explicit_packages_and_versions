@@ -15,7 +15,7 @@ aria2 1.21.0-1
 arm 1.4.5.0-3
 aspell 0.60.6.1-4
 aspell-en 2016.01.19-1
-atom-editor-bin 1.6.1-1
+atom-editor-bin 1.6.2-1
 audio-convert 0.3.1.1-7
 authbind 2.1.1-1
 autoconf 2.69-2
@@ -224,6 +224,7 @@ npm 3.8.3-1
 ntfs-3g 2016.2.22-1
 ntp 4.2.8.p6-3
 nvidia 361.28-4
+octave 4.0.0-8
 odt2txt 0.4-3
 opencl-nvidia 361.28-5
 openssh 7.2p2-1
@@ -290,7 +291,7 @@ smplayer 16.4.0-1
 smuxi 1.0.3-1
 soundtouch 1.9.0-3
 speedcrunch 0.11-3
-stack 1.0.4.2-13
+stack 1.0.4.2-15
 startup-notification 0.12-4
 steam 1.0.0.51-1
 strace 4.11-1
