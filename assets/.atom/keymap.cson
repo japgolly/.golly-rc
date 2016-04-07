@@ -1,0 +1,35 @@
+# '.platform-darwin, .platform-win32, .platform-linux':
+#   'ctrl-g': 'unset!'
+#
+# 'atom-workspace atom-text-editor':
+#   'ctrl-l': 'editor:select-line'
+#     'ctrl-l': 'go-to-line:toggle'
+
+'.platform-linux':
+  'ctrl-p': 'unset!'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-d': 'editor:delete-line'
+
+'body':
+  'ctrl-o'      : 'unset!'
+  'ctrl-o'      : 'fuzzy-finder:toggle-file-finder'
+  'ctrl-n'      : 'find-and-replace:select-next'
+  'ctrl-shift-i': 'unset!'
+  'f12'         : 'window:toggle-dev-tools'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-down'     : 'unset!'
+  'ctrl-up'       : 'unset!'
+  'ctrl-shift-d'  : 'unset!'
+  'alt-down'      : 'editor:move-line-down'
+  'alt-up'        : 'editor:move-line-up'
+  'alt-ctrl-down' : 'editor:duplicate-lines'
+  'ctrl-down'     : 'keyboard-scroll:scrollDown'
+  'ctrl-up'       : 'keyboard-scroll:scrollUp'
+  'ctrl-h'        : 'dash:shortcut'
+  'ctrl-shift-s'  : 'window:save-all'
+
+'atom-text-editor[data-grammar~="haskell"]':
+  'ctrl-shift-l': 'haskell-ghc-mod:lint-file'
+  'alt-='       : 'haskell-ghc-mod:show-type'

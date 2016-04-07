@@ -1,0 +1,16 @@
+ide-haskell-panel-item > * {
+  font-size: 11pt !important;
+  line-height: 1.15em;
+  // font-family: "Comic Sans MS" !important;
+}
+
+atom-text-editor[data-grammar~="haskell"]::shadow {
+  .gutter {
+    background-color: darken(rgb(40, 44, 52), 10%);
+  }
+
+  .gutter:last-child {
+    // border-right: solid 1px #555 !important;
+    margin-right: 0.8ex;
+  }
+}
