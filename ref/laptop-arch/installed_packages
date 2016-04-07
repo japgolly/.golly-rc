@@ -15,6 +15,7 @@ apache-ant
 apr
 apr-util
 archlinux-keyring
+arpack
 asciidoc
 aspell
 aspell-en
@@ -37,6 +38,7 @@ bash-completion
 bc
 binutils
 bison
+blas
 boost
 boost-libs
 bsdiff
@@ -133,6 +135,7 @@ fixesproto
 flac
 flashplugin
 flex
+fltk
 fluidsynth
 fontconfig
 fontsproto
@@ -168,11 +171,13 @@ gimp
 git
 git-cola
 gitg
+gl2ps
 glew
 glib-networking
 glib2
 glibc
 glibmm
+glpk
 glu
 gmp
 gnome-desktop
@@ -198,6 +203,7 @@ gpm
 gptfdisk
 grantlee-qt4
 graphene
+graphicsmagick
 graphite
 graphviz
 grep
@@ -243,6 +249,7 @@ gzip
 harfbuzz
 harfbuzz-icu
 hddtemp
+hdf5
 hdparm
 hicolor-icon-theme
 hspell
@@ -252,6 +259,7 @@ hunspell
 hunspell-en
 hwids
 hwinfo
+hwloc
 hyphen
 hyphen-en
 i8kutils
@@ -265,6 +273,7 @@ imlib2
 inetutils
 inkscape
 inputproto
+intel-tbb
 intel-ucode
 intltool
 iproute2
@@ -300,6 +309,7 @@ krb5
 l-smash
 ladspa
 lame
+lapack
 lcms
 lcms2
 ldb
@@ -629,11 +639,13 @@ nss
 ntfs-3g
 ntp
 ocl-icd
+octave
 odt2txt
 openal
 opencore-amr
 openexr
 openjpeg
+openmpi
 openresolv
 openssh
 openssl
@@ -766,9 +778,11 @@ python2-setuptools
 python2-sip
 python2-six
 qca-qt4
+qhull
 qjson
 qpdf
 qrencode
+qscintilla-qt4
 qt4
 qt5-base
 qt5-declarative
@@ -839,6 +853,7 @@ strigi
 sublime-text
 subversion
 sudo
+suitesparse
 swig
 swt
 sysfsutils
@@ -861,6 +876,7 @@ tmux
 traceroute
 transmission-cli
 tree
+tslib
 ttf-adobe-fonts
 ttf-anonymous-pro
 ttf-arphic-uming
