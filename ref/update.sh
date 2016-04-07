@@ -34,6 +34,13 @@ groups > groups
 # Crontab
 crontab -l > crontab
 
+# Atom packages
+rm -f atom-packages atom-themes
+if [ -e ~/.atom/packages ]; then
+  find ~/.atom/packages -maxdepth 2 -name package.json | xargs fgrep -l '"theme"' | perl -pe 's!/[^/\n]+$!!; s!^.+/!!' | sort > atom-themes
+  find ~/.atom/packages -maxdepth 2 -name package.json | xargs fgrep -L '"theme"' | perl -pe 's!/[^/\n]+$!!; s!^.+/!!' | sort > atom-packages
+fi
+
 # Copy files
 errs=0
 # Dont do this: cat "$filelist" | while read f; do
@@ -68,13 +75,6 @@ done
 [ $errs -gt 0 ] && echo "$errs errors detected. Aborting." && exit 3
 echo "Done."
 echo
-
-# Atom packages
-rm -f atom-packages atom-themes
-if [ -e ~/.atom/packages ]; then
-  find ~/.atom/packages -maxdepth 2 -name package.json | xargs fgrep -l '"theme"' | perl -pe 's!/[^/\n]+$!!; s!^.+/!!' | sort > atom-themes
-  find ~/.atom/packages -maxdepth 2 -name package.json | xargs fgrep -L '"theme"' | perl -pe 's!/[^/\n]+$!!; s!^.+/!!' | sort > atom-packages
-fi
 
 # Git
 git add -AN -- .

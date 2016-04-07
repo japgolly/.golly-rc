@@ -72,6 +72,7 @@ git
 git-cola
 gitg
 glibc
+gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 google-chrome
@@ -307,6 +308,7 @@ xf86-input-void
 xf86-video-intel
 xf86-video-vesa
 xfce4-appfinder
+xfce4-battery-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin

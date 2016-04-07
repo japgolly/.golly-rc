@@ -182,6 +182,7 @@ gnome-icon-theme-symbolic
 gnome-menus
 gnome-online-accounts
 gnome-panel
+gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 gnupg
@@ -909,6 +910,7 @@ virtuoso-base
 vlc
 vte
 vte-common
+vte3
 wavpack
 wayland
 webkit2gtk
@@ -943,6 +945,7 @@ xf86-video-vesa
 xf86dgaproto
 xf86vidmodeproto
 xfce4-appfinder
+xfce4-battery-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
