@@ -69,6 +69,13 @@ done
 echo "Done."
 echo
 
+# Atom packages
+rm -f atom-packages atom-themes
+if [ -e ~/.atom/packages ]; then
+  find ~/.atom/packages -maxdepth 2 -name package.json | xargs fgrep -l '"theme"' | perl -pe 's!/[^/\n]+$!!; s!^.+/!!' | sort > atom-themes
+  find ~/.atom/packages -maxdepth 2 -name package.json | xargs fgrep -L '"theme"' | perl -pe 's!/[^/\n]+$!!; s!^.+/!!' | sort > atom-packages
+fi
+
 # Git
 git add -AN -- .
 git st -- .
