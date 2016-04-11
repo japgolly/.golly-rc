@@ -100,6 +100,9 @@
 <Multi_key> <7> <Up>                                             : "⁷" U2077 # SUPERSCRIPT SEVEN
 <Multi_key> <8> <Up>                                             : "⁸" U2078 # SUPERSCRIPT EIGHT
 <Multi_key> <9> <Up>                                             : "⁹" U2079 # SUPERSCRIPT NINE
+<Multi_key> <plus> <Up>                                          : "⁺" U207A # SUPERSCRIPT PLUS
+<Multi_key> <minus> <Up>                                         : "⁻" U207B # SUPERSCRIPT MINUS
+
 <Multi_key> <a> <Up>                                             : "ᵃ" U1D43 # SUPERSCRIPT MODIFIER LETTER SMALL A
 <Multi_key> <b> <Up>                                             : "ᵇ" U1D47 # SUPERSCRIPT MODIFIER LETTER SMALL B
 <Multi_key> <c> <Up>                                             : "ᶜ" U1D9C # SUPERSCRIPT MODIFIER LETTER SMALL C
@@ -125,8 +128,27 @@
 <Multi_key> <x> <Up>                                             : "ˣ" U02E3 # SUPERSCRIPT MODIFIER LETTER SMALL X
 <Multi_key> <y> <Up>                                             : "ʸ" U02B8 # SUPERSCRIPT Y
 <Multi_key> <z> <Up>                                             : "ᶻ" U1DBB # SUPERSCRIPT MODIFIER LETTER SMALL Z
-<Multi_key> <plus> <Up>                                          : "⁺" U207A # SUPERSCRIPT PLUS
-<Multi_key> <minus> <Up>                                         : "⁻" U207B # SUPERSCRIPT MINUS
+
+<Multi_key> <A> <Up>                                             : "ᴬ" U1D2C
+<Multi_key> <B> <Up>                                             : "ᴮ" U1D2E
+<Multi_key> <D> <Up>                                             : "ᴰ" U1D30
+<Multi_key> <E> <Up>                                             : "ᴱ" U1D31
+<Multi_key> <G> <Up>                                             : "ᴳ" U1D33
+<Multi_key> <H> <Up>                                             : "ᴴ" U1D34
+<Multi_key> <I> <Up>                                             : "ᴵ" U1D35
+<Multi_key> <J> <Up>                                             : "ᴶ" U1D36
+<Multi_key> <K> <Up>                                             : "ᴷ" U1D37
+<Multi_key> <L> <Up>                                             : "ᴸ" U1D38
+<Multi_key> <M> <Up>                                             : "ᴹ" U1D39
+<Multi_key> <N> <Up>                                             : "ᴺ" U1D3A
+<Multi_key> <O> <Up>                                             : "ᴼ" U1D3C
+<Multi_key> <P> <Up>                                             : "ᴾ" U1D3E
+<Multi_key> <R> <Up>                                             : "ᴿ" U1D3F
+<Multi_key> <T> <Up>                                             : "ᵀ" U1D40
+<Multi_key> <U> <Up>                                             : "ᵁ" U1D41
+<Multi_key> <V> <Up>                                             : "ⱽ" U2C7D
+<Multi_key> <W> <Up>                                             : "ᵂ" U1D42
+
 
 # Set theory
 <Multi_key> <braceleft> <U>                                      : "∪" U222A # UNION
@@ -1084,4 +1106,3 @@
 # Ordinal indicators, for femenine and masculine, used in Romance languages
 <Multi_key> <minus> <a>                                          : "ª" U00AA # FEMININE ORDINAL INDICATOR
 <Multi_key> <minus> <o>                                          : "º" U00BA # MASCULINE ORDINAL INDICATOR
-
