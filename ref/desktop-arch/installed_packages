@@ -234,6 +234,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gspell
 gssproxy
 gst-plugins-bad
 gst-plugins-base
@@ -308,6 +309,7 @@ inotify-tools
 inputproto
 intel-tbb
 intel-ucode
+intltool
 iotop
 iproute2
 iptables
@@ -608,6 +610,7 @@ libspiro
 libsrtp
 libssh
 libssh2
+libstemmer
 libsynctex
 libsystemd
 libtar
@@ -821,6 +824,7 @@ perl-error
 perl-file-next
 perl-regexp-common
 perl-uri
+perl-xml-parser
 pgadmin3
 phantomjs
 phonon-qt4
@@ -845,6 +849,7 @@ polkit-qt4
 poppler
 poppler-glib
 poppler-qt4
+poppler-qt5
 popt
 portaudio
 postgresql
@@ -1083,6 +1088,7 @@ vte
 vte-common
 wavpack
 wayland
+wayland-protocols
 wdiff
 webkit2gtk
 webkitgtk
