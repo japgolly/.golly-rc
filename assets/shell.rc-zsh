@@ -31,13 +31,15 @@ function git_count_files_in_section() {
 function git_info() {
   ref="$(git symbolic-ref HEAD 2>/dev/null)" || return
   git_status="$(git status --porcelain --branch 2>/dev/null)"
-  ahead="$(sed '/.*\[ahead .*/!d; s/^.*\[ahead \([0-9]*\)\]/\1/' <<<"$git_status")"
+  ahead="$(sed '/.*\[ahead .*/!d; s/^.*\[ahead \([0-9]*\).*\]/\1/' <<<"$git_status")"
+  behind="$(sed '/.*\[.*behind .*/!d; s/^.*\[.*behind \([0-9]*\).*\]/\1/' <<<"$git_status")"
   untracked="$(git_count_files_in_section "$git_status" '??')"
   unstaged="$(git_count_files_in_section "$git_status" '.[^ ?#]')"
   staged="$(git_count_files_in_section "$git_status" '[^ ?#].')"
 
   r="%{$fg[magenta]%}${ref#refs/heads/}"
   [ -n "$ahead" ]        && r="$r %{$reset_color%}↑$ahead"
+  [ -n "$behind" ]       && r="$r %{$reset_color%}↓$behind"
   [ "$staged"    -gt 0 ] && r="$r %{$fg[green]%}●$staged"
   [ "$unstaged"  -gt 0 ] && r="$r %{$fg[red]%}●$unstaged"
   [ "$untracked" -gt 0 ] && r="$r %{$fg[red]%}✖ $untracked"
