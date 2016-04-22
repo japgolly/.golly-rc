@@ -411,6 +411,7 @@ libmbim
 libmm-glib
 libmms
 libmng
+libmnl
 libmodplug
 libmowgli
 libmp4v2
@@ -424,6 +425,7 @@ libmwaw
 libnautilus-extension
 libndp
 libnewt
+libnftnl
 libnice
 libnl
 libnm-glib
