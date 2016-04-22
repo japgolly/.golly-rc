@@ -212,6 +212,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gspell
 gssproxy
 gst-plugins-bad
 gst-plugins-base
@@ -474,6 +475,7 @@ libsrtp
 libssh
 libssh2
 libstdc++5
+libstemmer
 libsystemd
 libtar
 libtasn1
@@ -730,11 +732,14 @@ pyqt5-common
 pyrex
 python
 python-babel
+python-beaker
 python-dbus
 python-dbus-common
 python-docutils
 python-gobject
+python-imagesize
 python-jinja
+python-mako
 python-markupsafe
 python-packaging
 python-pygments
@@ -929,6 +934,7 @@ vte-common
 vte3
 wavpack
 wayland
+wayland-protocols
 webkit2gtk
 webkitgtk
 wget
