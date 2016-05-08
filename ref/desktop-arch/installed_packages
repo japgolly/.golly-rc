@@ -550,6 +550,7 @@ libmatroska
 libmm-glib
 libmms
 libmng
+libmnl
 libmodplug
 libmp4v2
 libmpc
@@ -563,6 +564,7 @@ libmythes
 libnautilus-extension
 libndp
 libnewt
+libnftnl
 libnice
 libnl
 libnm-glib
@@ -762,6 +764,7 @@ nautilus-open-terminal
 nautilus-sendto
 ncurses
 neon
+netcdf
 netctl
 nettle
 networkmanager
