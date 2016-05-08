@@ -37,6 +37,7 @@ chromedriver
 cifs-utils
 cloc
 cmake
+coffee-script
 colordiff
 compiz
 coreutils
@@ -335,6 +336,7 @@ ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
+uglify-js
 unace
 unarchiver
 unetbootin

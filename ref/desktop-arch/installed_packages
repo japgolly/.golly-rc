@@ -76,6 +76,7 @@ clang
 cloc
 clucene
 cmake
+coffee-script
 colord
 colordiff
 compiz
@@ -1062,6 +1063,7 @@ tumbler
 tzdata
 udisks
 udisks2
+uglify-js
 unace
 unarchiver
 unetbootin
