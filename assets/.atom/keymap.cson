@@ -17,6 +17,8 @@
   'ctrl-n'      : 'find-and-replace:select-next'
   'ctrl-shift-i': 'unset!'
   'f12'         : 'window:toggle-dev-tools'
+  'ctrl-shift-w': 'unset!'
+  'ctrl-shift-w': 'tabs:close-all-tabs'
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-down'     : 'unset!'
