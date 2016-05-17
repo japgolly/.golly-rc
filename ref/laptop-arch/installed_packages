@@ -624,6 +624,7 @@ nautilus-open-terminal
 nautilus-sendto
 ncurses
 neon
+netcdf
 netctl
 nettle
 networkmanager
