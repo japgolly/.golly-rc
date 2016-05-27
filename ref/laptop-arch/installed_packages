@@ -643,6 +643,7 @@ nspr
 nss
 ntfs-3g
 ntp
+numactl
 ocl-icd
 octave
 odt2txt

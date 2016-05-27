@@ -1,6 +1,6 @@
 [compiz options]
-loose binding = false
-indirect rendering = true
+sm disable = false
+keep desktop hints = false
 
 [window manager]
 active wm = compiz
