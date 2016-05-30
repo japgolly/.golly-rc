@@ -784,6 +784,7 @@ nspr
 nss
 ntfs-3g
 ntp
+numactl
 nvidia
 nvidia-libgl
 nvidia-utils
