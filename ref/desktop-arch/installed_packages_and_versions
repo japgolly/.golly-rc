@@ -189,7 +189,7 @@ ghc 7.10.3-1
 ghostscript 9.19-1
 giflib 5.1.2-1
 gimp 2.8.16-1
-git 2.8.2-1
+git 2.8.3-1
 git-cola 2.5-1
 git-extras 4.1.0-1
 gitg 3.20.0-2
@@ -773,12 +773,12 @@ nfsidmap 0.26-1
 nini 1.1.0-5
 nmap 7.12-1
 nmon 16e-1
-nodejs 6.1.0-1
+nodejs 6.2.0-1
 nodejs-bower 1.5.3-1
 nodejs-grunt-cli 1.2.0-1
 notification-daemon 3.20.0-1
 notify-sharp 0.4.1-2
-npm 3.8.9-1
+npm 3.9.2-1
 npth 1.2-1
 nspr 4.12-1
 nss 3.23-3

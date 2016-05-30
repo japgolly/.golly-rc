@@ -1,4 +1,5 @@
 atom-overtype-mode
+atom-typescript
 autocomplete-haskell
 column-select
 dash
@@ -8,12 +9,14 @@ graphviz-preview
 haskell-ghc-mod
 haskell-hoogle
 haskell-pointfree
+html2haml
 ide-haskell
 ide-haskell-cabal
 ide-haskell-repl
 jumpy
 keyboard-scroll
 language-dot
+language-haml
 language-haskell
 language-rust
 language-scala
