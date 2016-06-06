@@ -24,6 +24,7 @@ linter
 linter-hdevtools
 linter-rust
 minimap
+minimap-bookmarks
 minimap-cursorline
 minimap-find-and-replace
 minimap-git-diff
