@@ -1,5 +1,4 @@
 atom-overtype-mode
-atom-typescript
 autocomplete-haskell
 column-select
 dash
@@ -18,6 +17,7 @@ keyboard-scroll
 language-dot
 language-haml
 language-haskell
+language-json5
 language-rust
 language-scala
 linter
@@ -32,3 +32,4 @@ plantuml-preview
 plantuml-viewer
 sort-lines
 todo-show
+tree-view-filter
