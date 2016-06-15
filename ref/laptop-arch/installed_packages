@@ -50,8 +50,6 @@ ca-certificates-utils
 cabal-install
 cabextract
 cairo
-cairo-dock
-cairo-dock-plug-ins
 cairomm
 calibre
 cantarell-fonts

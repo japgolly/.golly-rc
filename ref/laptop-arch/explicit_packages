@@ -20,8 +20,6 @@ binutils
 bison
 bzip2
 cabal-install
-cairo-dock
-cairo-dock-plug-ins
 calibre
 cifs-utils
 cloc
