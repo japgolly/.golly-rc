@@ -360,6 +360,7 @@ libetonyek
 libevdev
 libevent
 libexif
+libfbclient
 libffi
 libfm
 libfm-extra
