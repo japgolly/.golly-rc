@@ -336,6 +336,7 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
+libcmis
 libcroco
 libcups
 libdaemon
@@ -360,6 +361,7 @@ libetonyek
 libevdev
 libevent
 libexif
+libexttextcat
 libfbclient
 libffi
 libfm
@@ -394,6 +396,7 @@ libimobiledevice
 libinput
 libiodbc
 libirman
+libixion
 libjpeg-turbo
 libkactivities4
 libkate
@@ -434,6 +437,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+liborcus
 libotf
 libpagemaker
 libpaper
@@ -454,8 +458,8 @@ libquvi
 libquvi-scripts
 libqzeitgeist
 libraw1394
-libreoffice-still
-libreoffice-still-en-GB
+libreoffice-fresh
+libreoffice-fresh-en-GB
 librevenge
 librpcsecgss
 librsvg
