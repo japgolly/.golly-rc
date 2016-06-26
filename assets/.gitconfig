@@ -57,3 +57,6 @@
 
 [diff "cssmin"]
   wordRegex = "[^{};]+"
+
+[diff]
+  renameLimit = 32000
