@@ -25,7 +25,7 @@ setopt inc_append_history
 autoload -U colors && colors
 
 function git_count_files_in_section() {
-  grep "^$2 [^ ]" <<<"$1" | wc -l
+  grep "^$2 [^ ]" <<<"$1" | wc -l | sed -e 's/^ *//'
 }
 
 function git_info() {
