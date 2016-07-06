@@ -13,6 +13,13 @@
 ~/.conkyrc
 ~/.colordiffrc
 ~/.cups/lpoptions
+~/.IdeaIC2016.1/config/codestyles/
+~/.IdeaIC2016.1/config/colors/
+~/.IdeaIC2016.1/config/options/code.style.schemes.xml
+~/.IdeaIC2016.1/config/options/colors.scheme.xml
+~/.IdeaIC2016.1/config/options/editor.xml
+~/.IdeaIC2016.1/config/options/ui.lnf.xml
+~/.IdeaIC2016.1/config/templates/scala.xml
 ~/.m2/settings.xml
 ~/.mpv
 ~/.xinitrc
