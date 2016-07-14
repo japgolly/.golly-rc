@@ -8,6 +8,7 @@ bison
 bumblebee
 bzip2
 chromedriver
+cinnamon
 cloc
 cmake
 colordiff
@@ -86,6 +87,7 @@ less
 libreoffice-fresh
 libreoffice-fresh-en-GB
 libtool
+libva-intel-driver
 licenses
 linux
 linux-headers
@@ -128,6 +130,7 @@ pgadmin3
 phantomjs
 pkg-config
 pkgstats
+plasma-meta
 postgresql
 postgresql-docs
 postgresql-libs
@@ -170,6 +173,7 @@ unzip
 usbutils
 util-linux
 vi
+vulkan-intel
 wget
 which
 wine
