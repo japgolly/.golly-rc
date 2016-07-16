@@ -36,6 +36,8 @@
       <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal"/>
       <property name="&lt;Super&gt;w" type="string" value="google-chrome-stable"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="google-chrome-stable --incognito"/>
+      <property name="&lt;Super&gt;k" type="string" value="keepass"/>
+      <property name="&lt;Super&gt;l" type="string" value="mousepad"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

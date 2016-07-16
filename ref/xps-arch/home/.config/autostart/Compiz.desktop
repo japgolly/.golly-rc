@@ -8,5 +8,5 @@ Exec=compiz --replace
 OnlyShowIn=XFCE;
 StartupNotify=false
 Terminal=false
-Hidden=false
+Hidden=true
 

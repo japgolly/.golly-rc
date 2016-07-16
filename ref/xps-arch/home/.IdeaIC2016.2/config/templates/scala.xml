@@ -1,0 +1,118 @@
+<templateSet group="scala">
+  <template name="itr" value="for ($NAME$ &lt;- $FOR$ $GUARD$) {&#10;  $END$&#10;  }" description="Template for scala foreach" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FOR" expression="scalaVariableOfType(&quot;foreach&quot;)" defaultValue="option" alwaysStopAt="true" />
+    <variable name="NAME" expression="suggestScalaVariableName(&quot;foreach&quot;, FOR)" defaultValue="x" alwaysStopAt="true" />
+    <variable name="GUARD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="itry" value="for ($NAME$ &lt;- $FOR$ $GUARD$) yield {&#10;  $END$&#10;  }" description="Template for scala foreach" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FOR" expression="scalaVariableOfType(&quot;foreach&quot;)" defaultValue="option" alwaysStopAt="true" />
+    <variable name="NAME" expression="suggestScalaVariableName(&quot;foreach&quot;, FOR)" defaultValue="x" alwaysStopAt="true" />
+    <variable name="GUARD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="priv" value="println(&quot;$EXPR_COPY$ = &quot; + $EXPR$)" description="Template for expressions output" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="EXPR" expression="scalaVariableOfType(&quot;&quot;)" defaultValue="false" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="SCALA_XML" value="true" />
+    </context>
+  </template>
+  <template name="newvalclass" value="case class $NAME$(value: $TYPE$) extends AnyVal" description="Creates a new value class" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newimpclass" value="@inline implicit class $NAME$[A](private val self: $TYPE$[A]) extends AnyVal {&#10;  @inline def xxx[B](f: ): A =&#10;     ???&#10;}&#10;" description="Implicit class" toReformat="false" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newutest" value="import utest._&#10;&#10;object $NAME$ extends TestSuite {&#10;  &#10;  override def tests = TestSuite {&#10;  }&#10;}&#10;" description="New utest object" toReformat="false" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newadt" value="sealed abstract class $NAME$&#10;object $NAME$ {&#10;  case class Xxxx extends $NAME$&#10;}" description="adt" toReformat="false" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newcomp" value="final case class Props(/* ... */) {&#10;  @inline def render = Component(this)&#10;}&#10;&#10;// implicit val reusabilityProps: Reusability[Props] =&#10;//   Reusability.caseClass&#10;&#10;final class Backend($: BackendScope[Props, Unit]) {&#10;&#10;  def render(p: Props): ReactElement =&#10;    &lt;.div(/* ... */)&#10;}&#10;&#10;val Component = ReactComponentB[Props](&quot;Name&quot;)&#10;  .renderBackend[Backend]&#10;  // .configure(Reusability.shouldComponentUpdate)&#10;  .build&#10;" description="New React component" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="$$opt" value="$OPTION$ match {&#10;  case Some($NAME$) =&gt; $END$&#10;  case None    =&gt;&#10;}" description="Template for matching Option type" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OPTION" expression="scalaVariableOfType(&quot;scala.Option&quot;)" defaultValue="option" alwaysStopAt="true" />
+    <variable name="NAME" expression="suggestScalaVariableName(&quot;option&quot;, OPTION)" defaultValue="x" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newimpdef" value="implicit def autoBlah(x: Blah): Blah =&#10;  xxx" description="Implicit function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newimpclassSplit" value="final class $NAME$[A](private val self: A) extends AnyVal {&#10;  def xxx[B](f: A =&gt; B): B =&#10;     ???&#10;}&#10;&#10;implicit def to$NAME$[A](a: A): $NAME$[A] =&#10;  new $NAME$(a) " description="AnyValclass split with implicit def" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newUnivEq" value="implicit def univEq: UnivEq[$NAME$] = UnivEq.derive" toReformat="false" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="main" value="def main(args: Array[String]){&#10;  $END$&#10;}" description="Template for main method" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="apply" value="def apply$ARGS$: $RET_TYPE$ = new $RET_TYPE$($ARGS_NO_TYPES$)" description="Template for apply" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ARGS" expression="scala_primaryConstructorParams" defaultValue="x" alwaysStopAt="true" />
+    <variable name="RET_TYPE" expression="scala_className" defaultValue="x" alwaysStopAt="false" />
+    <variable name="ARGS_NO_TYPES" expression="scala_primaryConstructorParamNames(ARGS)" defaultValue="x" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="// TODO: $todo$ " description="adds // TODO" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="line-thin" value="// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━&#10;" description="━━━━" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="$$unapply" value="def unapply(arg: $ARG_TYPE$): Option[$RET_TYPE$] = $END$" description="Template for unapply" toReformat="true" toShortenFQNames="true">
+    <variable name="ARG_TYPE" expression="scala_className" defaultValue="X" alwaysStopAt="false" />
+    <variable name="RET_TYPE" expression="scala_primaryConstructorParamTypes(scala_primaryConstructorParams)" defaultValue="Int" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
