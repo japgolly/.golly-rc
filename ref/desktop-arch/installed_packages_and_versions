@@ -309,7 +309,7 @@ inkscape 0.91-18
 inotify-tools 3.14-4
 inputproto 2.3.2-1
 intel-tbb 4.4_20160526-2
-intel-ucode 20151106-1
+intel-ucode 20160607-2
 intltool 0.51.0-1
 iotop 0.6-4
 iproute2 4.5.0-2
@@ -773,12 +773,12 @@ nfsidmap 0.26-1
 nini 1.1.0-5
 nmap 7.12-1
 nmon 16f-1
-nodejs 6.2.2-1
+nodejs 6.3.0-1
 nodejs-bower 1.5.3-1
 nodejs-grunt-cli 1.2.0-1
 notification-daemon 3.20.0-1
 notify-sharp 0.4.1-2
-npm 3.10.3-1
+npm 3.10.5-1
 npth 1.2-1
 nspr 4.12-1
 nss 3.25-1
