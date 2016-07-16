@@ -165,9 +165,9 @@ tmux 2.2-1
 traceroute 2.1.0-1
 transmission-cli 2.92-1
 tree 1.7.0-1
-ttf-anonymous-pro 1.003-2
-ttf-inconsolata 20151221.480630d-1
+ttf-google-fonts-git 20160711-1
 ttf-linux-libertine 5.3.0-3
+ttf-vista-fonts 1-8
 tumbler 0.1.31-1
 unrar 1:5.3.11-1
 unzip 6.0-12

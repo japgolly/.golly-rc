@@ -39,6 +39,7 @@ ca-certificates 20160507-1
 ca-certificates-cacert 20140824-3
 ca-certificates-mozilla 3.25-1
 ca-certificates-utils 20160507-1
+cabextract 1.6-1
 cairo 1.14.6-1
 cairomm 1.12.0-2
 cantarell-fonts 1:0.0.24-1
@@ -125,6 +126,7 @@ fixesproto 5.0-3
 flac 1.3.1-3
 flex 2.6.0-3
 fontconfig 2.12.0-1
+fontforge 20160404-1
 fontsproto 2.1.3-1
 frameworkintegration 5.24.0-1
 freeglut 3.0.0-1
@@ -535,6 +537,7 @@ libsndfile 1.0.27-1
 libsodium 1.0.10-1
 libsoup 2.54.1-1
 libsoxr 0.1.2-1
+libspiro 1:0.5.20150702-1
 libssh 0.7.3-1
 libssh2 1.7.0-2
 libsystemd 230-5
@@ -546,6 +549,7 @@ libtiff 4.0.6-2
 libtirpc 1.0.1-2
 libtool 2.4.6-5
 libtxc_dxtn 1.0.1-6
+libunicodenames 1.2.0-1
 libunique 1.1.6-6
 libunistring 0.9.6-2
 libunwind 1.1-3
@@ -591,6 +595,7 @@ libxinerama 1.1.3-2
 libxkbcommon 0.6.1-1
 libxkbcommon-x11 0.6.1-1
 libxkbfile 1.0.9-1
+libxkbui 1.0.2-5
 libxklavier 5.4-1
 libxml2 2.9.4+0+gbdec218-2
 libxmu 1.1.2-1
@@ -675,7 +680,6 @@ nmap 7.12-1
 nmon 16f-1
 nodejs 6.3.0-1
 notify-sharp 0.4.1-2
-noto-fonts 20151224-2
 npm 3.10.5-1
 npth 1.2-1
 nspr 4.12-1
@@ -902,11 +906,10 @@ traceroute 2.1.0-1
 transmission-cli 2.92-1
 tree 1.7.0-1
 tslib 1.1-1
-ttf-anonymous-pro 1.003-2
 ttf-dejavu 2.35-1
-ttf-inconsolata 20151221.480630d-1
+ttf-google-fonts-git 20160711-1
 ttf-linux-libertine 5.3.0-3
-ttf-oxygen 1:5.4.3-1
+ttf-vista-fonts 1-8
 tumbler 0.1.31-1
 tzdata 2016f-1
 udisks2 2.1.7-1
