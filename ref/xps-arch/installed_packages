@@ -701,6 +701,7 @@ openal
 opencore-amr
 openexr
 openjpeg
+openjpeg2
 openresolv
 openssh
 openssl
