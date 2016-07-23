@@ -81,6 +81,7 @@ colord
 colordiff
 compiz
 compositeproto
+confuse
 coreutils
 cpulimit
 cpupower
@@ -506,6 +507,7 @@ libfm
 libfm-extra
 libfm-gtk2
 libfontenc
+libftdi
 libftdi-compat
 libgadu
 libgcrypt
@@ -683,6 +685,7 @@ libxklavier
 libxml++
 libxml2
 libxmu
+libxnvctrl
 libxpm
 libxrandr
 libxrender
@@ -795,6 +798,7 @@ opencl-nvidia
 opencore-amr
 openexr
 openjpeg
+openjpeg2
 openmpi
 openresolv
 openssh
