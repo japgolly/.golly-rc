@@ -1,6 +1,8 @@
 ack 2.14-1
+alsa-utils 1.1.1-1
 autoconf 2.69-3
 automake 1.15-1
+aws-cli 1.10.48-1
 bash 4.3.046-1
 bbswitch 0.8-50
 binutils 2.26.1-1
@@ -9,7 +11,7 @@ bumblebee 3.2.1-11
 bzip2 1.0.6-5
 chromedriver 2.22-1
 cinnamon 3.0.5-1
-cloc 1.66-1
+cloc 1.70-1
 cmake 3.5.2-2
 colordiff 1.0.16-1
 compiz 0.9.13.0-2
@@ -21,6 +23,8 @@ device-mapper 2.02.160-1
 dhcpcd 6.11.1-1
 dialog 1:1.3_20160424-1
 diffutils 3.3-3
+docker 1:1.11.2-2
+docker-compose 1.7.1-1
 dos2unix 7.3.4-1
 downgrade 5.3.0-1
 dropbox 6.4.14-1
@@ -43,6 +47,7 @@ git 2.9.0-1
 git-cola 2.6-1
 gitg 3.20.1-1
 glibc 2.23-5
+gnu-netcat 0.7.1-6
 google-chrome 51.0.2704.106-1
 gpart 0.3-1
 gparted 0.26.1-1
@@ -139,6 +144,7 @@ postgresql-old-upgrade 9.4.7-2
 powertop 2.8-2
 procps-ng 3.3.11-2
 psmisc 22.21-3
+python-virtualenv 15.0.2-1
 reiserfsprogs 3.6.24-1
 renameutils 0.12.0-3
 rsync 3.1.2-1
@@ -153,8 +159,9 @@ slack-desktop 2.1.0-1
 smartmontools 6.5-1
 smplayer 16.6.0-1
 smuxi 1.0.5-1
+speedcrunch 0.11-3
 strace 4.12-1
-sudo 1.8.16-1
+sudo 1.8.17.p1-1
 swi-prolog 7.2.3-3
 sysfsutils 2.1.0-9
 systemd-sysvcompat 230-5

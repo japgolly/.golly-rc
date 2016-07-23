@@ -1,6 +1,8 @@
 ack
+alsa-utils
 autoconf
 automake
+aws-cli
 bash
 bbswitch
 binutils
@@ -21,6 +23,8 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+docker
+docker-compose
 dos2unix
 downgrade
 dropbox
@@ -43,6 +47,7 @@ git
 git-cola
 gitg
 glibc
+gnu-netcat
 google-chrome
 gpart
 gparted
@@ -139,6 +144,7 @@ postgresql-old-upgrade
 powertop
 procps-ng
 psmisc
+python-virtualenv
 reiserfsprogs
 renameutils
 rsync
@@ -153,6 +159,7 @@ slack-desktop
 smartmontools
 smplayer
 smuxi
+speedcrunch
 strace
 sudo
 swi-prolog
