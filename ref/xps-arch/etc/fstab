@@ -14,3 +14,10 @@ UUID=af1529b9-2980-4204-a89e-20d3c952121f	/home     	ext4      	rw,relatime,data
 # /dev/nvme0n1p4
 UUID=e90be685-1528-43ee-99c0-980c80425c02	none      	swap      	defaults  	0 0
 
+
+nas:/volume1/public        /mnt/nas/public nfs4 noauto,exec,relatime,timeo=10,intr,_netdev	0 2
+nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,exec,relatime,timeo=10,intr,_netdev	0 2
+
+#nas:/volume1/public        /mnt/nas/public nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
+#nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
+
