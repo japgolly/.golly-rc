@@ -351,9 +351,12 @@ ldb
 ldns
 less
 lib32-acl
+lib32-alsa-lib
+lib32-alsa-plugins
 lib32-attr
 lib32-bzip2
 lib32-expat
+lib32-flac
 lib32-fontconfig
 lib32-freetype2
 lib32-gcc-libs
@@ -363,7 +366,9 @@ lib32-glibc
 lib32-glu
 lib32-harfbuzz
 lib32-icu
+lib32-json-c
 lib32-lcms2
+lib32-libasyncns
 lib32-libcap
 lib32-libdbus
 lib32-libffi
@@ -374,11 +379,15 @@ lib32-libice
 lib32-libidn
 lib32-libjpeg-turbo
 lib32-libnl
+lib32-libogg
 lib32-libpcap
 lib32-libpng
+lib32-libpulse
 lib32-libsm
+lib32-libsndfile
 lib32-libtiff
 lib32-libusb
+lib32-libvorbis
 lib32-libx11
 lib32-libxau
 lib32-libxcb
@@ -391,6 +400,7 @@ lib32-libxi
 lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
+lib32-libxtst
 lib32-ncurses
 lib32-nvidia-libgl
 lib32-nvidia-utils

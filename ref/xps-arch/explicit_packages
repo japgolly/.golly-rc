@@ -90,6 +90,9 @@ jfsutils
 kdiff3
 keepass
 less
+lib32-alsa-lib
+lib32-alsa-plugins
+lib32-libpulse
 libreoffice-fresh
 libreoffice-fresh-en-GB
 libtool
