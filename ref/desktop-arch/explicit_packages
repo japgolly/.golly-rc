@@ -53,6 +53,8 @@ dhcpcd
 diffutils
 dmenu
 dmidecode
+docker
+docker-compose
 dos2unix
 downgrade
 dropbox
