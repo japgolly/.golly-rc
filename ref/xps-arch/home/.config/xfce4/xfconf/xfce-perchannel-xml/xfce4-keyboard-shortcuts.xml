@@ -33,11 +33,11 @@
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal"/>
       <property name="&lt;Super&gt;w" type="string" value="google-chrome-stable"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="google-chrome-stable --incognito"/>
       <property name="&lt;Super&gt;k" type="string" value="keepass"/>
       <property name="&lt;Super&gt;l" type="string" value="mousepad"/>
+      <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -1,5 +1,7 @@
 ack
 alsa-utils
+ansible
+atom-editor-bin
 autoconf
 automake
 aws-cli
@@ -32,6 +34,7 @@ dwdiff
 e2fsprogs
 emerald-themes-git
 emerald0.9
+evince
 fakeroot
 file
 filesystem
@@ -47,6 +50,7 @@ git
 git-cola
 gitg
 glibc
+gnome-terminal
 gnu-netcat
 google-chrome
 gpart
@@ -103,11 +107,13 @@ linux-headers
 llvm
 lm_sensors
 logrotate
+lsof
 lvm2
 m4
 make
 man-db
 man-pages
+marp
 mdadm
 meld
 mirage
@@ -147,7 +153,10 @@ postgresql-old-upgrade
 powertop
 procps-ng
 psmisc
+python-boto
 python-virtualenv
+python2-boto
+python2-boto3
 reiserfsprogs
 renameutils
 rsync
@@ -244,6 +253,7 @@ xorg-docs
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-server-devel
+xorg-server-utils
 xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
@@ -270,6 +280,7 @@ xorg-xrefresh
 xorg-xsetroot
 xorg-xwd
 xorg-xwud
+xsecurelock-git
 xterm
 yaourt
 zip
