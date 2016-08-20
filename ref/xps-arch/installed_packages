@@ -154,6 +154,7 @@ gconf
 gcr
 gd
 gdb
+gdb-common
 gdbm
 gdk-pixbuf2
 geoclue2
@@ -420,6 +421,7 @@ lib32-zlib
 libabw
 libaio
 libakonadi-qt4
+libao
 libarchive
 libass
 libassuan
@@ -580,6 +582,7 @@ libunique
 libunistring
 libunwind
 libusb
+libusb-compat
 libusbmuxd
 libutempter
 libutil-linux
