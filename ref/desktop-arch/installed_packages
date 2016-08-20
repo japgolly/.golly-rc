@@ -180,6 +180,7 @@ gconf
 gcr
 gd
 gdb
+gdb-common
 gdbm
 gdk-pixbuf2
 gedit
@@ -459,6 +460,7 @@ lib32-zlib
 libabw
 libaio
 libakonadi-qt4
+libao
 libarchive
 libass
 libassuan
