@@ -67,6 +67,7 @@ colord
 colordiff
 compiz
 compositeproto
+confuse
 coreutils
 cpupower
 cracklib
@@ -152,6 +153,7 @@ gconf
 gcr
 gd
 gdb
+gdb-common
 gdbm
 gdk-pixbuf2
 gedit
@@ -266,6 +268,7 @@ iana-etc
 icon-naming-utils
 icu
 iftop
+ijs
 ilmbase
 imagemagick
 imlib2
@@ -318,6 +321,7 @@ less
 libabw
 libaio
 libakonadi-qt4
+libao
 libarchive
 libass
 libassuan
@@ -368,6 +372,7 @@ libfm
 libfm-extra
 libfm-gtk2
 libfontenc
+libftdi
 libftdi-compat
 libgadu
 libgcrypt
@@ -546,6 +551,7 @@ libxkbfile
 libxklavier
 libxml2
 libxmu
+libxnvctrl
 libxpm
 libxrandr
 libxrender
@@ -654,6 +660,7 @@ openal
 opencore-amr
 openexr
 openjpeg
+openjpeg2
 openmpi
 openresolv
 openssh
