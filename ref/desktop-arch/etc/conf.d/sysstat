@@ -1,4 +1,4 @@
-# sysstat-11.2.5 configuration file.
+# sysstat-11.4.0 configuration file.
 
 # How long to keep log files (in days).
 # If value is greater than 28, then log files are kept in

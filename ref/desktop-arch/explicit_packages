@@ -159,6 +159,7 @@ leafpad
 less
 lib32-alsa-plugins
 lib32-gnutls
+lib32-libgudev
 lib32-libpulse
 lib32-nvidia-libgl
 libdvdread
@@ -266,6 +267,8 @@ ppp
 procps-ng
 profont
 psmisc
+pulseaudio
+pulseaudio-alsa
 pv
 qjackctl
 redshift
@@ -297,6 +300,7 @@ speedcrunch
 stack
 startup-notification
 steam
+steam-native
 strace
 sublime-text
 sudo
