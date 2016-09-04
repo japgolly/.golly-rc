@@ -43,8 +43,7 @@ firefox
 flex
 fusion-icon0.9
 gawk
-gcc
-gcc-libs
+gcc-multilib
 gettext
 git
 git-cola
@@ -96,6 +95,7 @@ keepass
 less
 lib32-alsa-lib
 lib32-alsa-plugins
+lib32-curl
 lib32-libpulse
 libreoffice-fresh
 libreoffice-fresh-en-GB
@@ -151,6 +151,7 @@ postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
 powertop
+primus
 procps-ng
 psmisc
 python-boto
@@ -173,6 +174,7 @@ smartmontools
 smplayer
 smuxi
 speedcrunch
+steam
 strace
 sudo
 swi-prolog
@@ -187,6 +189,7 @@ traceroute
 transmission-cli
 tree
 ttf-google-fonts-git
+ttf-liberation
 ttf-linux-libertine
 ttf-vista-fonts
 tumbler
@@ -194,8 +197,10 @@ unrar
 unzip
 usbutils
 util-linux
+vault
 vi
 vimpager
+virtualbox
 vulkan-intel
 wget
 which
