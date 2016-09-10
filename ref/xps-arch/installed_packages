@@ -9,6 +9,9 @@ alsa-plugins
 alsa-utils
 ansible
 apache-ant
+apm
+apr
+apr-util
 archlinux-keyring
 asciidoc
 aspell
@@ -16,7 +19,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-atom-editor-bin
+atom
 attica-qt4
 attica-qt5
 attr
@@ -40,6 +43,7 @@ breeze-icons
 bridge-utils
 bumblebee
 bzip2
+c-ares
 ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
@@ -113,6 +117,7 @@ dropbox
 dwdiff
 e2fsprogs
 ebook-tools
+electron
 elfutils
 emerald-themes-git
 emerald0.9
@@ -183,6 +188,8 @@ gnupg
 gnutls
 go
 gobject-introspection-runtime
+goocanvas
+goocanvasmm
 google-chrome
 gox
 gpart
@@ -221,6 +228,7 @@ gtk-xfce-engine
 gtk2
 gtk3
 gtkmm
+gtkmm3
 gtksourceview2
 gtksourceview3
 gtkspell
@@ -726,6 +734,7 @@ mesa-libgl
 metacity
 milou
 mime-types
+minizip
 mirage
 mjpegtools
 mkinitcpio
@@ -843,7 +852,7 @@ powertop
 ppp
 presentproto
 primus
-prison-frameworks
+prison
 procps-ng
 protobuf
 psmisc
@@ -855,6 +864,7 @@ pygtk
 pyqt4-common
 pyrex
 python
+python-appdirs
 python-atspi
 python-babel
 python-boto
@@ -898,6 +908,7 @@ python-websocket-client
 python-xdg
 python-yaml
 python2
+python2-appdirs
 python2-babel
 python2-bcdoc
 python2-behave
@@ -982,6 +993,7 @@ qtwebkit
 randrproto
 raptor
 rasqal
+re2
 readline
 recode
 recordproto
@@ -1012,6 +1024,7 @@ sddm-kcm
 sdl
 sed
 semver
+serf
 shadow
 shared-mime-info
 sip
@@ -1039,6 +1052,7 @@ steam
 stfl
 strace
 strigi
+subversion
 sudo
 swi-prolog
 sysfsutils
@@ -1056,6 +1070,7 @@ thin-provisioning-tools
 threadweaver
 thunar
 thunar-volman
+tinyxml
 tmux
 traceroute
 transmission-cli
@@ -1083,8 +1098,6 @@ vid.stab
 videoproto
 vim-runtime
 vimpager
-virtualbox
-virtualbox-host-modules-arch
 virtualgl
 vte
 vte-common

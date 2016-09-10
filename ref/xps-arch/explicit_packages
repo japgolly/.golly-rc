@@ -1,7 +1,7 @@
 ack
 alsa-utils
 ansible
-atom-editor-bin
+atom
 autoconf
 automake
 aws-cli
@@ -200,7 +200,6 @@ util-linux
 vault
 vi
 vimpager
-virtualbox
 vulkan-intel
 wget
 which
