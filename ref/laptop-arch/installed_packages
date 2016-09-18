@@ -12,6 +12,7 @@ alsa-plugins
 alsa-tools
 alsa-utils
 apache-ant
+apm
 apr
 apr-util
 archlinux-keyring
@@ -23,7 +24,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-atom-editor
+atom
 attica-qt4
 attr
 audit
@@ -43,6 +44,7 @@ boost
 boost-libs
 bsdiff
 bzip2
+c-ares
 ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
@@ -105,6 +107,7 @@ doxygen
 dropbox
 e2fsprogs
 ed
+electron
 elfutils
 emacs
 emerald0.9
@@ -345,7 +348,6 @@ libcroco
 libcups
 libdaemon
 libdatrie
-libdbus
 libdbusmenu-qt4
 libdc1394
 libdca
@@ -610,6 +612,7 @@ mesa-demos
 mesa-libgl
 metacity
 mime-types
+minizip
 mirage
 mjpegtools
 mkinitcpio
@@ -745,6 +748,7 @@ pyqt4-common
 pyqt5-common
 pyrex
 python
+python-appdirs
 python-babel
 python-beaker
 python-dbus
@@ -769,6 +773,7 @@ python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
 python-xdg
 python2
+python2-appdirs
 python2-apsw
 python2-beaker
 python2-cairo
@@ -819,6 +824,7 @@ randrproto
 raptor
 rarian
 rasqal
+re2
 readline
 recode
 recordproto
