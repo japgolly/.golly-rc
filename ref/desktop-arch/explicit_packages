@@ -15,7 +15,7 @@ aria2
 arm
 aspell
 aspell-en
-atom-editor-bin
+atom
 audio-convert
 authbind
 autoconf
@@ -153,6 +153,7 @@ jfsutils
 jre6-compat
 kdiff3
 keepass
+keybase
 krename
 lame
 leafpad

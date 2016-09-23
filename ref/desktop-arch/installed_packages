@@ -15,6 +15,7 @@ android-tools
 android-udev
 apache
 apache-ant
+apm
 apr
 apr-util
 archlinux-keyring
@@ -28,7 +29,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-atom-editor-bin
+atom
 attica-qt4
 attr
 aubio
@@ -132,6 +133,7 @@ ec2-api-tools
 ed
 efibootmgr
 efivar
+electron
 elfutils
 emacs
 emerald0.9
@@ -344,6 +346,7 @@ kdelibs
 kdepimlibs4
 kdiff3
 keepass
+keybase
 keyutils
 kmod
 krb5
@@ -769,6 +772,7 @@ mesa-demos
 metacity
 meterbridge
 mime-types
+minizip
 mirage
 mjpegtools
 mkinitcpio
@@ -992,6 +996,7 @@ qtwebkit
 randrproto
 raptor
 rasqal
+re2
 readline
 recode
 recordproto
