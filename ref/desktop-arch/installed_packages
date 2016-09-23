@@ -506,7 +506,6 @@ libcroco
 libcups
 libdaemon
 libdatrie
-libdbus
 libdbusmenu-qt4
 libdc1394
 libdca
@@ -653,7 +652,6 @@ libthai
 libtheora
 libtiff
 libtiger
-libtinfo
 libtirpc
 libtool
 libtracker-sparql
@@ -917,6 +915,7 @@ pyqt4-common
 pyqt5-common
 pyrex
 python
+python-appdirs
 python-cached-property
 python-chardet
 python-dbus
@@ -940,6 +939,7 @@ python-websocket-client
 python-xdg
 python-yaml
 python2
+python2-appdirs
 python2-apsw
 python2-cairo
 python2-chardet
