@@ -146,6 +146,7 @@ phantomjs
 pkg-config
 pkgstats
 plasma-meta
+pngout
 postgresql
 postgresql-docs
 postgresql-libs
