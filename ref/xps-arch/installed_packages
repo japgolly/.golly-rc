@@ -3,6 +3,7 @@ aalib
 accountsservice
 ack
 acl
+acroread
 adwaita-icon-theme
 alsa-lib
 alsa-plugins
@@ -255,6 +256,7 @@ hyphen-en
 iana-etc
 icu
 iftop
+ijs
 ilmbase
 imagemagick
 imlib2
@@ -272,6 +274,7 @@ jansson
 jasper
 java-environment-common
 java-runtime-common
+jbig2dec
 jdk
 jdk7
 jfsutils
@@ -452,6 +455,7 @@ lib32-libxrandr
 lib32-libxrender
 lib32-libxshmfence
 lib32-libxss
+lib32-libxt
 lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
@@ -801,6 +805,7 @@ pam
 pambase
 pango
 pangomm
+pangox-compat
 parallel
 parted
 patch
