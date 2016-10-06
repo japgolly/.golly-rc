@@ -42,6 +42,7 @@
       <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master &apos;5%+&apos;"/>
       <property name="XF86AudioLowerVolume" type="string" value="amixer set Master &apos;5%-&apos;"/>
       <property name="XF86AudioMute" type="string" value="amixer set Master toggle"/>
+      <property name="&lt;Super&gt;o" type="string" value="libreoffice"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

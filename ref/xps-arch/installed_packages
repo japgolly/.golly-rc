@@ -3,6 +3,7 @@ aalib
 accountsservice
 ack
 acl
+acpitool
 acroread
 adwaita-icon-theme
 alsa-lib
@@ -165,6 +166,7 @@ gdbm
 gdk-pixbuf2
 geoclue2
 gettext
+ghc
 ghostscript
 giflib
 git
@@ -328,6 +330,7 @@ kidletime
 kinfocenter
 kinit
 kio
+kirigami
 kitemmodels
 kitemviews
 kjobwidgets
@@ -864,6 +867,7 @@ protobuf
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-gconf
 pygobject-devel
 pygobject2-devel
 pygtk
@@ -994,7 +998,6 @@ qt5-webchannel
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
-qtchooser
 qtwebkit
 randrproto
 raptor
@@ -1053,6 +1056,7 @@ speedcrunch
 speex
 speexdsp
 sqlite
+stack
 startup-notification
 steam
 stfl
@@ -1084,6 +1088,7 @@ tree
 tslib
 ttf-dejavu
 ttf-google-fonts-git
+ttf-hack
 ttf-liberation
 ttf-linux-libertine
 ttf-vista-fonts
