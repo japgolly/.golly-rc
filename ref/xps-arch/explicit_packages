@@ -9,6 +9,7 @@ automake
 aws-cli
 bash
 bbswitch
+bind-tools
 binutils
 bison
 bumblebee
@@ -48,6 +49,7 @@ gawk
 gcc-multilib
 gettext
 ghc
+gimp
 git
 git-cola
 gitg

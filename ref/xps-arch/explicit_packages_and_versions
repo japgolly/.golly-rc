@@ -9,6 +9,7 @@ automake 1.15-2
 aws-cli 1.10.67-1
 bash 4.3.046-1
 bbswitch 0.8-53
+bind-tools 9.11.0-1
 binutils 2.27-1
 bison 3.0.4-2
 bumblebee 3.2.1-12
@@ -48,9 +49,10 @@ gawk 4.1.4-1
 gcc-multilib 6.2.1-1
 gettext 0.19.8.1-2
 ghc 8.0.1-1
+gimp 2.8.18-1
 git 2.10.0-1
 git-cola 2.8-1
-gitg 3.20.3-1
+gitg 3.22.0-1
 glibc 2.24-2
 gnome-terminal 3.20.2-2
 gnu-netcat 0.7.1-6
@@ -116,7 +118,7 @@ m4 1.4.17-2
 make 4.2.1-1
 man-db 2.7.5-4
 man-pages 4.07-1
-marp 0.0.8-1
+marp 0.0.9-1
 mdadm 3.4-1
 meld 3.16.2-1
 mirage 0.9.5.2-4
@@ -193,7 +195,7 @@ tmux 2.3-1
 traceroute 2.1.0-1
 transmission-cli 2.92-5
 tree 1.7.0-1
-ttf-google-fonts-git 20160711-1
+ttf-google-fonts-git 20160930-1
 ttf-liberation 2.00.1-6
 ttf-linux-libertine 5.3.0-3
 ttf-vista-fonts 1-8

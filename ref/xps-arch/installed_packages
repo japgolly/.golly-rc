@@ -29,9 +29,11 @@ autoconf
 automake
 avahi
 aws-cli
+babl
 baloo
 bash
 bbswitch
+bind-tools
 binutils
 bison
 bluedevil
@@ -164,11 +166,15 @@ gdb
 gdb-common
 gdbm
 gdk-pixbuf2
+gegl02
 geoclue2
+geoip
+geoip-database
 gettext
 ghc
 ghostscript
 giflib
+gimp
 git
 git-cola
 gitg
@@ -257,6 +263,7 @@ hyphen
 hyphen-en
 iana-etc
 icu
+idnkit
 iftop
 ijs
 ilmbase
@@ -663,6 +670,7 @@ libvpx
 libwacom
 libwbclient
 libwebp
+libwmf
 libwnck
 libwnck3
 libwpd
