@@ -19,6 +19,7 @@
    wipe      = reset --hard
    unstage   = reset HEAD
    ms        = merge --squash --no-commit
+   ff        = merge --ff-only
 
 [color]
    ui = true
