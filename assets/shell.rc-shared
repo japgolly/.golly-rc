@@ -44,6 +44,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias pie='perl -pi -e'
+alias mvorig='find -name "*.orig" -type f -exec mv -v {} /tmp \;'
 
 alias odx='od -Ax -tx1z'
 
