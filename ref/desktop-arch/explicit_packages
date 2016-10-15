@@ -194,6 +194,7 @@ m64py
 make
 man-db
 man-pages
+marp
 maven
 mdadm
 meld
@@ -225,6 +226,9 @@ nodejs-bower
 nodejs-grunt-cli
 notification-daemon
 notify-sharp
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
 npm
 ntfs-3g
 ntp
