@@ -61,6 +61,9 @@ mkdir -p ~/.atom
 link .atom/keymap.cson
 link .atom/styles.less
 
+mkdir -p ~/.config/mpv
+link .config/mpv/input.conf
+
 source_script .bashrc shell.rc-bash
 source_script .zshrc shell.rc-zsh
 
