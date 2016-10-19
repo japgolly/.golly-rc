@@ -823,6 +823,7 @@ patch
 pciutils
 pcmciautils
 pcre
+pcre2
 perl
 perl-algorithm-diff
 perl-error
@@ -1271,6 +1272,7 @@ xvidcore
 xz
 yajl
 yaourt
+youtube-dl
 zenity
 zeromq
 zip
