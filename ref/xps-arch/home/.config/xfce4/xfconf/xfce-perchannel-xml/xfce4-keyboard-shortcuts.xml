@@ -38,11 +38,11 @@
       <property name="&lt;Super&gt;k" type="string" value="keepass"/>
       <property name="&lt;Super&gt;l" type="string" value="mousepad"/>
       <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
-      <property name="&lt;Primary&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
       <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master &apos;5%+&apos;"/>
       <property name="XF86AudioLowerVolume" type="string" value="amixer set Master &apos;5%-&apos;"/>
       <property name="XF86AudioMute" type="string" value="amixer set Master toggle"/>
       <property name="&lt;Super&gt;o" type="string" value="libreoffice"/>
+      <property name="&lt;Primary&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

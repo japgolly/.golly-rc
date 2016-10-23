@@ -390,9 +390,9 @@ lib32-bzip2
 lib32-cairo
 lib32-cracklib
 lib32-curl
+lib32-dbus
 lib32-dbus-glib
 lib32-e2fsprogs
-lib32-elfutils
 lib32-expat
 lib32-flac
 lib32-fontconfig
@@ -419,8 +419,8 @@ lib32-libasyncns
 lib32-libcap
 lib32-libcups
 lib32-libdatrie
-lib32-libdbus
 lib32-libdrm
+lib32-libelf
 lib32-libffi
 lib32-libgcrypt
 lib32-libglvnd
@@ -895,6 +895,7 @@ python-dateutil
 python-dbus
 python-dbus-common
 python-docker-py
+python-docker-pycreds
 python-dockerpty
 python-docopt
 python-docutils
