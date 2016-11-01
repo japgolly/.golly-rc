@@ -183,6 +183,7 @@ glibmm
 glpk
 glu
 gmp
+gnome-autoar
 gnome-desktop
 gnome-doc-utils
 gnome-icon-theme
@@ -211,6 +212,7 @@ graphite
 graphviz
 grep
 groff
+grunt-cli
 gsettings-desktop-schemas
 gsfonts
 gsl
@@ -292,6 +294,7 @@ jansson
 jasper
 java-environment-common
 java-runtime-common
+jbig2dec
 jdk
 jfsutils
 js
@@ -381,6 +384,7 @@ libgcrypt
 libgcrypt15
 libgdata
 libgdiplus
+libgdm
 libgee
 libgit2
 libgit2-glib
@@ -611,6 +615,7 @@ mesa
 mesa-demos
 mesa-libgl
 metacity
+metis
 mime-types
 minizip
 mirage
@@ -646,7 +651,6 @@ nixnote
 nmon
 nodejs
 nodejs-bower
-nodejs-grunt-cli
 notification-daemon
 notify-sharp
 npm
@@ -691,6 +695,7 @@ pciutils
 pcmanfm
 pcmciautils
 pcre
+pcre2
 perl
 perl-algorithm-diff
 perl-error
@@ -818,7 +823,6 @@ qt5-webchannel
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
-qtchooser
 qtwebkit
 randrproto
 raptor

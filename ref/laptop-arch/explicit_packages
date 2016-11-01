@@ -79,6 +79,7 @@ gparted
 gptfdisk
 graphviz
 grep
+grunt-cli
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
@@ -180,7 +181,6 @@ nixnote
 nmon
 nodejs
 nodejs-bower
-nodejs-grunt-cli
 notification-daemon
 notify-sharp
 ntfs-3g
