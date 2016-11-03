@@ -849,6 +849,7 @@ sbt
 schroedinger
 scrnsaverproto
 sdl
+sdl2
 sdl_image
 sed
 semver
