@@ -11,7 +11,7 @@ alsa-plugins 1.1.1-1
 alsa-utils 1.1.2-1
 ansible 2.2.0.0-1
 apache-ant 1.9.7-1
-apm 1.14.0-1
+apm 1.14.0-2
 apr 1.5.2-1
 apr-util 1.5.4-2
 archlinux-keyring 20161101-1
@@ -20,7 +20,7 @@ aspell 0.60.6.1-5
 at-spi2-atk 2.22.0-1
 at-spi2-core 2.22.0-1
 atk 2.22+1+gd57f97d-1
-atkmm 2.24.2-2
+atkmm 2.24.2+1+gf30b47f-1
 atom 1.11.2-1
 attica-qt4 0.4.2-3
 attica-qt5 5.27.0-1
@@ -28,7 +28,7 @@ attr 2.4.47-1
 autoconf 2.69-4
 automake 1.15-2
 avahi 0.6.32-2
-aws-cli 1.11.10-1
+aws-cli 1.11.13-1
 babl 0.1.18-1
 baloo 5.27.0-1
 bash 4.3.046-1
@@ -59,7 +59,7 @@ cantarell-fonts 1:0.0.25-2
 caribou 0.4.21+0+g36e3d0f-1
 cdparanoia 10.2-5
 celt 0.11.3-2
-chromedriver 2.24-1
+chromedriver 2.25-1
 cifs-utils 6.5-1
 cinnamon 3.0.7-2
 cinnamon-control-center 3.0.1-1
@@ -75,11 +75,11 @@ cloc 1.70-1
 clucene 2.3.3.4-9
 clutter 1.26.0+24+g79da526-1
 clutter-gtk 1.8.2-1
-cmake 3.6.2-2
+cmake 3.6.3-1
 cogl 1.22.2-1
 colord 1.3.3-1
 colordiff 1.0.16-1
-compiz 0.9.13.0-7
+compiz 0.9.13.0-8
 compositeproto 0.4.2-3
 confuse 3.0-1
 containerd 0.2.4-1
@@ -89,7 +89,7 @@ cpulimit 20160304-1
 cpupower 4.8-1
 cracklib 2.9.6-1
 cryptsetup 1.7.2-1
-curl 7.50.3-1
+curl 7.51.0-1
 damageproto 1.2.1-3
 db 5.3.28-3
 dbus 1.10.12-1
@@ -108,7 +108,7 @@ djvulibre 3.5.27-3
 dmxproto 2.3.1-3
 dnssec-anchors 20150403-1
 docbook-xml 4.5-6
-docbook-xsl 1.79.1-1
+docbook-xsl 1.79.1-2
 docker 1:1.12.3-1
 docker-compose 1.8.1-1
 dos2unix 7.3.4-1
@@ -121,7 +121,7 @@ dropbox 13.4.21-1
 dwdiff 2.0.9-6
 e2fsprogs 1.43.3-1
 ebook-tools 0.2.2-3
-electron 1.4.4-1
+electron 1.4.5-1
 elfutils 0.167-1
 emerald-themes-git 0.8.12.1.r0.gb484bb4-1
 emerald0.9 0.9.5-21
@@ -215,7 +215,7 @@ gsettings-desktop-schemas 3.22.0+1+g6f52ab5-1
 gsfonts 20160531-3
 gsl 2.2.1-1
 gsm 1.0.14-1
-gssproxy 0.5.1-1
+gssproxy 0.5.1-2
 gst-plugins-base 1.10.0-1
 gst-plugins-base-libs 1.10.0-1
 gst-plugins-good 1.10.0-1
@@ -267,7 +267,7 @@ idnkit 1.0-3
 iftop 1.0pre4-2
 ijs 0.35-1
 ilmbase 2.2.0-2
-imagemagick 6.9.6.2-1
+imagemagick 6.9.6.3-1
 imlib2 1.4.9-1
 inetutils 1.9.4-4
 inkscape 0.91-19
@@ -390,9 +390,9 @@ lib32-attr 2.4.47-1
 lib32-bzip2 1.0.6-2
 lib32-cairo 1.14.6-2
 lib32-cracklib 2.9.6-1
-lib32-curl 7.50.3-1
+lib32-curl 7.51.0-1
 lib32-dbus 1.10.12-1
-lib32-dbus-glib 0.106-2
+lib32-dbus-glib 0.108-1
 lib32-e2fsprogs 1.43.3-1
 lib32-expat 2.2.0-1
 lib32-flac 1.3.1-2
@@ -400,7 +400,7 @@ lib32-fontconfig 2.12.1-1
 lib32-freetype2 2.7-2
 lib32-gcc-libs 6.2.1-1
 lib32-gconf 3.2.6-2
-lib32-gdk-pixbuf2 2.34.0-1
+lib32-gdk-pixbuf2 2.36.0+2+ga7c869a-1
 lib32-gettext 0.19.8.1-1
 lib32-glib2 2.50.1-2
 lib32-glibc 2.24-2
@@ -424,7 +424,7 @@ lib32-libdrm 2.4.71-1
 lib32-libelf 0.167-1
 lib32-libffi 3.2.1-1
 lib32-libgcrypt 1.7.3-1
-lib32-libglvnd 0.1.1-1
+lib32-libglvnd 0.1.1.20161028-1
 lib32-libgpg-error 1.24-1
 lib32-libgudev 230-2
 lib32-libice 1.0.9-1
@@ -475,8 +475,8 @@ lib32-ncurses 6.0-2
 lib32-nettle 3.3-1
 lib32-nspr 4.13-1
 lib32-nss 3.27.1-1
-lib32-nvidia-libgl 370.28-1
-lib32-nvidia-utils 370.28-1
+lib32-nvidia-libgl 375.10-2
+lib32-nvidia-utils 375.10-2
 lib32-openal 1.17.2-1
 lib32-openssl 1:1.0.2.j-1
 lib32-p11-kit 0.23.2-1
@@ -549,7 +549,7 @@ libgee 0.18.1-1
 libgit2 1:0.24.2-1
 libgit2-glib 0.24.4-1
 libglade 2.6.4-5
-libglvnd 0.1.1-1
+libglvnd 0.1.1.20161028-1
 libgme 0.6.0-5
 libgnome-keyring 3.12.0-2
 libgnomekbd 3.22.0.1-1
@@ -575,7 +575,7 @@ libkeybinder3 0.3.1-1
 libksba 1.3.4-2
 libkscreen 5.8.3-1
 libksysguard 5.8.3-1
-liblangtag 0.5.8-2
+liblangtag 0.6.2-1
 libldap 2.4.44-2
 liblqr 0.4.2-1
 liblrdf 0.5.0-2
@@ -620,8 +620,8 @@ libqalculate 0.9.10-1
 libqmi 1.16.0-1
 libqzeitgeist 0.8.0-6
 libraw1394 2.1.2-1
-libreoffice-fresh 5.2.2-2
-libreoffice-fresh-en-GB 5.2.2-1
+libreoffice-fresh 5.2.3-1
+libreoffice-fresh-en-GB 5.2.3-1
 librevenge 0.0.4-1
 librpcsecgss 0.19-8
 librsvg 2:2.40.16-1
@@ -640,7 +640,7 @@ libsoxr 0.1.2-1
 libspectre 0.2.8-1
 libspiro 1:0.5.20150702-1
 libssh 0.7.3-1
-libssh2 1.7.0-2
+libssh2 1.8.0-1
 libsystemd 231-4
 libtasn1 4.9-2
 libteam 1.23-1
@@ -702,7 +702,7 @@ libxkbui 1.0.2-5
 libxklavier 5.4-1
 libxml2 2.9.4+12+ge905f08-1
 libxmu 1.1.2-1
-libxnvctrl 370.28-1
+libxnvctrl 375.10-1
 libxpm 3.5.11-1
 libxrandr 1.5.1-1
 libxrender 0.9.10-1
@@ -726,7 +726,7 @@ linux-headers 4.8.6-1
 lirc 1:0.9.4.b-1
 llvm 3.9.0-1
 llvm-libs 3.9.0-1
-lm_sensors 3.4.0-1
+lm_sensors 3.4.0-2
 lmdb 0.9.18-2
 log4net 1.2.15-1
 logrotate 3.10.0-1
@@ -768,7 +768,7 @@ mpv 1:0.21.0-2
 mtdev 1.1.5-1
 muffin 3.0.5-2
 musicbrainz 2.1.5-7
-nano 2.7.0-1
+nano 2.7.1-1
 ncurses 6.0-4
 nemo 3.0.6-2
 neon 0.30.2-1
@@ -791,9 +791,9 @@ npth 1.2-1
 nspr 4.13.1-1
 nss 3.27.1-1
 ntfs-3g 2016.2.22-1
-nvidia 370.28-2
-nvidia-settings 370.28-1
-nvidia-utils 370.28-1
+nvidia 375.10-1
+nvidia-settings 375.10-1
+nvidia-utils 375.10-2
 ocl-icd 2.2.9-1
 odt2txt 0.4-3
 oniguruma 6.1.1-1
@@ -822,7 +822,7 @@ pangox-compat 0.0.2-2
 parallel 20161022-1
 parted 3.2-4
 patch 2.7.5-1
-pciutils 3.5.1-1
+pciutils 3.5.2-1
 pcmciautils 018-7
 pcre 8.39-1
 pcre2 10.22-1
@@ -889,7 +889,7 @@ python-appdirs 1.4.0-4
 python-atspi 2.20.2-1
 python-babel 2.3.4-1
 python-boto 2.43.0-1
-python-botocore 1.4.67-1
+python-botocore 1.4.70-1
 python-cached-property 1.3.0-1
 python-chardet 2.3.0-2
 python-colorama 0.3.7-1
@@ -924,7 +924,7 @@ python-sphinx 1.4.8-1
 python-sphinx-alabaster-theme 0.7.9-1
 python-sphinx_rtd_theme 0.1.9-1
 python-texttable 0.8.6-1
-python-urllib3 1.18.1-1
+python-urllib3 1.19-1
 python-virtualenv 15.0.3-1
 python-websocket-client 0.37.0-1
 python-xdg 0.25-3
@@ -936,7 +936,7 @@ python2-bcdoc 0.14.0-1
 python2-behave 1.2.5-1
 python2-boto 2.43.0-1
 python2-boto3 1.4.1-1
-python2-botocore 1.4.62-1
+python2-botocore 1.4.64-1
 python2-cairo 1.10.0-2
 python2-cffi 1.8.3-1
 python2-crypto 2.6.1-3
@@ -979,7 +979,7 @@ python2-pygments 2.1.3-1
 python2-pyinotify 0.9.6-2
 python2-pyparsing 2.1.10-1
 python2-pytz 2016.7-1
-python2-s3transfer 0.1.8-1
+python2-s3transfer 0.1.9-1
 python2-setuptools 1:28.7.1-1
 python2-six 1.10.0-2
 python2-snowballstemmer 1.2.1-1
@@ -1047,7 +1047,7 @@ sdl2 2.0.5-2
 sed 4.2.2-4
 semver 5.3.0-1
 serf 1.3.9-1
-shadow 4.4-2
+shadow 4.4-3
 shared-mime-info 1.7-1
 sip 4.18.1-1
 slack-desktop 2.2.1-1
@@ -1068,8 +1068,8 @@ speech-dispatcher 0.8.5-1
 speedcrunch 0.11-3
 speex 1.2rc2-1
 speexdsp 1.2rc3-2
-sqlite 3.15.0-1
-stack 1.2.0-10
+sqlite 3.15.1-1
+stack 1.2.0-11
 startup-notification 0.12-4
 steam 1.0.0.53-1
 stfl 0.24-2
@@ -1085,7 +1085,7 @@ systemsettings 5.8.3-1
 t1lib 5.1.2-5
 taglib 1.11.1-1
 talloc 2.1.8-1
-tar 1.29-1
+tar 1.29-2
 tdb 1.3.11-1
 tevent 1:0.9.31-1
 texinfo 6.3-1
@@ -1106,7 +1106,7 @@ ttf-liberation 2.00.1-6
 ttf-linux-libertine 5.3.0-3
 ttf-vista-fonts 1-8
 tumbler 0.1.31-1
-tzdata 2016h-1
+tzdata 2016i-1
 udisks2 2.1.7-1
 unrar 1:5.4.5-1
 unzip 6.0-12
@@ -1132,7 +1132,7 @@ wavpack 4.80.0-1
 wayland 1.12.0-1
 wayland-protocols 1.7-1
 wdiff 1.2.2-1
-webkit2gtk 2.14.1-1
+webkit2gtk 2.14.2-1
 webrtc-audio-processing 0.3-1
 wget 1.18-1
 which 2.21-2
@@ -1165,7 +1165,7 @@ xf86-video-dummy 0.3.7-5
 xf86-video-fbdev 0.4.4-5
 xf86-video-glint 1.2.8-7
 xf86-video-i128 1.3.6-7
-xf86-video-intel 1:2.99.917+722+g714052f-1
+xf86-video-intel 1:2.99.917+725+gbf7316a-1
 xf86-video-mach64 6.9.5-2
 xf86-video-neomagic 1.2.9-2
 xf86-video-nv 2.1.20-7
@@ -1276,7 +1276,7 @@ xvidcore 1.3.4-1
 xz 5.2.2-1
 yajl 2.1.0-1
 yaourt 1.8.1-1
-youtube-dl 2016.10.26-1
+youtube-dl 2016.11.04-1
 zenity 3.22.0+1+gcd1647c-1
 zeromq 4.1.5-1
 zip 3.0-7
