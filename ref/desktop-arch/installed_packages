@@ -410,7 +410,6 @@ lib32-libice
 lib32-libidn
 lib32-libjpeg-turbo
 lib32-libldap
-lib32-libmng
 lib32-libnl
 lib32-libogg
 lib32-libpcap
@@ -444,7 +443,6 @@ lib32-libxshmfence
 lib32-libxss
 lib32-libxt
 lib32-libxtst
-lib32-libxv
 lib32-libxxf86vm
 lib32-llvm-libs
 lib32-mesa
@@ -458,12 +456,9 @@ lib32-pango
 lib32-pangox-compat
 lib32-pcre
 lib32-pixman
-lib32-qt4
 lib32-readline
-lib32-sqlite
 lib32-systemd
 lib32-util-linux
-lib32-v4l-utils
 lib32-wayland
 lib32-xz
 lib32-zlib
@@ -1034,7 +1029,6 @@ shared-mime-info
 sharutils
 sip
 sk1libs
-skype
 slang
 sloccount
 smartmontools
