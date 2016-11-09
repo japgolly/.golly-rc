@@ -100,6 +100,7 @@ gpart
 gparted
 graphviz
 grep
+grunt-cli
 gst-plugins-good
 gstreamer0.10
 gstreamer0.10-bad
@@ -223,7 +224,6 @@ nmap
 nmon
 nodejs
 nodejs-bower
-nodejs-grunt-cli
 notification-daemon
 notify-sharp
 noto-fonts
@@ -260,6 +260,7 @@ pigz
 pkg-config
 pkgstats
 plantuml
+plex-media-server
 pngout
 poppler-glib
 poppler-qt4
@@ -305,7 +306,6 @@ speedcrunch
 stack
 startup-notification
 steam
-steam-native
 strace
 sublime-text
 sudo
@@ -409,6 +409,7 @@ xorg-xmodmap
 xorg-xrandr
 xterm
 yaourt
+youtube-dl
 zeal
 zeromq
 zip

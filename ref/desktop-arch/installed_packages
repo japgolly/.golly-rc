@@ -225,11 +225,12 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
-gnutls28
+go
 gobject-introspection-runtime
 google-chrome
 google-musicmanager
 gource
+gox
 gpart
 gparted
 gperf
@@ -241,6 +242,7 @@ graphite
 graphviz
 grep
 groff
+grunt-cli
 gsettings-desktop-schemas
 gsfonts
 gsl
@@ -371,16 +373,13 @@ lib32-atk
 lib32-attr
 lib32-bzip2
 lib32-cairo
-lib32-cracklib
-lib32-dbus-glib
+lib32-dbus
 lib32-e2fsprogs
-lib32-elfutils
 lib32-expat
 lib32-flac
 lib32-fontconfig
 lib32-freetype2
 lib32-gcc-libs
-lib32-gconf
 lib32-gdk-pixbuf2
 lib32-gettext
 lib32-glib2
@@ -388,11 +387,9 @@ lib32-glibc
 lib32-glu
 lib32-gmp
 lib32-gnutls
-lib32-gnutls28
 lib32-gtk2
 lib32-harfbuzz
 lib32-icu
-lib32-js17
 lib32-json-c
 lib32-keyutils
 lib32-kmod
@@ -402,11 +399,10 @@ lib32-libasyncns
 lib32-libcap
 lib32-libcups
 lib32-libdatrie
-lib32-libdbus
 lib32-libdrm
+lib32-libelf
 lib32-libffi
 lib32-libgcrypt
-lib32-libgcrypt15
 lib32-libglvnd
 lib32-libgpg-error
 lib32-libgudev
@@ -420,16 +416,13 @@ lib32-libogg
 lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
-lib32-libpng12
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
 lib32-libtasn1
 lib32-libthai
 lib32-libtiff
-lib32-libtirpc
 lib32-libtxc_dxtn
-lib32-libudev0
 lib32-libusb
 lib32-libvorbis
 lib32-libx11
@@ -457,19 +450,14 @@ lib32-llvm-libs
 lib32-mesa
 lib32-ncurses
 lib32-nettle
-lib32-nspr
-lib32-nss
 lib32-nvidia-libgl
 lib32-nvidia-utils
-lib32-openal
 lib32-openssl
 lib32-p11-kit
-lib32-pam
 lib32-pango
 lib32-pangox-compat
 lib32-pcre
 lib32-pixman
-lib32-polkit
 lib32-qt4
 lib32-readline
 lib32-sqlite
@@ -593,7 +581,6 @@ libmtp
 libmwaw
 libmythes
 libnautilus-extension
-libndp
 libnewt
 libnftnl
 libnice
@@ -650,7 +637,6 @@ libsynctex
 libsystemd
 libtar
 libtasn1
-libteam
 libthai
 libtheora
 libtiff
@@ -659,7 +645,6 @@ libtirpc
 libtool
 libtracker-sparql
 libtxc_dxtn
-libudev0
 libunique
 libunique3
 libunistring
@@ -804,7 +789,6 @@ net-tools
 netcdf
 netctl
 nettle
-networkmanager
 nfs-utils
 nfsidmap
 nini
@@ -812,7 +796,6 @@ nmap
 nmon
 nodejs
 nodejs-bower
-nodejs-grunt-cli
 notification-daemon
 notify-sharp
 noto-fonts
@@ -831,7 +814,6 @@ nvidia-utils
 ocl-icd
 octave
 odt2txt
-openal
 opencl-nvidia
 opencore-amr
 openexr
@@ -865,6 +847,7 @@ pciutils
 pcmanfm
 pcmciautils
 pcre
+pcre2
 perl
 perl-algorithm-diff
 perl-error
@@ -886,6 +869,7 @@ pixman
 pkg-config
 pkgstats
 plantuml
+plex-media-server
 pm-quirks
 pm-utils
 pngout
@@ -906,6 +890,7 @@ postgresql-old-upgrade
 potrace
 powertop
 ppp
+prelink
 prison
 procps-ng
 profont
@@ -929,6 +914,7 @@ python-chardet
 python-dbus
 python-dbus-common
 python-docker-py
+python-docker-pycreds
 python-dockerpty
 python-docopt
 python-gobject
@@ -1071,7 +1057,6 @@ sratom
 stack
 startup-notification
 steam
-steam-native
 stfl
 strace
 strigi
@@ -1157,6 +1142,7 @@ visualvm
 vlc
 vte
 vte-common
+vte3
 wavpack
 wayland
 wayland-protocols
@@ -1170,7 +1156,6 @@ which
 wildmidi
 wine
 winetricks
-wpa_supplicant
 wxgtk
 wxgtk2.8
 x264
@@ -1256,6 +1241,7 @@ xvidcore
 xz
 yajl
 yaourt
+youtube-dl
 zeal
 zenity
 zeromq
