@@ -1,0 +1,18 @@
+k=A8E788AF534B15D028F124FE5C4B7DDEC3B7BA3D
+f=gpg_keyring-2012
+
+Exporting
+=========
+gpg --export-options export-local-sigs --export $k > $f-public.gpg
+gpg --export-secret-keys $k > $f-secret.gpg
+gpg -c $f-secret.gpg
+rm $f-secret.gpg
+
+
+Importing
+=========
+gpg --import-options import-local-sigs $f-public.gpg
+gpg -d $f-secret.gpg.gpg > $f-secret.gpg
+gpg --import $f-secret.gpg
+rm $f-secret.gpg
+
