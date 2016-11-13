@@ -33,6 +33,7 @@ babl
 baloo
 bash
 bbswitch
+bc
 bind-tools
 binutils
 bison
@@ -89,6 +90,8 @@ cpulimit
 cpupower
 cracklib
 cryptsetup
+cups
+cups-filters
 curl
 damageproto
 db
@@ -127,6 +130,7 @@ emerald-themes-git
 emerald0.9
 enca
 enchant
+epdfview
 evince
 exempi
 exiv2
@@ -171,6 +175,7 @@ geoclue2
 geoip
 geoip-database
 gettext
+gftp
 ghc
 ghostscript
 giflib
@@ -196,6 +201,7 @@ gnu-netcat
 gnupg
 gnutls
 go
+gobject-introspection
 gobject-introspection-runtime
 goocanvas
 goocanvasmm
@@ -577,6 +583,7 @@ libkscreen
 libksysguard
 liblangtag
 libldap
+liblouis
 liblqr
 liblrdf
 libmad
@@ -772,6 +779,7 @@ nano
 ncurses
 nemo
 neon
+net-tools
 netcdf
 netctl
 nettle
@@ -888,9 +896,11 @@ python
 python-appdirs
 python-atspi
 python-babel
+python-beaker
 python-boto
 python-botocore
 python-cached-property
+python-cairo
 python-chardet
 python-colorama
 python-dateutil
@@ -906,6 +916,7 @@ python-imagesize
 python-jinja
 python-jmespath
 python-jsonschema
+python-mako
 python-markupsafe
 python-packaging
 python-pyasn1
@@ -994,6 +1005,7 @@ python2-yaml
 qca-qt4
 qca-qt5
 qjson
+qpdf
 qrencode
 qt4
 qt5-base
@@ -1142,6 +1154,7 @@ wpa_supplicant
 wxgtk2.8
 x264
 x265
+xapps
 xbitmaps
 xcb-proto
 xcb-util

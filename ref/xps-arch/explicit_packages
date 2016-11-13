@@ -37,6 +37,7 @@ dwdiff
 e2fsprogs
 emerald-themes-git
 emerald0.9
+epdfview
 evince
 fakeroot
 file
@@ -48,6 +49,7 @@ fusion-icon0.9
 gawk
 gcc-multilib
 gettext
+gftp
 ghc
 gimp
 git
@@ -127,6 +129,7 @@ mousepad
 mplayer
 mpv
 nano
+net-tools
 netctl
 networkmanager
 nfs-utils
