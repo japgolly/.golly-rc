@@ -187,7 +187,6 @@ gdbm
 gdk-pixbuf2
 gedit
 gegl02
-geoclue
 geoclue2
 geocode-glib
 geoip
@@ -350,6 +349,7 @@ kdelibs
 kdepimlibs4
 kdiff3
 keepass
+keepass-plugin-http
 keybase
 keyutils
 kmod
@@ -561,6 +561,7 @@ liblqr
 liblrdf
 libmad
 libmatroska
+libmediainfo
 libmm-glib
 libmms
 libmng
@@ -710,6 +711,7 @@ libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
+libzen
 libzip
 licenses
 lilv
@@ -806,6 +808,7 @@ numactl
 nvidia
 nvidia-libgl
 nvidia-utils
+nzbget
 ocl-icd
 octave
 odt2txt
@@ -995,6 +998,7 @@ reiserfsprogs
 renameutils
 renderproto
 rest
+rkt
 rlwrap
 rot13
 rpcbind
@@ -1038,6 +1042,7 @@ smplayer
 smuxi
 smuxi-server
 snappy
+sonarr
 sord
 sound-theme-freedesktop
 soundtouch

@@ -154,6 +154,7 @@ jfsutils
 jre6-compat
 kdiff3
 keepass
+keepass-plugin-http
 keybase
 krename
 lame
@@ -233,6 +234,7 @@ npm
 ntfs-3g
 ntp
 nvidia
+nzbget
 octave
 odt2txt
 opencl-nvidia
@@ -281,6 +283,7 @@ redshift
 refind-efi
 reiserfsprogs
 renameutils
+rkt
 rlwrap
 rot13
 rrdtool
@@ -300,6 +303,7 @@ smartmontools
 smpeg
 smplayer
 smuxi
+sonarr
 soundtouch
 speedcrunch
 stack
