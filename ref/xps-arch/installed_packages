@@ -541,6 +541,7 @@ libedit
 libelf
 libepoxy
 libetonyek
+libev
 libevdev
 libevent
 libexif
@@ -748,6 +749,7 @@ make
 man-db
 man-pages
 marp
+mattext
 mdadm
 media-player-info
 meld
