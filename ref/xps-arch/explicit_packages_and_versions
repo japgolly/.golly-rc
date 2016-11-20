@@ -31,7 +31,7 @@ diffutils 3.5-1
 docker 1:1.12.3-1
 docker-compose 1.9.0-1
 dos2unix 7.3.4-1
-downgrade 5.3.0-1
+downgrade 5.3.1-1
 dropbox 14.4.19-1
 dwdiff 2.0.9-6
 e2fsprogs 1.43.3-1
@@ -64,7 +64,7 @@ gparted 0.27.0-1
 graphviz 2.38.0-16
 grep 2.26-1
 groff 1.22.3-7
-gst-plugins-good 1.10.0-1
+gst-plugins-good 1.10.1-1
 gstreamer0.10 0.10.36-4
 gstreamer0.10-bad 0.10.23-18
 gstreamer0.10-bad-plugins 0.10.23-18
@@ -91,7 +91,7 @@ iftop 1.0pre4-2
 imagemagick 6.9.6.4-1
 inetutils 1.9.4-5
 inkscape 0.91-19
-intel-ucode 20160714-1
+intel-ucode 20161104-1
 iproute2 4.8.0-1
 iputils 20160308.0db72a4-1
 jdk 8u112-1
@@ -128,7 +128,7 @@ meld 3.16.3-1
 mirage 0.9.5.2-4
 mousepad 0.4.0-2
 mplayer 37857-1
-mpv 1:0.21.0-2
+mpv 1:0.22.0-1
 nano 2.7.1-1
 net-tools 1.60.20160710git-1
 netctl 1.12-2
@@ -139,8 +139,8 @@ nmon 16f-1
 nodejs 7.1.0-1
 npm 4.0.2-1
 ntfs-3g 2016.2.22-1
-nvidia 375.10-1
-nvidia-settings 375.10-1
+nvidia 375.20-1
+nvidia-settings 375.20-1
 odt2txt 0.4-3
 openssh 7.3p1-2
 p7zip 16.02-2
@@ -172,7 +172,7 @@ python2-boto3 1.4.1-1
 reiserfsprogs 3.6.25-1
 renameutils 0.12.0-4
 ristretto 0.8.1-1
-rsync 3.1.2-1
+rsync 3.1.2-2
 ruby 2.3.2-1
 rust 1:1.13.0-1
 s-nail 14.8.14-1
@@ -180,7 +180,7 @@ sbt 1:0.13.13-1
 screen 4.4.0-1
 sed 4.2.2-4
 shadow 4.4-3
-slack-desktop 2.2.1-1
+slack-desktop 2.3.2-1
 smartmontools 6.5-1
 smplayer 16.11.0-1
 smuxi 1.0.5-1
@@ -306,5 +306,5 @@ xterm 327-1
 yaourt 1.8.1-1
 youtube-dl 2016.11.18-1
 zip 3.0-7
-zsh 5.2-1
+zsh 5.2-2
 zsh-completions 0.22.0-1
