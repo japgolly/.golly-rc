@@ -32,6 +32,7 @@ aws-cli
 babl
 baloo
 bash
+bash-completion
 bbswitch
 bc
 bind-tools
@@ -257,6 +258,7 @@ gzip
 harfbuzz
 harfbuzz-icu
 hdf5
+hdparm
 hicolor-icon-theme
 hspell
 htop
@@ -284,6 +286,7 @@ iproute2
 iptables
 iputils
 iso-codes
+iw
 jack
 jansson
 jasper
@@ -739,6 +742,7 @@ lmdb
 log4net
 logrotate
 lpsolve
+lsb-release
 lsof
 lua52
 lvm2
@@ -1038,6 +1042,7 @@ renameutils
 renderproto
 resourceproto
 rest
+rfkill
 ristretto
 rpcbind
 rsync
@@ -1109,6 +1114,8 @@ threadweaver
 thunar
 thunar-volman
 tinyxml
+tlp
+tlp-rdw
 tmux
 traceroute
 transmission-cli
@@ -1157,6 +1164,7 @@ wpa_supplicant
 wxgtk2.8
 x264
 x265
+x86_energy_perf_policy
 xapps
 xbitmaps
 xcb-proto

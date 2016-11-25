@@ -8,6 +8,7 @@ autoconf
 automake
 aws-cli
 bash
+bash-completion
 bbswitch
 bind-tools
 binutils
@@ -115,6 +116,7 @@ linux-headers
 llvm
 lm_sensors
 logrotate
+lsb-release
 lsof
 lvm2
 m4
@@ -197,6 +199,8 @@ tar
 texinfo
 thunar
 thunar-volman
+tlp
+tlp-rdw
 tmux
 traceroute
 transmission-cli
@@ -219,6 +223,7 @@ which
 wine
 wpa_supplicant
 x264
+x86_energy_perf_policy
 xdg-utils
 xf86-input-evdev
 xf86-input-joystick
