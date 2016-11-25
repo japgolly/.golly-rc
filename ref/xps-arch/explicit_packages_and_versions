@@ -6,7 +6,7 @@ ansible 2.2.0.0-1
 atom 1.12.5-1
 autoconf 2.69-4
 automake 1.15-2
-aws-cli 1.11.20-1
+aws-cli 1.11.21-1
 bash 4.4.005-1
 bbswitch 0.8-55
 bind-tools 9.11.0.P1-2
@@ -186,7 +186,7 @@ smplayer 16.11.0-1
 smuxi 1.0.5-1
 speedcrunch 0.11-3
 sqlectron-gui 1.17.0-2
-stack 1.2.0-12
+stack 1.2.0-13
 steam 1.0.0.53-1
 strace 4.14-1
 sudo 1.8.18.p1-1
@@ -232,7 +232,7 @@ xf86-video-dummy 0.3.7-5
 xf86-video-fbdev 0.4.4-5
 xf86-video-glint 1.2.8-7
 xf86-video-i128 1.3.6-7
-xf86-video-intel 1:2.99.917+730+gdad64e9-1
+xf86-video-intel 1:2.99.917+736+gbde9460-1
 xf86-video-mach64 6.9.5-2
 xf86-video-neomagic 1.2.9-2
 xf86-video-nv 2.1.20-7
