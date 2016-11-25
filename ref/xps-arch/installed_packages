@@ -1082,6 +1082,7 @@ speech-dispatcher
 speedcrunch
 speex
 speexdsp
+sqlectron-gui
 sqlite
 stack
 startup-notification
