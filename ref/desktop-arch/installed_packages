@@ -328,6 +328,7 @@ iproute2
 iptables
 iputils
 iso-codes
+iw
 jack2-dbus
 jansson
 jasper
@@ -869,7 +870,6 @@ pkgstats
 plantuml
 plex-media-server
 pm-quirks
-pm-utils
 pngout
 podofo
 polkit
@@ -998,6 +998,7 @@ reiserfsprogs
 renameutils
 renderproto
 rest
+rfkill
 rkt
 rlwrap
 rot13
@@ -1089,6 +1090,7 @@ thin-provisioning-tools
 thunar
 tidy
 tig
+tlp
 tmux
 tor
 tor-browser-en
@@ -1160,6 +1162,7 @@ wxgtk
 wxgtk2.8
 x264
 x265
+x86_energy_perf_policy
 xbitmaps
 xcb-proto
 xcb-util

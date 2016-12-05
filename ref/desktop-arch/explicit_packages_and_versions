@@ -328,6 +328,7 @@ texworks 0.6.1-1
 thunar 1.6.10-3
 tidy 5.2.0-1
 tig 2.2.1-1
+tlp 0.9-2
 tmux 2.3-1
 tor 0.2.8.9-1
 tor-browser-en 6.0.6-1
@@ -375,6 +376,7 @@ which 2.21-2
 wine 1.9.23-1
 winetricks 20161107-1
 x264 2:148.20160920-1
+x86_energy_perf_policy 4.8-1
 xdg-utils 1.1.1-4
 xf86-input-keyboard 1.9.0-1
 xf86-input-mouse 1.9.2-1

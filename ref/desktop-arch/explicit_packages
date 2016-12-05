@@ -328,6 +328,7 @@ texworks
 thunar
 tidy
 tig
+tlp
 tmux
 tor
 tor-browser-en
@@ -375,6 +376,7 @@ which
 wine
 winetricks
 x264
+x86_energy_perf_policy
 xdg-utils
 xf86-input-keyboard
 xf86-input-mouse
