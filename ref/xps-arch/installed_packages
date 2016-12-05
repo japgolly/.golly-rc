@@ -893,6 +893,7 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pulseaudio-gconf
+pygmentize
 pygobject-devel
 pygobject2-devel
 pygtk
@@ -925,6 +926,7 @@ python-jsonschema
 python-mako
 python-markupsafe
 python-packaging
+python-pip
 python-pyasn1
 python-pygments
 python-pyparsing

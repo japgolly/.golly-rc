@@ -167,7 +167,9 @@ powertop
 primus
 procps-ng
 psmisc
+pygmentize
 python-boto
+python-pip
 python-virtualenv
 python2-boto
 python2-boto3
