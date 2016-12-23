@@ -3,6 +3,7 @@ acpitool
 acroread
 alsa-utils
 ansible
+arandr
 atom
 autoconf
 automake
@@ -78,7 +79,6 @@ gstreamer0.10-python
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
 gtk-xfce-engine
-guake
 gvim
 gzip
 hspell
@@ -109,6 +109,7 @@ lib32-libpulse
 libreoffice-fresh
 libreoffice-fresh-en-GB
 libtool
+libunrar
 libva-intel-driver
 licenses
 linux
@@ -125,6 +126,7 @@ man-db
 man-pages
 marp
 mattext
+mcomix
 mdadm
 meld
 mirage

@@ -14,6 +14,7 @@ apache-ant
 apm
 apr
 apr-util
+arandr
 archlinux-keyring
 asciidoc
 aspell
@@ -250,7 +251,6 @@ gtksourceview3
 gtkspell
 gtkspell3
 gts
-guake
 guile
 gvfs
 gvim
@@ -625,6 +625,7 @@ libpipeline
 libplist
 libpng
 libproxy
+libpsl
 libpulse
 libpwquality
 libqalculate
@@ -664,6 +665,7 @@ libtxc_dxtn
 libunicodenames
 libunique
 libunistring
+libunrar
 libunwind
 libusb
 libusb-compat
@@ -754,6 +756,7 @@ man-db
 man-pages
 marp
 mattext
+mcomix
 mdadm
 media-player-info
 meld
@@ -965,7 +968,6 @@ python2-dbus
 python2-docutils
 python2-enum34
 python2-funcsigs
-python2-gconf
 python2-gobject
 python2-gobject2
 python2-guzzle-sphinx-theme
@@ -974,12 +976,10 @@ python2-imagesize
 python2-ipaddress
 python2-jinja
 python2-jmespath
-python2-keybinder2
 python2-lxml
 python2-markupsafe
 python2-mock
 python2-nose
-python2-notify
 python2-packaging
 python2-pam
 python2-paramiko
@@ -1008,7 +1008,6 @@ python2-sphinx_rtd_theme
 python2-tox
 python2-virtualenv
 python2-wheel
-python2-xdg
 python2-yaml
 qca-qt4
 qca-qt5
@@ -1147,7 +1146,6 @@ videoproto
 vim-runtime
 vimpager
 virtualgl
-vte
 vte-common
 vte3
 vulkan-icd-loader
