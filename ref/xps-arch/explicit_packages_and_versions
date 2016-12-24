@@ -64,7 +64,7 @@ google-chrome 55.0.2883.87-1
 gpart 0.3-1
 gparted 0.27.0-1
 graphviz 2.38.0-16
-grep 2.26-1
+grep 2.27-1
 groff 1.22.3-7
 gst-plugins-good 1.10.2-1
 gstreamer0.10 0.10.36-4
@@ -174,7 +174,7 @@ renameutils 0.12.0-4
 ristretto 0.8.1-1
 rsync 3.1.2-2
 ruby 2.3.3-2
-rust 1:1.13.0-1
+rust 1:1.14.0-1
 s-nail 14.8.14-1
 sbt 1:0.13.13-1
 screen 4.4.0-1
@@ -218,7 +218,7 @@ vimpager 2.06-3
 vulkan-intel 13.0.2-2
 wget 1.18-3
 which 2.21-2
-wine 2.0rc2-1
+wine 2.0rc3-1
 wpa_supplicant 1:2.6-4
 x264 2:148.20160920-1
 x86_energy_perf_policy 4.8-1
