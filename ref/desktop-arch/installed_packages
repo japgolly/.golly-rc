@@ -171,7 +171,8 @@ freerdp
 freetype2
 fribidi
 ftgl
-fuse
+fuse-common
+fuse2
 fusion-icon0.9
 garcon
 gawk
@@ -562,7 +563,6 @@ liblqr
 liblrdf
 libmad
 libmatroska
-libmediainfo
 libmm-glib
 libmms
 libmng
@@ -713,7 +713,6 @@ libxvmc
 libxxf86dga
 libxxf86vm
 libyaml
-libzen
 libzip
 licenses
 lilv
@@ -747,6 +746,7 @@ man-db
 man-pages
 marp
 maven
+mcomix
 mcpp
 mdadm
 media-player-info
@@ -963,6 +963,7 @@ python2-reportlab
 python2-setuptools
 python2-sip
 python2-six
+python2-webencodings
 python2-xdg
 qca-qt4
 qhull
@@ -971,6 +972,7 @@ qjson
 qpdf
 qrencode
 qscintilla-qt4
+qscintilla-qt5
 qt4
 qt5-base
 qt5-declarative
@@ -1044,7 +1046,6 @@ smplayer
 smuxi
 smuxi-server
 snappy
-sonarr
 sord
 sound-theme-freedesktop
 soundtouch

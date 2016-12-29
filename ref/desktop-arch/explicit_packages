@@ -198,6 +198,7 @@ man-db
 man-pages
 marp
 maven
+mcomix
 mdadm
 meld
 mercurial
@@ -303,7 +304,6 @@ smartmontools
 smpeg
 smplayer
 smuxi
-sonarr
 soundtouch
 speedcrunch
 sqlectron-gui
