@@ -447,6 +447,7 @@ lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpng12
+lib32-libpsl
 lib32-libpulse
 lib32-libsm
 lib32-libsndfile
@@ -570,6 +571,7 @@ libgtop
 libgudev
 libgusb
 libgxps
+libibus
 libical
 libice
 libid3tag
@@ -884,6 +886,7 @@ postgresql
 postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
+potrace
 powerdevil
 powertop
 ppp
@@ -936,6 +939,7 @@ python-pytz
 python-requests
 python-rsa
 python-s3transfer
+python-setproctitle
 python-setuptools
 python-sip
 python-six
