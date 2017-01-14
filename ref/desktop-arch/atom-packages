@@ -2,8 +2,10 @@ atom-html-preview
 atom-htmltidy
 atom-overtype-mode
 autocomplete-haskell
+autocomplete-xml
 column-select
 dash
+dockerletion
 git-diff-details
 git-time-machine
 graphviz-preview
@@ -16,6 +18,7 @@ ide-haskell-cabal
 ide-haskell-repl
 jumpy
 keyboard-scroll
+language-docker
 language-dot
 language-haml
 language-haskell
@@ -23,8 +26,10 @@ language-json5
 language-rust
 language-scala
 linter
+linter-docker
 linter-hdevtools
 linter-rust
+linter-xmllint
 minimap
 minimap-bookmarks
 minimap-cursorline
@@ -35,3 +40,4 @@ plantuml-viewer
 sort-lines
 todo-show
 tree-view-filter
+xml-formatter
