@@ -688,6 +688,7 @@ libxfce4util
 libxfcegui4
 libxfixes
 libxfont
+libxfont2
 libxft
 libxi
 libxinerama
@@ -951,6 +952,7 @@ python2-mechanize
 python2-netifaces
 python2-notify
 python2-numpy
+python2-olefile
 python2-packaging
 python2-pillow
 python2-pip
@@ -1118,6 +1120,7 @@ ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
 tzdata
+uchardet
 udisks
 udisks2
 uglify-js
@@ -1175,6 +1178,7 @@ xdg-utils
 xextproto
 xf86-input-evdev
 xf86-input-keyboard
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
