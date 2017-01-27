@@ -31,7 +31,7 @@ brother-mfc-j5320dw 3.0.1-3
 bzip2 1.0.6-5
 cabal-install 1.24.0.0-4
 calf 0.0.60-4
-calibre 2.76.0-1
+calibre 2.77.0-1
 cargo 0.15.0-1
 chromedriver 2.27-1
 cifs-utils 6.5-1
@@ -65,6 +65,7 @@ ed 1.13-2
 emacs 25.1-3
 emerald0.9 0.9.5-21
 emscripten 1.37.1-1
+epdfview 0.1.8-8
 ethtool 1:4.8-1
 exo 0.10.7-2
 fakeroot 1.21-2
@@ -121,7 +122,7 @@ gtk3 3.22.6-1
 gtkglext 1.2.0-10
 gtkmm3 3.22.0-1
 gtkspell 2.0.16-3
-guake 0.4.4-4
+guake 0.8.8-1
 guitarix2 0.35.2-2
 gutenprint 5.2.11-5
 gvim 8.0.0170-1
