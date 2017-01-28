@@ -156,6 +156,7 @@ pcmciautils
 perl
 pgadmin3
 phantomjs
+pigz
 pkg-config
 pkgstats
 plasma-meta

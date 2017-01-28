@@ -858,6 +858,7 @@ phonon-qt4
 phonon-qt4-gstreamer
 phonon-qt5
 phonon-qt5-gstreamer
+pigz
 pinentry
 pixman
 pkg-config

@@ -156,6 +156,7 @@ pcmciautils 018-7
 perl 5.24.0-2
 pgadmin3 1.22.1-2
 phantomjs 2.1.1-4
+pigz 2.3.4-1
 pkg-config 0.29.1-2
 pkgstats 2.3-6
 plasma-meta 5.8-1

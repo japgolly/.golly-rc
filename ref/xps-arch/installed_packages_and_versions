@@ -858,6 +858,7 @@ phonon-qt4 4.9.0-1
 phonon-qt4-gstreamer 4.9.0-1
 phonon-qt5 4.9.0-1
 phonon-qt5-gstreamer 4.9.0-1
+pigz 2.3.4-1
 pinentry 1.0.0-1
 pixman 0.34.0-1
 pkg-config 0.29.1-2
