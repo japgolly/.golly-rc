@@ -207,6 +207,7 @@ glew
 glib
 glib-networking
 glib2
+glib2-docs
 glibc
 glibmm
 glpk
@@ -227,6 +228,7 @@ gnustep-base
 gnustep-make
 gnutls
 go
+gobject-introspection
 gobject-introspection-runtime
 google-chrome
 google-musicmanager
@@ -267,6 +269,7 @@ gstreamer0.10-python
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
 gtk
+gtk-doc
 gtk-engines
 gtk-sharp-2
 gtk-update-icon-cache
@@ -287,6 +290,7 @@ gutenprint
 gvfs
 gvim
 gzip
+hardening-wrapper
 harfbuzz
 harfbuzz-icu
 haskell-cpphs
@@ -341,6 +345,7 @@ jdk
 jdk7-compat
 jfsutils
 jre6-compat
+js
 js17
 json-c
 json-glib
@@ -583,6 +588,7 @@ libnewt
 libnftnl
 libnice
 libnl
+libnm
 libnm-glib
 libnotify
 liboauth
@@ -910,16 +916,20 @@ pyqt5-common
 pyrex
 python
 python-appdirs
+python-beaker
 python-cached-property
 python-chardet
+python-colorama
 python-dbus
 python-dbus-common
-python-docker-py
+python-docker
 python-docker-pycreds
 python-dockerpty
 python-docopt
 python-gobject
 python-jsonschema
+python-mako
+python-markupsafe
 python-packaging
 python-pyparsing
 python-pyqt4
@@ -1053,6 +1063,7 @@ snappy
 sord
 sound-theme-freedesktop
 soundtouch
+source-highlight
 spandsp
 speech-dispatcher
 speedcrunch
@@ -1133,6 +1144,7 @@ uniconvertor
 unrar
 unzip
 upower
+usbmuxd
 usbutils
 util-linux
 v4l-utils
@@ -1175,6 +1187,7 @@ xcb-proto
 xcb-util
 xcb-util-image
 xcb-util-keysyms
+xcb-util-renderutil
 xcb-util-wm
 xdg-utils
 xextproto
@@ -1252,6 +1265,7 @@ xvidcore
 xz
 yajl
 yaourt
+yasm
 youtube-dl
 zeal
 zenity

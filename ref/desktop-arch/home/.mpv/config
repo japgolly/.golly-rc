@@ -10,3 +10,6 @@
 # multithreaded decoding of H264/MPEG-1/2 (valid: 0-16)
 vd-lavc-threads=6
 
+softvol=yes
+softvol-max=600
+
