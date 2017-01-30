@@ -189,6 +189,7 @@ gitg
 glew
 glib-networking
 glib2
+glib2-docs
 glibc
 glibmm
 glproto
@@ -239,6 +240,7 @@ gstreamer0.10-good
 gstreamer0.10-good-plugins
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
+gtk-doc
 gtk-sharp-2
 gtk-update-icon-cache
 gtk-xfce-engine
@@ -707,6 +709,7 @@ libxfce4ui
 libxfce4util
 libxfixes
 libxfont
+libxfont2
 libxft
 libxi
 libxinerama
@@ -919,7 +922,7 @@ python-colorama
 python-dateutil
 python-dbus
 python-dbus-common
-python-docker-py
+python-docker
 python-docker-pycreds
 python-dockerpty
 python-docopt
@@ -968,6 +971,7 @@ python2-ipaddress
 python2-jinja
 python2-lxml
 python2-markupsafe
+python2-olefile
 python2-packaging
 python2-pam
 python2-paramiko
@@ -1056,6 +1060,7 @@ solid
 sonnet
 sound-theme-freedesktop
 soundtouch
+source-highlight
 spandsp
 speech-dispatcher
 speedcrunch
@@ -1104,10 +1109,12 @@ ttf-linux-libertine
 ttf-vista-fonts
 tumbler
 tzdata
+uchardet
 udisks2
 unrar
 unzip
 upower
+usbmuxd
 usbutils
 user-manager
 util-linux
@@ -1135,6 +1142,7 @@ which
 wildmidi
 wine
 wpa_supplicant
+wxgtk
 wxgtk2.8
 x264
 x265
@@ -1151,28 +1159,16 @@ xcb-util-wm
 xdg-utils
 xextproto
 xf86-input-evdev
-xf86-input-joystick
 xf86-input-keyboard
 xf86-input-libinput
 xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
-xf86-video-ark
 xf86-video-dummy
 xf86-video-fbdev
-xf86-video-glint
-xf86-video-i128
 xf86-video-intel
-xf86-video-mach64
-xf86-video-neomagic
-xf86-video-nv
 xf86-video-openchrome
-xf86-video-r128
-xf86-video-savage
-xf86-video-siliconmotion
-xf86-video-sis
-xf86-video-tdfx
 xf86-video-vesa
 xf86-video-vmware
 xf86dgaproto
@@ -1274,6 +1270,7 @@ xvidcore
 xz
 yajl
 yaourt
+yasm
 youtube-dl
 zenity
 zeromq
