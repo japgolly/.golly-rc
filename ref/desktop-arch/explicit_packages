@@ -320,6 +320,7 @@ sysstat
 systemd-sysvcompat
 taglib
 tar
+tarsnap
 tcpdump
 tcsh
 terminus-font-ttf

@@ -9,7 +9,7 @@ adwaita-icon-theme 3.22.0+1+g58cd459e-1
 alsa-lib 1.1.3-1
 alsa-oss 1.0.28-1
 alsa-plugins 1.1.1-1
-alsa-tools 1.1.0-2
+alsa-tools 1.1.3-1
 alsa-utils 1.1.3-1
 android-tools 7.1.1_r13-1
 android-udev 20170125-1
@@ -64,7 +64,7 @@ cabextract 1.6-1
 cairo 1.14.8-1
 cairomm 1.12.0-2
 calf 0.0.60-4
-calibre 2.78.0-1
+calibre 2.78.0-2
 cantarell-fonts 1:0.0.25-3
 cargo 0.15.0-1
 cblas 3.7.0-1
@@ -91,7 +91,7 @@ cpupower 4.9-1
 cracklib 2.9.6-1
 cronie 1.5.1-1
 cryptsetup 1.7.3-1
-cups 2.2.2-1
+cups 2.2.2-2
 cups-filters 1.13.3-1
 curl 7.52.1-2
 cwdiff 0.4.0-1
@@ -168,7 +168,7 @@ fluidsynth 1.1.6-5
 fontconfig 2.12.1-4
 fontsproto 2.1.3-1
 freeglut 3.0.0-1
-freerdp 1:1.2.0_20160606-1
+freerdp 1:1.2.0_20170201-1
 freetype2 2.7.1-1
 fribidi 0.19.7-1
 ftgl 2.1.3rc5-9
@@ -232,7 +232,7 @@ gobject-introspection 1.50.0+1+gb8d92b0-2
 gobject-introspection-runtime 1.50.0+1+gb8d92b0-2
 google-chrome 56.0.2924.76-1
 google-musicmanager 1.0.243.1116_r0-1
-gource 0.43-12
+gource 0.44-1
 gox 0.3.0-2
 gpart 0.3-1
 gparted 0.27.0-1
@@ -427,7 +427,7 @@ lib32-libpulse 10.0-1
 lib32-libsm 1.2.2-1
 lib32-libsndfile 1.0.27-1
 lib32-libtasn1 4.9-1
-lib32-libthai 0.1.25-1
+lib32-libthai 0.1.26-1
 lib32-libtiff 4.0.7-1
 lib32-libtxc_dxtn 1.0.1-5
 lib32-libusb 1.0.21-1
@@ -453,7 +453,7 @@ lib32-libxt 1.1.5-1
 lib32-libxtst 1.2.3-1
 lib32-libxxf86vm 1.1.4-1
 lib32-llvm-libs 3.9.1-2
-lib32-mesa 13.0.3-1
+lib32-mesa 13.0.4-1
 lib32-ncurses 6.0-2
 lib32-nettle 3.3-1
 lib32-nvidia-libgl 375.26-2
@@ -466,7 +466,7 @@ lib32-pcre 8.39-1
 lib32-pixman 0.34.0-1
 lib32-readline 7.0-1
 lib32-systemd 232-1
-lib32-util-linux 2.28.2-1
+lib32-util-linux 2.29.1-1
 lib32-wayland 1.12.0-1
 lib32-xz 5.2.3-1
 lib32-zlib 1.2.11-1
@@ -496,7 +496,7 @@ libcdr 0.1.3-2
 libcmis 0.5.1-5
 libconfig 1.5-3
 libcroco 0.6.11-1
-libcups 2.2.2-1
+libcups 2.2.2-2
 libdaemon 0.14-3
 libdatrie 0.2.10-1
 libdbusmenu-qt4 0.9.3+16.04.20160218-1
@@ -639,7 +639,7 @@ libssh 0.7.3-2
 libssh2 1.8.0-1
 libstemmer 0+337-2
 libsynctex 2016.41290-10
-libsystemd 232-7
+libsystemd 232-8
 libtar 1.2.20-2
 libtasn1 4.10-1
 libthai 0.1.26-1
@@ -659,7 +659,7 @@ libusb 1.0.21-1
 libusb-compat 0.1.5-1
 libusbmuxd 1.0.10-1
 libutempter 1.1.6-2
-libutil-linux 2.29-2
+libutil-linux 2.29.1-1
 libuv 1.10.2-1
 libva 1.7.3-1
 libva-vdpau-driver 0.7.4-2
@@ -761,7 +761,7 @@ media-player-info 22-2
 meld 3.16.4-1
 menu-cache 1.0.2-1
 mercurial 4.0.1-1
-mesa 13.0.3-1
+mesa 13.0.4-1
 mesa-demos 8.3.0-2
 metacity 3.22.1-1
 meterbridge 0.9.2-1
@@ -840,7 +840,7 @@ p11-kit 0.23.2-1
 p7zip 16.02-2
 package-query 1.8-2
 pacman 5.0.1-4
-pacman-mirrorlist 20170106-1
+pacman-mirrorlist 20170201-1
 pam 1.3.0-1
 pambase 20130928-1
 pango 1.40.3-2
@@ -935,7 +935,7 @@ python-pyparsing 2.1.10-2
 python-pyqt4 4.12-1
 python-pyqt5 5.7.1-3
 python-requests 2.13.0-1
-python-setuptools 1:34.0.3-1
+python-setuptools 1:34.1.0-1
 python-sip 4.19-1
 python-six 1.10.0-3
 python-texttable 0.8.7-2
@@ -974,7 +974,7 @@ python2-pyparsing 2.1.10-2
 python2-pyqt4 4.12-1
 python2-pyqt5 5.7.1-3
 python2-reportlab 3.3.0-2
-python2-setuptools 1:34.0.3-1
+python2-setuptools 1:34.1.0-1
 python2-sip 4.19-1
 python2-six 1.10.0-3
 python2-webencodings 0.5-2
@@ -1056,7 +1056,7 @@ sloccount 2.26-7
 smartmontools 6.5-1
 smbclient 4.5.4-1
 smpeg 0.4.5-2
-smplayer 16.11.0-1
+smplayer 17.1.0-1
 smuxi 1.0.5-2
 smuxi-server 1.0.5-2
 snappy 1.1.3-2
@@ -1087,13 +1087,14 @@ swi-prolog 7.2.3-4
 sysfsutils 2.1.0-9
 syslinux 6.03-6
 sysstat 11.4.0-1
-systemd 232-7
-systemd-sysvcompat 232-7
+systemd 232-8
+systemd-sysvcompat 232-8
 t1lib 5.1.2-5
 taglib 1.11.1-1
 talloc 2.1.8-1
 tar 1.29-2
-tcpdump 4.8.1-1
+tarsnap 1.0.37-1
+tcpdump 4.9.0-1
 tcsh 6.19.00-3
 tdb 1.3.12-1
 telepathy-glib 0.24.1-1
@@ -1146,7 +1147,7 @@ unzip 6.0-12
 upower 0.99.4+12+g402640b-1
 usbmuxd 1.1.0-2
 usbutils 008-1
-util-linux 2.29-2
+util-linux 2.29.1-1
 v4l-utils 1.10.1-1
 vamp-plugin-sdk 2.6-1
 vault 0.6.4-1
@@ -1240,7 +1241,7 @@ xorg-server-common 1.19.1-1
 xorg-server-xvfb 1.19.1-1
 xorg-setxkbmap 1.3.1-1
 xorg-utils 7.6-9
-xorg-xauth 1.0.9-1
+xorg-xauth 1.0.10-1
 xorg-xbacklight 1.2.1-1
 xorg-xcmsdb 1.0.5-1
 xorg-xdpyinfo 1.3.2-1
@@ -1266,7 +1267,7 @@ xz 5.2.3-1
 yajl 2.1.0-1
 yaourt 1.8.1-1
 yasm 1.3.0-1
-youtube-dl 2017.01.24-1
+youtube-dl 2017.01.29-1
 zeal 1:0.3.1-2
 zenity 3.22.0+1+gcd1647c-1
 zeromq 4.2.0-1
