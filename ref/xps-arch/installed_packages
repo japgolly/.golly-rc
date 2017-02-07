@@ -12,6 +12,8 @@ alsa-utils
 ansible
 apache-ant
 apm
+appstream
+appstream-qt
 apr
 apr-util
 arandr
@@ -41,6 +43,7 @@ binutils
 bison
 bluedevil
 bluez
+bluez-libs
 bluez-qt
 boost
 boost-libs
@@ -530,6 +533,7 @@ libcdr
 libcmis
 libcroco
 libcups
+libcurl-compat
 libdaemon
 libdatrie
 libdbusmenu-qt4
@@ -612,6 +616,7 @@ libndp
 libnewt
 libnftnl
 libnl
+libnm
 libnm-glib
 libnotify
 libodfgen
@@ -657,6 +662,7 @@ libspectre
 libspiro
 libssh
 libssh2
+libstemmer
 libsystemd
 libtasn1
 libteam
@@ -664,6 +670,7 @@ libthai
 libtheora
 libtiff
 libtirpc
+libtommath
 libtool
 libtxc_dxtn
 libunicodenames
@@ -736,6 +743,7 @@ libxxf86dga
 libxxf86vm
 libyaml
 libzip
+libzmf
 licenses
 linux
 linux-api-headers
@@ -1000,6 +1008,7 @@ qt5-multimedia
 qt5-quickcontrols
 qt5-script
 qt5-sensors
+qt5-speech
 qt5-svg
 qt5-tools
 qt5-webchannel
