@@ -647,6 +647,7 @@ libtheora
 libtiff
 libtiger
 libtirpc
+libtommath
 libtool
 libtracker-sparql
 libtxc_dxtn
@@ -722,6 +723,7 @@ libxxf86dga
 libxxf86vm
 libyaml
 libzip
+libzmf
 licenses
 lilv
 linux
