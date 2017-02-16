@@ -916,6 +916,7 @@ pygobject-devel
 pygobject2-devel
 pygtk
 pyqt4-common
+pyqt5-common
 pyrex
 python
 python-appdirs
@@ -947,6 +948,7 @@ python-pyasn1
 python-pygments
 python-pyparsing
 python-pyqt4
+python-pyqt5
 python-pytz
 python-requests
 python-rsa
