@@ -18,6 +18,7 @@ ide-haskell-cabal
 ide-haskell-repl
 jumpy
 keyboard-scroll
+language-diff
 language-docker
 language-dot
 language-haml
