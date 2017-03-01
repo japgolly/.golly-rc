@@ -67,16 +67,6 @@ graphviz
 grep
 groff
 gst-plugins-good
-gstreamer0.10
-gstreamer0.10-bad
-gstreamer0.10-bad-plugins
-gstreamer0.10-base
-gstreamer0.10-base-plugins
-gstreamer0.10-ffmpeg
-gstreamer0.10-good
-gstreamer0.10-good-plugins
-gstreamer0.10-ugly
-gstreamer0.10-ugly-plugins
 gtk-xfce-engine
 gvim
 gzip
@@ -160,6 +150,7 @@ pigz
 pkg-config
 pkgstats
 plasma-meta
+plex-media-server
 pngout
 postgresql
 postgresql-docs
@@ -195,6 +186,7 @@ swi-prolog
 sysfsutils
 systemd-sysvcompat
 tar
+tarsnap
 texinfo
 thunar
 thunar-volman
@@ -244,7 +236,6 @@ xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
-xfce4-mixer
 xfce4-mount-plugin
 xfce4-mpc-plugin
 xfce4-netload-plugin

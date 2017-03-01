@@ -64,7 +64,6 @@ cairomm
 cantarell-fonts
 caribou
 cdparanoia
-celt
 chromedriver
 cifs-utils
 cinnamon
@@ -233,16 +232,6 @@ gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gstreamer
-gstreamer0.10
-gstreamer0.10-bad
-gstreamer0.10-bad-plugins
-gstreamer0.10-base
-gstreamer0.10-base-plugins
-gstreamer0.10-ffmpeg
-gstreamer0.10-good
-gstreamer0.10-good-plugins
-gstreamer0.10-ugly
-gstreamer0.10-ugly-plugins
 gtk-doc
 gtk-sharp-2
 gtk-update-icon-cache
@@ -389,7 +378,6 @@ kwrited
 kxmlgui
 kxmlrpcclient
 l-smash
-ladspa
 lame
 lcms
 lcms2
@@ -525,7 +513,6 @@ libcanberra
 libcanberra-pulse
 libcap
 libcap-ng
-libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
@@ -538,7 +525,6 @@ libdaemon
 libdatrie
 libdbusmenu-qt4
 libdbusmenu-qt5
-libdc1394
 libdca
 libdmtx
 libdmx
@@ -567,7 +553,6 @@ libgit2
 libgit2-glib
 libglade
 libglvnd
-libgme
 libgnome-keyring
 libgnomekbd
 libgpg-error
@@ -588,7 +573,6 @@ libinput
 libixion
 libjpeg-turbo
 libkactivities4
-libkeybinder2
 libkeybinder3
 libksba
 libkscreen
@@ -597,19 +581,15 @@ liblangtag
 libldap
 liblouis
 liblqr
-liblrdf
 libmad
 libmbim
 libmm-glib
-libmms
 libmng
 libmnl
 libmodplug
 libmp4v2
 libmpc
-libmpcdec
 libmpd
-libmpeg2
 libmspub
 libmwaw
 libndp
@@ -620,7 +600,6 @@ libnm
 libnm-glib
 libnotify
 libodfgen
-libofa
 libogg
 libomxil-bellagio
 liborcus
@@ -651,7 +630,6 @@ libsasl
 libseccomp
 libsecret
 libshout
-libsidplay
 libsigc++
 libsm
 libsndfile
@@ -674,7 +652,6 @@ libtommath
 libtool
 libtxc_dxtn
 libunicodenames
-libunique
 libunistring
 libunrar
 libunwind
@@ -781,7 +758,6 @@ milou
 mime-types
 minizip
 mirage
-mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
@@ -796,7 +772,6 @@ mplayer
 mpv
 mtdev
 muffin
-musicbrainz
 nano
 ncurses
 nemo
@@ -884,6 +859,7 @@ plasma-pa
 plasma-sdk
 plasma-workspace
 plasma-workspace-wallpapers
+plex-media-server
 pngout
 polkit
 polkit-gnome
@@ -902,6 +878,7 @@ potrace
 powerdevil
 powertop
 ppp
+prelink
 presentproto
 primus
 prison
@@ -1050,7 +1027,6 @@ screen
 scrnsaverproto
 sddm
 sddm-kcm
-sdl
 sdl2
 sed
 semver
@@ -1070,9 +1046,7 @@ socat
 solid
 sonnet
 sound-theme-freedesktop
-soundtouch
 source-highlight
-spandsp
 speech-dispatcher
 speedcrunch
 speex
@@ -1097,6 +1071,7 @@ t1lib
 taglib
 talloc
 tar
+tarsnap
 tdb
 tevent
 texinfo
@@ -1150,11 +1125,9 @@ webkit2gtk
 webrtc-audio-processing
 wget
 which
-wildmidi
 wine
 wpa_supplicant
 wxgtk
-wxgtk2.8
 x264
 x265
 x86_energy_perf_policy
@@ -1193,7 +1166,6 @@ xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
-xfce4-mixer
 xfce4-mount-plugin
 xfce4-mpc-plugin
 xfce4-netload-plugin
