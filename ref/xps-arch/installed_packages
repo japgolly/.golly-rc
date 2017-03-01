@@ -259,6 +259,8 @@ htop
 http-parser
 hunspell
 hunspell-en
+hunspell-en_GB
+hunspell-en_US
 hwids
 hwinfo
 hyphen
@@ -520,7 +522,6 @@ libcdr
 libcmis
 libcroco
 libcups
-libcurl-compat
 libdaemon
 libdatrie
 libdbusmenu-qt4
@@ -1034,7 +1035,6 @@ serf
 shadow
 shared-mime-info
 sip
-slack-desktop
 slang
 smartmontools
 smbclient
