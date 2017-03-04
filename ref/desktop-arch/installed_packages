@@ -124,7 +124,6 @@ docker
 docker-compose
 dos2unix
 dosfstools
-dotconf
 downgrade
 dropbox
 dssi
@@ -258,17 +257,6 @@ gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gstreamer
-gstreamer0.10
-gstreamer0.10-bad
-gstreamer0.10-bad-plugins
-gstreamer0.10-base
-gstreamer0.10-base-plugins
-gstreamer0.10-ffmpeg
-gstreamer0.10-good
-gstreamer0.10-good-plugins
-gstreamer0.10-python
-gstreamer0.10-ugly
-gstreamer0.10-ugly-plugins
 gtk
 gtk-doc
 gtk-engines
@@ -308,6 +296,8 @@ htop
 http-parser
 hunspell
 hunspell-en
+hunspell-en_GB
+hunspell-en_US
 hwids
 hwinfo
 hwloc
@@ -474,7 +464,6 @@ lib32-zlib
 libabw
 libaio
 libakonadi-qt4
-libao
 libarchive
 libass
 libassuan
@@ -489,7 +478,6 @@ libcanberra
 libcanberra-pulse
 libcap
 libcap-ng
-libcdaudio
 libcddb
 libcdio
 libcdio-paranoia
@@ -501,7 +489,6 @@ libcups
 libdaemon
 libdatrie
 libdbusmenu-qt4
-libdc1394
 libdca
 libdmtx
 libdmx
@@ -626,7 +613,6 @@ libsasl
 libseccomp
 libsecret
 libshout
-libsidplay
 libsigc++
 libsigsegv
 libsm
@@ -652,7 +638,6 @@ libtommath
 libtool
 libtracker-sparql
 libtxc_dxtn
-libunique
 libunique3
 libunistring
 libunwind
@@ -751,7 +736,6 @@ lzo
 m17n-db
 m17n-lib
 m4
-m64py
 make
 man-db
 man-pages
@@ -786,7 +770,6 @@ mtools
 mtr
 multitail
 mupen64plus
-musicbrainz
 mythes-en
 nano
 nautilus
@@ -954,7 +937,6 @@ python-sphinx_rtd_theme
 python-texttable
 python-urllib3
 python-websocket-client
-python-xdg
 python-yaml
 python2
 python2-appdirs
@@ -1077,8 +1059,6 @@ sord
 sound-theme-freedesktop
 soundtouch
 source-highlight
-spandsp
-speech-dispatcher
 speedcrunch
 speex
 speexdsp
@@ -1188,11 +1168,9 @@ webkitgtk2
 webrtc-audio-processing
 wget
 which
-wildmidi
 wine
 winetricks
 wxgtk
-wxgtk2.8
 x264
 x265
 x86_energy_perf_policy
@@ -1220,7 +1198,6 @@ xfce4-cpugraph-plugin
 xfce4-datetime-plugin
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
-xfce4-mixer
 xfce4-mount-plugin
 xfce4-mpc-plugin
 xfce4-netload-plugin

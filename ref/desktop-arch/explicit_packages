@@ -103,17 +103,6 @@ graphviz
 grep
 grunt-cli
 gst-plugins-good
-gstreamer0.10
-gstreamer0.10-bad
-gstreamer0.10-bad-plugins
-gstreamer0.10-base
-gstreamer0.10-base-plugins
-gstreamer0.10-ffmpeg
-gstreamer0.10-good
-gstreamer0.10-good-plugins
-gstreamer0.10-python
-gstreamer0.10-ugly
-gstreamer0.10-ugly-plugins
 gtk
 gtk-engines
 gtk-xfce-engine
@@ -193,7 +182,6 @@ lsof
 lua
 lvm2
 m4
-m64py
 make
 man-db
 man-pages
@@ -391,7 +379,6 @@ xfce4-cpugraph-plugin
 xfce4-datetime-plugin
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
-xfce4-mixer
 xfce4-mount-plugin
 xfce4-mpc-plugin
 xfce4-netload-plugin
