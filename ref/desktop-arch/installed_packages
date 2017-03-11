@@ -79,7 +79,6 @@ clang
 cloc
 clucene
 cmake
-coffee-script
 colord
 colordiff
 compiz
@@ -137,7 +136,6 @@ electron
 elfutils
 emacs
 emerald0.9
-emscripten
 enca
 enchant
 epdfview
@@ -245,7 +243,6 @@ graphite
 graphviz
 grep
 groff
-grunt-cli
 gsettings-desktop-schemas
 gsfonts
 gsl
@@ -788,7 +785,6 @@ nini
 nmap
 nmon
 nodejs
-nodejs-bower
 notification-daemon
 notify-sharp
 noto-fonts
@@ -1130,7 +1126,6 @@ tzdata
 uchardet
 udisks
 udisks2
-uglify-js
 unace
 unarchiver
 unetbootin

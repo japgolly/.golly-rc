@@ -10,6 +10,7 @@ android-tools
 android-udev
 apache
 apache-ant
+apm
 ardour
 aria2
 arm
@@ -37,7 +38,6 @@ chromedriver
 cifs-utils
 cloc
 cmake
-coffee-script
 colordiff
 compiz
 coreutils
@@ -64,7 +64,6 @@ ec2-api-tools
 ed
 emacs
 emerald0.9
-emscripten
 epdfview
 ethtool
 exo
@@ -101,7 +100,6 @@ gpart
 gparted
 graphviz
 grep
-grunt-cli
 gst-plugins-good
 gtk
 gtk-engines
@@ -214,7 +212,6 @@ nfs-utils
 nmap
 nmon
 nodejs
-nodejs-bower
 notification-daemon
 notify-sharp
 noto-fonts
@@ -342,7 +339,6 @@ ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
-uglify-js
 unace
 unarchiver
 unetbootin
