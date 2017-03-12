@@ -152,7 +152,6 @@ lib32-alsa-plugins
 lib32-gnutls
 lib32-libgudev
 lib32-libpulse
-lib32-nvidia-libgl
 libdvdread
 libexif
 libid3tag

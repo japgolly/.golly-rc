@@ -444,7 +444,6 @@ lib32-llvm-libs
 lib32-mesa
 lib32-ncurses
 lib32-nettle
-lib32-nvidia-libgl
 lib32-nvidia-utils
 lib32-openssl
 lib32-p11-kit
@@ -798,7 +797,6 @@ ntfs-3g
 ntp
 numactl
 nvidia
-nvidia-libgl
 nvidia-utils
 nzbget
 ocl-icd
