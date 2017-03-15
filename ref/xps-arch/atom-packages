@@ -5,6 +5,7 @@ autocomplete-xml
 build
 build-dockerfile
 busy
+busy-signal
 column-select
 dash
 docker
@@ -15,6 +16,7 @@ git-time-machine
 graphviz-preview
 hidpi
 html2haml
+intentions
 jumpy
 keyboard-scroll
 language-diff
@@ -25,6 +27,7 @@ language-json5
 language-scala
 linter
 linter-docker
+linter-ui-default
 linter-xmllint
 minimap
 minimap-bookmarks

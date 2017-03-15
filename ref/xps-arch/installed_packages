@@ -17,6 +17,7 @@ appstream-qt
 apr
 apr-util
 arandr
+archlinux-appstream-data
 archlinux-keyring
 asciidoc
 aspell
@@ -111,6 +112,7 @@ dhcpcd
 dialog
 diffutils
 ding-libs
+discover
 djvulibre
 dmxproto
 dnssec-anchors
@@ -344,6 +346,7 @@ kinfocenter
 kinit
 kio
 kirigami
+kirigami2
 kitemmodels
 kitemviews
 kjobwidgets
@@ -351,6 +354,7 @@ kjs
 kjsembed
 kmenuedit
 kmod
+knetattach
 knewstuff
 knotifications
 knotifyconfig
@@ -480,7 +484,6 @@ lib32-ncurses
 lib32-nettle
 lib32-nspr
 lib32-nss
-lib32-nvidia-libgl
 lib32-nvidia-utils
 lib32-openal
 lib32-openssl
@@ -753,7 +756,6 @@ media-player-info
 meld
 mesa
 mesa-demos
-mesa-libgl
 metacity
 milou
 mime-types
@@ -946,6 +948,7 @@ python-xdg
 python-yaml
 python2
 python2-appdirs
+python2-asn1crypto
 python2-cairo
 python2-cffi
 python2-crypto
@@ -986,6 +989,7 @@ qt5-graphicaleffects
 qt5-location
 qt5-multimedia
 qt5-quickcontrols
+qt5-quickcontrols2
 qt5-script
 qt5-sensors
 qt5-speech
@@ -1053,6 +1057,7 @@ speex
 speexdsp
 sqlectron-gui
 sqlite
+sshfs
 stack
 startup-notification
 steam
