@@ -259,3 +259,12 @@ else
     ;;
   esac
 fi
+
+# Node.JS
+# https://gist.github.com/japgolly/775314a0cb24e33653b059b8f8540250
+which npm &>/dev/null
+if [ $? -eq 0 ]; then
+  export NODE_PATH="$(npm config get prefix)"/lib/node_modules
+  export PATH="$PATH:$(npm config get prefix)/bin"
+fi
+
