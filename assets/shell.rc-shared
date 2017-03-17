@@ -156,6 +156,9 @@ tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
     done
   fi
 }
+function mvorig {
+  find -name '*.orig' -exec mv -i {} /tmp \;
+}
 function convss {
   if [ $# -eq 0 ]; then
     echo "No arguments provided." >&2
