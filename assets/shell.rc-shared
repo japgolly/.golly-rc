@@ -79,6 +79,7 @@ case "$(distro)" in
 esac
 
 # Functions
+function WIPEDIR { for f in "$@"; do rm -rf "$f"; git checkout -- "$f"; done ;}
 function myip { curl -s http://ifconfig.me ;}
 function show_cp { if [ ! -r "$1" ]; then echo "Can't read: $1"; else unzip -p $1 META-INF/MANIFEST.MF | sed '/^Class-Path:/,$!d' | tr -d '\n\r' | perl -pe 's/^.+?: //; s/ //g; s/(?<=\.jar)/\n/g'; fi; }
 function test_cp { show_cp "$1" | sed "s|^|$(dirname "$1")/|" | xargs -L1 ls -l; }
