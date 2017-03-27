@@ -138,6 +138,7 @@ emacs
 emerald0.9
 enca
 enchant
+entr
 epdfview
 ethtool
 evolution-data-server
@@ -1120,6 +1121,7 @@ ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
+twemoji-color-font
 tzdata
 uchardet
 udisks
