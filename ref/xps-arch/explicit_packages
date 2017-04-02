@@ -39,6 +39,7 @@ dwdiff
 e2fsprogs
 emerald-themes-git
 emerald0.9
+entr
 epdfview
 evince
 fakeroot
@@ -201,6 +202,7 @@ ttf-liberation
 ttf-linux-libertine
 ttf-vista-fonts
 tumbler
+twemoji-color-font
 unrar
 unzip
 usbutils

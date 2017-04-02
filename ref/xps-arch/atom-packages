@@ -1,6 +1,10 @@
+atom-beautify
 atom-html-preview
+atom-mocha
 atom-overtype-mode
 atom-terminal
+atom-ternjs
+autocomplete-modules
 autocomplete-xml
 build
 build-dockerfile
@@ -8,6 +12,7 @@ busy
 busy-signal
 column-select
 dash
+docblockr
 docker
 dockerletion
 git-diff-details
@@ -16,7 +21,9 @@ git-time-machine
 graphviz-preview
 hidpi
 html2haml
+hyperclick
 intentions
+js-hyperclick
 jumpy
 keyboard-scroll
 language-diff
@@ -34,6 +41,7 @@ minimap-bookmarks
 minimap-cursorline
 minimap-find-and-replace
 minimap-git-diff
+mocha-test-runner
 plantuml-preview
 plantuml-viewer
 platformio-ide-terminal

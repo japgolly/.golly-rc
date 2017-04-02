@@ -136,6 +136,7 @@ emerald-themes-git
 emerald0.9
 enca
 enchant
+entr
 epdfview
 evince
 exempi
@@ -1092,6 +1093,7 @@ traceroute
 transmission-cli
 tree
 tslib
+ttf-bitstream-vera
 ttf-dejavu
 ttf-google-fonts-git
 ttf-hack
@@ -1099,6 +1101,7 @@ ttf-liberation
 ttf-linux-libertine
 ttf-vista-fonts
 tumbler
+twemoji-color-font
 tzdata
 uchardet
 udisks2
