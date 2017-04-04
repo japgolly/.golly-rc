@@ -72,6 +72,7 @@ fakeroot
 fbset
 ffmpeg
 file
+filemanager-actions
 filesystem
 findutils
 firefox
@@ -91,6 +92,7 @@ git-cola
 git-extras
 gitg
 glibc
+gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 gnuplot
@@ -204,7 +206,6 @@ mupen64plus
 mythes-en
 nano
 nautilus
-nautilus-actions
 nautilus-open-terminal
 nautilus-sendto
 netctl

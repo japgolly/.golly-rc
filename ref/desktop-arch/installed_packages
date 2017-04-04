@@ -155,6 +155,7 @@ ffmpeg
 ffmpeg2.8
 fftw
 file
+filemanager-actions
 filesystem
 findutils
 firefox
@@ -219,6 +220,7 @@ gnome-icon-theme-symbolic
 gnome-menus
 gnome-online-accounts
 gnome-panel
+gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
 gnupg
@@ -770,7 +772,6 @@ mupen64plus
 mythes-en
 nano
 nautilus
-nautilus-actions
 nautilus-open-terminal
 nautilus-sendto
 ncurses
