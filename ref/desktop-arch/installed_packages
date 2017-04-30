@@ -274,6 +274,7 @@ gtkspell3
 gts
 guake
 guile
+guile2.0
 guitarix2
 gutenprint
 gvfs
@@ -573,6 +574,7 @@ libmythes
 libnautilus-extension
 libnewt
 libnftnl
+libnghttp2
 libnice
 libnl
 libnm
@@ -812,6 +814,7 @@ openmpi
 openresolv
 openssh
 openssl
+openssl-1.0
 optipng
 opus
 orc
