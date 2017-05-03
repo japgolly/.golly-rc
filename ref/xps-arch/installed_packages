@@ -249,6 +249,7 @@ gtkspell
 gtkspell3
 gts
 guile
+guile2.0
 gvfs
 gvim
 gzip
@@ -815,6 +816,7 @@ openjpeg2
 openresolv
 openssh
 openssl
+openssl-1.0
 opus
 orc
 oxygen
