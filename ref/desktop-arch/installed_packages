@@ -489,6 +489,7 @@ libcups
 libdaemon
 libdatrie
 libdbusmenu-qt4
+libdc1394
 libdca
 libdmtx
 libdmx
@@ -508,6 +509,7 @@ libevent
 libexif
 libexttextcat
 libfbclient
+libfdk-aac
 libffado
 libffi
 libfm
@@ -805,6 +807,7 @@ nzbget
 ocl-icd
 octave
 odt2txt
+openal
 opencl-nvidia
 opencore-amr
 openexr
@@ -1057,6 +1060,7 @@ sord
 sound-theme-freedesktop
 soundtouch
 source-highlight
+spandsp
 speedcrunch
 speex
 speexdsp
@@ -1156,6 +1160,7 @@ vlc
 vte
 vte-common
 vte3
+vulkan-icd-loader
 wavpack
 wayland
 wayland-protocols
@@ -1166,6 +1171,7 @@ webkitgtk2
 webrtc-audio-processing
 wget
 which
+wildmidi
 wine
 winetricks
 wxgtk
