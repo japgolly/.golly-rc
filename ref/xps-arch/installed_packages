@@ -602,6 +602,7 @@ libmwaw
 libndp
 libnewt
 libnftnl
+libnghttp2
 libnl
 libnm
 libnm-glib

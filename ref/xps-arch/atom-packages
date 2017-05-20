@@ -15,6 +15,7 @@ dash
 docblockr
 docker
 dockerletion
+elmjutsu
 git-diff-details
 git-plus
 git-time-machine
@@ -22,6 +23,7 @@ graphviz-preview
 hidpi
 html2haml
 hyperclick
+ide-purescript
 intentions
 js-hyperclick
 jumpy
@@ -29,8 +31,10 @@ keyboard-scroll
 language-diff
 language-docker
 language-dot
+language-elm
 language-haml
 language-json5
+language-purescript
 language-scala
 linter
 linter-docker

@@ -78,5 +78,5 @@ echo
 
 # Git
 git add -AN -- .
-git add *_package*
+git add *package*
 git st -- .
