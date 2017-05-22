@@ -445,6 +445,7 @@ lib32-libxt
 lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
+lib32-lm_sensors
 lib32-mesa
 lib32-ncurses
 lib32-nettle
@@ -641,7 +642,6 @@ libtommath
 libtool
 libtracker-sparql
 libtxc_dxtn
-libunique3
 libunistring
 libunwind
 libupnp
@@ -874,7 +874,6 @@ polkit-qt4
 poppler
 poppler-glib
 poppler-qt4
-poppler-qt5
 popt
 portaudio
 postgresql
@@ -1098,7 +1097,6 @@ tevent
 texinfo
 texlive-bin
 texlive-core
-texworks
 thin-provisioning-tools
 thunar
 tidy
@@ -1145,7 +1143,6 @@ usbutils
 util-linux
 v4l-utils
 vamp-plugin-sdk
-vault
 vi
 vid.stab
 videoproto

@@ -312,7 +312,6 @@ tcsh
 terminus-font-ttf
 texinfo
 texlive-core
-texworks
 thunar
 tidy
 tig
@@ -350,7 +349,6 @@ unzip
 upower
 usbutils
 util-linux
-vault
 vi
 vim-systemd
 vimpager
