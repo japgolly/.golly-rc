@@ -113,7 +113,6 @@ gtkglext
 gtkmm3
 gtkspell
 guake
-guitarix2
 gutenprint
 gvim
 gzip
@@ -128,6 +127,7 @@ hwinfo
 hyphen
 hyphen-en
 id3lib
+idris
 ifplugd
 iftop
 imagemagick
@@ -352,9 +352,6 @@ util-linux
 vi
 vim-systemd
 vimpager
-virtualbox
-virtualbox-guest-iso
-virtualbox-host-dkms
 visualvm
 vlc
 wget

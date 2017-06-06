@@ -49,7 +49,6 @@ bind-tools
 binutils
 bison
 blas
-bluez-libs
 boost
 boost-libs
 bridge-utils
@@ -112,7 +111,6 @@ dhcpcd
 dialog
 diffutils
 ding-libs
-dkms
 dmenu
 dmidecode
 dmxproto
@@ -145,6 +143,7 @@ evolution-data-server
 exempi
 exiv2
 exo
+expac
 expat
 faac
 faad2
@@ -228,7 +227,6 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
-go
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
@@ -275,7 +273,6 @@ gts
 guake
 guile
 guile2.0
-guitarix2
 gutenprint
 gvfs
 gvim
@@ -308,6 +305,7 @@ iana-etc
 icu
 id3lib
 idnkit
+idris
 ifplugd
 iftop
 ijs
@@ -934,9 +932,12 @@ python-snowballstemmer
 python-sphinx
 python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
+python-sphinxcontrib-websupport
+python-sqlalchemy
 python-texttable
 python-urllib3
 python-websocket-client
+python-whoosh
 python-yaml
 python2
 python2-appdirs
@@ -1149,9 +1150,6 @@ videoproto
 vim-runtime
 vim-systemd
 vimpager
-virtualbox
-virtualbox-guest-iso
-virtualbox-host-dkms
 visualvm
 vlc
 vte
@@ -1264,8 +1262,6 @@ zeal
 zenity
 zeromq
 zip
-zita-convolver
-zita-resampler
 zlib
 zopfli-git
 zsh
