@@ -25,6 +25,7 @@
 ~/.mpv
 ~/.tarsnaprc
 ~/.xinitrc
+/boot/refind_linux.conf
 /etc/adobe/mms.cfg
 /etc/conf.d/
 /etc/default/tlp
