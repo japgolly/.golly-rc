@@ -35,7 +35,6 @@ attica-qt4
 attr
 aubio
 audio-convert
-authbind
 autoconf
 automake
 avahi
@@ -913,6 +912,7 @@ python-dockerpty
 python-docopt
 python-docutils
 python-gobject
+python-idna
 python-imagesize
 python-jinja
 python-jsonschema

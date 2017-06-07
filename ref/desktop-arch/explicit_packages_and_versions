@@ -1,5 +1,5 @@
 abs 2.4.4-2
-ack 2.18-1
+ack 2.18-2
 acroread 9.5.5-6
 alsa-lib 1.1.4.1-1
 alsa-oss 1.0.28-1
@@ -10,7 +10,7 @@ android-tools 7.1.2_r6-1
 android-udev 20170416-1
 apache 2.4.25-3
 apache-ant 1.9.7-1
-apm 1.18.2-1
+apm 1.18.2-2
 ardour 5.9-1
 aria2 1.32.0-1
 arm 1.4.5.0-4
@@ -18,7 +18,6 @@ aspell 0.60.6.1-5
 aspell-en 2016.06.26-1
 atom 1.17.2-1
 audio-convert 0.3.1.1-7
-authbind 2.1.1-1
 autoconf 2.69-4
 automake 1.15-2
 awoken-icons 2.5.2-2
@@ -37,12 +36,12 @@ cargo 0.18.0-1
 chromedriver 2.29-1
 cifs-utils 6.7-2
 cloc 1.72-1
-cmake 3.8.1-1
+cmake 3.8.2-1
 colordiff 1.0.16-1
 compiz 0.9.13.1-1
 coreutils 8.27-1
 cpulimit 20160304-1
-cpupower 4.11-1
+cpupower 4.11-2
 cronie 1.5.1-1
 cryptsetup 1.7.5-1
 cups 2.2.3-1
@@ -54,7 +53,7 @@ diffutils 3.6-1
 dmenu 4.7-1
 dmidecode 3.1-1
 docker 1:17.05.0-1
-docker-compose 1.12.0-1
+docker-compose 1.13.0-1
 dos2unix 7.3.4-1
 downgrade 5.4.1-1
 dropbox 25.4.28-1
@@ -87,7 +86,7 @@ gedit 3.22.0+44+ge706c1259-1
 gettext 0.19.8.1-2
 ghc 8.0.1-1
 gimp 2.8.20-1
-git 2.13.0-1
+git 2.13.0-2
 git-cola 2.11-2
 git-extras 4.3.0-1
 gitg 3.24.0-1
@@ -101,7 +100,7 @@ google-musicmanager 1.0.243.1116_r0-1
 gource 0.44-2
 gpart 0.3-1
 gparted 0.28.1-1
-graphviz 2.40.1-3
+graphviz 2.40.1-4
 grep 3.0-1
 gst-plugins-good 1.12.0-1
 gtk 1.2.10-16
@@ -130,7 +129,7 @@ id3lib 3.8.3-16
 idris 1.0-31
 ifplugd 0.28-14
 iftop 1.0pre4-2
-imagemagick 6.9.8.8-1
+imagemagick 6.9.8.9-1
 inetutils 1.9.4-5
 inkscape 0.92.1-2
 inotify-tools 3.14-4
@@ -166,7 +165,7 @@ libmythes 1:1.2.4-2
 libnotify 0.7.7-1
 libogg 1.3.2-1
 libpng 1.6.29-1
-libreoffice-fresh 5.3.3-1
+libreoffice-fresh 5.3.3-2
 libreoffice-fresh-en-GB 5.3.3-1
 libtool 2.4.6-8
 libva-vdpau-driver 0.7.4-2
@@ -212,7 +211,7 @@ netctl 1.12-2
 nfs-utils 2.1.1-3
 nmap 7.40-2
 nmon 16g-1
-nodejs 7.10.0-2
+nodejs 8.0.0-1
 notification-daemon 3.20.0-1
 notify-sharp 0.4.1-2
 noto-fonts 20170428-1
@@ -239,10 +238,10 @@ pavucontrol 3.0-4
 pciutils 3.5.4-1
 pcmanfm 1.2.5-1
 pcmciautils 018-7
-perl 5.24.1-1
+perl 5.26.0-1
 pgadmin3 1.22.2-3
 phantomjs 2.1.1-8
-pidgin 2.12.0-1
+pidgin 2.12.0-2
 pidgin-encryption 3.1-3
 pidgin-libnotify 0.14-10
 pidgin-toobars 1.14-2
@@ -254,10 +253,10 @@ plex-media-server 1.5.6.3790-1
 pngout 20150319-1
 poppler-glib 0.55.0-3
 poppler-qt4 0.55.0-3
-postgresql 9.6.3-1
-postgresql-docs 9.6.3-1
-postgresql-libs 9.6.3-1
-postgresql-old-upgrade 9.5.7-1
+postgresql 9.6.3-2
+postgresql-docs 9.6.3-2
+postgresql-libs 9.6.3-2
+postgresql-old-upgrade 9.5.7-2
 powertop 2.9-1
 ppp 2.4.7-2
 procps-ng 3.3.12-1
@@ -274,7 +273,7 @@ renameutils 0.12.0-4
 rkt 1.26.0-1
 rlwrap 0.43-1
 rot13 2-5
-rrdtool 1.6.0-2
+rrdtool 1.7.0-1
 rsync 3.1.2-2
 ruby 2.4.1-3
 rust 1:1.17.0-1
@@ -310,7 +309,7 @@ tarsnap 1.0.37-5
 tcpdump 4.9.0-2
 tcsh 6.20.00-1
 terminus-font-ttf 4.40.1-1
-texinfo 6.3-1
+texinfo 6.3-2
 texlive-core 2016.43757-1
 thunar 1.6.11-2
 tidy 5.4.0-1
@@ -359,7 +358,7 @@ which 2.21-2
 wine 2.9-1
 winetricks 20170517-1
 x264 2:148.20170519-1
-x86_energy_perf_policy 4.11-1
+x86_energy_perf_policy 4.11-2
 xdg-utils 1.1.2-1
 xf86-input-keyboard 1.9.0-2
 xf86-input-mouse 1.9.2-3
