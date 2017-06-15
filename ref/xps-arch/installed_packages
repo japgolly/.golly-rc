@@ -61,6 +61,7 @@ ca-certificates-mozilla
 ca-certificates-utils
 cabextract
 cairo
+cairo-perl
 cairomm
 cantarell-fonts
 caribou
@@ -193,6 +194,7 @@ git-cola
 gitg
 glew
 glib-networking
+glib-perl
 glib2
 glib2-docs
 glibc
@@ -209,7 +211,6 @@ gnome-themes-standard
 gnu-netcat
 gnupg
 gnutls
-go
 gobject-introspection
 gobject-introspection-runtime
 goocanvas
@@ -240,6 +241,7 @@ gtk-sharp-2
 gtk-update-icon-cache
 gtk-xfce-engine
 gtk2
+gtk2-perl
 gtk3
 gtkmm
 gtkmm3
@@ -272,6 +274,7 @@ hyphen-en
 iana-etc
 icu
 idnkit
+idris
 iftop
 ijs
 ilmbase
@@ -482,6 +485,7 @@ lib32-libxt
 lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
+lib32-lm_sensors
 lib32-mesa
 lib32-ncurses
 lib32-nettle
@@ -830,6 +834,7 @@ pacman-mirrorlist
 pam
 pambase
 pango
+pango-perl
 pangomm
 pangox-compat
 parallel
@@ -843,6 +848,7 @@ perl
 perl-algorithm-diff
 perl-error
 perl-file-next
+perl-gtk2-trayicon
 perl-regexp-common
 perl-uri
 perl-xml-parser
@@ -922,6 +928,7 @@ python-dockerpty
 python-docopt
 python-docutils
 python-gobject
+python-idna
 python-imagesize
 python-jinja
 python-jmespath
@@ -946,9 +953,12 @@ python-snowballstemmer
 python-sphinx
 python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
+python-sphinxcontrib-websupport
+python-sqlalchemy
 python-texttable
 python-urllib3
 python-websocket-client
+python-whoosh
 python-xdg
 python-yaml
 python2
@@ -1125,6 +1135,8 @@ videoproto
 vim-runtime
 vimpager
 virtualgl
+volumeicon
+volwheel
 vte-common
 vte3
 vulkan-icd-loader
@@ -1152,6 +1164,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xdg-desktop-portal-kde
 xdg-utils
 xextproto
 xf86-input-evdev

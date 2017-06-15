@@ -33,6 +33,7 @@ language-docker
 language-dot
 language-elm
 language-haml
+language-idris
 language-json5
 language-purescript
 language-scala

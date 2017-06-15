@@ -78,6 +78,7 @@ hunspell-en
 hwinfo
 hyphen
 hyphen-en
+idris
 iftop
 imagemagick
 inetutils
@@ -211,6 +212,8 @@ util-linux
 vault
 vi
 vimpager
+volumeicon
+volwheel
 vulkan-intel
 wget
 which
