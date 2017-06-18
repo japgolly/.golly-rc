@@ -4,7 +4,7 @@ acroread 9.5.5-6
 alsa-utils 1.1.4-1
 ansible 2.3.1.0-1
 arandr 0.1.9-2
-atom 1.17.2-1
+atom 1.18.0-2
 autoconf 2.69-4
 automake 1.15-2
 aws-cli 1.11.104-1
@@ -16,7 +16,7 @@ binutils 2.28.0-3
 bison 3.0.4-2
 bumblebee 3.2.1-15
 bzip2 1.0.6-6
-chromedriver 2.29-1
+chromedriver 2.30-1
 cinnamon 3.2.8-1
 cloc 1.72-1
 cmake 3.8.2-1
@@ -54,11 +54,11 @@ gcc-multilib 7.1.1-3
 gettext 0.19.8.1-2
 gftp 2.0.19-8
 ghc 8.0.1-1
-gimp 2.8.20-1
+gimp 2.8.22-1
 git 2.13.1-1
 git-cola 2.11-2
 gitg 3.24.0-1
-glibc 2.25-2
+glibc 2.25-3
 gnome-terminal 3.24.2-1
 gnu-netcat 0.7.1-6
 google-chrome 59.0.3071.104-1
@@ -101,7 +101,7 @@ lib32-libpulse 10.0-1
 libreoffice-fresh 5.3.3-2
 libreoffice-fresh-en-GB 5.3.3-1
 libtool 2.4.6-8
-libunrar 1:5.5.4-1
+libunrar 1:5.5.5-1
 libva-intel-driver 1.8.2-1
 licenses 20140629-2
 linux 4.11.5-1
@@ -152,7 +152,6 @@ phantomjs 2.1.1-8
 pigz 2.3.4-1
 pkg-config 0.29.2-1
 pkgstats 2.3-7
-plasma-meta 5.10-1
 plex-media-server 1.5.6.3790-1
 pngout 20150319-1
 postgresql 9.6.3-2
@@ -177,7 +176,7 @@ sed 4.4-1
 shadow 4.4-3
 smartmontools 6.5-1
 smplayer 17.6.0-1
-smuxi 1.0.6-2
+smuxi 1.0.7-1
 speedcrunch 0.12.0-1
 sqlectron-gui 1.20.2-1
 sshfs 2.9-1
@@ -205,7 +204,7 @@ ttf-linux-libertine 5.3.0-3
 ttf-vista-fonts 1-8
 tumbler 0.1.32-1
 twemoji-color-font 1.1-1
-unrar 1:5.5.4-1
+unrar 1:5.5.5-1
 unzip 6.0-12
 usbutils 008-1
 util-linux 2.29.2-2
