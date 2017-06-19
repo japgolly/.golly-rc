@@ -110,6 +110,7 @@ dhcpcd
 dialog
 diffutils
 ding-libs
+djvulibre
 dmenu
 dmidecode
 dmxproto
@@ -120,6 +121,7 @@ docker
 docker-compose
 dos2unix
 dosfstools
+double-conversion
 downgrade
 dropbox
 dssi
@@ -138,6 +140,7 @@ enchant
 entr
 epdfview
 ethtool
+evince
 evolution-data-server
 exempi
 exiv2
@@ -535,6 +538,7 @@ libgudev
 libguess
 libgusb
 libgweather
+libgxps
 libical
 libice
 libid3tag
@@ -621,6 +625,7 @@ libsndfile
 libsodium
 libsoup
 libsoxr
+libspectre
 libspiro
 libsrtp
 libssh
@@ -950,6 +955,7 @@ python2-cssutils
 python2-dateutil
 python2-dbus
 python2-dnspython
+python2-dukpy
 python2-gconf
 python2-gobject
 python2-gobject2
@@ -969,6 +975,7 @@ python2-pygments
 python2-pyparsing
 python2-pyqt4
 python2-pyqt5
+python2-regex
 python2-reportlab
 python2-setuptools
 python2-sip
@@ -1169,7 +1176,8 @@ which
 wildmidi
 wine
 winetricks
-wxgtk
+wxgtk-common
+wxgtk2
 x264
 x265
 x86_energy_perf_policy
