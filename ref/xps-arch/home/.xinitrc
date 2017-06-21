@@ -30,7 +30,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-
+systemctl --user start xfce4-notifyd.service
 
 #redshift -l -33.8683:151.2086 &
 

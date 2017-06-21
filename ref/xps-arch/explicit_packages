@@ -1,6 +1,5 @@
 ack
 acpitool
-acroread
 alsa-utils
 ansible
 arandr
@@ -88,7 +87,6 @@ iotop
 iproute2
 iputils
 jdk
-jdk7
 jfsutils
 jq
 kdiff3
