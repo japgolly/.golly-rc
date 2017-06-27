@@ -12,17 +12,13 @@
   'ctrl-d': 'editor:delete-line'
 
 'body':
-  'ctrl-o'      : 'unset!'
   'ctrl-o'      : 'fuzzy-finder:toggle-file-finder'
   'ctrl-n'      : 'find-and-replace:select-next'
   'ctrl-shift-i': 'unset!'
   'f12'         : 'window:toggle-dev-tools'
-  'ctrl-shift-w': 'unset!'
   'ctrl-shift-w': 'tabs:close-all-tabs'
 
 'atom-workspace atom-text-editor:not([mini])':
-  'ctrl-down'     : 'unset!'
-  'ctrl-up'       : 'unset!'
   'ctrl-shift-d'  : 'unset!'
   'alt-down'      : 'editor:move-line-down'
   'alt-up'        : 'editor:move-line-up'
@@ -35,3 +31,6 @@
 'atom-text-editor[data-grammar~="haskell"]':
   'ctrl-shift-l': 'haskell-ghc-mod:lint-file'
   'alt-='       : 'haskell-ghc-mod:show-type'
+
+'.platform-linux atom-text-editor':
+  'ctrl-r': 'unset!'
