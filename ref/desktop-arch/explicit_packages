@@ -1,6 +1,5 @@
 abs
 ack
-acroread
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -146,6 +145,7 @@ jre6-compat
 kdiff3
 keepass
 keepass-plugin-http
+keepassxc
 keybase
 krename
 lame
