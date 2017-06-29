@@ -100,7 +100,7 @@ google-musicmanager 1.0.243.1116_r0-1
 gource 0.44-2
 gpart 0.3-1
 gparted 0.28.1-1
-graphviz 2.40.1-4
+graphviz 2.38.0-16
 grep 3.0-1
 gst-plugins-good 1.12.1-1
 gtk 1.2.10-16
@@ -250,7 +250,7 @@ pigz 2.3.4-1
 pkg-config 0.29.2-1
 pkgstats 2.3-7
 plantuml 8059-1
-plex-media-server 1.5.7.4016-1
+plex-media-server 1.7.5.4035-1
 pngout 20150319-1
 poppler-glib 0.56.0-1
 poppler-qt4 0.56.0-1
