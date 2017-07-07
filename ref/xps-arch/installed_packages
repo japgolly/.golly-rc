@@ -51,6 +51,7 @@ ca-certificates
 ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
+cabal-helper
 cabextract
 cairo
 cairo-perl
@@ -161,6 +162,7 @@ geoip-database
 gettext
 gftp
 ghc
+ghc-mod
 ghostscript
 giflib
 gimp
@@ -262,6 +264,7 @@ haskell-cereal
 haskell-charset
 haskell-cheapskate
 haskell-clock
+haskell-cmdargs
 haskell-code-page
 haskell-comonad
 haskell-conduit
@@ -270,6 +273,7 @@ haskell-connection
 haskell-constraints
 haskell-contravariant
 haskell-cookie
+haskell-cpphs
 haskell-cryptohash
 haskell-cryptohash-sha256
 haskell-cryptonite
@@ -282,6 +286,8 @@ haskell-data-default-instances-dlist
 haskell-data-default-instances-old-locale
 haskell-digest
 haskell-distributive
+haskell-djinn-ghc
+haskell-djinn-lib
 haskell-dlist
 haskell-easy-file
 haskell-ed25519
@@ -290,6 +296,7 @@ haskell-errors
 haskell-exceptions
 haskell-extra
 haskell-fast-logger
+haskell-fclabels
 haskell-file-embed
 haskell-filelock
 haskell-fingertree
@@ -298,6 +305,8 @@ haskell-free
 haskell-fsnotify
 haskell-generic-deriving
 haskell-generics-sop
+haskell-ghc-paths
+haskell-ghc-syb-utils
 haskell-gitrev
 haskell-glob
 haskell-hackage-security
@@ -308,6 +317,7 @@ haskell-hinotify
 haskell-hit
 haskell-hourglass
 haskell-hpack
+haskell-hscolour
 haskell-hspec
 haskell-hspec-core
 haskell-hspec-discover
@@ -336,6 +346,7 @@ haskell-microlens-th
 haskell-mime-types
 haskell-mmorph
 haskell-monad-control
+haskell-monad-journal
 haskell-monad-logger
 haskell-monad-loops
 haskell-monad-unlift
@@ -362,6 +373,8 @@ haskell-persistent
 haskell-persistent-sqlite
 haskell-persistent-template
 haskell-pid1
+haskell-pipes
+haskell-polyparse
 haskell-prelude-extras
 haskell-primitive
 haskell-profunctors
@@ -370,6 +383,7 @@ haskell-quickcheck
 haskell-quickcheck-io
 haskell-random
 haskell-reducers
+haskell-refact
 haskell-reflection
 haskell-regex-applicative
 haskell-regex-applicative-text
@@ -389,6 +403,7 @@ haskell-silently
 haskell-smallcheck
 haskell-socks
 haskell-split
+haskell-src-exts
 haskell-statevar
 haskell-stm
 haskell-stm-chans
@@ -451,6 +466,7 @@ haskell-zlib-bindings
 hdf5
 hdparm
 hicolor-icon-theme
+hlint
 hspell
 htop
 http-parser
@@ -534,7 +550,6 @@ kiconthemes
 kidletime
 kinit
 kio
-kirigami
 kitemmodels
 kitemviews
 kjobwidgets
@@ -940,6 +955,7 @@ nmap
 nmon
 nodejs
 notify-sharp
+noto-fonts
 npm
 npth
 nspr
