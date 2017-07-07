@@ -85,6 +85,7 @@ gdb
 gedit
 gettext
 ghc
+ghc-mod
 gimp
 git
 git-cola
@@ -222,6 +223,7 @@ npm
 ntfs-3g
 ntp
 nvidia
+nvm
 nzbget
 octave
 odt2txt

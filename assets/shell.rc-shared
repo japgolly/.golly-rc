@@ -261,6 +261,11 @@ else
   esac
 fi
 
+# NVM
+if [ -f /usr/share/nvm/init-nvm.sh ]; then
+  source /usr/share/nvm/init-nvm.sh
+fi
+
 # Node.JS
 # https://gist.github.com/japgolly/775314a0cb24e33653b059b8f8540250
 which npm &>/dev/null
