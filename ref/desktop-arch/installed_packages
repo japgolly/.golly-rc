@@ -868,6 +868,7 @@ libtool
 libtracker-sparql
 libtxc_dxtn
 libunistring
+libunrar
 libunwind
 libupnp
 libusb
@@ -1205,6 +1206,7 @@ python2-reportlab
 python2-setuptools
 python2-sip
 python2-six
+python2-unrardll
 python2-webencodings
 python2-xdg
 qca-qt4
@@ -1492,6 +1494,9 @@ yajl
 yaourt
 yasm
 youtube-dl
+yubico-c
+yubico-c-client
+yubikey-personalization
 zeal
 zenity
 zeromq
