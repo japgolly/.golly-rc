@@ -17,6 +17,7 @@
   'ctrl-shift-i': 'unset!'
   'f12'         : 'window:toggle-dev-tools'
   'ctrl-shift-w': 'tabs:close-all-tabs'
+  'f4'          : 'editor:toggle-soft-wrap'
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-shift-d'  : 'unset!'
