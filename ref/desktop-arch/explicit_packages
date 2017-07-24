@@ -97,6 +97,7 @@ gnome-themes-extras
 gnome-themes-standard
 gnuplot
 google-chrome
+google-cloud-sdk
 google-musicmanager
 gource
 gpart
@@ -268,6 +269,7 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pv
+python2-crcmod
 qjackctl
 redshift
 refind-efi
@@ -288,6 +290,7 @@ sensors-applet
 sfnt2woff
 shadow
 sharutils
+siege
 sloccount
 smartmontools
 smpeg

@@ -235,6 +235,7 @@ gnutls
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
+google-cloud-sdk
 google-musicmanager
 gource
 gox
@@ -1175,6 +1176,7 @@ python2-apsw
 python2-cairo
 python2-chardet
 python2-cherrypy
+python2-crcmod
 python2-cssselect
 python2-cssutils
 python2-dateutil
@@ -1279,6 +1281,7 @@ sg3_utils
 shadow
 shared-mime-info
 sharutils
+siege
 sip
 sk1libs
 slang
