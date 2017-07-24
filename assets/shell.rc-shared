@@ -87,9 +87,10 @@ function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | 
 function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot -Tpng -o"$o" "$1" && xdg-open "$o" 2>/dev/null);}
 function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *$/d'; done ;}
 function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done ;}
-function finds {
+function find_name {
+  name="$1"
+  shift
   dir=.
-  name='*.scala'
   if [ -n "$1" -a -d "$1" ]; then
     dir="$1"
     shift
@@ -100,6 +101,8 @@ function finds {
   fi
   find "$dir" "$@" -type f -name "$name" | sort
 }
+alias finds="find_name '*.scala'"
+alias findjs="find_name '*.js'"
 function fixspace {
   find "$@" -type f -name '*.scala' -exec perl -pi -e 's/[ \t]+$//' {} +
 }
@@ -197,6 +200,7 @@ function fkeyd {
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules} --nogroup --color"
+  alias ackjs='ack --js'
   alias acks='ack --scala'
 fi
 
