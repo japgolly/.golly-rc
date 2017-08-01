@@ -51,6 +51,7 @@ boost
 boost-libs
 bridge-utils
 brother-mfc-j5320dw
+brotli
 btrfs-progs
 bzip2
 c-ares
@@ -232,6 +233,7 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
+go-bindata
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
@@ -345,6 +347,7 @@ haskell-djinn-ghc
 haskell-djinn-lib
 haskell-dlist
 haskell-easy-file
+haskell-echo
 haskell-ed25519
 haskell-either
 haskell-errors
@@ -400,6 +403,7 @@ haskell-microlens
 haskell-microlens-mtl
 haskell-microlens-th
 haskell-mime-types
+haskell-mintty
 haskell-mmorph
 haskell-monad-control
 haskell-monad-journal
@@ -589,6 +593,7 @@ keyutils
 kmod
 krb5
 krename
+kubernetes-bin
 l-smash
 ladspa
 lame
@@ -1331,6 +1336,7 @@ tcsh
 tdb
 telepathy-glib
 terminus-font-ttf
+terraform
 tevent
 texinfo
 texlive-bin

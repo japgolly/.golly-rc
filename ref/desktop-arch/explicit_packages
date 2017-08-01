@@ -27,6 +27,7 @@ bc
 bind-tools
 bison
 brother-mfc-j5320dw
+brotli
 bzip2
 cabal-install
 calf
@@ -150,6 +151,7 @@ keepass-plugin-http
 keepassxc
 keybase
 krename
+kubernetes-bin
 lame
 leafpad
 less
@@ -315,6 +317,7 @@ tarsnap
 tcpdump
 tcsh
 terminus-font-ttf
+terraform
 texinfo
 texlive-core
 thunar
