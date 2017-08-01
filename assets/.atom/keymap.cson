@@ -13,7 +13,7 @@
 
 'body':
   'ctrl-o'      : 'fuzzy-finder:toggle-file-finder'
-  'ctrl-n'      : 'find-and-replace:select-next'
+  # 'ctrl-n'      : 'find-and-replace:select-next'
   'ctrl-shift-i': 'unset!'
   'f12'         : 'window:toggle-dev-tools'
   'ctrl-shift-w': 'tabs:close-all-tabs'
