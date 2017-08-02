@@ -97,3 +97,6 @@ export WORDCHARS='*?_[]~=&!#$%^(){}'
 # Google Cloud
 [ -e /opt/google-cloud-sdk/path.zsh.inc ] && source /opt/google-cloud-sdk/path.zsh.inc
 [ -e /opt/google-cloud-sdk/completion.zsh.inc ] && source /opt/google-cloud-sdk/completion.zsh.inc
+which kubectl &>/dev/null
+[ $? -eq 0 ] && source <(kubectl completion zsh)
+
