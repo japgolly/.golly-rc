@@ -1,6 +1,7 @@
 atom-beautify
 atom-html-preview
 atom-htmltidy
+atom-jinja2
 atom-mocha
 atom-overtype-mode
 atom-ternjs
@@ -48,11 +49,14 @@ language-postcss
 language-rust
 language-scala
 language-swift
+language-terraform
 language-thrift
 linter
 linter-docker
 linter-hdevtools
 linter-rust
+linter-terraform-semantics
+linter-terraform-syntax
 linter-ui-default
 linter-xmllint
 minimap
@@ -66,6 +70,7 @@ plantuml-preview
 plantuml-viewer
 set-syntax
 sort-lines
+terraform-fmt
 todo-show
 tool-bar
 tree-view-filter
