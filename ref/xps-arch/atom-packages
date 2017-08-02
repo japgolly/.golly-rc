@@ -1,5 +1,6 @@
 atom-beautify
 atom-html-preview
+atom-jinja2
 atom-mocha
 atom-overtype-mode
 atom-terminal
@@ -26,6 +27,7 @@ hyperclick
 ide-purescript
 intentions
 js-hyperclick
+json-schema
 jumpy
 keyboard-scroll
 language-diff
@@ -37,8 +39,11 @@ language-idris
 language-json5
 language-purescript
 language-scala
+language-terraform
 linter
 linter-docker
+linter-terraform-semantics
+linter-terraform-syntax
 linter-ui-default
 linter-xmllint
 minimap
@@ -52,6 +57,7 @@ plantuml-viewer
 platformio-ide-terminal
 sort-lines
 terminal-plus
+terraform-fmt
 todo-show
 tree-view-filter
 xml-formatter

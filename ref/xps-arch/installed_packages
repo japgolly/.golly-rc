@@ -193,6 +193,7 @@ gobject-introspection-runtime
 goocanvas
 goocanvasmm
 google-chrome
+google-cloud-sdk
 gox
 gpart
 gparted
@@ -291,6 +292,7 @@ haskell-djinn-ghc
 haskell-djinn-lib
 haskell-dlist
 haskell-easy-file
+haskell-echo
 haskell-ed25519
 haskell-either
 haskell-errors
@@ -345,6 +347,7 @@ haskell-microlens
 haskell-microlens-mtl
 haskell-microlens-th
 haskell-mime-types
+haskell-mintty
 haskell-mmorph
 haskell-monad-control
 haskell-monad-journal
@@ -569,6 +572,7 @@ kscreenlocker
 kservice
 ktexteditor
 ktextwidgets
+kubernetes-bin
 kuiserver
 kunitconversion
 kwallet
@@ -1219,6 +1223,7 @@ talloc
 tar
 tarsnap
 tdb
+terraform
 tevent
 texinfo
 thin-provisioning-tools
@@ -1335,6 +1340,7 @@ xfwm4
 xfwm4-themes
 xineramaproto
 xkeyboard-config
+xmlsec
 xmlto
 xorg-bdftopcf
 xorg-docs

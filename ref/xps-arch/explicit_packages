@@ -61,6 +61,7 @@ glibc
 gnome-terminal
 gnu-netcat
 google-chrome
+google-cloud-sdk
 gpart
 gparted
 graphviz
@@ -91,6 +92,7 @@ jfsutils
 jq
 kdiff3
 keepass
+kubernetes-bin
 less
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -187,6 +189,7 @@ sysfsutils
 systemd-sysvcompat
 tar
 tarsnap
+terraform
 texinfo
 thunar
 thunar-volman
