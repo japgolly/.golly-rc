@@ -32,7 +32,6 @@ bzip2
 cabal-install
 calf
 calibre
-cargo
 chromedriver
 cifs-utils
 cloc
@@ -198,6 +197,7 @@ mesa
 metacity
 meterbridge
 mime-types
+minikube
 mirage
 mono
 mpg123
@@ -270,6 +270,7 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pv
+pwgen
 python2-crcmod
 qjackctl
 redshift

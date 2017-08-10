@@ -67,7 +67,6 @@ cairomm
 calf
 calibre
 cantarell-fonts
-cargo
 cblas
 cdparanoia
 celt
@@ -988,6 +987,7 @@ metacity
 meterbridge
 metis
 mime-types
+minikube
 minizip
 mirage
 mjpegtools
@@ -1011,6 +1011,7 @@ nautilus-open-terminal
 nautilus-sendto
 ncurses
 neon
+net-tools
 netcdf
 netctl
 nettle
@@ -1126,6 +1127,7 @@ psutils
 pulseaudio
 pulseaudio-alsa
 pv
+pwgen
 pygobject-devel
 pygobject2-devel
 pygtk
@@ -1190,6 +1192,7 @@ python2-dukpy
 python2-gconf
 python2-gobject
 python2-gobject2
+python2-html5-parser
 python2-html5lib
 python2-keybinder2
 python2-lxml
@@ -1459,6 +1462,7 @@ xfdesktop
 xfsprogs
 xineramaproto
 xkeyboard-config
+xmlsec
 xmlto
 xorg-bdftopcf
 xorg-font-util
