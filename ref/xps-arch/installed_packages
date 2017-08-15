@@ -572,7 +572,6 @@ kscreenlocker
 kservice
 ktexteditor
 ktextwidgets
-kubernetes-bin
 kuiserver
 kunitconversion
 kwallet
@@ -816,6 +815,7 @@ libsodium
 libsoup
 libsoxr
 libspectre
+libspeechd
 libspiro
 libssh
 libssh2
