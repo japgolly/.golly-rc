@@ -1,5 +1,6 @@
 abs
 ack
+aha
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -279,7 +280,6 @@ reiserfsprogs
 renameutils
 rkt
 rlwrap
-rot13
 rrdtool
 rsync
 ruby
@@ -326,7 +326,6 @@ tig
 tlp
 tmux
 tor
-tor-browser-en
 torsocks
 traceroute
 transmission-cli
@@ -360,6 +359,7 @@ util-linux
 vi
 vim-systemd
 vimpager
+visual-studio-code
 visualvm
 vlc
 wget

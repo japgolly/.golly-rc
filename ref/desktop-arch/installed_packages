@@ -5,6 +5,7 @@ abs
 ack
 acl
 adwaita-icon-theme
+aha
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -1181,7 +1182,6 @@ python2-appdirs
 python2-apsw
 python2-cairo
 python2-chardet
-python2-cherrypy
 python2-crcmod
 python2-cssselect
 python2-cssutils
@@ -1257,7 +1257,6 @@ rest
 rfkill
 rkt
 rlwrap
-rot13
 rpcbind
 rrdtool
 rsync
@@ -1350,7 +1349,6 @@ tig
 tlp
 tmux
 tor
-tor-browser-en
 torsocks
 traceroute
 transmission-cli
@@ -1395,6 +1393,7 @@ videoproto
 vim-runtime
 vim-systemd
 vimpager
+visual-studio-code
 visualvm
 vlc
 volume_key
