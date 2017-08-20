@@ -226,6 +226,7 @@ npm
 ntfs-3g
 ntp
 nvidia
+nvidia-settings
 nvm
 nzbget
 octave
@@ -255,6 +256,7 @@ pigz
 pkg-config
 pkgstats
 plantuml
+plasma-meta
 plex-media-server
 pngout
 poppler-glib
@@ -283,7 +285,7 @@ rlwrap
 rrdtool
 rsync
 ruby
-rust
+rustup
 s-nail
 sbt
 screen
