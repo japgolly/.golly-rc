@@ -111,6 +111,7 @@ dropbox
 dwdiff
 e2fsprogs
 ebook-tools
+editorconfig-core-c
 electron
 elfutils
 emerald-themes-git
@@ -153,6 +154,7 @@ gc
 gcc-libs-multilib
 gcc-multilib
 gconf
+gcr
 gd
 gdbm
 gdk-pixbuf2
@@ -230,6 +232,7 @@ gtkspell
 gtkspell3
 gts
 guile
+gvfs
 gvim
 gzip
 harfbuzz
@@ -1173,6 +1176,7 @@ ruby
 run-parts
 runc
 rust
+rustfmt
 s-nail
 sbc
 sbt
@@ -1264,6 +1268,7 @@ videoproto
 vim-runtime
 vimpager
 virtualgl
+visual-studio-code
 volume_key
 volumeicon
 volwheel

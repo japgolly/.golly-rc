@@ -168,6 +168,7 @@ ristretto
 rsync
 ruby
 rust
+rustfmt
 s-nail
 sbt
 screen
@@ -210,6 +211,7 @@ usbutils
 util-linux
 vi
 vimpager
+visual-studio-code
 volumeicon
 volwheel
 vulkan-intel
