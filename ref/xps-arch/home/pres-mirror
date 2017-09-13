@@ -1,0 +1,15 @@
+#!/bin/bash
+
+res=1920x1080
+
+trans=none
+
+# Home TV
+# trans="1.05,0,-45,0,1.05,-24,0,0,1"
+
+exec xrandr \
+  --output eDP1 --rate 60 --mode $res --fb $res --panning $res \
+  --transform none \
+  --output HDMI1 --mode $res --same-as eDP1 --set "Broadcast RGB" Full \
+  --transform "$trans"
+

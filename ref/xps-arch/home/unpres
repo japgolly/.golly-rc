@@ -1,0 +1,8 @@
+#!/bin/bash
+
+res=3840x2160
+
+exec xrandr \
+  --output eDP1 --rate 60 --mode $res --fb $res --panning $res \
+  --transform none \
+  --output HDMI1 --off

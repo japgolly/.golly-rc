@@ -13,6 +13,7 @@ bbswitch
 bind-tools
 binutils
 bison
+brotli
 bumblebee
 bzip2
 chromedriver

@@ -43,6 +43,7 @@ boost-libs
 breeze
 breeze-icons
 bridge-utils
+brotli
 btrfs-progs
 bumblebee
 bzip2
