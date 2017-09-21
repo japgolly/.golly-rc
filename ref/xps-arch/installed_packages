@@ -166,6 +166,7 @@ geoip-database
 gettext
 gftp
 ghc
+ghc-libs
 ghc-mod
 ghostscript
 giflib
@@ -256,8 +257,10 @@ haskell-base-compat
 haskell-base-orphans
 haskell-base16-bytestring
 haskell-base64-bytestring
+haskell-basement
 haskell-bifunctors
 haskell-binary-tagged
+haskell-bindings-uname
 haskell-bitarray
 haskell-blaze-builder
 haskell-blaze-html
@@ -448,6 +451,8 @@ haskell-unicode-transforms
 haskell-uniplate
 haskell-unix-compat
 haskell-unix-time
+haskell-unliftio
+haskell-unliftio-core
 haskell-unordered-containers
 haskell-uri-bytestring
 haskell-utf8-string
@@ -1169,6 +1174,7 @@ renderproto
 resourceproto
 rest
 rfkill
+rhash
 ristretto
 rpcbind
 rsync
