@@ -145,6 +145,7 @@ downgrade
 drkonqi
 dropbox
 dssi
+dvgrab
 dwdiff
 e2fsprogs
 ebook-tools
@@ -552,6 +553,7 @@ htop
 http-parser
 hunspell
 hunspell-en
+hunspell-en_AU
 hunspell-en_GB
 hunspell-en_US
 hwids
@@ -912,6 +914,8 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libopenshot
+libopenshot-audio
 liborcus
 libotf
 libpagemaker
@@ -932,6 +936,7 @@ libpurple
 libpwquality
 libqalculate
 libqmi
+libquicktime
 libqzeitgeist
 libraw1394
 libreoffice-fresh
@@ -1095,6 +1100,8 @@ mirage
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
+mlt
+mlt-python-bindings
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
@@ -1156,6 +1163,7 @@ openjpeg
 openjpeg2
 openmpi
 openresolv
+openshot
 openssh
 openssl
 openssl-1.0
@@ -1274,18 +1282,22 @@ python-dockerpty
 python-docopt
 python-docutils
 python-gobject
+python-httplib2
 python-idna
 python-imagesize
 python-jinja
 python-jsonschema
 python-mako
 python-markupsafe
+python-olefile
 python-packaging
+python-pillow
 python-pygments
 python-pyparsing
 python-pyqt4
 python-pyqt5
 python-pytz
+python-pyzmq
 python-requests
 python-setuptools
 python-sip
@@ -1407,6 +1419,7 @@ sddm
 sddm-kcm
 sdl
 sdl2
+sdl2_gfx
 sdl2_image
 sdl_image
 sed
@@ -1438,6 +1451,7 @@ sord
 sound-theme-freedesktop
 soundtouch
 source-highlight
+sox
 spandsp
 speedcrunch
 speex

@@ -125,6 +125,7 @@ hspell
 htop
 hunspell
 hunspell-en
+hunspell-en_AU
 hwinfo
 hyphen
 hyphen-en
@@ -232,6 +233,7 @@ nzbget
 octave
 odt2txt
 opencl-nvidia
+openshot
 openssh
 otf-ipafont
 oxygen-icons
@@ -289,6 +291,7 @@ rustup
 s-nail
 sbt
 screen
+sdl2_gfx
 sed
 sensors-applet
 sfnt2woff
