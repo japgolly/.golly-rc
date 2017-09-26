@@ -100,3 +100,6 @@ export WORDCHARS='*?_[]~=&!#$%^(){}'
 which kubectl &>/dev/null
 [ $? -eq 0 ] && source <(kubectl completion zsh)
 
+# Rustup
+#which rustup &>/dev/null
+#[ $? -eq 0 ] && source <(rustup completions zsh)
