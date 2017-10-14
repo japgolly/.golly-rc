@@ -45,6 +45,7 @@ breeze-icons
 bridge-utils
 brotli
 btrfs-progs
+bubblewrap
 bumblebee
 bzip2
 c-ares
@@ -136,6 +137,7 @@ findutils
 firefox
 fixesproto
 flac
+flatpak
 flex
 fontconfig
 fontforge
@@ -595,6 +597,7 @@ lcms
 lcms2
 ldb
 ldns
+leafpad
 less
 lib32-acl
 lib32-alsa-lib
@@ -993,6 +996,7 @@ openssl
 openssl-1.0
 opus
 orc
+ostree
 oxygen-icons
 p11-kit
 p7zip
@@ -1070,6 +1074,7 @@ python-babel
 python-beaker
 python-botocore
 python-cached-property
+python-cairo
 python-chardet
 python-colorama
 python-dateutil
@@ -1306,6 +1311,8 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-utils
 xextproto
 xf86-input-evdev

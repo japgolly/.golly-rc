@@ -41,6 +41,7 @@
       <property name="&lt;Super&gt;o" type="string" value="libreoffice"/>
       <property name="&lt;Primary&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Super&gt;equal" type="string" value="speedcrunch"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;backslash" type="string" value="systemctl --user start xfce4-notifyd.service"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -16,11 +16,10 @@ dash
 docblockr
 docker
 dockerletion
-elmjutsu
 git-diff-details
 git-plus
 git-time-machine
-graphviz-preview
+graphviz-preview-plus
 hidpi
 html2haml
 hyperclick
@@ -33,7 +32,6 @@ keyboard-scroll
 language-diff
 language-docker
 language-dot
-language-elm
 language-haml
 language-idris
 language-json5

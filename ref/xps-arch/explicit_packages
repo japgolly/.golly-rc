@@ -46,6 +46,7 @@ file
 filesystem
 findutils
 firefox
+flatpak
 flex
 fusion-icon0.9
 gawk
@@ -93,6 +94,7 @@ jfsutils
 jq
 kdiff3
 keepass
+leafpad
 less
 lib32-alsa-lib
 lib32-alsa-plugins
