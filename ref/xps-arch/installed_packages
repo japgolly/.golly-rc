@@ -60,6 +60,8 @@ cairo-perl
 cairomm
 cantarell-fonts
 cdparanoia
+celt
+chromaprint
 chromedriver
 cifs-utils
 cln
@@ -208,6 +210,7 @@ gpgme
 gpgmepp
 gpm
 gptfdisk
+graphene
 graphite
 graphviz
 grep
@@ -217,6 +220,7 @@ gsfonts
 gsl
 gsm
 gssproxy
+gst-plugins-bad
 gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
@@ -565,6 +569,7 @@ kiconthemes
 kidletime
 kinit
 kio
+kirigami2
 kitemmodels
 kitemviews
 kjobwidgets
@@ -592,6 +597,7 @@ kwin
 kwindowsystem
 kxmlgui
 l-smash
+ladspa
 lame
 lcms
 lcms2
@@ -723,6 +729,7 @@ libdaemon
 libdatrie
 libdbusmenu-qt4
 libdbusmenu-qt5
+libdc1394
 libdca
 libdmtx
 libdmx
@@ -741,6 +748,7 @@ libevent
 libexif
 libexttextcat
 libfbclient
+libfdk-aac
 libffi
 libfontenc
 libftdi
@@ -751,6 +759,7 @@ libgit2
 libgit2-glib
 libglade
 libglvnd
+libgme
 libgpg-error
 libgssglue
 libgtop
@@ -775,12 +784,15 @@ liblouis
 liblqr
 libmad
 libmm-glib
+libmms
 libmng
 libmnl
 libmodplug
 libmp4v2
 libmpc
+libmpcdec
 libmpd
+libmpeg2
 libmspub
 libmwaw
 libndp
@@ -792,6 +804,7 @@ libnm
 libnm-glib
 libnotify
 libodfgen
+libofa
 libogg
 libomxil-bellagio
 liborcus
@@ -830,6 +843,7 @@ libsoxr
 libspectre
 libspeechd
 libspiro
+libsrtp
 libssh
 libssh2
 libsystemd
@@ -948,6 +962,7 @@ milou
 mime-types
 minizip
 mirage
+mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mono
@@ -1148,13 +1163,16 @@ python2-yaml
 qca-qt4
 qjson
 qpdf
+qqc2-desktop-style
 qrencode
 qt4
 qt5-base
 qt5-declarative
+qt5-graphicaleffects
 qt5-location
 qt5-multimedia
 qt5-quickcontrols
+qt5-quickcontrols2
 qt5-script
 qt5-sensors
 qt5-speech
@@ -1196,6 +1214,7 @@ sbt
 schroedinger
 screen
 scrnsaverproto
+sdl
 sdl2
 sed
 semver
@@ -1213,7 +1232,9 @@ snappy
 solid
 sonnet
 sound-theme-freedesktop
+soundtouch
 source-highlight
+spandsp
 speech-dispatcher
 speedcrunch
 speex
@@ -1294,8 +1315,10 @@ wayland
 wayland-protocols
 wdiff
 webkit2gtk
+webrtc-audio-processing
 wget
 which
+wildmidi
 wine
 wpa_supplicant
 wxgtk-common
@@ -1437,3 +1460,4 @@ zita-resampler
 zlib
 zsh
 zsh-completions
+zvbi
