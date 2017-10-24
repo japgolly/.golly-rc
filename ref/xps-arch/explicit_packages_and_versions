@@ -6,12 +6,12 @@ arandr 0.1.9-2
 atom 1.21.1-1
 autoconf 2.69-4
 automake 1.15.1-1
-aws-cli 1.11.170-1
+aws-cli 1.11.173-1
 bash 4.4.012-2
 bash-completion 2.7-1
 bbswitch 0.8-81
 bind-tools 9.11.2-2
-binutils 2.29.0-1
+binutils 2.29.1-1
 bison 3.0.4-3
 brotli 0.6.0-1
 bumblebee 3.2.1-15
@@ -29,13 +29,13 @@ device-mapper 2.02.175-1
 dhcpcd 6.11.5-1
 dialog 1:1.3_20170509-1
 diffutils 3.6-1
-docker 1:17.09.0-1
+docker 1:17.10.0-1
 docker-compose 1.16.1-1
-dos2unix 7.3.5-1
+dos2unix 7.4.0-1
 downgrade 6.0.0-1
-dropbox 36.4.22-1
+dropbox 37.4.29-1
 dwdiff 2.1.1-1
-e2fsprogs 1.43.6-1
+e2fsprogs 1.43.7-1
 emerald-themes-git 0.8.12.1.r0.gb484bb4-1
 emerald0.9 0.9.5-21
 entr 3.9-1
@@ -53,7 +53,7 @@ gawk 4.1.4-2
 gcc-multilib 7.2.0-1
 gettext 0.19.8.1-2
 gftp 2.0.19-8
-ghc 8.2.1-2
+ghc 8.2.1-3
 ghc-mod 5.8.0.0-35
 gimp 2.8.22-1
 git 2.14.2-1
@@ -80,7 +80,8 @@ hunspell-en 2017.01.22-2
 hwinfo 21.38-1
 hyphen 2.8.8-1
 hyphen-en 2.8.8-1
-idris 1.1.1-8
+i7z 0.27.2.git1-4
+idris 1.1.1-9
 iftop 1.0pre4-2
 imagemagick 6.9.9.20-1
 inetutils 1.9.4-5
@@ -106,8 +107,8 @@ libtool 2.4.6+40+g6ca5e224-1
 libunrar 1:5.5.8-1
 libva-intel-driver 1.8.3-1
 licenses 20171006-1
-linux 4.13.7-1
-linux-headers 4.13.7-1
+linux 4.13.8-1
+linux-headers 4.13.8-1
 llvm 5.0.0-1
 lm_sensors 3.4.0-2
 logrotate 3.12.3-1
@@ -126,7 +127,7 @@ meld 3.18.0-1
 mirage 0.9.5.2-4
 mousepad 0.4.0-2
 mplayer 37916-2
-mpv 1:0.27.0-1
+mpv 1:0.27.0-2
 nano 2.8.7-1
 net-tools 1.60.20160710git-1
 netctl 1.14-1
@@ -174,7 +175,7 @@ rust 1:1.21.0-1
 rustfmt 0.9.0-1
 s-nail 14.9.4-1
 sbt 1:1.0.2-1
-screen 4.6.1-1
+screen 4.6.2-1
 sed 4.4-1
 shadow 4.5-2
 smartmontools 6.5-2
@@ -183,7 +184,7 @@ smuxi 1.0.7-1
 speedcrunch 0.12.0-1
 sqlectron-gui 1.25.0-1
 sshfs 3.3.0-4
-stack 1.5.1.20170916-6
+stack 1.5.1.20170916-9
 steam 1.0.0.54-1
 strace 4.18-1
 sudo 1.8.21.p2-1
@@ -193,7 +194,7 @@ systemd-sysvcompat 235.8-1
 tar 1.29-2
 tarsnap 1.0.39-1
 terraform 0.10.7-1
-texinfo 6.4-1
+texinfo 6.5-1
 thunar 1.6.12-1
 thunar-volman 0.8.1-2
 tlp 1.0-1
@@ -220,7 +221,7 @@ volwheel 0.2.8-6
 vulkan-intel 17.2.2-1
 wget 1.19.1-2
 which 2.21-2
-wine 2.18-2
+wine 2.19-1
 wpa_supplicant 1:2.6-11
 x264 2:148.20170521-1
 x86_energy_perf_policy 4.13-1
@@ -248,7 +249,7 @@ xfce4-fsguard-plugin 1.1.0-1
 xfce4-mount-plugin 1.1.2-1
 xfce4-mpc-plugin 0.5.0-1
 xfce4-netload-plugin 1.3.1-1
-xfce4-notifyd 0.3.6-1
+xfce4-notifyd 0.4.0-1
 xfce4-panel 4.12.1-1
 xfce4-power-manager 1.6.0.41.g9daecb5-1
 xfce4-screenshooter 1.9.1-1
@@ -297,7 +298,7 @@ xorg-xwud 1.0.4-2
 xsecurelock-git 0.5.37.441bb34-1
 xterm 330-1
 yaourt 1.9-1
-youtube-dl 2017.10.15.1-1
+youtube-dl 2017.10.20-1
 zip 3.0-7
 zsh 5.4.2-1
-zsh-completions 0.26.0-1
+zsh-completions 0.27.0-1
