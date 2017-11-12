@@ -8,7 +8,6 @@ alsa-lib
 alsa-plugins
 alsa-utils
 ansible
-apache-ant
 apm
 apr
 apr-util
@@ -524,7 +523,7 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
-jdk
+jdk8
 jfsutils
 jq
 jre8-openjdk-headless

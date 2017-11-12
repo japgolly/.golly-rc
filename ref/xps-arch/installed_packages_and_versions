@@ -8,8 +8,7 @@ alsa-lib 1.1.4.1-2
 alsa-plugins 1.1.4-1
 alsa-utils 1.1.4-1
 ansible 2.4.0.0-1
-apache-ant 1.9.7-1
-apm 1.18.8-1
+apm 1.18.10-1
 apr 1.6.2-1
 apr-util 1.6.0-1
 arandr 0.1.9-2
@@ -175,7 +174,7 @@ ghc-mod 5.8.0.0-35
 ghostscript 9.22-1
 giflib 5.1.4-1
 gimp 2.8.22-1
-git 2.14.2-1
+git 2.14.3-1
 git-cola 2.11-2
 gitg 3.26-1
 glew 2.1.0-1
@@ -524,7 +523,7 @@ jasper 2.0.14-1
 java-environment-common 3-1
 java-runtime-common 3-1
 jbig2dec 0.13-1
-jdk 8u131-1
+jdk8 8u144-1
 jfsutils 1.1.15-4
 jq 1.5-5
 jre8-openjdk-headless 8.u144-1
@@ -987,7 +986,7 @@ nfsidmap 0.26-1
 nini 1.1.0-5
 nmap 7.60-1
 nmon 16g-1
-nodejs 8.7.0-1
+nodejs 8.8.1-1
 notify-sharp 0.4.1-2
 noto-fonts 20171019-2
 npm 5.5.1-1
@@ -1303,7 +1302,7 @@ videoproto 2.3.3-1
 vim-runtime 8.0.1176-1
 vimpager 2.06-3
 virtualgl 2.5.2-2
-visual-studio-code 1.17.2-1
+visual-studio-code 1.18.0-2
 volume_key 0.3.9-3
 volumeicon 0.5.1-1
 volwheel 0.2.8-6

@@ -90,7 +90,7 @@ intel-ucode
 iotop
 iproute2
 iputils
-jdk
+jdk8
 jfsutils
 jq
 kdiff3
