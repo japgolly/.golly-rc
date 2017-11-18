@@ -1,7 +1,7 @@
 ack
 acpitool
+alex
 alsa-utils
-ansible
 arandr
 atom
 autoconf
@@ -16,6 +16,7 @@ bison
 brotli
 bumblebee
 bzip2
+cabal-install
 chromedriver
 cloc
 cmake
@@ -55,6 +56,7 @@ gettext
 gftp
 ghc
 ghc-mod
+ghc-static
 gimp
 git
 git-cola
@@ -73,6 +75,7 @@ gst-plugins-good
 gtk-xfce-engine
 gvim
 gzip
+happy
 hspell
 htop
 hunspell
@@ -131,6 +134,7 @@ mpv
 nano
 net-tools
 netctl
+network-manager-applet
 networkmanager
 nfs-utils
 nmap
@@ -204,6 +208,7 @@ traceroute
 transmission-cli
 tree
 ttf-google-fonts-git
+ttf-hanazono
 ttf-liberation
 ttf-linux-libertine
 ttf-vista-fonts
