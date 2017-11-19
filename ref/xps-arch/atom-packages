@@ -22,10 +22,12 @@ git-plus
 git-time-machine
 graphviz-preview-plus
 haskell-ghc-mod
+haskell-pointfree
 hidpi
 html2haml
 hyperclick
 ide-haskell
+ide-haskell-cabal
 ide-haskell-repl
 ide-purescript
 intentions

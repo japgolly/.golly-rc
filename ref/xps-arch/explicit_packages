@@ -1,6 +1,5 @@
 ack
 acpitool
-alex
 alsa-utils
 arandr
 atom
@@ -16,7 +15,6 @@ bison
 brotli
 bumblebee
 bzip2
-cabal-install
 chromedriver
 cloc
 cmake
@@ -55,8 +53,6 @@ gcc-multilib
 gettext
 gftp
 ghc
-ghc-mod
-ghc-static
 gimp
 git
 git-cola
@@ -75,7 +71,6 @@ gst-plugins-good
 gtk-xfce-engine
 gvim
 gzip
-happy
 hspell
 htop
 hunspell
@@ -84,7 +79,6 @@ hwinfo
 hyphen
 hyphen-en
 i7z
-idris
 iftop
 imagemagick
 inetutils

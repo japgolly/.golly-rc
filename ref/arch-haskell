@@ -1,0 +1,19 @@
+Reinstall
+
+
+From online:
+
+sudo pacman -Rsn ghc
+pacman -Qq | grep haskell > haskellpacks
+sudo pacman -Rsnc $(cat haskellpacks)
+sudo rm -rf /usr/lib/ghc*
+sudo pacman -S ghc
+pacman -S $(cat haskellpacks)
+rm haskellpacks
+
+Me:
+
+sudo pacman -Rsnc $(egrep 'ghc|haskell|alex|happy|cabal|stack' installed_packages)
+sudo rm -rf /usr/lib/ghc*
+sudo pacman -S ghc
+sudo pacman -S $(egrep 'ghc|haskell|alex|happy|cabal|stack' explicit_packages)
