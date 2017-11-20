@@ -8,6 +8,7 @@ automake
 aws-cli
 bash
 bash-completion
+bazel
 bbswitch
 bind-tools
 binutils
@@ -75,6 +76,7 @@ hspell
 htop
 hunspell
 hunspell-en
+hunspell-en_AU
 hwinfo
 hyphen
 hyphen-en

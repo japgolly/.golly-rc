@@ -30,6 +30,7 @@ babl
 baloo
 bash
 bash-completion
+bazel
 bbswitch
 bc
 bind-tools
@@ -422,6 +423,7 @@ htop
 http-parser
 hunspell
 hunspell-en
+hunspell-en_AU
 hunspell-en_GB
 hunspell-en_US
 hwids
@@ -701,6 +703,7 @@ libical
 libice
 libid3tag
 libidn
+libidn2
 libiec61883
 libimobiledevice
 libinput
