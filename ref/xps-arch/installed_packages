@@ -8,6 +8,7 @@ alsa-lib
 alsa-plugins
 alsa-utils
 apm
+appstream-glib
 apr
 apr-util
 arandr
@@ -66,6 +67,7 @@ cln
 cloc
 clucene
 cmake
+colord
 colordiff
 compiz
 compositeproto
@@ -154,6 +156,7 @@ gamin
 garcon
 gawk
 gc
+gcab
 gcc-libs-multilib
 gcc-multilib
 gconf
@@ -492,6 +495,7 @@ kdesu
 kdiff3
 keepass
 kemoticons
+keybase
 keyutils
 kfilemetadata
 kglobalaccel
@@ -684,6 +688,7 @@ libfbclient
 libfdk-aac
 libffi
 libfontenc
+libfreehand
 libftdi
 libgcrypt
 libgdiplus
@@ -697,6 +702,7 @@ libgpg-error
 libgssglue
 libgtop
 libgudev
+libgusb
 libgxps
 libibus
 libical
@@ -780,6 +786,8 @@ libspiro
 libsrtp
 libssh
 libssh2
+libstaroffice
+libstemmer
 libsystemd
 libtasn1
 libteam
@@ -880,6 +888,7 @@ lvm2
 lz4
 lzo
 m4
+mailcap
 make
 man-db
 man-pages
@@ -893,7 +902,6 @@ mesa
 mesa-demos
 metacity
 milou
-mime-types
 minizip
 mirage
 mjpegtools
