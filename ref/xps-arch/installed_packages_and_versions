@@ -2,7 +2,6 @@ a52dec 0.7.4-9
 aalib 1.4rc5-12
 ack 2.18-3
 acl 2.2.52-4
-acpitool 0.5.1-6
 adwaita-icon-theme 3.26.0-1
 alsa-lib 1.1.5-1
 alsa-plugins 1.1.5-1
@@ -26,7 +25,6 @@ attr 2.4.47-3
 autoconf 2.69-4
 automake 1.15.1-1
 avahi 0.7-1
-aws-cli 1.14.2-1
 babl 0.1.30-1
 baloo 5.40.0-1
 bash 4.4.012-2
@@ -43,7 +41,7 @@ boost-libs 1.65.1-2
 breeze 5.11.4-1
 breeze-icons 5.40.0-1
 bridge-utils 1.6-2
-brotli 1.0.1-1
+brotli 1.0.2-1
 btrfs-progs 4.13-1
 bubblewrap 0.2.0-1
 bumblebee 3.2.1-15
@@ -175,7 +173,7 @@ ghc-libs 8.2.2-1
 ghostscript 9.22-1
 giflib 5.1.4-1
 gimp 2.8.22-1
-git 2.15.1-1
+git 2.15.1-2
 git-cola 2.11-2
 gitg 3.26-1
 glew 2.1.0-1
@@ -459,7 +457,7 @@ jasper 2.0.14-1
 java-environment-common 3-1
 java-runtime-common 3-1
 jbig2dec 0.14-1
-jdk8 8u144-1
+jdk8 8u152-1
 jfsutils 1.1.15-4
 jq 1.5-5
 jre8-openjdk-headless 8.u144-1
@@ -931,7 +929,7 @@ nini 1.1.0-5
 nm-connection-editor 1.8.7dev+3+g3d7c0a89-1
 nmap 7.60-1
 nmon 16g-1
-nodejs 9.2.0-1
+nodejs 9.3.0-1
 notify-sharp 0.4.1-2
 noto-fonts 20171025-2
 noto-fonts-extra 20171025-2
@@ -1033,12 +1031,9 @@ python 3.6.3-1
 python-appdirs 1.4.3-1
 python-babel 2.5.1-1
 python-beaker 1.8.1-2
-python-botocore 1.8.6-1
 python-cached-property 1.3.1-1
 python-cairo 1.15.4-1
 python-chardet 3.0.4-1
-python-colorama 0.3.9-1
-python-dateutil 2.6.1-1
 python-dbus 1.2.4-2
 python-dbus-common 1.2.4-2
 python-docker 2.6.1-1
@@ -1050,20 +1045,16 @@ python-gobject 3.26.1-1
 python-idna 2.6-1
 python-imagesize 0.7.1-2
 python-jinja 2.10-1
-python-jmespath 0.9.3-1
 python-jsonschema 2.6.0-1
 python-mako 1.0.7-1
 python-markupsafe 1.0-1
 python-packaging 16.8-2
-python-pyasn1 0.4.2-1
 python-pygments 2.2.0-1
 python-pyparsing 2.2.0-1
 python-pyqt4 4.12.1-1
 python-pyqt5 5.9.2-1
 python-pytz 2017.3-1
 python-requests 2.18.4-1
-python-rsa 3.4.2-2
-python-s3transfer 0.1.12-1
 python-setuptools 1:38.2.3-1
 python-sip 4.19.6-1
 python-six 1.11.0-1
@@ -1191,6 +1182,7 @@ tar 1.29-2
 tarsnap 1.0.39-1
 tdb 1.3.15-1
 terraform 0.11.0-1
+testssl.sh 2.9.5.1-2
 tevent 1:0.9.34-1
 texinfo 6.5-1
 thin-provisioning-tools 0.7.5-1
@@ -1301,7 +1293,7 @@ xfce4-fsguard-plugin 1.1.0-1
 xfce4-mount-plugin 1.1.2-1
 xfce4-mpc-plugin 0.5.0-1
 xfce4-netload-plugin 1.3.1-1
-xfce4-notifyd 0.4.0-2
+xfce4-notifyd 0.4.1-1
 xfce4-panel 4.12.1-1
 xfce4-power-manager 1.6.0.41.g9daecb5-1
 xfce4-screenshooter 1.9.1-1

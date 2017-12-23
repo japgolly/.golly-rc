@@ -1,11 +1,9 @@
 ack 2.18-3
-acpitool 0.5.1-6
 alsa-utils 1.1.5-2
 arandr 0.1.9-2
 atom 1.22.1-1
 autoconf 2.69-4
 automake 1.15.1-1
-aws-cli 1.14.2-1
 bash 4.4.012-2
 bash-completion 2.7-2
 bazel 0.8.0-1
@@ -13,7 +11,7 @@ bbswitch 0.8-83
 bind-tools 9.11.2-2
 binutils 2.29.1-1
 bison 3.0.4-3
-brotli 1.0.1-1
+brotli 1.0.2-1
 bumblebee 3.2.1-15
 bzip2 1.0.6-6
 chromedriver 2.33-1
@@ -55,7 +53,7 @@ gettext 0.19.8.1-2
 gftp 2.0.19-8
 ghc 8.2.2-1
 gimp 2.8.22-1
-git 2.15.1-1
+git 2.15.1-2
 git-cola 2.11-2
 gitg 3.26-1
 glibc 2.26-6
@@ -89,7 +87,7 @@ intel-ucode 20171117-1
 iotop 0.6-5
 iproute2 4.14.1-2
 iputils 20161105.1f2bb12-2
-jdk8 8u144-1
+jdk8 8u152-1
 jfsutils 1.1.15-4
 jq 1.5-5
 kdiff3 0.9.98-6
@@ -136,7 +134,7 @@ networkmanager 1.10.0-1
 nfs-utils 2.1.1-4
 nmap 7.60-1
 nmon 16g-1
-nodejs 9.2.0-1
+nodejs 9.3.0-1
 npm 5.6.0-1
 ntfs-3g 2017.3.23-1
 nvidia 387.34-5
@@ -195,6 +193,7 @@ systemd-sysvcompat 235.38-2
 tar 1.29-2
 tarsnap 1.0.39-1
 terraform 0.11.0-1
+testssl.sh 2.9.5.1-2
 texinfo 6.5-1
 thunar 1.6.13-1
 thunar-volman 0.8.1-2
@@ -251,7 +250,7 @@ xfce4-fsguard-plugin 1.1.0-1
 xfce4-mount-plugin 1.1.2-1
 xfce4-mpc-plugin 0.5.0-1
 xfce4-netload-plugin 1.3.1-1
-xfce4-notifyd 0.4.0-2
+xfce4-notifyd 0.4.1-1
 xfce4-panel 4.12.1-1
 xfce4-power-manager 1.6.0.41.g9daecb5-1
 xfce4-screenshooter 1.9.1-1

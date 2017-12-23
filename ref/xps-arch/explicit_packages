@@ -1,11 +1,9 @@
 ack
-acpitool
 alsa-utils
 arandr
 atom
 autoconf
 automake
-aws-cli
 bash
 bash-completion
 bazel
@@ -195,6 +193,7 @@ systemd-sysvcompat
 tar
 tarsnap
 terraform
+testssl.sh
 texinfo
 thunar
 thunar-volman
