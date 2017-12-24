@@ -48,7 +48,7 @@ flatpak
 flex
 fusion-icon0.9
 gawk
-gcc-multilib
+gcc
 gettext
 gftp
 ghc

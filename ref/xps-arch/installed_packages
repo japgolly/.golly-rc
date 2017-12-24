@@ -155,8 +155,8 @@ garcon
 gawk
 gc
 gcab
-gcc-libs-multilib
-gcc-multilib
+gcc
+gcc-libs
 gconf
 gcr
 gd
@@ -257,6 +257,7 @@ haskell-attoparsec-iso8601
 haskell-auto-update
 haskell-base-compat
 haskell-base-orphans
+haskell-base-prelude
 haskell-base16-bytestring
 haskell-base64-bytestring
 haskell-basement
@@ -271,12 +272,14 @@ haskell-call-stack
 haskell-case-insensitive
 haskell-cereal
 haskell-clock
+haskell-colour
 haskell-comonad
 haskell-conduit
 haskell-conduit-extra
 haskell-connection
 haskell-contravariant
 haskell-cookie
+haskell-cpphs
 haskell-cryptohash
 haskell-cryptohash-sha256
 haskell-cryptonite
@@ -336,6 +339,7 @@ haskell-monadrandom
 haskell-mono-traversable
 haskell-mtl
 haskell-mwc-random
+haskell-neat-interpolation
 haskell-network
 haskell-network-uri
 haskell-old-locale
@@ -352,6 +356,7 @@ haskell-persistent
 haskell-persistent-sqlite
 haskell-persistent-template
 haskell-pid1
+haskell-polyparse
 haskell-prelude-extras
 haskell-primitive
 haskell-profunctors
@@ -373,6 +378,8 @@ haskell-silently
 haskell-smallcheck
 haskell-socks
 haskell-split
+haskell-src-exts
+haskell-src-meta
 haskell-statevar
 haskell-stm
 haskell-stm-chans
@@ -397,6 +404,7 @@ haskell-time-locale-compat
 haskell-tls
 haskell-transformers-base
 haskell-transformers-compat
+haskell-typed-process
 haskell-unicode-transforms
 haskell-unix-compat
 haskell-unix-time
@@ -595,7 +603,6 @@ lib32-libssh2
 lib32-libtasn1
 lib32-libtiff
 lib32-libtirpc
-lib32-libtxc_dxtn
 lib32-libusb
 lib32-libvorbis
 lib32-libx11
@@ -721,6 +728,8 @@ libldap
 liblouis
 liblqr
 libmad
+libmagick
+libmagick6
 libmm-glib
 libmms
 libmng
@@ -795,7 +804,6 @@ libtiff
 libtirpc
 libtommath
 libtool
-libtxc_dxtn
 libunicodenames
 libunistring
 libunrar
@@ -1004,6 +1012,7 @@ polkit-gnome
 polkit-qt4
 polkit-qt5
 poppler
+poppler-data
 poppler-glib
 poppler-qt5
 popt
@@ -1388,4 +1397,5 @@ zita-resampler
 zlib
 zsh
 zsh-completions
+zstd
 zvbi
