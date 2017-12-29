@@ -1,4 +1,4 @@
-# sysstat-11.4.5 configuration file.
+# sysstat-11.4.6 configuration file.
 
 # How long to keep log files (in days).
 # If value is greater than 28, then use sadc's option -D to prevent older

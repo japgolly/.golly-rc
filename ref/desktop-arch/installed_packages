@@ -151,6 +151,7 @@ e2fsprogs
 ebook-tools
 ec2-api-tools
 ed
+editorconfig-core-c
 efibootmgr
 efivar
 electron
@@ -219,6 +220,7 @@ geoip
 geoip-database
 gettext
 ghc
+ghc-libs
 ghc-mod
 ghostscript
 giflib
@@ -327,8 +329,10 @@ haskell-base-compat
 haskell-base-orphans
 haskell-base16-bytestring
 haskell-base64-bytestring
+haskell-basement
 haskell-bifunctors
 haskell-binary-tagged
+haskell-bindings-uname
 haskell-bitarray
 haskell-blaze-builder
 haskell-blaze-html
@@ -369,6 +373,7 @@ haskell-dlist
 haskell-easy-file
 haskell-echo
 haskell-ed25519
+haskell-edit-distance
 haskell-either
 haskell-errors
 haskell-exceptions
@@ -520,6 +525,8 @@ haskell-unicode-transforms
 haskell-uniplate
 haskell-unix-compat
 haskell-unix-time
+haskell-unliftio
+haskell-unliftio-core
 haskell-unordered-containers
 haskell-uri-bytestring
 haskell-utf8-string
@@ -938,6 +945,7 @@ libqalculate
 libqmi
 libquicktime
 libqzeitgeist
+libraqm
 libraw1394
 libreoffice-fresh
 libreoffice-fresh-en-GB
@@ -1140,6 +1148,7 @@ notify-sharp
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+noto-fonts-extra
 npm
 npth
 nspr
@@ -1397,6 +1406,7 @@ renameutils
 renderproto
 rest
 rfkill
+rhash
 rkt
 rlwrap
 rpcbind
