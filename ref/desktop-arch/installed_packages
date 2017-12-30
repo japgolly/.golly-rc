@@ -67,6 +67,7 @@ bridge-utils
 brother-mfc-j5320dw
 brotli
 btrfs-progs
+bubblewrap
 bzip2
 c-ares
 ca-certificates
@@ -203,8 +204,8 @@ fusion-icon0.9
 garcon
 gawk
 gc
-gcc-libs-multilib
-gcc-multilib
+gcc
+gcc-libs
 gconf
 gcr
 gd
@@ -327,6 +328,7 @@ haskell-attoparsec-iso8601
 haskell-auto-update
 haskell-base-compat
 haskell-base-orphans
+haskell-base-prelude
 haskell-base16-bytestring
 haskell-base64-bytestring
 haskell-basement
@@ -347,6 +349,7 @@ haskell-cheapskate
 haskell-clock
 haskell-cmdargs
 haskell-code-page
+haskell-colour
 haskell-comonad
 haskell-conduit
 haskell-conduit-extra
@@ -439,6 +442,7 @@ haskell-monadrandom
 haskell-mono-traversable
 haskell-mtl
 haskell-mwc-random
+haskell-neat-interpolation
 haskell-network
 haskell-network-uri
 haskell-old-locale
@@ -489,6 +493,8 @@ haskell-smallcheck
 haskell-socks
 haskell-split
 haskell-src-exts
+haskell-src-exts-util
+haskell-src-meta
 haskell-statevar
 haskell-stm
 haskell-stm-chans
@@ -520,6 +526,7 @@ haskell-tls
 haskell-transformers-base
 haskell-transformers-compat
 haskell-trifecta
+haskell-typed-process
 haskell-unexceptionalio
 haskell-unicode-transforms
 haskell-uniplate
@@ -845,6 +852,7 @@ libfm
 libfm-extra
 libfm-gtk2
 libfontenc
+libfreehand
 libftdi
 libftdi-compat
 libgadu
@@ -871,6 +879,7 @@ libical
 libice
 libid3tag
 libidn
+libidn2
 libiec61883
 libimobiledevice
 libinput
@@ -890,6 +899,8 @@ liblouis
 liblqr
 liblrdf
 libmad
+libmagick
+libmagick6
 libmatroska
 libmbim
 libmm-glib
@@ -969,6 +980,7 @@ libspiro
 libsrtp
 libssh
 libssh2
+libstaroffice
 libstemmer
 libsynctex
 libsystemd
@@ -1083,6 +1095,7 @@ lzo
 m17n-db
 m17n-lib
 m4
+mailcap
 make
 man-db
 man-pages
@@ -1101,7 +1114,6 @@ metacity
 meterbridge
 metis
 milou
-mime-types
 minikube
 minizip
 mirage
@@ -1232,6 +1244,7 @@ plasma-meta
 plasma-nm
 plasma-pa
 plasma-sdk
+plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 plex-media-server
@@ -1244,6 +1257,7 @@ polkit-kde-agent
 polkit-qt4
 polkit-qt5
 poppler
+poppler-data
 poppler-glib
 poppler-qt4
 poppler-qt5
@@ -1281,6 +1295,7 @@ python-appdirs
 python-babel
 python-beaker
 python-cached-property
+python-cairo
 python-chardet
 python-colorama
 python-dbus
@@ -1369,6 +1384,7 @@ qhull
 qjackctl
 qjson
 qpdf
+qqc2-desktop-style
 qrencode
 qscintilla-qt4
 qscintilla-qt5
@@ -1405,7 +1421,6 @@ reiserfsprogs
 renameutils
 renderproto
 rest
-rfkill
 rhash
 rkt
 rlwrap
@@ -1513,6 +1528,7 @@ tmux
 tor
 torsocks
 traceroute
+tracker
 transmission-cli
 tree
 trid
@@ -1684,5 +1700,6 @@ zlib
 zopfli-git
 zsh
 zsh-completions
+zstd
 zvbi
 zziplib
