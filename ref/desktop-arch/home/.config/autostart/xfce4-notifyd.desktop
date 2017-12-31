@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=xfce4-notifyd
+Comment=
+Exec=systemctl --user start xfce4-notifyd.service
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+

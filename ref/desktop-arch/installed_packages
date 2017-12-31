@@ -605,8 +605,8 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
-jdk
 jdk7-compat
+jdk8
 jfsutils
 jre6-compat
 js
@@ -889,6 +889,7 @@ libjpeg-turbo
 libkactivities4
 libkate
 libkeybinder2
+libkeybinder3
 libksba
 libkscreen
 libksysguard
@@ -1037,7 +1038,6 @@ libxdmcp
 libxext
 libxfce4ui
 libxfce4util
-libxfcegui4
 libxfixes
 libxfont
 libxfont2
@@ -1147,11 +1147,13 @@ net-tools
 netcdf
 netctl
 nettle
+network-manager-applet
 networkmanager
 networkmanager-qt
 nfs-utils
 nfsidmap
 nini
+nm-connection-editor
 nmap
 nmon
 nodejs
@@ -1624,6 +1626,7 @@ xfce4-appfinder
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
+xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
 xfce4-mount-plugin
@@ -1632,13 +1635,15 @@ xfce4-netload-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
-xfce4-quicklauncher-plugin
+xfce4-pulseaudio-plugin
+xfce4-screenshooter
 xfce4-sensors-plugin
 xfce4-session
 xfce4-settings
 xfce4-systemload-plugin
 xfce4-taskmanager
 xfce4-terminal
+xfce4-wavelan-plugin
 xfconf
 xfdesktop
 xfsprogs

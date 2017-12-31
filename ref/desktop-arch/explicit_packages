@@ -142,8 +142,8 @@ iotop
 iproute2
 iputils
 jack2-dbus
-jdk
 jdk7-compat
+jdk8
 jfsutils
 jre6-compat
 kdiff3
@@ -214,6 +214,7 @@ nautilus
 nautilus-open-terminal
 nautilus-sendto
 netctl
+network-manager-applet
 nfs-utils
 nmap
 nmon
@@ -384,6 +385,7 @@ xfce4-appfinder
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
+xfce4-dict
 xfce4-diskperf-plugin
 xfce4-fsguard-plugin
 xfce4-mount-plugin
@@ -392,13 +394,15 @@ xfce4-netload-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
-xfce4-quicklauncher-plugin
+xfce4-pulseaudio-plugin
+xfce4-screenshooter
 xfce4-sensors-plugin
 xfce4-session
 xfce4-settings
 xfce4-systemload-plugin
 xfce4-taskmanager
 xfce4-terminal
+xfce4-wavelan-plugin
 xfdesktop
 xfsprogs
 xorg-server-xvfb

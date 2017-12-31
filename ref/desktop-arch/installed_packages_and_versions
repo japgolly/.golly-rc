@@ -605,8 +605,8 @@ jasper 2.0.14-1
 java-environment-common 3-1
 java-runtime-common 3-1
 jbig2dec 0.14-1
-jdk 8u131-1
 jdk7-compat 7.55-1
+jdk8 8u152-1
 jfsutils 1.1.15-4
 jre6-compat 1:6u45-06.1
 js 24.2.0-4
@@ -889,6 +889,7 @@ libjpeg-turbo 1.5.3-1
 libkactivities4 4.13.3-3
 libkate 0.4.1-5
 libkeybinder2 0.3.1-1
+libkeybinder3 0.3.2-1
 libksba 1.3.5-1
 libkscreen 5.11.4-1
 libksysguard 5.11.4-1
@@ -1037,7 +1038,6 @@ libxdmcp 1.1.2-1
 libxext 1.3.3-1
 libxfce4ui 4.12.1-2
 libxfce4util 4.12.1-1
-libxfcegui4 4.10.0-5
 libxfixes 5.0.3-1
 libxfont 1.5.2-1
 libxfont2 2.0.3-1
@@ -1147,11 +1147,13 @@ net-tools 1.60.20160710git-1
 netcdf 4.5.0-1
 netctl 1.14-1
 nettle 3.4-1
+network-manager-applet 1.8.11dev+7+ga52ccb2f-1
 networkmanager 1.10.2-1
 networkmanager-qt 5.41.0-1
 nfs-utils 2.3.1-1
 nfsidmap 2.3.1-1
 nini 1.1.0-5
+nm-connection-editor 1.8.11dev+7+ga52ccb2f-1
 nmap 7.60-1
 nmon 16g-1
 nodejs 9.3.0-1
@@ -1624,6 +1626,7 @@ xfce4-appfinder 4.12.0-4
 xfce4-cpufreq-plugin 1.1.3-1
 xfce4-cpugraph-plugin 1.0.5-4
 xfce4-datetime-plugin 0.7.0-1
+xfce4-dict 0.8.0-1
 xfce4-diskperf-plugin 2.6.1-1
 xfce4-fsguard-plugin 1.1.0-1
 xfce4-mount-plugin 1.1.2-1
@@ -1632,13 +1635,15 @@ xfce4-netload-plugin 1.3.1-1
 xfce4-notifyd 0.4.1-1
 xfce4-panel 4.12.2-1
 xfce4-power-manager 1.6.1-1
-xfce4-quicklauncher-plugin 1.9.4-11
+xfce4-pulseaudio-plugin 0.3.4-1
+xfce4-screenshooter 1.9.1-1
 xfce4-sensors-plugin 1.2.6-3
 xfce4-session 4.12.1-7
 xfce4-settings 4.12.1-1
 xfce4-systemload-plugin 1.2.1-1
 xfce4-taskmanager 1.2.0-1
 xfce4-terminal 0.8.6-1
+xfce4-wavelan-plugin 0.6.0-1
 xfconf 4.12.1-4
 xfdesktop 4.12.4-1
 xfsprogs 4.13.1-1

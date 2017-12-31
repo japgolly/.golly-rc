@@ -34,6 +34,8 @@ fi
 
 #fusion-icon &
 
+# systemctl --user start xfce4-notifyd.service
+
 #redshift -l -33.8683:151.2086 &
 
 setxkbmap -option "compose:prsc"

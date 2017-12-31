@@ -46,9 +46,6 @@
       <property name="&lt;Super&gt;m" type="string" value="xfce4-mixer"/>
       <property name="&lt;Super&gt;e" type="string" value="pcmanfm"/>
       <property name="&lt;Super&gt;equal" type="string" value="/usr/bin/speedcrunch"/>
-      <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master &apos;2%+&apos;"/>
-      <property name="XF86AudioLowerVolume" type="string" value="amixer set Master &apos;2%-&apos;"/>
-      <property name="XF86AudioMute" type="string" value="amixer set Master toggle"/>
       <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
     </property>
   </property>
