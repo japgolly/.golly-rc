@@ -40,6 +40,7 @@ cmake
 colordiff
 compiz
 coreutils
+coursier
 cpulimit
 cpupower
 cronie
@@ -93,6 +94,7 @@ git-cola
 git-extras
 gitg
 glibc
+gnome-keyring
 gnome-terminal
 gnome-themes-extras
 gnome-themes-standard
@@ -142,6 +144,7 @@ iotop
 iproute2
 iputils
 jack2-dbus
+jdk
 jdk7-compat
 jdk8
 jfsutils
@@ -294,6 +297,7 @@ s-nail
 sbt
 screen
 sdl2_gfx
+seahorse
 sed
 sensors-applet
 sfnt2woff
@@ -310,7 +314,6 @@ speedcrunch
 sqlectron-gui
 stack
 startup-notification
-steam
 strace
 sublime-text
 sudo

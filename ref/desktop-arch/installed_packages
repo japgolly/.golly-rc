@@ -24,6 +24,7 @@ apr-util
 archlinux-appstream-data
 archlinux-keyring
 ardour
+argon2
 aria2
 arm
 arpack
@@ -102,6 +103,7 @@ confuse
 containerd
 convertlit
 coreutils
+coursier
 cpulimit
 cpupower
 cracklib
@@ -245,6 +247,7 @@ gnome-autoar
 gnome-desktop
 gnome-icon-theme
 gnome-icon-theme-symbolic
+gnome-keyring
 gnome-menus
 gnome-online-accounts
 gnome-panel
@@ -309,7 +312,6 @@ gutenprint
 gvfs
 gvim
 gzip
-hardening-wrapper
 harfbuzz
 harfbuzz-icu
 haskell-adjunctions
@@ -426,6 +428,7 @@ haskell-lifted-async
 haskell-lifted-base
 haskell-logict
 haskell-math-functions
+haskell-megaparsec
 haskell-memory
 haskell-microlens
 haskell-microlens-mtl
@@ -452,6 +455,7 @@ haskell-optparse-applicative
 haskell-optparse-simple
 haskell-parallel
 haskell-parsec
+haskell-parser-combinators
 haskell-parsers
 haskell-path
 haskell-path-io
@@ -605,6 +609,7 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
+jdk
 jdk7-compat
 jdk8
 jfsutils
@@ -774,7 +779,6 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
 lib32-libxshmfence
-lib32-libxss
 lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
@@ -1449,6 +1453,7 @@ sdl2
 sdl2_gfx
 sdl2_image
 sdl_image
+seahorse
 sed
 semver
 sensors-applet
@@ -1488,7 +1493,6 @@ sqlite
 sratom
 stack
 startup-notification
-steam
 stfl
 strace
 strigi
