@@ -185,16 +185,12 @@ function fkeyd {
   | sed 's/  */***/g; s/\*\*\*/  */g; s/$/ *:/' | xargs -I{} grep -n {} ~/.XCompose
 }
 
-[ -e /opt/java ] && function j_ {
-  export JAVA_HOME=/opt/java
+[ -e /usr/lib/jvm/java-9-jdk ] && function java9 {
+  export JAVA_HOME=/usr/lib/jvm/java-9-jdk
   export PATH="$JAVA_HOME/bin:$PATH"
 }
-[ -e /opt/java7 ] && function j7 {
-  export JAVA_HOME=/opt/java7
-  export PATH="$JAVA_HOME/bin:$PATH"
-}
-[ -e /opt/java6 ] && function j6 {
-  export JAVA_HOME=/opt/java6
+[ -e /usr/lib/jvm/java-8-jdk ] && function java8 {
+  export JAVA_HOME=/usr/lib/jvm/java-8-jdk
   export PATH="$JAVA_HOME/bin:$PATH"
 }
 
@@ -276,5 +272,6 @@ which npm &>/dev/null
 if [ $? -eq 0 ]; then
   export NODE_PATH="$(npm config get prefix)"/lib/node_modules
   export PATH="$PATH:$(npm config get prefix)/bin"
+  export npm_config_jobs=7
 fi
 
