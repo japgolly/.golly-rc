@@ -1,3 +1,4 @@
+a2ps
 a52dec
 aalib
 ack
@@ -12,6 +13,7 @@ apr
 apr-util
 arandr
 archlinux-keyring
+argon2
 asciidoc
 aspell
 at-spi2-atk
@@ -41,6 +43,7 @@ boost-libs
 breeze
 breeze-icons
 bridge-utils
+brother-mfc-j5320dw
 brotli
 btrfs-progs
 bubblewrap
@@ -458,6 +461,7 @@ iproute2
 iptables
 iputils
 iso-codes
+iucode-tool
 iw
 jack
 jansson
@@ -465,6 +469,7 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
+jdk
 jdk8
 jfsutils
 jq
@@ -1029,6 +1034,7 @@ prison
 procps-ng
 protobuf
 psmisc
+psutils
 pygmentize
 pygobject-devel
 pygobject2-devel

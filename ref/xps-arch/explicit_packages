@@ -11,6 +11,7 @@ bbswitch
 bind-tools
 binutils
 bison
+brother-mfc-j5320dw
 brotli
 bumblebee
 bzip2
@@ -87,6 +88,8 @@ intel-ucode
 iotop
 iproute2
 iputils
+iucode-tool
+jdk
 jdk8
 jfsutils
 jq
