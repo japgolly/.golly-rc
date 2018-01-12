@@ -7,8 +7,9 @@ HISTCONTROL=ignoredups:ignorespace
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000
-HISTFILESIZE=20000
+export HISTSIZE=30000
+export HISTFILESIZE=60000
+export HISTTIMEFORMAT='%F %T '
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -23,13 +24,17 @@ export PS1='\n\[\e[1;31m\]\u\[\e[0;31m\]@\[\e[1;32m\]\h\[\e[0;32m\]: \[\e[33m\]\
 
 export EDITOR=vim
 export PAGER=less
-export GREP_OPTIONS='--color=auto'
 
 alias ls='ls --color=auto --group-directories-first'
 alias la='ls -la'
 alias ll='ls -l'
 alias lsa='ls -a'
 alias view='vim -R'
+
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias pgrep='pgrep --color=auto'
 
 alias p='pacman -S --needed'
 alias syu='pacman -Syu'
