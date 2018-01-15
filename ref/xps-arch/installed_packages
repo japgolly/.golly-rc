@@ -68,6 +68,7 @@ cln
 cloc
 clucene
 cmake
+cntlm
 colord
 colordiff
 compiz
@@ -1157,6 +1158,7 @@ serf
 shadow
 shared-mime-info
 sip
+slack
 slang
 smartmontools
 smbclient

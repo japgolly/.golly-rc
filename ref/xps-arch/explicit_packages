@@ -18,6 +18,7 @@ bzip2
 chromedriver
 cloc
 cmake
+cntlm
 colordiff
 compiz
 coreutils
@@ -180,6 +181,7 @@ sbt
 screen
 sed
 shadow
+slack
 smartmontools
 smplayer
 smuxi
