@@ -49,7 +49,6 @@
 /etc/profile.d/disable_beep.sh
 /etc/rc.conf
 /etc/rc.local
-/etc/resolv.conf
 /etc/sysctl.conf
 /etc/sysctl.d/
 /etc/systemd/system/
