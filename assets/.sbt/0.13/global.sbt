@@ -1,6 +1,13 @@
 import xerial.sbt.Sonatype.autoImport._
 sonatypeProfileName := "com.github.japgolly"
 
+enablePlugins(net.virtualvoid.sbt.graph.DependencyGraphPlugin)
+
+import com.timushev.sbt.updates.UpdatesPlugin.autoImport._
+def regexFilter(r: String) = new PatternFilter(r.r.pattern)
+dependencyUpdatesFilter -= moduleFilter(name = regexFilter("^jetty-(server|websocket)$"))
+//dependencyUpdatesFilter -= moduleFilter(organization = regexFilter("^org.scala-lang$"))
+
 triggeredMessage := Watched.clearWhenTriggered
 
 addCommandAlias("c"  , "compile")
