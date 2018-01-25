@@ -1,9 +1,11 @@
 ack
 alsa-utils
+apache-tools
 arandr
 atom
 autoconf
 automake
+aws-cli
 bash
 bash-completion
 bazel
@@ -22,6 +24,7 @@ cntlm
 colordiff
 compiz
 coreutils
+coursier
 cpulimit
 cpupower
 cryptsetup
@@ -61,6 +64,7 @@ gitg
 glibc
 gnome-terminal
 gnu-netcat
+go
 google-chrome
 google-cloud-sdk
 gpart
@@ -123,6 +127,7 @@ man-db
 man-pages
 marp
 mattext
+maven
 mcomix
 mdadm
 meld
@@ -175,7 +180,6 @@ ristretto
 rsync
 ruby
 rust
-rustfmt
 s-nail
 sbt
 screen

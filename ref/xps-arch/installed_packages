@@ -7,6 +7,7 @@ adwaita-icon-theme
 alsa-lib
 alsa-plugins
 alsa-utils
+apache-tools
 apm
 appstream-glib
 apr
@@ -27,6 +28,7 @@ attr
 autoconf
 automake
 avahi
+aws-cli
 babl
 baloo
 bash
@@ -77,6 +79,7 @@ confuse
 containerd
 convertlit
 coreutils
+coursier
 cpulimit
 cpupower
 cracklib
@@ -198,6 +201,7 @@ gnome-themes-standard
 gnu-netcat
 gnupg
 gnutls
+go
 gobject-introspection
 gobject-introspection-runtime
 goocanvas
@@ -648,6 +652,7 @@ lib32-wayland
 lib32-xz
 lib32-zlib
 libabw
+libaec
 libaio
 libakonadi-qt4
 libao
@@ -906,6 +911,7 @@ man-db
 man-pages
 marp
 mattext
+maven
 mcomix
 mdadm
 media-player-info
@@ -1047,9 +1053,12 @@ python
 python-appdirs
 python-babel
 python-beaker
+python-botocore
 python-cached-property
 python-cairo
 python-chardet
+python-colorama
+python-dateutil
 python-dbus
 python-dbus-common
 python-docker
@@ -1061,16 +1070,20 @@ python-gobject
 python-idna
 python-imagesize
 python-jinja
+python-jmespath
 python-jsonschema
 python-mako
 python-markupsafe
 python-packaging
+python-pyasn1
 python-pygments
 python-pyparsing
 python-pyqt4
 python-pyqt5
 python-pytz
 python-requests
+python-rsa
+python-s3transfer
 python-setuptools
 python-sip
 python-six
@@ -1143,7 +1156,6 @@ ruby
 run-parts
 runc
 rust
-rustfmt
 s-nail
 sbc
 sbt
