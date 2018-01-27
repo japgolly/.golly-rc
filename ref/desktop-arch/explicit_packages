@@ -83,6 +83,7 @@ flex
 freerdp
 fusion-icon0.9
 gawk
+gconf-editor
 gdb
 gedit
 gettext
@@ -143,11 +144,13 @@ intel-ucode
 iotop
 iproute2
 iputils
+iucode-tool
 jack2-dbus
 jdk
 jdk7-compat
 jdk8
 jfsutils
+jq
 jre6-compat
 kdiff3
 keepass

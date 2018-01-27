@@ -209,6 +209,7 @@ gc
 gcc
 gcc-libs
 gconf
+gconf-editor
 gcr
 gd
 gdb
@@ -602,6 +603,7 @@ iproute2
 iptables
 iputils
 iso-codes
+iucode-tool
 iw
 jack2-dbus
 jansson
@@ -613,6 +615,7 @@ jdk
 jdk7-compat
 jdk8
 jfsutils
+jq
 jre6-compat
 js
 js17
@@ -799,6 +802,7 @@ lib32-wayland
 lib32-xz
 lib32-zlib
 libabw
+libaec
 libaio
 libakonadi-qt4
 libarchive
@@ -1182,6 +1186,7 @@ nzbget
 ocl-icd
 octave
 odt2txt
+oniguruma
 openal
 opencl-nvidia
 opencore-amr
