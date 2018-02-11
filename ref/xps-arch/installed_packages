@@ -477,6 +477,7 @@ jbig2dec
 jdk
 jdk8
 jfsutils
+jmeter
 jq
 jre8-openjdk-headless
 js
@@ -665,6 +666,7 @@ libatomic_ops
 libavc1394
 libblockdev
 libbluray
+libbs2b
 libbsd
 libbytesize
 libcaca
@@ -694,6 +696,7 @@ libe-book
 libedit
 libelf
 libepoxy
+libepubgen
 libetonyek
 libev
 libevdev
@@ -779,6 +782,7 @@ libproxy
 libpsl
 libpulse
 libqalculate
+libqxp
 libqzeitgeist
 libraqm
 libraw1394
