@@ -36,8 +36,8 @@ at-spi2-core
 atk
 atkmm
 atom
+attica
 attica-qt4
-attica-qt5
 attr
 aubio
 audio-convert
@@ -98,7 +98,6 @@ cmake
 colord
 colordiff
 compiz
-compositeproto
 confuse
 containerd
 convertlit
@@ -113,7 +112,6 @@ cups
 cups-filters
 curl
 cwdiff
-damageproto
 db
 dbus
 dbus-c++
@@ -135,7 +133,6 @@ djvulibre
 dmenu
 dmidecode
 dmraid
-dmxproto
 dnssec-anchors
 docbook-xml
 docbook-xsl
@@ -186,14 +183,12 @@ filemanager-actions
 filesystem
 findutils
 firefox
-fixesproto
 flac
 flashplugin
 flex
 fltk
 fluidsynth
 fontconfig
-fontsproto
 frameworkintegration
 freeglut
 freerdp
@@ -594,7 +589,6 @@ imlib2
 inetutils
 inkscape
 inotify-tools
-inputproto
 intel-tbb
 intel-ucode
 intltool
@@ -629,7 +623,6 @@ karchive
 kauth
 kbd
 kbookmarks
-kbproto
 kcmutils
 kcodecs
 kcompletion
@@ -814,6 +807,7 @@ libatomic_ops
 libavc1394
 libblockdev
 libbluray
+libbs2b
 libbsd
 libbytesize
 libcaca
@@ -844,9 +838,11 @@ libdvdnav
 libdvdread
 libe-book
 libebml
+libebur128
 libedit
 libelf
 libepoxy
+libepubgen
 libetonyek
 libevdev
 libevent
@@ -964,6 +960,7 @@ libpwquality
 libqalculate
 libqmi
 libquicktime
+libqxp
 libqzeitgeist
 libraqm
 libraw1394
@@ -1047,7 +1044,6 @@ libxext
 libxfce4ui
 libxfce4util
 libxfixes
-libxfont
 libxfont2
 libxft
 libxi
@@ -1360,6 +1356,7 @@ python2-dateutil
 python2-dbus
 python2-dnspython
 python2-dukpy
+python2-enum34
 python2-gconf
 python2-gobject
 python2-gobject2
@@ -1418,19 +1415,16 @@ qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
 qtwebkit
-randrproto
 raptor
 rasqal
 re2
 readline
 recode
-recordproto
 redland
 redshift
 refind-efi
 reiserfsprogs
 renameutils
-renderproto
 rest
 rhash
 rkt
@@ -1450,7 +1444,6 @@ sbc
 sbt
 schroedinger
 screen
-scrnsaverproto
 sddm
 sddm-kcm
 sdl
@@ -1580,7 +1573,6 @@ v4l-utils
 vamp-plugin-sdk
 vi
 vid.stab
-videoproto
 vim-runtime
 vim-systemd
 vimpager
@@ -1621,7 +1613,6 @@ xcb-util-renderutil
 xcb-util-wm
 xdg-desktop-portal-kde
 xdg-utils
-xextproto
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
@@ -1629,8 +1620,6 @@ xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
-xf86dgaproto
-xf86vidmodeproto
 xfce4-appfinder
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
@@ -1656,7 +1645,6 @@ xfce4-wavelan-plugin
 xfconf
 xfdesktop
 xfsprogs
-xineramaproto
 xkeyboard-config
 xmlsec
 xmlto
@@ -1695,7 +1683,7 @@ xorg-xset
 xorg-xsetroot
 xorg-xvinfo
 xorg-xwininfo
-xproto
+xorgproto
 xterm
 xvidcore
 xz

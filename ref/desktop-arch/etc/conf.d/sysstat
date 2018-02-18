@@ -1,4 +1,4 @@
-# sysstat-11.4.6 configuration file.
+# sysstat-11.6.2 configuration file.
 
 # How long to keep log files (in days).
 # If value is greater than 28, then use sadc's option -D to prevent older
@@ -12,7 +12,7 @@ COMPRESSAFTER=10
 # which are used for the generation of log files.
 SADC_OPTIONS=" "
 
-# Directory where sa and sar files are saved.
+# Directory where sa and sar files are saved. The directory must exist.
 SA_DIR=/var/log/sa
 
 # Compression program to use.
