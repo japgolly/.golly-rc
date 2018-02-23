@@ -22,8 +22,8 @@ at-spi2-core
 atk
 atkmm
 atom
+attica
 attica-qt4
-attica-qt5
 attr
 autoconf
 automake
@@ -74,7 +74,6 @@ cntlm
 colord
 colordiff
 compiz
-compositeproto
 confuse
 containerd
 convertlit
@@ -87,7 +86,6 @@ cryptsetup
 cups
 cups-filters
 curl
-damageproto
 db
 dbus
 dbus-glib
@@ -103,7 +101,6 @@ diffutils
 ding-libs
 djvulibre
 dmraid
-dmxproto
 dnssec-anchors
 docbook-xml
 docbook-xsl
@@ -114,8 +111,6 @@ dosfstools
 dotconf
 double-conversion
 downgrade
-dri2proto
-dri3proto
 dropbox
 dwdiff
 e2fsprogs
@@ -142,13 +137,11 @@ file
 filesystem
 findutils
 firefox
-fixesproto
 flac
 flatpak
 flex
 fontconfig
 fontforge
-fontsproto
 frameworkintegration
 freeglut
 freetype2
@@ -190,7 +183,6 @@ glib2
 glib2-docs
 glibc
 glibmm
-glproto
 glu
 gmp
 gnome-desktop
@@ -458,7 +450,6 @@ imagemagick
 imlib2
 inetutils
 inkscape
-inputproto
 intel-ucode
 intltool
 iotop
@@ -491,7 +482,6 @@ karchive
 kauth
 kbd
 kbookmarks
-kbproto
 kcmutils
 kcodecs
 kcompletion
@@ -860,7 +850,6 @@ libxext
 libxfce4ui
 libxfce4util
 libxfixes
-libxfont
 libxfont2
 libxft
 libxi
@@ -1014,6 +1003,7 @@ phonon-qt5
 phonon-qt5-gstreamer
 pigz
 pinentry
+pipewire
 pixman
 pkg-config
 pkgstats
@@ -1039,7 +1029,6 @@ postgresql-old-upgrade
 potrace
 powertop
 prelink
-presentproto
 primus
 prison
 procps-ng
@@ -1137,18 +1126,14 @@ qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
 qtwebkit
-randrproto
 raptor
 rasqal
 re2
 readline
 recode
-recordproto
 redland
 reiserfsprogs
 renameutils
-renderproto
-resourceproto
 rest
 rhash
 ristretto
@@ -1165,7 +1150,6 @@ sbc
 sbt
 schroedinger
 screen
-scrnsaverproto
 sdl
 sdl2
 sed
@@ -1259,7 +1243,6 @@ v4l-utils
 vamp-plugin-sdk
 vi
 vid.stab
-videoproto
 vim-runtime
 vimpager
 virtualgl
@@ -1298,7 +1281,6 @@ xcb-util-wm
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-utils
-xextproto
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
@@ -1312,9 +1294,6 @@ xf86-video-intel
 xf86-video-openchrome
 xf86-video-vesa
 xf86-video-vmware
-xf86dgaproto
-xf86driproto
-xf86vidmodeproto
 xfce4-appfinder
 xfce4-battery-plugin
 xfce4-cpufreq-plugin
@@ -1342,7 +1321,6 @@ xfdesktop
 xfsprogs
 xfwm4
 xfwm4-themes
-xineramaproto
 xkeyboard-config
 xmlsec
 xmlto
@@ -1404,7 +1382,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-xproto
+xorgproto
 xsecurelock-git
 xterm
 xvidcore
