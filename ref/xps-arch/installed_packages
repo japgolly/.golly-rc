@@ -467,6 +467,7 @@ java-runtime-common
 jbig2dec
 jdk
 jdk8
+jemalloc
 jfsutils
 jmeter
 jq
@@ -587,6 +588,7 @@ lib32-libglvnd
 lib32-libgpg-error
 lib32-libgudev
 lib32-libice
+lib32-libidn2
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libnl
@@ -604,6 +606,7 @@ lib32-libssh2
 lib32-libtasn1
 lib32-libtiff
 lib32-libtirpc
+lib32-libunistring
 lib32-libusb
 lib32-libvorbis
 lib32-libx11
@@ -938,6 +941,7 @@ network-manager-applet
 networkmanager
 nfs-utils
 nfsidmap
+nghttp2
 nini
 nm-connection-editor
 nmap
@@ -1142,6 +1146,7 @@ rsync
 rtmpdump
 rubberband
 ruby
+rubygems
 run-parts
 runc
 rust
