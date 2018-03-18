@@ -10,6 +10,7 @@ dependencyUpdatesFilter -= moduleFilter(name = regexFilter("^jetty-(server|webso
 
 triggeredMessage := Watched.clearWhenTriggered
 
+addCommandAlias("/"  , "project root")
 addCommandAlias("c"  , "compile")
 addCommandAlias("tc" , "test:compile")
 addCommandAlias("t"  , "test")
