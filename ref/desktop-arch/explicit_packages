@@ -259,7 +259,6 @@ perl
 pgadmin3
 phantomjs
 pidgin
-pidgin-encryption
 pidgin-libnotify
 pidgin-toobars
 pigz
@@ -270,7 +269,6 @@ plasma-meta
 plex-media-server
 pngout
 poppler-glib
-poppler-qt4
 postgresql
 postgresql-docs
 postgresql-libs
@@ -363,7 +361,6 @@ twemoji-color-font
 unace
 unarchiver
 unetbootin
-uniconvertor
 unrar
 unzip
 upower

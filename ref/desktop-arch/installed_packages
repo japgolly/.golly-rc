@@ -1235,7 +1235,6 @@ phonon-qt4-gstreamer
 phonon-qt5
 phonon-qt5-gstreamer
 pidgin
-pidgin-encryption
 pidgin-libnotify
 pidgin-toobars
 pigz
@@ -1266,7 +1265,6 @@ polkit-qt5
 poppler
 poppler-data
 poppler-glib
-poppler-qt4
 poppler-qt5
 popt
 portaudio
@@ -1372,14 +1370,12 @@ python2-numpy
 python2-olefile
 python2-packaging
 python2-pillow
-python2-pip
 python2-psutil
 python2-pygments
 python2-pyparsing
 python2-pyqt4
 python2-pyqt5
 python2-regex
-python2-reportlab
 python2-setuptools
 python2-sip
 python2-six
@@ -1464,7 +1460,6 @@ shared-mime-info
 sharutils
 siege
 sip
-sk1libs
 slang
 sloccount
 smartmontools
@@ -1561,7 +1556,6 @@ udisks2
 unace
 unarchiver
 unetbootin
-uniconvertor
 unrar
 unzip
 upower
