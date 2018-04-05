@@ -3,6 +3,7 @@ a52dec
 aalib
 ack
 acl
+acpi
 adwaita-icon-theme
 alsa-lib
 alsa-plugins
@@ -189,7 +190,7 @@ gnome-desktop
 gnome-icon-theme
 gnome-icon-theme-symbolic
 gnome-terminal
-gnome-themes-standard
+gnome-themes-extra
 gnu-netcat
 gnupg
 gnutls
@@ -753,6 +754,7 @@ libndp
 libnewt
 libnftnl
 libnghttp2
+libnice
 libnl
 libnm
 libnm-glib
@@ -946,6 +948,7 @@ nini
 nm-connection-editor
 nmap
 nmon
+node-gyp
 nodejs
 notify-sharp
 noto-fonts
@@ -996,7 +999,9 @@ perl-algorithm-diff
 perl-error
 perl-file-next
 perl-gtk2-trayicon
+perl-mailtools
 perl-regexp-common
+perl-timedate
 perl-uri
 perl-xml-parser
 pgadmin3
@@ -1047,6 +1052,7 @@ pyqt4-common
 pyqt5-common
 pyrex
 python
+python-anytree
 python-appdirs
 python-babel
 python-beaker
@@ -1069,6 +1075,7 @@ python-imagesize
 python-jinja
 python-jmespath
 python-jsonschema
+python-lxml
 python-mako
 python-markupsafe
 python-packaging
@@ -1130,6 +1137,7 @@ qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
 qtwebkit
+rancher-cli-bin
 raptor
 rasqal
 re2
@@ -1183,6 +1191,7 @@ speex
 speexdsp
 sqlectron-gui
 sqlite
+srt
 sshfs
 stack
 startup-notification
@@ -1211,6 +1220,7 @@ thin-provisioning-tools
 threadweaver
 thunar
 thunar-volman
+tinyproxy
 tinyxml
 tlp
 tlp-rdw
@@ -1235,6 +1245,7 @@ ttf-ubuntu-font-family
 ttf-vista-fonts
 tumbler
 twemoji-color-font
+twolame
 tzdata
 uchardet
 udisks2
@@ -1269,6 +1280,7 @@ wget
 which
 wildmidi
 wine
+woff2
 wpa_supplicant
 wxgtk-common
 wxgtk2

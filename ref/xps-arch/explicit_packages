@@ -1,4 +1,5 @@
 ack
+acpi
 alsa-utils
 apache-tools
 arandr
@@ -175,6 +176,7 @@ primus
 procps-ng
 psmisc
 pygmentize
+rancher-cli-bin
 reiserfsprogs
 renameutils
 ristretto
@@ -207,6 +209,7 @@ testssl.sh
 texinfo
 thunar
 thunar-volman
+tinyproxy
 tlp
 tlp-rdw
 tmux
