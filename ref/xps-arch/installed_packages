@@ -16,6 +16,7 @@ apr-util
 arandr
 archlinux-keyring
 argon2
+asar
 asciidoc
 aspell
 at-spi2-atk
@@ -80,6 +81,7 @@ containerd
 convertlit
 coreutils
 coursier
+cowsay
 cpulimit
 cpupower
 cracklib
@@ -163,6 +165,7 @@ gcr
 gd
 gdbm
 gdk-pixbuf2
+geckodriver
 gegl02
 geoclue2
 geoip
@@ -201,7 +204,6 @@ goocanvas
 goocanvasmm
 google-chrome
 google-cloud-sdk
-gox
 gpart
 gparted
 gperf
@@ -782,7 +784,7 @@ libqzeitgeist
 libraqm
 libraw1394
 libreoffice-fresh
-libreoffice-fresh-en-GB
+libreoffice-fresh-en-gb
 librevenge
 librpcsecgss
 librsvg

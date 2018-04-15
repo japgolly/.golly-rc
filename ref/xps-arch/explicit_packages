@@ -26,6 +26,7 @@ colordiff
 compiz
 coreutils
 coursier
+cowsay
 cpulimit
 cpupower
 cryptsetup
@@ -55,6 +56,7 @@ flex
 fusion-icon0.9
 gawk
 gcc
+geckodriver
 gettext
 gftp
 ghc
@@ -110,7 +112,7 @@ lib32-alsa-plugins
 lib32-curl
 lib32-libpulse
 libreoffice-fresh
-libreoffice-fresh-en-GB
+libreoffice-fresh-en-gb
 libtool
 libunrar
 libva-intel-driver
