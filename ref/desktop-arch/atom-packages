@@ -41,6 +41,7 @@ language-dot
 language-graphql
 language-haml
 language-haskell
+language-hocon
 language-ini
 language-json5
 language-lua

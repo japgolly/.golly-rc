@@ -92,13 +92,12 @@ ghc-mod
 gimp
 git
 git-cola
-git-extras
 gitg
 glibc
 gnome-keyring
 gnome-terminal
+gnome-themes-extra
 gnome-themes-extras
-gnome-themes-standard
 gnuplot
 google-chrome
 google-cloud-sdk
@@ -177,7 +176,7 @@ libnotify
 libogg
 libpng
 libreoffice-fresh
-libreoffice-fresh-en-GB
+libreoffice-fresh-en-gb
 libtool
 libva-vdpau-driver
 libvncserver
@@ -205,7 +204,6 @@ mercurial
 mesa
 metacity
 meterbridge
-minikube
 mirage
 mono
 mpg123
@@ -266,7 +264,6 @@ pkg-config
 pkgstats
 plantuml
 plasma-meta
-plex-media-server
 pngout
 poppler-glib
 postgresql

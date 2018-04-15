@@ -97,6 +97,7 @@ clucene
 cmake
 colord
 colordiff
+compiler-rt
 compiz
 confuse
 containerd
@@ -226,7 +227,6 @@ giflib
 gimp
 git
 git-cola
-git-extras
 gitg
 gl2ps
 glew
@@ -248,8 +248,8 @@ gnome-menus
 gnome-online-accounts
 gnome-panel
 gnome-terminal
+gnome-themes-extra
 gnome-themes-extras
-gnome-themes-standard
 gnupg
 gnuplot
 gnustep-base
@@ -262,7 +262,6 @@ google-chrome
 google-cloud-sdk
 google-musicmanager
 gource
-gox
 gpart
 gparted
 gperf
@@ -722,6 +721,7 @@ lib32-expat
 lib32-flac
 lib32-fontconfig
 lib32-freetype2
+lib32-fribidi
 lib32-gcc-libs
 lib32-gettext
 lib32-glib2
@@ -865,6 +865,7 @@ libgdata
 libgdiplus
 libgdm
 libgee
+libgexiv2
 libgit2
 libgit2-glib
 libglade
@@ -879,6 +880,7 @@ libguess
 libgusb
 libgweather
 libgxps
+libibus
 libical
 libice
 libid3tag
@@ -949,6 +951,7 @@ libpeas
 libpgm
 libphonenumber
 libpipeline
+libplacebo
 libplist
 libpng
 libpng12
@@ -965,7 +968,7 @@ libqzeitgeist
 libraqm
 libraw1394
 libreoffice-fresh
-libreoffice-fresh-en-GB
+libreoffice-fresh-en-gb
 librevenge
 librpcsecgss
 librsvg
@@ -1118,7 +1121,6 @@ metacity
 meterbridge
 metis
 milou
-minikube
 minizip
 mirage
 mjpegtools
@@ -1147,7 +1149,6 @@ nautilus-open-terminal
 nautilus-sendto
 ncurses
 neon
-net-tools
 netcdf
 netctl
 nettle
@@ -1160,6 +1161,7 @@ nini
 nm-connection-editor
 nmap
 nmon
+node-gyp
 nodejs
 notification-daemon
 notify-sharp
@@ -1225,7 +1227,9 @@ perl
 perl-algorithm-diff
 perl-error
 perl-file-next
+perl-mailtools
 perl-regexp-common
+perl-timedate
 perl-uri
 perl-xml-parser
 pgadmin3
@@ -1253,7 +1257,6 @@ plasma-sdk
 plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
-plex-media-server
 pm-quirks
 pngout
 podofo
@@ -1296,6 +1299,7 @@ pyqt4-common
 pyqt5-common
 pyrex
 python
+python-anytree
 python-appdirs
 python-babel
 python-beaker
@@ -1316,6 +1320,7 @@ python-idna
 python-imagesize
 python-jinja
 python-jsonschema
+python-lxml
 python-mako
 python-markupsafe
 python-olefile
@@ -1432,6 +1437,7 @@ rtkit
 rtmpdump
 rubberband
 ruby
+rubygems
 run-parts
 runc
 rustup
@@ -1484,6 +1490,7 @@ speexdsp
 sqlectron-gui
 sqlite
 sratom
+srt
 stack
 startup-notification
 stfl
@@ -1549,6 +1556,7 @@ ttf-microsoft-consolas
 ttf-mph-2b-damase
 tumbler
 twemoji-color-font
+twolame
 tzdata
 uchardet
 udisks
@@ -1591,6 +1599,7 @@ which
 wildmidi
 wine
 winetricks
+woff2
 wpa_supplicant
 wxgtk-common
 wxgtk2
