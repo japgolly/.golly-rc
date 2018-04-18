@@ -185,13 +185,20 @@ function fkeyd {
   | sed 's/  */***/g; s/\*\*\*/  */g; s/$/ *:/' | xargs -I{} grep -n {} ~/.XCompose
 }
 
-[ -e /usr/lib/jvm/java-9-jdk ] && function java9 {
-  export JAVA_HOME=/usr/lib/jvm/java-9-jdk
-  export PATH="$JAVA_HOME/bin:$PATH"
-}
 [ -e /usr/lib/jvm/java-8-jdk ] && function java8 {
   export JAVA_HOME=/usr/lib/jvm/java-8-jdk
   export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
+}
+[ -e /usr/lib/jvm/java-9-jdk ] && function java9 {
+  export JAVA_HOME=/usr/lib/jvm/java-9-jdk
+  export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
+}
+[ -e /usr/lib/jvm/java-10-jdk ] && function java10 {
+  export JAVA_HOME=/usr/lib/jvm/java-10-jdk
+  export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
 }
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
