@@ -597,6 +597,7 @@ lib32-libjpeg-turbo
 lib32-libldap
 lib32-libnl
 lib32-libnm-glib
+lib32-libnsl
 lib32-libogg
 lib32-libpcap
 lib32-libpciaccess
@@ -762,6 +763,7 @@ libnl
 libnm
 libnm-glib
 libnotify
+libnsl
 libodfgen
 libofa
 libogg
