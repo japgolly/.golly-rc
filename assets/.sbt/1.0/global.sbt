@@ -23,3 +23,7 @@ addCommandAlias("ctc", ";clean;test:compile")
 addCommandAlias("ct" , ";clean;test")
 
 //logLevel in Global in update := Level.Warn
+
+// https://github.com/coursier/coursier/issues/450
+import coursier.Keys._
+classpathTypes += "maven-plugin"
