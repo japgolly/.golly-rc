@@ -118,6 +118,8 @@ dropbox
 dwdiff
 e2fsprogs
 ebook-tools
+eclipse-common
+eclipse-java
 editorconfig-core-c
 electron
 elfutils
@@ -166,6 +168,7 @@ gd
 gdbm
 gdk-pixbuf2
 geckodriver
+gegl
 gegl02
 geoclue2
 geoip
@@ -275,6 +278,7 @@ haskell-call-stack
 haskell-case-insensitive
 haskell-cereal
 haskell-clock
+haskell-cmdargs
 haskell-colour
 haskell-comonad
 haskell-conduit
@@ -308,7 +312,6 @@ haskell-gitrev
 haskell-glob
 haskell-hackage-security
 haskell-hashable
-haskell-hastache
 haskell-hinotify
 haskell-hourglass
 haskell-hpack
@@ -323,24 +326,21 @@ haskell-http-client-tls
 haskell-http-conduit
 haskell-http-types
 haskell-hunit
-haskell-ieee754
 haskell-integer-logarithms
 haskell-lifted-base
 haskell-logict
 haskell-math-functions
 haskell-memory
 haskell-microlens
-haskell-microlens-mtl
 haskell-microlens-th
 haskell-mime-types
 haskell-mintty
-haskell-mmorph
 haskell-monad-control
 haskell-monad-logger
 haskell-monad-loops
 haskell-monadrandom
 haskell-mono-traversable
-haskell-mtl
+haskell-mustache
 haskell-mwc-random
 haskell-neat-interpolation
 haskell-network
@@ -350,7 +350,6 @@ haskell-old-time
 haskell-open-browser
 haskell-optparse-applicative
 haskell-optparse-simple
-haskell-parsec
 haskell-path
 haskell-path-io
 haskell-path-pieces
@@ -358,9 +357,7 @@ haskell-pem
 haskell-persistent
 haskell-persistent-sqlite
 haskell-persistent-template
-haskell-pid1
 haskell-polyparse
-haskell-prelude-extras
 haskell-primitive
 haskell-profunctors
 haskell-project-template
@@ -372,6 +369,7 @@ haskell-regex-applicative-text
 haskell-resource-pool
 haskell-resourcet
 haskell-retry
+haskell-rio
 haskell-safe
 haskell-scientific
 haskell-semigroupoids
@@ -384,7 +382,6 @@ haskell-split
 haskell-src-exts
 haskell-src-meta
 haskell-statevar
-haskell-stm
 haskell-stm-chans
 haskell-store
 haskell-store-core
@@ -393,7 +390,6 @@ haskell-syb
 haskell-tagged
 haskell-tar
 haskell-temporary
-haskell-text
 haskell-text-metrics
 haskell-tf-random
 haskell-th-abstraction
@@ -502,7 +498,6 @@ kdecoration
 kded
 kdelibs
 kdelibs4support
-kdepimlibs4
 kdesu
 kdiff3
 keepass
@@ -653,7 +648,6 @@ lib32-zlib
 libabw
 libaec
 libaio
-libakonadi-qt4
 libao
 libarchive
 libass
@@ -710,6 +704,7 @@ libftdi
 libgcrypt
 libgdiplus
 libgee
+libgexiv2
 libgit2
 libgit2-glib
 libglade
@@ -722,7 +717,6 @@ libgudev
 libgusb
 libgxps
 libibus
-libical
 libice
 libid3tag
 libidn
@@ -754,6 +748,7 @@ libmpd
 libmpeg2
 libmspub
 libmwaw
+libmypaint
 libndp
 libnewt
 libnftnl
@@ -827,6 +822,7 @@ libusb
 libusb-compat
 libusbmuxd
 libutempter
+libutf8proc
 libutil-linux
 libuv
 libva
@@ -937,8 +933,10 @@ mpg123
 mplayer
 mpv
 mtdev
+mypaint-brushes
 nano
 ncurses
+ndctl
 neon
 net-tools
 netcdf
@@ -1025,7 +1023,6 @@ plasma-framework
 plasma-integration
 plasma-mediacenter
 plasma-workspace
-plex-media-server
 pngout
 polkit
 polkit-gnome
@@ -1120,7 +1117,6 @@ python2-pyparsing
 python2-setuptools
 python2-six
 qca-qt4
-qjson
 qpdf
 qqc2-desktop-style
 qrencode
@@ -1141,7 +1137,6 @@ qt5-webchannel
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
-qtwebkit
 rancher-cli-bin
 raptor
 rasqal
@@ -1203,7 +1198,6 @@ startup-notification
 steam
 stfl
 strace
-strigi
 subversion
 sudo
 swi-prolog

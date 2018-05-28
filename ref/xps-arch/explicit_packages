@@ -41,6 +41,7 @@ downgrade
 dropbox
 dwdiff
 e2fsprogs
+eclipse-java
 emerald-themes-git
 emerald0.9
 entr
@@ -167,7 +168,6 @@ phantomjs
 pigz
 pkg-config
 pkgstats
-plex-media-server
 pngout
 postgresql
 postgresql-docs
