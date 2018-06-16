@@ -6,6 +6,7 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
+android-file-transfer
 android-tools
 android-udev
 apache
@@ -85,6 +86,7 @@ fusion-icon0.9
 gawk
 gconf-editor
 gdb
+geckodriver
 gedit
 gettext
 ghc
@@ -118,6 +120,7 @@ gtkmm3
 gtkspell
 guake
 gutenprint
+gvfs-mtp
 gvim
 gzip
 hddtemp
@@ -209,6 +212,7 @@ mono
 mpg123
 mplayer
 mpv
+mtpfs
 mtr
 multitail
 mupen64plus
@@ -232,7 +236,7 @@ noto-fonts-extra
 npm
 ntfs-3g
 ntp
-nvidia
+nvidia-390xx
 nvidia-settings
 nvm
 nzbget
@@ -260,7 +264,7 @@ pidgin
 pidgin-libnotify
 pidgin-toobars
 pigz
-pkg-config
+pkgconf
 pkgstats
 plantuml
 plasma-meta
@@ -298,7 +302,6 @@ sdl2_gfx
 seahorse
 sed
 sensors-applet
-sfnt2woff
 shadow
 sharutils
 siege

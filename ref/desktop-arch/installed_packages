@@ -12,6 +12,7 @@ alsa-oss
 alsa-plugins
 alsa-tools
 alsa-utils
+android-file-transfer
 android-tools
 android-udev
 apache
@@ -119,7 +120,6 @@ dbus-c++
 dbus-glib
 dbus-sharp
 dbus-sharp-glib
-dcadec
 dconf
 deb2targz
 desktop-file-utils
@@ -155,6 +155,8 @@ ed
 editorconfig-core-c
 efibootmgr
 efivar
+egl-wayland
+eglexternalplatform
 electron
 elfutils
 emacs
@@ -177,7 +179,6 @@ fakeroot
 farstream
 fbset
 ffmpeg
-ffmpeg2.8
 fftw
 file
 filemanager-actions
@@ -199,6 +200,7 @@ ftgl
 fuse-common
 fuse2
 fusion-icon0.9
+gamin
 garcon
 gawk
 gc
@@ -212,7 +214,9 @@ gdb
 gdb-common
 gdbm
 gdk-pixbuf2
+geckodriver
 gedit
+gegl
 gegl02
 geoclue2
 geocode-glib
@@ -305,6 +309,7 @@ guile
 guile2.0
 gutenprint
 gvfs
+gvfs-mtp
 gvim
 gzip
 harfbuzz
@@ -438,7 +443,7 @@ haskell-monad-loops
 haskell-monad-unlift
 haskell-monadrandom
 haskell-mono-traversable
-haskell-mtl
+haskell-mustache
 haskell-mwc-random
 haskell-neat-interpolation
 haskell-network
@@ -449,7 +454,6 @@ haskell-open-browser
 haskell-optparse-applicative
 haskell-optparse-simple
 haskell-parallel
-haskell-parsec
 haskell-parser-combinators
 haskell-parsers
 haskell-path
@@ -477,9 +481,11 @@ haskell-regex-applicative
 haskell-regex-applicative-text
 haskell-regex-base
 haskell-regex-tdfa
+haskell-resolv
 haskell-resource-pool
 haskell-resourcet
 haskell-retry
+haskell-rio
 haskell-safe
 haskell-safe-exceptions
 haskell-scientific
@@ -495,7 +501,6 @@ haskell-src-exts
 haskell-src-exts-util
 haskell-src-meta
 haskell-statevar
-haskell-stm
 haskell-stm-chans
 haskell-store
 haskell-store-core
@@ -509,7 +514,6 @@ haskell-tagsoup
 haskell-tar
 haskell-temporary
 haskell-terminal-size
-haskell-text
 haskell-text-binary
 haskell-text-metrics
 haskell-tf-random
@@ -612,6 +616,7 @@ jq
 jre6-compat
 js
 js17
+js52
 json-c
 json-glib
 jsoncpp
@@ -638,7 +643,6 @@ kdecoration
 kded
 kdelibs
 kdelibs4support
-kdepimlibs4
 kdeplasma-addons
 kdesu
 kdiff3
@@ -687,7 +691,6 @@ ksshaskpass
 ksysguard
 ktexteditor
 ktextwidgets
-kuiserver
 kunitconversion
 kwallet
 kwallet-pam
@@ -703,12 +706,12 @@ l-smash
 ladspa
 lame
 lapack
-lash
 lcms
 lcms2
 ldb
 ldns
 leafpad
+lensfun
 less
 lib32-acl
 lib32-alsa-lib
@@ -732,7 +735,6 @@ lib32-gnutls
 lib32-harfbuzz
 lib32-icu
 lib32-json-c
-lib32-kmod
 lib32-lcms2
 lib32-libasyncns
 lib32-libcap
@@ -797,7 +799,6 @@ lib32-zlib
 libabw
 libaec
 libaio
-libakonadi-qt4
 libarchive
 libass
 libassuan
@@ -923,6 +924,7 @@ libmpeg2
 libmspub
 libmtp
 libmwaw
+libmypaint
 libmythes
 libnautilus-extension
 libndp
@@ -934,6 +936,7 @@ libnl
 libnm
 libnm-glib
 libnotify
+libnsl
 liboauth
 libodfgen
 libofa
@@ -966,6 +969,7 @@ libquicktime
 libqxp
 libqzeitgeist
 libraqm
+libraw
 libraw1394
 libreoffice-fresh
 libreoffice-fresh-en-gb
@@ -1013,6 +1017,7 @@ libusb
 libusb-compat
 libusbmuxd
 libutempter
+libutf8proc
 libutil-linux
 libuv
 libva
@@ -1139,15 +1144,18 @@ mplayer
 mpv
 mtdev
 mtools
+mtpfs
 mtr
 multitail
 mupen64plus
+mypaint-brushes
 mythes-en
 nano
 nautilus
 nautilus-open-terminal
 nautilus-sendto
 ncurses
+ndctl
 neon
 netcdf
 netctl
@@ -1176,9 +1184,9 @@ nss
 ntfs-3g
 ntp
 numactl
-nvidia
+nvidia-390xx
+nvidia-390xx-utils
 nvidia-settings
-nvidia-utils
 nvm
 nzbget
 ocl-icd
@@ -1189,7 +1197,6 @@ openal
 opencl-nvidia
 opencore-amr
 openexr
-openjpeg
 openjpeg2
 openmpi
 openresolv
@@ -1207,6 +1214,7 @@ p11-kit
 p7zip
 package-query
 pacman
+pacman-contrib
 pacman-mirrorlist
 pam
 pambase
@@ -1228,6 +1236,7 @@ perl-algorithm-diff
 perl-error
 perl-file-next
 perl-mailtools
+perl-parallel-forkmanager
 perl-regexp-common
 perl-timedate
 perl-uri
@@ -1243,10 +1252,12 @@ pidgin-libnotify
 pidgin-toobars
 pigz
 pinentry
+pipewire
 pixman
-pkg-config
+pkgconf
 pkgstats
 plantuml
+plasma-browser-integration
 plasma-desktop
 plasma-framework
 plasma-integration
@@ -1325,6 +1336,7 @@ python-mako
 python-markupsafe
 python-olefile
 python-packaging
+python-pbr
 python-pillow
 python-pygments
 python-pyparsing
@@ -1391,10 +1403,10 @@ qca-qt4
 qca-qt5
 qhull
 qjackctl
-qjson
 qpdf
 qqc2-desktop-style
 qrencode
+qrupdate
 qscintilla-qt4
 qscintilla-qt5
 qt4
@@ -1415,7 +1427,6 @@ qt5-webchannel
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
-qtwebkit
 raptor
 rasqal
 re2
@@ -1459,7 +1470,7 @@ semver
 sensors-applet
 serd
 serf
-sfnt2woff
+setconf
 sg3_utils
 shadow
 shared-mime-info
@@ -1495,7 +1506,6 @@ stack
 startup-notification
 stfl
 strace
-strigi
 sublime-text
 subversion
 sudo
@@ -1591,8 +1601,6 @@ wayland
 wayland-protocols
 wdiff
 webkit2gtk
-webkitgtk
-webkitgtk2
 webrtc-audio-processing
 wget
 which
