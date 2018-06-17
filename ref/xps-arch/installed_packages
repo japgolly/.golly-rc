@@ -41,6 +41,7 @@ bc
 bind-tools
 binutils
 bison
+blas
 bluez-libs
 boost
 boost-libs
@@ -121,6 +122,8 @@ ebook-tools
 eclipse-common
 eclipse-java
 editorconfig-core-c
+egl-wayland
+eglexternalplatform
 electron
 elfutils
 emerald-themes-git
@@ -449,6 +452,7 @@ imagemagick
 imlib2
 inetutils
 inkscape
+intel-tbb
 intel-ucode
 intltool
 iotop
@@ -532,7 +536,6 @@ kscreenlocker
 kservice
 ktexteditor
 ktextwidgets
-kuiserver
 kunitconversion
 kwallet
 kwayland
@@ -543,11 +546,13 @@ kxmlgui
 l-smash
 ladspa
 lame
+lapack
 lcms
 lcms2
 ldb
 ldns
 leafpad
+lensfun
 less
 lib32-acl
 lib32-alsa-lib
@@ -780,6 +785,7 @@ libqalculate
 libqxp
 libqzeitgeist
 libraqm
+libraw
 libraw1394
 libreoffice-fresh
 libreoffice-fresh-en-gb
@@ -899,6 +905,7 @@ logrotate
 lpsolve
 lsb-release
 lsof
+lua
 lua52
 lvm2
 lz4
@@ -918,6 +925,7 @@ meld
 mesa
 mesa-demos
 metacity
+metis
 milou
 minizip
 mirage
@@ -1003,6 +1011,7 @@ perl-error
 perl-file-next
 perl-gtk2-trayicon
 perl-mailtools
+perl-parallel-forkmanager
 perl-regexp-common
 perl-timedate
 perl-uri
@@ -1017,7 +1026,7 @@ pigz
 pinentry
 pipewire
 pixman
-pkg-config
+pkgconf
 pkgstats
 plasma-framework
 plasma-integration
@@ -1200,6 +1209,7 @@ stfl
 strace
 subversion
 sudo
+suitesparse
 swi-prolog
 syntax-highlighting
 sysfsutils
