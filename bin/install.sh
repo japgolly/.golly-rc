@@ -39,12 +39,21 @@ function source_script {
   [ ! -e "$t" ] && echo -e "aborting\nAsset not found: $t" && exit 3
 
   cmd='[ -r "'"$t"'" ] && source "'"$t"'"'
-  tmp=/tmp/golly-rc.$$.tmp
-  (cat "$s" | fgrep -v "$cmd" && echo "$cmd") > $tmp
-  if [ $? -ne 0 ]; then
-    echo "failed"
+  if [ ! -e "$s" ]; then
+    echo "$cmd" >> "$s"
+    if [ ! -e $tmp ]; then
+      echo "failed"
+    else
+      echo "created, ok"
+    fi
   else
-    cat $tmp > "$s" && echo "updated, ok" || echo "failed"
+    tmp=/tmp/golly-rc.$$.tmp
+    (cat "$s" | (fgrep -v "$cmd" || true) && echo "$cmd") > $tmp
+    if [ ! -e $tmp ]; then
+      echo "failed"
+    else
+      cat $tmp > "$s" && echo "updated, ok" || echo "failed"
+    fi
   fi
 }
 
