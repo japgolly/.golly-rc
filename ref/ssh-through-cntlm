@@ -1,0 +1,3 @@
+# .ssh/config
+Host=github.com
+ProxyCommand=socat - PROXY:127.0.0.1:%h:%p,proxyport=8080
