@@ -12,7 +12,6 @@ export GTK_IM_MODULE=xim
 export QT_IM_MODULE=xim
 
 alias rm='rm -i' # like a child :(
-alias ls='ls --color=auto'
 alias la='ls -la'
 alias ll='ls -l'
 alias lsa='ls -a'
@@ -57,6 +56,7 @@ alias mpv-del-rm="${mpv_del_xargs} rm -v && rm -i /tmp/mpv-deletion"
 source "$HOME/.golly-rc/lib/distro.sh"
 case "$(distro)" in
   ArchLinux)
+    alias ls='ls --color=auto'
     alias p='sudo pacman -S --needed'
     alias y='yaourt -S --needed'
     alias yy='yaourt -S --needed --noconfirm'
@@ -71,10 +71,12 @@ case "$(distro)" in
     }
     ;;
   Ubuntu)
+    alias ls='ls --color=auto'
     function show_installed { f="$1"; [ -z "$f" ] && f='.*'; dpkg --get-selections | grep '[^a-zA-Z]install' | egrep "$f" | sed 's/[ \t].*//' | xargs dpkg -s | egrep '^(Package|Version)' | perl -0000 -pe 's/Package: (\S+)\s*[\r\n]+Version: (\S+)/\1 \2 \2/g' | perl -pe 's/ (?:\d+:)?(\S+?)[-+~]\S+$/ \1/; s/ (\S+) (\S+)$/ \2 \1/' | column -t | perl -pe 's/(\S+)(\s+\S+)$/\1    \2/' | sort ; }
     ;;
   OSX)
-    alias ls='ls -G'
+    export CLICOLOR=1
+    export LSCOLORS=gxfxcxdxCxegedabagacad
     ;;
 esac
 
