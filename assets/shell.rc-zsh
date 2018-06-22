@@ -4,6 +4,7 @@ unset PS1
 export SHELL="$(which zsh)"
 alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
 
+[ -e ~/.bloop/zsh ] && fpath=(~/.bloop/zsh $fpath)
 autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
 source "$HOME/.golly-rc/assets/shell.rc-shared"

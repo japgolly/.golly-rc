@@ -283,3 +283,8 @@ if [ $? -eq 0 ]; then
   export npm_config_jobs=7
 fi
 
+# Bloop
+if [ -d $HOME/.bloop ]; then
+  export PATH="$HOME/.bloop:$PATH"
+  function bloopctl { systemctl --user "$@" bloop ;}
+fi
