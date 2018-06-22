@@ -1300,7 +1300,6 @@ psmisc
 psutils
 pulseaudio
 pulseaudio-alsa
-pulseaudio-gconf
 pv
 pwgen
 pygobject-devel
