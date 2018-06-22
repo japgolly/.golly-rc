@@ -8,6 +8,7 @@ adwaita-icon-theme
 alsa-lib
 alsa-plugins
 alsa-utils
+apache-ant
 apache-tools
 apm
 appstream-glib
@@ -333,6 +334,7 @@ haskell-integer-logarithms
 haskell-lifted-base
 haskell-logict
 haskell-math-functions
+haskell-megaparsec
 haskell-memory
 haskell-microlens
 haskell-microlens-th
@@ -353,6 +355,7 @@ haskell-old-time
 haskell-open-browser
 haskell-optparse-applicative
 haskell-optparse-simple
+haskell-parser-combinators
 haskell-path
 haskell-path-io
 haskell-path-pieces
@@ -992,6 +995,7 @@ p11-kit
 p7zip
 package-query
 pacman
+pacman-contrib
 pacman-mirrorlist
 pam
 pambase
@@ -1028,6 +1032,7 @@ pipewire
 pixman
 pkgconf
 pkgstats
+plantuml
 plasma-framework
 plasma-integration
 plasma-mediacenter
