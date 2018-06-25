@@ -43,7 +43,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias pie='perl -pi -e'
-alias mvorig='find -name "*.orig" -type f -exec mv -v {} /tmp \;'
+alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
 
 alias odx='od -Ax -tx1z'
 
@@ -104,6 +104,7 @@ function find_name {
   find "$dir" "$@" -type f -name "$name" | sort
 }
 alias finds="find_name '*.scala'"
+alias findj="find_name '*.java'"
 alias findjs="find_name '*.js'"
 function fixspace {
   find "$@" -type f -name '*.scala' -exec perl -pi -e 's/[ \t]+$//' {} +
@@ -206,9 +207,10 @@ function fkeyd {
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules} --nogroup --color"
-  alias ackjs='ack --js'
-  alias acks='ack --scala'
 fi
+alias ackjs='ack --js'
+alias ackj='ack --java'
+alias acks='ack --scala'
 
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
