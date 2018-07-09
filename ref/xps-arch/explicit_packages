@@ -44,6 +44,7 @@ e2fsprogs
 eclipse-java
 emerald-themes-git
 emerald0.9
+encfs
 entr
 epdfview
 evince
@@ -179,7 +180,6 @@ primus
 procps-ng
 psmisc
 pygmentize
-rancher-cli-bin
 reiserfsprogs
 renameutils
 ristretto
@@ -315,6 +315,7 @@ xorg-xwud
 xsecurelock-git
 xterm
 yaourt
+yay
 youtube-dl
 zip
 zsh

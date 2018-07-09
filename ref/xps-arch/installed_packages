@@ -8,6 +8,7 @@ adwaita-icon-theme
 alsa-lib
 alsa-plugins
 alsa-utils
+aom
 apache-ant
 apache-tools
 apm
@@ -130,6 +131,7 @@ elfutils
 emerald-themes-git
 emerald0.9
 enca
+encfs
 enchant
 entr
 epdfview
@@ -686,6 +688,7 @@ libdbusmenu-qt4
 libdbusmenu-qt5
 libdc1394
 libdca
+libde265
 libdmtx
 libdmx
 libdrm
@@ -724,6 +727,7 @@ libgtop
 libgudev
 libgusb
 libgxps
+libheif
 libibus
 libice
 libid3tag
@@ -1151,7 +1155,6 @@ qt5-webchannel
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
-rancher-cli-bin
 raptor
 rasqal
 re2
@@ -1236,6 +1239,7 @@ thunar
 thunar-volman
 tinyproxy
 tinyxml
+tinyxml2
 tlp
 tlp-rdw
 tmux
@@ -1421,6 +1425,7 @@ xz
 yajl
 yaourt
 yasm
+yay
 youtube-dl
 zenity
 zeromq
