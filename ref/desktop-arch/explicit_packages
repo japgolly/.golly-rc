@@ -65,6 +65,7 @@ ec2-api-tools
 ed
 emacs
 emerald0.9
+encfs
 entr
 epdfview
 ethtool
@@ -102,7 +103,6 @@ gnome-themes-extra
 gnome-themes-extras
 gnuplot
 google-chrome
-google-cloud-sdk
 google-musicmanager
 gource
 gpart
@@ -192,6 +192,7 @@ lm_sensors
 logrotate
 lsof
 lua
+lutris
 lvm2
 m4
 mailcap
@@ -418,6 +419,7 @@ xorg-xmodmap
 xorg-xrandr
 xterm
 yaourt
+yay
 youtube-dl
 zeal
 zeromq

@@ -15,6 +15,7 @@ alsa-utils
 android-file-transfer
 android-tools
 android-udev
+aom
 apache
 apache-ant
 apm
@@ -162,6 +163,7 @@ elfutils
 emacs
 emerald0.9
 enca
+encfs
 enchant
 entr
 epdfview
@@ -259,11 +261,11 @@ gnuplot
 gnustep-base
 gnustep-make
 gnutls
+go
 go-bindata
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
-google-cloud-sdk
 google-musicmanager
 gource
 gpart
@@ -380,6 +382,7 @@ haskell-echo
 haskell-ed25519
 haskell-edit-distance
 haskell-either
+haskell-enclosed-exceptions
 haskell-errors
 haskell-exceptions
 haskell-extra
@@ -419,7 +422,9 @@ haskell-http-conduit
 haskell-http-types
 haskell-hunit
 haskell-ieee754
+haskell-infer-license
 haskell-integer-logarithms
+haskell-invariant
 haskell-iproute
 haskell-kan-extensions
 haskell-lens
@@ -445,6 +450,7 @@ haskell-monadrandom
 haskell-mono-traversable
 haskell-mustache
 haskell-mwc-random
+haskell-nats
 haskell-neat-interpolation
 haskell-network
 haskell-network-uri
@@ -493,6 +499,7 @@ haskell-semigroupoids
 haskell-semigroups
 haskell-setenv
 haskell-sha
+haskell-shelly
 haskell-silently
 haskell-smallcheck
 haskell-socks
@@ -791,6 +798,7 @@ lib32-pangox-compat
 lib32-pcre
 lib32-pixman
 lib32-readline
+lib32-sqlite
 lib32-systemd
 lib32-util-linux
 lib32-wayland
@@ -830,6 +838,7 @@ libdbusmenu-qt4
 libdbusmenu-qt5
 libdc1394
 libdca
+libde265
 libdmtx
 libdmx
 libdrm
@@ -881,6 +890,7 @@ libguess
 libgusb
 libgweather
 libgxps
+libheif
 libibus
 libical
 libice
@@ -1098,6 +1108,7 @@ lsof
 lua
 lua51
 lua52
+lutris
 lv2
 lvm2
 lxmenu-data
@@ -1324,6 +1335,7 @@ python-docker-pycreds
 python-dockerpty
 python-docopt
 python-docutils
+python-evdev
 python-gobject
 python-httplib2
 python-idna
@@ -1346,6 +1358,7 @@ python-pyzmq
 python-requests
 python-setuptools
 python-sip
+python-sip-pyqt5
 python-six
 python-snowballstemmer
 python-sphinx
@@ -1371,6 +1384,7 @@ python2-dbus
 python2-dnspython
 python2-dukpy
 python2-enum34
+python2-exiv2
 python2-gconf
 python2-gobject
 python2-gobject2
@@ -1394,6 +1408,7 @@ python2-pyqt5
 python2-regex
 python2-setuptools
 python2-sip
+python2-sip-pyqt5
 python2-six
 python2-unrardll
 python2-webencodings
@@ -1538,6 +1553,7 @@ threadweaver
 thunar
 tidy
 tig
+tinyxml2
 tlp
 tmux
 tor
@@ -1700,6 +1716,7 @@ xz
 yajl
 yaourt
 yasm
+yay
 youtube-dl
 yubico-c
 yubico-c-client
