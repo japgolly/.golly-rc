@@ -24,6 +24,9 @@ case "$(distro)" in
     dpkg --get-selections | grep '[^a-zA-Z]install' | sed 's/[ \t].*//' | xargs dpkg -s | egrep '^(Package|Version)' | perl -0000 -pe 's/Package: (\S+)\s*[\r\n]+Version: (\S+)/\1 \2 \2/g' | perl -pe 's/ (?:\d+:)?(\S+?)[-+~]\S+$/ \1/; s/ (\S+) (\S+)$/ \2 \1/' | column -t | perl -pe 's/(\S+)(\s+\S+)$/\1    \2/' | sort \
       > installed_packages_and_versions
     ;;
+  *)
+    echo "Distro unknown: [$(distro)]"
+    ;;
 esac
 cat installed_packages_and_versions | awk '{print $1}' > installed_packages
 cat explicit_packages_and_versions | awk '{print $1}' > explicit_packages
