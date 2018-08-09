@@ -78,6 +78,9 @@ case "$(distro)" in
     export CLICOLOR=1
     export LSCOLORS=gxfxcxdxCxegedabagacad
     ;;
+  *)
+    echo "Unknown distro: [$(distro)]"
+    ;;
 esac
 
 # Functions
