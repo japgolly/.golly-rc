@@ -578,6 +578,7 @@ http-parser
 hunspell
 hunspell-en
 hunspell-en_AU
+hunspell-en_CA
 hunspell-en_GB
 hunspell-en_US
 hwids
@@ -627,6 +628,7 @@ js52
 json-c
 json-glib
 jsoncpp
+jxrlib
 kactivities
 kactivities-stats
 kactivitymanagerd
