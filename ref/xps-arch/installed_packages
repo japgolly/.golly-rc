@@ -290,6 +290,7 @@ haskell-comonad
 haskell-conduit
 haskell-conduit-extra
 haskell-connection
+haskell-constraints
 haskell-contravariant
 haskell-cookie
 haskell-cpphs
@@ -305,6 +306,7 @@ haskell-easy-file
 haskell-echo
 haskell-ed25519
 haskell-either
+haskell-enclosed-exceptions
 haskell-exceptions
 haskell-extra
 haskell-fast-logger
@@ -332,7 +334,9 @@ haskell-http-client-tls
 haskell-http-conduit
 haskell-http-types
 haskell-hunit
+haskell-infer-license
 haskell-integer-logarithms
+haskell-lifted-async
 haskell-lifted-base
 haskell-logict
 haskell-math-functions
@@ -383,6 +387,7 @@ haskell-scientific
 haskell-semigroupoids
 haskell-semigroups
 haskell-setenv
+haskell-shelly
 haskell-silently
 haskell-smallcheck
 haskell-socks
@@ -395,6 +400,8 @@ haskell-store
 haskell-store-core
 haskell-streaming-commons
 haskell-syb
+haskell-system-fileio
+haskell-system-filepath
 haskell-tagged
 haskell-tar
 haskell-temporary
@@ -1110,6 +1117,7 @@ python-rsa
 python-s3transfer
 python-setuptools
 python-sip
+python-sip-pyqt5
 python-six
 python-snowballstemmer
 python-sphinx
@@ -1168,6 +1176,7 @@ rhash
 ristretto
 rpcbind
 rsync
+rtkit
 rtmpdump
 rubberband
 ruby
