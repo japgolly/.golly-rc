@@ -68,6 +68,7 @@ link .XCompose XCompose
 
 mkdir -p ~/.atom
 link .atom/keymap.cson
+link .atom/snippets.cson
 link .atom/styles.less
 
 mkdir -p ~/.config/mpv

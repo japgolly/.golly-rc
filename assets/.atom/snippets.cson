@@ -1,0 +1,40 @@
+'.source.js':
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log($1);$2'
+'.source.gfm':
+  '<div class="fragment" />':
+    'prefix': '_frag'
+    'body': '<div class="fragment" />'
+  '<!-- .element: class="fragment" -->':
+    'prefix': '_fragEl'
+    'body': '<!-- .element: class="fragment" -->'
+  '<mark>???</mark>':
+    'prefix': '_mark'
+    'body': '<mark>$1</mark>'
+  'scala block with inner HTML':
+    'prefix': '_scalaM'
+    'body': """
+      <pre><code class="lang-scala" data-trim data-noescape>
+      $1
+      </code></pre>
+      """
+  'Scala block':
+    'prefix': '_scala'
+    'body': """
+      ```scala
+      $1
+      ```
+      """
+  'colour 1 (purple)':
+    'prefix': '_col1'
+    'body': '<span style="color:hsl(286, 100%, 50%)">$1</span>'
+  'colour 2 (blue)':
+    'prefix': '_col2'
+    'body': '<span style="color:hsl(203, 100%, 50%)">$1</span>'
+  'colour 3 (green)':
+    'prefix': '_col3'
+    'body': '<span style="color:hsl(126, 27%, 50%)">$1</span>'
+  'colour 4 (orange)':
+    'prefix': '_col4'
+    'body': '<span style="color:hsl(36, 70%, 50%)">$1</span>'
