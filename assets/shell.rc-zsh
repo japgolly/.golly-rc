@@ -104,3 +104,18 @@ which kubectl &>/dev/null
 # Rustup
 #which rustup &>/dev/null
 #[ $? -eq 0 ] && source <(rustup completions zsh)
+
+# Distro-specific
+source "$HOME/.golly-rc/lib/distro.sh"
+case "$(distro)" in
+  OSX)
+    # Set the tab title to the cwd
+    function precmd () {
+      window_title="\033]0;${PWD##*/}\007"
+      echo -ne "$window_title"
+    }
+    ;;
+  *)
+    ;;
+esac
+

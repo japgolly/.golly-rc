@@ -136,7 +136,7 @@ nmap <F8> :SyntasticToggleMode<CR>
 imap <F8> <C-O><F8>
 
 " F12 removes trailing whitespace
-map  <F12> :perldo s/\s+$//<CR>
+map  <F12> :%s/[ \t]*$//<CR>
 imap <F12> <C-O><F12>
 
 " CTRL-H gets ready for a search & replace with perl regex
