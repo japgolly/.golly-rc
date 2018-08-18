@@ -12,19 +12,26 @@
   '<mark>???</mark>':
     'prefix': '_mark'
     'body': '<mark>$1</mark>'
-  'scala block with inner HTML':
-    'prefix': '_scalaM'
-    'body': """
-      <pre><code class="lang-scala" data-trim data-noescape>
-      $1
-      </code></pre>
-      """
-  'Scala block':
+  'Scala block (markdown)':
     'prefix': '_scala'
     'body': """
       ```scala
       $1
       ```
+      """
+  'Scala block (html)':
+    'prefix': '_scalaH'
+    'body': """
+      <pre><code class="lang-scala hljs" data-trim>
+      $1
+      </code></pre>
+      """
+  'scala block (html) noescape':
+    'prefix': '_scalaHH'
+    'body': """
+      <pre><code class="lang-scala hljs" data-trim data-noescape>
+      $1
+      </code></pre>
       """
   'colour 1 (purple)':
     'prefix': '_col1'
