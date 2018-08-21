@@ -445,7 +445,6 @@ hspell
 htop
 http-parser
 hunspell
-hunspell-en
 hunspell-en_AU
 hunspell-en_CA
 hunspell-en_GB
@@ -779,6 +778,7 @@ libnm
 libnm-glib
 libnotify
 libnsl
+libnumbertext
 libodfgen
 libofa
 libogg
@@ -864,7 +864,6 @@ libwpd
 libwpg
 libwps
 libx11
-libx264
 libx86emu
 libxau
 libxaw
@@ -1135,6 +1134,7 @@ python-yaml
 python2
 python2-appdirs
 python2-cairo
+python2-exiv2
 python2-gobject
 python2-gobject2
 python2-olefile
