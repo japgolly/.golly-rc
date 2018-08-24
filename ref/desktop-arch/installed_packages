@@ -74,7 +74,6 @@ bubblewrap
 bzip2
 c-ares
 ca-certificates
-ca-certificates-cacert
 ca-certificates-mozilla
 ca-certificates-utils
 cabal-helper
@@ -576,9 +575,7 @@ hspell
 htop
 http-parser
 hunspell
-hunspell-en
 hunspell-en_AU
-hunspell-en_CA
 hunspell-en_GB
 hunspell-en_US
 hwids
@@ -949,6 +946,7 @@ libnm
 libnm-glib
 libnotify
 libnsl
+libnumbertext
 liboauth
 libodfgen
 libofa
@@ -1051,7 +1049,6 @@ libwpd
 libwpg
 libwps
 libx11
-libx264
 libx86emu
 libxau
 libxaw
@@ -1415,8 +1412,7 @@ python2-six
 python2-unrardll
 python2-webencodings
 python2-xdg
-qca-qt4
-qca-qt5
+qca
 qhull
 qjackctl
 qpdf
