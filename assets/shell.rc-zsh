@@ -25,6 +25,9 @@ setopt inc_append_history
 
 autoload -U colors && colors
 
+source_if_exists /usr/share/fzf/key-bindings.zsh
+source_if_exists /usr/share/fzf/completion.zsh
+
 function git_count_files_in_section() {
   grep "^$2 [^ ]" <<<"$1" | wc -l | sed -e 's/^ *//'
 }

@@ -1,0 +1,3 @@
+https://remysharp.com/2018/08/23/cli-improved
+
+bat diff-so-fancy fzf fd ncdu tldr prettyping

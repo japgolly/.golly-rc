@@ -18,6 +18,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
   source /etc/bash_completion
 fi
 
+source_if_exists /usr/share/fzf/key-bindings.bash
+source_if_exists /usr/share/fzf/completion.bash
+
 export SHELL=/usr/bin/bash
 alias bashrc="vim ~/.golly-rc/assets/shell.rc-bash && echo Reloading... && . ~/.bashrc"
 source "$HOME/.golly-rc/assets/shell.rc-shared"

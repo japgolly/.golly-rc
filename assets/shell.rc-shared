@@ -44,6 +44,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias pie='perl -pi -e'
 alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
+alias ncdu='ncdu --color dark'
 
 alias odx='od -Ax -tx1z'
 
@@ -184,6 +185,7 @@ function convss {
       fi
   fi
 }
+function source_if_exists { [ -e "$1" ] && source "$1" ;}
 
 alias vimkeys='vim ~/.XCompose && fkeyd'
 function fkey { egrep "$@" ~/.XCompose ;}
@@ -296,3 +298,10 @@ if [ -d $HOME/.bloop ]; then
   export PATH="$HOME/.bloop:$PATH"
   function bloopctl { systemctl --user "$@" bloop ;}
 fi
+
+# fzf
+alias preview="fzf --preview 'bat --color always {}'"
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-b:execute(bat --color always {})+abort'"
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-v:execute(vimcat {})+abort'"
+
