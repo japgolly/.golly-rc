@@ -45,3 +45,12 @@
   'colour 4 (orange)':
     'prefix': '_col4'
     'body': '<span style="color:hsl(36, 70%, 50%)">$1</span>'
+  'span with style':
+    'prefix': '_span'
+    'body': '<span style="">$1</span>'
+  'green tick':
+    'prefix': '_tick'
+    'body': '<span style="font-weight:bold; color:#0a0">🗸</span>'
+  'red cross':
+    'prefix': '_cross'
+    'body': '<span style="font-weight:bold; color:#a00">✗</span>'
