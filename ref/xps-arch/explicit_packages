@@ -9,6 +9,7 @@ automake
 aws-cli
 bash
 bash-completion
+bat
 bazel
 bbswitch
 bind-tools
@@ -33,6 +34,7 @@ cryptsetup
 device-mapper
 dhcpcd
 dialog
+diff-so-fancy
 diffutils
 docker
 docker-compose
@@ -49,6 +51,7 @@ entr
 epdfview
 evince
 fakeroot
+fd
 file
 filesystem
 findutils
@@ -56,6 +59,7 @@ firefox
 flatpak
 flex
 fusion-icon0.9
+fzf
 gawk
 gcc
 geckodriver
@@ -141,6 +145,7 @@ mousepad
 mplayer
 mpv
 nano
+ncdu
 net-tools
 netctl
 network-manager-applet
@@ -212,6 +217,7 @@ texinfo
 thunar
 thunar-volman
 tinyproxy
+tldr
 tlp
 tlp-rdw
 tmux

@@ -37,6 +37,7 @@ babl
 baloo
 bash
 bash-completion
+bat
 bazel
 bbswitch
 bc
@@ -103,6 +104,7 @@ desktop-file-utils
 device-mapper
 dhcpcd
 dialog
+diff-so-fancy
 diffutils
 ding-libs
 djvulibre
@@ -142,6 +144,7 @@ expat
 faac
 faad2
 fakeroot
+fd
 ffmpeg
 fftw
 file
@@ -161,6 +164,7 @@ fuse-common
 fuse2
 fuse3
 fusion-icon0.9
+fzf
 gamin
 garcon
 gawk
@@ -957,6 +961,7 @@ mpv
 mtdev
 mypaint-brushes
 nano
+ncdu
 ncurses
 ndctl
 neon
@@ -1125,6 +1130,7 @@ python-sphinx-alabaster-theme
 python-sphinx_rtd_theme
 python-sphinxcontrib-websupport
 python-sqlalchemy
+python-termcolor
 python-texttable
 python-urllib3
 python-websocket-client
@@ -1250,6 +1256,7 @@ thunar-volman
 tinyproxy
 tinyxml
 tinyxml2
+tldr
 tlp
 tlp-rdw
 tmux
