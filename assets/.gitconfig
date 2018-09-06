@@ -8,8 +8,8 @@
    b         = branch
    mt        = mergetool
    l         = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
-   lol       = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d%Creset %s'
-   lola      = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d%Creset %s' --all
+   lol       = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s'
+   lola      = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s' --all
    deleted   = log --diff-filter=D --stat
    sl        = stash list --format='%C(yellow)%h%Creset %ai | %s'
    stashred  = stash --keep-index --include-untracked
