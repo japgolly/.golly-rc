@@ -25,6 +25,7 @@ awoken-icons
 baobab
 bash
 bash-completion
+bat
 bc
 bind-tools
 bison
@@ -51,6 +52,7 @@ cwdiff
 deb2targz
 device-mapper
 dhcpcd
+diff-so-fancy
 diffutils
 dmenu
 dmidecode
@@ -73,6 +75,7 @@ evince
 exo
 fakeroot
 fbset
+fd
 ffmpeg
 file
 filemanager-actions
@@ -84,6 +87,7 @@ flashplugin
 flex
 freerdp
 fusion-icon0.9
+fzf
 gawk
 gconf-editor
 gdb
@@ -221,6 +225,7 @@ nano
 nautilus
 nautilus-open-terminal
 nautilus-sendto
+ncdu
 netctl
 network-manager-applet
 nfs-utils
@@ -276,6 +281,7 @@ postgresql-libs
 postgresql-old-upgrade
 powertop
 ppp
+prettyping
 procps-ng
 profont
 psmisc
@@ -334,6 +340,7 @@ texlive-core
 thunar
 tidy
 tig
+tldr
 tlp
 tmux
 tor
