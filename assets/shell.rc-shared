@@ -302,7 +302,7 @@ if [ -d $HOME/.bloop ]; then
 fi
 
 # fzf
-alias preview="fzf --preview 'bat --color always {}'"
+alias pp="fzf --preview 'bat --color always {}'"
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-b:execute(bat --color always {})+abort'"
