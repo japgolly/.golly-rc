@@ -8,8 +8,8 @@ adwaita-icon-theme
 alsa-lib
 alsa-plugins
 alsa-utils
+ant
 aom
-apache-ant
 apache-tools
 apm
 appstream-glib
@@ -29,6 +29,7 @@ atom
 attica
 attica-qt4
 attr
+audit
 autoconf
 automake
 avahi
@@ -71,6 +72,7 @@ celt
 chromaprint
 chromedriver
 cifs-utils
+clang
 cln
 cloc
 clucene
@@ -78,6 +80,7 @@ cmake
 cntlm
 colord
 colordiff
+compiler-rt
 compiz
 confuse
 containerd
@@ -134,7 +137,6 @@ emerald0.9
 enca
 encfs
 enchant
-entr
 epdfview
 evince
 exiv2
@@ -215,7 +217,6 @@ gobject-introspection-runtime
 goocanvas
 goocanvasmm
 google-chrome
-google-cloud-sdk
 gpart
 gparted
 gperf
@@ -779,6 +780,8 @@ libnice
 libnl
 libnm
 libnm-glib
+libnm-gtk
+libnma
 libnotify
 libnsl
 libnumbertext
@@ -1069,6 +1072,7 @@ postgresql-old-upgrade
 potrace
 powertop
 prelink
+prettyping
 primus
 prison
 procps-ng

@@ -20,6 +20,7 @@ brotli
 bumblebee
 bzip2
 chromedriver
+clang
 cloc
 cmake
 cntlm
@@ -47,7 +48,6 @@ eclipse-java
 emerald-themes-git
 emerald0.9
 encfs
-entr
 epdfview
 evince
 fakeroot
@@ -75,7 +75,6 @@ gnome-terminal
 gnu-netcat
 go
 google-chrome
-google-cloud-sdk
 gpart
 gparted
 graphviz
@@ -180,6 +179,7 @@ postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
 powertop
+prettyping
 primus
 procps-ng
 psmisc
