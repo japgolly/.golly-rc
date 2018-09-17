@@ -1,0 +1,14 @@
+When private keys expire...
+===========================
+
+gpg --list-secret-keys
+gpg --edit-key X
+expire
+2y
+key 1
+expire
+2y
+save
+
+
+KEY SAVE TBD
