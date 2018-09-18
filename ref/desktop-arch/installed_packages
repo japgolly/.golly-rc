@@ -15,9 +15,9 @@ alsa-utils
 android-file-transfer
 android-tools
 android-udev
+ant
 aom
 apache
-apache-ant
 apm
 appstream
 appstream-qt
@@ -43,6 +43,7 @@ attica-qt4
 attr
 aubio
 audio-convert
+audit
 autoconf
 automake
 avahi
@@ -948,6 +949,8 @@ libnice
 libnl
 libnm
 libnm-glib
+libnm-gtk
+libnma
 libnotify
 libnsl
 libnumbertext
