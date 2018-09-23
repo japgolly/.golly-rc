@@ -6,8 +6,8 @@ StartupNotify=true
 Terminal=false
 GenericName=Color temperature adjustment
 Version=1.0
-#X-GNOME-Autostart-enabled=false
 Type=Application
 Categories=Utility;
 Icon=redshift
+Hidden=true
 
