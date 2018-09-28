@@ -10,7 +10,7 @@ android-file-transfer 3.5-1
 android-tools 9.0.0_r3-1
 android-udev 20180715-1
 ant 1.10.5-1
-apache 2.4.34-1
+apache 2.4.35-1
 apm 2.1.2-1
 ardour 5.12-7
 aria2 1.34.0-1
@@ -20,7 +20,7 @@ aspell-en 2018.04.16-1
 atom 1.30.0-1
 audio-convert 0.3.1.1-8
 autoconf 2.69-4
-automake 1.15.1-1
+automake 1.16.1-1
 awoken-icons 2.5.2-2
 baobab 3.30.0-1
 bash 4.4.023-1
@@ -32,10 +32,10 @@ bison 3.0.5-1
 brother-mfc-j5320dw 3.0.1-3
 brotli 1.0.5-2
 bzip2 1.0.6-8
-cabal-install 2.2.0.0-77
+cabal-install 2.2.0.0-83
 calf 0.90.1-2
 calibre 3.31.0-3
-chromedriver 2.41-1
+chromedriver 2.42-1
 cifs-utils 6.8-2
 cloc 1.78-1
 cmake 3.12.2-1
@@ -92,7 +92,7 @@ gawk 4.2.1-1
 gconf-editor 3.0.1-4
 gdb 8.2-2
 geckodriver 0.22.0-1
-gedit 3.30.0-2
+gedit 3.30.1-1
 gettext 0.19.8.1-2
 ghc 8.4.3-1
 ghc-mod 5.8.0.0-35
@@ -102,7 +102,7 @@ git-cola 3.1-1
 gitg 1:3.26.0-2
 glibc 2.28-4
 gnome-keyring 1:3.28.2-1
-gnome-terminal 3.30.0-1
+gnome-terminal 3.30.1-1
 gnome-themes-extra 3.28-1
 gnome-themes-extras 2.22.0-3
 gnuplot 5.2.4-1
@@ -118,13 +118,13 @@ gtk 1.2.10-16
 gtk-engines 2.21.0-3
 gtk-xfce-engine 2.10.1-2
 gtk2 2.24.32-1
-gtk3 3.24.1-1
+gtk3 3.24.1+2+ged57e564a9-1
 gtkglext 1.2.0-11
 gtkmm3 3.22.2+2+g3002ed86-1
 gtkspell 2.0.16-7
 guake 3.3.2-2
 gutenprint 5.2.14-1
-gvfs-mtp 1.38.0+3+g7da3b0ba-1
+gvfs-mtp 1.38.1-1
 gvim 8.1.0374-1
 gzip 1.9-1
 hddtemp 0.3.beta15.53-1
@@ -138,10 +138,10 @@ hwinfo 21.53-1
 hyphen 2.8.8-2
 hyphen-en 2.8.8-2
 id3lib 3.8.3-17
-idris 1.3.0-60
+idris 1.3.0-65
 ifplugd 0.28-15
 iftop 1.0pre4-3
-imagemagick 7.0.8.11-1
+imagemagick 7.0.8.12-1
 inetutils 1.9.4-5
 inkscape 0.92.3-4
 inotify-tools 3.20.1-1
@@ -151,10 +151,10 @@ iproute2 4.18.0-1
 iputils 20180629.f6aac8d-2
 iucode-tool 2.3.1-2
 jack2-dbus 1.9.12-6
-jdk 10.0.1-1
+jdk 11-2
 jdk7-compat 7.55-1
 jdk8 8u152-1
-jfsutils 1.1.15-5
+jfsutils 1.1.15-6
 jq 1.5-6
 jre6-compat 1:6u45-06.1
 kdiff3 0.9.98.git20180916-1
@@ -195,7 +195,7 @@ lm_sensors 3.4.0+5176+dcf23676-1
 logrotate 3.14.0-1
 lsof 4.91-1
 lua 5.3.5-1
-lutris 0.4.19-1
+lutris 0.4.20-1
 lvm2 2.02.181-1
 m4 1.4.18-1
 mailcap 2.1.48+14+g5811758-1
@@ -208,7 +208,7 @@ mcomix 1.2.1-3
 mdadm 4.0-1
 meld 3.19.0-3
 mercurial 4.7.1-1
-mesa 18.2.0-1
+mesa 18.2.1-1
 metacity 3.30.1-1
 meterbridge 0.9.2-2
 mirage 0.9.5.2-5
@@ -222,7 +222,7 @@ multitail 6.4.2-1
 mupen64plus 2.5-12
 mythes-en 20060306-4
 nano 3.1-1
-nautilus 3.30.0-1
+nautilus 3.30.0+20+gce52f6493-1
 nautilus-open-terminal 0.20-3
 nautilus-sendto 3.8.6+14+ge8a3604-1
 ncdu 1.13-1
@@ -239,8 +239,8 @@ noto-fonts-cjk 20170601-2
 noto-fonts-emoji 20180810-1
 noto-fonts-extra 20180322-1
 npm 6.4.1-1
-ntfs-3g 2017.3.23-2
-ntp 4.2.8.p11-2
+ntfs-3g 2017.3.23-3
+ntp 4.2.8.p12-2
 nvidia-390xx 390.87-1
 nvidia-settings 396.51-1
 nvm 0.33.11-1
@@ -248,7 +248,7 @@ nzbget 20.0-1
 octave 4.4.1-2
 odt2txt 0.5-2
 opencl-nvidia 396.54-1
-openshot 2.4.2-2
+openshot 2.4.3-1
 openssh 7.8p1-1
 otf-ipafont 003.03-5
 oxygen-icons 1:5.50.0-1
@@ -275,9 +275,9 @@ plantuml 8059-1
 plasma-meta 5.13-1
 pngout 20150319-1
 poppler-glib 0.67.0-1
-postgresql 10.5-1
-postgresql-docs 10.5-1
-postgresql-libs 10.5-1
+postgresql 10.5-2
+postgresql-docs 10.5-2
+postgresql-libs 10.5-2
 postgresql-old-upgrade 9.6.10-1
 powertop 2.9-1
 ppp 2.4.7-4
@@ -290,7 +290,7 @@ pulseaudio-alsa 2-4
 pv 1.6.6-1
 pwgen 2.08-1
 python2-crcmod 1.7-1
-qjackctl 0.5.3-1
+qjackctl 0.5.4-1
 redshift 1.12-2
 refind-efi 0.11.3-1
 reiserfsprogs 3.6.27-1
@@ -305,7 +305,7 @@ s-nail 14.9.11-1
 sbt 1:1.2.1-1
 screen 4.6.2-1
 sdl2_gfx 1:1.0.4-1
-seahorse 3.30-1
+seahorse 3.30+4+g50146aa9-1
 sed 4.5-1
 sensors-applet 3.0.0+13+g0728426-1
 shadow 4.6-1
@@ -319,7 +319,7 @@ smuxi 1.0.7-1
 soundtouch 2.0.0-1
 speedcrunch 0.12.0-1
 sqlectron-gui 1.29.0-1
-stack 1.7.1-139
+stack 1.7.1-150
 startup-notification 0.12-5
 strace 4.24-1
 sublime-text 2.0.2-4
@@ -337,7 +337,7 @@ terminus-font-ttf 4.46.0-1
 terraform 0.11.8-1
 texinfo 6.5-1
 texlive-core 2018.48566-1
-thunar 1.8.1.11.gf5147445-1
+thunar 1.8.2-1
 tidy 5.6.0-1
 tig 2.4.1-1
 tldr 0.4.4-3
@@ -378,7 +378,7 @@ vim-systemd 20170410-1
 vimpager 2.06-3
 visual-studio-code 1.16.1-1
 visualvm 1.4.1-1
-vlc 3.0.4-3
+vlc 3.0.4-4
 wget 1.19.5-1
 which 2.21-2
 wine 3.16-1
@@ -425,7 +425,7 @@ xorg-xmodmap 1.0.9-2
 xorg-xrandr 1.5.0-1
 xterm 337-1
 yaourt 1.9-1
-yay 8.1115-1
+yay 8.1139-1
 youtube-dl 2018.09.10-1
 zeal 1:0.6.0-1
 zeromq 4.2.5-1

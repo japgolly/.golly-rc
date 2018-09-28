@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=Color temperature adjustment tool
 Name=Redshift
-Exec=redshift -l -33.8683:151.2086
+Exec=redshift -l -37.814:144.96332
 StartupNotify=true
 Terminal=false
 GenericName=Color temperature adjustment
