@@ -107,7 +107,7 @@ function find_name {
     name="*$1$name"
     shift
   fi
-  find "$dir" "$@" -type f -name "$name" | sort
+  find -L "$dir" "$@" -type f -name "$name" | sort
 }
 alias finds="find_name '*.scala'"
 alias findj="find_name '*.java'"
@@ -308,3 +308,9 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-b:execute(bat --color always {})+abort'"
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-v:execute(vimcat {})+abort'"
 
+# Dir aliases
+[ -e "$HOME/projects/others" ] && export others="$HOME/projects/others" && alias others="cd '$others'"
+[ -e "$HOME/projects/forks"  ] && export  forks="$HOME/projects/forks"  && alias  forks="cd '$forks'"
+[ -e "$HOME/projects/public" ] && export    pub="$HOME/projects/public" && alias    pub="cd '$pub'"
+[ -e "$pub/scalajs-react"    ] && export    sjr="$pub/scalajs-react"    && alias    sjr="cd '$sjr'"
+[ -e "$pub/test-state"       ] && export     ts="$pub/test-state"       && alias     ts="cd '$ts'"
