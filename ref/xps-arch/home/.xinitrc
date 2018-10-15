@@ -32,7 +32,10 @@ fi
 
 #systemctl --user start xfce4-notifyd.service
 
+# Sydney
 #redshift -l -33.8683:151.2086 &
+# Melbourne
+redshift -l -37.814:144.96332 &
 
 setxkbmap -option "compose:prsc"
 
