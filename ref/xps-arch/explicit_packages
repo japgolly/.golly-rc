@@ -24,6 +24,7 @@ clang
 cloc
 cmake
 cntlm
+code
 colordiff
 compiz
 coreutils
@@ -184,6 +185,7 @@ primus
 procps-ng
 psmisc
 pygmentize
+redshift
 reiserfsprogs
 renameutils
 ristretto
@@ -237,7 +239,6 @@ usbutils
 util-linux
 vi
 vimpager
-visual-studio-code
 volumeicon
 volwheel
 vulkan-intel

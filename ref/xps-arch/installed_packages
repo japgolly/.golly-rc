@@ -78,6 +78,7 @@ cloc
 clucene
 cmake
 cntlm
+code
 colord
 colordiff
 compiler-rt
@@ -233,6 +234,7 @@ gsettings-desktop-schemas
 gsfonts
 gsl
 gsm
+gspell
 gssproxy
 gst-plugins-bad
 gst-plugins-base
@@ -832,6 +834,7 @@ libssh
 libssh2
 libstaroffice
 libstemmer
+libsynctex
 libsystemd
 libtasn1
 libteam
@@ -1179,6 +1182,7 @@ re2
 readline
 recode
 redland
+redshift
 reiserfsprogs
 renameutils
 rest
@@ -1300,7 +1304,6 @@ vid.stab
 vim-runtime
 vimpager
 virtualgl
-visual-studio-code
 volume_key
 volumeicon
 volwheel
@@ -1333,6 +1336,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xdg-dbus-proxy
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-utils
