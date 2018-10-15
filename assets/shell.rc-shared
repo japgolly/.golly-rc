@@ -16,6 +16,7 @@ alias la='ls -la'
 alias ll='ls -l'
 alias lsa='ls -a'
 alias lld='ll --group-directories-first'
+alias tree='tree -I target'
 
 #alias svnstnew='svn st --ignore-externals | fgrep ? | cut -b8-'
 #alias svnste='svn st --ignore-externals | grep -v ^X'
