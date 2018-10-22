@@ -1,0 +1,12 @@
+[Unit]
+Description=Lock session
+Before=sleep.target suspend.target hibernate.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/physlock -ds
+ExecStartPost=/usr/bin/sleep 1
+
+[Install]
+WantedBy=sleep.target suspend.target hibernate.target
+

@@ -165,11 +165,13 @@ package-query
 pacman
 parallel
 patch
+pbzip2
 pciutils
 pcmciautils
 perl
 pgadmin3
 phantomjs
+physlock
 pigz
 pkgconf
 pkgstats
@@ -198,6 +200,7 @@ screen
 sed
 shadow
 slack
+slock
 smartmontools
 smplayer
 smuxi
