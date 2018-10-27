@@ -279,6 +279,7 @@ gperf
 gpgme
 gpm
 gptfdisk
+graal-bin
 graphene
 graphicsmagick
 graphite
@@ -403,6 +404,7 @@ haskell-generic-deriving
 haskell-generics-sop
 haskell-ghc-paths
 haskell-ghc-syb-utils
+haskell-githash
 haskell-gitrev
 haskell-glob
 haskell-hackage-security
@@ -434,6 +436,7 @@ haskell-iproute
 haskell-kan-extensions
 haskell-lens
 haskell-libffi
+haskell-libyaml
 haskell-lifted-async
 haskell-lifted-base
 haskell-logict
