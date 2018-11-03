@@ -10,7 +10,6 @@ aws-cli
 bash
 bash-completion
 bat
-bazel
 bbswitch
 bind-tools
 binutils
@@ -32,6 +31,7 @@ coursier
 cowsay
 cpulimit
 cpupower
+crda
 cryptsetup
 device-mapper
 dhcpcd
@@ -103,7 +103,7 @@ iotop
 iproute2
 iputils
 iucode-tool
-jdk
+jdk-openjdk
 jdk8
 jfsutils
 jmeter

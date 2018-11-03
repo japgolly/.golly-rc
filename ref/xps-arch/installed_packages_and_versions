@@ -16,7 +16,7 @@ appstream-glib 0.7.14-1
 apr 1.6.5-1
 apr-util 1.6.1-3
 arandr 0.1.9-2
-archlinux-keyring 20181018-1
+archlinux-keyring 20181031-1
 argon2 20171227-3
 asar 0.14.5-1
 asciidoc 8.6.10-1
@@ -38,7 +38,6 @@ babl 0.1.58-1
 bash 4.4.023-1
 bash-completion 2.8-1
 bat 0.8.0-1
-bazel 0.18.0-1
 bbswitch 0.8-174
 bc 1.07.1-1
 bind-tools 9.13.3-2
@@ -88,7 +87,8 @@ cowsay 3.04-1
 cpulimit 1:0.2-1
 cpupower 4.19-1
 cracklib 2.9.6-1
-cryptsetup 2.0.4-1
+crda 4.14-1
+cryptsetup 2.0.5-1
 cups 2.2.8-3
 cups-filters 1.21.3-1
 curl 7.61.1-3
@@ -482,12 +482,14 @@ jasper 2.0.14-1
 java-environment-common 3-1
 java-runtime-common 3-1
 jbig2dec 0.15-1
-jdk 11-2
+jdk-openjdk 11.0.1.u13-2
 jdk8 8u162-1
 jemalloc 1:5.1.0-1
 jfsutils 1.1.15-6
 jmeter 5.0-1
 jq 1.5-6
+jre-openjdk 11.0.1.u13-2
+jre-openjdk-headless 11.0.1.u13-2
 jre8-openjdk-headless 8.u192-1
 js 24.2.0-4
 js17 17.0.0-4
@@ -692,7 +694,7 @@ libffi 3.2.1-2
 libfontenc 1.1.3-2
 libfreehand 0.1.2-1
 libftdi 1.4-2
-libgcrypt 1.8.3-1
+libgcrypt 1.8.4-1
 libgdiplus 5.6-1
 libgee 0.20.1-2
 libgexiv2 0.10.8-2
@@ -741,6 +743,7 @@ libmspub 0.1.4-3
 libmwaw 0.3.14-1
 libmypaint 1.3.0-6
 libndp 1.7-1
+libnet 1.1.6-3
 libnewt 0.52.20-2
 libnftnl 1.1.1-1
 libnghttp2 1.34.0-1
@@ -1015,7 +1018,7 @@ pigz 2.4-1
 pinentry 1.1.0-4
 pipewire 0.2.3-1
 pixman 0.34.0-1
-pkgconf 1.5.3-1
+pkgconf 1.5.4-1
 pkgstats 2.3-9
 plantuml 1.2018.12-1
 pngout 20150319-1
@@ -1268,6 +1271,7 @@ wget 1.19.5-1
 which 2.21-2
 wildmidi 0.4.2-1
 wine 3.19-1
+wireless-regdb 2018.05.31-2
 woff2 1.0.2-1
 wpa_supplicant 1:2.6-12
 wxgtk-common 3.0.4-2

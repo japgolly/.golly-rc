@@ -38,7 +38,6 @@ babl
 bash
 bash-completion
 bat
-bazel
 bbswitch
 bc
 bind-tools
@@ -88,6 +87,7 @@ cowsay
 cpulimit
 cpupower
 cracklib
+crda
 cryptsetup
 cups
 cups-filters
@@ -482,12 +482,14 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
-jdk
+jdk-openjdk
 jdk8
 jemalloc
 jfsutils
 jmeter
 jq
+jre-openjdk
+jre-openjdk-headless
 jre8-openjdk-headless
 js
 js17
@@ -741,6 +743,7 @@ libmspub
 libmwaw
 libmypaint
 libndp
+libnet
 libnewt
 libnftnl
 libnghttp2
@@ -1268,6 +1271,7 @@ wget
 which
 wildmidi
 wine
+wireless-regdb
 woff2
 wpa_supplicant
 wxgtk-common
