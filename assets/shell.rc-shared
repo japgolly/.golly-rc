@@ -202,13 +202,33 @@ function fkeyd {
   export PATH="$JAVA_HOME/bin:$PATH"
   [ "$1" = --quiet ] || java -version
 }
-[ -e /usr/lib/jvm/java-9-jdk ] && function java9 {
-  export JAVA_HOME=/usr/lib/jvm/java-9-jdk
+[ -e /usr/lib/jvm/java-8-openjdk ] && function java8 {
+  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
   export PATH="$JAVA_HOME/bin:$PATH"
   [ "$1" = --quiet ] || java -version
 }
-[ -e /usr/lib/jvm/java-10-jdk ] && function java10 {
-  export JAVA_HOME=/usr/lib/jvm/java-10-jdk
+[ -e /usr/lib/jvm/java-9-openjdk ] && function java9 {
+  export JAVA_HOME=/usr/lib/jvm/java-9-openjdk
+  export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
+}
+[ -e /usr/lib/jvm/java-10-openjdk ] && function java10 {
+  export JAVA_HOME=/usr/lib/jvm/java-10-openjdk
+  export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
+}
+[ -e /usr/lib/jvm/java-11-openjdk ] && function java11 {
+  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
+  export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
+}
+[ -e /usr/lib/jvm/java-8-graal ] && function graal {
+  export JAVA_HOME=/usr/lib/jvm/java-8-graal
+  export PATH="$JAVA_HOME/bin:$PATH"
+  [ "$1" = --quiet ] || java -version
+}
+[ -e $HOME/Apps/graalvm-ee ] && function graal-ee {
+  export JAVA_HOME=$HOME/Apps/graalvm-ee
   export PATH="$JAVA_HOME/bin:$PATH"
   [ "$1" = --quiet ] || java -version
 }
