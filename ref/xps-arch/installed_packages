@@ -80,6 +80,7 @@ colordiff
 compiler-rt
 compiz
 confuse
+containerd
 coreutils
 coursier
 cowsay
@@ -1147,6 +1148,7 @@ rubberband
 ruby
 rubygems
 run-parts
+runc
 rust
 s-nail
 sbc
