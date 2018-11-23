@@ -45,8 +45,10 @@ coreutils
 coursier
 cpulimit
 cpupower
+crda
 cronie
 cryptsetup
+ctop-bin
 cups
 cwdiff
 deb2targz
@@ -152,7 +154,7 @@ iproute2
 iputils
 iucode-tool
 jack2-dbus
-jdk
+jdk-openjdk
 jdk7-compat
 jdk8
 jfsutils
@@ -288,6 +290,7 @@ profont
 psmisc
 pulseaudio
 pulseaudio-alsa
+pup-bin
 pv
 pwgen
 python2-crcmod

@@ -111,8 +111,10 @@ coursier
 cpulimit
 cpupower
 cracklib
+crda
 cronie
 cryptsetup
+ctop-bin
 cups
 cups-filters
 curl
@@ -248,6 +250,7 @@ glib2-docs
 glibc
 glibmm
 glpk
+glslang
 glu
 gmp
 gnome-autoar
@@ -622,11 +625,13 @@ jasper
 java-environment-common
 java-runtime-common
 jbig2dec
-jdk
+jdk-openjdk
 jdk7-compat
 jdk8
 jfsutils
 jq
+jre-openjdk
+jre-openjdk-headless
 jre6-compat
 js
 js17
@@ -796,6 +801,7 @@ lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
 lib32-lm_sensors
+lib32-lz4
 lib32-mesa
 lib32-ncurses
 lib32-nettle
@@ -812,6 +818,7 @@ lib32-util-linux
 lib32-wayland
 lib32-xz
 lib32-zlib
+lib32-zstd
 libabw
 libaec
 libaio
@@ -946,6 +953,7 @@ libmypaint
 libmythes
 libnautilus-extension
 libndp
+libnet
 libnewt
 libnftnl
 libnghttp2
@@ -1323,6 +1331,7 @@ psmisc
 psutils
 pulseaudio
 pulseaudio-alsa
+pup-bin
 pv
 pwgen
 pygobject-devel
@@ -1498,6 +1507,7 @@ serd
 serf
 setconf
 sg3_utils
+shaderc
 shadow
 shared-mime-info
 sharutils
@@ -1524,6 +1534,7 @@ spandsp
 speedcrunch
 speex
 speexdsp
+spirv-tools
 sqlectron-gui
 sqlite
 sratom
@@ -1635,6 +1646,7 @@ which
 wildmidi
 wine
 winetricks
+wireless-regdb
 woff2
 wpa_supplicant
 wxgtk-common
