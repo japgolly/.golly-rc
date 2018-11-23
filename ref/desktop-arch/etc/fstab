@@ -8,18 +8,13 @@
 # "Using mount option discard disables all write cache as well as make two real writes per flush, and flush will be used for all writes. The penalty is degration by a factor 10 in performance"
 
 /dev/sda1	/boot/efi 	vfat	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
-/dev/sda2	/			ext4	rw,noatime,data=ordered	0 1
-/dev/sdc1	/home		ext4	rw,noatime,data=ordered	0 2
-/dev/sda3	none		swap	defaults,noatime	  	0 0
+/dev/sda2	/		ext4	rw,noatime,data=ordered		0 1
+/dev/sdc1	/var		ext4	rw,noatime,data=ordered		0 2
+/dev/sdc2	none		swap	defaults,noatime	  	0 0
+/dev/sdd1	/home		ext4	rw,noatime,data=ordered		0 2
 tmpfs		/tmp		tmpfs	nodev,nosuid			0 0
 
 nas:/volume1/public    /mnt/nas/public    nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
 nas:/volume1/Downloads /mnt/nas/downloads nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
 #nas:/volume1/golly     /mnt/nas/golly     nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
 
-#/dev/sda1: UUID="52FD-4575" TYPE="vfat" PARTLABEL="EFIBOOT" PARTUUID="e497411f-3fd3-4b7f-998a-37989472033a"
-#/dev/sda2: UUID="0ae1bdc0-097a-4a9a-8521-acef729f3672" TYPE="ext4" PARTLABEL="SYSTEM" PARTUUID="ff1e1d62-bacc-4685-a97f-3f358833247a"
-#/dev/sda3: UUID="5ff8e4ec-6a67-426c-b74f-b92357d41a13" TYPE="swap" PARTLABEL="SWAP" PARTUUID="461ff884-81b9-43e2-98d2-d1f6e865bf87"
-#/dev/sdc1: LABEL="HOME" UUID="c5261a27-f1de-4bc9-96fb-6d0eec9be4e1" TYPE="ext4" PARTUUID="90d1d8d0-68fb-4c4f-b390-54385a847cb5"
-
-# UUID="c5261a27-f1de-4bc9-96fb-6d0eec9be4e1" /home		ext4	rw,noatime,discard,data=ordered	0 2
