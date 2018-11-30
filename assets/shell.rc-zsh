@@ -78,6 +78,7 @@ bindkey '^[.' insert-last-word # alt-.
 
 source_if_exists /usr/share/fzf/completion.zsh
 source_if_exists /usr/share/fzf/key-bindings.zsh
+complete -C aws_completer aws
 
 # cp /etc/blah<ALT-Q>
 # cp /etc/blah /etc/blah
@@ -96,13 +97,13 @@ bindkey '^[q' zle-copy_last_word_on_current_line
 export WORDCHARS='*?_[]~=&!#$%^(){}'
 
 # RVM
-[ -e "$HOME/.rvm/scripts/zsh/Completion" ] && fpath=($HOME/.rvm/scripts/zsh/Completion $fpath)
+#[ -e "$HOME/.rvm/scripts/zsh/Completion" ] && fpath=($HOME/.rvm/scripts/zsh/Completion $fpath)
 
 # Google Cloud
-[ -e /opt/google-cloud-sdk/path.zsh.inc ] && source /opt/google-cloud-sdk/path.zsh.inc
-[ -e /opt/google-cloud-sdk/completion.zsh.inc ] && source /opt/google-cloud-sdk/completion.zsh.inc
-which kubectl &>/dev/null
-[ $? -eq 0 ] && source <(kubectl completion zsh)
+#[ -e /opt/google-cloud-sdk/path.zsh.inc ] && source /opt/google-cloud-sdk/path.zsh.inc
+#[ -e /opt/google-cloud-sdk/completion.zsh.inc ] && source /opt/google-cloud-sdk/completion.zsh.inc
+#which kubectl &>/dev/null
+#[ $? -eq 0 ] && source <(kubectl completion zsh)
 
 # Rustup
 #which rustup &>/dev/null
