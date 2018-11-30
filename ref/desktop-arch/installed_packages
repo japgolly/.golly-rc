@@ -1,3 +1,4 @@
+Sqlectron
 a2ps
 a52dec
 aalib
@@ -31,6 +32,7 @@ aria2
 aribb24
 arm
 arpack
+asar
 asciidoc
 aspell
 aspell-en
@@ -49,6 +51,7 @@ autoconf
 automake
 avahi
 awoken-icons
+aws-cli
 babl
 baloo
 baobab
@@ -629,6 +632,7 @@ jdk-openjdk
 jdk7-compat
 jdk8
 jfsutils
+jprofiler
 jq
 jre-openjdk
 jre-openjdk-headless
@@ -954,7 +958,9 @@ libmythes
 libnautilus-extension
 libndp
 libnet
+libnetfilter_conntrack
 libnewt
+libnfnetlink
 libnftnl
 libnghttp2
 libnice
@@ -1140,7 +1146,6 @@ mailcap
 make
 man-db
 man-pages
-marp
 maven
 mcomix
 mcpp
@@ -1345,10 +1350,12 @@ python-anytree
 python-appdirs
 python-babel
 python-beaker
+python-botocore
 python-cached-property
 python-cairo
 python-chardet
 python-colorama
+python-dateutil
 python-dbus
 python-dbus-common
 python-docker
@@ -1362,6 +1369,7 @@ python-httplib2
 python-idna
 python-imagesize
 python-jinja
+python-jmespath
 python-jsonschema
 python-lxml
 python-mako
@@ -1370,6 +1378,7 @@ python-olefile
 python-packaging
 python-pbr
 python-pillow
+python-pyasn1
 python-pygments
 python-pyparsing
 python-pyqt4
@@ -1377,6 +1386,8 @@ python-pyqt5
 python-pytz
 python-pyzmq
 python-requests
+python-rsa
+python-s3transfer
 python-setuptools
 python-sip
 python-sip-pyqt5
