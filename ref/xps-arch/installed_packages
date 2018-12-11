@@ -125,6 +125,7 @@ eclipse-java
 egl-wayland
 eglexternalplatform
 electron
+electron2
 elfutils
 emerald-themes-git
 emerald0.9
@@ -1128,6 +1129,7 @@ reiserfsprogs
 renameutils
 rest
 rhash
+ripgrep
 ristretto
 rpcbind
 rsync
