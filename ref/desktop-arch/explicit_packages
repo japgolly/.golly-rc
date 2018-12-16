@@ -41,6 +41,7 @@ chromedriver
 cifs-utils
 cloc
 cmake
+code
 colordiff
 compiz
 coreutils
@@ -382,7 +383,6 @@ util-linux
 vi
 vim-systemd
 vimpager
-visual-studio-code
 visualvm
 vlc
 wget

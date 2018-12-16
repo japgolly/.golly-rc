@@ -102,6 +102,7 @@ cln
 cloc
 clucene
 cmake
+code
 colord
 colordiff
 compiler-rt
@@ -167,6 +168,7 @@ efivar
 egl-wayland
 eglexternalplatform
 electron
+electron2
 elfutils
 emacs
 emerald0.9
@@ -448,6 +450,7 @@ haskell-lifted-base
 haskell-logict
 haskell-math-functions
 haskell-megaparsec
+haskell-megaparsec6
 haskell-memory
 haskell-microlens
 haskell-microlens-mtl
@@ -1485,6 +1488,7 @@ reiserfsprogs
 renameutils
 rest
 rhash
+ripgrep
 rkt
 rlwrap
 rpcbind
@@ -1638,7 +1642,6 @@ vid.stab
 vim-runtime
 vim-systemd
 vimpager
-visual-studio-code
 visualvm
 vlc
 volume_key
