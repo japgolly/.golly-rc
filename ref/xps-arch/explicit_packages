@@ -1,3 +1,4 @@
+Sqlectron
 ack
 acpi
 alsa-utils
@@ -205,8 +206,8 @@ slock
 smartmontools
 smplayer
 smuxi
+socat
 speedcrunch
-sqlectron-gui
 sshfs
 stack
 steam

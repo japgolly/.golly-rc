@@ -1,3 +1,4 @@
+Sqlectron
 a2ps
 a52dec
 aalib
@@ -1164,6 +1165,7 @@ smplayer
 smuxi
 smuxi-server
 snappy
+socat
 solid
 sonnet
 sound-theme-freedesktop
@@ -1175,7 +1177,6 @@ speedcrunch
 speex
 speexdsp
 spirv-tools
-sqlectron-gui
 sqlite
 srt
 sshfs
