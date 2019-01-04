@@ -96,19 +96,6 @@ bindkey '^[q' zle-copy_last_word_on_current_line
 
 export WORDCHARS='*?_[]~=&!#$%^(){}'
 
-# RVM
-#[ -e "$HOME/.rvm/scripts/zsh/Completion" ] && fpath=($HOME/.rvm/scripts/zsh/Completion $fpath)
-
-# Google Cloud
-#[ -e /opt/google-cloud-sdk/path.zsh.inc ] && source /opt/google-cloud-sdk/path.zsh.inc
-#[ -e /opt/google-cloud-sdk/completion.zsh.inc ] && source /opt/google-cloud-sdk/completion.zsh.inc
-#which kubectl &>/dev/null
-#[ $? -eq 0 ] && source <(kubectl completion zsh)
-
-# Rustup
-#which rustup &>/dev/null
-#[ $? -eq 0 ] && source <(rustup completions zsh)
-
 # Distro-specific
 source "$HOME/.golly-rc/lib/distro.sh"
 case "$(distro)" in
