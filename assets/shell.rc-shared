@@ -171,6 +171,21 @@ tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
     done
   fi
 }
+function crap {
+  if [ $# -eq 0 ]; then
+    echo "Nothing to do."
+  else
+    crap=~/crap
+    time=$(date +%Y%m%d-%H%M%S)
+    for f in "$@"; do
+      g="$(basename "$f")"
+      name="${g%.*}"
+      ext="${g##*.}"
+      tgt="$crap/$name-$time.$ext"
+      cp -vp "$f" "$tgt"
+    done
+  fi
+}
 function mvorig {
   find -name '*.orig' -exec mv -i {} /tmp \;
 }
