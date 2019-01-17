@@ -177,6 +177,7 @@ geckodriver
 gegl
 gegl02
 geoclue2
+geocode-glib
 geoip
 geoip-database
 gettext
@@ -717,6 +718,7 @@ libid3tag
 libidn
 libidn2
 libiec61883
+libimagequant
 libimobiledevice
 libinput
 libixion
