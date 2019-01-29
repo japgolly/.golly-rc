@@ -232,6 +232,7 @@ gsfonts
 gsl
 gsm
 gspell
+gssdp
 gssproxy
 gst-plugins-bad
 gst-plugins-base
@@ -253,6 +254,8 @@ gtkspell
 gtkspell3
 gts
 guile
+gupnp
+gupnp-igd
 gvfs
 gvim
 gzip
@@ -310,6 +313,7 @@ haskell-echo
 haskell-ed25519
 haskell-either
 haskell-enclosed-exceptions
+haskell-erf
 haskell-exceptions
 haskell-extra
 haskell-fast-logger
