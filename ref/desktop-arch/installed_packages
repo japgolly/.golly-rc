@@ -232,7 +232,7 @@ geckodriver
 gedit
 gegl
 gegl02
-geoclue2
+geoclue
 geocode-glib
 geoip
 geoip-database
@@ -299,6 +299,7 @@ gsfonts
 gsl
 gsm
 gspell
+gssdp
 gssproxy
 gst-plugins-bad
 gst-plugins-base
@@ -323,6 +324,8 @@ gts
 guake
 guile
 guile2.0
+gupnp
+gupnp-igd
 gutenprint
 gvfs
 gvfs-mtp
@@ -397,6 +400,7 @@ haskell-ed25519
 haskell-edit-distance
 haskell-either
 haskell-enclosed-exceptions
+haskell-erf
 haskell-errors
 haskell-exceptions
 haskell-extra
@@ -520,6 +524,7 @@ haskell-shelly
 haskell-silently
 haskell-smallcheck
 haskell-socks
+haskell-sop-core
 haskell-split
 haskell-src-exts
 haskell-src-exts-util
@@ -850,10 +855,12 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
+libcerf
 libcmis
 libconfig
 libcroco
 libcups
+libcurl-compat
 libdaemon
 libdatrie
 libdbusmenu-qt4
@@ -918,8 +925,10 @@ libical
 libice
 libid3tag
 libidn
+libidn11
 libidn2
 libiec61883
+libimagequant
 libimobiledevice
 libinput
 libirman
@@ -1413,6 +1422,7 @@ python2-apsw
 python2-cairo
 python2-chardet
 python2-crcmod
+python2-css-parser
 python2-cssselect
 python2-cssutils
 python2-dateutil
@@ -1528,6 +1538,7 @@ shared-mime-info
 sharutils
 siege
 sip
+slack-desktop
 slang
 sloccount
 smartmontools
