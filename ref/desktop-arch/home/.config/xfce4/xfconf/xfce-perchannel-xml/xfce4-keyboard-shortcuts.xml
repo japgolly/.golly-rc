@@ -38,15 +38,6 @@
       <property name="&lt;Super&gt;equal" type="string" value="/usr/bin/speedcrunch"/>
       <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;backslash" type="string" value="systemctl --user start xfce4-notifyd.service"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Ahead by 5 seconds&quot;"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Back by 5 seconds&quot;"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;Up" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Up&quot;"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;Down" type="string" value="/home/golly/Apps/foobar2000/foobar &quot;/command:Down&quot;"/>
-      <property name="&lt;Alt&gt;XF86AudioPlay" type="string" value="/home/golly/Apps/foobar2000/foobar /hide"/>
-      <property name="XF86AudioNext" type="string" value="/home/golly/Apps/foobar2000/foobar /next"/>
-      <property name="XF86AudioPlay" type="string" value="/home/golly/Apps/foobar2000/foobar /playpause"/>
-      <property name="XF86AudioPrev" type="string" value="/home/golly/Apps/foobar2000/foobar /prev"/>
-      <property name="&lt;Super&gt;XF86AudioPlay" type="string" value="/home/golly/Apps/foobar2000/foobar /show"/>
       <property name="&lt;Alt&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
     </property>
   </property>
