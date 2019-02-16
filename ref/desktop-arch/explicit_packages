@@ -336,6 +336,7 @@ swi-prolog
 sysfsutils
 sysstat
 systemd-sysvcompat
+t7-daw
 taglib
 tar
 tarsnap

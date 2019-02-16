@@ -861,6 +861,7 @@ libconfig
 libcroco
 libcups
 libcurl-compat
+libcurl-gnutls
 libdaemon
 libdatrie
 libdbusmenu-qt4
@@ -1043,7 +1044,6 @@ libssh2
 libstaroffice
 libstemmer
 libsynctex
-libsystemd
 libtar
 libtasn1
 libteam
@@ -1158,6 +1158,7 @@ mailcap
 make
 man-db
 man-pages
+mathjax
 maven
 mcomix
 mcpp
@@ -1483,6 +1484,7 @@ qt5-svg
 qt5-tools
 qt5-translations
 qt5-webchannel
+qt5-webengine
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
@@ -1580,9 +1582,11 @@ sysfsutils
 syslinux
 sysstat
 systemd
+systemd-libs
 systemd-sysvcompat
 systemsettings
 t1lib
+t7-daw
 taglib
 talloc
 tar
