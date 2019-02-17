@@ -123,6 +123,8 @@ dwdiff
 e2fsprogs
 eclipse-common
 eclipse-java
+efibootmgr
+efivar
 egl-wayland
 eglexternalplatform
 electron
@@ -176,7 +178,8 @@ gdk-pixbuf2
 geckodriver
 gegl
 gegl02
-geoclue2
+gendesk
+geoclue
 geocode-glib
 geoip
 geoip-database
@@ -1132,6 +1135,7 @@ readline
 recode
 redland
 redshift
+refind-efi
 reiserfsprogs
 renameutils
 rest
