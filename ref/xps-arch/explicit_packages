@@ -189,6 +189,7 @@ primus
 procps-ng
 psmisc
 pygmentize
+redis
 redshift
 refind-efi
 reiserfsprogs
@@ -222,9 +223,12 @@ tarsnap
 terraform
 testssl.sh
 texinfo
+texlive-core
 thunar
 thunar-volman
 tinyproxy
+tla-toolbox
+tla-tools
 tldr
 tlp
 tlp-rdw

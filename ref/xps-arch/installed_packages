@@ -800,6 +800,7 @@ libseccomp
 libsecret
 libshout
 libsigc++
+libsigsegv
 libsm
 libsndfile
 libsodium
@@ -814,7 +815,6 @@ libssh2
 libstaroffice
 libstemmer
 libsynctex
-libsystemd
 libtasn1
 libteam
 libthai
@@ -1133,6 +1133,7 @@ rasqal
 re2
 readline
 recode
+redis
 redland
 redshift
 refind-efi
@@ -1201,6 +1202,7 @@ suitesparse
 swi-prolog
 sysfsutils
 systemd
+systemd-libs
 systemd-sysvcompat
 t1lib
 taglib
@@ -1212,12 +1214,16 @@ terraform
 testssl.sh
 tevent
 texinfo
+texlive-bin
+texlive-core
 thin-provisioning-tools
 thunar
 thunar-volman
 tinyproxy
 tinyxml
 tinyxml2
+tla-toolbox
+tla-tools
 tldr
 tlp
 tlp-rdw
@@ -1409,3 +1415,4 @@ zsh
 zsh-completions
 zstd
 zvbi
+zziplib
