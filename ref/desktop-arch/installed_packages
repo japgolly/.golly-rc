@@ -155,7 +155,6 @@ double-conversion
 downgrade
 drkonqi
 dropbox
-dssi
 dvgrab
 dwdiff
 e2fsprogs
@@ -639,6 +638,7 @@ jbig2dec
 jdk-openjdk
 jdk7-compat
 jdk8
+jemalloc
 jfsutils
 jprofiler
 jq
@@ -1493,6 +1493,7 @@ rasqal
 re2
 readline
 recode
+redis
 redland
 redshift
 refind-efi
@@ -1576,6 +1577,7 @@ subversion
 sudo
 suil
 suitesparse
+sundials
 swi-prolog
 syntax-highlighting
 sysfsutils
@@ -1607,6 +1609,8 @@ thunar
 tidy
 tig
 tinyxml2
+tla-toolbox
+tla-tools
 tldr
 tlp
 tmux
@@ -1736,7 +1740,6 @@ xorg-fonts-encodings
 xorg-fonts-misc
 xorg-iceauth
 xorg-luit
-xorg-mkfontdir
 xorg-mkfontscale
 xorg-server
 xorg-server-common

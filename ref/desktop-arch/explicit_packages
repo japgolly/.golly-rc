@@ -298,6 +298,7 @@ pv
 pwgen
 python2-crcmod
 qjackctl
+redis
 redshift
 refind-efi
 reiserfsprogs
@@ -349,6 +350,8 @@ texlive-core
 thunar
 tidy
 tig
+tla-toolbox
+tla-tools
 tldr
 tlp
 tmux
