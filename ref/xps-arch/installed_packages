@@ -5,6 +5,7 @@ aalib
 ack
 acl
 acpi
+adobe-source-code-pro-fonts
 adwaita-icon-theme
 alsa-lib
 alsa-plugins
@@ -135,6 +136,7 @@ emerald0.9
 enca
 encfs
 enchant
+entr
 epdfview
 evince
 exiv2
@@ -1078,6 +1080,7 @@ python-jmespath
 python-jsonschema
 python-lxml
 python-mako
+python-markdown
 python-markupsafe
 python-packaging
 python-pyasn1
@@ -1349,7 +1352,6 @@ xorg-fonts-encodings
 xorg-fonts-misc
 xorg-iceauth
 xorg-luit
-xorg-mkfontdir
 xorg-mkfontscale
 xorg-server
 xorg-server-common
