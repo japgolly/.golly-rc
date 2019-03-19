@@ -6,6 +6,7 @@ abs
 accountsservice
 ack
 acl
+adobe-source-code-pro-fonts
 adwaita-icon-theme
 aha
 alsa-lib
@@ -317,6 +318,7 @@ gtkglext
 gtkmm
 gtkmm3
 gtksourceview3
+gtksourceview4
 gtkspell
 gtkspell3
 gts
@@ -324,6 +326,7 @@ guake
 guile
 guile2.0
 gupnp
+gupnp-dlna
 gupnp-igd
 gutenprint
 gvfs
@@ -859,6 +862,7 @@ libcerf
 libcmis
 libconfig
 libcroco
+libcue
 libcups
 libcurl-compat
 libcurl-gnutls
@@ -913,6 +917,8 @@ libglvnd
 libgme
 libgnome-keyring
 libgpg-error
+libgrss
+libgsf
 libgssglue
 libgtop
 libgudev
@@ -932,6 +938,7 @@ libiec61883
 libimagequant
 libimobiledevice
 libinput
+libiptcdata
 libirman
 libixion
 libjpeg-turbo
@@ -993,6 +1000,7 @@ libomxil-bellagio
 libopenshot
 libopenshot-audio
 liborcus
+libosinfo
 libotf
 libpagemaker
 libpaper
@@ -1014,6 +1022,8 @@ libpwquality
 libqalculate
 libqmi
 libquicktime
+libquvi
+libquvi-scripts
 libqxp
 libqzeitgeist
 libraqm
@@ -1144,6 +1154,11 @@ lsof
 lua
 lua51
 lua52
+lua52-bitop
+lua52-expat
+lua52-lpeg
+lua52-luajson
+lua52-socket
 lutris
 lv2
 lvm2
@@ -1255,6 +1270,7 @@ openssl-1.0
 optipng
 opus
 orc
+osinfo-db
 otf-ipafont
 oxygen
 oxygen-icons
@@ -1386,6 +1402,7 @@ python-jmespath
 python-jsonschema
 python-lxml
 python-mako
+python-markdown
 python-markupsafe
 python-olefile
 python-packaging
@@ -1618,8 +1635,10 @@ tlp
 tmux
 tor
 torsocks
+totem-plparser
 traceroute
 tracker
+tracker-miners
 transmission-cli
 tree
 trid
