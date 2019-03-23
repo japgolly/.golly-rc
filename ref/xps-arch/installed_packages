@@ -145,6 +145,7 @@ expat
 faac
 faad2
 fakeroot
+faudio
 fd
 ffmpeg
 fftw
@@ -563,6 +564,7 @@ lib32-dbus
 lib32-dbus-glib
 lib32-e2fsprogs
 lib32-expat
+lib32-faudio
 lib32-flac
 lib32-fontconfig
 lib32-freetype2
@@ -643,6 +645,7 @@ lib32-pam
 lib32-pcre
 lib32-polkit
 lib32-readline
+lib32-sdl2
 lib32-sqlite
 lib32-systemd
 lib32-util-linux
@@ -911,6 +914,7 @@ lsb-release
 lsof
 lua
 lua52
+luajit
 lvm2
 lz4
 lzo
