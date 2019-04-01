@@ -100,7 +100,6 @@ geckodriver
 gedit
 gettext
 ghc
-ghc-mod
 gimp
 git
 git-cola
@@ -112,6 +111,7 @@ gnome-themes-extra
 gnome-themes-extras
 gnuplot
 google-chrome
+google-cloud-sdk
 google-musicmanager
 gource
 gpart
@@ -163,7 +163,6 @@ jdk8
 jfsutils
 jprofiler
 jq
-jre6-compat
 kdiff3
 keepass
 keepass-plugin-http
@@ -324,7 +323,6 @@ sloccount
 smartmontools
 smpeg
 smplayer
-smuxi
 soundtouch
 speedcrunch
 sqlectron-gui

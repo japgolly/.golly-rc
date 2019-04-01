@@ -83,7 +83,6 @@ c-ares
 ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
-cabal-helper
 cabal-install
 cabextract
 cairo
@@ -189,6 +188,7 @@ faac
 faad2
 fakeroot
 farstream
+faudio
 fbset
 fd
 ffmpeg
@@ -239,7 +239,6 @@ geoip-database
 gettext
 ghc
 ghc-libs
-ghc-mod
 ghostscript
 giflib
 gimp
@@ -279,6 +278,7 @@ go-bindata
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
+google-cloud-sdk
 google-musicmanager
 gource
 gpart
@@ -380,7 +380,6 @@ haskell-connection
 haskell-constraints
 haskell-contravariant
 haskell-cookie
-haskell-cpphs
 haskell-cryptohash
 haskell-cryptohash-sha256
 haskell-cryptonite
@@ -393,8 +392,6 @@ haskell-data-default-instances-dlist
 haskell-data-default-instances-old-locale
 haskell-digest
 haskell-distributive
-haskell-djinn-ghc
-haskell-djinn-lib
 haskell-dlist
 haskell-easy-file
 haskell-echo
@@ -407,7 +404,6 @@ haskell-errors
 haskell-exceptions
 haskell-extra
 haskell-fast-logger
-haskell-fclabels
 haskell-file-embed
 haskell-filelock
 haskell-fingertree
@@ -416,8 +412,6 @@ haskell-free
 haskell-fsnotify
 haskell-generic-deriving
 haskell-generics-sop
-haskell-ghc-paths
-haskell-ghc-syb-utils
 haskell-githash
 haskell-gitrev
 haskell-glob
@@ -429,7 +423,6 @@ haskell-hinotify
 haskell-hit
 haskell-hourglass
 haskell-hpack
-haskell-hscolour
 haskell-hspec
 haskell-hspec-core
 haskell-hspec-discover
@@ -463,9 +456,7 @@ haskell-microlens-mtl
 haskell-microlens-th
 haskell-mime-types
 haskell-mintty
-haskell-mmorph
 haskell-monad-control
-haskell-monad-journal
 haskell-monad-logger
 haskell-monad-loops
 haskell-monad-unlift
@@ -473,7 +464,6 @@ haskell-monadrandom
 haskell-mono-traversable
 haskell-mustache
 haskell-mwc-random
-haskell-nats
 haskell-neat-interpolation
 haskell-network
 haskell-network-uri
@@ -494,8 +484,6 @@ haskell-persistent
 haskell-persistent-sqlite
 haskell-persistent-template
 haskell-pid1
-haskell-pipes
-haskell-polyparse
 haskell-prelude-extras
 haskell-primitive
 haskell-profunctors
@@ -504,7 +492,6 @@ haskell-quickcheck
 haskell-quickcheck-io
 haskell-random
 haskell-reducers
-haskell-refact
 haskell-reflection
 haskell-regex-applicative
 haskell-regex-applicative-text
@@ -519,7 +506,6 @@ haskell-safe
 haskell-safe-exceptions
 haskell-scientific
 haskell-semigroupoids
-haskell-semigroups
 haskell-setenv
 haskell-sha
 haskell-shelly
@@ -529,7 +515,6 @@ haskell-socks
 haskell-sop-core
 haskell-split
 haskell-src-exts
-haskell-src-exts-util
 haskell-src-meta
 haskell-statevar
 haskell-stm-chans
@@ -595,7 +580,6 @@ hddtemp
 hdf5
 hdparm
 hicolor-icon-theme
-hlint
 hspell
 htop
 http-parser
@@ -647,7 +631,6 @@ jprofiler
 jq
 jre-openjdk
 jre-openjdk-headless
-jre6-compat
 js
 js17
 js52
@@ -756,6 +739,7 @@ lib32-bzip2
 lib32-cairo
 lib32-dbus
 lib32-expat
+lib32-faudio
 lib32-flac
 lib32-fontconfig
 lib32-freetype2
@@ -827,6 +811,7 @@ lib32-pangox-compat
 lib32-pcre
 lib32-pixman
 lib32-readline
+lib32-sdl2
 lib32-sqlite
 lib32-systemd
 lib32-util-linux
@@ -1036,6 +1021,7 @@ librpcsecgss
 librsvg
 libsamplerate
 libsasl
+libsass
 libseccomp
 libsecret
 libshout
@@ -1147,7 +1133,6 @@ llvm
 llvm-libs
 lm_sensors
 lmdb
-log4net
 logrotate
 lpsolve
 lsof
@@ -1159,6 +1144,7 @@ lua52-expat
 lua52-lpeg
 lua52-luajson
 lua52-socket
+luajit
 lutris
 lv2
 lvm2
@@ -1194,7 +1180,6 @@ mjpegtools
 mkinitcpio
 mkinitcpio-busybox
 mlt
-mlt-python-bindings
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
@@ -1228,7 +1213,6 @@ networkmanager
 networkmanager-qt
 nfs-utils
 nfsidmap
-nini
 nm-connection-editor
 nmap
 nmon
@@ -1377,13 +1361,17 @@ pyrex
 python
 python-anytree
 python-appdirs
+python-asn1crypto
 python-babel
+python-bcrypt
 python-beaker
 python-botocore
 python-cached-property
 python-cairo
+python-cffi
 python-chardet
 python-colorama
+python-cryptography
 python-dateutil
 python-dbus
 python-dbus-common
@@ -1404,12 +1392,17 @@ python-lxml
 python-mako
 python-markdown
 python-markupsafe
+python-mlt
 python-olefile
 python-packaging
+python-paramiko
 python-pbr
 python-pillow
+python-ply
 python-pyasn1
+python-pycparser
 python-pygments
+python-pynacl
 python-pyparsing
 python-pyqt4
 python-pyqt5
@@ -1567,8 +1560,6 @@ smartmontools
 smbclient
 smpeg
 smplayer
-smuxi
-smuxi-server
 snappy
 socat
 solid
@@ -1589,7 +1580,6 @@ sratom
 srt
 stack
 startup-notification
-stfl
 strace
 sublime-text
 subversion
