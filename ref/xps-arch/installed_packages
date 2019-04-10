@@ -48,6 +48,7 @@ blas
 bluez-libs
 boost
 boost-libs
+botan
 bridge-utils
 brother-mfc-j5320dw
 brotli
@@ -119,6 +120,7 @@ dosfstools
 dotconf
 double-conversion
 downgrade
+doxygen
 dropbox
 dwdiff
 e2fsprogs
@@ -905,6 +907,7 @@ linux-headers
 lirc
 llvm
 llvm-libs
+llvm7-libs
 lm_sensors
 lmdb
 log4net
@@ -1030,6 +1033,7 @@ pigz
 pinentry
 pipewire
 pixman
+pkcs11-helper
 pkgconf
 pkgstats
 plantuml
@@ -1063,13 +1067,17 @@ pyrex
 python
 python-anytree
 python-appdirs
+python-asn1crypto
 python-babel
+python-bcrypt
 python-beaker
 python-botocore
 python-cached-property
 python-cairo
+python-cffi
 python-chardet
 python-colorama
+python-cryptography
 python-dateutil
 python-docker
 python-docker-pycreds
@@ -1087,8 +1095,12 @@ python-mako
 python-markdown
 python-markupsafe
 python-packaging
+python-paramiko
+python-ply
 python-pyasn1
+python-pycparser
 python-pygments
+python-pynacl
 python-pyparsing
 python-pyqt5
 python-pytz
@@ -1164,6 +1176,7 @@ s-nail
 sbc
 sbt
 schroedinger
+scons
 screen
 sdl
 sdl2
