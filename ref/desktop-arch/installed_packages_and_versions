@@ -41,7 +41,7 @@ atkmm 2.28.0-1
 atom 1.35.1-1
 attica 5.56.0-1
 attr 2.4.48-1
-aubio 0.4.9-1
+aubio 0.4.9-2
 audio-convert 0.3.1.1-8
 audit 2.8.4-3
 autoconf 2.69-5
@@ -128,7 +128,7 @@ dbus-sharp-glib 0.6.0-2
 dconf 0.32.0-1
 deb2targz 0.1-7
 desktop-file-utils 0.23+4+g92af410-1
-device-mapper 2.02.184-1
+device-mapper 2.02.184-3
 dhclient 4.4.1-4
 dhcpcd 7.0.8-1
 dialog 1:1.3_20190211-1
@@ -168,7 +168,7 @@ emerald0.9 0.9.5-21
 enca 1.19-2
 encfs 1.9.5-2
 enchant 2.2.3-2
-entr 4.1-2
+entr 4.2-1
 epdfview 0.1.8-10
 ethtool 1:5.0-1
 evince 3.32.0-1
@@ -191,7 +191,7 @@ file 5.36-1
 filemanager-actions 3.4-2
 filesystem 2018.12-2
 findutils 4.6.0-4
-firefox 66.0.2-1
+firefox 66.0.3-1
 flac 1.3.2-2
 flashplugin 32.0.0.171-1
 flex 2.6.4-2
@@ -207,7 +207,7 @@ ftgl 2.4.0-1
 fuse-common 3.4.2-1
 fuse2 2.9.9-1
 fusion-icon0.9 0.2+gitceff5be-1
-fzf 0.17.5-1
+fzf 0.18.0-1
 gamin 0.1.10-9
 garcon 0.6.2-1
 gawk 4.2.1-2
@@ -303,10 +303,10 @@ gtk 1.2.10-16
 gtk-doc 1.29-1
 gtk-engines 2.21.0-4
 gtk-sharp-2 2.12.45-2
-gtk-update-icon-cache 1:3.24.7+25+g17665f06e3-1
+gtk-update-icon-cache 1:3.24.8-1
 gtk-xfce-engine 2.10.1-2
 gtk2 2.24.32-1
-gtk3 1:3.24.7+25+g17665f06e3-1
+gtk3 1:3.24.8-1
 gtkglext 1.2.0-11
 gtkmm 1:2.24.5-3
 gtkmm3 3.24.1-1
@@ -361,7 +361,7 @@ haskell-call-stack 0.1.0-11
 haskell-case-insensitive 1.2.0.11-7
 haskell-cereal 0.5.8.0-2
 haskell-charset 0.3.7.1-42
-haskell-cheapskate 0.1.1.1-35
+haskell-cheapskate 0.1.1.1-36
 haskell-clock 0.7.2-12
 haskell-cmdargs 0.10.20-7
 haskell-code-page 0.2-3
@@ -396,7 +396,7 @@ haskell-erf 2.0.0.0-12
 haskell-errors 2.3.0-19
 haskell-exceptions 0.10.1-3
 haskell-extra 1.6.14-3
-haskell-fast-logger 2.4.14-1
+haskell-fast-logger 2.4.15-1
 haskell-file-embed 0.0.11-5
 haskell-filelock 0.1.1.2-10
 haskell-fingertree 0.1.4.2-4
@@ -447,7 +447,7 @@ haskell-microlens-th 0.4.2.3-8
 haskell-mime-types 0.1.0.9-2
 haskell-mintty 0.1.2-6
 haskell-monad-control 1.0.2.3-32
-haskell-monad-logger 0.3.30-35
+haskell-monad-logger 0.3.30-36
 haskell-monad-loops 0.4.3-13
 haskell-monad-unlift 0.2.0-57
 haskell-monadrandom 0.5.1.1-11
@@ -469,9 +469,9 @@ haskell-path 0.6.1-88
 haskell-path-io 1.4.2-10
 haskell-path-pieces 0.2.1-18
 haskell-pem 0.2.4-42
-haskell-persistent 2.9.2-2
-haskell-persistent-sqlite 2.9.3-1
-haskell-persistent-template 2.6.0-19
+haskell-persistent 2.9.2-3
+haskell-persistent-sqlite 2.9.3-2
+haskell-persistent-template 2.6.0-20
 haskell-pid1 0.1.2.0-10
 haskell-prelude-extras 0.4.0.3-12
 haskell-primitive 0.6.4.0-5
@@ -553,8 +553,8 @@ haskell-vector-binary-instances 0.2.5.1-11
 haskell-vector-th-unbox 0.2.1.6-23
 haskell-void 0.7.2-13
 haskell-wai 3.2.2-9
-haskell-wai-extra 3.0.25-16
-haskell-wai-logger 2.3.4-21
+haskell-wai-extra 3.0.25-17
+haskell-wai-logger 2.3.4-22
 haskell-word8 0.1.3-10
 haskell-x509 1.7.5-11
 haskell-x509-store 1.6.7-10
@@ -584,7 +584,7 @@ iana-etc 20190329-1
 icu 64.1-1
 id3lib 3.8.3-17
 idnkit 1.0-4
-idris 1.3.1-51
+idris 1.3.1-52
 ifplugd 0.28-15
 iftop 1.0pre4-3
 ijs 0.35-2
@@ -604,7 +604,7 @@ iputils 20180629.f6aac8d-4
 iso-codes 4.2-1
 iucode-tool 2.3.1-2
 iw 5.0.1-1
-jack2-dbus 1.9.12-8
+jack2-dbus 1.9.12-9
 jansson 2.12-1
 jasper 2.0.16-1
 java-environment-common 3-1
@@ -653,7 +653,7 @@ keepass 2.41-3
 keepass-plugin-http 1.8.4.2-2
 keepassxc 2.4.0-1
 kemoticons 5.56.0-1
-keybase 3.1.2-1
+keybase 3.2.1-1
 keyutils 1.6-1
 kfilemetadata 5.56.0-2
 kgamma5 5.15.4-1
@@ -798,8 +798,8 @@ lib32-pixman 0.36.0-1
 lib32-readline 8.0.0-1
 lib32-sdl2 2.0.9-1
 lib32-sqlite 3.27.1-1
-lib32-systemd 241.67-1
-lib32-util-linux 2.33.1-1
+lib32-systemd 241.93-1
+lib32-util-linux 2.33.2-1
 lib32-wayland 1.16.0-1
 lib32-xz 5.2.4-1
 lib32-zlib 1.2.11-2
@@ -863,7 +863,7 @@ libexif 0.6.21-3
 libexttextcat 3.4.5-1
 libfbclient 3.0.4.33054-1
 libfdk-aac 2.0.0-1
-libffado 2.4.1-2
+libffado 2.4.1-3
 libffi 3.2.1-3
 libfm 1.3.1-1
 libfm-extra 1.3.1-1
@@ -1041,7 +1041,7 @@ libusb-compat 0.1.5-2
 libusbmuxd 1.0.10+29+g9db5747-1
 libutempter 1.1.6-3
 libutf8proc 2.3.0-1
-libutil-linux 2.33.1-2
+libutil-linux 2.33.2-1
 libuv 1.27.0-1
 libva 2.4.1-1
 libva-vdpau-driver 0.7.4-4
@@ -1100,7 +1100,7 @@ libxvmc 1.0.11-1
 libxxf86dga 1.1.5-1
 libxxf86vm 1.1.4-2
 libyaml 0.2.1-1
-libzip 1.5.1-1
+libzip 1.5.2-1
 libzmf 0.0.2-6
 licenses 20181104-1
 lilv 0.24.4-2
@@ -1125,9 +1125,9 @@ lua52-lpeg 1.0.2-1
 lua52-luajson 1.3.4-2
 lua52-socket 20190219-1
 luajit 2.0.5-2
-lutris 0.5.2-1
+lutris 0.5.2.1-2
 lv2 1.16.0-1
-lvm2 2.02.184-1
+lvm2 2.02.184-3
 lxmenu-data 0.1.5-2
 lynx 2.8.9-2
 lz4 1:1.8.3-1
@@ -1195,7 +1195,7 @@ nfs-utils 2.3.3-1
 nfsidmap 2.3.3-1
 nm-connection-editor 1.8.21dev+3+gb4c365b1-1
 nmap 7.70-3
-nmon 16i-1
+nmon 16j-1
 node-gyp 3.8.0-1
 nodejs 11.13.0-2
 notification-daemon 3.20.0-3
@@ -1279,7 +1279,7 @@ pidgin-toobars 1.14-2
 pigz 2.4-1
 pinentry 1.1.0-4
 pipewire 0.2.5+3+g371da358-1
-pixman 0.38.2-1
+pixman 0.38.4-1
 pkgconf 1.6.1-1
 pkgstats 2.3-10
 plantuml 1.2019.4-1
@@ -1385,7 +1385,7 @@ python-requests 2.21.0-1
 python-rsa 4.0-1
 python-s3transfer 0.2.0-1
 python-setuptools 1:40.9.0-1
-python-sip-pyqt5 4.19.15-1
+python-sip-pyqt5 4.19.16-1
 python-six 1.12.0-1
 python-snowballstemmer 1.2.1-3
 python-sphinx 1.8.5-1
@@ -1432,16 +1432,16 @@ python2-psutil 5.6.1-1
 python2-pygments 2.3.1-1
 python2-pyparsing 2.3.1-1
 python2-pyqt5 5.12.1-1
-python2-regex 2019.03.12-1
+python2-regex 2019.04.10-1
 python2-setuptools 1:40.9.0-1
-python2-sip-pyqt5 4.19.15-1
+python2-sip-pyqt5 4.19.16-1
 python2-six 1.12.0-1
 python2-unrardll 0.1.3-4
 python2-webencodings 0.5.1-2
 python2-xdg 0.26-2
 qca 2.2.0-1
 qhull 2015.2-3
-qjackctl 0.5.6-1
+qjackctl 0.5.7-1
 qpdf 8.4.0-1
 qqc2-desktop-style 5.56.0-1
 qrencode 4.0.2-1
@@ -1520,7 +1520,7 @@ shadow 4.6-2
 shared-mime-info 1.12-1
 sharutils 4.15.2-3
 siege 4.0.4-1
-sip 4.19.15-1
+sip 4.19.16-1
 slack-desktop 3.3.8-1
 slang 2.3.2-1
 sloccount 2.26-8
@@ -1546,7 +1546,7 @@ sqlectron-gui 1.30.0-3
 sqlite 3.27.2-1
 sratom 0.6.2-2
 srt 1.3.2-1
-stack 1.9.3-95
+stack 1.9.3-96
 startup-notification 0.12-6
 strace 5.0-1
 subversion 1.11.1-1
@@ -1559,9 +1559,9 @@ syntax-highlighting 5.56.0-1
 sysfsutils 2.1.0-10
 syslinux 6.04.pre2.r11.gbf6db5b4-1
 sysstat 12.1.3-1
-systemd 241.67-1
-systemd-libs 241.67-1
-systemd-sysvcompat 241.67-1
+systemd 241.93-1
+systemd-libs 241.93-1
+systemd-sysvcompat 241.93-1
 systemsettings 5.15.4-1
 t1lib 5.1.2-7
 t7-daw 7.2.1-6
@@ -1631,7 +1631,7 @@ upower 0.99.10-1
 usbmuxd 1.1.0+48+g1cc8b34-3
 usbutils 010-1
 user-manager 5.15.4-1
-util-linux 2.33.1-2
+util-linux 2.33.2-1
 v4l-utils 1.16.3-1
 vamp-plugin-sdk 2.8.0-1
 vi 1:070224-3
@@ -1758,7 +1758,7 @@ yubico-c-client 2.15-4
 yubikey-personalization 1.19.3-1
 zeal 1:0.6.1-1
 zenity 3.32.0-1
-zeromq 4.3.1-1
+zeromq 4.3.1-2
 zip 3.0-8
 zlib 1:1.2.11-3
 zopfli-git 1:1.0.0.18.ga29e46b-1
