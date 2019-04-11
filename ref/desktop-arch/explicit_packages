@@ -1,7 +1,5 @@
 Sqlectron
-abs
 ack
-aha
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -15,7 +13,6 @@ apache
 apm
 ardour
 aria2
-arm
 aspell
 aspell-en
 atom
@@ -68,7 +65,6 @@ downgrade
 dropbox
 dwdiff
 e2fsprogs
-ec2-api-tools
 ed
 emacs
 emerald0.9
@@ -158,8 +154,7 @@ iputils
 iucode-tool
 jack2-dbus
 jdk-openjdk
-jdk7-compat
-jdk8
+jdk8-openjdk
 jfsutils
 jprofiler
 jq
@@ -189,6 +184,9 @@ libogg
 libpng
 libreoffice-fresh
 libreoffice-fresh-en-gb
+libretro-core-info
+libretro-overlays
+libretro-shaders-cg
 libtool
 libva-vdpau-driver
 libvncserver
@@ -266,7 +264,6 @@ patch
 pavucontrol
 pciutils
 pcmanfm
-pcmciautils
 perl
 pgadmin3
 phantomjs
@@ -288,20 +285,20 @@ powertop
 ppp
 prettyping
 procps-ng
-profont
 psmisc
 pulseaudio
 pulseaudio-alsa
 pup-bin
 pv
 pwgen
-python2-crcmod
 qjackctl
 redis
 redshift
 refind-efi
 reiserfsprogs
 renameutils
+retroarch
+retroarch-assets-xmb
 rkt
 rlwrap
 rrdtool
@@ -329,7 +326,6 @@ sqlectron-gui
 stack
 startup-notification
 strace
-sublime-text
 sudo
 swi-prolog
 sysfsutils

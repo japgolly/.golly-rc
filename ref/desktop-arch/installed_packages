@@ -2,13 +2,11 @@ Sqlectron
 a2ps
 a52dec
 aalib
-abs
 accountsservice
 ack
 acl
 adobe-source-code-pro-fonts
 adwaita-icon-theme
-aha
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -31,7 +29,6 @@ ardour
 argon2
 aria2
 aribb24
-arm
 arpack
 asar
 asciidoc
@@ -43,7 +40,6 @@ atk
 atkmm
 atom
 attica
-attica-qt4
 attr
 aubio
 audio-convert
@@ -159,7 +155,6 @@ dvgrab
 dwdiff
 e2fsprogs
 ebook-tools
-ec2-api-tools
 ed
 editorconfig-core-c
 efibootmgr
@@ -168,7 +163,6 @@ egl-wayland
 eglexternalplatform
 electron
 electron2
-elfutils
 emacs
 emerald0.9
 enca
@@ -231,7 +225,6 @@ gdk-pixbuf2
 geckodriver
 gedit
 gegl
-gegl02
 geoclue
 geocode-glib
 geoip
@@ -417,10 +410,7 @@ haskell-gitrev
 haskell-glob
 haskell-hackage-security
 haskell-hashable
-haskell-hashtables
-haskell-hastache
 haskell-hinotify
-haskell-hit
 haskell-hourglass
 haskell-hpack
 haskell-hspec
@@ -478,7 +468,6 @@ haskell-parsers
 haskell-path
 haskell-path-io
 haskell-path-pieces
-haskell-patience
 haskell-pem
 haskell-persistent
 haskell-persistent-sqlite
@@ -575,7 +564,6 @@ haskell-xss-sanitize
 haskell-yaml
 haskell-zip-archive
 haskell-zlib
-haskell-zlib-bindings
 hddtemp
 hdf5
 hdparm
@@ -623,16 +611,15 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
-jdk7-compat
-jdk8
+jdk8-openjdk
 jemalloc
 jfsutils
 jprofiler
 jq
 jre-openjdk
 jre-openjdk-headless
-js
-js17
+jre8-openjdk
+jre8-openjdk-headless
 js52
 json-c
 json-glib
@@ -655,11 +642,9 @@ kcrash
 kdbusaddons
 kde-cli-tools
 kde-gtk-config
-kdebase-runtime
 kdeclarative
 kdecoration
 kded
-kdelibs
 kdelibs4support
 kdeplasma-addons
 kdesu
@@ -853,7 +838,6 @@ libcurl-compat
 libcurl-gnutls
 libdaemon
 libdatrie
-libdbusmenu-qt4
 libdbusmenu-qt5
 libdc1394
 libdca
@@ -904,7 +888,6 @@ libgnome-keyring
 libgpg-error
 libgrss
 libgsf
-libgssglue
 libgtop
 libgudev
 libguess
@@ -927,9 +910,7 @@ libiptcdata
 libirman
 libixion
 libjpeg-turbo
-libkactivities4
 libkate
-libkeybinder2
 libkeybinder3
 libksba
 libkscreen
@@ -972,7 +953,6 @@ libnice
 libnl
 libnm
 libnm-glib
-libnm-gtk
 libnma
 libnotify
 libnsl
@@ -1010,14 +990,15 @@ libquicktime
 libquvi
 libquvi-scripts
 libqxp
-libqzeitgeist
 libraqm
 libraw
 libraw1394
 libreoffice-fresh
 libreoffice-fresh-en-gb
+libretro-core-info
+libretro-overlays
+libretro-shaders-cg
 librevenge
-librpcsecgss
 librsvg
 libsamplerate
 libsasl
@@ -1050,7 +1031,6 @@ libtiger
 libtirpc
 libtommath
 libtool
-libtracker-sparql
 libtxc_dxtn
 libunistring
 libunrar
@@ -1233,6 +1213,7 @@ ntp
 numactl
 nvidia-390xx
 nvidia-390xx-utils
+nvidia-cg-toolkit
 nvidia-settings
 nvm
 nzbget
@@ -1276,7 +1257,6 @@ patch
 pavucontrol
 pciutils
 pcmanfm
-pcmciautils
 pcre
 pcre2
 perl
@@ -1291,8 +1271,6 @@ perl-uri
 perl-xml-parser
 pgadmin3
 phantomjs
-phonon-qt4
-phonon-qt4-gstreamer
 phonon-qt5
 phonon-qt5-gstreamer
 pidgin
@@ -1322,7 +1300,6 @@ podofo
 polkit
 polkit-gnome
 polkit-kde-agent
-polkit-qt4
 polkit-qt5
 poppler
 poppler-data
@@ -1338,11 +1315,9 @@ potrace
 powerdevil
 powertop
 ppp
-prelink
 prettyping
 prison
 procps-ng
-profont
 protobuf
 protobuf-c
 psmisc
@@ -1355,7 +1330,6 @@ pwgen
 pygobject-devel
 pygobject2-devel
 pygtk
-pyqt4-common
 pyqt5-common
 pyrex
 python
@@ -1404,7 +1378,6 @@ python-pycparser
 python-pygments
 python-pynacl
 python-pyparsing
-python-pyqt4
 python-pyqt5
 python-pytz
 python-pyzmq
@@ -1412,7 +1385,6 @@ python-requests
 python-rsa
 python-s3transfer
 python-setuptools
-python-sip
 python-sip-pyqt5
 python-six
 python-snowballstemmer
@@ -1432,10 +1404,8 @@ python2-appdirs
 python2-apsw
 python2-cairo
 python2-chardet
-python2-crcmod
 python2-css-parser
 python2-cssselect
-python2-cssutils
 python2-dateutil
 python2-dbus
 python2-dnspython
@@ -1448,7 +1418,6 @@ python2-gobject
 python2-gobject2
 python2-html5-parser
 python2-html5lib
-python2-keybinder2
 python2-lxml
 python2-markdown
 python2-mechanize
@@ -1462,11 +1431,9 @@ python2-pillow
 python2-psutil
 python2-pygments
 python2-pyparsing
-python2-pyqt4
 python2-pyqt5
 python2-regex
 python2-setuptools
-python2-sip
 python2-sip-pyqt5
 python2-six
 python2-unrardll
@@ -1479,7 +1446,6 @@ qpdf
 qqc2-desktop-style
 qrencode
 qrupdate
-qscintilla-qt4
 qscintilla-qt5
 qt4
 qt5-base
@@ -1512,6 +1478,8 @@ refind-efi
 reiserfsprogs
 renameutils
 rest
+retroarch
+retroarch-assets-xmb
 rhash
 ripgrep
 rkt
@@ -1581,7 +1549,6 @@ srt
 stack
 startup-notification
 strace
-sublime-text
 subversion
 sudo
 suil
