@@ -106,7 +106,7 @@ iproute2
 iputils
 iucode-tool
 jdk-openjdk
-jdk8
+jdk8-openjdk
 jfsutils
 jmeter
 jprofiler
@@ -170,7 +170,6 @@ parallel
 patch
 pbzip2
 pciutils
-pcmciautils
 perl
 pgadmin3
 phantomjs
@@ -208,7 +207,6 @@ slack
 slock
 smartmontools
 smplayer
-smuxi
 socat
 speedcrunch
 sshfs

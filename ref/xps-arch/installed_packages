@@ -97,8 +97,6 @@ curl
 db
 dbus
 dbus-glib
-dbus-sharp
-dbus-sharp-glib
 dcadec
 dconf
 desktop-file-utils
@@ -132,7 +130,6 @@ egl-wayland
 eglexternalplatform
 electron
 electron2
-elfutils
 emerald-themes-git
 emerald0.9
 enca
@@ -182,7 +179,6 @@ gdbm
 gdk-pixbuf2
 geckodriver
 gegl
-gegl02
 gendesk
 geoclue
 geocode-glib
@@ -226,7 +222,6 @@ gpart
 gparted
 gperf
 gpgme
-gpgmepp
 gpm
 gptfdisk
 graal-bin
@@ -248,7 +243,6 @@ gst-plugins-base-libs
 gst-plugins-good
 gstreamer
 gtk-doc
-gtk-sharp-2
 gtk-update-icon-cache
 gtk-xfce-engine
 gtk2
@@ -497,7 +491,7 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
-jdk8
+jdk8-openjdk
 jemalloc
 jfsutils
 jmeter
@@ -505,9 +499,8 @@ jprofiler
 jq
 jre-openjdk
 jre-openjdk-headless
+jre8-openjdk
 jre8-openjdk-headless
-js
-js17
 js52
 json-c
 json-glib
@@ -579,7 +572,6 @@ lib32-glu
 lib32-harfbuzz
 lib32-icu
 lib32-jansson
-lib32-js17
 lib32-json-c
 lib32-keyutils
 lib32-krb5
@@ -720,7 +712,6 @@ libglade
 libglvnd
 libgme
 libgpg-error
-libgssglue
 libgtop
 libgudev
 libgusb
@@ -769,7 +760,6 @@ libnice
 libnl
 libnm
 libnm-glib
-libnm-gtk
 libnma
 libnotify
 libnsl
@@ -792,14 +782,12 @@ libproxy
 libpsl
 libpulse
 libqxp
-libqzeitgeist
 libraqm
 libraw
 libraw1394
 libreoffice-fresh
 libreoffice-fresh-en-gb
 librevenge
-librpcsecgss
 librsvg
 libsamplerate
 libsasl
@@ -910,7 +898,6 @@ llvm-libs
 llvm7-libs
 lm_sensors
 lmdb
-log4net
 logrotate
 lpsolve
 lsb-release
@@ -965,13 +952,11 @@ networkmanager
 nfs-utils
 nfsidmap
 nghttp2
-nini
 nm-connection-editor
 nmap
 nmon
 node-gyp
 nodejs
-notify-sharp
 noto-fonts
 npm
 npth
@@ -1012,7 +997,6 @@ parted
 patch
 pbzip2
 pciutils
-pcmciautils
 pcre
 pcre2
 perl
@@ -1051,7 +1035,6 @@ postgresql-libs
 postgresql-old-upgrade
 potrace
 powertop
-prelink
 prettyping
 primus
 procps-ng
@@ -1068,7 +1051,6 @@ python
 python-anytree
 python-appdirs
 python-asn1crypto
-python-babel
 python-bcrypt
 python-beaker
 python-botocore
@@ -1086,8 +1068,6 @@ python-docopt
 python-docutils
 python-gobject
 python-idna
-python-imagesize
-python-jinja
 python-jmespath
 python-jsonschema
 python-lxml
@@ -1103,24 +1083,16 @@ python-pygments
 python-pynacl
 python-pyparsing
 python-pyqt5
-python-pytz
 python-requests
 python-rsa
 python-s3transfer
 python-setuptools
 python-sip-pyqt5
 python-six
-python-snowballstemmer
-python-sphinx
-python-sphinx-alabaster-theme
-python-sphinx_rtd_theme
-python-sphinxcontrib-websupport
-python-sqlalchemy
 python-termcolor
 python-texttable
 python-urllib3
 python-websocket-client
-python-whoosh
 python-xdg
 python-yaml
 python2
@@ -1135,9 +1107,7 @@ python2-pillow
 python2-pyparsing
 python2-setuptools
 python2-six
-qca-qt4
 qpdf
-qt4
 qt5-base
 qt5-declarative
 qt5-multimedia
@@ -1193,8 +1163,6 @@ slock
 smartmontools
 smbclient
 smplayer
-smuxi
-smuxi-server
 snappy
 socat
 solid
@@ -1214,7 +1182,6 @@ sshfs
 stack
 startup-notification
 steam
-stfl
 strace
 subversion
 sudo
