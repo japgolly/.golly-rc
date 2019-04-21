@@ -154,6 +154,7 @@ iputils
 iucode-tool
 jack2-dbus
 jdk-openjdk
+jdk8
 jdk8-openjdk
 jfsutils
 jprofiler
@@ -251,6 +252,10 @@ nzbget
 octave
 odt2txt
 opencl-nvidia
+openjdk-doc
+openjdk-src
+openjdk8-doc
+openjdk8-src
 openshot
 openssh
 otf-ipafont

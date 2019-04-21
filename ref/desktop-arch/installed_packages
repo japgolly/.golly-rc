@@ -611,6 +611,7 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
+jdk8
 jdk8-openjdk
 jemalloc
 jfsutils
@@ -1225,6 +1226,10 @@ openal
 opencl-nvidia
 opencore-amr
 openexr
+openjdk-doc
+openjdk-src
+openjdk8-doc
+openjdk8-src
 openjpeg2
 openmpi
 openresolv
@@ -1336,7 +1341,6 @@ python
 python-anytree
 python-appdirs
 python-asn1crypto
-python-babel
 python-bcrypt
 python-beaker
 python-botocore
@@ -1358,8 +1362,6 @@ python-evdev
 python-gobject
 python-httplib2
 python-idna
-python-imagesize
-python-jinja
 python-jmespath
 python-jsonschema
 python-lxml
@@ -1379,7 +1381,6 @@ python-pygments
 python-pynacl
 python-pyparsing
 python-pyqt5
-python-pytz
 python-pyzmq
 python-requests
 python-rsa
@@ -1387,21 +1388,17 @@ python-s3transfer
 python-setuptools
 python-sip-pyqt5
 python-six
-python-snowballstemmer
-python-sphinx
-python-sphinx-alabaster-theme
-python-sphinx_rtd_theme
-python-sphinxcontrib-websupport
-python-sqlalchemy
 python-termcolor
 python-texttable
 python-urllib3
 python-websocket-client
-python-whoosh
 python-yaml
 python2
 python2-appdirs
 python2-apsw
+python2-backports
+python2-backports.functools_lru_cache
+python2-beautifulsoup4
 python2-cairo
 python2-chardet
 python2-css-parser
@@ -1416,6 +1413,7 @@ python2-feedparser
 python2-gconf
 python2-gobject
 python2-gobject2
+python2-html2text
 python2-html5-parser
 python2-html5lib
 python2-lxml
@@ -1436,6 +1434,7 @@ python2-regex
 python2-setuptools
 python2-sip-pyqt5
 python2-six
+python2-soupsieve
 python2-unrardll
 python2-webencodings
 python2-xdg
@@ -1466,6 +1465,7 @@ qt5-webengine
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
+quazip
 raptor
 rasqal
 re2
