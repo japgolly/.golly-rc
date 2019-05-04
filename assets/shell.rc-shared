@@ -48,7 +48,6 @@ alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
 alias ncdu='ncdu --color dark'
 alias vimsbt13='vim ~/.sbt/0.13/{*/,}*.sbt -O'
 alias vimsbt10='vim ~/.sbt/1.0/{*/,}*.sbt -O'
-
 alias odx='od -Ax -tx1z'
 
 # MPV
@@ -95,6 +94,7 @@ function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | 
 function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot -Tpng -o"$o" "$1" && xdg-open "$o" 2>/dev/null);}
 function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *$/d'; done ;}
 function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done ;}
+function git-tagver { [ $# -ne 1 ] && echo "git-tagver <version>" || git tag -s v"$1" -m v"$1" ;}
 function find_name {
   name="$1"
   shift
