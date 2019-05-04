@@ -15,7 +15,6 @@ ardour
 aria2
 aspell
 aspell-en
-atom
 audio-convert
 autoconf
 automake
@@ -154,7 +153,6 @@ iputils
 iucode-tool
 jack2-dbus
 jdk-openjdk
-jdk8
 jdk8-openjdk
 jfsutils
 jprofiler

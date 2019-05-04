@@ -38,7 +38,6 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
-atom
 attica
 attr
 aubio
@@ -611,7 +610,6 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
-jdk8
 jdk8-openjdk
 jemalloc
 jfsutils
@@ -923,7 +921,6 @@ liblouis
 liblqr
 liblrdf
 libmad
-libmagick
 libmagick6
 libmatroska
 libmbim

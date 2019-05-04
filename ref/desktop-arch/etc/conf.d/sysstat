@@ -1,4 +1,4 @@
-# sysstat-12.1.3 configuration file.
+# sysstat-12.1.4 configuration file.
 
 # How long to keep log files (in days).
 # If value is greater than 28, then use sadc's option -D to prevent older
@@ -26,3 +26,10 @@ ZIP="xz"
 # By default sa2 script generates reports files (the so called sarDD files).
 # Set this variable to false to disable reports generation.
 #REPORTS=false
+
+# The sa1 and sa2 scripts generate system activity data and report files in
+# the /var/log/sa directory. By default the files are created with umask 0022
+# and are therefore readable for all users. Change this variable to restrict
+# the permissions on the files (e.g. use 0027 to adhere to more strict
+# security standards).
+UMASK=0022
