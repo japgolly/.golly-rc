@@ -95,6 +95,18 @@ function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot 
 function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *$/d'; done ;}
 function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done ;}
 function git-tagver { [ $# -ne 1 ] && echo "git-tagver <version>" || git tag -s v"$1" -m v"$1" ;}
+function grepsel {
+  flags=
+  if [ $# -eq 3 ]; then
+    flags="$1"
+    shift
+  fi
+  if [ $# -ne 2 ]; then
+    echo "grepsel [<grep flags>] <regex> <column>"
+    exit 1
+  fi
+  grep $flags "$1" | awk '{ print $'"$2"' }'
+}
 function find_name {
   name="$1"
   shift
