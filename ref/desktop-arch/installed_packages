@@ -423,6 +423,7 @@ haskell-http-client
 haskell-http-client-tls
 haskell-http-conduit
 haskell-http-types
+haskell-http2
 haskell-hunit
 haskell-ieee754
 haskell-infer-license
@@ -455,6 +456,7 @@ haskell-mustache
 haskell-mwc-random
 haskell-neat-interpolation
 haskell-network
+haskell-network-byte-order
 haskell-network-uri
 haskell-old-locale
 haskell-old-time
@@ -476,6 +478,7 @@ haskell-prelude-extras
 haskell-primitive
 haskell-profunctors
 haskell-project-template
+haskell-psqueues
 haskell-quickcheck
 haskell-quickcheck-io
 haskell-random
@@ -570,6 +573,7 @@ hicolor-icon-theme
 hspell
 htop
 http-parser
+httpie
 hunspell
 hunspell-en_AU
 hunspell-en_GB
