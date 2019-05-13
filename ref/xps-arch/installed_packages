@@ -895,7 +895,6 @@ linux-headers
 lirc
 llvm
 llvm-libs
-llvm7-libs
 lm_sensors
 lmdb
 logrotate
@@ -972,6 +971,10 @@ oniguruma
 openal
 opencore-amr
 openexr
+openjdk-doc
+openjdk-src
+openjdk8-doc
+openjdk8-src
 openjpeg
 openjpeg2
 openresolv

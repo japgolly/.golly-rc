@@ -162,6 +162,10 @@ ntfs-3g
 nvidia
 nvidia-settings
 odt2txt
+openjdk-doc
+openjdk-src
+openjdk8-doc
+openjdk8-src
 openssh
 p7zip
 package-query
