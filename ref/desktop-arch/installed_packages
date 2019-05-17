@@ -7,6 +7,8 @@ ack
 acl
 adobe-source-code-pro-fonts
 adwaita-icon-theme
+agda
+agda-stdlib
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -18,7 +20,6 @@ android-udev
 ant
 aom
 apache
-apm
 appstream
 appstream-qt
 apr
@@ -354,6 +355,7 @@ haskell-bitarray
 haskell-blaze-builder
 haskell-blaze-html
 haskell-blaze-markup
+haskell-boxes
 haskell-byteable
 haskell-byteorder
 haskell-call-stack
@@ -372,6 +374,7 @@ haskell-connection
 haskell-constraints
 haskell-contravariant
 haskell-cookie
+haskell-cpphs
 haskell-cryptohash
 haskell-cryptohash-sha256
 haskell-cryptonite
@@ -382,15 +385,19 @@ haskell-data-default-class
 haskell-data-default-instances-containers
 haskell-data-default-instances-dlist
 haskell-data-default-instances-old-locale
+haskell-data-hash
 haskell-digest
 haskell-distributive
 haskell-dlist
 haskell-easy-file
 haskell-echo
 haskell-ed25519
+haskell-edisonapi
+haskell-edisoncore
 haskell-edit-distance
 haskell-either
 haskell-enclosed-exceptions
+haskell-equivalence
 haskell-erf
 haskell-errors
 haskell-exceptions
@@ -404,11 +411,13 @@ haskell-free
 haskell-fsnotify
 haskell-generic-deriving
 haskell-generics-sop
+haskell-geniplate-mirror
 haskell-githash
 haskell-gitrev
 haskell-glob
 haskell-hackage-security
 haskell-hashable
+haskell-hashtables
 haskell-hinotify
 haskell-hourglass
 haskell-hpack
@@ -452,6 +461,7 @@ haskell-monad-loops
 haskell-monad-unlift
 haskell-monadrandom
 haskell-mono-traversable
+haskell-murmur-hash
 haskell-mustache
 haskell-mwc-random
 haskell-neat-interpolation
@@ -474,6 +484,7 @@ haskell-persistent
 haskell-persistent-sqlite
 haskell-persistent-template
 haskell-pid1
+haskell-polyparse
 haskell-prelude-extras
 haskell-primitive
 haskell-profunctors
@@ -509,9 +520,11 @@ haskell-src-exts
 haskell-src-meta
 haskell-statevar
 haskell-stm-chans
+haskell-stmonadtrans
 haskell-store
 haskell-store-core
 haskell-streaming-commons
+haskell-strict
 haskell-stringsearch
 haskell-syb
 haskell-system-fileio
@@ -546,6 +559,7 @@ haskell-unliftio
 haskell-unliftio-core
 haskell-unordered-containers
 haskell-uri-bytestring
+haskell-uri-encode
 haskell-utf8-string
 haskell-uuid-types
 haskell-vault

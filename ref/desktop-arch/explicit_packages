@@ -1,5 +1,7 @@
 Sqlectron
 ack
+agda
+agda-stdlib
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -10,7 +12,6 @@ android-tools
 android-udev
 ant
 apache
-apm
 ardour
 aria2
 aspell
