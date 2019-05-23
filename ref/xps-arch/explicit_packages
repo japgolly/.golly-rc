@@ -1,10 +1,11 @@
 Sqlectron
 ack
 acpi
+agda
+agda-stdlib
 alsa-utils
 apache-tools
 arandr
-atom
 autoconf
 automake
 aws-cli
@@ -19,6 +20,7 @@ brother-mfc-j5320dw
 brotli
 bumblebee
 bzip2
+cabal-install
 chromedriver
 clang
 cloc
@@ -47,6 +49,7 @@ dropbox
 dwdiff
 e2fsprogs
 eclipse-java
+emacs
 emerald-themes-git
 emerald0.9
 encfs
