@@ -76,5 +76,17 @@
     "key": "ctrl+l",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFile"
   }
 ]
