@@ -73,6 +73,7 @@ link .atom/styles.less
 
 mkdir -p ~/.config/'Code - OSS'/User
 link '.config/Code - OSS/User/keybindings.json'
+link '.config/Code - OSS/User/settings.json'
 
 mkdir -p ~/.config/mpv
 link .config/mpv/input.conf

@@ -1,0 +1,39 @@
+{
+    "todo-tree.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
+    "editor.minimap.enabled": false,
+    "editor.useTabStops": false,
+    "editor.tabSize": 2,
+    "editor.fontSize": 12,
+    "cSpell.language": "en-GB",
+    "window.zoomLevel": 0,
+    "todo-tree.statusBar": "total",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.target": true,
+        "**/*.class": true,
+        "**/classes": true,
+        "**/target": true
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "cSpell.userWords": [
+        "Async",
+        "Profunctor",
+        "Thenable",
+        "japgolly"
+    ],
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "files.hotExit": "off",
+    "files.autoSave": "onWindowChange"
+}
