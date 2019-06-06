@@ -2,11 +2,11 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=Compiz
+Name=Compiz (fusion-icon)
 Comment=
 Exec=fusion-icon -u
 OnlyShowIn=XFCE;
 StartupNotify=false
 Terminal=false
-Hidden=false
+Hidden=true
 

@@ -5,6 +5,7 @@ aalib
 accountsservice
 ack
 acl
+acpid
 adobe-source-code-pro-fonts
 adwaita-icon-theme
 agda
@@ -120,6 +121,7 @@ cups
 cups-filters
 curl
 cwdiff
+cython
 db
 dbus
 dbus-c++
