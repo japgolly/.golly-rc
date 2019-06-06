@@ -183,10 +183,10 @@ tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
   fi
 }
 function crap {
+  crap=~/crap
   if [ $# -eq 0 ]; then
-    echo "Nothing to do."
+    ls -lrt "$crap"
   else
-    crap=~/crap
     time=$(date +%Y%m%d-%H%M%S)
     for f in "$@"; do
       g="$(basename "$f")"
