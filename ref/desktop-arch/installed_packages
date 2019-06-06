@@ -60,6 +60,7 @@ bind-tools
 binutils
 bison
 blas
+bloop
 bluedevil
 bluez
 bluez-libs
@@ -191,7 +192,7 @@ file
 filemanager-actions
 filesystem
 findutils
-firefox
+firefox-developer-edition
 flac
 flashplugin
 flex
@@ -376,6 +377,7 @@ haskell-contravariant
 haskell-cookie
 haskell-cpphs
 haskell-cryptohash
+haskell-cryptohash-sha1
 haskell-cryptohash-sha256
 haskell-cryptonite
 haskell-cryptonite-conduit
@@ -516,6 +518,7 @@ haskell-smallcheck
 haskell-socks
 haskell-sop-core
 haskell-split
+haskell-splitmix
 haskell-src-exts
 haskell-src-meta
 haskell-statevar
@@ -544,6 +547,7 @@ haskell-th-lift-instances
 haskell-th-orphans
 haskell-th-reify-many
 haskell-th-utilities
+haskell-time-compat
 haskell-time-locale-compat
 haskell-tls
 haskell-transformers-base
@@ -637,7 +641,7 @@ jre-openjdk
 jre-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
-js52
+js60
 json-c
 json-glib
 jsoncpp
@@ -1513,6 +1517,7 @@ rustup
 s-nail
 sbc
 sbt
+scala
 schroedinger
 screen
 sddm
