@@ -418,6 +418,7 @@ haskell-silently
 haskell-smallcheck
 haskell-socks
 haskell-split
+haskell-splitmix
 haskell-src-exts
 haskell-src-meta
 haskell-statevar
@@ -442,6 +443,7 @@ haskell-th-lift-instances
 haskell-th-orphans
 haskell-th-reify-many
 haskell-th-utilities
+haskell-time-compat
 haskell-time-locale-compat
 haskell-tls
 haskell-transformers-base
