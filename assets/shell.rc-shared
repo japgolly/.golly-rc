@@ -258,7 +258,11 @@ function fkeyd {
   export PATH="$JAVA_HOME/bin:$PATH"
   [ "$1" = --quiet ] || java -version
 }
-which java8 >/dev/null; [ $? -eq 0 ] && java8 --quiet
+which graal >/dev/null; if [ $? -eq 0 ]; then
+  graal --quiet
+else
+  which java8 >/dev/null; [ $? -eq 0 ] && java8 --quiet
+fi
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules} --nogroup --color"
