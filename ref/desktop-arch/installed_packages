@@ -61,7 +61,6 @@ bind-tools
 binutils
 bison
 blas
-bloop
 bluedevil
 bluez
 bluez-libs
@@ -138,6 +137,7 @@ dialog
 diff-so-fancy
 diffutils
 ding-libs
+discount
 discover
 djvulibre
 dmenu
@@ -911,6 +911,7 @@ libgnome-keyring
 libgpg-error
 libgrss
 libgsf
+libgssglue
 libgtop
 libgudev
 libguess
@@ -1163,6 +1164,7 @@ man-db
 man-pages
 mathjax
 maven
+mbedtls
 mcomix
 mcpp
 mdadm
@@ -1285,6 +1287,7 @@ pciutils
 pcmanfm
 pcre
 pcre2
+pcsclite
 perl
 perl-algorithm-diff
 perl-error
@@ -1362,6 +1365,7 @@ python
 python-anytree
 python-appdirs
 python-asn1crypto
+python-attrs
 python-bcrypt
 python-beaker
 python-botocore
@@ -1402,6 +1406,7 @@ python-pygments
 python-pynacl
 python-pyparsing
 python-pyqt5
+python-pyrsistent
 python-pyzmq
 python-requests
 python-rsa
@@ -1519,7 +1524,6 @@ rustup
 s-nail
 sbc
 sbt
-scala
 schroedinger
 screen
 sddm
