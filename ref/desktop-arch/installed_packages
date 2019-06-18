@@ -162,8 +162,6 @@ ed
 editorconfig-core-c
 efibootmgr
 efivar
-egl-wayland
-eglexternalplatform
 electron
 electron2
 emacs
@@ -620,6 +618,7 @@ inotify-tools
 intel-tbb
 intel-ucode
 intltool
+inxi
 iotop
 iproute2
 iptables
@@ -810,9 +809,9 @@ lib32-llvm-libs
 lib32-lm_sensors
 lib32-lz4
 lib32-mesa
+lib32-mesa-vdpau
 lib32-ncurses
 lib32-nettle
-lib32-nvidia-utils
 lib32-p11-kit
 lib32-pango
 lib32-pangox-compat
@@ -823,6 +822,7 @@ lib32-sdl2
 lib32-sqlite
 lib32-systemd
 lib32-util-linux
+lib32-vulkan-radeon
 lib32-wayland
 lib32-xz
 lib32-zlib
@@ -1020,7 +1020,6 @@ libreoffice-fresh
 libreoffice-fresh-en-gb
 libretro-core-info
 libretro-overlays
-libretro-shaders-cg
 librevenge
 librsvg
 libsamplerate
@@ -1067,6 +1066,7 @@ libutf8proc
 libutil-linux
 libuv
 libva
+libva-utils
 libva-vdpau-driver
 libvdpau
 libvisio
@@ -1174,6 +1174,7 @@ menu-cache
 mercurial
 mesa
 mesa-demos
+mesa-vdpau
 metacity
 meterbridge
 metis
@@ -1235,10 +1236,6 @@ nss
 ntfs-3g
 ntp
 numactl
-nvidia-390xx
-nvidia-390xx-utils
-nvidia-cg-toolkit
-nvidia-settings
 nvm
 nzbget
 ocl-icd
@@ -1246,7 +1243,6 @@ octave
 odt2txt
 oniguruma
 openal
-opencl-nvidia
 opencore-amr
 openexr
 openjdk-doc
@@ -1658,6 +1654,7 @@ user-manager
 util-linux
 v4l-utils
 vamp-plugin-sdk
+vdpauinfo
 vi
 vid.stab
 vim-runtime
@@ -1670,6 +1667,7 @@ vte
 vte-common
 vte3
 vulkan-icd-loader
+vulkan-radeon
 wavpack
 wayland
 wayland-protocols
@@ -1706,6 +1704,8 @@ xf86-input-mouse
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
+xf86-video-amdgpu
+xf86-video-ati
 xfce4-appfinder
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin

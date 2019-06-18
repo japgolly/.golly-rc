@@ -1,5 +1,0 @@
-.include /usr/lib/systemd/system/netctl@.service
-
-[Unit]
-BindsTo=sys-subsystem-net-devices-enp3s0.device
-After=sys-subsystem-net-devices-enp3s0.device

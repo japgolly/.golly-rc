@@ -162,8 +162,6 @@ ed 1.15-1
 editorconfig-core-c 0.12.3-1
 efibootmgr 16-1
 efivar 37-1
-egl-wayland 1.1.3-1
-eglexternalplatform 1.0+3+g7c8f8e2-1
 electron 4.1.4-1
 electron2 2.0.18-1
 emacs 26.2-1
@@ -620,6 +618,7 @@ inotify-tools 3.20.1-1
 intel-tbb 2019.7-1
 intel-ucode 20190514.a-1
 intltool 0.51.0-4
+inxi 3.0.34-1
 iotop 0.6-6
 iproute2 5.1.0-1
 iptables 1:1.8.2-1
@@ -810,9 +809,9 @@ lib32-llvm-libs 8.0.0-1
 lib32-lm_sensors 3.5.0-2
 lib32-lz4 1.9.1-1
 lib32-mesa 19.0.6-1
+lib32-mesa-vdpau 19.0.6-1
 lib32-ncurses 6.1-4
 lib32-nettle 3.4.1-1
-lib32-nvidia-utils 430.26-1
 lib32-p11-kit 0.23.16.1-1
 lib32-pango 1:1.43.0-2
 lib32-pangox-compat 0.0.2-1
@@ -823,6 +822,7 @@ lib32-sdl2 2.0.9-1
 lib32-sqlite 3.28.0-1
 lib32-systemd 242.29-1
 lib32-util-linux 2.33.2-1
+lib32-vulkan-radeon 19.0.6-1
 lib32-wayland 1.17.0-1
 lib32-xz 5.2.4-1
 lib32-zlib 1.2.11-2
@@ -1020,7 +1020,6 @@ libreoffice-fresh 6.2.4-1
 libreoffice-fresh-en-gb 6.2.4-1
 libretro-core-info 1.7.7-1
 libretro-overlays 149-1
-libretro-shaders-cg 826-1
 librevenge 0.0.4-2
 librsvg 2:2.44.14+1+g17bb3cd6-1
 libsamplerate 0.1.9-2
@@ -1067,6 +1066,7 @@ libutf8proc 2.4.0-1
 libutil-linux 2.33.2-1
 libuv 1.29.1-1
 libva 2.4.1-1
+libva-utils 2.4.1-1
 libva-vdpau-driver 0.7.4-4
 libvdpau 1.2-1
 libvisio 0.1.6-6
@@ -1174,6 +1174,7 @@ menu-cache 1.1.0-1
 mercurial 5.0.1-1
 mesa 19.0.6-1
 mesa-demos 8.4.0-1
+mesa-vdpau 19.0.6-1
 metacity 3.30.1-2
 meterbridge 0.9.3-2
 metis 5.1.0.p6-1
@@ -1235,10 +1236,6 @@ nss 3.44-1
 ntfs-3g 2017.3.23-3
 ntp 4.2.8.p13-2
 numactl 2.0.12-2
-nvidia-390xx 390.116-29
-nvidia-390xx-utils 390.116-1
-nvidia-cg-toolkit 3.1-5
-nvidia-settings 430.14-1
 nvm 0.34.0-3
 nzbget 21.0-1
 ocl-icd 2.2.12-3
@@ -1246,7 +1243,6 @@ octave 5.1.0-4
 odt2txt 0.5-3
 oniguruma 6.9.2-1
 openal 1.19.1-2
-opencl-nvidia 430.26-1
 opencore-amr 0.1.5-2
 openexr 2.3.0-1
 openjdk-doc 11.0.3.u4-1
@@ -1658,6 +1654,7 @@ user-manager 5.16.0-1
 util-linux 2.33.2-1
 v4l-utils 1.16.6-1
 vamp-plugin-sdk 2.8.0-1
+vdpauinfo 1.0-3
 vi 1:070224-3
 vid.stab 1.1-2
 vim-runtime 8.1.1467-2
@@ -1670,6 +1667,7 @@ vte 0.28.2-8
 vte-common 0.56.3-1
 vte3 0.56.3-1
 vulkan-icd-loader 1.1.108-1
+vulkan-radeon 19.0.6-1
 wavpack 5.1.0-2
 wayland 1.17.0-1
 wayland-protocols 1.17-1
@@ -1706,6 +1704,8 @@ xf86-input-mouse 1.9.3-1
 xf86-input-synaptics 1.9.1-1
 xf86-input-vmmouse 13.1.0-4
 xf86-input-void 1.4.1-4
+xf86-video-amdgpu 19.0.1-1
+xf86-video-ati 1:19.0.1-1
 xfce4-appfinder 4.12.0-5
 xfce4-cpufreq-plugin 1.2.1-1
 xfce4-cpugraph-plugin 1.0.5-5

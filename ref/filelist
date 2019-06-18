@@ -55,6 +55,6 @@
 /etc/udev/rules.d/
 /etc/vconsole.conf
 /etc/X11/xorg.conf
-/etc/X11/xorg.conf.d/10-monitor.conf
-/etc/X11/xorg.conf.d/20-intel.conf
+/etc/X11/xorg.conf.d/20-amdgpu.conf
+/etc/X11/xorg.conf.d/90-monitor.conf
 /etc/yaourtrc

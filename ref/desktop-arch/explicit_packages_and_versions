@@ -150,6 +150,7 @@ inetutils 1.9.4-7
 inkscape 0.92.4-5
 inotify-tools 3.20.1-1
 intel-ucode 20190514.a-1
+inxi 3.0.34-1
 iotop 0.6-6
 iproute2 5.1.0-1
 iputils 20180629.f6aac8d-4
@@ -173,6 +174,8 @@ lib32-alsa-plugins 1.1.9-1
 lib32-gnutls 3.6.8-1
 lib32-libgudev 232-1
 lib32-libpulse 12.2-1
+lib32-mesa-vdpau 19.0.6-1
+lib32-vulkan-radeon 19.0.6-1
 libdvdread 6.0.1-1
 libexif 0.6.21-3
 libid3tag 0.15.1b-9
@@ -188,8 +191,8 @@ libreoffice-fresh 6.2.4-1
 libreoffice-fresh-en-gb 6.2.4-1
 libretro-core-info 1.7.7-1
 libretro-overlays 149-1
-libretro-shaders-cg 826-1
 libtool 2.4.6+42+gb88cebd5-3
+libva-utils 2.4.1-1
 libva-vdpau-driver 0.7.4-4
 libvncserver 0.9.12-1
 libyaml 0.2.1-1
@@ -214,6 +217,7 @@ mdadm 4.1-1
 meld 3.20.1-1
 mercurial 5.0.1-1
 mesa 19.0.6-1
+mesa-vdpau 19.0.6-1
 metacity 3.30.1-2
 meterbridge 0.9.3-2
 mirage 0.9.5.2-5
@@ -246,13 +250,10 @@ noto-fonts-extra 20190111-1
 npm 6.9.0-1
 ntfs-3g 2017.3.23-3
 ntp 4.2.8.p13-2
-nvidia-390xx 390.116-29
-nvidia-settings 430.14-1
 nvm 0.34.0-3
 nzbget 21.0-1
 octave 5.1.0-4
 odt2txt 0.5-3
-opencl-nvidia 430.26-1
 openjdk-doc 11.0.3.u4-1
 openjdk-src 11.0.3.u4-1
 openjdk8-doc 8.u212-1
@@ -383,11 +384,13 @@ unzip 6.0-13
 upower 0.99.10-1
 usbutils 010-1
 util-linux 2.33.2-1
+vdpauinfo 1.0-3
 vi 1:070224-3
 vim-systemd 20170410-1
 vimpager 2.06-4
 visualvm 1.4.3-1
 vlc 3.0.7.1-1
+vulkan-radeon 19.0.6-1
 wget 1.20.3-1
 which 2.21-3
 wine 4.9-1
@@ -400,6 +403,8 @@ xf86-input-mouse 1.9.3-1
 xf86-input-synaptics 1.9.1-1
 xf86-input-vmmouse 13.1.0-4
 xf86-input-void 1.4.1-4
+xf86-video-amdgpu 19.0.1-1
+xf86-video-ati 1:19.0.1-1
 xfce4-appfinder 4.12.0-5
 xfce4-cpufreq-plugin 1.2.1-1
 xfce4-cpugraph-plugin 1.0.5-5

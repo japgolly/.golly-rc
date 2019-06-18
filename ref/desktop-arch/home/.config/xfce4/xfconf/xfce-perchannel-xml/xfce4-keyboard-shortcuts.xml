@@ -12,11 +12,13 @@
       </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="XF86Display" type="empty"/>
       <property name="&lt;Super&gt;p" type="empty"/>
       <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86WWW" type="empty"/>
       <property name="XF86Mail" type="empty"/>
+      <property name="Print" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Control&gt;Escape" type="empty"/>
     </property>
@@ -32,13 +34,13 @@
       <property name="&lt;Super&gt;b" type="string" value="subl"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable --incognito --enable-precise-memory-info"/>
       <property name="&lt;Super&gt;w" type="string" value="/usr/bin/google-chrome-stable"/>
-      <property name="&lt;Super&gt;f" type="string" value="firefox"/>
       <property name="&lt;Super&gt;m" type="string" value="xfce4-mixer"/>
       <property name="&lt;Super&gt;e" type="string" value="pcmanfm"/>
       <property name="&lt;Super&gt;equal" type="string" value="/usr/bin/speedcrunch"/>
       <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;backslash" type="string" value="systemctl --user start xfce4-notifyd.service"/>
       <property name="&lt;Alt&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
+      <property name="&lt;Super&gt;f" type="string" value="firefox-developer-edition"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
