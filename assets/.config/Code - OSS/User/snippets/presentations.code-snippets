@@ -1,0 +1,86 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"span with style": {
+		"scope": "markdown",
+		"prefix": "_span",
+		"body": "<span style=\"$1\">$2</span>"
+	},
+
+	"<div class=\"fragment\" />": {
+		"scope": "markdown",
+		"prefix": "_frag",
+		"body": "<div class=\"fragment\" />"
+	},
+
+	"<!-- .element: class=\"fragment\" -->": {
+		"scope": "markdown",
+		"prefix": "_fragEl",
+		"body": "<!-- .element: class=\"fragment\" -->"
+	},
+
+	"<mark>???</mark>": {
+		"scope": "markdown",
+		"prefix": "_mark",
+		"body": "<mark>$1</mark>"
+	},
+
+	"Scala block (markdown)": {
+		"scope": "markdown",
+		"prefix": "_scala",
+		"body": ["```scala", "$0", "```"]
+	},
+
+	"Scala block (html)": {
+		"scope": "markdown",
+		"prefix": "_scalaH",
+		"body": ["<pre><code class=\"lang-scala hljs\" data-trim>", "$0", "</code></pre>"]
+	},
+
+	"Scala block (html, noescape)": {
+		"scope": "markdown",
+		"prefix": "_scalaHH",
+		"body": ["<pre><code class=\"lang-scala hljs\" data-trim data-noescape>", "$0", "</code></pre>"]
+	},
+
+	"Green tick": {
+		"scope": "markdown",
+		"prefix": "_tick",
+		"body": "<span style=\"font-weight:bold; color:#0a0\">🗸</span>"
+	},
+
+	"Red cross": {
+		"scope": "markdown",
+		"prefix": "_cross",
+		"body": "<span style=\"font-weight:bold; color:#a00\">✗</span>"
+	}
+}
+
+
+// 36   │   'colour 1 (purple)':
+// 37   │     'prefix': '_col1'
+// 38   │     'body': '<span style="color:hsl(286, 100%, 50%)">$1</span>'
+// 39   │   'colour 2 (blue)':
+// 40   │     'prefix': '_col2'
+// 41   │     'body': '<span style="color:hsl(203, 100%, 50%)">$1</span>'
+// 42   │   'colour 3 (green)':
+// 43   │     'prefix': '_col3'
+// 44   │     'body': '<span style="color:hsl(126, 27%, 50%)">$1</span>'
+// 45   │   'colour 4 (orange)':
+// 46   │     'prefix': '_col4'
+// 47   │     'body': '<span style="color:hsl(36, 70%, 50%)">$1</span>'
