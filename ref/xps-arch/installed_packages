@@ -1080,6 +1080,7 @@ python
 python-anytree
 python-appdirs
 python-asn1crypto
+python-attrs
 python-bcrypt
 python-beaker
 python-botocore
@@ -1112,6 +1113,7 @@ python-pygments
 python-pynacl
 python-pyparsing
 python-pyqt5
+python-pyrsistent
 python-requests
 python-rsa
 python-s3transfer
