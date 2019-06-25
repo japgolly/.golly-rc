@@ -45,6 +45,7 @@ bind-tools
 binutils
 bison
 blas
+bloop
 bluez-libs
 boost
 boost-libs
@@ -1173,6 +1174,7 @@ rust
 s-nail
 sbc
 sbt
+scala
 schroedinger
 scons
 screen
