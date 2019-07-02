@@ -1,5 +1,8 @@
 # vim:ft=sh et sw=2 ts=2:
 
+unset BASH
+source "$HOME/.golly-rc/assets/shell.rc-shared"
+
 unset PS1
 export SHELL="$(which zsh)"
 alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zshrc"
@@ -7,7 +10,6 @@ alias zshrc="vim ~/.golly-rc/assets/shell.rc-zsh && echo Reloading... && . ~/.zs
 [ -e ~/.bloop/zsh ] && fpath=(~/.bloop/zsh $fpath)
 autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
-source "$HOME/.golly-rc/assets/shell.rc-shared"
 
 HISTSIZE=20000
 SAVEHIST=20000
@@ -54,11 +56,11 @@ export PROMPT="%{$fg[green]%}%n@%m: %{$fg[yellow]%}%~ \$(git_info)
 #export RPS1="%B%{$fg[cyan]%}%*%b%{$reset_color%}"
 
 # Start new terminal tabs in the working directory
-if [ -e /etc/profile.d/vte.sh ]; then
-  source /etc/profile.d/vte.sh
+#if [ -e /etc/profile.d/vte.sh ]; then
+#  source /etc/profile.d/vte.sh
 #  __vte_ps1
 #  chpwd() { __vte_ps1 }
-fi
+#fi
 
 bindkey '^A' beginning-of-line
 bindkey '^D' delete-char-or-list

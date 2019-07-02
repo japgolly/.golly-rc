@@ -1,5 +1,10 @@
 # vim:ft=sh et sw=2 ts=2:
 
+if [ -e /etc/profile ]; then
+  unset PATH
+  source /etc/profile
+fi
+
 stty icrnl
 
 export EDITOR=vim
@@ -251,6 +256,7 @@ function fkeyd {
 [ -e /usr/lib/jvm/java-8-graal ] && function graal {
   export JAVA_HOME=/usr/lib/jvm/java-8-graal
   export PATH="$JAVA_HOME/bin:$PATH"
+  export PATH="/usr/bin:$PATH" # No I don't want to use Graal node by default
   [ "$1" = --quiet ] || java -version
 }
 [ -e $HOME/Apps/graalvm-ee ] && function graal-ee {
@@ -258,10 +264,10 @@ function fkeyd {
   export PATH="$JAVA_HOME/bin:$PATH"
   [ "$1" = --quiet ] || java -version
 }
-which graal >/dev/null; if [ $? -eq 0 ]; then
+which graal >/dev/null 2>&1; if [ $? -eq 0 ]; then
   graal --quiet
 else
-  which java8 >/dev/null; [ $? -eq 0 ] && java8 --quiet
+  which java8 >/dev/null 2>&1; [ $? -eq 0 ] && java8 --quiet
 fi
 
 if [ -e /usr/bin/vendor_perl/ack ]; then
@@ -307,9 +313,6 @@ fi
 
 # Haskell Cabal
 [ -d $HOME/.cabal/bin ] && export PATH="$HOME/.cabal/bin:$PATH"
-
-# Haskell Stack
-type stack >/dev/null 2>&1 && eval "$(stack --bash-completion-script "$(which stack)")"
 
 # Load local shared settings
 export LOCALRC="$HOME/.localrc"
