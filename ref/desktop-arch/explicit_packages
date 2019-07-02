@@ -298,6 +298,7 @@ pup-bin
 pv
 pwgen
 qjackctl
+radeontop
 redis
 redshift
 refind-efi
