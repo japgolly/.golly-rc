@@ -19,7 +19,7 @@
 	"span with style": {
 		"scope": "markdown",
 		"prefix": "_span",
-		"body": "<span style=\"$1\">$2</span>"
+		"body": "<span style=\"$2\">$1</span>"
 	},
 
 	"<div class=\"fragment\" />": {
@@ -40,6 +40,12 @@
 		"body": "<mark>$1</mark>"
 	},
 
+	"TLA+ block (markdown)": {
+		"scope": "markdown",
+		"prefix": "_tla",
+		"body": ["```tla", "$0", "```"]
+	},
+
 	"Scala block (markdown)": {
 		"scope": "markdown",
 		"prefix": "_scala",
@@ -56,6 +62,12 @@
 		"scope": "markdown",
 		"prefix": "_scalaHH",
 		"body": ["<pre><code class=\"lang-scala hljs\" data-trim data-noescape>", "$0", "</code></pre>"]
+	},
+
+	"Lang block (html, noescape, small)": {
+		"scope": "markdown",
+		"prefix": "_lang",
+		"body": ["<pre><code class=\"lang-$1 hljs\" style=\"font-size:100%\" data-trim data-noescape>", "$0", "</code></pre>"]
 	},
 
 	"Green tick": {
