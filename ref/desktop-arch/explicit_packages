@@ -33,6 +33,7 @@ brother-mfc-j5320dw
 brotli
 bzip2
 cabal-install
+cadence
 calf
 calibre
 chromedriver
@@ -125,6 +126,7 @@ gtkglext
 gtkmm3
 gtkspell
 guake
+guitarix2
 gutenprint
 gvfs-mtp
 gvim
@@ -228,6 +230,7 @@ mtpfs
 mtr
 multitail
 mupen64plus
+musescore
 mythes-en
 nano
 nautilus
@@ -299,6 +302,7 @@ pv
 pwgen
 qjackctl
 radeontop
+realtime-privileges
 redis
 redshift
 refind-efi

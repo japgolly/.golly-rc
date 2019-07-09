@@ -82,6 +82,7 @@ ca-certificates-mozilla
 ca-certificates-utils
 cabal-install
 cabextract
+cadence
 cairo
 cairomm
 calf
@@ -319,6 +320,7 @@ gts
 guake
 guile
 guile2.0
+guitarix2
 gupnp
 gupnp-dlna
 gupnp-igd
@@ -1200,6 +1202,7 @@ mtpfs
 mtr
 multitail
 mupen64plus
+musescore
 mypaint-brushes
 mythes-en
 nano
@@ -1332,6 +1335,7 @@ poppler-glib
 poppler-qt5
 popt
 portaudio
+portmidi
 postgresql
 postgresql-docs
 postgresql-libs
@@ -1362,6 +1366,7 @@ python-anytree
 python-appdirs
 python-asn1crypto
 python-attrs
+python-babel
 python-bcrypt
 python-beaker
 python-botocore
@@ -1383,6 +1388,8 @@ python-evdev
 python-gobject
 python-httplib2
 python-idna
+python-imagesize
+python-jinja
 python-jmespath
 python-jsonschema
 python-lxml
@@ -1403,6 +1410,7 @@ python-pynacl
 python-pyparsing
 python-pyqt5
 python-pyrsistent
+python-pytz
 python-pyzmq
 python-requests
 python-rsa
@@ -1410,6 +1418,15 @@ python-s3transfer
 python-setuptools
 python-sip-pyqt5
 python-six
+python-snowballstemmer
+python-sphinx
+python-sphinx-alabaster-theme
+python-sphinxcontrib-applehelp
+python-sphinxcontrib-devhelp
+python-sphinxcontrib-htmlhelp
+python-sphinxcontrib-jsmath
+python-sphinxcontrib-qthelp
+python-sphinxcontrib-serializinghtml
 python-termcolor
 python-texttable
 python-urllib3
@@ -1493,6 +1510,7 @@ raptor
 rasqal
 re2
 readline
+realtime-privileges
 recode
 redis
 redland
@@ -1636,6 +1654,7 @@ ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
+ttf-roboto
 tumbler
 twemoji-color-font
 twolame
@@ -1785,6 +1804,8 @@ zeal
 zenity
 zeromq
 zip
+zita-convolver
+zita-resampler
 zlib
 zopfli-git
 zsh

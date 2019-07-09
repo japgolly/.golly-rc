@@ -14,8 +14,8 @@
     <property name="EnableInputFeedbackSounds" type="bool" value="false"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="-1"/>
-    <property name="Antialias" type="empty"/>
+    <property name="DPI" type="int" value="104"/>
+    <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="int" value="-1"/>
     <property name="HintStyle" type="string" value="hintfull"/>
     <property name="RGBA" type="string" value="vrgb"/>
@@ -40,6 +40,6 @@
     <property name="IMModule" type="string" value=""/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="LastCustomDPI" type="int" value="85"/>
+    <property name="LastCustomDPI" type="int" value="104"/>
   </property>
 </channel>
