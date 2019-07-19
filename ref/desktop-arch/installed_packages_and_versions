@@ -56,6 +56,7 @@ baobab 3.32.0-1
 bash 5.0.007-1
 bash-completion 2.9-1
 bat 0.11.0-1
+bazel 0.28.0-1
 bc 1.07.1-3
 bind-tools 9.14.3-1
 binutils 2.32-2
@@ -1353,6 +1354,7 @@ psmisc 23.2-1
 psutils 1.17-6
 pulseaudio 12.2-2
 pulseaudio-alsa 2-4
+pulseaudio-jack 12.2-2
 pup-bin 0.4.0-1
 pv 1.6.6-2
 pwgen 2.08-1

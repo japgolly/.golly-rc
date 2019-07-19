@@ -26,6 +26,7 @@ baobab
 bash
 bash-completion
 bat
+bazel
 bc
 bind-tools
 bison
@@ -297,6 +298,7 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-jack
 pup-bin
 pv
 pwgen
