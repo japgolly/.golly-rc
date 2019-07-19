@@ -264,6 +264,7 @@ gnome-panel
 gnome-terminal
 gnome-themes-extra
 gnome-themes-extras
+gnu-free-fonts
 gnupg
 gnuplot
 gnustep-base
@@ -1155,7 +1156,6 @@ lutris
 lv2
 lvm2
 lxmenu-data
-lynx
 lz4
 lzo
 m17n-db
@@ -1648,7 +1648,6 @@ ttf-bitstream-vera
 ttf-chromeos-fonts
 ttf-dejavu
 ttf-envy-code-r
-ttf-freefont
 ttf-hack
 ttf-inconsolata
 ttf-inconsolata-g

@@ -107,6 +107,7 @@ gnome-keyring
 gnome-terminal
 gnome-themes-extra
 gnome-themes-extras
+gnu-free-fonts
 gnuplot
 google-chrome
 google-cloud-sdk
@@ -373,7 +374,6 @@ ttf-bitstream-vera
 ttf-chromeos-fonts
 ttf-dejavu
 ttf-envy-code-r
-ttf-freefont
 ttf-inconsolata
 ttf-inconsolata-g
 ttf-linux-libertine
