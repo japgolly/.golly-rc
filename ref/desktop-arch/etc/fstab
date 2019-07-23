@@ -1,20 +1,20 @@
 #
 # /etc/fstab: static file system information
 #
-# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# <file system> <dir> <type> <options> <dump> <pass>
 
 
 # Disabling discard in favour of systemctl enable fstrim.timer
 # "Using mount option discard disables all write cache as well as make two real writes per flush, and flush will be used for all writes. The penalty is degration by a factor 10 in performance"
 
-/dev/sda1	/boot/efi 	vfat	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
-/dev/sda2	/		ext4	rw,noatime,data=ordered		0 1
-/dev/sdc1	/var		ext4	rw,noatime,data=ordered		0 2
-/dev/sdc2	none		swap	defaults,noatime	  	0 0
-/dev/sdd1	/home		ext4	rw,noatime,data=ordered		0 2
-tmpfs		/tmp		tmpfs	nodev,nosuid			0 0
+PARTUUID=e497411f-3fd3-4b7f-998a-37989472033a /boot/efi vfat  rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro        0 2
+PARTUUID=ff1e1d62-bacc-4685-a97f-3f358833247a /         ext4  rw,noatime,data=ordered 0 1
+PARTUUID=6aec3c01-983d-154b-bc2b-1a625190a5ab /home     ext4  rw,noatime,data=ordered 0 2
+PARTUUID=7a77edde-b5f5-5a48-9e5b-57ca6fc93a95 /var      ext4  rw,noatime,data=ordered 0 2
+PARTUUID=fa6fcb39-b787-cc4e-a0de-c9a8a9024f5b none      swap  defaults,noatime        0 0
+tmpfs                                         /tmp      tmpfs nodev,nosuid            0 0
 
-nas:/volume1/public    /mnt/nas/public    nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
-nas:/volume1/Downloads /mnt/nas/downloads nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
-#nas:/volume1/golly     /mnt/nas/golly     nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
+nas:/volume1/public    /mnt/nas/public    nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev        0 2
+nas:/volume1/Downloads /mnt/nas/downloads nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev        0 2
+#nas:/volume1/golly     /mnt/nas/golly     nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev        0 2
 
