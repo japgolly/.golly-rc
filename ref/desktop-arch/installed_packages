@@ -25,6 +25,8 @@ appstream
 appstream-qt
 apr
 apr-util
+arch-install-scripts
+archiso
 archlinux-appstream-data
 archlinux-keyring
 ardour
@@ -845,6 +847,7 @@ libblockdev
 libbluray
 libbs2b
 libbsd
+libburn
 libbytesize
 libcaca
 libcanberra
@@ -936,6 +939,8 @@ libimobiledevice
 libinput
 libiptcdata
 libirman
+libisoburn
+libisofs
 libixion
 libjpeg-turbo
 libkate
@@ -1156,6 +1161,7 @@ lutris
 lv2
 lvm2
 lxmenu-data
+lynx
 lz4
 lzo
 m17n-db
@@ -1587,6 +1593,7 @@ speexdsp
 spirv-tools
 sqlectron-gui
 sqlite
+squashfs-tools
 sratom
 srt
 stack
