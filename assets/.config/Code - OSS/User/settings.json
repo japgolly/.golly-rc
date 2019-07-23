@@ -35,5 +35,9 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.closeOnFileDelete": true,
     "files.hotExit": "off",
-    "files.autoSave": "onWindowChange"
+    "files.autoSave": "onWindowChange",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "none",
+    "cSpell.enabled": false,
+    "trailing-spaces.trimOnSave": true
 }
