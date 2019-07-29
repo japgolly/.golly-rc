@@ -1,6 +1,14 @@
 Sqlectron
 ack
 acpid
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-tw-fonts
+adobe-source-han-serif-cn-fonts
+adobe-source-han-serif-jp-fonts
+adobe-source-han-serif-kr-fonts
+adobe-source-han-serif-tw-fonts
 agda
 agda-stdlib
 alsa-lib
@@ -265,6 +273,7 @@ openjdk8-doc
 openjdk8-src
 openshot
 openssh
+otf-fira-code
 otf-ipafont
 oxygen-icons
 p7zip
@@ -375,8 +384,11 @@ ttf-bitstream-vera
 ttf-chromeos-fonts
 ttf-dejavu
 ttf-envy-code-r
+ttf-fira-code
+ttf-hanazono
 ttf-inconsolata
 ttf-inconsolata-g
+ttf-liberation
 ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
@@ -436,6 +448,8 @@ xfce4-terminal
 xfce4-wavelan-plugin
 xfdesktop
 xfsprogs
+xorg-fonts-100dpi
+xorg-fonts-75dpi
 xorg-server
 xorg-server-common
 xorg-server-xvfb

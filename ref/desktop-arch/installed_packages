@@ -7,6 +7,14 @@ ack
 acl
 acpid
 adobe-source-code-pro-fonts
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-tw-fonts
+adobe-source-han-serif-cn-fonts
+adobe-source-han-serif-jp-fonts
+adobe-source-han-serif-kr-fonts
+adobe-source-han-serif-tw-fonts
 adwaita-icon-theme
 agda
 agda-stdlib
@@ -868,6 +876,7 @@ libcurl-compat
 libcurl-gnutls
 libdaemon
 libdatrie
+libdazzle
 libdbusmenu-qt5
 libdc1394
 libdca
@@ -1270,6 +1279,7 @@ optipng
 opus
 orc
 osinfo-db
+otf-fira-code
 otf-ipafont
 oxygen
 oxygen-icons
@@ -1655,9 +1665,12 @@ ttf-bitstream-vera
 ttf-chromeos-fonts
 ttf-dejavu
 ttf-envy-code-r
+ttf-fira-code
 ttf-hack
+ttf-hanazono
 ttf-inconsolata
 ttf-inconsolata-g
+ttf-liberation
 ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
@@ -1765,6 +1778,8 @@ xmlto
 xorg-bdftopcf
 xorg-font-util
 xorg-font-utils
+xorg-fonts-100dpi
+xorg-fonts-75dpi
 xorg-fonts-alias
 xorg-fonts-encodings
 xorg-fonts-misc
