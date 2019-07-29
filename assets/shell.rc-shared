@@ -364,3 +364,4 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-v:execute(vimcat {})+abo
 [ -e "$pub/scalajs-react"     ] && export    sjr="$pub/scalajs-react"     && alias    sjr="cd '$sjr'"
 [ -e "$pub/scala-graal"       ] && export     sg="$pub/scala-graal"       && alias     sg="cd '$sg'"
 [ -e "$pub/test-state"        ] && export     ts="$pub/test-state"        && alias     ts="cd '$ts'"
+[ -e "$pub/mr.boilerplate"    ] && export    mrb="$pub/mr.boilerplate"    && alias    mrb="cd '$mrb'"
