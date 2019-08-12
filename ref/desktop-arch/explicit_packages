@@ -39,6 +39,9 @@ bazel
 bc
 bind-tools
 bison
+blueberry
+blueman
+bluez-utils
 brother-mfc-j5320dw
 brotli
 bzip2
@@ -297,6 +300,7 @@ pkgstats
 plantuml
 plasma-meta
 pngout
+ponymix
 poppler-glib
 postgresql
 postgresql-docs
@@ -309,6 +313,7 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 pulseaudio-jack
 pup-bin
 pv

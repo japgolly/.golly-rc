@@ -72,10 +72,14 @@ bind-tools
 binutils
 bison
 blas
+blueberry
 bluedevil
+blueman
 bluez
 bluez-libs
 bluez-qt
+bluez-tools
+bluez-utils
 boost
 boost-libs
 breeze
@@ -264,6 +268,7 @@ glslang
 glu
 gmp
 gnome-autoar
+gnome-bluetooth
 gnome-desktop
 gnome-icon-theme
 gnome-icon-theme-symbolic
@@ -434,6 +439,7 @@ haskell-glob
 haskell-hackage-security
 haskell-hashable
 haskell-hashtables
+haskell-hi-file-parser
 haskell-hinotify
 haskell-hourglass
 haskell-hpack
@@ -447,6 +453,7 @@ haskell-http-api-data
 haskell-http-client
 haskell-http-client-tls
 haskell-http-conduit
+haskell-http-download
 haskell-http-types
 haskell-http2
 haskell-hunit
@@ -486,9 +493,12 @@ haskell-network-byte-order
 haskell-network-uri
 haskell-old-locale
 haskell-old-time
+haskell-only
 haskell-open-browser
 haskell-optparse-applicative
+haskell-optparse-generic
 haskell-optparse-simple
+haskell-pantry
 haskell-parallel
 haskell-parser-combinators
 haskell-parsers
@@ -520,6 +530,8 @@ haskell-resource-pool
 haskell-resourcet
 haskell-retry
 haskell-rio
+haskell-rio-orphans
+haskell-rio-prettyprint
 haskell-safe
 haskell-safe-exceptions
 haskell-scientific
@@ -549,6 +561,7 @@ haskell-system-filepath
 haskell-tagged
 haskell-tagsoup
 haskell-tar
+haskell-tar-conduit
 haskell-temporary
 haskell-terminal-size
 haskell-text-binary
@@ -1346,6 +1359,7 @@ polkit
 polkit-gnome
 polkit-kde-agent
 polkit-qt5
+ponymix
 poppler
 poppler-data
 poppler-glib
@@ -1370,6 +1384,7 @@ psmisc
 psutils
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 pulseaudio-jack
 pup-bin
 pv
@@ -1433,6 +1448,7 @@ python-pyzmq
 python-requests
 python-rsa
 python-s3transfer
+python-setproctitle
 python-setuptools
 python-sip-pyqt5
 python-six
