@@ -6,7 +6,8 @@ enablePlugins(net.virtualvoid.sbt.graph.DependencyGraphPlugin)
 import com.timushev.sbt.updates.UpdatesPlugin.autoImport._
 def regexFilter(r: String) = new PatternFilter(r.r.pattern)
 dependencyUpdatesFilter -= moduleFilter(name = regexFilter("^jetty-(server|websocket)$"))
-//dependencyUpdatesFilter -= moduleFilter(organization = regexFilter("^org.scala-lang$"))
+dependencyUpdatesFilter -= moduleFilter(organization = "org.scala-lang")
+dependencyUpdatesFilter -= moduleFilter(name = "utest")
 
 triggeredMessage := Watched.clearWhenTriggered
 

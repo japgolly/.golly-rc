@@ -38,6 +38,7 @@
     "files.autoSave": "onWindowChange",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderWhitespace": "none",
+    "trailing-spaces.trimOnSave": true,
     "cSpell.enabled": false,
-    "trailing-spaces.trimOnSave": true
+    "vsicons.dontShowNewVersionMessage": true
 }
