@@ -652,7 +652,7 @@ iputils
 iso-codes
 iucode-tool
 iw
-jack2-dbus
+jack2
 jansson
 jasper
 java-environment-common
@@ -1232,6 +1232,7 @@ multitail
 mupen64plus
 musescore
 mypaint-brushes
+mypaint-brushes1
 mythes-en
 nano
 nautilus
@@ -1384,6 +1385,7 @@ postgresql
 postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
+postman-bin
 potrace
 powerdevil
 powertop

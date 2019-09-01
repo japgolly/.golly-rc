@@ -169,7 +169,7 @@ iotop
 iproute2
 iputils
 iucode-tool
-jack2-dbus
+jack2
 jdk-openjdk
 jdk8-openjdk
 jfsutils
@@ -305,6 +305,7 @@ postgresql
 postgresql-docs
 postgresql-libs
 postgresql-old-upgrade
+postman-bin
 powertop
 ppp
 prettyping
