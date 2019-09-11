@@ -35,7 +35,6 @@ baobab
 bash
 bash-completion
 bat
-bazel
 bc
 bind-tools
 bison
@@ -95,7 +94,7 @@ file
 filemanager-actions
 filesystem
 findutils
-firefox-developer-edition
+firefox
 flac
 flashplugin
 flex
@@ -121,7 +120,6 @@ gnome-themes-extras
 gnu-free-fonts
 gnuplot
 google-chrome
-google-cloud-sdk
 google-musicmanager
 gource
 gpart

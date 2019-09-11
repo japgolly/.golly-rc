@@ -66,7 +66,6 @@ baobab
 bash
 bash-completion
 bat
-bazel
 bc
 bind-tools
 binutils
@@ -207,7 +206,7 @@ file
 filemanager-actions
 filesystem
 findutils
-firefox-developer-edition
+firefox
 flac
 flashplugin
 flex
@@ -222,6 +221,7 @@ fribidi
 ftgl
 fuse-common
 fuse2
+fuse3
 fusion-icon0.9
 fzf
 gamin
@@ -288,7 +288,6 @@ go-bindata
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
-google-cloud-sdk
 google-musicmanager
 gource
 gpart
@@ -346,7 +345,6 @@ gvim
 gzip
 harfbuzz
 harfbuzz-icu
-haskell-adjunctions
 haskell-aeson
 haskell-aeson-compat
 haskell-annotated-wl-pprint
@@ -379,7 +377,6 @@ haskell-byteorder
 haskell-call-stack
 haskell-case-insensitive
 haskell-cereal
-haskell-charset
 haskell-cheapskate
 haskell-clock
 haskell-cmdargs
@@ -458,10 +455,7 @@ haskell-hunit
 haskell-ieee754
 haskell-infer-license
 haskell-integer-logarithms
-haskell-invariant
 haskell-iproute
-haskell-kan-extensions
-haskell-lens
 haskell-libffi
 haskell-libyaml
 haskell-lifted-async
@@ -497,9 +491,7 @@ haskell-optparse-applicative
 haskell-optparse-generic
 haskell-optparse-simple
 haskell-pantry
-haskell-parallel
 haskell-parser-combinators
-haskell-parsers
 haskell-path
 haskell-path-io
 haskell-path-pieces
@@ -517,8 +509,6 @@ haskell-psqueues
 haskell-quickcheck
 haskell-quickcheck-io
 haskell-random
-haskell-reducers
-haskell-reflection
 haskell-regex-applicative
 haskell-regex-applicative-text
 haskell-regex-base
@@ -578,7 +568,6 @@ haskell-time-manager
 haskell-tls
 haskell-transformers-base
 haskell-transformers-compat
-haskell-trifecta
 haskell-typed-process
 haskell-unexceptionalio
 haskell-unicode-transforms
@@ -1112,6 +1101,7 @@ libwmf
 libwnck
 libwnck3
 libwpd
+libwpe
 libwpg
 libwps
 libx11
@@ -1192,7 +1182,7 @@ mailcap
 make
 man-db
 man-pages
-mathjax
+mathjax2
 maven
 mbedtls
 mcomix
@@ -1754,6 +1744,7 @@ winetricks
 wireless-regdb
 woff2
 wpa_supplicant
+wpebackend-fdo
 wxgtk-common
 wxgtk2
 x264
@@ -1767,6 +1758,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xdg-dbus-proxy
 xdg-desktop-portal-kde
 xdg-utils
 xf86-input-evdev
