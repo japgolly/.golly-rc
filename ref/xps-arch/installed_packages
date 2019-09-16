@@ -566,8 +566,10 @@ less
 lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
+lib32-atk
 lib32-attr
 lib32-bzip2
+lib32-cairo
 lib32-cracklib
 lib32-curl
 lib32-dbus
@@ -578,12 +580,17 @@ lib32-faudio
 lib32-flac
 lib32-fontconfig
 lib32-freetype2
+lib32-fribidi
 lib32-gcc-libs
 lib32-gconf
+lib32-gdk-pixbuf2
 lib32-gettext
 lib32-glib2
 lib32-glibc
 lib32-glu
+lib32-gmp
+lib32-gnutls
+lib32-gtk2
 lib32-harfbuzz
 lib32-icu
 lib32-jansson
@@ -591,8 +598,13 @@ lib32-json-c
 lib32-keyutils
 lib32-krb5
 lib32-lcms2
+lib32-libappindicator-gtk2
 lib32-libasyncns
 lib32-libcap
+lib32-libcups
+lib32-libdatrie
+lib32-libdbusmenu-glib
+lib32-libdbusmenu-gtk2
 lib32-libdrm
 lib32-libelf
 lib32-libffi
@@ -601,7 +613,9 @@ lib32-libglvnd
 lib32-libgpg-error
 lib32-libgudev
 lib32-libice
+lib32-libidn
 lib32-libidn2
+lib32-libindicator-gtk2
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libnl
@@ -618,6 +632,7 @@ lib32-libsm
 lib32-libsndfile
 lib32-libssh2
 lib32-libtasn1
+lib32-libthai
 lib32-libtiff
 lib32-libtirpc
 lib32-libunistring
@@ -626,12 +641,15 @@ lib32-libvorbis
 lib32-libx11
 lib32-libxau
 lib32-libxcb
+lib32-libxcomposite
 lib32-libxcursor
 lib32-libxdamage
 lib32-libxdmcp
 lib32-libxext
 lib32-libxfixes
+lib32-libxft
 lib32-libxi
+lib32-libxinerama
 lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
@@ -644,6 +662,7 @@ lib32-lm_sensors
 lib32-lz4
 lib32-mesa
 lib32-ncurses
+lib32-nettle
 lib32-nspr
 lib32-nss
 lib32-nvidia-utils
@@ -651,7 +670,9 @@ lib32-openal
 lib32-openssl
 lib32-p11-kit
 lib32-pam
+lib32-pango
 lib32-pcre
+lib32-pixman
 lib32-polkit
 lib32-readline
 lib32-sdl2
@@ -692,6 +713,8 @@ libcups
 libdaemon
 libdatrie
 libdazzle
+libdbusmenu-glib
+libdbusmenu-gtk2
 libdbusmenu-qt5
 libdc1394
 libdca
@@ -741,6 +764,7 @@ libidn2
 libiec61883
 libimagequant
 libimobiledevice
+libindicator-gtk2
 libinput
 libixion
 libjpeg-turbo
@@ -863,6 +887,7 @@ libwmf
 libwnck
 libwnck3
 libwpd
+libwpe
 libwpg
 libwps
 libx11
@@ -958,7 +983,7 @@ mpg123
 mplayer
 mpv
 mtdev
-mypaint-brushes
+mypaint-brushes1
 nano
 ncdu
 ncurses
@@ -1307,6 +1332,7 @@ wine
 wireless-regdb
 woff2
 wpa_supplicant
+wpebackend-fdo
 wxgtk-common
 wxgtk2
 x264
