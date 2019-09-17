@@ -43,7 +43,7 @@ bluez-utils 5.50-7
 brother-mfc-j5320dw 3.0.1-3
 brotli 1.0.7-1
 bzip2 1.0.8-2
-cabal-install 2.4.0.0-136
+cabal-install 2.4.0.0-137
 cadence 0.9.0-4
 calf 0.90.3-1
 calibre 3.48.0-1
@@ -51,14 +51,14 @@ chromedriver 76.0.3809.126-1
 cifs-utils 6.8-2
 cloc 1.82-1
 cmake 3.15.3-2
-code 1.38.0-1
+code 1.38.1-1
 colordiff 1.0.18-2
 compiz 0.9.14.0-5
 coreutils 8.31-1
 cpulimit 1:0.2-1
-cpupower 5.2-1
+cpupower 5.3-1
 crda 4.14-2
-cronie 1.5.4-1
+cronie 1.5.4-2
 cryptsetup 2.2.1-1
 ctop-bin 0.7.2-1
 cups 2.3.0-3
@@ -88,7 +88,7 @@ evince 3.32.0+26+gd3aecce7-2
 exo 0.12.8-1
 fakeroot 1.24-1
 fbset 2.1-6
-fd 7.3.0-1
+fd 7.4.0-1
 ffmpeg 1:4.2.1-1
 file 5.37-2
 filemanager-actions 3.4-2
@@ -117,7 +117,7 @@ gnome-keyring 1:3.31.91-1
 gnome-terminal 3.32.2-1
 gnome-themes-extra 3.28-1
 gnome-themes-extras 2.22.0-3
-gnu-free-fonts 20120503-6
+gnu-free-fonts 20120503-7
 gnuplot 5.2.7-1
 google-chrome 77.0.3865.75-1
 google-musicmanager 1.0.467.4929_r0-6
@@ -154,7 +154,7 @@ hwinfo 21.60-2
 hyphen 2.8.8-2
 hyphen-en 2.8.8-2
 id3lib 3.8.3-17
-idris 1.3.2-15
+idris 1.3.2-16
 ifplugd 0.28-15
 iftop 1.0pre4-3
 imagemagick 7.0.8.64-1
@@ -177,7 +177,7 @@ kdiff3 1.8.1-1
 keepass 2.42.1-4
 keepass-plugin-http 1.8.4.2-2
 keepassxc 2.4.3-1
-keybase 4.4.0-1
+keybase 4.4.2-1
 krename 5.0.0-4
 lame 3.100-2
 leafpad 0.8.18.1-8
@@ -185,7 +185,7 @@ less 551-1
 lib32-alsa-plugins 1.1.9-1
 lib32-gnutls 3.6.9-1
 lib32-libgudev 233-1
-lib32-libpulse 12.99.3-1
+lib32-libpulse 13.0-1
 lib32-mesa-vdpau 19.1.6-1
 lib32-vulkan-radeon 19.1.6-1
 libdvdread 6.0.1-1
@@ -275,7 +275,7 @@ openshot 2.4.4-2
 openssh 8.0p1-2
 otf-fira-code 2-1
 otf-ipafont 003.03-7
-oxygen-icons 1:5.61.0-1
+oxygen-icons 1:5.62.0-1
 p7zip 16.02-5
 package-query 1.9-3
 pacman 5.1.3-1
@@ -309,10 +309,10 @@ ppp 2.4.7-5
 prettyping 1:1.0.1-2
 procps-ng 3.3.15-1
 psmisc 23.2-1
-pulseaudio 12.99.3-1
+pulseaudio 13.0-2
 pulseaudio-alsa 2-5
-pulseaudio-bluetooth 12.99.3-1
-pulseaudio-jack 12.99.3-1
+pulseaudio-bluetooth 13.0-2
+pulseaudio-jack 13.0-2
 pup-bin 0.4.0-1
 pv 1.6.6-2
 pwgen 2.08-1
@@ -350,7 +350,7 @@ smplayer 19.5.0-1
 soundtouch 2.1.2-1
 speedcrunch 0.12.0-2
 sqlectron-gui 1.30.0-3
-stack 2.1.3-34
+stack 2.1.3-36
 startup-notification 0.12-6
 strace 5.2-1
 sudo 1.8.27-1
@@ -420,7 +420,7 @@ which 2.21-3
 wine 4.15-1
 winetricks 20190912-1
 x264 2:157.r72db4377-1
-x86_energy_perf_policy 5.2-1
+x86_energy_perf_policy 5.3-1
 xdg-utils 1.1.3+18+g0547886-1
 xf86-input-keyboard 1.9.0-3
 xf86-input-mouse 1.9.3-1
