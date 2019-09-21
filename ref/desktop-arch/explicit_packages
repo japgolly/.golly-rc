@@ -352,6 +352,8 @@ speedcrunch
 sqlectron-gui
 stack
 startup-notification
+steam
+steam-native-runtime
 strace
 sudo
 swi-prolog
