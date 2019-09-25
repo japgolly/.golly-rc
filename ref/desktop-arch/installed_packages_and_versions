@@ -5,7 +5,7 @@ aalib 1.4rc5-13
 accountsservice 0.6.55-1
 ack 3.1.1-1
 acl 2.2.53-1
-acpid 2.0.31-1
+acpid 2.0.32-1
 adobe-source-code-pro-fonts 2.030ro+1.050it-5
 adobe-source-han-sans-cn-fonts 2.001-1
 adobe-source-han-sans-jp-fonts 2.001-1
@@ -29,8 +29,8 @@ android-udev 20190315-1
 ant 1.10.7-1
 aom 1.0.0.errata1-1
 apache 2.4.41-1
-appstream 0.12.8-1
-appstream-qt 0.12.8-1
+appstream 0.12.9-2
+appstream-qt 0.12.9-2
 apr 1.7.0-1
 apr-util 1.6.1-5
 arch-install-scripts 22-1
@@ -59,7 +59,7 @@ autoconf 2.69-5
 automake 1.16.1-1
 avahi 0.7+18+g1b5f401-2
 awoken-icons 2.5.2-2
-aws-cli 1.16.238-1
+aws-cli 1.16.243-1
 babl 0.1.66-1
 baloo 5.62.0-1
 baobab 3.34.0-1
@@ -73,10 +73,10 @@ bison 3.4-1
 blas 3.8.0-2
 bluedevil 1:5.16.5-1
 blueman 2.1.1-1
-bluez 5.50-7
-bluez-libs 5.50-7
+bluez 5.51-1
+bluez-libs 5.51-1
 bluez-qt 5.62.0-1
-bluez-utils 5.50-7
+bluez-utils 5.51-1
 boost 1.69.0-2
 boost-libs 1.69.0-2
 breeze 5.16.5-1
@@ -85,7 +85,7 @@ breeze-icons 5.62.0-1
 bridge-utils 1.6-3
 brother-mfc-j5320dw 3.0.1-3
 brotli 1.0.7-1
-btrfs-progs 5.2.1-1
+btrfs-progs 5.2.2-1
 bubblewrap 0.3.3-3
 bzip2 1.0.8-2
 c-ares 1.15.0-1
@@ -109,7 +109,7 @@ chromedriver 76.0.3809.126-1
 cifs-utils 6.8-2
 clang 8.0.1-1
 cln 1.3.4-4
-cloc 1.82-1
+cloc 1.84-1
 clucene 2.3.3.4-10
 cmake 3.15.3-2
 code 1.38.1-1
@@ -129,7 +129,7 @@ cronie 1.5.4-2
 cryptsetup 2.2.1-1
 ctop-bin 0.7.2-1
 cups 2.3.0-3
-cups-filters 1.25.5-1
+cups-filters 1.25.6-1
 curl 7.66.0-1
 cwdiff 0.4.0-2
 cython 0.29.13-1
@@ -177,7 +177,7 @@ efibootmgr 16-1
 efivar 37-1
 electron 6.0.10-1
 electron2 2.0.18-2
-electron4 4.2.10-1
+electron4 4.2.11-1
 emacs 26.3-1
 emerald0.9 0.9.5-21
 enca 1.19-3
@@ -185,7 +185,7 @@ encfs 1.9.5-2
 enchant 2.2.6-1
 entr 4.2-1
 epdfview 0.1.8-10
-ethtool 1:5.2-1
+ethtool 1:5.3-1
 evince 3.32.0+28+gaeeb3d2d-1
 evolution-data-server 3.34.0-1
 exempi 2.5.1-1
@@ -212,7 +212,7 @@ flashplugin 32.0.0.255-1
 flex 2.6.4-2
 fltk 1.3.5-1
 fluidsynth 2.0.6-1
-fontconfig 2:2.13.1+12+g5f5ec56-1
+fontconfig 2:2.13.91+23+g65087ac-1
 frameworkintegration 5.62.0-1
 freeglut 3.2.0-1
 freerdp 1:2.0.0_rc4-7
@@ -252,7 +252,7 @@ ghostscript 9.27-2
 giflib 5.2.1-1
 gimp 2.10.12-3
 git 2.23.0-1
-git-cola 3.4-1
+git-cola 3.5-1
 gitg 1:3.32.1-1
 gl2ps 1.4.0-1
 glew 2.1.0-1
@@ -311,11 +311,11 @@ gsm 1.0.18-1
 gspell 1.8.2-1
 gssdp 1.2.1-1
 gssproxy 0.8.2-1
-gst-plugins-bad 1.16.0-5
-gst-plugins-base 1.16.0-3
-gst-plugins-base-libs 1.16.0-3
-gst-plugins-good 1.16.0-1
-gstreamer 1.16.0-2
+gst-plugins-bad 1.16.1-1
+gst-plugins-base 1.16.1-1
+gst-plugins-base-libs 1.16.1-1
+gst-plugins-good 1.16.1-1
+gstreamer 1.16.1-1
 gtk 1.2.10-16
 gtk-doc 1.31-2
 gtk-engines 2.21.0-4
@@ -602,7 +602,7 @@ haskell-zip-archive 0.4.1-16
 haskell-zlib 0.6.2.1-1
 hddtemp 0.3.beta15.53-1
 hdf5 1.10.5-1
-hdparm 9.58-1
+hdparm 9.58-2
 hicolor-icon-theme 0.17-1
 hspell 1.4-2
 htop 2.2.0-2
@@ -626,7 +626,7 @@ ifplugd 0.28-15
 iftop 1.0pre4-3
 ijs 0.35-2
 ilmbase 2.3.0-1
-imagemagick 7.0.8.65-1
+imagemagick 7.0.8.66-1
 imlib2 1.5.1-1
 inetutils 1.9.4-7
 inkscape 0.92.4-8
@@ -687,11 +687,11 @@ kdelibs4support 5.62.0-2
 kdeplasma-addons 5.16.5-1
 kdesu 5.62.0-1
 kdiff3 1.8.1-1
-keepass 2.42.1-4
+keepass 2.42.1-5
 keepass-plugin-http 1.8.4.2-2
 keepassxc 2.4.3-1
 kemoticons 5.62.0-1
-keybase 4.4.2-1
+keybase 4.5.0-1
 keyutils 1.6.1-1
 kfilemetadata 5.62.0-1
 kgamma5 5.16.5-1
@@ -847,7 +847,7 @@ lib32-libunistring 0.9.10-1
 lib32-libusb 1.0.23-1
 lib32-libva1 1.8.3-3
 lib32-libvdpau 1.3-1
-lib32-libvorbis 1.3.6-1
+lib32-libvorbis 1.3.6-1.1
 lib32-libvpx1.3 1.3.0-2
 lib32-libwebp 1.0.3-1
 lib32-libwrap 7.6.24-3
@@ -901,7 +901,7 @@ lib32-sdl_mixer 1.2.12-3
 lib32-sdl_ttf 2.0.11-5
 lib32-smpeg 0.4.5-3
 lib32-sqlite 3.29.0-1
-lib32-systemd 243.0-1
+lib32-systemd 243.51-1
 lib32-tdb 1.3.18-1
 lib32-util-linux 2.34-1
 lib32-vulkan-radeon 19.1.7-1
@@ -972,7 +972,7 @@ libexif 0.6.21-3
 libexttextcat 3.4.5-1
 libfbclient 3.0.4.33054-1
 libfdk-aac 2.0.0-1
-libffado 2.4.1-5
+libffado 2.4.2-1
 libffi 3.2.1-3
 libfm 1.3.1-1
 libfm-extra 1.3.1-1
@@ -1037,7 +1037,7 @@ liblouis 3.10.0-1
 liblqr 0.4.2-2
 liblrdf 0.6.1-3
 libmad 0.15.1b-8
-libmagick6 6.9.10.64-1
+libmagick6 6.9.10.66-1
 libmatroska 1.5.2-1
 libmbim 1.20.0-1
 libmikmod 3.3.11.1-2
@@ -1056,7 +1056,7 @@ libmtp 1.1.16-1
 libmwaw 0.3.15-1
 libmypaint 1.4.0-1
 libmythes 1:1.2.4-3
-libnautilus-extension 3.34.0-1
+libnautilus-extension 3.34.0+3+ge3d7846c4-1
 libndp 1.7-1
 libnet 1.1.6-3
 libnetfilter_conntrack 1.0.7-1
@@ -1137,7 +1137,7 @@ libstaroffice 0.0.6-1
 libstemmer 0+713-1
 libsynctex 2019.51075-3
 libtar 1.2.20-4
-libtasn1 4.14-1
+libtasn1 4.14-2
 libteam 1.29-1
 libthai 0.1.28-1
 libtheora 1.1.1-4
@@ -1218,7 +1218,7 @@ libxss 1.2.3-1
 libxt 1.2.0-1
 libxtst 1.2.3-2
 libxv 1.0.11-2
-libxvmc 1.0.11-1
+libxvmc 1.0.12-1
 libxxf86dga 1.1.5-1
 libxxf86vm 1.1.4-2
 libyaml 0.2.2-1
@@ -1226,10 +1226,10 @@ libzip 1.5.2-2
 libzmf 0.0.2-6
 licenses 20181104-1
 lilv 0.24.4-3
-linux 5.3.arch1-1
+linux 5.3.1.arch1-1
 linux-api-headers 5.1-1
 linux-firmware 20190815.07b925b-1
-linux-headers 5.3.arch1-1
+linux-headers 5.3.1.arch1-1
 lirc 1:0.10.1-2
 llvm 8.0.1-3
 llvm-libs 8.0.1-3
@@ -1288,7 +1288,7 @@ mlt 6.16.0-1
 mobile-broadband-provider-info 20190116-1
 modemmanager 1.10.6-1
 modemmanager-qt 5.62.0-1
-mono 6.0.0.327-1
+mono 6.0.0.334-1
 mozilla-common 1.4-5
 mpfr 4.0.2-1
 mpg123 1.25.12-1
@@ -1305,7 +1305,7 @@ mypaint-brushes 2.0.1-1
 mypaint-brushes1 1.3.0-1
 mythes-en 20060306-4
 nano 4.4-1
-nautilus 3.34.0-1
+nautilus 3.34.0+3+ge3d7846c4-1
 nautilus-open-terminal 0.20-3
 nautilus-sendto 3.8.6+14+ge8a3604-1
 ncdu 1.14.1-1
@@ -1329,7 +1329,7 @@ notification-daemon 3.20.0-3
 notify-sharp 0.4.1-3
 noto-fonts 20190111-2
 noto-fonts-cjk 20190409-1
-noto-fonts-emoji 20180810-2
+noto-fonts-emoji 20190810-1
 noto-fonts-extra 20190111-2
 npm 6.11.3-1
 npth 1.6-1
@@ -1355,7 +1355,7 @@ openjpeg2 2.3.1-1
 openmpi 4.0.1-1
 openresolv 3.9.2-1
 openshot 2.4.4-2
-openssh 8.0p1-2
+openssh 8.0p1-3
 openssl 1.1.1.d-1
 openssl-1.0 1.0.2.s-1
 optipng 0.7.7-1
@@ -1445,10 +1445,10 @@ polkit-gnome 0.105-4
 polkit-kde-agent 5.16.5-1
 polkit-qt5 0.113.0-1
 ponymix 5-2
-poppler 0.80.0-1
+poppler 0.80.0-2
 poppler-data 0.4.9-1
-poppler-glib 0.80.0-1
-poppler-qt5 0.80.0-1
+poppler-glib 0.80.0-2
+poppler-qt5 0.80.0-2
 popt 1.16-10
 portaudio 1:19.6.0-6
 portmidi 217-8
@@ -1488,7 +1488,7 @@ python-attrs 19.1.0-1
 python-babel 2.7.0-1
 python-bcrypt 3.1.7-1
 python-beaker 1.10.1-1
-python-botocore 1.12.228-1
+python-botocore 1.12.233-1
 python-cached-property 1.5.1-2
 python-cairo 1.18.1-1
 python-cffi 1.12.3-1
@@ -1600,7 +1600,7 @@ python2-xdg 0.26-2
 qca 2.2.1-2
 qhull 2019.1-1
 qjackctl 0.5.9-1
-qpdf 9.0.0-1
+qpdf 9.0.1-1
 qqc2-desktop-style 5.62.0-1
 qrencode 4.0.2-1
 qrupdate 1.1.2-3
@@ -1682,7 +1682,7 @@ setconf 0.7.6-1
 sg3_utils 1.44-1
 shaderc 2019.0-2
 shadow 4.7-2
-shared-mime-info 1.13.1-2
+shared-mime-info 1.14-1
 sharutils 4.15.2-3
 siege 4.0.4-1
 sip 4.19.19-1
@@ -1727,9 +1727,9 @@ syntax-highlighting 5.62.0-1
 sysfsutils 2.1.0-10
 syslinux 6.04.pre2.r11.gbf6db5b4-1
 sysstat 12.1.5-1
-systemd 243.0-1
-systemd-libs 243.0-1
-systemd-sysvcompat 243.0-1
+systemd 243.51-1
+systemd-libs 243.51-1
+systemd-sysvcompat 243.51-1
 systemsettings 5.16.5-1
 t1lib 5.1.2-7
 t7-daw 7.2.1-6
@@ -1742,7 +1742,7 @@ tcsh 6.21.00-1
 tdb 1.3.18-2
 telepathy-glib 0.24.1-2
 terminus-font-ttf 4.47.0-1
-terraform 0.12.8-1
+terraform 0.12.9-1
 tevent 1:0.9.39-2
 texinfo 6.6-1
 texlive-bin 2019.51075-3
@@ -1789,7 +1789,7 @@ ttf-roboto 2.138-1
 tumbler 0.2.7-1
 twemoji-color-font 1.1-1
 twolame 0.3.13-8
-tzdata 2019c-1
+tzdata 2019c-2
 uchardet 0.0.6-2
 udisks 1.0.5-3
 udisks2 2.8.4-1
@@ -1823,14 +1823,14 @@ wavpack 5.1.0-2
 wayland 1.17.0-1
 wayland-protocols 1.18-1
 wdiff 1.2.2-3
-webkit2gtk 2.26.0-1
+webkit2gtk 2.26.1-1
 webrtc-audio-processing 0.3.1-1
 wget 1.20.3-2
 which 2.21-3
 wildmidi 0.4.3-1
 wine 4.16-1
 winetricks 20190912-1
-wireless-regdb 2019.03.01-1
+wireless-regdb 2019.06.03-1
 woff2 1.0.2-1
 wpa_supplicant 2:2.9-1
 wpebackend-fdo 1.4.0-1
@@ -1870,7 +1870,7 @@ xfce4-mount-plugin 1.1.3-1
 xfce4-mpc-plugin 0.5.2-1
 xfce4-netload-plugin 1.3.2-1
 xfce4-notifyd 0.4.4-2
-xfce4-panel 4.14.0-1
+xfce4-panel 4.14.0-2
 xfce4-power-manager 1.6.5-2
 xfce4-pulseaudio-plugin 0.4.2-2
 xfce4-screenshooter 1.9.6-1
@@ -1923,8 +1923,8 @@ xorg-xset 1.2.4-1
 xorg-xsetroot 1.1.2-1
 xorg-xvinfo 1.1.4-1
 xorg-xwininfo 1.1.5-1
-xorgproto 2019.1-1
-xterm 348-1
+xorgproto 2019.1-2
+xterm 349-1
 xvidcore 1.3.5-1
 xz 5.2.4-1
 yajl 2.1.0-2
