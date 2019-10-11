@@ -5,7 +5,10 @@
 [alias]
    st        = status
    co        = checkout
+   com       = commit
    b         = branch
+   t         = tag
+   cp        = cherry-pick
    mt        = mergetool
    l         = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
    lol       = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s'
@@ -15,7 +18,6 @@
    stashred  = stash --keep-index --include-untracked
    diffs     = diff --staged
    diffw     = diff --color-words
-   cp        = cherry-pick
    wipe      = reset --hard
    unstage   = reset HEAD
    ms        = merge --squash --no-commit
