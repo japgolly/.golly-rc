@@ -169,6 +169,7 @@ iputils
 iucode-tool
 jack2
 jdk-openjdk
+jdk11-openjdk
 jdk8-openjdk
 jfsutils
 jprofiler
@@ -269,6 +270,8 @@ octave
 odt2txt
 openjdk-doc
 openjdk-src
+openjdk11-doc
+openjdk11-src
 openjdk8-doc
 openjdk8-src
 openshot

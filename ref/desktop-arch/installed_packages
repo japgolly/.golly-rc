@@ -649,6 +649,7 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
+jdk11-openjdk
 jdk8-openjdk
 jemalloc
 jfsutils
@@ -656,6 +657,8 @@ jprofiler
 jq
 jre-openjdk
 jre-openjdk-headless
+jre11-openjdk
+jre11-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
 js60
@@ -1298,6 +1301,7 @@ mtdev
 mtools
 mtpfs
 mtr
+mujs
 multitail
 mupen64plus
 musescore
@@ -1349,6 +1353,8 @@ opencore-amr
 openexr
 openjdk-doc
 openjdk-src
+openjdk11-doc
+openjdk11-src
 openjdk8-doc
 openjdk8-src
 openjpeg2
@@ -1479,6 +1485,7 @@ pygobject-devel
 pygobject2-devel
 pygtk
 pyqt5-common
+pyqtwebengine-common
 pyrex
 python
 python-anytree
@@ -1589,6 +1596,7 @@ python2-psutil
 python2-pygments
 python2-pyparsing
 python2-pyqt5
+python2-pyqtwebengine
 python2-regex
 python2-setuptools
 python2-sip-pyqt5
