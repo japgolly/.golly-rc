@@ -20,9 +20,11 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.target": true,
+        "**/.terraform": true,
         "**/*.class": true,
         "**/classes": true,
-        "**/target": true
+        "**/target": true,
+        "**/terraform.tfstate*": true
     },
     "workbench.colorTheme": "Visual Studio Dark",
     "cSpell.userWords": [
@@ -31,14 +33,17 @@
         "Thenable",
         "japgolly"
     ],
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.closeOnFileDelete": true,
-    "files.hotExit": "off",
+    "files.hotExit": "onExitAndWindowClose",
     "files.autoSave": "onWindowChange",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderWhitespace": "none",
     "trailing-spaces.trimOnSave": true,
     "cSpell.enabled": false,
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.tree.indent": 16
 }
