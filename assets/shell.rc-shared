@@ -23,24 +23,14 @@ alias lsa='ls -a'
 alias lld='ll --group-directories-first'
 alias tree='tree -I target'
 
-#alias svnstnew='svn st --ignore-externals | fgrep ? | cut -b8-'
-#alias svnste='svn st --ignore-externals | grep -v ^X'
-#alias svn_add_rm="svnste | sort | fgrep '?' | cut -b3- | xargs --no-run-if-empty echo svn add; echo; svnste | sort | fgrep '!' | cut -b3- | xargs --no-run-if-empty echo svn rm"
-#alias b=bundle
-#alias be='bundle exec'
-#alias bgc='bundle exec guard -c'
-alias rak='bundle exec rake'
 alias vimrc='vim ~/.vimrc'
-alias gemdir='pushd "`gem env | fgrep INSTALL | perl -pe "s/^.+?: //"`/gems"'
 alias view='vim -R'
 alias sharedrc="vim ~/.golly-rc/assets/shell.rc-shared && echo Reloading... && . ~/.$(basename $SHELL)rc"
 alias golrc='pushd ~/.golly-rc'
 alias ssc='sudo systemctl'
 alias mvn="$HOME/.golly-rc/bin/mvnc"
-alias code_gsub="$HOME/.golly-rc/bin/code_gsub"
 alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
 alias killidea="jps | egrep 'intellij|jetbrains' | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
-alias scr='clear && scala -language:_'
 alias diffu='colordiff -u'
 alias gca='git commit --amend'
 alias gcan='git commit --amend --date=now'
@@ -52,9 +42,9 @@ alias egrep='egrep --color=auto'
 alias pie='perl -pi -e'
 alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
 alias ncdu='ncdu --color dark'
-alias vimsbt13='vim ~/.sbt/0.13/{*/,}*.sbt -O'
-alias vimsbt10='vim ~/.sbt/1.0/{*/,}*.sbt -O'
+alias vimsbt='vim ~/.sbt/1.0/{*/,}*.sbt -O'
 alias odx='od -Ax -tx1z'
+alias tf=terraform
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
