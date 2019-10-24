@@ -24,3 +24,8 @@ addCommandAlias("ctc", ";clean;test:compile")
 addCommandAlias("ct" , ";clean;test")
 
 //logLevel in Global in update := Level.Warn
+
+update / evictionWarningOptions := EvictionWarningOptions.default.withWarnEvictionSummary(false).withWarnScalaVersionEviction(false)
+
+ThisBuild / watchBeforeCommand := Watch.clearScreen
+

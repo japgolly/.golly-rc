@@ -42,7 +42,7 @@ alias egrep='egrep --color=auto'
 alias pie='perl -pi -e'
 alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
 alias ncdu='ncdu --color dark'
-alias vimsbt='vim ~/.sbt/1.0/{*/,}*.sbt -O'
+alias vimsbt='vim ~/.sbt/1.0/{*/,}*.sbt -o'
 alias odx='od -Ax -tx1z'
 alias tf=terraform
 
