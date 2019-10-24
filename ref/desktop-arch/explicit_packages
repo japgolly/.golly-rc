@@ -281,6 +281,7 @@ otf-ipafont
 oxygen-icons
 p7zip
 package-query
+packer
 pacman
 parallel
 partimage
@@ -325,6 +326,7 @@ realtime-privileges
 redis
 redshift
 refind-efi
+reflector
 reiserfsprogs
 renameutils
 retroarch

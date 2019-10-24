@@ -2,6 +2,7 @@ Sqlectron
 a2ps
 a52dec
 aalib
+accounts-qml-module
 accountsservice
 ack
 acl
@@ -77,6 +78,7 @@ bluez
 bluez-libs
 bluez-qt
 bluez-utils
+bolt
 boost
 boost-libs
 breeze
@@ -625,7 +627,6 @@ idris
 ifplugd
 iftop
 ijs
-ilmbase
 imagemagick
 imlib2
 inetutils
@@ -666,6 +667,7 @@ json-c
 json-glib
 jsoncpp
 jxrlib
+kaccounts-integration
 kactivities
 kactivities-stats
 kactivitymanagerd
@@ -913,6 +915,8 @@ lib32-xz
 lib32-zlib
 lib32-zstd
 libabw
+libaccounts-glib
+libaccounts-qt
 libaec
 libaio
 libarchive
@@ -1376,6 +1380,7 @@ oxygen-icons
 p11-kit
 p7zip
 package-query
+packer
 pacman
 pacman-contrib
 pacman-mirrorlist
@@ -1440,6 +1445,7 @@ plasma-meta
 plasma-nm
 plasma-pa
 plasma-sdk
+plasma-thunderbolt
 plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
@@ -1479,6 +1485,7 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 pulseaudio-jack
 pup-bin
+purpose
 pv
 pwgen
 pygobject-devel
@@ -1644,6 +1651,7 @@ redis
 redland
 redshift
 refind-efi
+reflector
 reiserfsprogs
 renameutils
 rest
@@ -1693,6 +1701,10 @@ shadow
 shared-mime-info
 sharutils
 siege
+signon-kwallet-extension
+signon-plugin-oauth2
+signon-ui
+signond
 sip
 slack-desktop
 slang
