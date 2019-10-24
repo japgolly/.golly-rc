@@ -44,7 +44,6 @@ alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
 alias ncdu='ncdu --color dark'
 alias vimsbt='vim ~/.sbt/1.0/{*/,}*.sbt -o'
 alias odx='od -Ax -tx1z'
-alias tf=terraform
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
@@ -211,6 +210,25 @@ function convss {
   fi
 }
 function source_if_exists { [ -e "$1" ] && source "$1" ;}
+function tf {
+  clear
+  if [ $# -eq 0 ]; then
+    terraform apply
+  else
+    terraform "$@"
+  fi
+}
+alias tfd='TF_LOG=DEBUG tf'
+function jqless {
+  tmp=/tmp/jqless.json
+  args=(-C -S)
+  if [ $# -eq 0 ]; then
+    args+=(.)
+  else
+    args+=("$@")
+  fi
+  tee $tmp | jq "${args[@]}" | less -SR
+}
 
 alias vimkeys='vim ~/.XCompose && fkeyd'
 function fkey { egrep "$@" ~/.XCompose ;}
