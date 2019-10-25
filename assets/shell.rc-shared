@@ -212,11 +212,14 @@ function convss {
 function source_if_exists { [ -e "$1" ] && source "$1" ;}
 function tf {
   clear
+  cmd=(terraform)
   if [ $# -eq 0 ]; then
-    terraform apply
+    cmd+=(apply)
   else
-    terraform "$@"
+    cmd+=("$@")
   fi
+  cmd+=($TERRAFORM_ARGS)
+  "${cmd[@]}"
 }
 alias tfd='TF_LOG=DEBUG tf'
 function jqless {
