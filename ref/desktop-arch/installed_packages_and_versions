@@ -177,7 +177,7 @@ ed 1.15-1
 editorconfig-core-c 0.12.3-1
 efibootmgr 16-1
 efivar 37-1
-electron 6.1.0-1
+electron 6.1.1-1
 electron2 2.0.18-2
 electron4 4.2.12-1
 emacs 26.3-1
@@ -290,7 +290,7 @@ go 2:1.13.3-1
 go-bindata 3.4.0-3
 gobject-introspection 1.62.0-1
 gobject-introspection-runtime 1.62.0-1
-google-chrome 77.0.3865.75-1
+google-chrome 78.0.3904.70-1
 google-musicmanager 1.0.467.4929_r0-6
 gource 0.49-4
 gpart 0.3-3
@@ -303,7 +303,7 @@ graal-bin 19.2.0-1
 graphene 1.10.0-1
 graphicsmagick 1.3.33-2
 graphite 1:1.3.13-2
-graphviz 2.42.2-2
+graphviz 2.42.2-3
 grep 3.3-2
 groff 1.22.4-1
 gsettings-desktop-schemas 3.34.0-1
@@ -328,7 +328,7 @@ gtk2 2.24.32-1
 gtk3 1:3.24.12+32+g39e28ab933-1
 gtkglext 1.2.0-11
 gtkmm 1:2.24.5-3
-gtkmm3 3.24.1-1
+gtkmm3 3.24.2-1
 gtksourceview3 3.24.11-1
 gtksourceview4 4.4.0-1
 gtkspell 2.0.16-7
@@ -880,8 +880,8 @@ lib32-libxxf86vm 1.1.4-2
 lib32-llvm-libs 9.0.0-1
 lib32-lm_sensors 3.6.0-1
 lib32-lz4 1.9.2-1
-lib32-mesa 19.2.1-2
-lib32-mesa-vdpau 19.2.1-2
+lib32-mesa 19.2.2-1
+lib32-mesa-vdpau 19.2.2-1
 lib32-mpg123 1.25.12-1
 lib32-ncurses 6.1-4
 lib32-nettle 3.5.1-1
@@ -891,7 +891,7 @@ lib32-openal 1.19.1-1
 lib32-openssl 1:1.1.1.d-1
 lib32-openssl-1.0 1.0.2.s-1
 lib32-p11-kit 0.23.18.1-1
-lib32-pango 1:1.44.6-1
+lib32-pango 1:1.44.7-1
 lib32-pangox-compat 0.0.2-1
 lib32-pcre 8.43-1
 lib32-pixman 0.38.4-1
@@ -909,7 +909,7 @@ lib32-sqlite 3.29.0-1
 lib32-systemd 243.78-1
 lib32-tdb 1.3.18-1
 lib32-util-linux 2.34-1
-lib32-vulkan-radeon 19.2.1-2
+lib32-vulkan-radeon 19.2.2-1
 lib32-wayland 1.17.0-1
 lib32-xz 5.2.4-1
 lib32-zlib 1.2.11-2
@@ -999,7 +999,7 @@ libgexiv2 0.12.0-2
 libgit2 1:0.28.3-1
 libgit2-glib 0.28.0.1-2
 libglade 2.6.4-6
-libglvnd 1.2.0-3
+libglvnd 1.2.0-5
 libgme 0.6.2-1
 libgnome-keyring 3.12.0+11+g3766bcc-1
 libgpg-error 1.36-2
@@ -1106,7 +1106,7 @@ libpsl 0.21.0-1
 libpulse 13.0-2
 libpurple 2.13.0-7
 libpwquality 1.4.1-1
-libqalculate 3.5.0-1
+libqalculate 3.5.0-2
 libqmi 1.24.0-1
 libquicktime 1.2.4-20
 libquvi 0.9.4-5
@@ -1138,7 +1138,7 @@ libsoxr 0.1.3-1
 libspectre 0.2.8-2
 libspiro 1:20190731-1
 libsrtp 1:2.2.0-1
-libssh 0.9.0-1
+libssh 0.9.1-1
 libssh2 1.9.0-1
 libstaroffice 0.0.6-1
 libstemmer 0+713-1
@@ -1235,7 +1235,7 @@ licenses 20191011-1
 lilv 0.24.4-3
 linux 5.3.7.arch1-1
 linux-api-headers 5.3.1-1
-linux-firmware 20190923.417a9c6-1
+linux-firmware 20191022.2b016af-1
 linux-headers 5.3.7.arch1-1
 lirc 1:0.10.1-2
 llvm 9.0.0-3
@@ -1279,9 +1279,9 @@ media-player-info 24-1
 meld 3.20.1-1
 menu-cache 1.1.0-1
 mercurial 5.1.2-1
-mesa 19.2.1-2
+mesa 19.2.2-1
 mesa-demos 8.4.0-2
-mesa-vdpau 19.2.1-2
+mesa-vdpau 19.2.2-1
 metacity 3.34.0-1
 meterbridge 0.9.3-2
 metis 5.1.0.p6-1
@@ -1300,7 +1300,7 @@ mozilla-common 1.4-5
 mpfr 4.0.2-1
 mpg123 1.25.12-1
 mplayer 38139-1
-mpv 1:0.29.1-11
+mpv 1:0.30.0-1
 mtdev 1.1.5-2
 mtools 4.0.23-1
 mtpfs 1.1-3
@@ -1320,7 +1320,7 @@ ncdu 1.14.1-1
 ncurses 6.1-6
 ndctl 66-1
 neon 0.30.2-3
-netcdf 4.7.1-1
+netcdf 4.7.2-1
 netctl 1.20-1
 nettle 3.5.1-1
 network-manager-applet 1.8.24-1
@@ -1386,7 +1386,7 @@ pacman-contrib 1.2.0-3
 pacman-mirrorlist 20191001-1
 pam 1.3.1-1
 pambase 20190105.1-1
-pango 1:1.44.6+2-1
+pango 1:1.44.7-1
 pangomm 2.42.0-1
 pangox-compat 0.0.2+2+gedb9e09-3
 parallel 20190722-1
@@ -1544,7 +1544,7 @@ python-pyparsing 2.4.2-1
 python-pyqt5 5.13.1-1
 python-pyrsistent 0.15.4-1
 python-pytz 2019.3-1
-python-pyzmq 18.0.2-1
+python-pyzmq 18.1.0-1
 python-requests 2.22.0-1
 python-rsa 4.0-1
 python-s3transfer 0.2.1-1
@@ -1762,7 +1762,7 @@ tcsh 6.21.00-1
 tdb 1.3.18-2
 telepathy-glib 0.24.1-2
 terminus-font-ttf 4.47.0-1
-terraform 0.12.11-1
+terraform 0.12.12-1
 tevent 1:0.9.39-2
 texinfo 6.7-1
 texlive-bin 2019.51075-3
@@ -1838,7 +1838,7 @@ vte 0.28.2-8
 vte-common 0.58.2-1
 vte3 0.58.2-1
 vulkan-icd-loader 1.1.123-1
-vulkan-radeon 19.2.1-2
+vulkan-radeon 19.2.2-1
 wavpack 5.1.0-2
 wayland 1.17.0-1
 wayland-protocols 1.18-1
