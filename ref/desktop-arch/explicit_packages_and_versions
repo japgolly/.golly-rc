@@ -281,7 +281,6 @@ otf-ipafont 003.03-7
 oxygen-icons 1:5.63.0-1
 p7zip 16.02-5
 package-query 1.10-1
-packer 1.4.4-2
 pacman 5.2.0-2
 parallel 20190722-1
 partimage 0.6.9-12
@@ -299,7 +298,6 @@ pigz 2.4-1
 pkgconf 1.6.3-2
 pkgstats 2.4.2-1
 plantuml 1.2019.4-1
-plasma-meta 5.17-1
 pngout 20150319-1
 ponymix 5-2
 poppler-glib 0.80.0-2
@@ -352,6 +350,7 @@ sloccount 2.26-9
 smartmontools 7.0-1
 smpeg 0.4.5-4
 smplayer 19.5.0-1
+socat 1.7.3.3-1
 soundtouch 2.1.2-1
 speedcrunch 0.12.0-2
 sqlectron-gui 1.30.0-3

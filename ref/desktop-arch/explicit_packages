@@ -281,7 +281,6 @@ otf-ipafont
 oxygen-icons
 p7zip
 package-query
-packer
 pacman
 parallel
 partimage
@@ -299,7 +298,6 @@ pigz
 pkgconf
 pkgstats
 plantuml
-plasma-meta
 pngout
 ponymix
 poppler-glib
@@ -352,6 +350,7 @@ sloccount
 smartmontools
 smpeg
 smplayer
+socat
 soundtouch
 speedcrunch
 sqlectron-gui
