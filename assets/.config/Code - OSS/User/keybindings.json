@@ -88,5 +88,24 @@
   {
     "key": "ctrl+o",
     "command": "-workbench.action.files.openFile"
-  }
+  },
+  {
+    "key": "f5",
+    "command": "editor.action.sortLinesAscending",
+    "when": "editorTextFocus"
+  },
+  {
+  "key": "ctrl+shift+u",
+  "command": "editor.action.transformToUppercase",
+  "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "-workbench.debug.action.toggleRepl"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
+    }
 ]
