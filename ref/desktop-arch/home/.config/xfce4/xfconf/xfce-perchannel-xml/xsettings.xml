@@ -32,12 +32,15 @@
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="true"/>
     <property name="MenuBarAccel" type="string" value="F10"/>
-    <property name="CursorThemeName" type="string" value="KDE_Classic"/>
-    <property name="CursorThemeSize" type="int" value="0"/>
+    <property name="CursorThemeName" type="string" value="Adwaita"/>
+    <property name="CursorThemeSize" type="int" value="16"/>
     <property name="DecorationLayout" type="empty"/>
     <property name="IMPreeditStyle" type="string" value=""/>
     <property name="IMStatusStyle" type="string" value=""/>
     <property name="IMModule" type="string" value=""/>
+  </property>
+  <property name="Gdk" type="empty">
+    <property name="WindowScalingFactor" type="empty"/>
   </property>
   <property name="Xfce" type="empty">
     <property name="LastCustomDPI" type="int" value="104"/>

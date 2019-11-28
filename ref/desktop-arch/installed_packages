@@ -93,6 +93,7 @@ cairo
 cairomm
 calf
 calibre
+calibre-common
 cantarell-fonts
 cblas
 cdparanoia
@@ -167,6 +168,7 @@ efivar
 electron
 electron2
 electron4
+electron6
 emacs
 emerald0.9
 enca
@@ -201,6 +203,7 @@ flashplugin
 flex
 fltk
 fluidsynth
+foldingathome-noroot
 fontconfig
 frameworkintegration
 freeglut
@@ -242,6 +245,7 @@ giflib
 gimp
 git
 git-cola
+git-crypt
 gitg
 gl2ps
 glew
@@ -286,7 +290,6 @@ gperf
 gpgme
 gpm
 gptfdisk
-graal-bin
 graphene
 graphicsmagick
 graphite
@@ -637,6 +640,7 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
+jdk11-graalvm-bin
 jdk11-openjdk
 jdk8-openjdk
 jemalloc
@@ -725,6 +729,7 @@ l-smash
 ladspa
 lame
 lapack
+lazydocker
 lcms
 lcms2
 ldb
@@ -823,6 +828,7 @@ lib32-libtxc_dxtn
 lib32-libudev0-shim
 lib32-libunistring
 lib32-libusb
+lib32-libva
 lib32-libva1
 lib32-libvdpau
 lib32-libvorbis
@@ -913,6 +919,7 @@ libcdio
 libcdio-paranoia
 libcdr
 libcerf
+libclc
 libcmis
 libconfig
 libcroco
@@ -1255,6 +1262,7 @@ metacity
 meterbridge
 metis
 milou
+miniupnpc
 minizip
 mirage
 mjpegtools
@@ -1319,6 +1327,7 @@ octave
 odt2txt
 oniguruma
 openal
+opencl-mesa
 opencore-amr
 openexr
 openjdk-doc
@@ -1439,7 +1448,6 @@ pup-bin
 pv
 pwgen
 pygobject-devel
-pygobject2-devel
 pygtk
 pyqt5-common
 pyqtwebengine-common
@@ -1472,6 +1480,7 @@ python-gobject
 python-httplib2
 python-idna
 python-imagesize
+python-importlib-metadata
 python-jinja
 python-jmespath
 python-jsonschema
@@ -1480,7 +1489,9 @@ python-mako
 python-markdown
 python-markupsafe
 python-mlt
+python-more-itertools
 python-olefile
+python-ordered-set
 python-packaging
 python-paramiko
 python-pbr
@@ -1515,6 +1526,7 @@ python-texttable
 python-urllib3
 python-websocket-client
 python-yaml
+python-zipp
 python2
 python2-appdirs
 python2-apsw
@@ -1547,6 +1559,7 @@ python2-netifaces
 python2-notify
 python2-numpy
 python2-olefile
+python2-ordered-set
 python2-packaging
 python2-pillow
 python2-psutil
@@ -1626,6 +1639,7 @@ sbc
 sbt
 schroedinger
 screen
+screenfetch
 sdl
 sdl2
 sdl2_gfx
@@ -1706,6 +1720,7 @@ tdb
 telepathy-glib
 terminus-font-ttf
 terraform
+testssl.sh
 tevent
 texinfo
 texlive-bin
@@ -1721,7 +1736,7 @@ tla-tools
 tldr
 tlp
 tmux
-totem-plparser
+totem-pl-parser
 traceroute
 tracker
 tracker-miners

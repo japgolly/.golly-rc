@@ -98,6 +98,7 @@ firefox
 flac
 flashplugin
 flex
+foldingathome-noroot
 freerdp
 fusion-icon0.9
 fzf
@@ -111,6 +112,7 @@ ghc
 gimp
 git
 git-cola
+git-crypt
 gitg
 glibc
 gnome-keyring
@@ -124,7 +126,6 @@ google-musicmanager
 gource
 gpart
 gparted
-graal-bin
 graphviz
 grep
 gst-plugins-good
@@ -169,6 +170,7 @@ iputils
 iucode-tool
 jack2
 jdk-openjdk
+jdk11-graalvm-bin
 jdk11-openjdk
 jdk8-openjdk
 jfsutils
@@ -181,6 +183,7 @@ keepassxc
 keybase
 krename
 lame
+lazydocker
 leafpad
 less
 lib32-alsa-plugins
@@ -268,6 +271,7 @@ nvm
 nzbget
 octave
 odt2txt
+opencl-mesa
 openjdk-doc
 openjdk-src
 openjdk11-doc
@@ -338,6 +342,7 @@ rustup
 s-nail
 sbt
 screen
+screenfetch
 sdl2_gfx
 seahorse
 sed
@@ -372,6 +377,7 @@ tcpdump
 tcsh
 terminus-font-ttf
 terraform
+testssl.sh
 texinfo
 texlive-core
 thunar
