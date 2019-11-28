@@ -48,7 +48,6 @@ downgrade
 dropbox
 dwdiff
 e2fsprogs
-eclipse-java
 emacs
 emerald-themes-git
 emerald0.9
@@ -109,6 +108,7 @@ iproute2
 iputils
 iucode-tool
 jdk-openjdk
+jdk11-openjdk
 jdk8-openjdk
 jfsutils
 jmeter
@@ -167,6 +167,8 @@ nvidia-settings
 odt2txt
 openjdk-doc
 openjdk-src
+openjdk11-doc
+openjdk11-src
 openjdk8-doc
 openjdk8-src
 openssh

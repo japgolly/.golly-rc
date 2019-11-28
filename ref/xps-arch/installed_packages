@@ -124,14 +124,12 @@ doxygen
 dropbox
 dwdiff
 e2fsprogs
-eclipse-common
-eclipse-java
 efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
 electron2
-electron4
+electron6
 emacs
 emerald-themes-git
 emerald0.9
@@ -505,6 +503,7 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk-openjdk
+jdk11-openjdk
 jdk8-openjdk
 jemalloc
 jfsutils
@@ -513,6 +512,8 @@ jprofiler
 jq
 jre-openjdk
 jre-openjdk-headless
+jre11-openjdk
+jre11-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
 js60
@@ -1020,6 +1021,8 @@ opencore-amr
 openexr
 openjdk-doc
 openjdk-src
+openjdk11-doc
+openjdk11-src
 openjdk8-doc
 openjdk8-src
 openjpeg
@@ -1107,7 +1110,6 @@ psmisc
 psutils
 pygmentize
 pygobject-devel
-pygobject2-devel
 pygtk
 pyqt5-common
 pyrex
@@ -1135,6 +1137,7 @@ python-docutils
 python-gobject
 python-idna
 python-imagesize
+python-importlib-metadata
 python-jinja
 python-jmespath
 python-jsonschema
@@ -1142,6 +1145,8 @@ python-lxml
 python-mako
 python-markdown
 python-markupsafe
+python-more-itertools
+python-ordered-set
 python-packaging
 python-paramiko
 python-ply
@@ -1174,6 +1179,7 @@ python-urllib3
 python-websocket-client
 python-xdg
 python-yaml
+python-zipp
 python2
 python2-appdirs
 python2-attrs
@@ -1182,6 +1188,7 @@ python2-exiv2
 python2-gobject
 python2-gobject2
 python2-olefile
+python2-ordered-set
 python2-packaging
 python2-pillow
 python2-pyparsing
