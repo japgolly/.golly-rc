@@ -275,6 +275,12 @@ function gitc {
   export PATH="/usr/bin:$PATH" # No I don't want to use Graal node by default
   [ "$1" = --quiet ] || java -version
 }
+[ -e /usr/lib/jvm/java-11-graalvm ] && function graal11 {
+  export JAVA_HOME=/usr/lib/jvm/java-11-graalvm
+  export PATH="$JAVA_HOME/bin:$PATH"
+  export PATH="/usr/bin:$PATH" # No I don't want to use Graal node by default
+  [ "$1" = --quiet ] || java -version
+}
 [ -e $HOME/Apps/graalvm-ee ] && function graal-ee {
   export JAVA_HOME=$HOME/Apps/graalvm-ee
   export PATH="$JAVA_HOME/bin:$PATH"
