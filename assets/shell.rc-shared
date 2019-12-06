@@ -240,6 +240,10 @@ function fkeyd {
   | sed 's/  */***/g; s/\*\*\*/  */g; s/$/ *:/' | xargs -I{} grep -n {} ~/.XCompose
 }
 
+function gitc {
+  nohup git-cola >/dev/null 2>/dev/null &
+}
+
 [ -e /usr/lib/jvm/java-8-jdk ] && function java8 {
   export JAVA_HOME=/usr/lib/jvm/java-8-jdk
   export PATH="$JAVA_HOME/bin:$PATH"
