@@ -21,6 +21,8 @@ alsa-lib
 alsa-oss
 alsa-plugins
 alsa-tools
+alsa-topology-conf
+alsa-ucm-conf
 alsa-utils
 android-file-transfer
 android-tools
@@ -1024,6 +1026,7 @@ liblrdf
 libmad
 libmagick6
 libmatroska
+libmaxminddb
 libmikmod
 libmm-glib
 libmms
@@ -1297,6 +1300,7 @@ ndctl
 neon
 netcdf
 netctl
+netpbm
 nettle
 network-manager-applet
 networkmanager
@@ -1397,7 +1401,7 @@ perl-timedate
 perl-uri
 perl-xml-parser
 pgadmin3
-phantomjs
+phantomjs-bin
 phonon-qt5
 phonon-qt5-gstreamer
 pidgin
