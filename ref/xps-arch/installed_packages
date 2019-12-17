@@ -11,6 +11,8 @@ agda
 agda-stdlib
 alsa-lib
 alsa-plugins
+alsa-topology-conf
+alsa-ucm-conf
 alsa-utils
 ant
 aom
@@ -183,8 +185,6 @@ gegl
 gendesk
 geoclue
 geocode-glib
-geoip
-geoip-database
 gettext
 gftp
 ghc
@@ -194,6 +194,7 @@ giflib
 gimp
 git
 git-cola
+git-crypt
 gitg
 glew
 glib-networking
@@ -439,6 +440,7 @@ haskell-time-compat
 haskell-tls
 haskell-transformers-base
 haskell-transformers-compat
+haskell-type-equality
 haskell-typed-process
 haskell-unicode-transforms
 haskell-unix-compat
@@ -776,6 +778,7 @@ liblqr
 liblrdf
 libmad
 libmagick6
+libmaxminddb
 libmm-glib
 libmms
 libmng
@@ -993,6 +996,7 @@ neon
 net-tools
 netcdf
 netctl
+netpbm
 nettle
 network-manager-applet
 networkmanager
@@ -1111,7 +1115,6 @@ psutils
 pygmentize
 pygobject-devel
 pygtk
-pyqt5-common
 pyrex
 python
 python-anytree
@@ -1162,7 +1165,6 @@ python-requests
 python-rsa
 python-s3transfer
 python-setuptools
-python-sip-pyqt5
 python-six
 python-snowballstemmer
 python-sphinx
