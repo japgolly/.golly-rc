@@ -97,6 +97,7 @@ cryptsetup
 cups
 cups-filters
 curl
+cython
 dav1d
 db
 dbus
@@ -721,7 +722,6 @@ libdbusmenu-qt5
 libdc1394
 libdca
 libde265
-libdmx
 libdrm
 libdv
 libdvdnav
@@ -930,7 +930,6 @@ libxt
 libxtst
 libxv
 libxvmc
-libxxf86dga
 libxxf86vm
 libyaml
 libzip
@@ -965,6 +964,7 @@ man-pages
 mattext
 maven
 mcomix
+md4c
 mdadm
 media-player-info
 meld
@@ -1017,6 +1017,7 @@ ntfs-3g
 nvidia
 nvidia-settings
 nvidia-utils
+nvm
 ocl-icd
 odt2txt
 oniguruma
@@ -1061,15 +1062,28 @@ perl-algorithm-diff
 perl-class-method-modifiers
 perl-data-optlist
 perl-devel-globaldestruction
+perl-encode-locale
 perl-error
+perl-file-listing
 perl-file-next
 perl-gtk2-trayicon
+perl-html-parser
+perl-html-tagset
+perl-http-cookies
+perl-http-daemon
+perl-http-date
+perl-http-message
+perl-http-negotiate
 perl-import-into
 perl-inc-latest
+perl-io-html
+perl-libwww
+perl-lwp-mediatypes
 perl-mailtools
 perl-module-build
 perl-module-runtime
 perl-moo
+perl-net-http
 perl-parallel-forkmanager
 perl-params-util
 perl-regexp-common
@@ -1079,7 +1093,9 @@ perl-sub-exporter-progressive
 perl-sub-install
 perl-sub-quote
 perl-timedate
+perl-try-tiny
 perl-uri
+perl-www-robotrules
 perl-xml-parser
 pgadmin3
 phantomjs
@@ -1430,7 +1446,6 @@ xorg-server
 xorg-server-common
 xorg-server-devel
 xorg-server-utils
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb

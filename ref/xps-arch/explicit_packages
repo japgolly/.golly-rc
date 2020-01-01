@@ -165,6 +165,7 @@ npm
 ntfs-3g
 nvidia
 nvidia-settings
+nvm
 odt2txt
 openjdk-doc
 openjdk-src
@@ -323,7 +324,6 @@ xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-server-devel
 xorg-server-utils
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
