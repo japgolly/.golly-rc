@@ -126,6 +126,7 @@ google-musicmanager
 gource
 gpart
 gparted
+graal-bin
 graphviz
 grep
 gst-plugins-good
@@ -303,6 +304,7 @@ pkgconf
 pkgstats
 plantuml
 pngout
+podman
 ponymix
 poppler-glib
 postgresql
@@ -388,6 +390,7 @@ tla-tools
 tldr
 tlp
 tmux
+tor-browser
 traceroute
 transmission-cli
 tree

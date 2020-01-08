@@ -40,8 +40,8 @@
       <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;backslash" type="string" value="systemctl --user start xfce4-notifyd.service"/>
       <property name="&lt;Alt&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
-      <property name="&lt;Super&gt;f" type="string" value="firefox-developer-edition"/>
       <property name="&lt;Super&gt;v" type="string" value="pavucontrol"/>
+      <property name="&lt;Super&gt;f" type="string" value="firefox"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -109,12 +109,14 @@ cln
 cloc
 clucene
 cmake
+cni-plugins
 code
 colord
 colordiff
 compiler-rt
 compiz
 confuse
+conmon
 containerd
 coreutils
 cpulimit
@@ -292,6 +294,7 @@ gperf
 gpgme
 gpm
 gptfdisk
+graal-bin
 graphene
 graphicsmagick
 graphite
@@ -563,6 +566,7 @@ haskell-time-manager
 haskell-tls
 haskell-transformers-base
 haskell-transformers-compat
+haskell-type-equality
 haskell-typed-process
 haskell-unexceptionalio
 haskell-unicode-transforms
@@ -939,7 +943,6 @@ libdc1394
 libdca
 libde265
 libdmtx
-libdmx
 libdrm
 libdv
 libdvbpsi
@@ -1205,7 +1208,6 @@ libxt
 libxtst
 libxv
 libxvmc
-libxxf86dga
 libxxf86vm
 libyaml
 libzip
@@ -1253,6 +1255,7 @@ maven
 mbedtls
 mcomix
 mcpp
+md4c
 mdadm
 media-player-info
 meld
@@ -1352,6 +1355,7 @@ opus
 opusfile
 orc
 osinfo-db
+ostree
 otf-fira-code
 otf-ipafont
 oxygen-icons
@@ -1381,14 +1385,27 @@ perl-algorithm-diff
 perl-class-method-modifiers
 perl-data-optlist
 perl-devel-globaldestruction
+perl-encode-locale
 perl-error
+perl-file-listing
 perl-file-next
+perl-html-parser
+perl-html-tagset
+perl-http-cookies
+perl-http-daemon
+perl-http-date
+perl-http-message
+perl-http-negotiate
 perl-import-into
 perl-inc-latest
+perl-io-html
+perl-libwww
+perl-lwp-mediatypes
 perl-mailtools
 perl-module-build
 perl-module-runtime
 perl-moo
+perl-net-http
 perl-parallel-forkmanager
 perl-params-util
 perl-regexp-common
@@ -1398,7 +1415,9 @@ perl-sub-exporter-progressive
 perl-sub-install
 perl-sub-quote
 perl-timedate
+perl-try-tiny
 perl-uri
+perl-www-robotrules
 perl-xml-parser
 pgadmin3
 phantomjs-bin
@@ -1418,6 +1437,7 @@ plasma-integration
 plasma-workspace
 pm-quirks
 pngout
+podman
 podofo
 polkit
 polkit-gnome
@@ -1453,8 +1473,6 @@ pv
 pwgen
 pygobject-devel
 pygtk
-pyqt5-common
-pyqtwebengine-common
 pyrex
 python
 python-anytree
@@ -1667,8 +1685,10 @@ shared-mime-info
 sharutils
 siege
 sip
+skopeo
 slack-desktop
 slang
+slirp4netns
 sloccount
 smartmontools
 smbclient
@@ -1740,6 +1760,7 @@ tla-tools
 tldr
 tlp
 tmux
+tor-browser
 totem-pl-parser
 traceroute
 tracker

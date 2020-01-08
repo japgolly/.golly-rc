@@ -8,7 +8,7 @@ Before=network.target
 [Service]
 Type=dbus
 BusName=org.freedesktop.NetworkManager
-ExecReload=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0
+ExecReload=/usr/bin/busctl call org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager Reload u 0
 #ExecReload=/bin/kill -HUP $MAINPID
 ExecStart=/usr/bin/NetworkManager --no-daemon
 Restart=on-failure
