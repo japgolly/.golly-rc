@@ -87,7 +87,6 @@ compiz
 confuse
 containerd
 coreutils
-coursier
 cowsay
 cpulimit
 cpupower
@@ -784,7 +783,6 @@ libmms
 libmng
 libmnl
 libmodplug
-libmp4v2
 libmpc
 libmpcdec
 libmpd
