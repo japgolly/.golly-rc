@@ -165,6 +165,7 @@ dropbox
 dvgrab
 dwdiff
 e2fsprogs
+eclipse-mat
 ed
 editorconfig-core-c
 efibootmgr
@@ -294,7 +295,6 @@ gperf
 gpgme
 gpm
 gptfdisk
-graal-bin
 graphene
 graphicsmagick
 graphite
@@ -332,7 +332,6 @@ gts
 guake
 guile
 guile2.0
-guitarix2
 gupnp
 gupnp-dlna
 gupnp-igd
@@ -628,6 +627,9 @@ imlib2
 inetutils
 inkscape
 inotify-tools
+intel-gmmlib
+intel-media-driver
+intel-media-sdk
 intel-tbb
 intel-ucode
 intltool
@@ -718,6 +720,7 @@ kpeople
 kpty
 krb5
 krename
+krita
 krunner
 kscreenlocker
 kservice
@@ -1030,6 +1033,7 @@ libmad
 libmagick6
 libmatroska
 libmaxminddb
+libmfx
 libmikmod
 libmm-glib
 libmms
@@ -1290,6 +1294,7 @@ mujs
 multitail
 mupen64plus
 musescore
+mypaint
 mypaint-brushes
 mypaint-brushes1
 mythes-en
@@ -1618,6 +1623,7 @@ qt5-speech
 qt5-svg
 qt5-tools
 qt5-translations
+qt5-wayland
 qt5-webchannel
 qt5-webengine
 qt5-webkit
@@ -1788,7 +1794,6 @@ ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
-ttf-roboto
 tumbler
 twemoji-color-font
 twolame
@@ -1833,6 +1838,7 @@ wildmidi
 wine
 winetricks
 wireless-regdb
+wireless_tools
 woff2
 wpa_supplicant
 wpebackend-fdo
@@ -1941,8 +1947,6 @@ zeal
 zenity
 zeromq
 zip
-zita-convolver
-zita-resampler
 zlib
 zopfli-git
 zsh
