@@ -364,6 +364,7 @@ if [ $? -eq 0 ]; then
   export PATH="$PATH:$(npm config get prefix)/bin"
   export npm_config_jobs=7
 fi
+export PATH="$PATH:$HOME/.npm/bin"
 
 # Bloop
 if [ -d $HOME/.bloop ]; then
