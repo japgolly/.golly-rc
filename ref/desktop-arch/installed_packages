@@ -1530,6 +1530,7 @@ python-pygments
 python-pynacl
 python-pyparsing
 python-pyqt5
+python-pyqt5-sip
 python-pyrsistent
 python-pytz
 python-pyzmq
@@ -1590,6 +1591,7 @@ python2-ordered-set
 python2-packaging
 python2-pillow
 python2-psutil
+python2-pychm
 python2-pygments
 python2-pyparsing
 python2-pyqt5
@@ -1706,6 +1708,7 @@ solid
 sonnet
 sord
 sound-theme-freedesktop
+soundfont-fluid
 soundtouch
 source-highlight
 sox
