@@ -372,6 +372,8 @@ haskell-boxes
 haskell-byteable
 haskell-byteorder
 haskell-call-stack
+haskell-casa-client
+haskell-casa-types
 haskell-case-insensitive
 haskell-cereal
 haskell-cheapskate
@@ -458,6 +460,7 @@ haskell-libyaml
 haskell-lifted-async
 haskell-lifted-base
 haskell-logict
+haskell-lukko
 haskell-math-functions
 haskell-megaparsec
 haskell-megaparsec6
@@ -718,6 +721,7 @@ kpackage
 kparts
 kpeople
 kpty
+kquickcharts
 krb5
 krename
 krita
@@ -727,6 +731,7 @@ kservice
 ktexteditor
 ktextwidgets
 kunitconversion
+kuserfeedback
 kwallet
 kwayland
 kwidgetsaddons
@@ -1011,6 +1016,7 @@ libimagequant
 libimobiledevice
 libindicator-gtk2
 libinput
+libinstpatch
 libiptcdata
 libirman
 libisoburn
@@ -1375,6 +1381,7 @@ pambase
 pango
 pangomm
 pangox-compat
+paper
 parallel
 parted
 partimage
@@ -1404,6 +1411,7 @@ perl-http-negotiate
 perl-import-into
 perl-inc-latest
 perl-io-html
+perl-ipc-run3
 perl-libwww
 perl-lwp-mediatypes
 perl-mailtools
@@ -1515,7 +1523,6 @@ python-lxml
 python-mako
 python-markdown
 python-markupsafe
-python-mlt
 python-more-itertools
 python-olefile
 python-ordered-set
