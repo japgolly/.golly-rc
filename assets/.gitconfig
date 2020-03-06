@@ -5,7 +5,7 @@
 [alias]
    st        = status
    co        = checkout
-   com       = commit
+   c         = commit
    b         = branch
    t         = tag
    cp        = cherry-pick

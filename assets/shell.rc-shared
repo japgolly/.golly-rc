@@ -32,6 +32,9 @@ alias mvn="$HOME/.golly-rc/bin/mvnc"
 alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
 alias killidea="jps | egrep 'intellij|jetbrains' | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
 alias diffu='colordiff -u'
+alias gc='git commit'
+alias gs='git st'
+alias gcm='git commit -m'
 alias gca='git commit --amend'
 alias gcan='git commit --amend --date=now'
 alias ww='google-chrome-stable --incognito'
