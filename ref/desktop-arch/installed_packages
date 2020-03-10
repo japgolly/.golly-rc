@@ -24,6 +24,7 @@ alsa-tools
 alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
+amtk
 android-file-transfer
 android-tools
 android-udev
@@ -1758,6 +1759,7 @@ tcpdump
 tcsh
 tdb
 telepathy-glib
+tepl
 terminus-font-ttf
 terraform
 testssl.sh
