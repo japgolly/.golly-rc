@@ -12,7 +12,7 @@ aws-cli 1.16.310-1
 bash 5.0.011-2
 bash-completion 2.10-1
 bat 0.12.1-1
-bbswitch 0.8-278
+bbswitch 0.8-279
 bind-tools 9.14.9-1
 binutils 2.33.1-2
 bison 3.5-1
@@ -21,7 +21,7 @@ brotli 1.0.7-3
 bumblebee 3.2.1-20
 bzip2 1.0.8-3
 cabal-install 2.4.0.0-178
-chromedriver 77.0.3865.40-1
+chromedriver 79.0.3945.36-1
 clang 9.0.1-1
 cloc 1.84-1
 cmake 3.16.2-1
@@ -43,7 +43,7 @@ diffutils 3.7-3
 docker 1:19.03.5-1
 docker-compose 1.25.1-1
 dos2unix 7.4.1-1
-downgrade 6.2.2-0
+downgrade 6.2.3-0
 dropbox 63.4.107-1
 dwdiff 2.1.2-3
 e2fsprogs 1.45.5-1
@@ -72,7 +72,7 @@ gftp 2.0.19-10
 ghc 8.6.5-1
 gimp 2.10.14-1
 git 2.24.1-4
-git-cola 3.5-1
+git-cola 3.6-1
 git-crypt 0.6.0-3
 gitg 1:3.32.1-2
 glibc 2.30-3
@@ -99,12 +99,12 @@ hyphen 2.8.8-2
 hyphen-en 2.8.8-2
 i7z 0.27.2.git1-6
 iftop 1.0pre4-3
-imagemagick 7.0.9.14-1
+imagemagick 7.0.9.16-1
 inetutils 1.9.4-8
 inkscape 0.92.4-10
 intel-ucode 20191115-3
 iotop 0.6-7
-iproute2 5.4.0-1
+iproute2 5.4.0-2
 iputils 20190709-2
 iucode-tool 2.3.1-2
 jdk-openjdk 13.0.1.u9-1
@@ -129,8 +129,8 @@ libtool 2.4.6+42+gb88cebd5-8
 libunrar 1:5.8.5-1
 libva-intel-driver 2.4.0-1
 licenses 20191011-2
-linux 5.4.10.arch1-1
-linux-headers 5.4.10.arch1-1
+linux 5.4.11.arch1-1
+linux-headers 5.4.11.arch1-1
 llvm 9.0.1-1
 lm_sensors 3.6.0-1
 logrotate 3.15.1-2
@@ -148,7 +148,7 @@ mdadm 4.1-2
 meld 3.20.1-2
 mirage 1.0_pre2-3
 mousepad 0.4.2-2
-mplayer 38139-3
+mplayer 38157-1
 mpv 1:0.31.0-1
 nano 4.7-1
 ncdu 1.14.1-1
@@ -162,7 +162,8 @@ nmon 16m-1
 nodejs 13.6.0-1
 npm 6.13.6-1
 ntfs-3g 2017.3.23-3
-nvidia 440.44-10
+ntp 4.2.8.p13-2
+nvidia 440.44-11
 nvidia-settings 440.44-1
 nvm 0.35.2-1
 odt2txt 0.5-3
@@ -218,7 +219,7 @@ refind-efi 0.11.3-1
 reiserfsprogs 3.6.27-3
 renameutils 0.12.0-6
 ristretto 0.10.0-2
-rsync 3.1.3-1
+rsync 3.1.3-2
 ruby 2.7.0-1
 rust 1:1.40.0-1
 s-nail 14.9.16-2
@@ -243,7 +244,7 @@ systemd-sysvcompat 244.1-1
 tar 1.32-3
 tarsnap 1.0.39-2
 terraform 0.12.18-1
-testssl.sh 2.9.5.8-1
+testssl.sh 3.0-1
 texinfo 6.7-2
 texlive-core 2019.52579-1
 thunar 1.8.11-1
@@ -277,7 +278,7 @@ wget 1.20.3-2
 which 2.21-5
 wine 5.0rc4-1
 wpa_supplicant 2:2.9-3
-x264 3:0.157.r2980.34c06d1-2
+x264 3:0.159.r2991.1771b55-1
 x86_energy_perf_policy 5.4-3
 xdg-utils 1.1.3+18+g0547886-4
 xf86-input-evdev 2.10.6-1
@@ -304,7 +305,7 @@ xfce4-mount-plugin 1.1.3-1
 xfce4-mpc-plugin 0.5.2-1
 xfce4-netload-plugin 1.3.2-1
 xfce4-notifyd 0.4.4-2
-xfce4-panel 4.14.1-1
+xfce4-panel 4.14.3-1
 xfce4-power-manager 1.6.5-2
 xfce4-screenshooter 1.9.7-1
 xfce4-sensors-plugin 1.3.92-1
@@ -314,7 +315,7 @@ xfce4-systemload-plugin 1.2.3-1
 xfce4-taskmanager 1.2.2-1
 xfce4-terminal 0.8.9.1-1
 xfce4-wavelan-plugin 0.6.1-1
-xfdesktop 4.14.1-2
+xfdesktop 4.14.2-1
 xfsprogs 5.3.0-1
 xfwm4 4.14.0-1
 xfwm4-themes 4.10.0-3
