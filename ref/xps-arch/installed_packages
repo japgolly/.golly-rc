@@ -158,6 +158,7 @@ firefox
 flac
 flatpak
 flex
+fluidsynth
 fontconfig
 fontforge
 freeglut
@@ -290,6 +291,8 @@ haskell-blaze-html
 haskell-blaze-markup
 haskell-boxes
 haskell-byteable
+haskell-casa-client
+haskell-casa-types
 haskell-case-insensitive
 haskell-cereal
 haskell-clock
@@ -353,6 +356,7 @@ haskell-integer-logarithms
 haskell-libyaml
 haskell-lifted-async
 haskell-lifted-base
+haskell-lukko
 haskell-math-functions
 haskell-megaparsec
 haskell-memory
@@ -476,6 +480,7 @@ hunspell-en_GB
 hunspell-en_US
 hwids
 hwinfo
+hwloc
 hyphen
 hyphen-en
 i7z
@@ -712,6 +717,7 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
+libclc
 libcmis
 libcroco
 libcups
@@ -770,8 +776,10 @@ libimagequant
 libimobiledevice
 libindicator-gtk2
 libinput
+libinstpatch
 libixion
 libjpeg-turbo
+libkate
 libksba
 liblangtag
 libldap
@@ -781,6 +789,7 @@ liblrdf
 libmad
 libmagick6
 libmaxminddb
+libmfx
 libmm-glib
 libmms
 libmng
@@ -814,6 +823,7 @@ libogg
 libomxil-bellagio
 liborcus
 libotf
+libp11-kit
 libpagemaker
 libpaper
 libpcap
@@ -861,6 +871,7 @@ libteam
 libthai
 libtheora
 libtiff
+libtiger
 libtirpc
 libtommath
 libtool
@@ -936,6 +947,7 @@ libyaml
 libzip
 libzmf
 licenses
+lilv
 linux
 linux-api-headers
 linux-firmware
@@ -952,6 +964,7 @@ lsof
 lua
 lua52
 luajit
+lv2
 lvm2
 lz4
 lzo
@@ -1024,6 +1037,7 @@ ocl-icd
 odt2txt
 oniguruma
 openal
+opencl-mesa
 opencore-amr
 openexr
 openjdk-doc
@@ -1034,6 +1048,7 @@ openjdk8-doc
 openjdk8-src
 openjpeg
 openjpeg2
+openmpi
 openresolv
 openssh
 openssl
@@ -1052,6 +1067,7 @@ pambase
 pango
 pango-perl
 pangomm
+paper
 parallel
 parted
 patch
@@ -1079,6 +1095,7 @@ perl-http-negotiate
 perl-import-into
 perl-inc-latest
 perl-io-html
+perl-ipc-run3
 perl-libwww
 perl-lwp-mediatypes
 perl-mailtools
@@ -1118,6 +1135,7 @@ poppler
 poppler-data
 poppler-glib
 popt
+portaudio
 postgresql
 postgresql-docs
 postgresql-libs
@@ -1130,7 +1148,6 @@ procps-ng
 protobuf
 psmisc
 psutils
-pygmentize
 pygobject-devel
 pygtk
 pyrex
@@ -1177,6 +1194,7 @@ python-pygments
 python-pynacl
 python-pyparsing
 python-pyqt5
+python-pyqt5-sip
 python-pyrsistent
 python-pytz
 python-requests
@@ -1222,6 +1240,7 @@ qt5-script
 qt5-speech
 qt5-svg
 qt5-tools
+qt5-wayland
 qt5-x11extras
 qt5-xmlpatterns
 raptor
@@ -1259,6 +1278,7 @@ sdl
 sdl2
 sed
 semver
+serd
 serf
 shaderc
 shadow
@@ -1274,6 +1294,7 @@ snappy
 socat
 solid
 sonnet
+sord
 sound-theme-freedesktop
 soundtouch
 source-highlight
@@ -1284,6 +1305,7 @@ speex
 speexdsp
 spirv-tools
 sqlite
+sratom
 srt
 sshfs
 stack

@@ -1,11 +1,11 @@
 # tlp - systemd startup/shutdown service
 #
-# Copyright (c) 2019 Thomas Koch <linrunner at gmx.net> and others.
+# Copyright (c) 2020 Thomas Koch <linrunner at gmx.net> and others.
 # This software is licensed under the GPL v2 or later.
 
 [Unit]
 Description=TLP system startup/shutdown
-After=multi-user.target bluetooth.service NetworkManager.service
+After=multi-user.target NetworkManager.service
 Before=shutdown.target
 Documentation=https://linrunner.de/tlp
 
