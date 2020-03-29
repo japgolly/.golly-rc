@@ -40,6 +40,7 @@ bind-tools
 bison
 blueman
 bluez-utils
+boinc
 brother-mfc-j5320dw
 brotli
 bzip2
@@ -49,6 +50,7 @@ calf
 calibre
 chromedriver
 cifs-utils
+clinfo
 cloc
 cmake
 code
@@ -87,6 +89,7 @@ epdfview
 ethtool
 evince
 exo
+fahcontrol
 fakeroot
 fbset
 fd
@@ -99,7 +102,7 @@ firefox
 flac
 flashplugin
 flex
-foldingathome-noroot
+foldingathome
 freerdp
 fusion-icon0.9
 fzf
@@ -209,6 +212,7 @@ libreoffice-fresh-en-gb
 libretro-core-info
 libretro-overlays
 libtool
+libva-mesa-driver
 libva-utils
 libva-vdpau-driver
 libvncserver
@@ -273,6 +277,7 @@ nvm
 nzbget
 octave
 odt2txt
+opencl-amdgpu-pro-pal
 opencl-mesa
 openjdk-doc
 openjdk-src

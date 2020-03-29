@@ -24,6 +24,8 @@ alsa-tools
 alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
+amdgpu-core-meta
+amdgpu-pro-core-meta
 amtk
 android-file-transfer
 android-tools
@@ -75,6 +77,7 @@ blueman
 bluez
 bluez-libs
 bluez-utils
+boinc
 boost
 boost-libs
 breeze
@@ -106,6 +109,7 @@ chromaprint
 chromedriver
 cifs-utils
 clang
+clinfo
 cln
 cloc
 clucene
@@ -175,6 +179,8 @@ electron
 electron2
 electron4
 electron6
+electron7
+elfutils
 emacs
 emerald0.9
 enca
@@ -192,6 +198,7 @@ expac
 expat
 faac
 faad2
+fahcontrol
 fakeroot
 farstream
 faudio
@@ -209,7 +216,7 @@ flashplugin
 flex
 fltk
 fluidsynth
-foldingathome-noroot
+foldingathome
 fontconfig
 frameworkintegration
 freeglut
@@ -310,6 +317,7 @@ gspell
 gssdp
 gssproxy
 gst-plugins-bad
+gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
@@ -357,6 +365,7 @@ haskell-attoparsec
 haskell-attoparsec-iso8601
 haskell-auto-update
 haskell-base-compat
+haskell-base-compat-batteries
 haskell-base-orphans
 haskell-base-prelude
 haskell-base16-bytestring
@@ -1004,6 +1013,7 @@ libguess
 libgusb
 libgweather
 libgxps
+libhandy
 libheif
 libibus
 libical
@@ -1041,6 +1051,7 @@ libmagick6
 libmatroska
 libmaxminddb
 libmfx
+libmicrohttpd
 libmikmod
 libmm-glib
 libmms
@@ -1083,6 +1094,7 @@ libopenshot-audio
 liborcus
 libosinfo
 libotf
+libp11-kit
 libpagemaker
 libpaper
 libpcap
@@ -1161,6 +1173,7 @@ libutf8proc
 libutil-linux
 libuv
 libva
+libva-mesa-driver
 libva-utils
 libva-vdpau-driver
 libva1
@@ -1248,7 +1261,6 @@ lua52-luajson
 lua52-socket
 luajit
 lutris
-lv2
 lvm2
 lxmenu-data
 lynx
@@ -1346,6 +1358,8 @@ octave
 odt2txt
 oniguruma
 openal
+opencl-amdgpu-pro-comgr
+opencl-amdgpu-pro-pal
 opencl-mesa
 opencore-amr
 openexr
@@ -1711,6 +1725,7 @@ smbclient
 smpeg
 smplayer
 snappy
+sndio
 socat
 solid
 sonnet
@@ -1856,6 +1871,7 @@ wpa_supplicant
 wpebackend-fdo
 wxgtk-common
 wxgtk2
+wxgtk3
 x264
 x265
 x86_energy_perf_policy
