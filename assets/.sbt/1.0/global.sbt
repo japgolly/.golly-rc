@@ -9,16 +9,29 @@ dependencyUpdatesFilter -= moduleFilter(name = regexFilter("^jetty-(server|webso
 dependencyUpdatesFilter -= moduleFilter(organization = "org.scala-lang")
 dependencyUpdatesFilter -= moduleFilter(name = "utest")
 
+Global / onChangedBuildSource := IgnoreSourceChanges
+
 triggeredMessage := Watched.clearWhenTriggered
 
 addCommandAlias("/"  , "project root")
-addCommandAlias("C"  , "root/clean")
 addCommandAlias("L"  , "root/publishLocal")
+
+addCommandAlias("C"  , "root/compile")
+addCommandAlias("TC" , "root/test:compile")
+addCommandAlias("T"  , "root/test")
+addCommandAlias("TO" , "root/testOnly")
+addCommandAlias("TQ" , "root/testQuick")
+addCommandAlias("TS" , "root/testOnly * -- --report-slowest")
+addCommandAlias("CC" , ";root/clean;root/compile")
+addCommandAlias("CTC", ";root/clean;root/test:compile")
+addCommandAlias("CT" , ";root/clean;root/test")
+
 addCommandAlias("c"  , "compile")
 addCommandAlias("tc" , "test:compile")
 addCommandAlias("t"  , "test")
 addCommandAlias("to" , "testOnly")
 addCommandAlias("tq" , "testQuick")
+addCommandAlias("ts" , "testOnly * -- --report-slowest")
 addCommandAlias("cc" , ";clean;compile")
 addCommandAlias("ctc", ";clean;test:compile")
 addCommandAlias("ct" , ";clean;test")
@@ -27,5 +40,8 @@ addCommandAlias("ct" , ";clean;test")
 
 update / evictionWarningOptions := EvictionWarningOptions.default.withWarnEvictionSummary(false).withWarnScalaVersionEviction(false)
 
+import scala.concurrent.duration._
+//ThisBuild / watchAntiEntropy := 1000.millis
 ThisBuild / watchBeforeCommand := Watch.clearScreen
+
 
