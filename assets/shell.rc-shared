@@ -37,6 +37,8 @@ alias gs='git st'
 alias gcm='git commit -m'
 alias gca='git commit --amend'
 alias gcan='git commit --amend --date=now'
+alias gsa='git add -A && git stash save'
+alias gsp='git stash pop && git unstage'
 alias ww='google-chrome-stable --incognito'
 alias WIPE='git wipe; git clean -df'
 alias grep='grep --color=auto'
@@ -171,6 +173,7 @@ function newscript {
       else
         echo "Creating: $f"
         echo '#!/bin/bash
+set -euo pipefail
 cd "$(dirname "$0")" || exit 1
 cd "$(dirname "$(readlink -e "$0")")" || exit 1
 [ $# -ne 1 ] && echo "Usage: $0 <xxx>" && exit 1
@@ -194,6 +197,11 @@ function crap {
       cp -vp "$f" "$tgt"
     done
   fi
+}
+function gitignore {
+  [ $# -eq 0 ] && echo "No arguments provided." >&2 && exit 1
+  for f in "$@"; do echo "$f" >> .gitignore; done
+  git add .gitignore && git commit -m "Ignore $@" -- .gitignore
 }
 function mvorig {
   find -name '*.orig' -exec mv -i {} /tmp \;
@@ -387,6 +395,7 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS --bind='ctrl-v:execute(vimcat {})+abo
 [ -e "$HOME/projects/forks"   ] && export  forks="$HOME/projects/forks"   && alias  forks="cd '$forks'"
 [ -e "$HOME/projects/public"  ] && export    pub="$HOME/projects/public"  && alias    pub="cd '$pub'"
 [ -e "$HOME/projects/private" ] && export    pri="$HOME/projects/private" && alias    pri="cd '$pri'"
+[ -e "$pub/scalajs-benchmark" ] && export    sjb="$pub/scalajs-benchmark" && alias    sjb="cd '$sjb'"
 [ -e "$pub/scalajs-react"     ] && export    sjr="$pub/scalajs-react"     && alias    sjr="cd '$sjr'"
 [ -e "$pub/scala-graal"       ] && export     sg="$pub/scala-graal"       && alias     sg="cd '$sg'"
 [ -e "$pub/test-state"        ] && export     ts="$pub/test-state"        && alias     ts="cd '$ts'"
