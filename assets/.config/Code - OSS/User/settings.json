@@ -45,5 +45,6 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.statusBar.enabled": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.tree.indent": 16
+    "workbench.tree.indent": 16,
+    "files.trimTrailingWhitespace": true
 }
