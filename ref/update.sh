@@ -75,7 +75,7 @@ while read f; do
       fi
   fi || ((errs++))
 done
-[ $errs -gt 0 ] && echo "$errs errors detected. Aborting." && exit 3
+#[ $errs -gt 0 ] && echo "$errs errors detected. Aborting." && exit 3
 echo "Done."
 echo
 

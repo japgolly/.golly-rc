@@ -32,6 +32,7 @@
 /etc/adobe/mms.cfg
 /etc/conf.d/
 /etc/default/tlp
+/etc/environment
 /etc/fstab
 /etc/httpd/conf/httpd.conf
 /etc/httpd/conf/mime.types
