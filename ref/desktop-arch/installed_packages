@@ -223,6 +223,7 @@ freetype2
 fribidi
 ftgl
 fuse-common
+fuse-overlayfs
 fuse2
 fuse3
 fusion-icon0.9
@@ -301,6 +302,7 @@ gperf
 gpgme
 gpm
 gptfdisk
+grantlee
 graphene
 graphicsmagick
 graphite
@@ -463,6 +465,8 @@ kitty-terminfo
 kjobwidgets
 kjs
 kjsembed
+kleopatra
+kmime
 kmod
 knewstuff
 knotifications
@@ -470,6 +474,7 @@ knotifyconfig
 kpackage
 kparts
 kpeople
+kpimtextedit
 kpty
 kquickcharts
 krb5
@@ -777,6 +782,7 @@ libjpeg-turbo
 libjpeg6-turbo
 libkate
 libkeybinder3
+libkleo
 libksba
 libkscreen
 libksysguard
@@ -1262,6 +1268,7 @@ python-cryptography
 python-dateutil
 python-dbus
 python-dbus-common
+python-distro
 python-docker
 python-docker-pycreds
 python-dockerpty
@@ -1368,6 +1375,7 @@ python2-six
 python2-soupsieve
 python2-unrardll
 python2-webencodings
+qgpgme
 qhull
 qjackctl
 qpdf
@@ -1406,7 +1414,7 @@ recode
 redis
 redland
 redshift
-refind-efi
+refind
 reflector
 reiserfsprogs
 renameutils
@@ -1545,8 +1553,10 @@ ttf-adobe-fonts
 ttf-anonymous-pro
 ttf-arphic-uming
 ttf-bitstream-vera
+ttf-cascadia-code
 ttf-chromeos-fonts
 ttf-dejavu
+ttf-droid
 ttf-envy-code-r
 ttf-fira-code
 ttf-fira-mono
@@ -1555,11 +1565,16 @@ ttf-hack
 ttf-hanazono
 ttf-inconsolata
 ttf-inconsolata-g
+ttf-jetbrains-mono
 ttf-liberation
 ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
 ttf-mph-2b-damase
+ttf-opensans
+ttf-roboto
+ttf-roboto-mono
+ttf-ubuntu-font-family
 tumbler
 twemoji-color-font
 twolame
