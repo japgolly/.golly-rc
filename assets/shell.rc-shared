@@ -30,6 +30,7 @@ alias golrc='pushd ~/.golly-rc'
 alias ssc='sudo systemctl'
 alias mvn="$HOME/.golly-rc/bin/mvnc"
 alias killsbt="jps | grep sbt | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
+alias sbtk='killsbt; sbt'
 alias killidea="jps | egrep 'intellij|jetbrains' | awk '{print \$1}' | xargs --no-run-if-empty --verbose kill -9"
 alias diffu='colordiff -u'
 alias gc='git commit'
@@ -49,6 +50,7 @@ alias mvorig='find . -name "*.orig" -type f -exec mv -v {} /tmp \;'
 alias ncdu='ncdu --color dark'
 alias vimsbt='vim ~/.sbt/1.0/{*/,}*.sbt -o'
 alias odx='od -Ax -tx1z'
+alias awk1='awk '"'"'{print $1}'"'"
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
