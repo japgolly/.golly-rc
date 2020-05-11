@@ -242,6 +242,7 @@ gdb
 gdb-common
 gdbm
 gdk-pixbuf2
+gdl
 geckodriver
 gedit
 gegl
@@ -933,7 +934,6 @@ libvorbis
 libvpx
 libvpx1.3
 libwacom
-libwbclient
 libwebp
 libwmf
 libwnck
@@ -1054,7 +1054,6 @@ mpg123
 mplayer
 mpv
 mtdev
-mtools
 mtpfs
 mtr
 mujs
@@ -1195,6 +1194,7 @@ perl-try-tiny
 perl-uri
 perl-www-robotrules
 perl-xml-parser
+perl-xml-writer
 pgadmin3
 phantomjs-bin
 phonon-qt5
@@ -1350,6 +1350,7 @@ python2-gobject2
 python2-html2text
 python2-html5-parser
 python2-html5lib
+python2-ipaddress
 python2-lxml
 python2-markdown
 python2-mechanize
@@ -1383,7 +1384,6 @@ qqc2-desktop-style
 qrencode
 qrupdate
 qscintilla-qt5
-qt4
 qt5-base
 qt5-declarative
 qt5-graphicaleffects
@@ -1505,7 +1505,6 @@ sundials
 swi-prolog
 syntax-highlighting
 sysfsutils
-syslinux
 sysstat
 systemd
 systemd-libs
@@ -1529,6 +1528,7 @@ tevent
 texinfo
 texlive-bin
 texlive-core
+text2pdf
 thin-provisioning-tools
 threadweaver
 thunar
@@ -1584,7 +1584,6 @@ udisks
 udisks2
 unace
 unarchiver
-unetbootin
 unrar
 unzip
 upower

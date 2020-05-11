@@ -387,6 +387,7 @@ terraform
 testssl.sh
 texinfo
 texlive-core
+text2pdf
 thunar
 tidy
 tig
@@ -429,7 +430,6 @@ tumbler
 twemoji-color-font
 unace
 unarchiver
-unetbootin
 unrar
 unzip
 upower
