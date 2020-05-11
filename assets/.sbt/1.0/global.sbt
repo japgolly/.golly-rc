@@ -14,7 +14,7 @@ Global / onChangedBuildSource := IgnoreSourceChanges
 triggeredMessage := Watched.clearWhenTriggered
 
 addCommandAlias("/"  , "project root")
-addCommandAlias("L"  , "root/publishLocal")
+addCommandAlias("PL" , "root/publishLocal")
 addCommandAlias("p"  , "project")
 
 addCommandAlias("C"  , "root/compile")
