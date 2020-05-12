@@ -380,10 +380,8 @@ fi
 export PATH="$PATH:$HOME/.npm/bin"
 
 # Bloop
-if [ -d $HOME/.bloop ]; then
-  export PATH="$HOME/.bloop:$PATH"
-  function bloopctl { systemctl --user "$@" bloop ;}
-fi
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
+function bloopctl { systemctl --user "$@" bloop ;}
 
 # fzf
 alias pp="fzf --preview 'bat --color always {}'"
