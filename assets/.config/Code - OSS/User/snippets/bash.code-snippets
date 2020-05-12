@@ -21,9 +21,21 @@
 		"prefix": "_case",
 		"body": [
 			"case \"$1\" in",
+			"  $0)",
+			"    ;;",
 			"  *)",
 			"    ;;",
 			"esac"
+		]
+	},
+
+	"for": {
+		"scope": "shellscript",
+		"prefix": "_for",
+		"body": [
+			"for $1 in \"${$2[@]}\"; do",
+			"  $0",
+			"done"
 		]
 	}
 
