@@ -1157,6 +1157,7 @@ pcsclite
 perl
 perl-algorithm-diff
 perl-class-method-modifiers
+perl-clone
 perl-data-optlist
 perl-devel-globaldestruction
 perl-encode-locale
@@ -1464,7 +1465,6 @@ sharutils
 siege
 sip
 skopeo
-slack-desktop
 slang
 slirp4netns
 sloccount
@@ -1600,6 +1600,7 @@ vim-systemd
 vimpager
 visualvm
 vlc
+vmaf
 volume_key
 vte
 vte-common
