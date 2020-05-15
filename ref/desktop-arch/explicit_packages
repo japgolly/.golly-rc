@@ -242,6 +242,8 @@ metacity
 meterbridge
 mill
 mirage
+monero
+monero-gui
 mono
 mpg123
 mplayer
@@ -277,7 +279,8 @@ nvm
 nzbget
 octave
 odt2txt
-opencl-amdgpu-pro-pal
+opencl-amd
+opencl-headers
 opencl-mesa
 openjdk-doc
 openjdk-src
@@ -480,6 +483,7 @@ xfce4-terminal
 xfce4-wavelan-plugin
 xfdesktop
 xfsprogs
+xmrig-donateless
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-server

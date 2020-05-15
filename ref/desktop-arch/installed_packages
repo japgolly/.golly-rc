@@ -221,6 +221,7 @@ freeglut
 freerdp
 freetype2
 fribidi
+fstrm
 ftgl
 fuse-common
 fuse-overlayfs
@@ -356,6 +357,8 @@ hddtemp
 hdf5
 hdparm
 hicolor-icon-theme
+hidapi
+hiredis
 hspell
 htop
 http-parser
@@ -658,6 +661,7 @@ lib32-sqlite
 lib32-systemd
 lib32-tdb
 lib32-util-linux
+lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 lib32-wayland
 lib32-xz
@@ -1047,6 +1051,8 @@ mkinitcpio
 mkinitcpio-busybox
 mlt
 mobile-broadband-provider-info
+monero
+monero-gui
 mono
 mozilla-common
 mpfr
@@ -1105,8 +1111,8 @@ octave
 odt2txt
 oniguruma
 openal
-opencl-amdgpu-pro-comgr
-opencl-amdgpu-pro-pal
+opencl-amd
+opencl-headers
 opencl-mesa
 opencore-amr
 openexr
@@ -1584,6 +1590,7 @@ udisks
 udisks2
 unace
 unarchiver
+unbound
 unrar
 unzip
 upower
@@ -1676,6 +1683,7 @@ xfsprogs
 xkeyboard-config
 xmlsec
 xmlto
+xmrig-donateless
 xorg-bdftopcf
 xorg-font-util
 xorg-font-utils
