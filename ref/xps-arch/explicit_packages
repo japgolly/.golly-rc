@@ -1,8 +1,6 @@
 Sqlectron
 ack
 acpi
-agda
-agda-stdlib
 alsa-utils
 arandr
 autoconf
@@ -21,7 +19,6 @@ brotli
 budgie-desktop
 bumblebee
 bzip2
-cabal-install
 cheese
 chromedriver
 clang
@@ -232,7 +229,7 @@ pbzip2
 pciutils
 perl
 pgadmin3
-phantomjs
+phantomjs-bin
 physlock
 pigz
 pkgconf
@@ -263,7 +260,7 @@ python-sphinxcontrib-qthelp
 python-sphinxcontrib-serializinghtml
 redis
 redshift
-refind-efi
+refind
 reiserfsprogs
 renameutils
 ristretto
@@ -284,7 +281,6 @@ smplayer
 socat
 speedcrunch
 sshfs
-stack
 steam
 strace
 sudo
