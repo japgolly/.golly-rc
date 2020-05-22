@@ -1,0 +1,35 @@
+#!/bin/bash
+set -euo pipefail
+
+# cd "$(dirname "$0")" || exit 1
+# cd "$(dirname "$(readlink -e "$0")")" || exit 1
+# [ $# -ne 1 ] && echo "Usage: $0 <xxx>" && exit 1
+# tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
+
+results=()
+
+for line in $(jps -l | fgrep -v sun.tools.jps.Jps | tr ' ' _); do
+
+  pid=${line%_*}
+  name=${line#*_}
+  case "$name" in
+    /usr/share/sbt/bin/sbt-launch.jar) name=SBT ;;
+    bloop.Server                     ) name=Bloop ;;
+    com.intellij.idea.Main           ) name=IntelliJ ;;
+    org.eclipse.jetty.runner.Runner  ) name=Jetty ;;
+    scala.meta.metals.Main           ) name=Metals ;;
+    *) ;;
+  esac
+  dir="$(readlink /proc/$pid/cwd)"
+
+  mem="$(cat /proc/$pid/status | grep '^VmRSS:')"
+  mem="${mem#*:?}"
+  if [[ "$mem" == *kB ]]; then
+    mem="$(echo "${mem%% kB}" | awk '{printf("%6.3f GB", $1/1024/1024)}')"
+  fi
+
+  results+=("\n$mem,($pid),$name,$dir")
+
+done
+
+echo -e "${results[@]}" | sed '/^$/d' | column -t -s , | sort -r
