@@ -1,11 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-# cd "$(dirname "$0")" || exit 1
-# cd "$(dirname "$(readlink -e "$0")")" || exit 1
-# [ $# -ne 1 ] && echo "Usage: $0 <xxx>" && exit 1
-# tmp=/tmp/$(date +%Y%m%d-%H%M%S)-$$
-
 results=()
 
 for line in $(jps -l | fgrep -v sun.tools.jps.Jps | tr ' ' _); do
@@ -28,7 +23,9 @@ for line in $(jps -l | fgrep -v sun.tools.jps.Jps | tr ' ' _); do
     mem="$(echo "${mem%% kB}" | awk '{printf("%6.3f GB", $1/1024/1024)}')"
   fi
 
-  results+=("\n$mem,($pid),$name,$dir")
+  flags="$(cat /proc/$pid/cmdline | xargs -0 -L1 echo | grep '^-X.*[0-9].*' | sort | xargs echo)"
+
+  results+=("\n$mem,($pid),$name,$dir,$flags")
 
 done
 
