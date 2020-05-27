@@ -81,6 +81,7 @@ eclipse-mat
 ed
 emacs
 emerald0.9
+emscripten
 encfs
 entr
 epdfview
@@ -362,6 +363,7 @@ sharutils
 siege
 sloccount
 smartmontools
+smem
 smpeg
 smplayer
 socat
@@ -374,6 +376,7 @@ steam
 steam-native-runtime
 strace
 sudo
+surfshark-vpn
 swi-prolog
 sysfsutils
 sysstat
@@ -437,6 +440,7 @@ unzip
 upower
 usbutils
 util-linux
+valgrind
 vdpauinfo
 vi
 vim-systemd
