@@ -198,7 +198,6 @@ expac
 expat
 faac
 faad2
-fahcontrol
 fakeroot
 farstream
 faudio
@@ -216,7 +215,6 @@ flashplugin
 flex
 fltk
 fluidsynth
-foldingathome
 fontconfig
 frameworkintegration
 freeglut
@@ -505,6 +503,7 @@ ladspa
 lame
 lapack
 lazydocker
+lazygit
 lcms
 lcms2
 ldb
@@ -1161,6 +1160,7 @@ partimage
 patch
 pavucontrol
 pciutils
+pcloud-drive
 pcmanfm
 pcre
 pcre2
@@ -1301,6 +1301,7 @@ python-mako
 python-markdown
 python-markupsafe
 python-more-itertools
+python-numpy
 python-olefile
 python-ordered-set
 python-packaging

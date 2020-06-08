@@ -88,7 +88,6 @@ epdfview
 ethtool
 evince
 exo
-fahcontrol
 fakeroot
 fbset
 fd
@@ -101,7 +100,6 @@ firefox
 flac
 flashplugin
 flex
-foldingathome
 freerdp
 fusion-icon0.9
 fzf
@@ -188,6 +186,7 @@ krename
 krita
 lame
 lazydocker
+lazygit
 leafpad
 less
 lib32-alsa-plugins
@@ -302,6 +301,7 @@ partimage
 patch
 pavucontrol
 pciutils
+pcloud-drive
 pcmanfm
 perl
 pgadmin3
