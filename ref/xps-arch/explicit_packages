@@ -22,6 +22,7 @@ bzip2
 cheese
 chromedriver
 clang
+clinfo
 cloc
 cmake
 cntlm
@@ -34,6 +35,7 @@ cpulimit
 cpupower
 crda
 cryptsetup
+cuda
 device-mapper
 dhcpcd
 dialog
@@ -190,6 +192,8 @@ mcomix
 mdadm
 meld
 mirage
+monero
+monero-gui
 mousepad
 mousetweaks
 mplayer
@@ -212,6 +216,7 @@ nvidia
 nvidia-settings
 nvm
 odt2txt
+opencl-nvidia
 openjdk-doc
 openjdk-src
 openjdk11-doc
@@ -371,6 +376,8 @@ xfdesktop
 xfsprogs
 xfwm4
 xfwm4-themes
+xmrig-cuda
+xmrig-donateless
 xorg-docs
 xorg-fonts-100dpi
 xorg-fonts-75dpi

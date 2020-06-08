@@ -82,6 +82,7 @@ chromaprint
 chromedriver
 cifs-utils
 clang
+clinfo
 cln
 cloc
 clucene
@@ -107,6 +108,7 @@ cpupower
 cracklib
 crda
 cryptsetup
+cuda
 cups
 cups-filters
 cups-pk-helper
@@ -193,6 +195,7 @@ freerdp
 freetype2
 frei0r-plugins
 fribidi
+fstrm
 fuse-common
 fuse2
 fuse3
@@ -206,6 +209,8 @@ gc
 gcab
 gcc
 gcc-libs
+gcc8
+gcc8-libs
 gconf
 gcr
 gd
@@ -358,6 +363,8 @@ harfbuzz-icu
 hdf5
 hdparm
 hicolor-icon-theme
+hidapi
+hiredis
 hspell
 htop
 http-parser
@@ -930,6 +937,8 @@ mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
 mod_dnssd
+monero
+monero-gui
 mono
 mousepad
 mousetweaks
@@ -985,6 +994,7 @@ odt2txt
 oniguruma
 openal
 opencl-mesa
+opencl-nvidia
 opencore-amr
 openexr
 openjdk-doc
@@ -1098,6 +1108,7 @@ prettyping
 primus
 procps-ng
 protobuf
+protobuf-c
 psmisc
 psutils
 pulseaudio
@@ -1195,7 +1206,10 @@ qemu
 qpdf
 qt5-base
 qt5-declarative
+qt5-graphicaleffects
 qt5-multimedia
+qt5-quickcontrols
+qt5-quickcontrols2
 qt5-script
 qt5-speech
 qt5-svg
@@ -1337,6 +1351,7 @@ twolame
 tzdata
 uchardet
 udisks2
+unbound
 unrar
 unzip
 upower
@@ -1437,6 +1452,8 @@ xfwm4-themes
 xkeyboard-config
 xmlsec
 xmlto
+xmrig-cuda
+xmrig-donateless
 xorg-bdftopcf
 xorg-docs
 xorg-font-util

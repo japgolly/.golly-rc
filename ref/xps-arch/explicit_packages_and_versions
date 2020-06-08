@@ -20,8 +20,9 @@ budgie-desktop 10.5.1+12+g10b814fa-1
 bumblebee 3.2.1-20
 bzip2 1.0.8-3
 cheese 3.34.0+23+gcac6d3a1-1
-chromedriver 81.0.4044.138-1
+chromedriver 83.0.4103.39-1
 clang 10.0.0-2
+clinfo 2.2.18.04.06-2
 cloc 1.84-1
 cmake 3.17.2-2
 cntlm 0.92.3-5
@@ -34,6 +35,7 @@ cpulimit 1:0.2-1
 cpupower 5.6-1
 crda 4.14-3
 cryptsetup 2.3.2-2
+cuda 10.2.89-5
 device-mapper 2.02.187-2
 dhcpcd 9.0.2-1
 dialog 1:1.3_20200327-1
@@ -42,7 +44,7 @@ diffutils 3.7-3
 docker 1:19.03.8-2
 docker-compose 1.25.5-1
 dos2unix 7.4.1-1
-downgrade 7.0.0-1
+downgrade 8.0.0-1
 dropbox 63.4.107-1
 dwdiff 2.1.2-4
 e2fsprogs 1.45.6-2
@@ -76,7 +78,7 @@ gftp 2.0.19-10
 ghc 8.10.1-2
 gimp 2.10.18-8
 git 2.26.2-1
-git-cola 3.6-1
+git-cola 3.7-1
 git-crypt 0.6.0-4
 gitg 1:3.32.1+17+gb4c8155f-1
 glibc 2.31-3
@@ -114,7 +116,7 @@ gnome-video-effects 0.5.0+4+g9554041-1
 gnome-weather 3.36.1-1
 gnu-netcat 0.7.1-7
 go 2:1.14.2-1
-google-chrome 81.0.4044.138-1
+google-chrome 83.0.4103.97-1
 gpart 0.3-3
 gparted 1.1.0-1
 graphviz 2.44.0-1
@@ -150,7 +152,7 @@ iproute2 5.6.0-1
 iputils 20190709-2
 iucode-tool 2.3.1-3
 jdk-openjdk 13.0.2.u8-1
-jdk11-graalvm-bin 20.0.0-1
+jdk11-graalvm-bin 20.1.0-1
 jdk11-openjdk 11.0.6.u10-1
 jdk8-openjdk 8.u242-1
 jfsutils 1.1.15-7
@@ -190,6 +192,8 @@ mcomix 1.3.0.dev0-2
 mdadm 4.1-2
 meld 3.20.2-1
 mirage 1.0_pre2-4
+monero 0.15.0.5-1
+monero-gui 0.15.0.5-1
 mousepad 0.4.2-2
 mousetweaks 3.32.0-1
 mplayer 38157-2
@@ -212,6 +216,7 @@ nvidia 440.82-16
 nvidia-settings 440.82-1
 nvm 0.35.3-1
 odt2txt 0.5-3
+opencl-nvidia 440.82-1
 openjdk-doc 13.0.2.u8-1
 openjdk-src 13.0.2.u8-1
 openjdk11-doc 11.0.6.u10-1
@@ -371,6 +376,8 @@ xfdesktop 4.14.2-2
 xfsprogs 5.6.0-2
 xfwm4 4.14.2-1
 xfwm4-themes 4.10.0-3
+xmrig-cuda 3.0.0-1
+xmrig-donateless 5.11.1-1
 xorg-docs 1.7.1-2
 xorg-fonts-100dpi 1.0.3-4
 xorg-fonts-75dpi 1.0.3-4

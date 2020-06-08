@@ -79,9 +79,10 @@ celt 0.11.3-4
 ceph-libs 14.2.8-1
 cheese 3.34.0+23+gcac6d3a1-1
 chromaprint 1.5.0-1
-chromedriver 81.0.4044.138-1
+chromedriver 83.0.4103.39-1
 cifs-utils 6.10-1
 clang 10.0.0-2
+clinfo 2.2.18.04.06-2
 cln 1.3.6-1
 cloc 1.84-1
 clucene 2.3.3.4-10
@@ -107,6 +108,7 @@ cpupower 5.6-1
 cracklib 2.9.7-2
 crda 4.14-3
 cryptsetup 2.3.2-2
+cuda 10.2.89-5
 cups 2.3.3-1
 cups-filters 1.27.4-1
 cups-pk-helper 0.2.6-3
@@ -140,7 +142,7 @@ dos2unix 7.4.1-1
 dosfstools 4.1-3
 dotconf 1.3-5
 double-conversion 3.1.5-1
-downgrade 7.0.0-1
+downgrade 8.0.0-1
 doxygen 1.8.18-1
 dropbox 63.4.107-1
 dwdiff 2.1.2-4
@@ -193,6 +195,7 @@ freerdp 2:2.1.0-1
 freetype2 2.10.2-1
 frei0r-plugins 1.7.0-1
 fribidi 1.0.9-1
+fstrm 0.6.0-1
 fuse-common 3.9.1-1
 fuse2 2.9.9-3
 fuse3 3.9.1-1
@@ -206,6 +209,8 @@ gc 8.0.4-3
 gcab 1.4-1
 gcc 10.1.0-1
 gcc-libs 10.1.0-1
+gcc8 8.4.0-1
+gcc8-libs 8.4.0-1
 gconf 3.2.6+11+g07808097-5
 gcr 3.36-1
 gd 2.3.0-1
@@ -228,7 +233,7 @@ ghostscript 9.52-1
 giflib 5.2.1-1
 gimp 2.10.18-8
 git 2.26.2-1
-git-cola 3.6-1
+git-cola 3.7-1
 git-crypt 0.6.0-4
 gitg 1:3.32.1+17+gb4c8155f-1
 gjs 2:1.64.2-1
@@ -297,7 +302,7 @@ gobject-introspection-runtime 1.64.1-2
 gom 0.4-1
 goocanvas 2.0.4-5
 goocanvasmm 1.90.11-3
-google-chrome 81.0.4044.138-1
+google-chrome 83.0.4103.97-1
 gpart 0.3-3
 gparted 1.1.0-1
 gpgme 1.13.1-5
@@ -358,6 +363,8 @@ harfbuzz-icu 2.6.6-1
 hdf5 1.12.0-2
 hdparm 9.58-3
 hicolor-icon-theme 0.17-2
+hidapi 0.9.0-1
+hiredis 0.14.1-1
 hspell 1.4-2
 htop 2.2.0-3
 http-parser 2.9.4-1
@@ -401,7 +408,7 @@ java-environment-common 3-2
 java-runtime-common 3-2
 jbig2dec 0.18-1
 jdk-openjdk 13.0.2.u8-1
-jdk11-graalvm-bin 20.0.0-1
+jdk11-graalvm-bin 20.1.0-1
 jdk11-openjdk 11.0.6.u10-1
 jdk8-openjdk 8.u242-1
 jemalloc 1:5.2.1-1
@@ -930,6 +937,8 @@ mkinitcpio 27-3
 mkinitcpio-busybox 1.31.1-1
 mobile-broadband-provider-info 20190618-1
 mod_dnssd 0.6-7
+monero 0.15.0.5-1
+monero-gui 0.15.0.5-1
 mono 6.4.0.198-1
 mousepad 0.4.2-2
 mousetweaks 3.32.0-1
@@ -985,6 +994,7 @@ odt2txt 0.5-3
 oniguruma 6.9.5_rev1-1
 openal 1.20.1-2
 opencl-mesa 20.0.7-2
+opencl-nvidia 440.82-1
 opencore-amr 0.1.5-3
 openexr 2.5.1-1
 openjdk-doc 13.0.2.u8-1
@@ -1098,6 +1108,7 @@ prettyping 1:1.0.1-2
 primus 20151110-8
 procps-ng 3.3.16-1
 protobuf 2.6.1-2
+protobuf-c 1.3.3-1
 psmisc 23.3-2
 psutils 1.93-3
 pulseaudio 13.0-3
@@ -1195,7 +1206,10 @@ qemu 5.0.0-6
 qpdf 10.0.1-1
 qt5-base 5.14.2-2
 qt5-declarative 5.14.2-1
+qt5-graphicaleffects 5.14.2-1
 qt5-multimedia 5.14.2-1
+qt5-quickcontrols 5.14.2-1
+qt5-quickcontrols2 5.14.2-1
 qt5-script 5.14.2-1
 qt5-speech 5.14.2-1
 qt5-svg 5.14.2-1
@@ -1337,6 +1351,7 @@ twolame 0.4.0-2
 tzdata 2020a-1
 uchardet 0.0.7-1
 udisks2 2.8.4-2
+unbound 1.10.0-2
 unrar 1:5.9.2-1
 unzip 6.0-14
 upower 0.99.11-1
@@ -1437,6 +1452,8 @@ xfwm4-themes 4.10.0-3
 xkeyboard-config 2.29-1
 xmlsec 1.2.30-2
 xmlto 0.0.28-3
+xmrig-cuda 3.0.0-1
+xmrig-donateless 5.11.1-1
 xorg-bdftopcf 1.1-2
 xorg-docs 1.7.1-2
 xorg-font-util 1.3.2-1
