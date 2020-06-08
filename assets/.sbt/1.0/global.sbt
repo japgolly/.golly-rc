@@ -15,6 +15,7 @@ triggeredMessage := Watched.clearWhenTriggered
 
 addCommandAlias("/"  , "project root")
 addCommandAlias("PL" , "root/publishLocal")
+addCommandAlias("CPL", ";root/clean;root/publishLocal")
 addCommandAlias("p"  , "project")
 
 addCommandAlias("C"  , "root/compile")
