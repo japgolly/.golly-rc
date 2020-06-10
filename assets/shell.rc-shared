@@ -53,6 +53,7 @@ alias vimsbt='vim ~/.sbt/1.0/{*/,}*.sbt -o'
 alias odx='od -Ax -tx1z'
 alias awk1='awk '"'"'{print $1}'"'"
 alias awk2='awk '"'"'{print $2}'"'"
+alias cs=coursier
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"

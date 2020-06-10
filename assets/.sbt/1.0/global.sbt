@@ -43,7 +43,7 @@ addCommandAlias("ct" , ";clean;test")
 update / evictionWarningOptions := EvictionWarningOptions.default.withWarnEvictionSummary(false).withWarnScalaVersionEviction(false)
 
 import scala.concurrent.duration._
-//ThisBuild / watchAntiEntropy := 1000.millis
+ThisBuild / watchAntiEntropy := 500.millis
+ThisBuild / watchDeletionQuarantinePeriod := 500.milliseconds
 ThisBuild / watchBeforeCommand := Watch.clearScreen
-
 
