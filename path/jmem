@@ -5,14 +5,15 @@ results=()
 
 for line in $(jps -l | fgrep -v sun.tools.jps.Jps | tr ' ' _); do
 
-  pid=${line%_*}
-  name=${line#*_}
+  pid="${line%%_*}"
+  name="${line#*_}"
   case "$name" in
     /usr/share/sbt/bin/sbt-launch.jar) name=SBT ;;
     bloop.Server                     ) name=Bloop ;;
     com.intellij.idea.Main           ) name=IntelliJ ;;
     org.eclipse.jetty.runner.Runner  ) name=Jetty ;;
     scala.meta.metals.Main           ) name=Metals ;;
+    scala.tools.nsc.MainGenericRunner) name=scala ;;
     *) ;;
   esac
   dir="$(readlink /proc/$pid/cwd)"
@@ -23,7 +24,7 @@ for line in $(jps -l | fgrep -v sun.tools.jps.Jps | tr ' ' _); do
     mem="$(echo "${mem%% kB}" | awk '{printf("%6.3f GB", $1/1024/1024)}')"
   fi
 
-  flags="$(cat /proc/$pid/cmdline | xargs -0 -L1 echo | fgrep -v Xbootclasspath | grep '^-X.*[0-9].*' | sort | xargs echo)"
+  flags="$(cat /proc/$pid/cmdline | xargs -r -0 -L1 echo | fgrep -v Xbootclasspath | grep '^-X.*[0-9].*' | sort | xargs -r echo)" || true
 
   results+=("\n$mem,($pid),$name,$dir,$flags")
 
