@@ -172,6 +172,7 @@ e2fsprogs
 eclipse-mat
 ed
 editorconfig-core-c
+edk2-shell
 efibootmgr
 efivar
 electron
@@ -459,7 +460,6 @@ khtml
 ki18n
 kiconthemes
 kidletime
-kinit
 kio
 kirigami2
 kitemmodels
@@ -493,6 +493,7 @@ kunitconversion
 kuserfeedback
 kwallet
 kwayland
+kwayland-server
 kwidgetsaddons
 kwin
 kwindowsystem
@@ -568,7 +569,6 @@ lib32-libgpg-error
 lib32-libgudev
 lib32-libice
 lib32-libid3tag
-lib32-libidn
 lib32-libidn11
 lib32-libidn2
 lib32-libindicator-gtk2
@@ -601,6 +601,7 @@ lib32-libtirpc
 lib32-libtxc_dxtn
 lib32-libudev0-shim
 lib32-libunistring
+lib32-libunwind
 lib32-libusb
 lib32-libva
 lib32-libva1
@@ -1276,6 +1277,7 @@ python-cached-property
 python-cairo
 python-cffi
 python-chardet
+python-click
 python-colorama
 python-cryptography
 python-dateutil
@@ -1287,6 +1289,7 @@ python-docker-pycreds
 python-dockerpty
 python-docopt
 python-docutils
+python-dotenv
 python-evdev
 python-gobject
 python-httplib2
