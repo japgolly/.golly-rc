@@ -42,6 +42,7 @@
       <property name="&lt;Alt&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Super&gt;v" type="string" value="pavucontrol"/>
       <property name="&lt;Super&gt;f" type="string" value="firefox"/>
+      <property name="&lt;Super&gt;q" type="string" value="/usr/local/bin/sqlectron"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

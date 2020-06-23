@@ -72,6 +72,8 @@ bind-tools
 binutils
 bison
 blas
+bloop
+bloop-systemd
 blueman
 bluez
 bluez-libs
@@ -672,6 +674,7 @@ lib32-zstd
 libabw
 libaec
 libaio
+libappindicator-gtk3
 libarchive
 libass
 libassuan
@@ -708,6 +711,7 @@ libdatrie
 libdazzle
 libdbusmenu-glib
 libdbusmenu-gtk2
+libdbusmenu-gtk3
 libdbusmenu-qt5
 libdc1394
 libdca
@@ -779,6 +783,7 @@ libiec61883
 libimagequant
 libimobiledevice
 libindicator-gtk2
+libindicator-gtk3
 libinput
 libinstpatch
 libiptcdata
@@ -1082,9 +1087,11 @@ ncdu
 ncurses
 ndctl
 neon
+net-tools
 netcdf
 netctl
 netpbm
+netstat-nat
 nettle
 network-manager-applet
 networkmanager
@@ -1657,6 +1664,7 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
+xclip
 xdg-dbus-proxy
 xdg-utils
 xf86-input-evdev
@@ -1736,6 +1744,7 @@ xorg-xwininfo
 xorgproto
 xterm
 xvidcore
+xxhash
 xz
 yajl
 yaourt

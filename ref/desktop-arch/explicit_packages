@@ -36,6 +36,8 @@ bat
 bc
 bind-tools
 bison
+bloop
+bloop-systemd
 blueman
 bluez-utils
 boinc
@@ -260,7 +262,9 @@ nautilus
 nautilus-open-terminal
 nautilus-sendto
 ncdu
+net-tools
 netctl
+netstat-nat
 network-manager-applet
 nfs-utils
 nmap
@@ -455,6 +459,7 @@ winetricks
 wireless_tools
 x264
 x86_energy_perf_policy
+xclip
 xdg-utils
 xf86-input-keyboard
 xf86-input-mouse
