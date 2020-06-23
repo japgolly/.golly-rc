@@ -1,6 +1,3 @@
-import xerial.sbt.Sonatype.autoImport._
-sonatypeProfileName := "com.github.japgolly"
-
 enablePlugins(net.virtualvoid.sbt.graph.DependencyGraphPlugin)
 
 import com.timushev.sbt.updates.UpdatesPlugin.autoImport._
@@ -27,6 +24,7 @@ addCommandAlias("TS" , "root/testOnly * -- --report-slowest")
 addCommandAlias("CC" , ";root/clean;root/compile")
 addCommandAlias("CTC", ";root/clean;root/test:compile")
 addCommandAlias("CT" , ";root/clean;root/test")
+addCommandAlias("SF" , ";root/test:scalafix;root/scalafix")
 
 addCommandAlias("c"  , "compile")
 addCommandAlias("tc" , "test:compile")
@@ -37,6 +35,7 @@ addCommandAlias("ts" , "testOnly * -- --report-slowest")
 addCommandAlias("cc" , ";clean;compile")
 addCommandAlias("ctc", ";clean;test:compile")
 addCommandAlias("ct" , ";clean;test")
+addCommandAlias("sf" , ";test:scalafix;scalafix")
 
 //logLevel in Global in update := Level.Warn
 
