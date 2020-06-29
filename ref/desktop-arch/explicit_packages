@@ -104,6 +104,7 @@ flashplugin
 flex
 freerdp
 fusion-icon0.9
+fwbuilder
 fzf
 gawk
 gconf-editor
@@ -308,7 +309,6 @@ pciutils
 pcloud-drive
 pcmanfm
 perl
-pgadmin3
 phantomjs-bin
 pidgin
 pidgin-libnotify
@@ -375,6 +375,7 @@ soundfont-fluid
 soundtouch
 speedcrunch
 sqlectron-gui
+ssh-audit
 startup-notification
 steam
 steam-native-runtime
