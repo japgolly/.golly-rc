@@ -211,6 +211,7 @@ fftw
 file
 filemanager-actions
 filesystem
+filezilla
 findutils
 firefox
 flac
@@ -391,7 +392,6 @@ inotify-tools
 intel-gmmlib
 intel-media-driver
 intel-media-sdk
-intel-tbb
 intel-ucode
 intltool
 inxi
@@ -740,6 +740,7 @@ libfbclient
 libfdk-aac
 libffado
 libffi
+libfilezilla
 libfm
 libfm-extra
 libfm-gtk2
@@ -1034,7 +1035,7 @@ mailcap
 make
 man-db
 man-pages
-mathjax2
+mathjax
 maven
 mbedtls
 mcomix
@@ -1543,6 +1544,7 @@ taglib
 talloc
 tar
 tarsnap
+tbb
 tcpdump
 tcsh
 tdb
@@ -1597,7 +1599,6 @@ ttf-liberation
 ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
-ttf-mph-2b-damase
 ttf-opensans
 ttf-roboto
 ttf-roboto-mono
@@ -1712,7 +1713,9 @@ xorg-font-util
 xorg-font-utils
 xorg-fonts-100dpi
 xorg-fonts-75dpi
-xorg-fonts-alias
+xorg-fonts-alias-100dpi
+xorg-fonts-alias-75dpi
+xorg-fonts-alias-misc
 xorg-fonts-encodings
 xorg-fonts-misc
 xorg-iceauth

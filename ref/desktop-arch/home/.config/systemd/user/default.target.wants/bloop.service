@@ -2,7 +2,7 @@
 Description=Bloop Scala build server
 
 [Service]
-ExecStart=/home/golly/.local/share/coursier/bin/bloop server
+ExecStart=/usr/lib/bloop/bloop server
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=bloop

@@ -97,6 +97,7 @@ ffmpeg
 file
 filemanager-actions
 filesystem
+filezilla
 findutils
 firefox
 flac
@@ -431,7 +432,6 @@ ttf-liberation
 ttf-linux-libertine
 ttf-mac-fonts
 ttf-microsoft-consolas
-ttf-mph-2b-damase
 ttf-opensans
 ttf-roboto
 ttf-roboto-mono
