@@ -11,6 +11,8 @@ export EDITOR=vim
 export PAGER=less
 export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=384m"
 
+export DOCKER_BUILDKIT=1
+
 # Unicodeness. Get an .XCompose & add to .xinitrc: setxkbmap -option "compose:caps"
 export XKBOPTIONS="compose:caps"
 export GTK_IM_MODULE=xim
@@ -40,7 +42,6 @@ alias gcm='git commit -m'
 alias gca='git commit --amend'
 alias gcan='git commit --amend --date=now'
 alias gsa='git add -A && git stash save'
-alias gsp='git stash pop && git unstage'
 alias ww='google-chrome-stable --incognito'
 alias WIPE='git wipe; git clean -df'
 alias grep='grep --color=auto'
@@ -54,6 +55,10 @@ alias odx='od -Ax -tx1z'
 alias awk1='awk '"'"'{print $1}'"'"
 alias awk2='awk '"'"'{print $2}'"'"
 alias cs=coursier
+alias rg='/usr/bin/rg -M 200'
+alias rgj='rg -t js -t ts'
+alias rgs='rg -t scala'
+alias m=make
 
 # MPV
 mpv_del_xargs="sort -u /tmp/mpv-deletion | xargs -d '\n'"
@@ -129,6 +134,16 @@ function find_name {
 alias finds="find_name '*.scala'"
 alias findj="find_name '*.java'"
 alias findjs="find_name '*.js'"
+function gsp {
+  if [[ "$1" =~ '^[0-9][0-9]*$' ]]; then
+    a="$1"
+    shift
+    git stash pop "stash@{$a}" "$@"
+  else
+    git stash pop "$@"
+  fi
+  [ $? -eq 0 ] && git unstage
+}
 function gss {
   if [[ "$1" =~ '^[0-9][0-9]*$' ]]; then
     a="$1"
@@ -316,12 +331,12 @@ fi
 if [ -e /usr/bin/vendor_perl/ack ]; then
   alias ack="/usr/bin/vendor_perl/ack --ignore-dir={target,_scalate,.bower,node_modules,log,vendor,.idea,.idea_modules} --color"
 fi
-alias ackjs='ack --js'
-alias ackj='ack --java'
-alias acks='ack --scala'
 
 # Use golly-rc path
 export PATH="$PATH:$HOME/.golly-rc/path"
+
+# Python and whatever
+export PATH="$PATH:$HOME/.local/bin"
 
 #export GIT_SSL_NO_VERIFY=true
 unset RUBYOPT

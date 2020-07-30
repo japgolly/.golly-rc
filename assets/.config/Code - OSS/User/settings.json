@@ -30,7 +30,9 @@
     "cSpell.userWords": [
         "Async",
         "Profunctor",
+        "Shipreq",
         "Thenable",
+        "frontmatter",
         "japgolly"
     ],
     "workbench.editor.closeOnFileDelete": true,

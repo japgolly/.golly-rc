@@ -14,7 +14,7 @@
 <Multi_key> <less> <backslash>                                   : "↖" U2196 # NORTH WEST ARROW
 <Multi_key> <slash> <greater>                                    : "↗" U2197 # NORTH EAST ARROW
 <Multi_key> <backslash> <greater>                                : "↘" U2198 # SOUTH EAST ARROW
-<Multi_key> <less> <slash>                                       : "↙" U2199 # SOUTH WEST ARROW
+<Multi_key> <slash> <less>                                       : "↙" U2199 # SOUTH WEST ARROW
 <Multi_key> <Up> <Left>                                          : "↰" U21B0 # UPWARDS ARROW WITH TIP LEFTWARDS
 <Multi_key> <Up> <Right>                                         : "↱" U21B1 # UPWARDS ARROW WITH TIP RIGHTWARDS
 <Multi_key> <Down> <Left>                                        : "↲" U21B2 # DOWNWARDS ARROW WITH TIP LEFTWARDS
