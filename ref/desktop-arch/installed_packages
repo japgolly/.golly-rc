@@ -57,6 +57,7 @@ aubio
 audio-convert
 audit
 autoconf
+autoconf-archive
 automake
 avahi
 awoken-icons
@@ -175,7 +176,6 @@ e2fsprogs
 eclipse-mat
 ed
 editorconfig-core-c
-edk2-shell
 efibootmgr
 efivar
 electron
@@ -252,6 +252,7 @@ gdl
 geckodriver
 gedit
 gegl
+gendesk
 geoclue
 geocode-glib
 geoip
@@ -281,6 +282,7 @@ glslang
 glu
 gmp
 gnome-autoar
+gnome-common
 gnome-desktop
 gnome-icon-theme
 gnome-icon-theme-symbolic
@@ -401,6 +403,7 @@ iproute2
 iptables
 iputils
 iso-codes
+itstool
 iucode-tool
 iw
 jack2
@@ -1035,6 +1038,7 @@ m17n-lib
 m4
 mailcap
 make
+mallard-ducktype
 man-db
 man-pages
 mathjax
@@ -1486,6 +1490,7 @@ s-nail
 sbc
 sbt
 schroedinger
+scons
 screen
 screenfetch
 sdl
@@ -1778,6 +1783,8 @@ yajl
 yaourt
 yasm
 yay
+yelp-tools
+yelp-xsl
 youtube-dl
 yubico-c
 yubico-c-client
