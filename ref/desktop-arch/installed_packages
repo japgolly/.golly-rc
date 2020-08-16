@@ -312,7 +312,6 @@ gperf
 gpgme
 gpm
 gptfdisk
-grantlee
 graphene
 graphicsmagick
 graphite
@@ -326,6 +325,7 @@ gsm
 gspell
 gssdp
 gssproxy
+gst-libav
 gst-plugins-bad
 gst-plugins-bad-libs
 gst-plugins-base
@@ -426,7 +426,7 @@ jre11-openjdk
 jre11-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
-js60
+js68
 json-c
 json-glib
 jsoncpp
