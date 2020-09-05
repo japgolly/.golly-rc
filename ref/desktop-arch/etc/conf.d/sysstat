@@ -1,4 +1,4 @@
-# sysstat-12.3.3 configuration file.
+# sysstat-12.4.0 configuration file.
 
 # How long to keep log files (in days).
 # If value is greater than 28, then use sadc's option -D to prevent older
@@ -26,6 +26,12 @@ ZIP="xz"
 # By default sa2 script generates reports files (the so called sarDD files).
 # Set this variable to false to disable reports generation.
 #REPORTS=false
+
+# Tell sa2 to wait for a random delay in the range 0 .. ${DELAY_RANGE} before
+# executing. This delay is expressed in seconds, and is aimed at preventing
+# a massive I/O burst at the same time on VM sharing the same storage area.
+# Set this variable to 0 to make sa2 generate reports files immediately.
+DELAY_RANGE=0
 
 # The sa1 and sa2 scripts generate system activity data and report files in
 # the /var/log/sa directory. By default the files are created with umask 0022

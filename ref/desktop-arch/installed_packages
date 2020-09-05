@@ -51,6 +51,7 @@ at-spi2-atk
 at-spi2-core
 atk
 atkmm
+atop
 attica
 attr
 aubio
@@ -267,6 +268,8 @@ gimp
 git
 git-cola
 git-crypt
+git-delta-bin
+git-lfs
 gitg
 gl2ps
 glew
@@ -621,6 +624,7 @@ lib32-libx11
 lib32-libxau
 lib32-libxcb
 lib32-libxcomposite
+lib32-libxcrypt
 lib32-libxcursor
 lib32-libxdamage
 lib32-libxdmcp
@@ -969,6 +973,7 @@ libxau
 libxaw
 libxcb
 libxcomposite
+libxcrypt
 libxcursor
 libxdamage
 libxdmcp
@@ -1604,6 +1609,7 @@ tracker
 tracker-miners
 transmission-cli
 tree
+tree-sitter
 trid
 tslib
 ttf-adobe-fonts

@@ -24,6 +24,7 @@ ardour
 aria2
 aspell
 aspell-en
+atop
 audio-convert
 autoconf
 automake
@@ -119,6 +120,7 @@ gimp
 git
 git-cola
 git-crypt
+git-delta-bin
 gitg
 glibc
 gnome-keyring

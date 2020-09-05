@@ -7,9 +7,11 @@
 # | +----------- hour (0 - 23)
 # +------------- min (0 - 59)
 
- 0 1 * * 6 find $HOME/Downloads -maxdepth 1 -type f -mtime +7 -name '*.torrent' -exec rm {} +
-#10 1 * * 6 cd $HOME/backups && ./backup_calibre.sh      >log/cron-calibre.out      2>log/cron-calibre.err
-20 2 * * 6 cd $HOME/backups && ./backup_personal.sh     >log/cron-personal.out     2>log/cron-personal.err
-40 2 * * 6 cd $HOME/backups && ./backup_projects.sh     >log/cron-projects.out     2>log/cron-projects.err
- 0 4 * * 6 cd $HOME/backups && ./backup_beardedlogic.sh >log/cron-beardedlogic.out 2>log/cron-beardedlogic.err
+ 0 2  * * 6 find $HOME/Downloads -maxdepth 1 -type f -mtime +7 -name '*.torrent' -exec rm {} +
+ 0 5  * * * cd $HOME/backups && ./daily.sh >log/daily.out 2>log/daily.err
+ 0 1  1 * * $HOME/backups/full_backup_home.sh
+
+#20 2 * * 6 cd $HOME/backups && ./backup_personal.sh     >log/cron-personal.out     2>log/cron-personal.err
+#40 2 * * 6 cd $HOME/backups && ./backup_projects.sh     >log/cron-projects.out     2>log/cron-projects.err
+# 0 4 * * 6 cd $HOME/backups && ./backup_beardedlogic.sh >log/cron-beardedlogic.out 2>log/cron-beardedlogic.err
 
