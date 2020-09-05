@@ -223,6 +223,21 @@ function crap {
     done
   fi
 }
+function mvcrap {
+  crap=~/crap
+  if [ $# -eq 0 ]; then
+    ls -lrt "$crap"
+  else
+    time=$(date +%Y%m%d-%H%M%S)
+    for f in "$@"; do
+      g="$(basename "$f")"
+      name="${g%.*}"
+      ext="${g##*.}"
+      tgt="$crap/$name-$time.$ext"
+      mv -v "$f" "$tgt"
+    done
+  fi
+}
 function gitignore {
   [ $# -eq 0 ] && echo "No arguments provided." >&2 && exit 1
   for f in "$@"; do echo "$f" >> .gitignore; done
