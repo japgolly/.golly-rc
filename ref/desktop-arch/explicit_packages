@@ -66,6 +66,7 @@ cryptsetup
 ctop-bin
 cups
 cwdiff
+dconf-editor
 deb2targz
 debtap
 device-mapper

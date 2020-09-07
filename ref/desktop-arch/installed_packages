@@ -147,6 +147,7 @@ dbus-glib
 dbus-sharp
 dbus-sharp-glib
 dconf
+dconf-editor
 deb2targz
 debtap
 desktop-file-utils

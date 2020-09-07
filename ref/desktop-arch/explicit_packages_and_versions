@@ -66,6 +66,7 @@ cryptsetup 2.3.4-1
 ctop-bin 0.7.3-1
 cups 2.3.3-3
 cwdiff 0.4.0-2
+dconf-editor 3.36.4-1
 deb2targz 0.1-7
 debtap 3.3.1-1
 device-mapper 2.02.187-3
@@ -164,7 +165,7 @@ hyphen-en 2.8.8-3
 id3lib 3.8.3-18
 ifplugd 0.28-16
 iftop 1.0pre4-4
-imagemagick 7.0.10.28-1
+imagemagick 7.0.10.29-1
 inetutils 1.9.4-8
 inkscape 1.0-6
 inotify-tools 3.20.2.1-1
@@ -197,7 +198,7 @@ lazygit 0.22.1-1
 leafpad 0.8.18.1-9
 less 551-3
 lib32-alsa-plugins 1.2.2-1
-lib32-gnutls 3.6.14-1
+lib32-gnutls 3.6.15-1
 lib32-libgudev 233-1
 lib32-libpulse 13.0-1
 lib32-mesa-vdpau 20.1.7-1
@@ -224,8 +225,8 @@ libva-vdpau-driver 0.7.4-4
 libvncserver 0.9.13-1
 libyaml 0.2.5-1
 licenses 20200427-1
-linux 5.8.6.arch1-1
-linux-headers 5.8.6.arch1-1
+linux 5.8.7.arch1-1
+linux-headers 5.8.7.arch1-1
 llvm 10.0.1-2
 lm_sensors 3.6.0-2
 logrotate 3.17.0-1
@@ -351,7 +352,7 @@ realtime-privileges 2-2
 redis 6.0.7-1
 redshift 1.12-3
 refind 0.12.0-6
-reflector 2020.8.19-2
+reflector 2020.9-1
 reiserfsprogs 3.6.27-3
 renameutils 0.12.0-7
 retroarch 1.9.0-1
@@ -516,7 +517,7 @@ xorg-xrandr 1.5.1-2
 xterm 359-1
 yaourt 1.9-1
 yay 10.0.4-1
-youtube-dl 2020.07.28-1
+youtube-dl 2020.09.06-1
 zeal 1:0.6.1-1
 zeromq 4.3.2-2
 zip 3.0-9
