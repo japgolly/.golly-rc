@@ -1,3 +1,13 @@
+# Languages
+<Multi_key> <quotedbl> <a> : "ä" U00E4
+<Multi_key> <quotedbl> <A> : "Ä" U00C4
+<Multi_key> <quotedbl> <o> : "ö" U00F6
+<Multi_key> <quotedbl> <O> : "Ö" U00D6
+<Multi_key> <quotedbl> <u> : "ü" U00FC
+<Multi_key> <quotedbl> <U> : "Ü" U00DC
+<Multi_key> <quotedbl> <e> : "ë" U00EB
+<Multi_key> <quotedbl> <E> : "Ë" U00CB
+
 # Arrows
 <Multi_key> <minus> <less>                                       : "←" leftarrow # LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>                                : "↑" uparrow # UPWARDS ARROW
