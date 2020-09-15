@@ -103,7 +103,7 @@ function test_cp { show_cp "$1" | sed "s|^|$(dirname "$1")/|" | xargs -L1 ls -l;
 function git_pull_all { [ $? -eq 0 ] && set - .; find "$@" -type d -name .git | xargs -L1 -I{} bash -c 'echo "{}"; cd "{}/.." && git pull; echo'; }
 function gv2png { [ $# -ne 1 ] && echo "Filename missing." || ( o="$1.png"; dot -Tpng -o"$o" "$1" && xdg-open "$o" 2>/dev/null);}
 function s { for a in "$@"; do xdg-open "$a" 2>&1 | fgrep -v WARNING | sed '/^ *$/d'; done ;}
-function ss { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done ;}
+function open { for a in "$@"; do nohup xdg-open "$a" &>/dev/null ; done ;}
 function git-tagver { [ $# -ne 1 ] && echo "git-tagver <version>" || git tag -s v"$1" -m v"$1" ;}
 function grepsel {
   flags=
