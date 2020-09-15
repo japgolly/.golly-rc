@@ -86,8 +86,6 @@ link .config/mpv/input.conf
 source_script .bashrc shell.rc-bash
 source_script .zshrc shell.rc-zsh
 
-mkdir -p ~/.sbt/{0.13,1.0}/plugins
-link .sbt/0.13/global.sbt
-link .sbt/0.13/plugins/plugins.sbt
+mkdir -p ~/.sbt/1.0/plugins
 link .sbt/1.0/global.sbt
 link .sbt/1.0/plugins/plugins.sbt
