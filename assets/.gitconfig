@@ -3,42 +3,54 @@
   email = japgolly@gmail.com
 
 [alias]
-   st = status
-   co = checkout
-   c = commit
-   b = branch
-   t = tag
-   cp = cherry-pick
-   mt = mergetool
-   l = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
-   lol = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s'
-   lola = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s' --all
-   deleted = log --diff-filter=D --stat
-   sl = stash list --format='%C(yellow)%h%Creset %ai | %s'
-   stashred = stash --keep-index --include-untracked
-   diffs = diff --staged
-   diffw = diff --color-words
-   wipe = reset --hard
-   unstage = reset HEAD
-   m = merge --no-ff
-   ms = merge --squash --no-commit
-   ff = merge --ff-only
+  b        = branch
+  c        = commit
+  co       = checkout
+  cp       = cherry-pick
+  deleted  = log --diff-filter=D --stat
+  diffs    = diff --staged
+  diffw    = diff --color-words
+  ff       = merge --ff-only
+  l        = log --format='%C(yellow)%h%Creset %ai %C(cyan)<%an>%Creset %s'
+  lol      = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s'
+  lola     = log --graph --decorate --abbrev-commit --format='%C(yellow)%h%Creset %C(GREEN)%ai%Creset%C(bold magenta)%d %C(cyan)<%an>%Creset %s' --all
+  m        = merge --no-ff
+  ms       = merge --squash --no-commit
+  mt       = mergetool
+  sl       = stash list --format='%C(yellow)%h%Creset %ai | %s'
+  st       = status
+  stashred = stash --keep-index --include-untracked
+  t        = tag
+  unstage  = reset HEAD
+  wipe     = reset --hard
 
 [color]
-   ui = true
-   diff = auto
-   status = auto
-   branch = auto
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
 
-[core]
-  pager = delta
-[interactive]
-  diffFilter = delta --color-only
-[delta]
-  line-numbers = true
-  side-by-side = false
-[diff]
-  colorMoved = default
+# Diffs using dela
+#[core]
+#  pager = delta
+#[interactive]
+#  diffFilter = delta --color-only
+#[delta]
+#  line-numbers = true
+#  side-by-side = false
+#[diff]
+#  colorMoved = default
+
+# Diffs using diff-so-fancy
+[color "diff"]
+  meta = yellow bold
+  old = red bold
+[color "status"]
+  changed = red bold
+  untracked = red bold
+[pager]
+  diff = diff-so-fancy | less -RFX
+  show = diff-so-fancy | less -RFX
 
 
 [gui]
@@ -46,7 +58,6 @@
   editor = leafpad
 [cola]
   tabwidth = 2
-  fontdiff = Monospace,10,-1,5,50,0,0,0,0,0
   textwidth = 120
   spellcheck = false
 
@@ -70,25 +81,3 @@
 [diff]
   renameLimit = 32000
   wordRegex = [A-Za-z0-9_]+
-
-
-[filesystem "Oracle Corporation|11.0.6|/dev/sdc1"]
-	timestampResolution = 6000 nanoseconds
-	minRacyThreshold = 6475 microseconds
-[filesystem "Oracle Corporation|11.0.6|/dev/sda1"]
-	timestampResolution = 3000 nanoseconds
-	minRacyThreshold = 4395 microseconds
-[filesystem "Oracle Corporation|11.0.6|tmpfs"]
-	timestampResolution = 6000 nanoseconds
-	minRacyThreshold = 4205 microseconds
-[filesystem "Oracle Corporation|1.8.0_252|/dev/sda1"]
-	timestampResolution = 1001 microseconds
-	minRacyThreshold = 3305 microseconds
-[filesystem "GraalVM Community|11.0.7|/dev/sda1"]
-	timestampResolution = 9000 nanoseconds
-	minRacyThreshold = 5427 microseconds
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
