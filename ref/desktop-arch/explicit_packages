@@ -172,6 +172,7 @@ inotify-tools
 intel-ucode
 inxi
 iotop
+iperf
 iproute2
 iputils
 iucode-tool
@@ -270,6 +271,7 @@ nautilus-sendto
 ncdu
 net-tools
 netctl
+nethogs
 netstat-nat
 network-manager-applet
 nfs-utils

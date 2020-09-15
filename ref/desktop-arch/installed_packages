@@ -403,6 +403,7 @@ intel-ucode
 intltool
 inxi
 iotop
+iperf
 iproute2
 iptables
 iputils
@@ -942,7 +943,6 @@ libusb-compat
 libusbmuxd
 libutempter
 libutf8proc
-libutil-linux
 libuv
 libva
 libva-mesa-driver
@@ -1105,6 +1105,7 @@ net-snmp
 net-tools
 netcdf
 netctl
+nethogs
 netpbm
 netstat-nat
 nettle
@@ -1654,6 +1655,7 @@ upower
 usbmuxd
 usbutils
 util-linux
+util-linux-libs
 v4l-utils
 valgrind
 vamp-plugin-sdk

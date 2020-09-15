@@ -15,6 +15,6 @@ PARTUUID=7a77edde-b5f5-5a48-9e5b-57ca6fc93a95 /var      ext4  rw,noatime,data=or
 PARTUUID=461ff884-81b9-43e2-98d2-d1f6e865bf87 none      swap  defaults,noatime        0 0
 tmpfs                                         /tmp      tmpfs nodev,nosuid            0 0
 
-//nas/home      /mnt/nas/golly     cifs auto,relatime,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8,file_mode=0600,dir_mode=0700 0 0
-//nas/downloads /mnt/nas/downloads cifs auto,relatime,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
-//nas/public    /mnt/nas/public    cifs auto,relatime,_netdev,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
+//nas/home      /mnt/nas/golly     cifs noauto,x-systemd.automount,x-systemd.mount-timeout=30,_netdev,relatime,vers=3.1.1,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8,file_mode=0600,dir_mode=0700 0 0
+//nas/downloads /mnt/nas/downloads cifs noauto,x-systemd.automount,x-systemd.mount-timeout=30,_netdev,relatime,vers=3.1.1,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
+//nas/public    /mnt/nas/public    cifs noauto,x-systemd.automount,x-systemd.mount-timeout=30,_netdev,relatime,vers=3.1.1,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
