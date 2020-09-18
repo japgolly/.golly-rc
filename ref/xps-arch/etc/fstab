@@ -1,23 +1,21 @@
-# 
-# /etc/fstab: static file system information
-#
-# <file system>	<dir>	<type>	<options>	<dump>	<pass>
-# /dev/nvme0n1p2
-UUID=e5b4f4e1-6479-4f15-9a92-48250ad646d3	/         	ext4      	rw,relatime,data=ordered	0 1
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p6
+UUID=de50fa7b-eb91-4b28-a70b-21a3fafe1924	/         	ext4      	rw,relatime	0 1
+
+# /dev/nvme0n1p7
+UUID=a85f5e16-b4bd-45e0-b435-6f75cbdae608	/home     	ext4      	rw,relatime	0 2
 
 # /dev/nvme0n1p1
-UUID=E20E-CE65      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
+UUID=56C6-195B      	/efi      	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
 
-# /dev/nvme0n1p3
-/dev/mapper/home							/home     	ext4      	rw,relatime,data=ordered	0 2
-
-# /dev/nvme0n1p4
-UUID=e90be685-1528-43ee-99c0-980c80425c02	none      	swap      	defaults  	0 0
+# /dev/nvme0n1p8
+UUID=9175c7a4-04cd-4e96-8edf-10fcb92881df	none      	swap      	defaults  	0 0
 
 
-nas:/volume1/public        /mnt/nas/public nfs4 noauto,exec,relatime,timeo=10,intr,_netdev	0 2
-nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,exec,relatime,timeo=10,intr,_netdev	0 2
-
-#nas:/volume1/public        /mnt/nas/public nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
-#nas:/volume1/homes/golly   /mnt/nas/golly  nfs4 noauto,x-systemd.automount,exec,relatime,timeo=10,intr,_netdev	0 2
+//nas/home      /mnt/nas/golly     cifs noauto,x-systemd.automount,x-systemd.mount-timeout=30,_netdev,relatime,vers=3.1.1,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8,file_mode=0600,dir_mode=0700 0 0
+//nas/downloads /mnt/nas/downloads cifs noauto,x-systemd.automount,x-systemd.mount-timeout=30,_netdev,relatime,vers=3.1.1,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
+//nas/public    /mnt/nas/public    cifs noauto,x-systemd.automount,x-systemd.mount-timeout=30,_netdev,relatime,vers=3.1.1,user,uid=golly,gid=users,rw,suid,sec=ntlmv2,credentials=/etc/cifspwd,iocharset=utf8 0 0
 
