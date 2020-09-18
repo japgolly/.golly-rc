@@ -270,7 +270,6 @@ git
 git-cola
 git-crypt
 git-delta-bin
-git-lfs
 gitg
 gl2ps
 glew
@@ -322,6 +321,7 @@ graphite
 graphviz
 grep
 groff
+grub
 gsettings-desktop-schemas
 gsfonts
 gsl
@@ -693,6 +693,7 @@ libasyncns
 libatasmart
 libatomic_ops
 libavc1394
+libavtp
 libblockdev
 libbluray
 libbs2b
@@ -823,6 +824,7 @@ libmagick6
 libmatroska
 libmaxminddb
 libmfx
+libmicrodns
 libmicrohttpd
 libmikmod
 libmm-glib
@@ -1565,6 +1567,7 @@ suil
 suitesparse
 sundials
 surfshark-vpn
+svt-hevc
 swi-prolog
 syntax-highlighting
 sysfsutils
@@ -1687,6 +1690,7 @@ wine
 winetricks
 wireless-regdb
 wireless_tools
+woeusb
 woff2
 wpa_supplicant
 wpebackend-fdo
@@ -1809,4 +1813,5 @@ zsh
 zsh-completions
 zstd
 zvbi
+zxing-cpp
 zziplib
