@@ -315,7 +315,6 @@ partimage
 patch
 pavucontrol
 pciutils
-pcloud-drive
 pcmanfm
 perl
 phantomjs-bin
@@ -395,6 +394,8 @@ strace
 sudo
 surfshark-vpn
 swi-prolog
+syncthing
+syncthing-gtk
 sysfsutils
 sysstat
 systemd-sysvcompat

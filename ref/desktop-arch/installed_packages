@@ -1185,7 +1185,6 @@ partimage
 patch
 pavucontrol
 pciutils
-pcloud-drive
 pcmanfm
 pcre
 pcre2
@@ -1389,8 +1388,10 @@ python2-apsw
 python2-attrs
 python2-backports
 python2-backports.functools_lru_cache
+python2-bcrypt
 python2-beautifulsoup4
 python2-cairo
+python2-cffi
 python2-chardet
 python2-css-parser
 python2-cssselect
@@ -1399,6 +1400,7 @@ python2-dbus
 python2-dnspython
 python2-enum34
 python2-feedparser
+python2-gobject
 python2-gobject2
 python2-html2text
 python2-html5-parser
@@ -1415,8 +1417,10 @@ python2-olefile
 python2-ordered-set
 python2-packaging
 python2-pillow
+python2-ply
 python2-psutil
 python2-pychm
+python2-pycparser
 python2-pygments
 python2-pyparsing
 python2-pyqt5
@@ -1562,6 +1566,8 @@ sundials
 surfshark-vpn
 svt-hevc
 swi-prolog
+syncthing
+syncthing-gtk
 syntax-highlighting
 sysfsutils
 sysstat

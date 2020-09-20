@@ -22,7 +22,7 @@ ant 1.10.8-1
 apache 2.4.46-2
 arc-gtk-theme 20200819-1
 archiso 47.1-1
-ardour 6.3-1
+ardour 6.3-2
 aria2 1.35.0-2
 aspell 0.60.8-2
 aspell-en 2019.10.06-1
@@ -203,8 +203,8 @@ lib32-alsa-plugins 1.2.2-1
 lib32-gnutls 3.6.15-1
 lib32-libgudev 233-1
 lib32-libpulse 13.0-1
-lib32-mesa-vdpau 20.1.7-1
-lib32-vulkan-radeon 20.1.7-1
+lib32-mesa-vdpau 20.1.8-1
+lib32-vulkan-radeon 20.1.8-1
 libdvdread 6.1.1-1
 libexif 0.6.22-1
 libid3tag 0.15.1b-11
@@ -221,14 +221,14 @@ libreoffice-fresh-en-gb 7.0.1-1
 libretro-core-info 1.9.0-1
 libretro-overlays 172-1
 libtool 2.4.6+42+gb88cebd5-14
-libva-mesa-driver 20.1.7-1
+libva-mesa-driver 20.1.8-1
 libva-utils 2.9.0-1
 libva-vdpau-driver 0.7.4-4
 libvncserver 0.9.13-1
 libyaml 0.2.5-1
 licenses 20200427-1
-linux 5.8.9.arch2-1
-linux-headers 5.8.9.arch2-1
+linux 5.8.10.arch1-1
+linux-headers 5.8.10.arch1-1
 llvm 10.0.1-3
 lm_sensors 3.6.0-2
 logrotate 3.17.0-1
@@ -247,8 +247,8 @@ mcomix 1.3.0.dev0-3
 mdadm 4.1-2
 meld 3.20.2-1
 mercurial 5.5.1-1
-mesa 20.1.7-1
-mesa-vdpau 20.1.7-1
+mesa 20.1.8-1
+mesa-vdpau 20.1.8-1
 metacity 3.36.1-1
 meterbridge 0.9.3-3
 mill 0.8.0-1
@@ -295,7 +295,7 @@ octave 5.2.0-5
 odt2txt 0.5-4
 opencl-amd 20.30.1109583-1
 opencl-headers 2:2.2.20170516-3
-opencl-mesa 20.1.7-1
+opencl-mesa 20.1.8-1
 openjdk-doc 14.0.2.u12-1
 openjdk-src 14.0.2.u12-1
 openjdk11-doc 11.0.8.u10-1
@@ -315,7 +315,6 @@ partimage 0.6.9-13
 patch 2.7.6-8
 pavucontrol 1:4.0-2
 pciutils 3.7.0-1
-pcloud-drive 1.8.7-1
 pcmanfm 1.3.1-2
 perl 5.32.0-1
 phantomjs-bin 2.1.1-2
@@ -395,6 +394,8 @@ strace 5.8-1
 sudo 1.9.2-1
 surfshark-vpn 1.1.0-1
 swi-prolog 8.2.1-1
+syncthing 1.9.0-1
+syncthing-gtk 1:0.9.4.4-2
 sysfsutils 2.1.0-11
 sysstat 12.4.0-1
 systemd-sysvcompat 246.5-1
@@ -461,7 +462,7 @@ vim-systemd 20170410-1
 vimpager 2.06-5
 visualvm 1.4.4-1
 vlc 3.0.11.1-2
-vulkan-radeon 20.1.7-1
+vulkan-radeon 20.1.8-1
 wget 1.20.3-3
 which 2.21-5
 wine 5.17-1
