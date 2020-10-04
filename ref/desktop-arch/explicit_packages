@@ -50,7 +50,6 @@ brotli
 bzip2
 cadence
 calf
-calibre
 chromedriver
 cifs-utils
 clinfo
@@ -132,7 +131,6 @@ gnome-themes-extras
 gnu-free-fonts
 gnuplot
 google-chrome
-google-musicmanager
 gource
 gpart
 gparted
@@ -141,7 +139,6 @@ grep
 gst-plugins-good
 gtk
 gtk-engines
-gtk-xfce-engine
 gtk2
 gtk3
 gtkglext
@@ -268,7 +265,6 @@ mypaint
 mythes-en
 nano
 nautilus
-nautilus-open-terminal
 nautilus-sendto
 ncdu
 net-tools
@@ -304,7 +300,6 @@ openjdk8-doc
 openjdk8-src
 openshot
 openssh
-otf-fira-code
 otf-ipafont
 oxygen-icons
 p7zip
@@ -424,7 +419,6 @@ traceroute
 transmission-cli
 tree
 trid
-ttf-adobe-fonts
 ttf-anonymous-pro
 ttf-arphic-uming
 ttf-bitstream-vera
