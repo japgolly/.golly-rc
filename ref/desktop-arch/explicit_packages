@@ -10,6 +10,7 @@ adobe-source-han-serif-cn-fonts
 adobe-source-han-serif-jp-fonts
 adobe-source-han-serif-kr-fonts
 adobe-source-han-serif-tw-fonts
+ali
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -81,7 +82,6 @@ docker
 docker-compose
 dos2unix
 downgrade
-dropbox
 dwdiff
 e2fsprogs
 eclipse-mat

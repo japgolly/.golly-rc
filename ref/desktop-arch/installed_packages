@@ -16,6 +16,8 @@ adobe-source-han-serif-jp-fonts
 adobe-source-han-serif-kr-fonts
 adobe-source-han-serif-tw-fonts
 adwaita-icon-theme
+ali
+alsa-card-profiles
 alsa-lib
 alsa-oss
 alsa-plugins
@@ -171,7 +173,6 @@ dos2unix
 dosfstools
 double-conversion
 downgrade
-dropbox
 dvgrab
 dwdiff
 e2fsprogs
@@ -701,6 +702,7 @@ libcdio-paranoia
 libcdr
 libcerf
 libclc
+libcloudproviders
 libcmis
 libconfig
 libcroco
@@ -774,6 +776,7 @@ libgusb
 libgweather
 libgxps
 libhandy
+libhandy0
 libheif
 libibus
 libical
@@ -1023,6 +1026,7 @@ lua52-lpeg
 lua52-luajson
 lua52-socket
 luajit
+luit
 lutris
 lvm2
 lxmenu-data
@@ -1271,7 +1275,6 @@ pulseaudio-jack
 pup-bin
 pv
 pwgen
-pygobject-devel
 pygtk
 python
 python-anytree
@@ -1561,6 +1564,8 @@ totem-pl-parser
 traceroute
 tracker
 tracker-miners
+tracker3
+tracker3-miners
 transmission-cli
 tree
 tree-sitter
@@ -1702,7 +1707,6 @@ xorg-fonts-alias-misc
 xorg-fonts-encodings
 xorg-fonts-misc
 xorg-iceauth
-xorg-luit
 xorg-mkfontscale
 xorg-server
 xorg-server-common
