@@ -128,6 +128,7 @@ confuse
 conmon
 containerd
 coreutils
+couchdb
 coursier
 cpulimit
 cpupower
@@ -181,8 +182,8 @@ ed
 editorconfig-core-c
 efibootmgr
 efivar
-electron
 electron2
+electron9
 elfutils
 emacs
 emerald
@@ -424,6 +425,7 @@ jre11-openjdk
 jre11-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
+js68
 js78
 json-c
 json-glib
@@ -879,6 +881,7 @@ libpsl
 libpulse
 libpurple
 libpwquality
+libqaccessibilityclient
 libqalculate
 libquicktime
 libquvi
@@ -1230,6 +1233,7 @@ pidgin-libnotify
 pidgin-toobars
 pigz
 pinentry
+pipewire
 pixman
 pkcs11-helper
 pkgconf
