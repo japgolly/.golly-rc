@@ -2,11 +2,12 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=xfce4-notifyd
+Name=/usr/lib/xfce4/notifyd/xfce4-notifyd
 Comment=
-Exec=systemctl --user start xfce4-notifyd.service
+Exec=/usr/lib/xfce4/notifyd/xfce4-notifyd
 OnlyShowIn=XFCE;
+RunHook=0
 StartupNotify=false
 Terminal=false
-Hidden=true
+Hidden=false
 
