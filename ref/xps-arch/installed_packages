@@ -6,6 +6,7 @@ acl
 acpi
 adobe-source-code-pro-fonts
 adwaita-icon-theme
+alsa-card-profiles
 alsa-lib
 alsa-plugins
 alsa-topology-conf
@@ -135,11 +136,12 @@ double-conversion
 downgrade
 dwdiff
 e2fsprogs
+edk2-ovmf
 efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
-electron
+electron9
 elfutils
 emacs
 emerald
@@ -193,8 +195,6 @@ gc
 gcab
 gcc
 gcc-libs
-gcc9
-gcc9-libs
 gcr
 gd
 gdbm
@@ -296,6 +296,7 @@ gsound
 gspell
 gssdp
 gssproxy
+gst-editing-services
 gst-libav
 gst-plugin-gtk
 gst-plugins-bad
@@ -384,7 +385,7 @@ jre11-openjdk
 jre11-openjdk-headless
 jre8-openjdk
 jre8-openjdk-headless
-js68
+js78
 json-c
 json-glib
 jsoncpp
@@ -440,7 +441,9 @@ lib32-alsa-lib
 lib32-alsa-plugins
 lib32-attr
 lib32-bzip2
+lib32-curl
 lib32-dbus
+lib32-e2fsprogs
 lib32-expat
 lib32-faudio
 lib32-fontconfig
@@ -452,6 +455,8 @@ lib32-glibc
 lib32-glu
 lib32-harfbuzz
 lib32-icu
+lib32-keyutils
+lib32-krb5
 lib32-lcms2
 lib32-libcap
 lib32-libdrm
@@ -461,16 +466,20 @@ lib32-libgcrypt
 lib32-libglvnd
 lib32-libgpg-error
 lib32-libice
+lib32-libidn2
 lib32-libjpeg-turbo
+lib32-libldap
 lib32-libnl
 lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
+lib32-libpsl
 lib32-libsm
+lib32-libssh2
 lib32-libtasn1
 lib32-libtiff
+lib32-libunistring
 lib32-libunwind
-lib32-libusb
 lib32-libx11
 lib32-libxau
 lib32-libxcb
@@ -495,6 +504,7 @@ lib32-ncurses
 lib32-nspr
 lib32-nss
 lib32-nvidia-utils
+lib32-openssl
 lib32-p11-kit
 lib32-pcre
 lib32-readline
@@ -535,6 +545,7 @@ libcdio
 libcdio-paranoia
 libcdr
 libchamplain
+libcloudproviders
 libcmis
 libcroco
 libcue
@@ -592,6 +603,7 @@ libgusb
 libgweather
 libgxps
 libhandy
+libhandy0
 libheif
 libibus
 libical
@@ -674,6 +686,7 @@ libpipeline
 libplacebo
 libplist
 libpng
+libportal
 libproxy
 libpsl
 libpulse
@@ -813,6 +826,7 @@ lua52-lpeg
 lua52-luajson
 lua52-socket
 luajit
+luit
 lvm2
 lz4
 lzo
@@ -853,6 +867,7 @@ mtdev
 mtools
 mujs
 mutter
+mutter6
 mypaint-brushes1
 nano
 nautilus
@@ -875,6 +890,7 @@ nmap
 nmon
 node-gyp
 nodejs
+noto-fonts-emoji
 npm
 npth
 nspr
@@ -1002,7 +1018,6 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
-pygobject-devel
 pygtk
 python
 python-appdirs
@@ -1213,6 +1228,8 @@ totem-pl-parser
 traceroute
 tracker
 tracker-miners
+tracker3
+tracker3-miners
 transmission-cli
 tree
 tslib
@@ -1346,7 +1363,6 @@ xorg-fonts-alias-100dpi
 xorg-fonts-alias-75dpi
 xorg-fonts-encodings
 xorg-iceauth
-xorg-luit
 xorg-mkfontscale
 xorg-server
 xorg-server-common
