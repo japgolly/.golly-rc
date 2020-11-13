@@ -162,6 +162,7 @@ diff-so-fancy
 diffutils
 ding-libs
 djvulibre
+dkms
 dmenu
 dmidecode
 dmraid
@@ -183,6 +184,7 @@ editorconfig-core-c
 efibootmgr
 efivar
 electron2
+electron6
 electron9
 elfutils
 emacs
@@ -417,6 +419,7 @@ jdk11-openjdk
 jdk8-openjdk
 jemalloc
 jfsutils
+jitterentropy
 jprofiler
 jq
 jre-openjdk
@@ -863,6 +866,7 @@ libopenshot-audio
 liborcus
 libosinfo
 libotf
+libp11
 libp11-kit
 libpagemaker
 libpaper
@@ -1149,6 +1153,7 @@ openjdk8-src
 openjpeg2
 openmpi
 openresolv
+opensc
 openshot
 openssh
 openssl
@@ -1440,10 +1445,12 @@ retroarch-assets-xmb
 rhash
 ripgrep
 rlwrap
+rng-tools
 rpcbind
 rrdtool
 rsync
 rtkit
+rtl-sdr
 rtmpdump
 rubberband
 run-parts
@@ -1750,6 +1757,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xorgproto
+xpadneo-dkms-git
 xterm
 xvidcore
 xxhash

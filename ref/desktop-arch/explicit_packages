@@ -299,6 +299,7 @@ openjdk11-doc
 openjdk11-src
 openjdk8-doc
 openjdk8-src
+opensc
 openshot
 openssh
 otf-ipafont
@@ -357,6 +358,7 @@ renameutils
 retroarch
 retroarch-assets-xmb
 rlwrap
+rng-tools
 rrdtool
 rsync
 rustup
@@ -529,6 +531,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xpadneo-dkms-git
 xterm
 yaourt
 yay

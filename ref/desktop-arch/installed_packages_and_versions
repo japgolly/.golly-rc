@@ -77,7 +77,7 @@ bind 9.16.7-1
 binutils 2.35.1-1
 bison 3.7.2-1
 blas 3.9.0-3
-bloop 1.4.4-1
+bloop 1.4.5-1
 bloop-systemd 1.0.0-2
 blueman 2.1.3-1
 bluez 5.55-1
@@ -129,7 +129,7 @@ conmon 1:2.0.21-1
 containerd 1.4.1-1
 coreutils 8.32-1
 couchdb 3.1.1-1
-coursier 2.0.2-1
+coursier 2.0.6-1
 cpulimit 1:0.2-2
 cpupower 5.7-1
 cracklib 2.9.7-2
@@ -162,6 +162,7 @@ diff-so-fancy 1.3.0-1
 diffutils 3.7-3
 ding-libs 0.6.1-3
 djvulibre 3.5.27-6
+dkms 2.8.3-1
 dmenu 5.0-1
 dmidecode 3.3-1
 dmraid 1.0.0.rc16.3-12
@@ -173,7 +174,7 @@ docker-compose 1.27.4-1
 dos2unix 7.4.2-1
 dosfstools 4.1-3
 double-conversion 3.1.5-2
-downgrade 8.1.1-1
+downgrade 9.0.0-1
 dvgrab 3.5-9
 dwdiff 2.1.3-1
 e2fsprogs 1.45.6-3
@@ -183,6 +184,7 @@ editorconfig-core-c 0.12.4-1
 efibootmgr 17-2
 efivar 37-4
 electron2 2.0.18-4
+electron6 6.1.12-1
 electron9 9.3.2-1
 elfutils 0.181-1
 emacs 27.1-3
@@ -234,7 +236,7 @@ fuse-overlayfs 1.2.0-1
 fuse2 2.9.9-4
 fuse3 3.10.0-1
 fwbuilder 5.3.7-6
-fzf 0.23.1-1
+fzf 0.24.3-1
 gamin 0.1.10-9
 garcon 0.6.4-2
 gawk 5.1.0-1
@@ -263,10 +265,10 @@ ghc-libs 8.10.2-1
 ghostscript 9.53.3-2
 giflib 5.2.1-2
 gimp 2.10.22-1
-git 2.28.0-1
+git 2.29.2-1
 git-cola 3.7-1
 git-crypt 0.6.0-4
-git-delta-bin 0.4.3-1
+git-delta-bin 0.4.4-1
 gitg 1:3.32.1+17+gb4c8155f-1
 gl2ps 1.4.2-2
 glew 2.2.0-2
@@ -303,7 +305,7 @@ go 2:1.15.3-1
 go-bindata 3.5.2-2
 gobject-introspection 1.66.1-1
 gobject-introspection-runtime 1.66.1-1
-google-chrome 86.0.4240.75-1
+google-chrome 86.0.4240.193-1
 gource 0.51-3
 gpart 0.3-4
 gparted 1.1.0-1
@@ -315,7 +317,7 @@ graphene 1.10.2-1
 graphicsmagick 1.3.35-2
 graphite 1:1.3.14-1
 graphviz 2.44.1-4
-grep 3.4-1
+grep 3.6-1
 groff 1.22.4-3
 grub 2:2.04-8
 gsettings-desktop-schemas 3.38.0-1
@@ -417,6 +419,7 @@ jdk11-openjdk 11.0.8.u10-1
 jdk8-openjdk 8.u265-1
 jemalloc 1:5.2.1-3
 jfsutils 1.1.15-7
+jitterentropy 2.2.0-2
 jprofiler 11.1.4-1
 jq 1.6-4
 jre-openjdk 14.0.2.u12-1
@@ -510,14 +513,14 @@ ladspa 1.15-2
 lame 3.100-3
 lapack 3.9.0-3
 lazydocker 0.9-2
-lazygit 0.22.8-1
+lazygit 0.23.7-1
 lcms 1.19-7
 lcms2 2.11-2
 ldb 1:2.2.0-1
 ldns 1.7.1-2
 leafpad 0.8.18.1-9
 lensfun 0.3.95-2
-less 551-3
+less 563-1
 lib32-acl 2.2.53-1
 lib32-alsa-lib 1.2.3.2-1
 lib32-alsa-plugins 1.2.2-1
@@ -863,6 +866,7 @@ libopenshot-audio 0.2.0-1
 liborcus 0.15.4-1
 libosinfo 1.8.0-1
 libotf 0.9.16-3
+libp11 0.4.11-1
 libp11-kit 0.23.21-1
 libpagemaker 0.0.4-2
 libpaper 1.1.28-1
@@ -1071,8 +1075,8 @@ mkinitcpio 28-1
 mkinitcpio-busybox 1.31.1-2
 mlt 6.22.1-4
 mobile-broadband-provider-info 20190618-2
-monero 0.17.1.0-1
-monero-gui 0.17.1.0-1
+monero 0.17.1.1-1
+monero-gui 0.17.1.1-1
 mono 6.10.0.104-1
 mozilla-common 1.4-6
 mpfr 4.1.0-1
@@ -1149,6 +1153,7 @@ openjdk8-src 8.u265-1
 openjpeg2 2.3.1-2
 openmpi 4.0.5-2
 openresolv 3.11.0-1
+opensc 0.20.0-3
 openshot 2.5.1-1
 openssh 8.4p1-1
 openssl 1.1.1.h-1
@@ -1440,10 +1445,12 @@ retroarch-assets-xmb 1:341-1
 rhash 1.4.0-1
 ripgrep 12.1.1-1
 rlwrap 0.43-4
+rng-tools 6.10-1
 rpcbind 1.2.5-3
 rrdtool 1.7.2-5
 rsync 3.2.3-1
 rtkit 0.13-1
+rtl-sdr 1:0.6.0-2
 rtmpdump 1:2.4.r96.fa8646d-6
 rubberband 1.9-1
 run-parts 4.8.6.1-2
@@ -1451,7 +1458,7 @@ runc 1.0.0rc92-1
 rustup 1.22.1-1
 s-nail 14.9.19-2
 sbc 1.4-2
-sbt 1:1.4.0-1
+sbt 1:1.4.1-1
 schroedinger 1.0.11-6
 scons 3.1.2-2
 screen 4.8.0-2
@@ -1505,7 +1512,7 @@ speedcrunch 0.12.0-3
 speex 1.2.0-3
 speexdsp 1.2.0-2
 spirv-tools 2020.4-1
-sqlectron-gui 1.30.0-3
+sqlectron-gui 1.32.0-2
 sqlite 3.33.0-2
 squashfs-tools 4.4-2
 sratom 0.6.6-1
@@ -1545,7 +1552,7 @@ tdb 1.4.3-2
 telepathy-glib 0.24.1-4
 tepl 5.0.0-1
 terminus-font-ttf 4.47.0-1
-terraform 0.13.4-1
+terraform 0.13.5-1
 testssl.sh 3.0.2-1
 tevent 1:0.10.2-1
 texinfo 6.7-3
@@ -1563,7 +1570,7 @@ tla-tools 1.7.0-1
 tldr 1.0.0-2
 tlp 1.3.1-2
 tmux 3.1_b-1
-tor-browser 10.0.1-1
+tor-browser 10.0.4-1
 totem-pl-parser 3.26.5-1
 traceroute 2.1.0-5
 tracker 2.3.6-1
@@ -1631,7 +1638,7 @@ vte 0.28.2-8
 vte-common 0.62.1-1
 vte3 0.62.1-1
 vulkan-icd-loader 1.2.153-2
-vulkan-radeon 20.2.0-2
+vulkan-radeon 20.2.1-1
 wavpack 5.3.0-1
 wayland 1.18.0-2
 wayland-protocols 1.20-1
@@ -1641,7 +1648,7 @@ webrtc-audio-processing 0.3.1-2
 wget 1.20.3-3
 which 2.21-5
 wildmidi 0.4.3-3
-wine 5.19-1
+wine 5.20-1
 winetricks 20200412-1
 wireless-regdb 2020.04.29-1
 wireless_tools 30.pre9-3
@@ -1654,7 +1661,7 @@ wxgtk2 3.0.5.1-1
 wxgtk3 3.0.5.1-1
 x264 3:0.160.r3011.cde9a93-1
 x265 3.4-1
-x86_energy_perf_policy 5.7-1
+x86_energy_perf_policy 5.9-1
 xbitmaps 1.1.2-2
 xcb-proto 1.14.1-1
 xcb-util 0.4.0-3
@@ -1750,6 +1757,7 @@ xorg-xwd 1.0.7-2
 xorg-xwininfo 1.1.5-2
 xorg-xwud 1.0.5-2
 xorgproto 2020.1-1
+xpadneo-dkms-git 0.8.r29.gd55e6d4-1
 xterm 361-1
 xvidcore 1.3.7-2
 xxhash 0.8.0-1
@@ -1757,7 +1765,7 @@ xz 5.2.5-1
 yajl 2.1.0-4
 yaourt 1.9-1
 yasm 1.3.0-4
-yay 10.0.4-1
+yay 10.1.0-1
 yelp-tools 3.38.0-1
 yelp-xsl 3.38.1-1
 youtube-dl 2020.09.20-1
