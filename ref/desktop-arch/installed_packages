@@ -351,7 +351,6 @@ gtkspell3
 gts
 guake
 guile
-guile2.0
 gupnp
 gupnp-dlna
 gupnp-igd
@@ -781,7 +780,6 @@ libgusb
 libgweather
 libgxps
 libhandy
-libhandy0
 libheif
 libibus
 libical
@@ -995,6 +993,7 @@ libxml2
 libxmu
 libxnvctrl
 libxpm
+libxpresent
 libxrandr
 libxrender
 libxres
@@ -1032,6 +1031,7 @@ lua52-expat
 lua52-lpeg
 lua52-luajson
 lua52-socket
+lua53
 luajit
 luit
 lutris
@@ -1288,6 +1288,7 @@ pygtk
 python
 python-anytree
 python-appdirs
+python-argcomplete
 python-asn1crypto
 python-attrs
 python-babel
@@ -1352,9 +1353,11 @@ python-pyparsing
 python-pyqt5
 python-pyqt5-sip
 python-pyrsistent
+python-pysocks
 python-pytz
 python-pyzmq
 python-requests
+python-requests-toolbelt
 python-resolvelib
 python-retrying
 python-rsa
