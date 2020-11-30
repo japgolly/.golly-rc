@@ -383,6 +383,7 @@ socat
 soundfont-fluid
 soundtouch
 speedcrunch
+spotify
 sqlectron-gui
 ssh-audit
 startup-notification
@@ -531,7 +532,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-xpadneo-dkms-git
+xpadneo-dkms
 xterm
 yaourt
 yay

@@ -7,7 +7,7 @@
 # | +----------- hour (0 - 23)
 # +------------- min (0 - 59)
 
- 0 7  * * * $HOME/restart_shift
+ 0 6  * * * $HOME/restart_shift
  0 2  * * 6 find $HOME/Downloads -maxdepth 1 -type f -mtime +7 -name '*.torrent' -exec rm {} +
  0 5  * * * cd $HOME/backups && desktop/daily.sh >log/daily.out 2>log/daily.err
  0 1  1 * * $HOME/backups/desktop/full_backup_home.sh

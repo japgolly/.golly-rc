@@ -127,6 +127,7 @@ compiz
 confuse
 conmon
 containerd
+containers-common
 coreutils
 couchdb
 coursier
@@ -653,6 +654,7 @@ lib32-openal
 lib32-openssl
 lib32-openssl-1.0
 lib32-p11-kit
+lib32-pam
 lib32-pango
 lib32-pangox-compat
 lib32-pcre
@@ -1349,6 +1351,7 @@ python-pyasn1
 python-pycparser
 python-pygments
 python-pynacl
+python-pyopenssl
 python-pyparsing
 python-pyqt5
 python-pyqt5-sip
@@ -1490,7 +1493,6 @@ sharutils
 shift
 siege
 sip
-skopeo
 slang
 slirp4netns
 sloccount
@@ -1515,6 +1517,7 @@ speedcrunch
 speex
 speexdsp
 spirv-tools
+spotify
 sqlectron-gui
 sqlite
 squashfs-tools
@@ -1760,7 +1763,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xorgproto
-xpadneo-dkms-git
+xpadneo-dkms
 xterm
 xvidcore
 xxhash
