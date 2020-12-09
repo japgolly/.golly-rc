@@ -1,4 +1,4 @@
-enablePlugins(net.virtualvoid.sbt.graph.DependencyGraphPlugin)
+//enablePlugins(net.virtualvoid.sbt.graph.DependencyGraphPlugin)
 
 //import com.timushev.sbt.updates.UpdatesPlugin.autoImport._
 //def regexFilter(r: String) = new PatternFilter(r.r.pattern)
@@ -40,10 +40,12 @@ addCommandAlias("slowest" , "testOnly * -- --report-slowest")
 
 //logLevel in Global in update := Level.Warn
 
-update / evictionWarningOptions := EvictionWarningOptions.default.withWarnEvictionSummary(false).withWarnScalaVersionEviction(false)
-
 import scala.concurrent.duration._
 ThisBuild / watchAntiEntropy := 500.millis
 ThisBuild / watchDeletionQuarantinePeriod := 500.milliseconds
 ThisBuild / watchBeforeCommand := Watch.clearScreen
+
+Global / evictionWarningOptions := EvictionWarningOptions.empty
+// Global / excludeLintKeys += mainClass
+// ThisBuild / usePipelining := true
 
