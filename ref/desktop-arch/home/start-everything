@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+cd $HOME
+
+function start {
+  echo "$1..."
+  nohup "$@" </dev/null >/dev/null 2>&1 &
+}
+
+start guake
+start Shift
+start spotify
+start google-chrome-stable
+

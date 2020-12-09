@@ -204,6 +204,7 @@ exiv2
 exo
 expac
 expat
+expect
 faac
 faad2
 fakeroot
@@ -1552,6 +1553,7 @@ talloc
 tar
 tarsnap
 tbb
+tcl
 tcpdump
 tcsh
 tdb
