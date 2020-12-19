@@ -812,6 +812,7 @@ libksba
 libkscreen
 libksysguard
 liblangtag
+libldac
 libldap
 liblo
 liblouis
@@ -862,6 +863,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libopenaptx
 libopenshot
 libopenshot-audio
 liborcus
@@ -1575,6 +1577,7 @@ tig
 tinyxml2
 tla-toolbox
 tla-tools
+tla2json
 tldr
 tlp
 tmux
