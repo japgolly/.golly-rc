@@ -47,7 +47,7 @@
 /etc/modprobe.d/
 /etc/modules-load.d/
 /etc/ntp.conf
-/etc/php/php.ini
+/etc/pacman.d/hooks
 /etc/postfix/main.cf
 /etc/profile.d/disable_beep.sh
 /etc/rc.conf

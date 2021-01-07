@@ -10,6 +10,8 @@ adobe-source-han-serif-cn-fonts
 adobe-source-han-serif-jp-fonts
 adobe-source-han-serif-kr-fonts
 adobe-source-han-serif-tw-fonts
+agda
+agda-stdlib
 ali
 alsa-lib
 alsa-oss
@@ -85,7 +87,6 @@ dos2unix
 downgrade
 dwdiff
 e2fsprogs
-eclipse-mat
 ed
 emacs
 emerald-themes
@@ -170,7 +171,6 @@ inetutils
 inkscape
 inotify-tools
 intel-ucode
-inxi
 iotop
 iperf
 iproute2
@@ -269,6 +269,7 @@ nano
 nautilus
 nautilus-sendto
 ncdu
+neofetch
 net-tools
 netctl
 nethogs
