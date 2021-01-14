@@ -134,6 +134,7 @@ dosfstools
 dotconf
 double-conversion
 downgrade
+dtc
 dwdiff
 e2fsprogs
 edk2-ovmf
@@ -299,6 +300,7 @@ gssproxy
 gst-editing-services
 gst-libav
 gst-plugin-gtk
+gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-bad-libs
 gst-plugins-base
@@ -470,6 +472,7 @@ lib32-libidn2
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libnl
+lib32-libnsl
 lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
@@ -478,6 +481,7 @@ lib32-libsm
 lib32-libssh2
 lib32-libtasn1
 lib32-libtiff
+lib32-libtirpc
 lib32-libunistring
 lib32-libunwind
 lib32-libx11
@@ -506,6 +510,7 @@ lib32-nss
 lib32-nvidia-utils
 lib32-openssl
 lib32-p11-kit
+lib32-pam
 lib32-pcre
 lib32-readline
 lib32-sdl2
@@ -624,6 +629,7 @@ libjpeg-turbo
 libkate
 libksba
 liblangtag
+libldac
 libldap
 liblouis
 liblqr
@@ -670,6 +676,7 @@ libodfgen
 libofa
 libogg
 libomxil-bellagio
+libopenaptx
 liborcus
 libosinfo
 libotf
@@ -825,6 +832,7 @@ lua52-expat
 lua52-lpeg
 lua52-luajson
 lua52-socket
+lua53
 luajit
 luit
 lvm2
@@ -1021,6 +1029,7 @@ pulseaudio-bluetooth
 pygtk
 python
 python-appdirs
+python-argcomplete
 python-asn1crypto
 python-atspi
 python-attrs
@@ -1370,7 +1379,6 @@ xorg-server-devel
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
-xorg-server-xwayland
 xorg-sessreg
 xorg-setxkbmap
 xorg-smproxy
@@ -1402,6 +1410,7 @@ xorg-xrefresh
 xorg-xset
 xorg-xsetroot
 xorg-xvinfo
+xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
