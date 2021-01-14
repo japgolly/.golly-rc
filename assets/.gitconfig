@@ -81,3 +81,5 @@
 [diff]
   renameLimit = 32000
   wordRegex = [A-Za-z0-9_]+
+[init]
+	defaultBranch = master

@@ -38,6 +38,9 @@ addCommandAlias("sf" , "scalafixAll")
 addCommandAlias("SLOWEST" , "root/testOnly * -- --report-slowest")
 addCommandAlias("slowest" , "testOnly * -- --report-slowest")
 
+// See https://github.com/rtimush/sbt-updates#usage-as-project-plugin
+addCommandAlias("deps", ";dependencyUpdates; reload plugins; dependencyUpdates; reload return")
+
 //logLevel in Global in update := Level.Warn
 
 import scala.concurrent.duration._
