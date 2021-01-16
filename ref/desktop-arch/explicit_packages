@@ -258,6 +258,7 @@ mono
 mpg123
 mplayer
 mpv
+msr-tools
 mtpfs
 mtr
 multitail
@@ -363,6 +364,7 @@ rlwrap
 rng-tools
 rrdtool
 rsync
+ruby
 rustup
 s-nail
 sbt
