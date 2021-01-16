@@ -80,6 +80,9 @@ link '.config/Code - OSS/User/keybindings.json'
 link '.config/Code - OSS/User/settings.json'
 link '.config/Code - OSS/User/snippets'
 
+mkdir -p ~/.config/kitty
+link .config/kitty/kitty.conf
+
 mkdir -p ~/.config/mpv
 link .config/mpv/input.conf
 
