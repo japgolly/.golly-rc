@@ -17,8 +17,18 @@
       <property name="&lt;Super&gt;p" type="empty"/>
       <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86WWW" type="empty"/>
+      <property name="HomePage" type="empty"/>
       <property name="XF86Mail" type="empty"/>
       <property name="Print" type="empty"/>
+      <property name="&lt;Alt&gt;Print" type="empty"/>
+      <property name="&lt;Shift&gt;Print" type="empty"/>
+      <property name="&lt;Super&gt;e" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="empty"/>
+      <property name="&lt;Super&gt;r" type="empty">
+        <property name="startup-notify" type="empty"/>
+      </property>
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Control&gt;Escape" type="empty"/>
     </property>
@@ -37,12 +47,12 @@
       <property name="&lt;Super&gt;m" type="string" value="xfce4-mixer"/>
       <property name="&lt;Super&gt;e" type="string" value="pcmanfm"/>
       <property name="&lt;Super&gt;equal" type="string" value="/usr/bin/speedcrunch"/>
-      <property name="&lt;Super&gt;t" type="string" value="gnome-terminal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;backslash" type="string" value="systemctl --user start xfce4-notifyd.service"/>
       <property name="&lt;Alt&gt;Multi_key" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Super&gt;v" type="string" value="pavucontrol"/>
       <property name="&lt;Super&gt;f" type="string" value="firefox"/>
       <property name="&lt;Super&gt;q" type="string" value="/usr/local/bin/sqlectron"/>
+      <property name="&lt;Super&gt;t" type="string" value="kitty"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -99,6 +109,14 @@
       <property name="&lt;Primary&gt;F10" type="empty"/>
       <property name="&lt;Primary&gt;F11" type="empty"/>
       <property name="&lt;Primary&gt;F12" type="empty"/>
+      <property name="&lt;Super&gt;KP_Left" type="empty"/>
+      <property name="&lt;Super&gt;KP_Right" type="empty"/>
+      <property name="&lt;Super&gt;KP_Up" type="empty"/>
+      <property name="&lt;Super&gt;KP_Down" type="empty"/>
+      <property name="&lt;Super&gt;KP_Page_Up" type="empty"/>
+      <property name="&lt;Super&gt;KP_Home" type="empty"/>
+      <property name="&lt;Super&gt;KP_End" type="empty"/>
+      <property name="&lt;Super&gt;KP_Next" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Down" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Left" type="empty"/>
       <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="empty"/>

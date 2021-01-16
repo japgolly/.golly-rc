@@ -71,6 +71,7 @@ source "$HOME/.golly-rc/lib/distro.sh"
 case "$(distro)" in
   ArchLinux)
     alias ls='ls --color=auto'
+    alias prs='sudo pacman -Rs'
     alias p='sudo pacman -S --needed'
     alias y='yay -S --needed'
     alias yy='yay -S --needed --noconfirm'
