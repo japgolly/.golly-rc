@@ -70,6 +70,7 @@ crda
 cronie
 cryptsetup
 ctop-bin
+cuda
 cups
 cwdiff
 dconf-editor
@@ -93,6 +94,7 @@ emerald-themes
 encfs
 entr
 epdfview
+ethminer-cuda
 ethtool
 evince
 exo
@@ -203,6 +205,7 @@ lib32-gnutls
 lib32-libgudev
 lib32-libpulse
 lib32-mesa-vdpau
+lib32-nvidia-utils
 lib32-vulkan-radeon
 libdvdread
 libexif
@@ -289,6 +292,9 @@ noto-fonts-extra
 npm
 ntfs-3g
 ntp
+nvidia
+nvidia-settings
+nvidia-utils
 nvm
 nzbget
 octave
@@ -296,6 +302,7 @@ odt2txt
 opencl-amd
 opencl-headers
 opencl-mesa
+opencl-nvidia
 openjdk-doc
 openjdk-src
 openjdk11-doc
@@ -338,6 +345,7 @@ powertop
 ppp
 prettyping
 procps-ng
+protontricks
 psmisc
 pulseaudio
 pulseaudio-alsa
@@ -505,6 +513,7 @@ xfce4-terminal
 xfce4-wavelan-plugin
 xfdesktop
 xfsprogs
+xmrig-cuda
 xmrig-donateless
 xorg-bdftopcf
 xorg-fonts-100dpi
@@ -542,7 +551,6 @@ xterm
 yaourt
 yay
 youtube-dl
-zeal
 zeromq
 zip
 zopfli-git

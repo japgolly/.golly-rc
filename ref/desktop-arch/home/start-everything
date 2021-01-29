@@ -13,4 +13,5 @@ start guake
 start Shift
 start spotify
 start google-chrome-stable
+exit 0
 
