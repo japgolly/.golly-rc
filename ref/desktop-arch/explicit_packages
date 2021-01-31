@@ -1,4 +1,5 @@
 Sqlectron
+VerthashMiner-bin
 ack
 acpid
 adapta-gtk-theme
@@ -47,6 +48,7 @@ bloop-systemd
 blueman
 bluez-utils
 boinc
+bpytop
 breeze-gtk
 brother-mfc-j5320dw
 brotli
@@ -84,17 +86,19 @@ dmenu
 dmidecode
 docker
 docker-compose
+dogecoin-qt
 dos2unix
 downgrade
 dwdiff
 e2fsprogs
 ed
+electrum-vtc
 emacs
 emerald-themes
 encfs
 entr
 epdfview
-ethminer-cuda
+ethminer-cuda-git
 ethtool
 evince
 exo
@@ -135,6 +139,7 @@ gnome-themes-extra
 gnome-themes-extras
 gnu-free-fonts
 gnuplot
+go-ethereum
 google-chrome
 gource
 gpart
@@ -206,7 +211,6 @@ lib32-libgudev
 lib32-libpulse
 lib32-mesa-vdpau
 lib32-nvidia-utils
-lib32-vulkan-radeon
 libdvdread
 libexif
 libid3tag
@@ -267,6 +271,7 @@ mtr
 multitail
 mupen64plus
 musescore
+mycrypto-bin
 mypaint
 mythes-en
 nano
@@ -299,7 +304,6 @@ nvm
 nzbget
 octave
 odt2txt
-opencl-amd
 opencl-headers
 opencl-mesa
 opencl-nvidia
@@ -347,6 +351,7 @@ prettyping
 procps-ng
 protontricks
 psmisc
+pth
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -358,7 +363,6 @@ python-pip
 python-pipenv
 qjackctl
 radare2
-radeontop
 realtime-privileges
 redis
 redshift
@@ -468,12 +472,14 @@ usbutils
 util-linux
 valgrind
 vdpauinfo
+vertcoin-bin
+vertcoin-qt-bin
+verthash-miner-bin
 vi
 vim-systemd
 vimpager
 visualvm
 vlc
-vulkan-radeon
 wget
 which
 wine
@@ -487,7 +493,6 @@ xdg-utils
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
-xf86-video-amdgpu
 xf86-video-ati
 xfce4-appfinder
 xfce4-cpufreq-plugin

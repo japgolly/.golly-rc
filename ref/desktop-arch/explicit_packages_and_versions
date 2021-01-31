@@ -1,4 +1,5 @@
 Sqlectron 1.30.0-627
+VerthashMiner-bin 0.6.1-1
 ack 3.4.0-1
 acpid 2.0.32-2
 adapta-gtk-theme 3.95.0.11-1
@@ -10,7 +11,7 @@ adobe-source-han-serif-cn-fonts 1.001-3
 adobe-source-han-serif-jp-fonts 1.001-3
 adobe-source-han-serif-kr-fonts 1.001-3
 adobe-source-han-serif-tw-fonts 1.001-3
-agda 2.6.1.2-46
+agda 2.6.1.2-47
 agda-stdlib 1.4-2
 ali 0.5.4-3
 alsa-lib 1.2.4-3
@@ -47,6 +48,7 @@ bloop-systemd 1.0.0-2
 blueman 2.1.4-1
 bluez-utils 5.55-1
 boinc 7.16.12-1
+bpytop 1.0.61-1
 breeze-gtk 5.20.5-1
 brother-mfc-j5320dw 3.0.1-3
 brotli 1.0.9-4
@@ -84,17 +86,19 @@ dmenu 5.0-1
 dmidecode 3.3-1
 docker 1:20.10.2-4
 docker-compose 1.28.2-1
+dogecoin-qt 1.14.2-2
 dos2unix 7.4.2-1
 downgrade 9.0.0-1
 dwdiff 2.1.3-2
 e2fsprogs 1.45.6-3
 ed 1.17-1
+electrum-vtc 3.3.1-5
 emacs 27.1-3
 emerald-themes 0.8.18-1
 encfs 1.9.5-2
 entr 4.6-1
 epdfview 0.1.8-11
-ethminer-cuda 0.19.0-3
+ethminer-cuda-git 2021.01.11-1
 ethtool 1:5.10-1
 evince 3.38.1-1
 exo 4.16.0-1
@@ -135,6 +139,7 @@ gnome-themes-extra 3.28-2
 gnome-themes-extras 2.22.0-3
 gnu-free-fonts 20120503-8
 gnuplot 5.4.1-1
+go-ethereum 1.9.25-1
 google-chrome 88.0.4324.96-1
 gource 0.51-5
 gpart 0.3-4
@@ -170,7 +175,7 @@ ifplugd 0.28-16
 iftop 1.0pre4-4
 imagemagick 7.0.10.60-1
 inetutils 1.9.4-8
-inkscape 1.0.1-4
+inkscape 1.0.2-1
 inotify-tools 3.20.11.0-1
 intel-ucode 20201118-1
 iotop 0.6-8
@@ -206,7 +211,6 @@ lib32-libgudev 234-1
 lib32-libpulse 14.2-2
 lib32-mesa-vdpau 20.3.3-1
 lib32-nvidia-utils 460.39-1
-lib32-vulkan-radeon 20.3.3-1
 libdvdread 6.1.1-1
 libexif 0.6.22-1
 libid3tag 0.15.1b-11
@@ -253,7 +257,7 @@ mesa 20.3.3-1
 mesa-vdpau 20.3.3-1
 metacity 3.38.0-1
 meterbridge 0.9.3-3
-mill 0.9.4-1
+mill 0.9.5-1
 mirage 1.0_pre2-4
 monero 0.17.1.9-1
 monero-gui 0.17.1.9-1
@@ -267,6 +271,7 @@ mtr 0.94-1
 multitail 6.5.0-1
 mupen64plus 2.5-18
 musescore 3.6-1
+mycrypto-bin 1.7.13-1
 mypaint 2.0.0-2
 mythes-en 20060306-5
 nano 5.5-1
@@ -299,7 +304,6 @@ nvm 0.37.2-1
 nzbget 21.0-2
 octave 6.1.0-1
 odt2txt 0.5-4
-opencl-amd 20.45.1164792-3
 opencl-headers 2:2020.12.18-1
 opencl-mesa 20.3.3-1
 opencl-nvidia 460.39-1
@@ -347,6 +351,7 @@ prettyping 1:1.0.1-3
 procps-ng 3.3.16-2
 protontricks 1.4.3-1
 psmisc 23.3-4
+pth 2.0.7-7
 pulseaudio 14.2-2
 pulseaudio-alsa 1:1.2.2-2
 pulseaudio-bluetooth 14.2-2
@@ -358,7 +363,6 @@ python-pip 20.3.1-1
 python-pipenv 2020.11.15-1
 qjackctl 0.9.0-4
 radare2 5.0.0-1
-radeontop 1.3-2
 realtime-privileges 2-2
 redis 6.0.10-1
 redshift 1.12-4
@@ -431,7 +435,7 @@ tla2json 1.0.0-1
 tldr 1.1.0-3
 tlp 1.3.1-2
 tmux 3.1_c-1
-tor-browser 10.0.8-1
+tor-browser 10.0.9-1
 traceroute 2.1.0-5
 transmission-cli 3.00-2
 tree 1.8.0-2
@@ -468,12 +472,14 @@ usbutils 013-1
 util-linux 2.36.1-4
 valgrind 3.16.1-2
 vdpauinfo 1.4-1
+vertcoin-bin 0.17.1-1
+vertcoin-qt-bin 0.17.1-1
+verthash-miner-bin 0.6.1-2
 vi 1:070224-4
 vim-systemd 20170410-1
 vimpager 2.06-5
 visualvm 1.4.4-1
 vlc 3.0.12-1
-vulkan-radeon 20.3.3-1
 wget 1.21.1-1
 which 2.21-5
 wine 6.0-1
@@ -487,7 +493,6 @@ xdg-utils 1.1.3+19+g9816ebb-1
 xf86-input-synaptics 1.9.1-2
 xf86-input-vmmouse 13.1.0-5
 xf86-input-void 1.4.1-5
-xf86-video-amdgpu 19.1.0-2
 xf86-video-ati 1:19.1.0-2
 xfce4-appfinder 4.16.1-1
 xfce4-cpufreq-plugin 1.2.3-1
@@ -549,7 +554,7 @@ xorg-xwud 1.0.5-2
 xpadneo-dkms 0.9-2
 xterm 363-1
 yaourt 1.9-1
-yay 10.1.2-1
+yay 10.1.2-2
 youtube-dl 2021.01.24.1-1
 zeromq 4.3.3-2
 zip 3.0-9

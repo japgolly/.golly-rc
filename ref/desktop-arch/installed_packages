@@ -1,4 +1,5 @@
 Sqlectron
+VerthashMiner-bin
 a2ps
 a52dec
 aalib
@@ -27,8 +28,6 @@ alsa-tools
 alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
-amdgpu-core-meta
-amdgpu-pro-core-meta
 amtk
 android-file-transfer
 android-tools
@@ -88,6 +87,7 @@ bluez-utils
 boinc
 boost
 boost-libs
+bpytop
 breeze
 breeze-gtk
 breeze-icons
@@ -175,6 +175,7 @@ docbook-xml
 docbook-xsl
 docker
 docker-compose
+dogecoin-qt
 dos2unix
 dosfstools
 double-conversion
@@ -191,6 +192,7 @@ eglexternalplatform
 electron2
 electron6
 electron9
+electrum-vtc
 elfutils
 emacs
 emerald
@@ -200,7 +202,7 @@ encfs
 enchant
 entr
 epdfview
-ethminer-cuda
+ethminer-cuda-git
 ethtool
 evince
 evolution-data-server
@@ -250,6 +252,7 @@ gawk
 gc
 gcc
 gcc-libs
+gconf
 gcr
 gd
 gdb
@@ -310,6 +313,7 @@ gnustep-make
 gnutls
 go
 go-bindata
+go-ethereum
 gobject-introspection
 gobject-introspection-runtime
 google-chrome
@@ -730,7 +734,6 @@ lib32-systemd
 lib32-tdb
 lib32-util-linux
 lib32-vulkan-icd-loader
-lib32-vulkan-radeon
 lib32-wayland
 lib32-xz
 lib32-zlib
@@ -876,7 +879,6 @@ liblqr
 liblrdf
 libltc
 libmad
-libmagick6
 libmatroska
 libmaxminddb
 libmfx
@@ -964,6 +966,7 @@ libsamplerate
 libsasl
 libsass
 libseccomp
+libsecp256k1
 libsecret
 libshout
 libsigc++
@@ -1153,6 +1156,7 @@ mujs
 multitail
 mupen64plus
 musescore
+mycrypto-bin
 mypaint
 mypaint-brushes
 mypaint-brushes1
@@ -1194,7 +1198,6 @@ nspr
 nss
 ntfs-3g
 ntp
-numactl
 nvidia
 nvidia-settings
 nvidia-utils
@@ -1205,7 +1208,6 @@ octave
 odt2txt
 oniguruma
 openal
-opencl-amd
 opencl-headers
 opencl-mesa
 opencl-nvidia
@@ -1379,15 +1381,18 @@ python-dbus
 python-dbus-common
 python-distlib
 python-distro
+python-dnspython
 python-docker
 python-docker-pycreds
 python-dockerpty
 python-docopt
 python-docutils
 python-dotenv
+python-ecdsa
 python-evdev
 python-filelock
 python-gobject
+python-hidapi
 python-html5lib
 python-httplib2
 python-idna
@@ -1395,8 +1400,10 @@ python-imagesize
 python-importlib-metadata
 python-jinja
 python-jmespath
+python-jsonrpclib-pelix
 python-jsonschema
 python-lxml
+python-lyra2re2_hash
 python-mako
 python-markdown
 python-markupsafe
@@ -1407,6 +1414,7 @@ python-olefile
 python-ordered-set
 python-packaging
 python-paramiko
+python-pbkdf2
 python-pbr
 python-pep517
 python-pillow
@@ -1414,8 +1422,12 @@ python-pip
 python-pipenv
 python-ply
 python-progress
+python-protobuf
+python-psutil
+python-pyaes
 python-pyasn1
 python-pycparser
+python-pycryptodomex
 python-pygments
 python-pynacl
 python-pyopenssl
@@ -1426,6 +1438,7 @@ python-pyrsistent
 python-pysocks
 python-pytz
 python-pyzmq
+python-qrcode
 python-requests
 python-requests-toolbelt
 python-resolvelib
@@ -1450,6 +1463,7 @@ python-urllib3
 python-vdf
 python-virtualenv
 python-virtualenv-clone
+python-vtc_scrypt
 python-webencodings
 python-websocket-client
 python-yaml
@@ -1498,7 +1512,6 @@ qt5-x11extras
 qt5-xmlpatterns
 quazip
 radare2
-radeontop
 raptor
 rasqal
 rav1e
@@ -1541,6 +1554,7 @@ schroedinger
 scons
 screen
 screenfetch
+scrypt
 sdl
 sdl2
 sdl2_gfx
@@ -1704,6 +1718,9 @@ v4l-utils
 valgrind
 vamp-plugin-sdk
 vdpauinfo
+vertcoin-bin
+vertcoin-qt-bin
+verthash-miner-bin
 vi
 vid.stab
 vim-runtime
@@ -1717,7 +1734,6 @@ vte
 vte-common
 vte3
 vulkan-icd-loader
-vulkan-radeon
 wavpack
 wayland
 wayland-protocols
@@ -1757,7 +1773,6 @@ xf86-input-libinput
 xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
-xf86-video-amdgpu
 xf86-video-ati
 xfce4-appfinder
 xfce4-cpufreq-plugin

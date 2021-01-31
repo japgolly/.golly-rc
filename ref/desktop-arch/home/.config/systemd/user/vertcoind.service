@@ -1,0 +1,16 @@
+[Unit]
+Description=Virtcoin Daemon
+After=network.target
+
+[Service]
+Type=simple
+PIDFile=/home/golly/.vertcoind/vertcoind.pid
+
+ExecStart=/usr/bin/vertcoind \
+  -datadir=/home/golly/.vertcoin
+
+Restart=always
+
+[Install]
+WantedBy=default.target
+
