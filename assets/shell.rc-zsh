@@ -55,33 +55,8 @@ export PROMPT="%{$fg[green]%}%n@%m: %{$fg[yellow]%}%~ \$(git_info)
 %{$reset_color%}> "
 #export RPS1="%B%{$fg[cyan]%}%*%b%{$reset_color%}"
 
-# Start new terminal tabs in the working directory
-#if [ -e /etc/profile.d/vte.sh ]; then
-#  source /etc/profile.d/vte.sh
-#  __vte_ps1
-#  chpwd() { __vte_ps1 }
-#fi
-
 # VTE
-__vte_golly () {
-  local pwd='~'
-  [ "$PWD" != "$HOME" ] && pwd=${PWD/#$HOME\//\~\/}
-  pwd="${pwd//[[:cntrl:]]}"
-  local host_prefix=''
-  if [ -n "$SSH_CLIENT" ]; then
-    host_prefix="$HOSTNAME"
-    if [ -z "$host_prefix" ]; then
-      if [ -e /etc/hostname ]; then
-        host_prefix="$(</etc/hostname)"
-      else
-        host_prefix="unknown_host"
-      fi
-    fi
-    [ "${USER}" != golly ] && host_prefix="$USER@$host_prefix"
-    host_prefix="[$host_prefix] "
-  fi
-  printf "\033]0;%s%s\a" "$host_prefix" "$pwd"
-}
+# __vte_golly is defined in sharedrc
 precmd_functions=(__vte_golly)
 
 bindkey '^A' beginning-of-line

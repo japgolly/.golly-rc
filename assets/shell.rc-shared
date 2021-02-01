@@ -397,15 +397,29 @@ export LOCALRC="$HOME/.localrc"
 alias localrc="vim "'"'"$LOCALRC"'"'" && echo Reloading... && . "'"'"$LOCALRC"'"'
 [ -f "$LOCALRC" ] && source "$LOCALRC"
 
-# Display directory & cmd in terminal title bar
-# %3~ = pwd.takeRight(3)
-# %m = machine, %~ = pwd
-case "$TERM" in
-  rxvt|*term|gnome*)
-    precmd () { print -Pn "\e]0;%3~\a" ;}
-    preexec() { print -Pn "\e]0;$1 [%1~]\a" ;}
-  ;;
-esac
+# VTE (terminal title)
+# This function is used from zshrc and bashrc
+__vte_golly () {
+  local pwd='~'
+  [ "$PWD" != "$HOME" ] && pwd=${PWD/#$HOME\//\~\/}
+  pwd="${pwd//[[:cntrl:]]}"
+  pwd="${pwd#'~/projects/'*}"
+  pwd="${pwd#'~/BeardedLogic/projects/'*}"
+  local host_prefix=''
+  if [ -n "$SSH_CLIENT" ]; then
+    host_prefix="$HOSTNAME"
+    if [ -z "$host_prefix" ]; then
+      if [ -e /etc/hostname ]; then
+        host_prefix="$(</etc/hostname)"
+      else
+        host_prefix="unknown_host"
+      fi
+    fi
+    [ "${USER}" != golly ] && host_prefix="$USER@$host_prefix"
+    host_prefix="[$host_prefix] "
+  fi
+  printf "\033]0;%s%s\a" "$host_prefix" "$pwd"
+}
 
 # NVM
 if [ -f /usr/share/nvm/init-nvm.sh ]; then

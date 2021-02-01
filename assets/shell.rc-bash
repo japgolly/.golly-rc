@@ -29,13 +29,12 @@ alias bashrc="vim ~/.golly-rc/assets/shell.rc-bash && echo Reloading... && . ~/.
 
 export PS1='\n\e[37m[BASH] \[\e[32m\]\u@\h: \[\e[33m\]\w\[\e[0m\]\n$ '
 
-# Start new terminal tabs in the working directory
-#[ -e /etc/profile.d/vte.sh ] \
-#  && source /etc/profile.d/vte.sh
-#  && export PS1='\[$(__vte_ps1)\]'"$PS1"
+# VTE
+# __vte_golly is defined in sharedrc
+PROMPT_COMMAND="__vte_golly"
 
 # Haskell Stack
-type stack >/dev/null 2>&1 && eval "$(stack --bash-completion-script "$(which stack)")"
+#type stack >/dev/null 2>&1 && eval "$(stack --bash-completion-script "$(which stack)")"
 
 [ -e $HOME/.bloop/bash/bloop ] && source $HOME/.bloop/bash/bloop
 
